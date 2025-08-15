@@ -1,0 +1,951 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 0,
+                        "x1": 9,
+                        "x2": 9,
+                        "x3": 0,
+                        "y0": 158,
+                        "y1": 158,
+                        "y2": 255,
+                        "y3": 255
+                    },
+                    "text": "Total number of infected"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 279,
+                        "x1": 376,
+                        "x2": 376,
+                        "x3": 279,
+                        "y0": 408,
+                        "y1": 408,
+                        "y2": 428,
+                        "y3": 428
+                    },
+                    "text": "Deployment delay (days)\n\nDD"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 146,
+                        "x1": 449,
+                        "x2": 449,
+                        "x3": 146,
+                        "y0": 0,
+                        "y1": 0,
+                        "y2": 12,
+                        "y3": 12
+                    },
+                    "text": "Impact of deployment delay (low transmissibility scenario)"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 11,
+                        "x1": 51,
+                        "x2": 51,
+                        "x3": 11,
+                        "y0": 20,
+                        "y1": 20,
+                        "y2": 30,
+                        "y3": 30
+                    },
+                    "text": "65,000.00"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 11,
+                        "x1": 51,
+                        "x2": 51,
+                        "x3": 11,
+                        "y0": 201,
+                        "y1": 201,
+                        "y2": 211,
+                        "y3": 211
+                    },
+                    "text": "55,000.00"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 11,
+                        "x1": 51,
+                        "x2": 51,
+                        "x3": 11,
+                        "y0": 383,
+                        "y1": 383,
+                        "y2": 393,
+                        "y3": 393
+                    },
+                    "text": "45,000.00"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 144,
+                        "x1": 151,
+                        "x2": 151,
+                        "x3": 144,
+                        "y0": 394,
+                        "y1": 394,
+                        "y2": 404,
+                        "y3": 404
+                    },
+                    "text": "3"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 324,
+                        "x1": 332,
+                        "x2": 332,
+                        "x3": 324,
+                        "y0": 394,
+                        "y1": 394,
+                        "y2": 404,
+                        "y3": 404
+                    },
+                    "text": "5"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 505,
+                        "x1": 512,
+                        "x2": 512,
+                        "x3": 505,
+                        "y0": 394,
+                        "y1": 394,
+                        "y2": 404,
+                        "y3": 404
+                    },
+                    "text": "7"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 9,
+                            "x2": 9,
+                            "x3": 0,
+                            "y0": 158,
+                            "y1": 158,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "Total number of infected"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 279,
+                            "x1": 376,
+                            "x2": 376,
+                            "x3": 279,
+                            "y0": 408,
+                            "y1": 408,
+                            "y2": 428,
+                            "y3": 428
+                        },
+                        "text": "Deployment delay (days)\n\nDD"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 146,
+                            "x1": 449,
+                            "x2": 449,
+                            "x3": 146,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 12,
+                            "y3": 12
+                        },
+                        "text": "Impact of deployment delay (low transmissibility scenario)"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 11,
+                            "x1": 51,
+                            "x2": 51,
+                            "x3": 11,
+                            "y0": 20,
+                            "y1": 20,
+                            "y2": 30,
+                            "y3": 30
+                        },
+                        "text": "65,000.00"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 11,
+                            "x1": 51,
+                            "x2": 51,
+                            "x3": 11,
+                            "y0": 201,
+                            "y1": 201,
+                            "y2": 211,
+                            "y3": 211
+                        },
+                        "text": "55,000.00"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 11,
+                            "x1": 51,
+                            "x2": 51,
+                            "x3": 11,
+                            "y0": 383,
+                            "y1": 383,
+                            "y2": 393,
+                            "y3": 393
+                        },
+                        "text": "45,000.00"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 144,
+                            "x1": 151,
+                            "x2": 151,
+                            "x3": 144,
+                            "y0": 394,
+                            "y1": 394,
+                            "y2": 404,
+                            "y3": 404
+                        },
+                        "text": "3"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 324,
+                            "x1": 332,
+                            "x2": 332,
+                            "x3": 324,
+                            "y0": 394,
+                            "y1": 394,
+                            "y2": 404,
+                            "y3": 404
+                        },
+                        "text": "5"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 505,
+                            "x1": 512,
+                            "x2": 512,
+                            "x3": 505,
+                            "y0": 394,
+                            "y1": 394,
+                            "y2": 404,
+                            "y3": 404
+                        },
+                        "text": "7"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 9,
+                            "x2": 9,
+                            "x3": 0,
+                            "y0": 158,
+                            "y1": 158,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "Total number of infected"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 279,
+                            "x1": 376,
+                            "x2": 376,
+                            "x3": 279,
+                            "y0": 408,
+                            "y1": 408,
+                            "y2": 428,
+                            "y3": 428
+                        },
+                        "text": "Deployment delay (days)\n\nDD"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 146,
+                            "x1": 449,
+                            "x2": 449,
+                            "x3": 146,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 12,
+                            "y3": 12
+                        },
+                        "text": "Impact of deployment delay (low transmissibility scenario)"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 11,
+                            "x1": 51,
+                            "x2": 51,
+                            "x3": 11,
+                            "y0": 20,
+                            "y1": 20,
+                            "y2": 30,
+                            "y3": 30
+                        },
+                        "text": "65,000.00"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 11,
+                            "x1": 51,
+                            "x2": 51,
+                            "x3": 11,
+                            "y0": 201,
+                            "y1": 201,
+                            "y2": 211,
+                            "y3": 211
+                        },
+                        "text": "55,000.00"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 11,
+                            "x1": 51,
+                            "x2": 51,
+                            "x3": 11,
+                            "y0": 383,
+                            "y1": 383,
+                            "y2": 393,
+                            "y3": 393
+                        },
+                        "text": "45,000.00"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 144,
+                            "x1": 151,
+                            "x2": 151,
+                            "x3": 144,
+                            "y0": 394,
+                            "y1": 394,
+                            "y2": 404,
+                            "y3": 404
+                        },
+                        "text": "3"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 324,
+                            "x1": 332,
+                            "x2": 332,
+                            "x3": 324,
+                            "y0": 394,
+                            "y1": 394,
+                            "y2": 404,
+                            "y3": 404
+                        },
+                        "text": "5"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 505,
+                            "x1": 512,
+                            "x2": 512,
+                            "x3": 505,
+                            "y0": 394,
+                            "y1": 394,
+                            "y2": 404,
+                            "y3": 404
+                        },
+                        "text": "7"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 364,
+                "width": 541,
+                "x0": 57,
+                "y0": 25
+            },
+            "axes": {
+                "_x-tick-type": "separators",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 148,
+                            "y": 389
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 328,
+                            "y": 389
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 508,
+                            "y": 389
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 57,
+                            "y": 25
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 57,
+                            "y": 207
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 57,
+                            "y": 389
+                        }
+                    }
+                ],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 9,
+                            "x2": 9,
+                            "x3": 0,
+                            "y0": 158,
+                            "y1": 158,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "Total number of infected"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 279,
+                            "x1": 376,
+                            "x2": 376,
+                            "x3": 279,
+                            "y0": 408,
+                            "y1": 408,
+                            "y2": 428,
+                            "y3": 428
+                        },
+                        "text": "Deployment delay (days)\n\nDD"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 146,
+                            "x1": 449,
+                            "x2": 449,
+                            "x3": 146,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 12,
+                            "y3": 12
+                        },
+                        "text": "Impact of deployment delay (low transmissibility scenario)"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 11,
+                            "x1": 51,
+                            "x2": 51,
+                            "x3": 11,
+                            "y0": 20,
+                            "y1": 20,
+                            "y2": 30,
+                            "y3": 30
+                        },
+                        "text": "65,000.00"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 11,
+                            "x1": 51,
+                            "x2": 51,
+                            "x3": 11,
+                            "y0": 201,
+                            "y1": 201,
+                            "y2": 211,
+                            "y3": 211
+                        },
+                        "text": "55,000.00"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 11,
+                            "x1": 51,
+                            "x2": 51,
+                            "x3": 11,
+                            "y0": 383,
+                            "y1": 383,
+                            "y2": 393,
+                            "y3": 393
+                        },
+                        "text": "45,000.00"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 144,
+                            "x1": 151,
+                            "x2": 151,
+                            "x3": 144,
+                            "y0": 394,
+                            "y1": 394,
+                            "y2": 404,
+                            "y3": 404
+                        },
+                        "text": "3"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 324,
+                            "x1": 332,
+                            "x2": 332,
+                            "x3": 324,
+                            "y0": 394,
+                            "y1": 394,
+                            "y2": 404,
+                            "y3": 404
+                        },
+                        "text": "5"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 505,
+                            "x1": 512,
+                            "x2": 512,
+                            "x3": 505,
+                            "y0": 394,
+                            "y1": 394,
+                            "y2": 404,
+                            "y3": 404
+                        },
+                        "text": "7"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 9,
+                            "x2": 9,
+                            "x3": 0,
+                            "y0": 158,
+                            "y1": 158,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "Total number of infected"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 279,
+                            "x1": 376,
+                            "x2": 376,
+                            "x3": 279,
+                            "y0": 408,
+                            "y1": 408,
+                            "y2": 428,
+                            "y3": 428
+                        },
+                        "text": "Deployment delay (days)\n\nDD"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 146,
+                            "x1": 449,
+                            "x2": 449,
+                            "x3": 146,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 12,
+                            "y3": 12
+                        },
+                        "text": "Impact of deployment delay (low transmissibility scenario)"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 11,
+                            "x1": 51,
+                            "x2": 51,
+                            "x3": 11,
+                            "y0": 20,
+                            "y1": 20,
+                            "y2": 30,
+                            "y3": 30
+                        },
+                        "text": "65,000.00"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 11,
+                            "x1": 51,
+                            "x2": 51,
+                            "x3": 11,
+                            "y0": 201,
+                            "y1": 201,
+                            "y2": 211,
+                            "y3": 211
+                        },
+                        "text": "55,000.00"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 11,
+                            "x1": 51,
+                            "x2": 51,
+                            "x3": 11,
+                            "y0": 383,
+                            "y1": 383,
+                            "y2": 393,
+                            "y3": 393
+                        },
+                        "text": "45,000.00"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 144,
+                            "x1": 151,
+                            "x2": 151,
+                            "x3": 144,
+                            "y0": 394,
+                            "y1": 394,
+                            "y2": 404,
+                            "y3": 404
+                        },
+                        "text": "3"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 324,
+                            "x1": 332,
+                            "x2": 332,
+                            "x3": 324,
+                            "y0": 394,
+                            "y1": 394,
+                            "y2": 404,
+                            "y3": 404
+                        },
+                        "text": "5"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 505,
+                            "x1": 512,
+                            "x2": 512,
+                            "x3": 505,
+                            "y0": 394,
+                            "y1": 394,
+                            "y2": 404,
+                            "y3": 404
+                        },
+                        "text": "7"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 364,
+                    "width": 541,
+                    "x0": 57,
+                    "y0": 25
+                },
+                "axes": {
+                    "_x-tick-type": "separators",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": "markers",
+                    "_y2-tick-type": null,
+                    "x-axis": [
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 148,
+                                "y": 389
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 328,
+                                "y": 389
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 508,
+                                "y": 389
+                            }
+                        }
+                    ],
+                    "x-axis-2": [],
+                    "y-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 57,
+                                "y": 25
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 57,
+                                "y": 207
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 57,
+                                "y": 389
+                            }
+                        }
+                    ],
+                    "y-axis-2": []
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": 2.9889196675900274,
+                            "y": 49405.94059405941
+                        },
+                        {
+                            "x": 4.999261311172669,
+                            "y": 59977.08104143748
+                        },
+                        {
+                            "x": 7.01108033240997,
+                            "y": 60159.51595159516
+                        }
+                    ],
+                    "name": "[unnamed data series #0]"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 146.49999999999997,
+                            "y": 308.49999999999994
+                        },
+                        {
+                            "x": 327.93333333333334,
+                            "y": 116.31666666666666
+                        },
+                        {
+                            "x": 509.49999999999983,
+                            "y": 113.0
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

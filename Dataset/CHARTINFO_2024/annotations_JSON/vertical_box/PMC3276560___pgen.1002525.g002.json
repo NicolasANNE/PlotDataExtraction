@@ -1,0 +1,823 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 1,
+                        "x1": 25,
+                        "x2": 25,
+                        "x3": 1,
+                        "y0": 113,
+                        "y1": 113,
+                        "y2": 264,
+                        "y3": 264
+                    },
+                    "text": "intrinsic growth"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 75,
+                        "x1": 113,
+                        "x2": 113,
+                        "x3": 75,
+                        "y0": 359,
+                        "y1": 359,
+                        "y2": 375,
+                        "y3": 375
+                    },
+                    "text": "ASW"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 179,
+                        "x1": 213,
+                        "x2": 213,
+                        "x3": 179,
+                        "y0": 359,
+                        "y1": 359,
+                        "y2": 375,
+                        "y3": 375
+                    },
+                    "text": "ASN"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 282,
+                        "x1": 315,
+                        "x2": 315,
+                        "x3": 282,
+                        "y0": 359,
+                        "y1": 359,
+                        "y2": 375,
+                        "y3": 375
+                    },
+                    "text": "CEU"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 388,
+                        "x1": 414,
+                        "x2": 414,
+                        "x3": 388,
+                        "y0": 359,
+                        "y1": 359,
+                        "y2": 375,
+                        "y3": 375
+                    },
+                    "text": "YRI"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 1,
+                            "x1": 25,
+                            "x2": 25,
+                            "x3": 1,
+                            "y0": 113,
+                            "y1": 113,
+                            "y2": 264,
+                            "y3": 264
+                        },
+                        "text": "intrinsic growth"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 75,
+                            "x1": 113,
+                            "x2": 113,
+                            "x3": 75,
+                            "y0": 359,
+                            "y1": 359,
+                            "y2": 375,
+                            "y3": 375
+                        },
+                        "text": "ASW"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 179,
+                            "x1": 213,
+                            "x2": 213,
+                            "x3": 179,
+                            "y0": 359,
+                            "y1": 359,
+                            "y2": 375,
+                            "y3": 375
+                        },
+                        "text": "ASN"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 282,
+                            "x1": 315,
+                            "x2": 315,
+                            "x3": 282,
+                            "y0": 359,
+                            "y1": 359,
+                            "y2": 375,
+                            "y3": 375
+                        },
+                        "text": "CEU"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 388,
+                            "x1": 414,
+                            "x2": 414,
+                            "x3": 388,
+                            "y0": 359,
+                            "y1": 359,
+                            "y2": 375,
+                            "y3": 375
+                        },
+                        "text": "YRI"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 1,
+                            "x1": 25,
+                            "x2": 25,
+                            "x3": 1,
+                            "y0": 113,
+                            "y1": 113,
+                            "y2": 264,
+                            "y3": 264
+                        },
+                        "text": "intrinsic growth"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 75,
+                            "x1": 113,
+                            "x2": 113,
+                            "x3": 75,
+                            "y0": 359,
+                            "y1": 359,
+                            "y2": 375,
+                            "y3": 375
+                        },
+                        "text": "ASW"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 179,
+                            "x1": 213,
+                            "x2": 213,
+                            "x3": 179,
+                            "y0": 359,
+                            "y1": 359,
+                            "y2": 375,
+                            "y3": 375
+                        },
+                        "text": "ASN"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 282,
+                            "x1": 315,
+                            "x2": 315,
+                            "x3": 282,
+                            "y0": 359,
+                            "y1": 359,
+                            "y2": 375,
+                            "y3": 375
+                        },
+                        "text": "CEU"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 388,
+                            "x1": 414,
+                            "x2": 414,
+                            "x3": 388,
+                            "y0": 359,
+                            "y1": 359,
+                            "y2": 375,
+                            "y3": 375
+                        },
+                        "text": "YRI"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 345,
+                "width": 424,
+                "x0": 35,
+                "y0": 2
+            },
+            "axes": {
+                "_x-tick-type": "markers",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 93,
+                            "y": 347
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 196,
+                            "y": 347
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 299,
+                            "y": 347
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 402,
+                            "y": 347
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 1,
+                            "x1": 25,
+                            "x2": 25,
+                            "x3": 1,
+                            "y0": 113,
+                            "y1": 113,
+                            "y2": 264,
+                            "y3": 264
+                        },
+                        "text": "intrinsic growth"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 75,
+                            "x1": 113,
+                            "x2": 113,
+                            "x3": 75,
+                            "y0": 359,
+                            "y1": 359,
+                            "y2": 375,
+                            "y3": 375
+                        },
+                        "text": "ASW"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 179,
+                            "x1": 213,
+                            "x2": 213,
+                            "x3": 179,
+                            "y0": 359,
+                            "y1": 359,
+                            "y2": 375,
+                            "y3": 375
+                        },
+                        "text": "ASN"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 282,
+                            "x1": 315,
+                            "x2": 315,
+                            "x3": 282,
+                            "y0": 359,
+                            "y1": 359,
+                            "y2": 375,
+                            "y3": 375
+                        },
+                        "text": "CEU"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 388,
+                            "x1": 414,
+                            "x2": 414,
+                            "x3": 388,
+                            "y0": 359,
+                            "y1": 359,
+                            "y2": 375,
+                            "y3": 375
+                        },
+                        "text": "YRI"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 1,
+                            "x1": 25,
+                            "x2": 25,
+                            "x3": 1,
+                            "y0": 113,
+                            "y1": 113,
+                            "y2": 264,
+                            "y3": 264
+                        },
+                        "text": "intrinsic growth"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 75,
+                            "x1": 113,
+                            "x2": 113,
+                            "x3": 75,
+                            "y0": 359,
+                            "y1": 359,
+                            "y2": 375,
+                            "y3": 375
+                        },
+                        "text": "ASW"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 179,
+                            "x1": 213,
+                            "x2": 213,
+                            "x3": 179,
+                            "y0": 359,
+                            "y1": 359,
+                            "y2": 375,
+                            "y3": 375
+                        },
+                        "text": "ASN"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 282,
+                            "x1": 315,
+                            "x2": 315,
+                            "x3": 282,
+                            "y0": 359,
+                            "y1": 359,
+                            "y2": 375,
+                            "y3": 375
+                        },
+                        "text": "CEU"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 388,
+                            "x1": 414,
+                            "x2": 414,
+                            "x3": 388,
+                            "y0": 359,
+                            "y1": 359,
+                            "y2": 375,
+                            "y3": 375
+                        },
+                        "text": "YRI"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 345,
+                    "width": 424,
+                    "x0": 35,
+                    "y0": 2
+                },
+                "axes": {
+                    "_x-tick-type": "markers",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": "markers",
+                    "_y2-tick-type": null,
+                    "x-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 93,
+                                "y": 347
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 196,
+                                "y": 347
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 299,
+                                "y": 347
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 402,
+                                "y": 347
+                            }
+                        }
+                    ],
+                    "x-axis-2": [],
+                    "y-axis": [],
+                    "y-axis-2": []
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "first_quartile": 0.44361525704809285,
+                            "max": 0.8237976782752902,
+                            "median": 0.5306799336650083,
+                            "min": 0.22595356550580425,
+                            "third_quartile": 0.6003316749585406,
+                            "x": "ASW"
+                        },
+                        {
+                            "first_quartile": 0.4349087893864013,
+                            "max": 0.7802653399668324,
+                            "median": 0.5016583747927031,
+                            "min": 0.22885572139303478,
+                            "third_quartile": 0.5771144278606964,
+                            "x": "ASN"
+                        },
+                        {
+                            "first_quartile": 0.32462686567164173,
+                            "max": 0.7454394693200663,
+                            "median": 0.44361525704809285,
+                            "min": 0.072139303482587,
+                            "third_quartile": 0.5597014925373134,
+                            "x": "CEU"
+                        },
+                        {
+                            "first_quartile": 0.3884742951907131,
+                            "max": 0.867330016583748,
+                            "median": 0.4958540630182421,
+                            "min": 0.16210613598673296,
+                            "third_quartile": 0.5887230514096186,
+                            "x": "YRI"
+                        }
+                    ],
+                    "name": "[unnamed data series #0]"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 77.0,
+                                "x0": 56.0,
+                                "y0": 194.0
+                            },
+                            "x": 94.5,
+                            "y": 194.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 77.0,
+                                "x0": 56.0,
+                                "y0": 63.0
+                            },
+                            "x": 94.5,
+                            "y": 63.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 77.0,
+                                "x0": 56.0,
+                                "y0": 164.0
+                            },
+                            "x": 94.5,
+                            "y": 164.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 77.0,
+                                "x0": 56.0,
+                                "y0": 269.0
+                            },
+                            "x": 94.5,
+                            "y": 269.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 77.0,
+                                "x0": 56.0,
+                                "y0": 140.0
+                            },
+                            "x": 94.5,
+                            "y": 140.0
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 77.0,
+                                "x0": 158.0,
+                                "y0": 197.0
+                            },
+                            "x": 196.5,
+                            "y": 197.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 77.0,
+                                "x0": 158.0,
+                                "y0": 78.0
+                            },
+                            "x": 196.5,
+                            "y": 78.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 77.0,
+                                "x0": 158.0,
+                                "y0": 174.0
+                            },
+                            "x": 196.5,
+                            "y": 174.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 77.0,
+                                "x0": 158.0,
+                                "y0": 268.0
+                            },
+                            "x": 196.5,
+                            "y": 268.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 77.0,
+                                "x0": 158.0,
+                                "y0": 148.0
+                            },
+                            "x": 196.5,
+                            "y": 148.0
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 77.0,
+                                "x0": 260.0,
+                                "y0": 235.0
+                            },
+                            "x": 298.5,
+                            "y": 235.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 77.0,
+                                "x0": 260.0,
+                                "y0": 90.0
+                            },
+                            "x": 298.5,
+                            "y": 90.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 77.0,
+                                "x0": 260.0,
+                                "y0": 194.0
+                            },
+                            "x": 298.5,
+                            "y": 194.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 77.0,
+                                "x0": 260.0,
+                                "y0": 322.0
+                            },
+                            "x": 298.5,
+                            "y": 322.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 77.0,
+                                "x0": 260.0,
+                                "y0": 154.0
+                            },
+                            "x": 298.5,
+                            "y": 154.0
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 77.0,
+                                "x0": 362.0,
+                                "y0": 213.0
+                            },
+                            "x": 400.5,
+                            "y": 213.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 77.0,
+                                "x0": 362.0,
+                                "y0": 48.0
+                            },
+                            "x": 400.5,
+                            "y": 48.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 77.0,
+                                "x0": 362.0,
+                                "y0": 176.0
+                            },
+                            "x": 400.5,
+                            "y": 176.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 77.0,
+                                "x0": 362.0,
+                                "y0": 291.0
+                            },
+                            "x": 400.5,
+                            "y": 291.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 77.0,
+                                "x0": 362.0,
+                                "y0": 144.0
+                            },
+                            "x": 400.5,
+                            "y": 144.0
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

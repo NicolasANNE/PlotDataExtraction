@@ -1,0 +1,2056 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 90,
+                        "x1": 133,
+                        "x2": 139,
+                        "x3": 95,
+                        "y0": 309,
+                        "y1": 287,
+                        "y2": 298,
+                        "y3": 320
+                    },
+                    "text": "Residual"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 164,
+                        "x1": 211,
+                        "x2": 217,
+                        "x3": 171,
+                        "y0": 312,
+                        "y1": 288,
+                        "y2": 301,
+                        "y3": 323
+                    },
+                    "text": "Emerging"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 251,
+                        "x1": 291,
+                        "x2": 297,
+                        "x3": 256,
+                        "y0": 309,
+                        "y1": 288,
+                        "y2": 298,
+                        "y3": 320
+                    },
+                    "text": "Informal"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 290,
+                        "x1": 368,
+                        "x2": 376,
+                        "x3": 297,
+                        "y0": 330,
+                        "y1": 286,
+                        "y2": 298,
+                        "y3": 342
+                    },
+                    "text": "Post-Communist"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 332,
+                        "x1": 448,
+                        "x2": 455,
+                        "x3": 339,
+                        "y0": 349,
+                        "y1": 287,
+                        "y2": 297,
+                        "y3": 360
+                    },
+                    "text": "Less Successful Informal"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 486,
+                        "x1": 527,
+                        "x2": 533,
+                        "x3": 492,
+                        "y0": 309,
+                        "y1": 289,
+                        "y2": 300,
+                        "y3": 321
+                    },
+                    "text": "Insecure"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 41,
+                        "x1": 41,
+                        "x2": 57,
+                        "x3": 57,
+                        "y0": 263,
+                        "y1": 68,
+                        "y2": 68,
+                        "y3": 263
+                    },
+                    "text": "Adult Mortality (per 1,000 population)"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 155,
+                        "x1": 555,
+                        "x2": 555,
+                        "x3": 155,
+                        "y0": 377,
+                        "y1": 377,
+                        "y2": 393,
+                        "y3": 393
+                    },
+                    "text": "Prob. of dying per 1000 pop between 15-60 yrs (adult mortality), males, 2004"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 155,
+                        "x1": 563,
+                        "x2": 563,
+                        "x3": 155,
+                        "y0": 397,
+                        "y1": 397,
+                        "y2": 413,
+                        "y3": 413
+                    },
+                    "text": "Prob. of dying per 1,000 pop. between 15-60 yrs (adult mortality), females,2004"
+                },
+                {
+                    "id": 9,
+                    "polygon": {
+                        "x0": 57,
+                        "x1": 80,
+                        "x2": 80,
+                        "x3": 57,
+                        "y0": 54,
+                        "y1": 54,
+                        "y2": 68,
+                        "y3": 68
+                    },
+                    "text": "800"
+                },
+                {
+                    "id": 10,
+                    "polygon": {
+                        "x0": 58,
+                        "x1": 79,
+                        "x2": 79,
+                        "x3": 58,
+                        "y0": 77,
+                        "y1": 77,
+                        "y2": 90,
+                        "y3": 90
+                    },
+                    "text": "600"
+                },
+                {
+                    "id": 11,
+                    "polygon": {
+                        "x0": 59,
+                        "x1": 79,
+                        "x2": 79,
+                        "x3": 59,
+                        "y0": 108,
+                        "y1": 108,
+                        "y2": 122,
+                        "y3": 122
+                    },
+                    "text": "400"
+                },
+                {
+                    "id": 12,
+                    "polygon": {
+                        "x0": 57,
+                        "x1": 80,
+                        "x2": 80,
+                        "x3": 57,
+                        "y0": 162,
+                        "y1": 162,
+                        "y2": 176,
+                        "y3": 176
+                    },
+                    "text": "200"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 90,
+                            "x1": 133,
+                            "x2": 139,
+                            "x3": 95,
+                            "y0": 309,
+                            "y1": 287,
+                            "y2": 298,
+                            "y3": 320
+                        },
+                        "text": "Residual"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 164,
+                            "x1": 211,
+                            "x2": 217,
+                            "x3": 171,
+                            "y0": 312,
+                            "y1": 288,
+                            "y2": 301,
+                            "y3": 323
+                        },
+                        "text": "Emerging"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 251,
+                            "x1": 291,
+                            "x2": 297,
+                            "x3": 256,
+                            "y0": 309,
+                            "y1": 288,
+                            "y2": 298,
+                            "y3": 320
+                        },
+                        "text": "Informal"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 290,
+                            "x1": 368,
+                            "x2": 376,
+                            "x3": 297,
+                            "y0": 330,
+                            "y1": 286,
+                            "y2": 298,
+                            "y3": 342
+                        },
+                        "text": "Post-Communist"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 332,
+                            "x1": 448,
+                            "x2": 455,
+                            "x3": 339,
+                            "y0": 349,
+                            "y1": 287,
+                            "y2": 297,
+                            "y3": 360
+                        },
+                        "text": "Less Successful Informal"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 486,
+                            "x1": 527,
+                            "x2": 533,
+                            "x3": 492,
+                            "y0": 309,
+                            "y1": 289,
+                            "y2": 300,
+                            "y3": 321
+                        },
+                        "text": "Insecure"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 41,
+                            "x1": 41,
+                            "x2": 57,
+                            "x3": 57,
+                            "y0": 263,
+                            "y1": 68,
+                            "y2": 68,
+                            "y3": 263
+                        },
+                        "text": "Adult Mortality (per 1,000 population)"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 155,
+                            "x1": 555,
+                            "x2": 555,
+                            "x3": 155,
+                            "y0": 377,
+                            "y1": 377,
+                            "y2": 393,
+                            "y3": 393
+                        },
+                        "text": "Prob. of dying per 1000 pop between 15-60 yrs (adult mortality), males, 2004"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 155,
+                            "x1": 563,
+                            "x2": 563,
+                            "x3": 155,
+                            "y0": 397,
+                            "y1": 397,
+                            "y2": 413,
+                            "y3": 413
+                        },
+                        "text": "Prob. of dying per 1,000 pop. between 15-60 yrs (adult mortality), females,2004"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 57,
+                            "x1": 80,
+                            "x2": 80,
+                            "x3": 57,
+                            "y0": 54,
+                            "y1": 54,
+                            "y2": 68,
+                            "y3": 68
+                        },
+                        "text": "800"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 58,
+                            "x1": 79,
+                            "x2": 79,
+                            "x3": 58,
+                            "y0": 77,
+                            "y1": 77,
+                            "y2": 90,
+                            "y3": 90
+                        },
+                        "text": "600"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 59,
+                            "x1": 79,
+                            "x2": 79,
+                            "x3": 59,
+                            "y0": 108,
+                            "y1": 108,
+                            "y2": 122,
+                            "y3": 122
+                        },
+                        "text": "400"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 57,
+                            "x1": 80,
+                            "x2": 80,
+                            "x3": 57,
+                            "y0": 162,
+                            "y1": 162,
+                            "y2": 176,
+                            "y3": 176
+                        },
+                        "text": "200"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 7,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 8,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 90,
+                            "x1": 133,
+                            "x2": 139,
+                            "x3": 95,
+                            "y0": 309,
+                            "y1": 287,
+                            "y2": 298,
+                            "y3": 320
+                        },
+                        "text": "Residual"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 164,
+                            "x1": 211,
+                            "x2": 217,
+                            "x3": 171,
+                            "y0": 312,
+                            "y1": 288,
+                            "y2": 301,
+                            "y3": 323
+                        },
+                        "text": "Emerging"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 251,
+                            "x1": 291,
+                            "x2": 297,
+                            "x3": 256,
+                            "y0": 309,
+                            "y1": 288,
+                            "y2": 298,
+                            "y3": 320
+                        },
+                        "text": "Informal"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 290,
+                            "x1": 368,
+                            "x2": 376,
+                            "x3": 297,
+                            "y0": 330,
+                            "y1": 286,
+                            "y2": 298,
+                            "y3": 342
+                        },
+                        "text": "Post-Communist"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 332,
+                            "x1": 448,
+                            "x2": 455,
+                            "x3": 339,
+                            "y0": 349,
+                            "y1": 287,
+                            "y2": 297,
+                            "y3": 360
+                        },
+                        "text": "Less Successful Informal"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 486,
+                            "x1": 527,
+                            "x2": 533,
+                            "x3": 492,
+                            "y0": 309,
+                            "y1": 289,
+                            "y2": 300,
+                            "y3": 321
+                        },
+                        "text": "Insecure"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 41,
+                            "x1": 41,
+                            "x2": 57,
+                            "x3": 57,
+                            "y0": 263,
+                            "y1": 68,
+                            "y2": 68,
+                            "y3": 263
+                        },
+                        "text": "Adult Mortality (per 1,000 population)"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 155,
+                            "x1": 555,
+                            "x2": 555,
+                            "x3": 155,
+                            "y0": 377,
+                            "y1": 377,
+                            "y2": 393,
+                            "y3": 393
+                        },
+                        "text": "Prob. of dying per 1000 pop between 15-60 yrs (adult mortality), males, 2004"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 155,
+                            "x1": 563,
+                            "x2": 563,
+                            "x3": 155,
+                            "y0": 397,
+                            "y1": 397,
+                            "y2": 413,
+                            "y3": 413
+                        },
+                        "text": "Prob. of dying per 1,000 pop. between 15-60 yrs (adult mortality), females,2004"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 57,
+                            "x1": 80,
+                            "x2": 80,
+                            "x3": 57,
+                            "y0": 54,
+                            "y1": 54,
+                            "y2": 68,
+                            "y3": 68
+                        },
+                        "text": "800"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 58,
+                            "x1": 79,
+                            "x2": 79,
+                            "x3": 58,
+                            "y0": 77,
+                            "y1": 77,
+                            "y2": 90,
+                            "y3": 90
+                        },
+                        "text": "600"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 59,
+                            "x1": 79,
+                            "x2": 79,
+                            "x3": 59,
+                            "y0": 108,
+                            "y1": 108,
+                            "y2": 122,
+                            "y3": 122
+                        },
+                        "text": "400"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 57,
+                            "x1": 80,
+                            "x2": 80,
+                            "x3": 57,
+                            "y0": 162,
+                            "y1": 162,
+                            "y2": 176,
+                            "y3": 176
+                        },
+                        "text": "200"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 252,
+                "width": 495,
+                "x0": 84,
+                "y0": 37
+            },
+            "axes": {
+                "_x-tick-type": "markers",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 0,
+                        "tick_pt": {
+                            "x": 134,
+                            "y": 289
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 213,
+                            "y": 289
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 292,
+                            "y": 289
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 371,
+                            "y": 289
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 450,
+                            "y": 289
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 528,
+                            "y": 289
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 84,
+                            "y": 61
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 84,
+                            "y": 84
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 84,
+                            "y": 114
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 84,
+                            "y": 168
+                        }
+                    }
+                ],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 90,
+                            "x1": 133,
+                            "x2": 139,
+                            "x3": 95,
+                            "y0": 309,
+                            "y1": 287,
+                            "y2": 298,
+                            "y3": 320
+                        },
+                        "text": "Residual"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 164,
+                            "x1": 211,
+                            "x2": 217,
+                            "x3": 171,
+                            "y0": 312,
+                            "y1": 288,
+                            "y2": 301,
+                            "y3": 323
+                        },
+                        "text": "Emerging"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 251,
+                            "x1": 291,
+                            "x2": 297,
+                            "x3": 256,
+                            "y0": 309,
+                            "y1": 288,
+                            "y2": 298,
+                            "y3": 320
+                        },
+                        "text": "Informal"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 290,
+                            "x1": 368,
+                            "x2": 376,
+                            "x3": 297,
+                            "y0": 330,
+                            "y1": 286,
+                            "y2": 298,
+                            "y3": 342
+                        },
+                        "text": "Post-Communist"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 332,
+                            "x1": 448,
+                            "x2": 455,
+                            "x3": 339,
+                            "y0": 349,
+                            "y1": 287,
+                            "y2": 297,
+                            "y3": 360
+                        },
+                        "text": "Less Successful Informal"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 486,
+                            "x1": 527,
+                            "x2": 533,
+                            "x3": 492,
+                            "y0": 309,
+                            "y1": 289,
+                            "y2": 300,
+                            "y3": 321
+                        },
+                        "text": "Insecure"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 41,
+                            "x1": 41,
+                            "x2": 57,
+                            "x3": 57,
+                            "y0": 263,
+                            "y1": 68,
+                            "y2": 68,
+                            "y3": 263
+                        },
+                        "text": "Adult Mortality (per 1,000 population)"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 155,
+                            "x1": 555,
+                            "x2": 555,
+                            "x3": 155,
+                            "y0": 377,
+                            "y1": 377,
+                            "y2": 393,
+                            "y3": 393
+                        },
+                        "text": "Prob. of dying per 1000 pop between 15-60 yrs (adult mortality), males, 2004"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 155,
+                            "x1": 563,
+                            "x2": 563,
+                            "x3": 155,
+                            "y0": 397,
+                            "y1": 397,
+                            "y2": 413,
+                            "y3": 413
+                        },
+                        "text": "Prob. of dying per 1,000 pop. between 15-60 yrs (adult mortality), females,2004"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 57,
+                            "x1": 80,
+                            "x2": 80,
+                            "x3": 57,
+                            "y0": 54,
+                            "y1": 54,
+                            "y2": 68,
+                            "y3": 68
+                        },
+                        "text": "800"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 58,
+                            "x1": 79,
+                            "x2": 79,
+                            "x3": 58,
+                            "y0": 77,
+                            "y1": 77,
+                            "y2": 90,
+                            "y3": 90
+                        },
+                        "text": "600"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 59,
+                            "x1": 79,
+                            "x2": 79,
+                            "x3": 59,
+                            "y0": 108,
+                            "y1": 108,
+                            "y2": 122,
+                            "y3": 122
+                        },
+                        "text": "400"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 57,
+                            "x1": 80,
+                            "x2": 80,
+                            "x3": 57,
+                            "y0": 162,
+                            "y1": 162,
+                            "y2": 176,
+                            "y3": 176
+                        },
+                        "text": "200"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 15,
+                        "width": 51,
+                        "x0": 98,
+                        "y0": 376
+                    },
+                    "id": 7
+                },
+                {
+                    "bb": {
+                        "height": 15,
+                        "width": 51,
+                        "x0": 98,
+                        "y0": 397
+                    },
+                    "id": 8
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 90,
+                            "x1": 133,
+                            "x2": 139,
+                            "x3": 95,
+                            "y0": 309,
+                            "y1": 287,
+                            "y2": 298,
+                            "y3": 320
+                        },
+                        "text": "Residual"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 164,
+                            "x1": 211,
+                            "x2": 217,
+                            "x3": 171,
+                            "y0": 312,
+                            "y1": 288,
+                            "y2": 301,
+                            "y3": 323
+                        },
+                        "text": "Emerging"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 251,
+                            "x1": 291,
+                            "x2": 297,
+                            "x3": 256,
+                            "y0": 309,
+                            "y1": 288,
+                            "y2": 298,
+                            "y3": 320
+                        },
+                        "text": "Informal"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 290,
+                            "x1": 368,
+                            "x2": 376,
+                            "x3": 297,
+                            "y0": 330,
+                            "y1": 286,
+                            "y2": 298,
+                            "y3": 342
+                        },
+                        "text": "Post-Communist"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 332,
+                            "x1": 448,
+                            "x2": 455,
+                            "x3": 339,
+                            "y0": 349,
+                            "y1": 287,
+                            "y2": 297,
+                            "y3": 360
+                        },
+                        "text": "Less Successful Informal"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 486,
+                            "x1": 527,
+                            "x2": 533,
+                            "x3": 492,
+                            "y0": 309,
+                            "y1": 289,
+                            "y2": 300,
+                            "y3": 321
+                        },
+                        "text": "Insecure"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 41,
+                            "x1": 41,
+                            "x2": 57,
+                            "x3": 57,
+                            "y0": 263,
+                            "y1": 68,
+                            "y2": 68,
+                            "y3": 263
+                        },
+                        "text": "Adult Mortality (per 1,000 population)"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 155,
+                            "x1": 555,
+                            "x2": 555,
+                            "x3": 155,
+                            "y0": 377,
+                            "y1": 377,
+                            "y2": 393,
+                            "y3": 393
+                        },
+                        "text": "Prob. of dying per 1000 pop between 15-60 yrs (adult mortality), males, 2004"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 155,
+                            "x1": 563,
+                            "x2": 563,
+                            "x3": 155,
+                            "y0": 397,
+                            "y1": 397,
+                            "y2": 413,
+                            "y3": 413
+                        },
+                        "text": "Prob. of dying per 1,000 pop. between 15-60 yrs (adult mortality), females,2004"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 57,
+                            "x1": 80,
+                            "x2": 80,
+                            "x3": 57,
+                            "y0": 54,
+                            "y1": 54,
+                            "y2": 68,
+                            "y3": 68
+                        },
+                        "text": "800"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 58,
+                            "x1": 79,
+                            "x2": 79,
+                            "x3": 58,
+                            "y0": 77,
+                            "y1": 77,
+                            "y2": 90,
+                            "y3": 90
+                        },
+                        "text": "600"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 59,
+                            "x1": 79,
+                            "x2": 79,
+                            "x3": 59,
+                            "y0": 108,
+                            "y1": 108,
+                            "y2": 122,
+                            "y3": 122
+                        },
+                        "text": "400"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 57,
+                            "x1": 80,
+                            "x2": 80,
+                            "x3": 57,
+                            "y0": 162,
+                            "y1": 162,
+                            "y2": 176,
+                            "y3": 176
+                        },
+                        "text": "200"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 7,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 252,
+                    "width": 495,
+                    "x0": 84,
+                    "y0": 37
+                },
+                "axes": {
+                    "_x-tick-type": "markers",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": "markers",
+                    "_y2-tick-type": null,
+                    "x-axis": [
+                        {
+                            "id": 0,
+                            "tick_pt": {
+                                "x": 134,
+                                "y": 289
+                            }
+                        },
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 213,
+                                "y": 289
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 292,
+                                "y": 289
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 371,
+                                "y": 289
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 450,
+                                "y": 289
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 528,
+                                "y": 289
+                            }
+                        }
+                    ],
+                    "x-axis-2": [],
+                    "y-axis": [
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 84,
+                                "y": 61
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 84,
+                                "y": 84
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 84,
+                                "y": 114
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 84,
+                                "y": 168
+                            }
+                        }
+                    ],
+                    "y-axis-2": []
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 15,
+                            "width": 51,
+                            "x0": 98,
+                            "y0": 376
+                        },
+                        "id": 7
+                    },
+                    {
+                        "bb": {
+                            "height": 15,
+                            "width": 51,
+                            "x0": 98,
+                            "y0": 397
+                        },
+                        "id": 8
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "first_quartile": 159.46336061069414,
+                            "max": 301.190400899715,
+                            "median": 193.927518309298,
+                            "min": 91.0030190543134,
+                            "third_quartile": 265.2192751085787,
+                            "x": "Residual"
+                        },
+                        {
+                            "first_quartile": 147.45839461745126,
+                            "max": 266.085612521622,
+                            "median": 181.68256975960136,
+                            "min": 71.02583241961779,
+                            "third_quartile": 229.76691699560405,
+                            "x": "Emerging"
+                        },
+                        {
+                            "first_quartile": 163.67840439937066,
+                            "max": 245.2526296908631,
+                            "median": 191.41422293360927,
+                            "min": 112.12425308550671,
+                            "third_quartile": 245.2526296908631,
+                            "x": "Informal"
+                        },
+                        {
+                            "first_quartile": 215.2590013497888,
+                            "max": 424.2497799277565,
+                            "median": 248.47283083699935,
+                            "min": 155.35686256576236,
+                            "third_quartile": 318.35991200425696,
+                            "x": "Post-Communist"
+                        },
+                        {
+                            "first_quartile": 206.99774561404018,
+                            "max": 387.1657252657426,
+                            "median": 265.2192751085787,
+                            "min": 153.3434418420191,
+                            "third_quartile": 318.35991200425696,
+                            "x": "Less Successful Informal"
+                        },
+                        {
+                            "first_quartile": 353.37860931393845,
+                            "max": 686.2083432838448,
+                            "median": 477.2488542784787,
+                            "min": 248.47283083699935,
+                            "third_quartile": 551.0980694011074,
+                            "x": "Insecure"
+                        }
+                    ],
+                    "name": "[unnamed data series #0]"
+                },
+                {
+                    "data": [
+                        {
+                            "first_quartile": 65.67875645449415,
+                            "max": 177.58206526089225,
+                            "median": 86.3763523121488,
+                            "min": 49.940741116501584,
+                            "third_quartile": 118.13008151949808,
+                            "x": "Residual"
+                        },
+                        {
+                            "first_quartile": 86.3763523121488,
+                            "max": 167.45786282944982,
+                            "median": 102.33941188498669,
+                            "min": 53.30662154363571,
+                            "third_quartile": 131.12405912759576,
+                            "x": "Emerging"
+                        },
+                        {
+                            "first_quartile": 107.82112465366015,
+                            "max": 138.59885242292884,
+                            "median": 119.68114592350354,
+                            "min": 80.92238683476968,
+                            "third_quartile": 136.3572049396389,
+                            "x": "Informal"
+                        },
+                        {
+                            "first_quartile": 109.23683101988776,
+                            "max": 271.3433892139607,
+                            "median": 141.79920498691786,
+                            "min": 89.82362239644378,
+                            "third_quartile": 186.48492676652276,
+                            "x": "Post-Communist"
+                        },
+                        {
+                            "first_quartile": 126.09175209852873,
+                            "max": 299.2323263502604,
+                            "median": 163.67840439937066,
+                            "min": 101.0130958836082,
+                            "third_quartile": 261.7820404990439,
+                            "x": "Less Successful Informal"
+                        },
+                        {
+                            "first_quartile": 298.2580678886603,
+                            "max": 651.9955974196428,
+                            "median": 413.2957118823518,
+                            "min": 181.68256975960136,
+                            "third_quartile": 483.53204098801075,
+                            "x": "Insecure"
+                        }
+                    ],
+                    "name": "[unnamed data series #1]"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 25.0,
+                                "x0": 106.0,
+                                "y0": 185.0
+                            },
+                            "x": 118.5,
+                            "y": 185.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 25.0,
+                                "x0": 106.0,
+                                "y0": 136.0
+                            },
+                            "x": 118.5,
+                            "y": 136.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 25.0,
+                                "x0": 106.0,
+                                "y0": 170.0
+                            },
+                            "x": 118.5,
+                            "y": 170.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 25.0,
+                                "x0": 106.0,
+                                "y0": 228.0
+                            },
+                            "x": 118.5,
+                            "y": 228.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 25.0,
+                                "x0": 106.0,
+                                "y0": 146.0
+                            },
+                            "x": 118.5,
+                            "y": 146.0
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 24.0,
+                                "x0": 138.0,
+                                "y0": 253.0
+                            },
+                            "x": 150.0,
+                            "y": 253.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 24.0,
+                                "x0": 138.0,
+                                "y0": 177.0
+                            },
+                            "x": 150.0,
+                            "y": 177.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 24.0,
+                                "x0": 138.0,
+                                "y0": 232.0
+                            },
+                            "x": 150.0,
+                            "y": 232.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 24.0,
+                                "x0": 138.0,
+                                "y0": 274.0
+                            },
+                            "x": 150.0,
+                            "y": 274.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 24.0,
+                                "x0": 138.0,
+                                "y0": 208.0
+                            },
+                            "x": 150.0,
+                            "y": 208.0
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 25.0,
+                                "x0": 185.0,
+                                "y0": 191.0
+                            },
+                            "x": 197.5,
+                            "y": 191.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 25.0,
+                                "x0": 185.0,
+                                "y0": 146.0
+                            },
+                            "x": 197.5,
+                            "y": 146.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 25.0,
+                                "x0": 185.0,
+                                "y0": 175.0
+                            },
+                            "x": 197.5,
+                            "y": 175.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 25.0,
+                                "x0": 185.0,
+                                "y0": 247.0
+                            },
+                            "x": 197.5,
+                            "y": 247.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 25.0,
+                                "x0": 185.0,
+                                "y0": 157.0
+                            },
+                            "x": 197.5,
+                            "y": 157.0
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 24.0,
+                                "x0": 217.0,
+                                "y0": 232.0
+                            },
+                            "x": 229.0,
+                            "y": 232.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 24.0,
+                                "x0": 217.0,
+                                "y0": 181.0
+                            },
+                            "x": 229.0,
+                            "y": 181.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 24.0,
+                                "x0": 217.0,
+                                "y0": 219.0
+                            },
+                            "x": 229.0,
+                            "y": 219.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 24.0,
+                                "x0": 217.0,
+                                "y0": 269.0
+                            },
+                            "x": 229.0,
+                            "y": 269.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 24.0,
+                                "x0": 217.0,
+                                "y0": 200.0
+                            },
+                            "x": 229.0,
+                            "y": 200.0
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 24.0,
+                                "x0": 264.0,
+                                "y0": 183.0
+                            },
+                            "x": 276.0,
+                            "y": 183.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 24.0,
+                                "x0": 264.0,
+                                "y0": 152.0
+                            },
+                            "x": 276.0,
+                            "y": 152.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 24.0,
+                                "x0": 264.0,
+                                "y0": 171.0
+                            },
+                            "x": 276.0,
+                            "y": 171.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 24.0,
+                                "x0": 264.0,
+                                "y0": 212.0
+                            },
+                            "x": 276.0,
+                            "y": 212.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 24.0,
+                                "x0": 264.0,
+                                "y0": 152.0
+                            },
+                            "x": 276.0,
+                            "y": 152.0
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 25.0,
+                                "x0": 295.0,
+                                "y0": 215.0
+                            },
+                            "x": 307.5,
+                            "y": 215.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 25.0,
+                                "x0": 295.0,
+                                "y0": 196.0
+                            },
+                            "x": 307.5,
+                            "y": 196.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 25.0,
+                                "x0": 295.0,
+                                "y0": 207.0
+                            },
+                            "x": 307.5,
+                            "y": 207.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 25.0,
+                                "x0": 295.0,
+                                "y0": 237.0
+                            },
+                            "x": 307.5,
+                            "y": 237.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 25.0,
+                                "x0": 295.0,
+                                "y0": 197.0
+                            },
+                            "x": 307.5,
+                            "y": 197.0
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 25.0,
+                                "x0": 342.0,
+                                "y0": 162.0
+                            },
+                            "x": 354.5,
+                            "y": 162.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 25.0,
+                                "x0": 342.0,
+                                "y0": 110.0
+                            },
+                            "x": 354.5,
+                            "y": 110.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 25.0,
+                                "x0": 342.0,
+                                "y0": 151.0
+                            },
+                            "x": 354.5,
+                            "y": 151.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 25.0,
+                                "x0": 342.0,
+                                "y0": 187.0
+                            },
+                            "x": 354.5,
+                            "y": 187.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 25.0,
+                                "x0": 342.0,
+                                "y0": 132.0
+                            },
+                            "x": 354.5,
+                            "y": 132.0
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 24.0,
+                                "x0": 374.0,
+                                "y0": 214.0
+                            },
+                            "x": 386.0,
+                            "y": 214.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 24.0,
+                                "x0": 374.0,
+                                "y0": 144.0
+                            },
+                            "x": 386.0,
+                            "y": 144.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 24.0,
+                                "x0": 374.0,
+                                "y0": 194.0
+                            },
+                            "x": 386.0,
+                            "y": 194.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 24.0,
+                                "x0": 374.0,
+                                "y0": 229.0
+                            },
+                            "x": 386.0,
+                            "y": 229.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 24.0,
+                                "x0": 374.0,
+                                "y0": 173.0
+                            },
+                            "x": 386.0,
+                            "y": 173.0
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 24.0,
+                                "x0": 421.0,
+                                "y0": 165.0
+                            },
+                            "x": 433.0,
+                            "y": 165.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 24.0,
+                                "x0": 421.0,
+                                "y0": 117.0
+                            },
+                            "x": 433.0,
+                            "y": 117.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 24.0,
+                                "x0": 421.0,
+                                "y0": 146.0
+                            },
+                            "x": 433.0,
+                            "y": 146.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 24.0,
+                                "x0": 421.0,
+                                "y0": 188.0
+                            },
+                            "x": 433.0,
+                            "y": 188.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 24.0,
+                                "x0": 421.0,
+                                "y0": 132.0
+                            },
+                            "x": 433.0,
+                            "y": 132.0
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 25.0,
+                                "x0": 452.0,
+                                "y0": 203.0
+                            },
+                            "x": 464.5,
+                            "y": 203.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 25.0,
+                                "x0": 452.0,
+                                "y0": 137.0
+                            },
+                            "x": 464.5,
+                            "y": 137.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 25.0,
+                                "x0": 452.0,
+                                "y0": 183.0
+                            },
+                            "x": 464.5,
+                            "y": 183.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 25.0,
+                                "x0": 452.0,
+                                "y0": 220.0
+                            },
+                            "x": 464.5,
+                            "y": 220.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 25.0,
+                                "x0": 452.0,
+                                "y0": 147.0
+                            },
+                            "x": 464.5,
+                            "y": 147.0
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 24.0,
+                                "x0": 500.0,
+                                "y0": 124.0
+                            },
+                            "x": 512.0,
+                            "y": 124.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 24.0,
+                                "x0": 500.0,
+                                "y0": 73.0
+                            },
+                            "x": 512.0,
+                            "y": 73.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 24.0,
+                                "x0": 500.0,
+                                "y0": 101.0
+                            },
+                            "x": 512.0,
+                            "y": 101.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 24.0,
+                                "x0": 500.0,
+                                "y0": 151.0
+                            },
+                            "x": 512.0,
+                            "y": 151.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 24.0,
+                                "x0": 500.0,
+                                "y0": 90.0
+                            },
+                            "x": 512.0,
+                            "y": 90.0
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 25.0,
+                                "x0": 531.0,
+                                "y0": 137.0
+                            },
+                            "x": 543.5,
+                            "y": 137.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 25.0,
+                                "x0": 531.0,
+                                "y0": 77.0
+                            },
+                            "x": 543.5,
+                            "y": 77.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 25.0,
+                                "x0": 531.0,
+                                "y0": 112.0
+                            },
+                            "x": 543.5,
+                            "y": 112.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 25.0,
+                                "x0": 531.0,
+                                "y0": 175.0
+                            },
+                            "x": 543.5,
+                            "y": 175.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 25.0,
+                                "x0": 531.0,
+                                "y0": 100.0
+                            },
+                            "x": 543.5,
+                            "y": 100.0
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

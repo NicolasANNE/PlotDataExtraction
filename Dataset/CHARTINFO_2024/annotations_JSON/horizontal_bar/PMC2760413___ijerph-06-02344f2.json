@@ -1,0 +1,2289 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 650,
+                        "x1": 665,
+                        "x2": 665,
+                        "x3": 650,
+                        "y0": 215,
+                        "y1": 215,
+                        "y2": 228,
+                        "y3": 228
+                    },
+                    "text": "%"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 628,
+                        "x1": 643,
+                        "x2": 643,
+                        "x3": 628,
+                        "y0": 412,
+                        "y1": 412,
+                        "y2": 423,
+                        "y3": 423
+                    },
+                    "text": "60"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 560,
+                        "x1": 575,
+                        "x2": 575,
+                        "x3": 560,
+                        "y0": 412,
+                        "y1": 412,
+                        "y2": 423,
+                        "y3": 423
+                    },
+                    "text": "50"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 492,
+                        "x1": 507,
+                        "x2": 507,
+                        "x3": 492,
+                        "y0": 412,
+                        "y1": 412,
+                        "y2": 423,
+                        "y3": 423
+                    },
+                    "text": "40"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 424,
+                        "x1": 439,
+                        "x2": 439,
+                        "x3": 424,
+                        "y0": 412,
+                        "y1": 412,
+                        "y2": 423,
+                        "y3": 423
+                    },
+                    "text": "30"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 356,
+                        "x1": 370,
+                        "x2": 370,
+                        "x3": 356,
+                        "y0": 412,
+                        "y1": 412,
+                        "y2": 423,
+                        "y3": 423
+                    },
+                    "text": "20"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 288,
+                        "x1": 302,
+                        "x2": 302,
+                        "x3": 288,
+                        "y0": 412,
+                        "y1": 412,
+                        "y2": 423,
+                        "y3": 423
+                    },
+                    "text": "10"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 222,
+                        "x1": 231,
+                        "x2": 231,
+                        "x3": 222,
+                        "y0": 412,
+                        "y1": 412,
+                        "y2": 423,
+                        "y3": 423
+                    },
+                    "text": "0"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 176,
+                        "x1": 214,
+                        "x2": 214,
+                        "x3": 176,
+                        "y0": 209,
+                        "y1": 209,
+                        "y2": 221,
+                        "y3": 221
+                    },
+                    "text": "Uveitis"
+                },
+                {
+                    "id": 9,
+                    "polygon": {
+                        "x0": 143,
+                        "x1": 216,
+                        "x2": 216,
+                        "x3": 143,
+                        "y0": 266,
+                        "y1": 266,
+                        "y2": 278,
+                        "y3": 278
+                    },
+                    "text": "Otitis externa"
+                },
+                {
+                    "id": 10,
+                    "polygon": {
+                        "x0": 121,
+                        "x1": 213,
+                        "x2": 213,
+                        "x3": 121,
+                        "y0": 152,
+                        "y1": 152,
+                        "y2": 166,
+                        "y3": 166
+                    },
+                    "text": "Eyelid dermatitis"
+                },
+                {
+                    "id": 11,
+                    "polygon": {
+                        "x0": 113,
+                        "x1": 216,
+                        "x2": 216,
+                        "x3": 113,
+                        "y0": 381,
+                        "y1": 381,
+                        "y2": 395,
+                        "y3": 395
+                    },
+                    "text": "HZ with meningitis"
+                },
+                {
+                    "id": 12,
+                    "polygon": {
+                        "x0": 104,
+                        "x1": 213,
+                        "x2": 213,
+                        "x3": 104,
+                        "y0": 180,
+                        "y1": 180,
+                        "y2": 194,
+                        "y3": 194
+                    },
+                    "text": "Keratoconjunctivitis"
+                },
+                {
+                    "id": 13,
+                    "polygon": {
+                        "x0": 77,
+                        "x1": 216,
+                        "x2": 216,
+                        "x3": 77,
+                        "y0": 352,
+                        "y1": 352,
+                        "y2": 366,
+                        "y3": 366
+                    },
+                    "text": "HZ without complications"
+                },
+                {
+                    "id": 14,
+                    "polygon": {
+                        "x0": 86,
+                        "x1": 216,
+                        "x2": 216,
+                        "x3": 86,
+                        "y0": 37,
+                        "y1": 37,
+                        "y2": 52,
+                        "y3": 52
+                    },
+                    "text": "Ramsay Hunt syndrome"
+                },
+                {
+                    "id": 15,
+                    "polygon": {
+                        "x0": 54,
+                        "x1": 216,
+                        "x2": 216,
+                        "x3": 54,
+                        "y0": 95,
+                        "y1": 95,
+                        "y2": 109,
+                        "y3": 109
+                    },
+                    "text": "Post-herpetic poly-neuropathy"
+                },
+                {
+                    "id": 16,
+                    "polygon": {
+                        "x0": 28,
+                        "x1": 216,
+                        "x2": 216,
+                        "x3": 28,
+                        "y0": 238,
+                        "y1": 238,
+                        "y2": 252,
+                        "y3": 252
+                    },
+                    "text": "HZ with other ocular complications"
+                },
+                {
+                    "id": 17,
+                    "polygon": {
+                        "x0": 33,
+                        "x1": 216,
+                        "x2": 216,
+                        "x3": 33,
+                        "y0": 323,
+                        "y1": 323,
+                        "y2": 337,
+                        "y3": 337
+                    },
+                    "text": "HZ with unspecified complications"
+                },
+                {
+                    "id": 18,
+                    "polygon": {
+                        "x0": 31,
+                        "x1": 216,
+                        "x2": 216,
+                        "x3": 31,
+                        "y0": 66,
+                        "y1": 66,
+                        "y2": 80,
+                        "y3": 80
+                    },
+                    "text": "Trigeminal post-herpetic neuralgia"
+                },
+                {
+                    "id": 19,
+                    "polygon": {
+                        "x0": 16,
+                        "x1": 216,
+                        "x2": 216,
+                        "x3": 16,
+                        "y0": 295,
+                        "y1": 295,
+                        "y2": 309,
+                        "y3": 309
+                    },
+                    "text": "HZ with other specified complications"
+                },
+                {
+                    "id": 20,
+                    "polygon": {
+                        "x0": 52,
+                        "x1": 216,
+                        "x2": 216,
+                        "x3": 52,
+                        "y0": 116,
+                        "y1": 116,
+                        "y2": 144,
+                        "y3": 144
+                    },
+                    "text": "HZ with other Nervous System complications"
+                },
+                {
+                    "id": 21,
+                    "polygon": {
+                        "x0": 0,
+                        "x1": 216,
+                        "x2": 216,
+                        "x3": 0,
+                        "y0": 2,
+                        "y1": 2,
+                        "y2": 30,
+                        "y3": 30
+                    },
+                    "text": "HZ with unspecified complications of the\nNervous System"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 650,
+                            "x1": 665,
+                            "x2": 665,
+                            "x3": 650,
+                            "y0": 215,
+                            "y1": 215,
+                            "y2": 228,
+                            "y3": 228
+                        },
+                        "text": "%"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 628,
+                            "x1": 643,
+                            "x2": 643,
+                            "x3": 628,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 423,
+                            "y3": 423
+                        },
+                        "text": "60"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 560,
+                            "x1": 575,
+                            "x2": 575,
+                            "x3": 560,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 423,
+                            "y3": 423
+                        },
+                        "text": "50"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 492,
+                            "x1": 507,
+                            "x2": 507,
+                            "x3": 492,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 423,
+                            "y3": 423
+                        },
+                        "text": "40"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 424,
+                            "x1": 439,
+                            "x2": 439,
+                            "x3": 424,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 423,
+                            "y3": 423
+                        },
+                        "text": "30"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 356,
+                            "x1": 370,
+                            "x2": 370,
+                            "x3": 356,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 423,
+                            "y3": 423
+                        },
+                        "text": "20"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 288,
+                            "x1": 302,
+                            "x2": 302,
+                            "x3": 288,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 423,
+                            "y3": 423
+                        },
+                        "text": "10"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 222,
+                            "x1": 231,
+                            "x2": 231,
+                            "x3": 222,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 423,
+                            "y3": 423
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 176,
+                            "x1": 214,
+                            "x2": 214,
+                            "x3": 176,
+                            "y0": 209,
+                            "y1": 209,
+                            "y2": 221,
+                            "y3": 221
+                        },
+                        "text": "Uveitis"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 143,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 143,
+                            "y0": 266,
+                            "y1": 266,
+                            "y2": 278,
+                            "y3": 278
+                        },
+                        "text": "Otitis externa"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 121,
+                            "x1": 213,
+                            "x2": 213,
+                            "x3": 121,
+                            "y0": 152,
+                            "y1": 152,
+                            "y2": 166,
+                            "y3": 166
+                        },
+                        "text": "Eyelid dermatitis"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 113,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 113,
+                            "y0": 381,
+                            "y1": 381,
+                            "y2": 395,
+                            "y3": 395
+                        },
+                        "text": "HZ with meningitis"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 104,
+                            "x1": 213,
+                            "x2": 213,
+                            "x3": 104,
+                            "y0": 180,
+                            "y1": 180,
+                            "y2": 194,
+                            "y3": 194
+                        },
+                        "text": "Keratoconjunctivitis"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 77,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 77,
+                            "y0": 352,
+                            "y1": 352,
+                            "y2": 366,
+                            "y3": 366
+                        },
+                        "text": "HZ without complications"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 86,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 86,
+                            "y0": 37,
+                            "y1": 37,
+                            "y2": 52,
+                            "y3": 52
+                        },
+                        "text": "Ramsay Hunt syndrome"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 54,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 54,
+                            "y0": 95,
+                            "y1": 95,
+                            "y2": 109,
+                            "y3": 109
+                        },
+                        "text": "Post-herpetic poly-neuropathy"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 28,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 28,
+                            "y0": 238,
+                            "y1": 238,
+                            "y2": 252,
+                            "y3": 252
+                        },
+                        "text": "HZ with other ocular complications"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 33,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 33,
+                            "y0": 323,
+                            "y1": 323,
+                            "y2": 337,
+                            "y3": 337
+                        },
+                        "text": "HZ with unspecified complications"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 31,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 31,
+                            "y0": 66,
+                            "y1": 66,
+                            "y2": 80,
+                            "y3": 80
+                        },
+                        "text": "Trigeminal post-herpetic neuralgia"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 16,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 16,
+                            "y0": 295,
+                            "y1": 295,
+                            "y2": 309,
+                            "y3": 309
+                        },
+                        "text": "HZ with other specified complications"
+                    },
+                    {
+                        "id": 20,
+                        "polygon": {
+                            "x0": 52,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 52,
+                            "y0": 116,
+                            "y1": 116,
+                            "y2": 144,
+                            "y3": 144
+                        },
+                        "text": "HZ with other Nervous System complications"
+                    },
+                    {
+                        "id": 21,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 0,
+                            "y0": 2,
+                            "y1": 2,
+                            "y2": 30,
+                            "y3": 30
+                        },
+                        "text": "HZ with unspecified complications of the\nNervous System"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 18,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 19,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 20,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 21,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 650,
+                            "x1": 665,
+                            "x2": 665,
+                            "x3": 650,
+                            "y0": 215,
+                            "y1": 215,
+                            "y2": 228,
+                            "y3": 228
+                        },
+                        "text": "%"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 628,
+                            "x1": 643,
+                            "x2": 643,
+                            "x3": 628,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 423,
+                            "y3": 423
+                        },
+                        "text": "60"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 560,
+                            "x1": 575,
+                            "x2": 575,
+                            "x3": 560,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 423,
+                            "y3": 423
+                        },
+                        "text": "50"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 492,
+                            "x1": 507,
+                            "x2": 507,
+                            "x3": 492,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 423,
+                            "y3": 423
+                        },
+                        "text": "40"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 424,
+                            "x1": 439,
+                            "x2": 439,
+                            "x3": 424,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 423,
+                            "y3": 423
+                        },
+                        "text": "30"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 356,
+                            "x1": 370,
+                            "x2": 370,
+                            "x3": 356,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 423,
+                            "y3": 423
+                        },
+                        "text": "20"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 288,
+                            "x1": 302,
+                            "x2": 302,
+                            "x3": 288,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 423,
+                            "y3": 423
+                        },
+                        "text": "10"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 222,
+                            "x1": 231,
+                            "x2": 231,
+                            "x3": 222,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 423,
+                            "y3": 423
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 176,
+                            "x1": 214,
+                            "x2": 214,
+                            "x3": 176,
+                            "y0": 209,
+                            "y1": 209,
+                            "y2": 221,
+                            "y3": 221
+                        },
+                        "text": "Uveitis"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 143,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 143,
+                            "y0": 266,
+                            "y1": 266,
+                            "y2": 278,
+                            "y3": 278
+                        },
+                        "text": "Otitis externa"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 121,
+                            "x1": 213,
+                            "x2": 213,
+                            "x3": 121,
+                            "y0": 152,
+                            "y1": 152,
+                            "y2": 166,
+                            "y3": 166
+                        },
+                        "text": "Eyelid dermatitis"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 113,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 113,
+                            "y0": 381,
+                            "y1": 381,
+                            "y2": 395,
+                            "y3": 395
+                        },
+                        "text": "HZ with meningitis"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 104,
+                            "x1": 213,
+                            "x2": 213,
+                            "x3": 104,
+                            "y0": 180,
+                            "y1": 180,
+                            "y2": 194,
+                            "y3": 194
+                        },
+                        "text": "Keratoconjunctivitis"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 77,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 77,
+                            "y0": 352,
+                            "y1": 352,
+                            "y2": 366,
+                            "y3": 366
+                        },
+                        "text": "HZ without complications"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 86,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 86,
+                            "y0": 37,
+                            "y1": 37,
+                            "y2": 52,
+                            "y3": 52
+                        },
+                        "text": "Ramsay Hunt syndrome"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 54,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 54,
+                            "y0": 95,
+                            "y1": 95,
+                            "y2": 109,
+                            "y3": 109
+                        },
+                        "text": "Post-herpetic poly-neuropathy"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 28,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 28,
+                            "y0": 238,
+                            "y1": 238,
+                            "y2": 252,
+                            "y3": 252
+                        },
+                        "text": "HZ with other ocular complications"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 33,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 33,
+                            "y0": 323,
+                            "y1": 323,
+                            "y2": 337,
+                            "y3": 337
+                        },
+                        "text": "HZ with unspecified complications"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 31,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 31,
+                            "y0": 66,
+                            "y1": 66,
+                            "y2": 80,
+                            "y3": 80
+                        },
+                        "text": "Trigeminal post-herpetic neuralgia"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 16,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 16,
+                            "y0": 295,
+                            "y1": 295,
+                            "y2": 309,
+                            "y3": 309
+                        },
+                        "text": "HZ with other specified complications"
+                    },
+                    {
+                        "id": 20,
+                        "polygon": {
+                            "x0": 52,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 52,
+                            "y0": 116,
+                            "y1": 116,
+                            "y2": 144,
+                            "y3": 144
+                        },
+                        "text": "HZ with other Nervous System complications"
+                    },
+                    {
+                        "id": 21,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 0,
+                            "y0": 2,
+                            "y1": 2,
+                            "y2": 30,
+                            "y3": 30
+                        },
+                        "text": "HZ with unspecified complications of the\nNervous System"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 400,
+                "width": 409,
+                "x0": 227,
+                "y0": 2
+            },
+            "axes": {
+                "_x-tick-type": "separators",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 227,
+                            "y": 215
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 227,
+                            "y": 272
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 227,
+                            "y": 159
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 227,
+                            "y": 388
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 227,
+                            "y": 187
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 227,
+                            "y": 359
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 227,
+                            "y": 44
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 227,
+                            "y": 102
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 227,
+                            "y": 245
+                        }
+                    },
+                    {
+                        "id": 17,
+                        "tick_pt": {
+                            "x": 227,
+                            "y": 330
+                        }
+                    },
+                    {
+                        "id": 18,
+                        "tick_pt": {
+                            "x": 227,
+                            "y": 73
+                        }
+                    },
+                    {
+                        "id": 19,
+                        "tick_pt": {
+                            "x": 227,
+                            "y": 302
+                        }
+                    },
+                    {
+                        "id": 20,
+                        "tick_pt": {
+                            "x": 227,
+                            "y": 130
+                        }
+                    },
+                    {
+                        "id": 21,
+                        "tick_pt": {
+                            "x": 227,
+                            "y": 16
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 227,
+                            "y": 402
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 295,
+                            "y": 402
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 363,
+                            "y": 402
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 431,
+                            "y": 402
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 500,
+                            "y": 402
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 568,
+                            "y": 402
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 636,
+                            "y": 402
+                        }
+                    }
+                ],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 650,
+                            "x1": 665,
+                            "x2": 665,
+                            "x3": 650,
+                            "y0": 215,
+                            "y1": 215,
+                            "y2": 228,
+                            "y3": 228
+                        },
+                        "text": "%"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 628,
+                            "x1": 643,
+                            "x2": 643,
+                            "x3": 628,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 423,
+                            "y3": 423
+                        },
+                        "text": "60"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 560,
+                            "x1": 575,
+                            "x2": 575,
+                            "x3": 560,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 423,
+                            "y3": 423
+                        },
+                        "text": "50"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 492,
+                            "x1": 507,
+                            "x2": 507,
+                            "x3": 492,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 423,
+                            "y3": 423
+                        },
+                        "text": "40"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 424,
+                            "x1": 439,
+                            "x2": 439,
+                            "x3": 424,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 423,
+                            "y3": 423
+                        },
+                        "text": "30"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 356,
+                            "x1": 370,
+                            "x2": 370,
+                            "x3": 356,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 423,
+                            "y3": 423
+                        },
+                        "text": "20"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 288,
+                            "x1": 302,
+                            "x2": 302,
+                            "x3": 288,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 423,
+                            "y3": 423
+                        },
+                        "text": "10"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 222,
+                            "x1": 231,
+                            "x2": 231,
+                            "x3": 222,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 423,
+                            "y3": 423
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 176,
+                            "x1": 214,
+                            "x2": 214,
+                            "x3": 176,
+                            "y0": 209,
+                            "y1": 209,
+                            "y2": 221,
+                            "y3": 221
+                        },
+                        "text": "Uveitis"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 143,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 143,
+                            "y0": 266,
+                            "y1": 266,
+                            "y2": 278,
+                            "y3": 278
+                        },
+                        "text": "Otitis externa"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 121,
+                            "x1": 213,
+                            "x2": 213,
+                            "x3": 121,
+                            "y0": 152,
+                            "y1": 152,
+                            "y2": 166,
+                            "y3": 166
+                        },
+                        "text": "Eyelid dermatitis"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 113,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 113,
+                            "y0": 381,
+                            "y1": 381,
+                            "y2": 395,
+                            "y3": 395
+                        },
+                        "text": "HZ with meningitis"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 104,
+                            "x1": 213,
+                            "x2": 213,
+                            "x3": 104,
+                            "y0": 180,
+                            "y1": 180,
+                            "y2": 194,
+                            "y3": 194
+                        },
+                        "text": "Keratoconjunctivitis"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 77,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 77,
+                            "y0": 352,
+                            "y1": 352,
+                            "y2": 366,
+                            "y3": 366
+                        },
+                        "text": "HZ without complications"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 86,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 86,
+                            "y0": 37,
+                            "y1": 37,
+                            "y2": 52,
+                            "y3": 52
+                        },
+                        "text": "Ramsay Hunt syndrome"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 54,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 54,
+                            "y0": 95,
+                            "y1": 95,
+                            "y2": 109,
+                            "y3": 109
+                        },
+                        "text": "Post-herpetic poly-neuropathy"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 28,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 28,
+                            "y0": 238,
+                            "y1": 238,
+                            "y2": 252,
+                            "y3": 252
+                        },
+                        "text": "HZ with other ocular complications"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 33,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 33,
+                            "y0": 323,
+                            "y1": 323,
+                            "y2": 337,
+                            "y3": 337
+                        },
+                        "text": "HZ with unspecified complications"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 31,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 31,
+                            "y0": 66,
+                            "y1": 66,
+                            "y2": 80,
+                            "y3": 80
+                        },
+                        "text": "Trigeminal post-herpetic neuralgia"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 16,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 16,
+                            "y0": 295,
+                            "y1": 295,
+                            "y2": 309,
+                            "y3": 309
+                        },
+                        "text": "HZ with other specified complications"
+                    },
+                    {
+                        "id": 20,
+                        "polygon": {
+                            "x0": 52,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 52,
+                            "y0": 116,
+                            "y1": 116,
+                            "y2": 144,
+                            "y3": 144
+                        },
+                        "text": "HZ with other Nervous System complications"
+                    },
+                    {
+                        "id": 21,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 0,
+                            "y0": 2,
+                            "y1": 2,
+                            "y2": 30,
+                            "y3": 30
+                        },
+                        "text": "HZ with unspecified complications of the\nNervous System"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 650,
+                            "x1": 665,
+                            "x2": 665,
+                            "x3": 650,
+                            "y0": 215,
+                            "y1": 215,
+                            "y2": 228,
+                            "y3": 228
+                        },
+                        "text": "%"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 628,
+                            "x1": 643,
+                            "x2": 643,
+                            "x3": 628,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 423,
+                            "y3": 423
+                        },
+                        "text": "60"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 560,
+                            "x1": 575,
+                            "x2": 575,
+                            "x3": 560,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 423,
+                            "y3": 423
+                        },
+                        "text": "50"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 492,
+                            "x1": 507,
+                            "x2": 507,
+                            "x3": 492,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 423,
+                            "y3": 423
+                        },
+                        "text": "40"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 424,
+                            "x1": 439,
+                            "x2": 439,
+                            "x3": 424,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 423,
+                            "y3": 423
+                        },
+                        "text": "30"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 356,
+                            "x1": 370,
+                            "x2": 370,
+                            "x3": 356,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 423,
+                            "y3": 423
+                        },
+                        "text": "20"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 288,
+                            "x1": 302,
+                            "x2": 302,
+                            "x3": 288,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 423,
+                            "y3": 423
+                        },
+                        "text": "10"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 222,
+                            "x1": 231,
+                            "x2": 231,
+                            "x3": 222,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 423,
+                            "y3": 423
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 176,
+                            "x1": 214,
+                            "x2": 214,
+                            "x3": 176,
+                            "y0": 209,
+                            "y1": 209,
+                            "y2": 221,
+                            "y3": 221
+                        },
+                        "text": "Uveitis"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 143,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 143,
+                            "y0": 266,
+                            "y1": 266,
+                            "y2": 278,
+                            "y3": 278
+                        },
+                        "text": "Otitis externa"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 121,
+                            "x1": 213,
+                            "x2": 213,
+                            "x3": 121,
+                            "y0": 152,
+                            "y1": 152,
+                            "y2": 166,
+                            "y3": 166
+                        },
+                        "text": "Eyelid dermatitis"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 113,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 113,
+                            "y0": 381,
+                            "y1": 381,
+                            "y2": 395,
+                            "y3": 395
+                        },
+                        "text": "HZ with meningitis"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 104,
+                            "x1": 213,
+                            "x2": 213,
+                            "x3": 104,
+                            "y0": 180,
+                            "y1": 180,
+                            "y2": 194,
+                            "y3": 194
+                        },
+                        "text": "Keratoconjunctivitis"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 77,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 77,
+                            "y0": 352,
+                            "y1": 352,
+                            "y2": 366,
+                            "y3": 366
+                        },
+                        "text": "HZ without complications"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 86,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 86,
+                            "y0": 37,
+                            "y1": 37,
+                            "y2": 52,
+                            "y3": 52
+                        },
+                        "text": "Ramsay Hunt syndrome"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 54,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 54,
+                            "y0": 95,
+                            "y1": 95,
+                            "y2": 109,
+                            "y3": 109
+                        },
+                        "text": "Post-herpetic poly-neuropathy"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 28,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 28,
+                            "y0": 238,
+                            "y1": 238,
+                            "y2": 252,
+                            "y3": 252
+                        },
+                        "text": "HZ with other ocular complications"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 33,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 33,
+                            "y0": 323,
+                            "y1": 323,
+                            "y2": 337,
+                            "y3": 337
+                        },
+                        "text": "HZ with unspecified complications"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 31,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 31,
+                            "y0": 66,
+                            "y1": 66,
+                            "y2": 80,
+                            "y3": 80
+                        },
+                        "text": "Trigeminal post-herpetic neuralgia"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 16,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 16,
+                            "y0": 295,
+                            "y1": 295,
+                            "y2": 309,
+                            "y3": 309
+                        },
+                        "text": "HZ with other specified complications"
+                    },
+                    {
+                        "id": 20,
+                        "polygon": {
+                            "x0": 52,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 52,
+                            "y0": 116,
+                            "y1": 116,
+                            "y2": 144,
+                            "y3": 144
+                        },
+                        "text": "HZ with other Nervous System complications"
+                    },
+                    {
+                        "id": 21,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 216,
+                            "x2": 216,
+                            "x3": 0,
+                            "y0": 2,
+                            "y1": 2,
+                            "y2": 30,
+                            "y3": 30
+                        },
+                        "text": "HZ with unspecified complications of the\nNervous System"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 18,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 19,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 20,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 21,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 400,
+                    "width": 409,
+                    "x0": 227,
+                    "y0": 2
+                },
+                "axes": {
+                    "_x-tick-type": "separators",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": "markers",
+                    "_y2-tick-type": null,
+                    "x-axis": [
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 227,
+                                "y": 215
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 227,
+                                "y": 272
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 227,
+                                "y": 159
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 227,
+                                "y": 388
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 227,
+                                "y": 187
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 227,
+                                "y": 359
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 227,
+                                "y": 44
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 227,
+                                "y": 102
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "tick_pt": {
+                                "x": 227,
+                                "y": 245
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "tick_pt": {
+                                "x": 227,
+                                "y": 330
+                            }
+                        },
+                        {
+                            "id": 18,
+                            "tick_pt": {
+                                "x": 227,
+                                "y": 73
+                            }
+                        },
+                        {
+                            "id": 19,
+                            "tick_pt": {
+                                "x": 227,
+                                "y": 302
+                            }
+                        },
+                        {
+                            "id": 20,
+                            "tick_pt": {
+                                "x": 227,
+                                "y": 130
+                            }
+                        },
+                        {
+                            "id": 21,
+                            "tick_pt": {
+                                "x": 227,
+                                "y": 16
+                            }
+                        }
+                    ],
+                    "x-axis-2": [],
+                    "y-axis": [
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 227,
+                                "y": 402
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 295,
+                                "y": 402
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 363,
+                                "y": 402
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 431,
+                                "y": 402
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 500,
+                                "y": 402
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 568,
+                                "y": 402
+                            }
+                        },
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 636,
+                                "y": 402
+                            }
+                        }
+                    ],
+                    "y-axis-2": []
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "HZ with unspecified complications of the\nNervous System",
+                            "y": 7.3763484632607375
+                        },
+                        {
+                            "x": "Ramsay Hunt syndrome",
+                            "y": 2.613474455526156
+                        },
+                        {
+                            "x": "Trigeminal post-herpetic neuralgia",
+                            "y": 2.540199470791778
+                        },
+                        {
+                            "x": "Post-herpetic poly-neuropathy",
+                            "y": 3.419499287604316
+                        },
+                        {
+                            "x": "HZ with other Nervous System complications",
+                            "y": 5.910848768573174
+                        },
+                        {
+                            "x": "Eyelid dermatitis",
+                            "y": 5.324648890698149
+                        },
+                        {
+                            "x": "Keratoconjunctivitis",
+                            "y": 4.298799104416854
+                        },
+                        {
+                            "x": "Uveitis",
+                            "y": 0.85487482190108
+                        },
+                        {
+                            "x": "HZ with other ocular complications",
+                            "y": 4.591899043354367
+                        },
+                        {
+                            "x": "Otitis externa",
+                            "y": 1.9539995929167526
+                        },
+                        {
+                            "x": "HZ with other specified complications",
+                            "y": 4.298799104416854
+                        },
+                        {
+                            "x": "HZ with unspecified complications",
+                            "y": 2.7600244249949126
+                        },
+                        {
+                            "x": "HZ without complications",
+                            "y": 51.92753918176266
+                        },
+                        {
+                            "x": "HZ with meningitis",
+                            "y": 1.66089965397924
+                        }
+                    ],
+                    "name": "[unnamed data series #0]"
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 11,
+                        "width": 51,
+                        "x0": 226,
+                        "y0": 9
+                    },
+                    {
+                        "height": 11,
+                        "width": 18,
+                        "x0": 226,
+                        "y0": 38
+                    },
+                    {
+                        "height": 11,
+                        "width": 18,
+                        "x0": 226,
+                        "y0": 66
+                    },
+                    {
+                        "height": 11,
+                        "width": 24,
+                        "x0": 226,
+                        "y0": 95
+                    },
+                    {
+                        "height": 11,
+                        "width": 41,
+                        "x0": 226,
+                        "y0": 123
+                    },
+                    {
+                        "height": 11,
+                        "width": 37,
+                        "x0": 226,
+                        "y0": 152
+                    },
+                    {
+                        "height": 11,
+                        "width": 30,
+                        "x0": 226,
+                        "y0": 181
+                    },
+                    {
+                        "height": 11,
+                        "width": 6,
+                        "x0": 226,
+                        "y0": 209
+                    },
+                    {
+                        "height": 11,
+                        "width": 32,
+                        "x0": 226,
+                        "y0": 238
+                    },
+                    {
+                        "height": 11,
+                        "width": 14,
+                        "x0": 226,
+                        "y0": 266
+                    },
+                    {
+                        "height": 11,
+                        "width": 30,
+                        "x0": 226,
+                        "y0": 295
+                    },
+                    {
+                        "height": 11,
+                        "width": 20,
+                        "x0": 226,
+                        "y0": 324
+                    },
+                    {
+                        "height": 11,
+                        "width": 355,
+                        "x0": 226,
+                        "y0": 352
+                    },
+                    {
+                        "height": 11,
+                        "width": 12,
+                        "x0": 226,
+                        "y0": 381
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

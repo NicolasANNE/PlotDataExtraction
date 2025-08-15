@@ -1,0 +1,981 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 0,
+                        "x1": 26,
+                        "x2": 26,
+                        "x3": 0,
+                        "y0": 26,
+                        "y1": 26,
+                        "y2": 327,
+                        "y3": 327
+                    },
+                    "text": "Relative mtDNA quantity"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 195,
+                        "x1": 327,
+                        "x2": 327,
+                        "x3": 195,
+                        "y0": 379,
+                        "y1": 379,
+                        "y2": 440,
+                        "y3": 440
+                    },
+                    "text": "Euploid\nblastocysts"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 506,
+                        "x1": 638,
+                        "x2": 638,
+                        "x3": 506,
+                        "y0": 380,
+                        "y1": 380,
+                        "y2": 442,
+                        "y3": 442
+                    },
+                    "text": "Aneuploid\nblastocysts"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 49,
+                        "x1": 91,
+                        "x2": 91,
+                        "x3": 49,
+                        "y0": 2,
+                        "y1": 2,
+                        "y2": 21,
+                        "y3": 21
+                    },
+                    "text": "0.4"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 49,
+                        "x1": 90,
+                        "x2": 90,
+                        "x3": 49,
+                        "y0": 84,
+                        "y1": 84,
+                        "y2": 103,
+                        "y3": 103
+                    },
+                    "text": "0.3"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 49,
+                        "x1": 90,
+                        "x2": 90,
+                        "x3": 49,
+                        "y0": 169,
+                        "y1": 169,
+                        "y2": 189,
+                        "y3": 189
+                    },
+                    "text": "0.2"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 49,
+                        "x1": 89,
+                        "x2": 89,
+                        "x3": 49,
+                        "y0": 254,
+                        "y1": 254,
+                        "y2": 274,
+                        "y3": 274
+                    },
+                    "text": "0.1"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 49,
+                        "x1": 90,
+                        "x2": 90,
+                        "x3": 49,
+                        "y0": 338,
+                        "y1": 338,
+                        "y2": 358,
+                        "y3": 358
+                    },
+                    "text": "0.0"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 26,
+                            "x2": 26,
+                            "x3": 0,
+                            "y0": 26,
+                            "y1": 26,
+                            "y2": 327,
+                            "y3": 327
+                        },
+                        "text": "Relative mtDNA quantity"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 195,
+                            "x1": 327,
+                            "x2": 327,
+                            "x3": 195,
+                            "y0": 379,
+                            "y1": 379,
+                            "y2": 440,
+                            "y3": 440
+                        },
+                        "text": "Euploid\nblastocysts"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 506,
+                            "x1": 638,
+                            "x2": 638,
+                            "x3": 506,
+                            "y0": 380,
+                            "y1": 380,
+                            "y2": 442,
+                            "y3": 442
+                        },
+                        "text": "Aneuploid\nblastocysts"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 49,
+                            "x1": 91,
+                            "x2": 91,
+                            "x3": 49,
+                            "y0": 2,
+                            "y1": 2,
+                            "y2": 21,
+                            "y3": 21
+                        },
+                        "text": "0.4"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 49,
+                            "x1": 90,
+                            "x2": 90,
+                            "x3": 49,
+                            "y0": 84,
+                            "y1": 84,
+                            "y2": 103,
+                            "y3": 103
+                        },
+                        "text": "0.3"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 49,
+                            "x1": 90,
+                            "x2": 90,
+                            "x3": 49,
+                            "y0": 169,
+                            "y1": 169,
+                            "y2": 189,
+                            "y3": 189
+                        },
+                        "text": "0.2"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 49,
+                            "x1": 89,
+                            "x2": 89,
+                            "x3": 49,
+                            "y0": 254,
+                            "y1": 254,
+                            "y2": 274,
+                            "y3": 274
+                        },
+                        "text": "0.1"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 49,
+                            "x1": 90,
+                            "x2": 90,
+                            "x3": 49,
+                            "y0": 338,
+                            "y1": 338,
+                            "y2": 358,
+                            "y3": 358
+                        },
+                        "text": "0.0"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 26,
+                            "x2": 26,
+                            "x3": 0,
+                            "y0": 26,
+                            "y1": 26,
+                            "y2": 327,
+                            "y3": 327
+                        },
+                        "text": "Relative mtDNA quantity"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 195,
+                            "x1": 327,
+                            "x2": 327,
+                            "x3": 195,
+                            "y0": 379,
+                            "y1": 379,
+                            "y2": 440,
+                            "y3": 440
+                        },
+                        "text": "Euploid\nblastocysts"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 506,
+                            "x1": 638,
+                            "x2": 638,
+                            "x3": 506,
+                            "y0": 380,
+                            "y1": 380,
+                            "y2": 442,
+                            "y3": 442
+                        },
+                        "text": "Aneuploid\nblastocysts"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 49,
+                            "x1": 91,
+                            "x2": 91,
+                            "x3": 49,
+                            "y0": 2,
+                            "y1": 2,
+                            "y2": 21,
+                            "y3": 21
+                        },
+                        "text": "0.4"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 49,
+                            "x1": 90,
+                            "x2": 90,
+                            "x3": 49,
+                            "y0": 84,
+                            "y1": 84,
+                            "y2": 103,
+                            "y3": 103
+                        },
+                        "text": "0.3"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 49,
+                            "x1": 90,
+                            "x2": 90,
+                            "x3": 49,
+                            "y0": 169,
+                            "y1": 169,
+                            "y2": 189,
+                            "y3": 189
+                        },
+                        "text": "0.2"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 49,
+                            "x1": 89,
+                            "x2": 89,
+                            "x3": 49,
+                            "y0": 254,
+                            "y1": 254,
+                            "y2": 274,
+                            "y3": 274
+                        },
+                        "text": "0.1"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 49,
+                            "x1": 90,
+                            "x2": 90,
+                            "x3": 49,
+                            "y0": 338,
+                            "y1": 338,
+                            "y2": 358,
+                            "y3": 358
+                        },
+                        "text": "0.0"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 339,
+                "width": 619,
+                "x0": 107,
+                "y0": 10
+            },
+            "axes": {
+                "_x-tick-type": "markers",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 262,
+                            "y": 349
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 572,
+                            "y": 349
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 107,
+                            "y": 10
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 107,
+                            "y": 95
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 107,
+                            "y": 179
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 107,
+                            "y": 264
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 107,
+                            "y": 349
+                        }
+                    }
+                ],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 26,
+                            "x2": 26,
+                            "x3": 0,
+                            "y0": 26,
+                            "y1": 26,
+                            "y2": 327,
+                            "y3": 327
+                        },
+                        "text": "Relative mtDNA quantity"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 195,
+                            "x1": 327,
+                            "x2": 327,
+                            "x3": 195,
+                            "y0": 379,
+                            "y1": 379,
+                            "y2": 440,
+                            "y3": 440
+                        },
+                        "text": "Euploid\nblastocysts"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 506,
+                            "x1": 638,
+                            "x2": 638,
+                            "x3": 506,
+                            "y0": 380,
+                            "y1": 380,
+                            "y2": 442,
+                            "y3": 442
+                        },
+                        "text": "Aneuploid\nblastocysts"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 49,
+                            "x1": 91,
+                            "x2": 91,
+                            "x3": 49,
+                            "y0": 2,
+                            "y1": 2,
+                            "y2": 21,
+                            "y3": 21
+                        },
+                        "text": "0.4"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 49,
+                            "x1": 90,
+                            "x2": 90,
+                            "x3": 49,
+                            "y0": 84,
+                            "y1": 84,
+                            "y2": 103,
+                            "y3": 103
+                        },
+                        "text": "0.3"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 49,
+                            "x1": 90,
+                            "x2": 90,
+                            "x3": 49,
+                            "y0": 169,
+                            "y1": 169,
+                            "y2": 189,
+                            "y3": 189
+                        },
+                        "text": "0.2"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 49,
+                            "x1": 89,
+                            "x2": 89,
+                            "x3": 49,
+                            "y0": 254,
+                            "y1": 254,
+                            "y2": 274,
+                            "y3": 274
+                        },
+                        "text": "0.1"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 49,
+                            "x1": 90,
+                            "x2": 90,
+                            "x3": 49,
+                            "y0": 338,
+                            "y1": 338,
+                            "y2": 358,
+                            "y3": 358
+                        },
+                        "text": "0.0"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 26,
+                            "x2": 26,
+                            "x3": 0,
+                            "y0": 26,
+                            "y1": 26,
+                            "y2": 327,
+                            "y3": 327
+                        },
+                        "text": "Relative mtDNA quantity"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 195,
+                            "x1": 327,
+                            "x2": 327,
+                            "x3": 195,
+                            "y0": 379,
+                            "y1": 379,
+                            "y2": 440,
+                            "y3": 440
+                        },
+                        "text": "Euploid\nblastocysts"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 506,
+                            "x1": 638,
+                            "x2": 638,
+                            "x3": 506,
+                            "y0": 380,
+                            "y1": 380,
+                            "y2": 442,
+                            "y3": 442
+                        },
+                        "text": "Aneuploid\nblastocysts"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 49,
+                            "x1": 91,
+                            "x2": 91,
+                            "x3": 49,
+                            "y0": 2,
+                            "y1": 2,
+                            "y2": 21,
+                            "y3": 21
+                        },
+                        "text": "0.4"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 49,
+                            "x1": 90,
+                            "x2": 90,
+                            "x3": 49,
+                            "y0": 84,
+                            "y1": 84,
+                            "y2": 103,
+                            "y3": 103
+                        },
+                        "text": "0.3"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 49,
+                            "x1": 90,
+                            "x2": 90,
+                            "x3": 49,
+                            "y0": 169,
+                            "y1": 169,
+                            "y2": 189,
+                            "y3": 189
+                        },
+                        "text": "0.2"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 49,
+                            "x1": 89,
+                            "x2": 89,
+                            "x3": 49,
+                            "y0": 254,
+                            "y1": 254,
+                            "y2": 274,
+                            "y3": 274
+                        },
+                        "text": "0.1"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 49,
+                            "x1": 90,
+                            "x2": 90,
+                            "x3": 49,
+                            "y0": 338,
+                            "y1": 338,
+                            "y2": 358,
+                            "y3": 358
+                        },
+                        "text": "0.0"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 339,
+                    "width": 619,
+                    "x0": 107,
+                    "y0": 10
+                },
+                "axes": {
+                    "_x-tick-type": "markers",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": "markers",
+                    "_y2-tick-type": null,
+                    "x-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 262,
+                                "y": 349
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 572,
+                                "y": 349
+                            }
+                        }
+                    ],
+                    "x-axis-2": [],
+                    "y-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 107,
+                                "y": 10
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 107,
+                                "y": 95
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 107,
+                                "y": 179
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 107,
+                                "y": 264
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 107,
+                                "y": 349
+                            }
+                        }
+                    ],
+                    "y-axis-2": []
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "first_quartile": 0.02842669551959872,
+                            "max": 0.12497909801800033,
+                            "median": 0.02842669551959872,
+                            "min": 0.012373973343825324,
+                            "third_quartile": 0.0919293758914081,
+                            "x": "Euploid\nblastocysts"
+                        },
+                        {
+                            "first_quartile": 0.08225052869719181,
+                            "max": 0.2921162642010525,
+                            "median": 0.10609354251709048,
+                            "min": 0.02370530664437126,
+                            "third_quartile": 0.1929670978212758,
+                            "x": "Aneuploid\nblastocysts"
+                        }
+                    ],
+                    "name": "[unnamed data series #0]"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 208.0,
+                                "x0": 158.0,
+                                "y0": 325.0
+                            },
+                            "x": 262.0,
+                            "y": 325.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 208.0,
+                                "x0": 158.0,
+                                "y0": 243.0
+                            },
+                            "x": 262.0,
+                            "y": 243.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 208.0,
+                                "x0": 158.0,
+                                "y0": 325.0
+                            },
+                            "x": 262.0,
+                            "y": 325.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 208.0,
+                                "x0": 158.0,
+                                "y0": 338.0
+                            },
+                            "x": 262.0,
+                            "y": 338.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 208.0,
+                                "x0": 158.0,
+                                "y0": 271.0
+                            },
+                            "x": 262.0,
+                            "y": 271.0
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 208.0,
+                                "x0": 467.0,
+                                "y0": 279.0
+                            },
+                            "x": 571.0,
+                            "y": 279.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 208.0,
+                                "x0": 467.0,
+                                "y0": 101.0
+                            },
+                            "x": 571.0,
+                            "y": 101.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 208.0,
+                                "x0": 467.0,
+                                "y0": 259.0
+                            },
+                            "x": 571.0,
+                            "y": 259.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 208.0,
+                                "x0": 467.0,
+                                "y0": 329.0
+                            },
+                            "x": 571.0,
+                            "y": 329.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 208.0,
+                                "x0": 467.0,
+                                "y0": 185.0
+                            },
+                            "x": 571.0,
+                            "y": 185.0
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

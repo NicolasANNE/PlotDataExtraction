@@ -1,0 +1,983 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "vertical bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 3,
+                        "x1": 33,
+                        "x2": 33,
+                        "x3": 3,
+                        "y0": 73,
+                        "y1": 73,
+                        "y2": 467,
+                        "y3": 467
+                    },
+                    "text": "Mean (\\pm  SE) total bees per plot"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 140,
+                        "x1": 274,
+                        "x2": 274,
+                        "x3": 140,
+                        "y0": 554,
+                        "y1": 554,
+                        "y2": 576,
+                        "y3": 576
+                    },
+                    "text": "Clothianidin"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 290,
+                        "x1": 499,
+                        "x2": 499,
+                        "x3": 290,
+                        "y0": 554,
+                        "y1": 554,
+                        "y2": 581,
+                        "y3": 581
+                    },
+                    "text": "Chlorantraniliprole"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 525,
+                        "x1": 637,
+                        "x2": 637,
+                        "x3": 525,
+                        "y0": 554,
+                        "y1": 554,
+                        "y2": 576,
+                        "y3": 576
+                    },
+                    "text": "Untreated"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 60,
+                        "x1": 84,
+                        "x2": 84,
+                        "x3": 60,
+                        "y0": 3,
+                        "y1": 3,
+                        "y2": 22,
+                        "y3": 22
+                    },
+                    "text": "20"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 60,
+                        "x1": 84,
+                        "x2": 84,
+                        "x3": 60,
+                        "y0": 134,
+                        "y1": 134,
+                        "y2": 152,
+                        "y3": 152
+                    },
+                    "text": "15"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 61,
+                        "x1": 84,
+                        "x2": 84,
+                        "x3": 61,
+                        "y0": 264,
+                        "y1": 264,
+                        "y2": 283,
+                        "y3": 283
+                    },
+                    "text": "10"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 71,
+                        "x1": 84,
+                        "x2": 84,
+                        "x3": 71,
+                        "y0": 395,
+                        "y1": 395,
+                        "y2": 413,
+                        "y3": 413
+                    },
+                    "text": "5"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 71,
+                        "x1": 83,
+                        "x2": 83,
+                        "x3": 71,
+                        "y0": 525,
+                        "y1": 525,
+                        "y2": 544,
+                        "y3": 544
+                    },
+                    "text": "0"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 3,
+                            "x1": 33,
+                            "x2": 33,
+                            "x3": 3,
+                            "y0": 73,
+                            "y1": 73,
+                            "y2": 467,
+                            "y3": 467
+                        },
+                        "text": "Mean (\\pm  SE) total bees per plot"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 140,
+                            "x1": 274,
+                            "x2": 274,
+                            "x3": 140,
+                            "y0": 554,
+                            "y1": 554,
+                            "y2": 576,
+                            "y3": 576
+                        },
+                        "text": "Clothianidin"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 290,
+                            "x1": 499,
+                            "x2": 499,
+                            "x3": 290,
+                            "y0": 554,
+                            "y1": 554,
+                            "y2": 581,
+                            "y3": 581
+                        },
+                        "text": "Chlorantraniliprole"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 525,
+                            "x1": 637,
+                            "x2": 637,
+                            "x3": 525,
+                            "y0": 554,
+                            "y1": 554,
+                            "y2": 576,
+                            "y3": 576
+                        },
+                        "text": "Untreated"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 60,
+                            "x1": 84,
+                            "x2": 84,
+                            "x3": 60,
+                            "y0": 3,
+                            "y1": 3,
+                            "y2": 22,
+                            "y3": 22
+                        },
+                        "text": "20"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 60,
+                            "x1": 84,
+                            "x2": 84,
+                            "x3": 60,
+                            "y0": 134,
+                            "y1": 134,
+                            "y2": 152,
+                            "y3": 152
+                        },
+                        "text": "15"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 84,
+                            "x2": 84,
+                            "x3": 61,
+                            "y0": 264,
+                            "y1": 264,
+                            "y2": 283,
+                            "y3": 283
+                        },
+                        "text": "10"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 71,
+                            "x1": 84,
+                            "x2": 84,
+                            "x3": 71,
+                            "y0": 395,
+                            "y1": 395,
+                            "y2": 413,
+                            "y3": 413
+                        },
+                        "text": "5"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 71,
+                            "x1": 83,
+                            "x2": 83,
+                            "x3": 71,
+                            "y0": 525,
+                            "y1": 525,
+                            "y2": 544,
+                            "y3": 544
+                        },
+                        "text": "0"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 3,
+                            "x1": 33,
+                            "x2": 33,
+                            "x3": 3,
+                            "y0": 73,
+                            "y1": 73,
+                            "y2": 467,
+                            "y3": 467
+                        },
+                        "text": "Mean (\\pm  SE) total bees per plot"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 140,
+                            "x1": 274,
+                            "x2": 274,
+                            "x3": 140,
+                            "y0": 554,
+                            "y1": 554,
+                            "y2": 576,
+                            "y3": 576
+                        },
+                        "text": "Clothianidin"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 290,
+                            "x1": 499,
+                            "x2": 499,
+                            "x3": 290,
+                            "y0": 554,
+                            "y1": 554,
+                            "y2": 581,
+                            "y3": 581
+                        },
+                        "text": "Chlorantraniliprole"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 525,
+                            "x1": 637,
+                            "x2": 637,
+                            "x3": 525,
+                            "y0": 554,
+                            "y1": 554,
+                            "y2": 576,
+                            "y3": 576
+                        },
+                        "text": "Untreated"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 60,
+                            "x1": 84,
+                            "x2": 84,
+                            "x3": 60,
+                            "y0": 3,
+                            "y1": 3,
+                            "y2": 22,
+                            "y3": 22
+                        },
+                        "text": "20"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 60,
+                            "x1": 84,
+                            "x2": 84,
+                            "x3": 60,
+                            "y0": 134,
+                            "y1": 134,
+                            "y2": 152,
+                            "y3": 152
+                        },
+                        "text": "15"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 84,
+                            "x2": 84,
+                            "x3": 61,
+                            "y0": 264,
+                            "y1": 264,
+                            "y2": 283,
+                            "y3": 283
+                        },
+                        "text": "10"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 71,
+                            "x1": 84,
+                            "x2": 84,
+                            "x3": 71,
+                            "y0": 395,
+                            "y1": 395,
+                            "y2": 413,
+                            "y3": 413
+                        },
+                        "text": "5"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 71,
+                            "x1": 83,
+                            "x2": 83,
+                            "x3": 71,
+                            "y0": 525,
+                            "y1": 525,
+                            "y2": 544,
+                            "y3": 544
+                        },
+                        "text": "0"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 522,
+                "width": 589,
+                "x0": 100,
+                "y0": 9
+            },
+            "axes": {
+                "_x-tick-type": "markers",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 209,
+                            "y": 532
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 394,
+                            "y": 532
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 580,
+                            "y": 532
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 100,
+                            "y": 9
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 100,
+                            "y": 140
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 100,
+                            "y": 270
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 100,
+                            "y": 401
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 100,
+                            "y": 532
+                        }
+                    }
+                ],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 3,
+                            "x1": 33,
+                            "x2": 33,
+                            "x3": 3,
+                            "y0": 73,
+                            "y1": 73,
+                            "y2": 467,
+                            "y3": 467
+                        },
+                        "text": "Mean (\\pm  SE) total bees per plot"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 140,
+                            "x1": 274,
+                            "x2": 274,
+                            "x3": 140,
+                            "y0": 554,
+                            "y1": 554,
+                            "y2": 576,
+                            "y3": 576
+                        },
+                        "text": "Clothianidin"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 290,
+                            "x1": 499,
+                            "x2": 499,
+                            "x3": 290,
+                            "y0": 554,
+                            "y1": 554,
+                            "y2": 581,
+                            "y3": 581
+                        },
+                        "text": "Chlorantraniliprole"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 525,
+                            "x1": 637,
+                            "x2": 637,
+                            "x3": 525,
+                            "y0": 554,
+                            "y1": 554,
+                            "y2": 576,
+                            "y3": 576
+                        },
+                        "text": "Untreated"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 60,
+                            "x1": 84,
+                            "x2": 84,
+                            "x3": 60,
+                            "y0": 3,
+                            "y1": 3,
+                            "y2": 22,
+                            "y3": 22
+                        },
+                        "text": "20"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 60,
+                            "x1": 84,
+                            "x2": 84,
+                            "x3": 60,
+                            "y0": 134,
+                            "y1": 134,
+                            "y2": 152,
+                            "y3": 152
+                        },
+                        "text": "15"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 84,
+                            "x2": 84,
+                            "x3": 61,
+                            "y0": 264,
+                            "y1": 264,
+                            "y2": 283,
+                            "y3": 283
+                        },
+                        "text": "10"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 71,
+                            "x1": 84,
+                            "x2": 84,
+                            "x3": 71,
+                            "y0": 395,
+                            "y1": 395,
+                            "y2": 413,
+                            "y3": 413
+                        },
+                        "text": "5"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 71,
+                            "x1": 83,
+                            "x2": 83,
+                            "x3": 71,
+                            "y0": 525,
+                            "y1": 525,
+                            "y2": 544,
+                            "y3": 544
+                        },
+                        "text": "0"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 3,
+                            "x1": 33,
+                            "x2": 33,
+                            "x3": 3,
+                            "y0": 73,
+                            "y1": 73,
+                            "y2": 467,
+                            "y3": 467
+                        },
+                        "text": "Mean (\\pm  SE) total bees per plot"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 140,
+                            "x1": 274,
+                            "x2": 274,
+                            "x3": 140,
+                            "y0": 554,
+                            "y1": 554,
+                            "y2": 576,
+                            "y3": 576
+                        },
+                        "text": "Clothianidin"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 290,
+                            "x1": 499,
+                            "x2": 499,
+                            "x3": 290,
+                            "y0": 554,
+                            "y1": 554,
+                            "y2": 581,
+                            "y3": 581
+                        },
+                        "text": "Chlorantraniliprole"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 525,
+                            "x1": 637,
+                            "x2": 637,
+                            "x3": 525,
+                            "y0": 554,
+                            "y1": 554,
+                            "y2": 576,
+                            "y3": 576
+                        },
+                        "text": "Untreated"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 60,
+                            "x1": 84,
+                            "x2": 84,
+                            "x3": 60,
+                            "y0": 3,
+                            "y1": 3,
+                            "y2": 22,
+                            "y3": 22
+                        },
+                        "text": "20"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 60,
+                            "x1": 84,
+                            "x2": 84,
+                            "x3": 60,
+                            "y0": 134,
+                            "y1": 134,
+                            "y2": 152,
+                            "y3": 152
+                        },
+                        "text": "15"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 84,
+                            "x2": 84,
+                            "x3": 61,
+                            "y0": 264,
+                            "y1": 264,
+                            "y2": 283,
+                            "y3": 283
+                        },
+                        "text": "10"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 71,
+                            "x1": 84,
+                            "x2": 84,
+                            "x3": 71,
+                            "y0": 395,
+                            "y1": 395,
+                            "y2": 413,
+                            "y3": 413
+                        },
+                        "text": "5"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 71,
+                            "x1": 83,
+                            "x2": 83,
+                            "x3": 71,
+                            "y0": 525,
+                            "y1": 525,
+                            "y2": 544,
+                            "y3": 544
+                        },
+                        "text": "0"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 522,
+                    "width": 589,
+                    "x0": 100,
+                    "y0": 9
+                },
+                "axes": {
+                    "_x-tick-type": "markers",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": "markers",
+                    "_y2-tick-type": null,
+                    "x-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 209,
+                                "y": 532
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 394,
+                                "y": 532
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 580,
+                                "y": 532
+                            }
+                        }
+                    ],
+                    "x-axis-2": [],
+                    "y-axis": [
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 100,
+                                "y": 9
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 100,
+                                "y": 140
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 100,
+                                "y": 270
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 100,
+                                "y": 401
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 100,
+                                "y": 532
+                            }
+                        }
+                    ],
+                    "y-axis-2": []
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Clothianidin",
+                            "y": 14.985645933014354
+                        },
+                        {
+                            "x": "Chlorantraniliprole",
+                            "y": 15.980861244019138
+                        },
+                        {
+                            "x": "Untreated",
+                            "y": 14.985645933014354
+                        }
+                    ],
+                    "name": "[unnamed data series #0]"
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 391,
+                        "width": 124,
+                        "x0": 146,
+                        "y0": 140
+                    },
+                    {
+                        "height": 417,
+                        "width": 124,
+                        "x0": 332,
+                        "y0": 114
+                    },
+                    {
+                        "height": 391,
+                        "width": 125,
+                        "x0": 518,
+                        "y0": 140
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

@@ -1,0 +1,1437 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 52,
+                        "x1": 90,
+                        "x2": 90,
+                        "x3": 52,
+                        "y0": 32,
+                        "y1": 32,
+                        "y2": 49,
+                        "y3": 49
+                    },
+                    "text": "3.50"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 52,
+                        "x1": 90,
+                        "x2": 90,
+                        "x3": 52,
+                        "y0": 132,
+                        "y1": 132,
+                        "y2": 148,
+                        "y3": 148
+                    },
+                    "text": "3.00"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 52,
+                        "x1": 92,
+                        "x2": 92,
+                        "x3": 52,
+                        "y0": 233,
+                        "y1": 233,
+                        "y2": 249,
+                        "y3": 249
+                    },
+                    "text": "2.50"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 51,
+                        "x1": 91,
+                        "x2": 91,
+                        "x3": 51,
+                        "y0": 332,
+                        "y1": 332,
+                        "y2": 349,
+                        "y3": 349
+                    },
+                    "text": "2.00"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 54,
+                        "x1": 94,
+                        "x2": 94,
+                        "x3": 54,
+                        "y0": 433,
+                        "y1": 433,
+                        "y2": 450,
+                        "y3": 450
+                    },
+                    "text": "1.50"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 142,
+                        "x1": 243,
+                        "x2": 243,
+                        "x3": 142,
+                        "y0": 479,
+                        "y1": 479,
+                        "y2": 542,
+                        "y3": 542
+                    },
+                    "text": "Non-\npathogenic\nsingle"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 255,
+                        "x1": 355,
+                        "x2": 355,
+                        "x3": 255,
+                        "y0": 479,
+                        "y1": 479,
+                        "y2": 537,
+                        "y3": 537
+                    },
+                    "text": "Non-\npathogenic\nmix"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 365,
+                        "x1": 472,
+                        "x2": 472,
+                        "x3": 365,
+                        "y0": 479,
+                        "y1": 479,
+                        "y2": 557,
+                        "y3": 557
+                    },
+                    "text": "Non-\npathogenic-\npathogenic\nmix"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 480,
+                        "x1": 583,
+                        "x2": 583,
+                        "x3": 480,
+                        "y0": 479,
+                        "y1": 479,
+                        "y2": 521,
+                        "y3": 521
+                    },
+                    "text": "Pathogenic\nsingle"
+                },
+                {
+                    "id": 9,
+                    "polygon": {
+                        "x0": 593,
+                        "x1": 696,
+                        "x2": 696,
+                        "x3": 593,
+                        "y0": 475,
+                        "y1": 475,
+                        "y2": 516,
+                        "y3": 516
+                    },
+                    "text": "Pathogenic\nmix"
+                },
+                {
+                    "id": 10,
+                    "polygon": {
+                        "x0": 21,
+                        "x1": 44,
+                        "x2": 44,
+                        "x3": 21,
+                        "y0": 74,
+                        "y1": 74,
+                        "y2": 405,
+                        "y3": 405
+                    },
+                    "text": "Mean (log10 (population size +1))"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 52,
+                            "x1": 90,
+                            "x2": 90,
+                            "x3": 52,
+                            "y0": 32,
+                            "y1": 32,
+                            "y2": 49,
+                            "y3": 49
+                        },
+                        "text": "3.50"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 52,
+                            "x1": 90,
+                            "x2": 90,
+                            "x3": 52,
+                            "y0": 132,
+                            "y1": 132,
+                            "y2": 148,
+                            "y3": 148
+                        },
+                        "text": "3.00"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 52,
+                            "x1": 92,
+                            "x2": 92,
+                            "x3": 52,
+                            "y0": 233,
+                            "y1": 233,
+                            "y2": 249,
+                            "y3": 249
+                        },
+                        "text": "2.50"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 51,
+                            "x1": 91,
+                            "x2": 91,
+                            "x3": 51,
+                            "y0": 332,
+                            "y1": 332,
+                            "y2": 349,
+                            "y3": 349
+                        },
+                        "text": "2.00"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 54,
+                            "x1": 94,
+                            "x2": 94,
+                            "x3": 54,
+                            "y0": 433,
+                            "y1": 433,
+                            "y2": 450,
+                            "y3": 450
+                        },
+                        "text": "1.50"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 142,
+                            "x1": 243,
+                            "x2": 243,
+                            "x3": 142,
+                            "y0": 479,
+                            "y1": 479,
+                            "y2": 542,
+                            "y3": 542
+                        },
+                        "text": "Non-\npathogenic\nsingle"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 255,
+                            "x1": 355,
+                            "x2": 355,
+                            "x3": 255,
+                            "y0": 479,
+                            "y1": 479,
+                            "y2": 537,
+                            "y3": 537
+                        },
+                        "text": "Non-\npathogenic\nmix"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 365,
+                            "x1": 472,
+                            "x2": 472,
+                            "x3": 365,
+                            "y0": 479,
+                            "y1": 479,
+                            "y2": 557,
+                            "y3": 557
+                        },
+                        "text": "Non-\npathogenic-\npathogenic\nmix"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 480,
+                            "x1": 583,
+                            "x2": 583,
+                            "x3": 480,
+                            "y0": 479,
+                            "y1": 479,
+                            "y2": 521,
+                            "y3": 521
+                        },
+                        "text": "Pathogenic\nsingle"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 593,
+                            "x1": 696,
+                            "x2": 696,
+                            "x3": 593,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 516,
+                            "y3": 516
+                        },
+                        "text": "Pathogenic\nmix"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 21,
+                            "x1": 44,
+                            "x2": 44,
+                            "x3": 21,
+                            "y0": 74,
+                            "y1": 74,
+                            "y2": 405,
+                            "y3": 405
+                        },
+                        "text": "Mean (log10 (population size +1))"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "axis_title"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 52,
+                            "x1": 90,
+                            "x2": 90,
+                            "x3": 52,
+                            "y0": 32,
+                            "y1": 32,
+                            "y2": 49,
+                            "y3": 49
+                        },
+                        "text": "3.50"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 52,
+                            "x1": 90,
+                            "x2": 90,
+                            "x3": 52,
+                            "y0": 132,
+                            "y1": 132,
+                            "y2": 148,
+                            "y3": 148
+                        },
+                        "text": "3.00"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 52,
+                            "x1": 92,
+                            "x2": 92,
+                            "x3": 52,
+                            "y0": 233,
+                            "y1": 233,
+                            "y2": 249,
+                            "y3": 249
+                        },
+                        "text": "2.50"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 51,
+                            "x1": 91,
+                            "x2": 91,
+                            "x3": 51,
+                            "y0": 332,
+                            "y1": 332,
+                            "y2": 349,
+                            "y3": 349
+                        },
+                        "text": "2.00"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 54,
+                            "x1": 94,
+                            "x2": 94,
+                            "x3": 54,
+                            "y0": 433,
+                            "y1": 433,
+                            "y2": 450,
+                            "y3": 450
+                        },
+                        "text": "1.50"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 142,
+                            "x1": 243,
+                            "x2": 243,
+                            "x3": 142,
+                            "y0": 479,
+                            "y1": 479,
+                            "y2": 542,
+                            "y3": 542
+                        },
+                        "text": "Non-\npathogenic\nsingle"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 255,
+                            "x1": 355,
+                            "x2": 355,
+                            "x3": 255,
+                            "y0": 479,
+                            "y1": 479,
+                            "y2": 537,
+                            "y3": 537
+                        },
+                        "text": "Non-\npathogenic\nmix"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 365,
+                            "x1": 472,
+                            "x2": 472,
+                            "x3": 365,
+                            "y0": 479,
+                            "y1": 479,
+                            "y2": 557,
+                            "y3": 557
+                        },
+                        "text": "Non-\npathogenic-\npathogenic\nmix"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 480,
+                            "x1": 583,
+                            "x2": 583,
+                            "x3": 480,
+                            "y0": 479,
+                            "y1": 479,
+                            "y2": 521,
+                            "y3": 521
+                        },
+                        "text": "Pathogenic\nsingle"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 593,
+                            "x1": 696,
+                            "x2": 696,
+                            "x3": 593,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 516,
+                            "y3": 516
+                        },
+                        "text": "Pathogenic\nmix"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 21,
+                            "x1": 44,
+                            "x2": 44,
+                            "x3": 21,
+                            "y0": 74,
+                            "y1": 74,
+                            "y2": 405,
+                            "y3": 405
+                        },
+                        "text": "Mean (log10 (population size +1))"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 446,
+                "width": 630,
+                "x0": 105,
+                "y0": 16
+            },
+            "axes": {
+                "_x-tick-type": "markers",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 193,
+                            "y": 462
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 306,
+                            "y": 462
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 420,
+                            "y": 462
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 533,
+                            "y": 462
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 646,
+                            "y": 462
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [
+                    {
+                        "id": 0,
+                        "tick_pt": {
+                            "x": 105,
+                            "y": 39
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 105,
+                            "y": 139
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 105,
+                            "y": 239
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 105,
+                            "y": 339
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 105,
+                            "y": 439
+                        }
+                    }
+                ],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 52,
+                            "x1": 90,
+                            "x2": 90,
+                            "x3": 52,
+                            "y0": 32,
+                            "y1": 32,
+                            "y2": 49,
+                            "y3": 49
+                        },
+                        "text": "3.50"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 52,
+                            "x1": 90,
+                            "x2": 90,
+                            "x3": 52,
+                            "y0": 132,
+                            "y1": 132,
+                            "y2": 148,
+                            "y3": 148
+                        },
+                        "text": "3.00"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 52,
+                            "x1": 92,
+                            "x2": 92,
+                            "x3": 52,
+                            "y0": 233,
+                            "y1": 233,
+                            "y2": 249,
+                            "y3": 249
+                        },
+                        "text": "2.50"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 51,
+                            "x1": 91,
+                            "x2": 91,
+                            "x3": 51,
+                            "y0": 332,
+                            "y1": 332,
+                            "y2": 349,
+                            "y3": 349
+                        },
+                        "text": "2.00"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 54,
+                            "x1": 94,
+                            "x2": 94,
+                            "x3": 54,
+                            "y0": 433,
+                            "y1": 433,
+                            "y2": 450,
+                            "y3": 450
+                        },
+                        "text": "1.50"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 142,
+                            "x1": 243,
+                            "x2": 243,
+                            "x3": 142,
+                            "y0": 479,
+                            "y1": 479,
+                            "y2": 542,
+                            "y3": 542
+                        },
+                        "text": "Non-\npathogenic\nsingle"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 255,
+                            "x1": 355,
+                            "x2": 355,
+                            "x3": 255,
+                            "y0": 479,
+                            "y1": 479,
+                            "y2": 537,
+                            "y3": 537
+                        },
+                        "text": "Non-\npathogenic\nmix"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 365,
+                            "x1": 472,
+                            "x2": 472,
+                            "x3": 365,
+                            "y0": 479,
+                            "y1": 479,
+                            "y2": 557,
+                            "y3": 557
+                        },
+                        "text": "Non-\npathogenic-\npathogenic\nmix"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 480,
+                            "x1": 583,
+                            "x2": 583,
+                            "x3": 480,
+                            "y0": 479,
+                            "y1": 479,
+                            "y2": 521,
+                            "y3": 521
+                        },
+                        "text": "Pathogenic\nsingle"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 593,
+                            "x1": 696,
+                            "x2": 696,
+                            "x3": 593,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 516,
+                            "y3": 516
+                        },
+                        "text": "Pathogenic\nmix"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 21,
+                            "x1": 44,
+                            "x2": 44,
+                            "x3": 21,
+                            "y0": 74,
+                            "y1": 74,
+                            "y2": 405,
+                            "y3": 405
+                        },
+                        "text": "Mean (log10 (population size +1))"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 52,
+                            "x1": 90,
+                            "x2": 90,
+                            "x3": 52,
+                            "y0": 32,
+                            "y1": 32,
+                            "y2": 49,
+                            "y3": 49
+                        },
+                        "text": "3.50"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 52,
+                            "x1": 90,
+                            "x2": 90,
+                            "x3": 52,
+                            "y0": 132,
+                            "y1": 132,
+                            "y2": 148,
+                            "y3": 148
+                        },
+                        "text": "3.00"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 52,
+                            "x1": 92,
+                            "x2": 92,
+                            "x3": 52,
+                            "y0": 233,
+                            "y1": 233,
+                            "y2": 249,
+                            "y3": 249
+                        },
+                        "text": "2.50"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 51,
+                            "x1": 91,
+                            "x2": 91,
+                            "x3": 51,
+                            "y0": 332,
+                            "y1": 332,
+                            "y2": 349,
+                            "y3": 349
+                        },
+                        "text": "2.00"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 54,
+                            "x1": 94,
+                            "x2": 94,
+                            "x3": 54,
+                            "y0": 433,
+                            "y1": 433,
+                            "y2": 450,
+                            "y3": 450
+                        },
+                        "text": "1.50"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 142,
+                            "x1": 243,
+                            "x2": 243,
+                            "x3": 142,
+                            "y0": 479,
+                            "y1": 479,
+                            "y2": 542,
+                            "y3": 542
+                        },
+                        "text": "Non-\npathogenic\nsingle"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 255,
+                            "x1": 355,
+                            "x2": 355,
+                            "x3": 255,
+                            "y0": 479,
+                            "y1": 479,
+                            "y2": 537,
+                            "y3": 537
+                        },
+                        "text": "Non-\npathogenic\nmix"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 365,
+                            "x1": 472,
+                            "x2": 472,
+                            "x3": 365,
+                            "y0": 479,
+                            "y1": 479,
+                            "y2": 557,
+                            "y3": 557
+                        },
+                        "text": "Non-\npathogenic-\npathogenic\nmix"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 480,
+                            "x1": 583,
+                            "x2": 583,
+                            "x3": 480,
+                            "y0": 479,
+                            "y1": 479,
+                            "y2": 521,
+                            "y3": 521
+                        },
+                        "text": "Pathogenic\nsingle"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 593,
+                            "x1": 696,
+                            "x2": 696,
+                            "x3": 593,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 516,
+                            "y3": 516
+                        },
+                        "text": "Pathogenic\nmix"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 21,
+                            "x1": 44,
+                            "x2": 44,
+                            "x3": 21,
+                            "y0": 74,
+                            "y1": 74,
+                            "y2": 405,
+                            "y3": 405
+                        },
+                        "text": "Mean (log10 (population size +1))"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "axis_title"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 446,
+                    "width": 630,
+                    "x0": 105,
+                    "y0": 16
+                },
+                "axes": {
+                    "_x-tick-type": "markers",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": "markers",
+                    "_y2-tick-type": null,
+                    "x-axis": [
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 193,
+                                "y": 462
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 306,
+                                "y": 462
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 420,
+                                "y": 462
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 533,
+                                "y": 462
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 646,
+                                "y": 462
+                            }
+                        }
+                    ],
+                    "x-axis-2": [],
+                    "y-axis": [
+                        {
+                            "id": 0,
+                            "tick_pt": {
+                                "x": 105,
+                                "y": 39
+                            }
+                        },
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 105,
+                                "y": 139
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 105,
+                                "y": 239
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 105,
+                                "y": 339
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 105,
+                                "y": 439
+                            }
+                        }
+                    ],
+                    "y-axis-2": []
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "first_quartile": 3.335,
+                            "max": 3.4683333333333333,
+                            "median": 3.401666666666667,
+                            "min": 3.335,
+                            "third_quartile": 3.4683333333333333,
+                            "x": "Non-\npathogenic\nsingle"
+                        },
+                        {
+                            "first_quartile": 3.5083333333333333,
+                            "max": 3.5083333333333333,
+                            "median": 3.5083333333333333,
+                            "min": 3.5083333333333333,
+                            "third_quartile": 3.5083333333333333,
+                            "x": "Non-\npathogenic\nmix"
+                        },
+                        {
+                            "first_quartile": 2.8016666666666667,
+                            "max": 3.1683333333333334,
+                            "median": 2.855,
+                            "min": 2.6350000000000002,
+                            "third_quartile": 2.958333333333334,
+                            "x": "Non-\npathogenic-\npathogenic\nmix"
+                        },
+                        {
+                            "first_quartile": 2.1083333333333334,
+                            "max": 2.6983333333333337,
+                            "median": 2.485,
+                            "min": 1.9516666666666667,
+                            "third_quartile": 2.515,
+                            "x": "Pathogenic\nsingle"
+                        },
+                        {
+                            "first_quartile": 2.335,
+                            "max": 2.7383333333333337,
+                            "median": 2.4683333333333333,
+                            "min": 2.185,
+                            "third_quartile": 2.6083333333333334,
+                            "x": "Pathogenic\nmix"
+                        }
+                    ],
+                    "name": "[unnamed data series #0]"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 30.0,
+                                "x0": 178.0,
+                                "y0": 72.0
+                            },
+                            "x": 193.0,
+                            "y": 72.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 30.0,
+                                "x0": 178.0,
+                                "y0": 46.0
+                            },
+                            "x": 193.0,
+                            "y": 46.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 30.0,
+                                "x0": 178.0,
+                                "y0": 59.0
+                            },
+                            "x": 193.0,
+                            "y": 59.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 30.0,
+                                "x0": 178.0,
+                                "y0": 72.0
+                            },
+                            "x": 193.0,
+                            "y": 72.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 30.0,
+                                "x0": 178.0,
+                                "y0": 46.0
+                            },
+                            "x": 193.0,
+                            "y": 46.0
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 30.0,
+                                "x0": 291.0,
+                                "y0": 38.0
+                            },
+                            "x": 306.0,
+                            "y": 38.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 30.0,
+                                "x0": 291.0,
+                                "y0": 38.0
+                            },
+                            "x": 306.0,
+                            "y": 38.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 30.0,
+                                "x0": 291.0,
+                                "y0": 38.0
+                            },
+                            "x": 306.0,
+                            "y": 38.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 30.0,
+                                "x0": 291.0,
+                                "y0": 38.0
+                            },
+                            "x": 306.0,
+                            "y": 38.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 30.0,
+                                "x0": 291.0,
+                                "y0": 38.0
+                            },
+                            "x": 306.0,
+                            "y": 38.0
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 30.0,
+                                "x0": 404.0,
+                                "y0": 179.0
+                            },
+                            "x": 419.0,
+                            "y": 179.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 30.0,
+                                "x0": 404.0,
+                                "y0": 106.0
+                            },
+                            "x": 419.0,
+                            "y": 106.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 30.0,
+                                "x0": 404.0,
+                                "y0": 168.0
+                            },
+                            "x": 419.0,
+                            "y": 168.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 30.0,
+                                "x0": 404.0,
+                                "y0": 212.0
+                            },
+                            "x": 419.0,
+                            "y": 212.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 30.0,
+                                "x0": 404.0,
+                                "y0": 148.0
+                            },
+                            "x": 419.0,
+                            "y": 148.0
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 29.0,
+                                "x0": 518.0,
+                                "y0": 318.0
+                            },
+                            "x": 532.5,
+                            "y": 318.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 29.0,
+                                "x0": 518.0,
+                                "y0": 200.0
+                            },
+                            "x": 532.5,
+                            "y": 200.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 29.0,
+                                "x0": 518.0,
+                                "y0": 242.0
+                            },
+                            "x": 532.5,
+                            "y": 242.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 29.0,
+                                "x0": 518.0,
+                                "y0": 349.0
+                            },
+                            "x": 532.5,
+                            "y": 349.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 29.0,
+                                "x0": 518.0,
+                                "y0": 236.0
+                            },
+                            "x": 532.5,
+                            "y": 236.0
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 29.0,
+                                "x0": 631.0,
+                                "y0": 272.0
+                            },
+                            "x": 645.5,
+                            "y": 272.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 29.0,
+                                "x0": 631.0,
+                                "y0": 192.0
+                            },
+                            "x": 645.5,
+                            "y": 192.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 29.0,
+                                "x0": 631.0,
+                                "y0": 246.0
+                            },
+                            "x": 645.5,
+                            "y": 246.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 29.0,
+                                "x0": 631.0,
+                                "y0": 302.0
+                            },
+                            "x": 645.5,
+                            "y": 302.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 29.0,
+                                "x0": 631.0,
+                                "y0": 218.0
+                            },
+                            "x": 645.5,
+                            "y": 218.0
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

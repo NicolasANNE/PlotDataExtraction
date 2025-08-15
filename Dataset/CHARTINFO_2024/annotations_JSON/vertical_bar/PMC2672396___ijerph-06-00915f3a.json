@@ -1,0 +1,833 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "vertical bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 36,
+                        "x1": 118,
+                        "x2": 118,
+                        "x3": 36,
+                        "y0": 235,
+                        "y1": 235,
+                        "y2": 255,
+                        "y3": 255
+                    },
+                    "text": "Physician"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 328,
+                        "x1": 439,
+                        "x2": 439,
+                        "x3": 328,
+                        "y0": 235,
+                        "y1": 235,
+                        "y2": 255,
+                        "y3": 255
+                    },
+                    "text": "Psychologist"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 172,
+                        "x1": 285,
+                        "x2": 285,
+                        "x3": 172,
+                        "y0": 235,
+                        "y1": 235,
+                        "y2": 278,
+                        "y3": 278
+                    },
+                    "text": "Other professional"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 62,
+                        "x1": 89,
+                        "x2": 89,
+                        "x3": 62,
+                        "y0": 60,
+                        "y1": 60,
+                        "y2": 73,
+                        "y3": 73
+                    },
+                    "text": "96.3"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 215,
+                        "x1": 242,
+                        "x2": 242,
+                        "x3": 215,
+                        "y0": 82,
+                        "y1": 82,
+                        "y2": 95,
+                        "y3": 95
+                    },
+                    "text": "81.6"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 368,
+                        "x1": 396,
+                        "x2": 396,
+                        "x3": 368,
+                        "y0": 120,
+                        "y1": 120,
+                        "y2": 138,
+                        "y3": 138
+                    },
+                    "text": "60.3"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 205,
+                        "x1": 231,
+                        "x2": 231,
+                        "x3": 205,
+                        "y0": 0,
+                        "y1": 0,
+                        "y2": 19,
+                        "y3": 19
+                    },
+                    "text": "(a)"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 2,
+                        "x1": 453,
+                        "x2": 453,
+                        "x3": 2,
+                        "y0": 283,
+                        "y1": 283,
+                        "y2": 314,
+                        "y3": 314
+                    },
+                    "text": "\u201cEg, Administative, Trained nurse, Nurse's aide, Physiotherapist, Sociologist,\nTrained educator"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 36,
+                            "x1": 118,
+                            "x2": 118,
+                            "x3": 36,
+                            "y0": 235,
+                            "y1": 235,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "Physician"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 328,
+                            "x1": 439,
+                            "x2": 439,
+                            "x3": 328,
+                            "y0": 235,
+                            "y1": 235,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "Psychologist"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 172,
+                            "x1": 285,
+                            "x2": 285,
+                            "x3": 172,
+                            "y0": 235,
+                            "y1": 235,
+                            "y2": 278,
+                            "y3": 278
+                        },
+                        "text": "Other professional"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 62,
+                            "x1": 89,
+                            "x2": 89,
+                            "x3": 62,
+                            "y0": 60,
+                            "y1": 60,
+                            "y2": 73,
+                            "y3": 73
+                        },
+                        "text": "96.3"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 215,
+                            "x1": 242,
+                            "x2": 242,
+                            "x3": 215,
+                            "y0": 82,
+                            "y1": 82,
+                            "y2": 95,
+                            "y3": 95
+                        },
+                        "text": "81.6"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 368,
+                            "x1": 396,
+                            "x2": 396,
+                            "x3": 368,
+                            "y0": 120,
+                            "y1": 120,
+                            "y2": 138,
+                            "y3": 138
+                        },
+                        "text": "60.3"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 205,
+                            "x1": 231,
+                            "x2": 231,
+                            "x3": 205,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 19,
+                            "y3": 19
+                        },
+                        "text": "(a)"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 2,
+                            "x1": 453,
+                            "x2": 453,
+                            "x3": 2,
+                            "y0": 283,
+                            "y1": 283,
+                            "y2": 314,
+                            "y3": 314
+                        },
+                        "text": "\u201cEg, Administative, Trained nurse, Nurse's aide, Physiotherapist, Sociologist,\nTrained educator"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "value_label"
+                },
+                {
+                    "id": 4,
+                    "role": "value_label"
+                },
+                {
+                    "id": 5,
+                    "role": "value_label"
+                },
+                {
+                    "id": 6,
+                    "role": "other"
+                },
+                {
+                    "id": 7,
+                    "role": "other"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 36,
+                            "x1": 118,
+                            "x2": 118,
+                            "x3": 36,
+                            "y0": 235,
+                            "y1": 235,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "Physician"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 328,
+                            "x1": 439,
+                            "x2": 439,
+                            "x3": 328,
+                            "y0": 235,
+                            "y1": 235,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "Psychologist"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 172,
+                            "x1": 285,
+                            "x2": 285,
+                            "x3": 172,
+                            "y0": 235,
+                            "y1": 235,
+                            "y2": 278,
+                            "y3": 278
+                        },
+                        "text": "Other professional"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 62,
+                            "x1": 89,
+                            "x2": 89,
+                            "x3": 62,
+                            "y0": 60,
+                            "y1": 60,
+                            "y2": 73,
+                            "y3": 73
+                        },
+                        "text": "96.3"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 215,
+                            "x1": 242,
+                            "x2": 242,
+                            "x3": 215,
+                            "y0": 82,
+                            "y1": 82,
+                            "y2": 95,
+                            "y3": 95
+                        },
+                        "text": "81.6"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 368,
+                            "x1": 396,
+                            "x2": 396,
+                            "x3": 368,
+                            "y0": 120,
+                            "y1": 120,
+                            "y2": 138,
+                            "y3": 138
+                        },
+                        "text": "60.3"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 205,
+                            "x1": 231,
+                            "x2": 231,
+                            "x3": 205,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 19,
+                            "y3": 19
+                        },
+                        "text": "(a)"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 2,
+                            "x1": 453,
+                            "x2": 453,
+                            "x3": 2,
+                            "y0": 283,
+                            "y1": 283,
+                            "y2": 314,
+                            "y3": 314
+                        },
+                        "text": "\u201cEg, Administative, Trained nurse, Nurse's aide, Physiotherapist, Sociologist,\nTrained educator"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 191,
+                "width": 458,
+                "x0": 0,
+                "y0": 25
+            },
+            "axes": {
+                "_x-tick-type": "separators",
+                "_x2-tick-type": null,
+                "_y-tick-type": null,
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 0,
+                        "tick_pt": {
+                            "x": 77,
+                            "y": 216
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 384,
+                            "y": 216
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 228,
+                            "y": 216
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 36,
+                            "x1": 118,
+                            "x2": 118,
+                            "x3": 36,
+                            "y0": 235,
+                            "y1": 235,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "Physician"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 328,
+                            "x1": 439,
+                            "x2": 439,
+                            "x3": 328,
+                            "y0": 235,
+                            "y1": 235,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "Psychologist"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 172,
+                            "x1": 285,
+                            "x2": 285,
+                            "x3": 172,
+                            "y0": 235,
+                            "y1": 235,
+                            "y2": 278,
+                            "y3": 278
+                        },
+                        "text": "Other professional"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 62,
+                            "x1": 89,
+                            "x2": 89,
+                            "x3": 62,
+                            "y0": 60,
+                            "y1": 60,
+                            "y2": 73,
+                            "y3": 73
+                        },
+                        "text": "96.3"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 215,
+                            "x1": 242,
+                            "x2": 242,
+                            "x3": 215,
+                            "y0": 82,
+                            "y1": 82,
+                            "y2": 95,
+                            "y3": 95
+                        },
+                        "text": "81.6"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 368,
+                            "x1": 396,
+                            "x2": 396,
+                            "x3": 368,
+                            "y0": 120,
+                            "y1": 120,
+                            "y2": 138,
+                            "y3": 138
+                        },
+                        "text": "60.3"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 205,
+                            "x1": 231,
+                            "x2": 231,
+                            "x3": 205,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 19,
+                            "y3": 19
+                        },
+                        "text": "(a)"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 2,
+                            "x1": 453,
+                            "x2": 453,
+                            "x3": 2,
+                            "y0": 283,
+                            "y1": 283,
+                            "y2": 314,
+                            "y3": 314
+                        },
+                        "text": "\u201cEg, Administative, Trained nurse, Nurse's aide, Physiotherapist, Sociologist,\nTrained educator"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 36,
+                            "x1": 118,
+                            "x2": 118,
+                            "x3": 36,
+                            "y0": 235,
+                            "y1": 235,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "Physician"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 328,
+                            "x1": 439,
+                            "x2": 439,
+                            "x3": 328,
+                            "y0": 235,
+                            "y1": 235,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "Psychologist"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 172,
+                            "x1": 285,
+                            "x2": 285,
+                            "x3": 172,
+                            "y0": 235,
+                            "y1": 235,
+                            "y2": 278,
+                            "y3": 278
+                        },
+                        "text": "Other professional"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 62,
+                            "x1": 89,
+                            "x2": 89,
+                            "x3": 62,
+                            "y0": 60,
+                            "y1": 60,
+                            "y2": 73,
+                            "y3": 73
+                        },
+                        "text": "96.3"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 215,
+                            "x1": 242,
+                            "x2": 242,
+                            "x3": 215,
+                            "y0": 82,
+                            "y1": 82,
+                            "y2": 95,
+                            "y3": 95
+                        },
+                        "text": "81.6"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 368,
+                            "x1": 396,
+                            "x2": 396,
+                            "x3": 368,
+                            "y0": 120,
+                            "y1": 120,
+                            "y2": 138,
+                            "y3": 138
+                        },
+                        "text": "60.3"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 205,
+                            "x1": 231,
+                            "x2": 231,
+                            "x3": 205,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 19,
+                            "y3": 19
+                        },
+                        "text": "(a)"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 2,
+                            "x1": 453,
+                            "x2": 453,
+                            "x3": 2,
+                            "y0": 283,
+                            "y1": 283,
+                            "y2": 314,
+                            "y3": 314
+                        },
+                        "text": "\u201cEg, Administative, Trained nurse, Nurse's aide, Physiotherapist, Sociologist,\nTrained educator"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "value_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "value_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "value_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "other"
+                    },
+                    {
+                        "id": 7,
+                        "role": "other"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 191,
+                    "width": 458,
+                    "x0": 0,
+                    "y0": 25
+                },
+                "axes": {
+                    "_x-tick-type": "separators",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": null,
+                    "_y2-tick-type": null,
+                    "x-axis": [
+                        {
+                            "id": 0,
+                            "tick_pt": {
+                                "x": 77,
+                                "y": 216
+                            }
+                        },
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 384,
+                                "y": 216
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 228,
+                                "y": 216
+                            }
+                        }
+                    ],
+                    "x-axis-2": [],
+                    "y-axis": [],
+                    "y-axis-2": []
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Physician",
+                            "y": 96.3
+                        },
+                        {
+                            "x": "Other professional",
+                            "y": 81.6
+                        },
+                        {
+                            "x": "Psychologist",
+                            "y": 60.3
+                        }
+                    ],
+                    "name": "[unnamed data series #0]"
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 182,
+                        "width": 76,
+                        "x0": 38,
+                        "y0": 34
+                    },
+                    {
+                        "height": 154,
+                        "width": 76,
+                        "x0": 191,
+                        "y0": 62
+                    },
+                    {
+                        "height": 114,
+                        "width": 76,
+                        "x0": 344,
+                        "y0": 102
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

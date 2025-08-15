@@ -1,0 +1,889 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 0,
+                        "x1": 21,
+                        "x2": 21,
+                        "x3": 0,
+                        "y0": 12,
+                        "y1": 12,
+                        "y2": 378,
+                        "y3": 378
+                    },
+                    "text": "Number of significantly correlated pairs"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 40,
+                        "x1": 59,
+                        "x2": 59,
+                        "x3": 40,
+                        "y0": 64,
+                        "y1": 64,
+                        "y2": 87,
+                        "y3": 87
+                    },
+                    "text": "15"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 40,
+                        "x1": 59,
+                        "x2": 59,
+                        "x3": 40,
+                        "y0": 161,
+                        "y1": 161,
+                        "y2": 185,
+                        "y3": 185
+                    },
+                    "text": "10"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 41,
+                        "x1": 60,
+                        "x2": 60,
+                        "x3": 41,
+                        "y0": 263,
+                        "y1": 263,
+                        "y2": 276,
+                        "y3": 276
+                    },
+                    "text": "5"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 40,
+                        "x1": 59,
+                        "x2": 59,
+                        "x3": 40,
+                        "y0": 356,
+                        "y1": 356,
+                        "y2": 369,
+                        "y3": 369
+                    },
+                    "text": "0"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 156,
+                        "x1": 256,
+                        "x2": 256,
+                        "x3": 156,
+                        "y0": 400,
+                        "y1": 400,
+                        "y2": 443,
+                        "y3": 443
+                    },
+                    "text": "Positive\ncorrelation"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 368,
+                        "x1": 468,
+                        "x2": 468,
+                        "x3": 368,
+                        "y0": 400,
+                        "y1": 400,
+                        "y2": 443,
+                        "y3": 443
+                    },
+                    "text": "Negative\ncorrelation"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 21,
+                            "x2": 21,
+                            "x3": 0,
+                            "y0": 12,
+                            "y1": 12,
+                            "y2": 378,
+                            "y3": 378
+                        },
+                        "text": "Number of significantly correlated pairs"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 40,
+                            "x1": 59,
+                            "x2": 59,
+                            "x3": 40,
+                            "y0": 64,
+                            "y1": 64,
+                            "y2": 87,
+                            "y3": 87
+                        },
+                        "text": "15"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 40,
+                            "x1": 59,
+                            "x2": 59,
+                            "x3": 40,
+                            "y0": 161,
+                            "y1": 161,
+                            "y2": 185,
+                            "y3": 185
+                        },
+                        "text": "10"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 41,
+                            "x1": 60,
+                            "x2": 60,
+                            "x3": 41,
+                            "y0": 263,
+                            "y1": 263,
+                            "y2": 276,
+                            "y3": 276
+                        },
+                        "text": "5"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 40,
+                            "x1": 59,
+                            "x2": 59,
+                            "x3": 40,
+                            "y0": 356,
+                            "y1": 356,
+                            "y2": 369,
+                            "y3": 369
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 156,
+                            "x1": 256,
+                            "x2": 256,
+                            "x3": 156,
+                            "y0": 400,
+                            "y1": 400,
+                            "y2": 443,
+                            "y3": 443
+                        },
+                        "text": "Positive\ncorrelation"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 368,
+                            "x1": 468,
+                            "x2": 468,
+                            "x3": 368,
+                            "y0": 400,
+                            "y1": 400,
+                            "y2": 443,
+                            "y3": 443
+                        },
+                        "text": "Negative\ncorrelation"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 21,
+                            "x2": 21,
+                            "x3": 0,
+                            "y0": 12,
+                            "y1": 12,
+                            "y2": 378,
+                            "y3": 378
+                        },
+                        "text": "Number of significantly correlated pairs"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 40,
+                            "x1": 59,
+                            "x2": 59,
+                            "x3": 40,
+                            "y0": 64,
+                            "y1": 64,
+                            "y2": 87,
+                            "y3": 87
+                        },
+                        "text": "15"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 40,
+                            "x1": 59,
+                            "x2": 59,
+                            "x3": 40,
+                            "y0": 161,
+                            "y1": 161,
+                            "y2": 185,
+                            "y3": 185
+                        },
+                        "text": "10"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 41,
+                            "x1": 60,
+                            "x2": 60,
+                            "x3": 41,
+                            "y0": 263,
+                            "y1": 263,
+                            "y2": 276,
+                            "y3": 276
+                        },
+                        "text": "5"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 40,
+                            "x1": 59,
+                            "x2": 59,
+                            "x3": 40,
+                            "y0": 356,
+                            "y1": 356,
+                            "y2": 369,
+                            "y3": 369
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 156,
+                            "x1": 256,
+                            "x2": 256,
+                            "x3": 156,
+                            "y0": 400,
+                            "y1": 400,
+                            "y2": 443,
+                            "y3": 443
+                        },
+                        "text": "Positive\ncorrelation"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 368,
+                            "x1": 468,
+                            "x2": 468,
+                            "x3": 368,
+                            "y0": 400,
+                            "y1": 400,
+                            "y2": 443,
+                            "y3": 443
+                        },
+                        "text": "Negative\ncorrelation"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 378,
+                "width": 468,
+                "x0": 75,
+                "y0": 1
+            },
+            "axes": {
+                "_x-tick-type": "markers",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 211,
+                            "y": 379
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 417,
+                            "y": 379
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 75,
+                            "y": 73
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 75,
+                            "y": 170
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 75,
+                            "y": 268
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 75,
+                            "y": 365
+                        }
+                    }
+                ],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 21,
+                            "x2": 21,
+                            "x3": 0,
+                            "y0": 12,
+                            "y1": 12,
+                            "y2": 378,
+                            "y3": 378
+                        },
+                        "text": "Number of significantly correlated pairs"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 40,
+                            "x1": 59,
+                            "x2": 59,
+                            "x3": 40,
+                            "y0": 64,
+                            "y1": 64,
+                            "y2": 87,
+                            "y3": 87
+                        },
+                        "text": "15"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 40,
+                            "x1": 59,
+                            "x2": 59,
+                            "x3": 40,
+                            "y0": 161,
+                            "y1": 161,
+                            "y2": 185,
+                            "y3": 185
+                        },
+                        "text": "10"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 41,
+                            "x1": 60,
+                            "x2": 60,
+                            "x3": 41,
+                            "y0": 263,
+                            "y1": 263,
+                            "y2": 276,
+                            "y3": 276
+                        },
+                        "text": "5"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 40,
+                            "x1": 59,
+                            "x2": 59,
+                            "x3": 40,
+                            "y0": 356,
+                            "y1": 356,
+                            "y2": 369,
+                            "y3": 369
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 156,
+                            "x1": 256,
+                            "x2": 256,
+                            "x3": 156,
+                            "y0": 400,
+                            "y1": 400,
+                            "y2": 443,
+                            "y3": 443
+                        },
+                        "text": "Positive\ncorrelation"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 368,
+                            "x1": 468,
+                            "x2": 468,
+                            "x3": 368,
+                            "y0": 400,
+                            "y1": 400,
+                            "y2": 443,
+                            "y3": 443
+                        },
+                        "text": "Negative\ncorrelation"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 21,
+                            "x2": 21,
+                            "x3": 0,
+                            "y0": 12,
+                            "y1": 12,
+                            "y2": 378,
+                            "y3": 378
+                        },
+                        "text": "Number of significantly correlated pairs"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 40,
+                            "x1": 59,
+                            "x2": 59,
+                            "x3": 40,
+                            "y0": 64,
+                            "y1": 64,
+                            "y2": 87,
+                            "y3": 87
+                        },
+                        "text": "15"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 40,
+                            "x1": 59,
+                            "x2": 59,
+                            "x3": 40,
+                            "y0": 161,
+                            "y1": 161,
+                            "y2": 185,
+                            "y3": 185
+                        },
+                        "text": "10"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 41,
+                            "x1": 60,
+                            "x2": 60,
+                            "x3": 41,
+                            "y0": 263,
+                            "y1": 263,
+                            "y2": 276,
+                            "y3": 276
+                        },
+                        "text": "5"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 40,
+                            "x1": 59,
+                            "x2": 59,
+                            "x3": 40,
+                            "y0": 356,
+                            "y1": 356,
+                            "y2": 369,
+                            "y3": 369
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 156,
+                            "x1": 256,
+                            "x2": 256,
+                            "x3": 156,
+                            "y0": 400,
+                            "y1": 400,
+                            "y2": 443,
+                            "y3": 443
+                        },
+                        "text": "Positive\ncorrelation"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 368,
+                            "x1": 468,
+                            "x2": 468,
+                            "x3": 368,
+                            "y0": 400,
+                            "y1": 400,
+                            "y2": 443,
+                            "y3": 443
+                        },
+                        "text": "Negative\ncorrelation"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 378,
+                    "width": 468,
+                    "x0": 75,
+                    "y0": 1
+                },
+                "axes": {
+                    "_x-tick-type": "markers",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": "markers",
+                    "_y2-tick-type": null,
+                    "x-axis": [
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 211,
+                                "y": 379
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 417,
+                                "y": 379
+                            }
+                        }
+                    ],
+                    "x-axis-2": [],
+                    "y-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 75,
+                                "y": 73
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 75,
+                                "y": 170
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 75,
+                                "y": 268
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 75,
+                                "y": 365
+                            }
+                        }
+                    ],
+                    "y-axis-2": []
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "first_quartile": 3.089244851258582,
+                            "max": 8.074942791762014,
+                            "median": 4.0675057208237995,
+                            "min": 0.034324942791763,
+                            "third_quartile": 5.08009153318078,
+                            "x": "Positive\ncorrelation"
+                        },
+                        {
+                            "first_quartile": 1.0640732265446238,
+                            "max": 6.058352402745996,
+                            "median": 2.0509153318077797,
+                            "min": 0.051487414187643035,
+                            "third_quartile": 3.054919908466819,
+                            "x": "Negative\ncorrelation"
+                        }
+                    ],
+                    "name": "[unnamed data series #0]"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 163.0,
+                                "x0": 130.0,
+                                "y0": 305.0
+                            },
+                            "x": 211.5,
+                            "y": 305.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 163.0,
+                                "x0": 130.0,
+                                "y0": 208.0
+                            },
+                            "x": 211.5,
+                            "y": 208.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 163.0,
+                                "x0": 130.0,
+                                "y0": 286.0
+                            },
+                            "x": 211.5,
+                            "y": 286.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 163.0,
+                                "x0": 130.0,
+                                "y0": 364.0
+                            },
+                            "x": 211.5,
+                            "y": 364.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 163.0,
+                                "x0": 130.0,
+                                "y0": 266.0
+                            },
+                            "x": 211.5,
+                            "y": 266.0
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 163.0,
+                                "x0": 335.0,
+                                "y0": 344.0
+                            },
+                            "x": 416.5,
+                            "y": 344.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 163.0,
+                                "x0": 335.0,
+                                "y0": 247.0
+                            },
+                            "x": 416.5,
+                            "y": 247.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 163.0,
+                                "x0": 335.0,
+                                "y0": 325.0
+                            },
+                            "x": 416.5,
+                            "y": 325.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 163.0,
+                                "x0": 335.0,
+                                "y0": 364.0
+                            },
+                            "x": 416.5,
+                            "y": 364.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 163.0,
+                                "x0": 335.0,
+                                "y0": 305.0
+                            },
+                            "x": 416.5,
+                            "y": 305.0
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

@@ -1,0 +1,789 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "vertical bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 277,
+                        "x1": 332,
+                        "x2": 332,
+                        "x3": 277,
+                        "y0": 278,
+                        "y1": 278,
+                        "y2": 291,
+                        "y3": 291
+                    },
+                    "text": "Lesional"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 117,
+                        "x1": 198,
+                        "x2": 198,
+                        "x3": 117,
+                        "y0": 278,
+                        "y1": 278,
+                        "y2": 291,
+                        "y3": 291
+                    },
+                    "text": "Non-lesional"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 1,
+                        "x1": 17,
+                        "x2": 17,
+                        "x3": 1,
+                        "y0": 48,
+                        "y1": 48,
+                        "y2": 225,
+                        "y3": 225
+                    },
+                    "text": "Percentage of positive cells"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 30,
+                        "x1": 48,
+                        "x2": 48,
+                        "x3": 30,
+                        "y0": 1,
+                        "y1": 1,
+                        "y2": 12,
+                        "y3": 12
+                    },
+                    "text": "0.9"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 30,
+                        "x1": 47,
+                        "x2": 47,
+                        "x3": 30,
+                        "y0": 86,
+                        "y1": 86,
+                        "y2": 97,
+                        "y3": 97
+                    },
+                    "text": "0.6"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 30,
+                        "x1": 48,
+                        "x2": 48,
+                        "x3": 30,
+                        "y0": 172,
+                        "y1": 172,
+                        "y2": 183,
+                        "y3": 183
+                    },
+                    "text": "0.3"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 30,
+                        "x1": 48,
+                        "x2": 48,
+                        "x3": 30,
+                        "y0": 258,
+                        "y1": 258,
+                        "y2": 269,
+                        "y3": 269
+                    },
+                    "text": "0.0"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 277,
+                            "x1": 332,
+                            "x2": 332,
+                            "x3": 277,
+                            "y0": 278,
+                            "y1": 278,
+                            "y2": 291,
+                            "y3": 291
+                        },
+                        "text": "Lesional"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 117,
+                            "x1": 198,
+                            "x2": 198,
+                            "x3": 117,
+                            "y0": 278,
+                            "y1": 278,
+                            "y2": 291,
+                            "y3": 291
+                        },
+                        "text": "Non-lesional"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 1,
+                            "x1": 17,
+                            "x2": 17,
+                            "x3": 1,
+                            "y0": 48,
+                            "y1": 48,
+                            "y2": 225,
+                            "y3": 225
+                        },
+                        "text": "Percentage of positive cells"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 48,
+                            "x2": 48,
+                            "x3": 30,
+                            "y0": 1,
+                            "y1": 1,
+                            "y2": 12,
+                            "y3": 12
+                        },
+                        "text": "0.9"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 47,
+                            "x2": 47,
+                            "x3": 30,
+                            "y0": 86,
+                            "y1": 86,
+                            "y2": 97,
+                            "y3": 97
+                        },
+                        "text": "0.6"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 48,
+                            "x2": 48,
+                            "x3": 30,
+                            "y0": 172,
+                            "y1": 172,
+                            "y2": 183,
+                            "y3": 183
+                        },
+                        "text": "0.3"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 48,
+                            "x2": 48,
+                            "x3": 30,
+                            "y0": 258,
+                            "y1": 258,
+                            "y2": 269,
+                            "y3": 269
+                        },
+                        "text": "0.0"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 277,
+                            "x1": 332,
+                            "x2": 332,
+                            "x3": 277,
+                            "y0": 278,
+                            "y1": 278,
+                            "y2": 291,
+                            "y3": 291
+                        },
+                        "text": "Lesional"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 117,
+                            "x1": 198,
+                            "x2": 198,
+                            "x3": 117,
+                            "y0": 278,
+                            "y1": 278,
+                            "y2": 291,
+                            "y3": 291
+                        },
+                        "text": "Non-lesional"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 1,
+                            "x1": 17,
+                            "x2": 17,
+                            "x3": 1,
+                            "y0": 48,
+                            "y1": 48,
+                            "y2": 225,
+                            "y3": 225
+                        },
+                        "text": "Percentage of positive cells"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 48,
+                            "x2": 48,
+                            "x3": 30,
+                            "y0": 1,
+                            "y1": 1,
+                            "y2": 12,
+                            "y3": 12
+                        },
+                        "text": "0.9"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 47,
+                            "x2": 47,
+                            "x3": 30,
+                            "y0": 86,
+                            "y1": 86,
+                            "y2": 97,
+                            "y3": 97
+                        },
+                        "text": "0.6"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 48,
+                            "x2": 48,
+                            "x3": 30,
+                            "y0": 172,
+                            "y1": 172,
+                            "y2": 183,
+                            "y3": 183
+                        },
+                        "text": "0.3"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 48,
+                            "x2": 48,
+                            "x3": 30,
+                            "y0": 258,
+                            "y1": 258,
+                            "y2": 269,
+                            "y3": 269
+                        },
+                        "text": "0.0"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 258,
+                "width": 345,
+                "x0": 55,
+                "y0": 7
+            },
+            "axes": {
+                "_x-tick-type": "separators",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 0,
+                        "tick_pt": {
+                            "x": 304,
+                            "y": 265
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 158,
+                            "y": 265
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 7
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 93
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 179
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 265
+                        }
+                    }
+                ],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 277,
+                            "x1": 332,
+                            "x2": 332,
+                            "x3": 277,
+                            "y0": 278,
+                            "y1": 278,
+                            "y2": 291,
+                            "y3": 291
+                        },
+                        "text": "Lesional"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 117,
+                            "x1": 198,
+                            "x2": 198,
+                            "x3": 117,
+                            "y0": 278,
+                            "y1": 278,
+                            "y2": 291,
+                            "y3": 291
+                        },
+                        "text": "Non-lesional"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 1,
+                            "x1": 17,
+                            "x2": 17,
+                            "x3": 1,
+                            "y0": 48,
+                            "y1": 48,
+                            "y2": 225,
+                            "y3": 225
+                        },
+                        "text": "Percentage of positive cells"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 48,
+                            "x2": 48,
+                            "x3": 30,
+                            "y0": 1,
+                            "y1": 1,
+                            "y2": 12,
+                            "y3": 12
+                        },
+                        "text": "0.9"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 47,
+                            "x2": 47,
+                            "x3": 30,
+                            "y0": 86,
+                            "y1": 86,
+                            "y2": 97,
+                            "y3": 97
+                        },
+                        "text": "0.6"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 48,
+                            "x2": 48,
+                            "x3": 30,
+                            "y0": 172,
+                            "y1": 172,
+                            "y2": 183,
+                            "y3": 183
+                        },
+                        "text": "0.3"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 48,
+                            "x2": 48,
+                            "x3": 30,
+                            "y0": 258,
+                            "y1": 258,
+                            "y2": 269,
+                            "y3": 269
+                        },
+                        "text": "0.0"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 277,
+                            "x1": 332,
+                            "x2": 332,
+                            "x3": 277,
+                            "y0": 278,
+                            "y1": 278,
+                            "y2": 291,
+                            "y3": 291
+                        },
+                        "text": "Lesional"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 117,
+                            "x1": 198,
+                            "x2": 198,
+                            "x3": 117,
+                            "y0": 278,
+                            "y1": 278,
+                            "y2": 291,
+                            "y3": 291
+                        },
+                        "text": "Non-lesional"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 1,
+                            "x1": 17,
+                            "x2": 17,
+                            "x3": 1,
+                            "y0": 48,
+                            "y1": 48,
+                            "y2": 225,
+                            "y3": 225
+                        },
+                        "text": "Percentage of positive cells"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 48,
+                            "x2": 48,
+                            "x3": 30,
+                            "y0": 1,
+                            "y1": 1,
+                            "y2": 12,
+                            "y3": 12
+                        },
+                        "text": "0.9"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 47,
+                            "x2": 47,
+                            "x3": 30,
+                            "y0": 86,
+                            "y1": 86,
+                            "y2": 97,
+                            "y3": 97
+                        },
+                        "text": "0.6"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 48,
+                            "x2": 48,
+                            "x3": 30,
+                            "y0": 172,
+                            "y1": 172,
+                            "y2": 183,
+                            "y3": 183
+                        },
+                        "text": "0.3"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 48,
+                            "x2": 48,
+                            "x3": 30,
+                            "y0": 258,
+                            "y1": 258,
+                            "y2": 269,
+                            "y3": 269
+                        },
+                        "text": "0.0"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 258,
+                    "width": 345,
+                    "x0": 55,
+                    "y0": 7
+                },
+                "axes": {
+                    "_x-tick-type": "separators",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": "markers",
+                    "_y2-tick-type": null,
+                    "x-axis": [
+                        {
+                            "id": 0,
+                            "tick_pt": {
+                                "x": 304,
+                                "y": 265
+                            }
+                        },
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 158,
+                                "y": 265
+                            }
+                        }
+                    ],
+                    "x-axis-2": [],
+                    "y-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 7
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 93
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 179
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 265
+                            }
+                        }
+                    ],
+                    "y-axis-2": []
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Non-lesional",
+                            "y": 0.43361735089078224
+                        },
+                        {
+                            "x": "Lesional",
+                            "y": 0.5242447714949651
+                        }
+                    ],
+                    "name": "[unnamed data series #0]"
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 124,
+                        "width": 46,
+                        "x0": 131,
+                        "y0": 141
+                    },
+                    {
+                        "height": 150,
+                        "width": 46,
+                        "x0": 278,
+                        "y0": 115
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

@@ -1,0 +1,1285 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 112,
+                        "x1": 192,
+                        "x2": 192,
+                        "x3": 112,
+                        "y0": 400,
+                        "y1": 400,
+                        "y2": 425,
+                        "y3": 425
+                    },
+                    "text": "MAST Bivariate\nPedigree"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 286,
+                        "x1": 366,
+                        "x2": 366,
+                        "x3": 286,
+                        "y0": 401,
+                        "y1": 401,
+                        "y2": 424,
+                        "y3": 424
+                    },
+                    "text": "MAST Bivariate\nSingle-step"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 464,
+                        "x1": 536,
+                        "x2": 536,
+                        "x3": 464,
+                        "y0": 401,
+                        "y1": 401,
+                        "y2": 425,
+                        "y3": 425
+                    },
+                    "text": "SCS Bivariate\nPedigree"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 637,
+                        "x1": 709,
+                        "x2": 709,
+                        "x3": 637,
+                        "y0": 399,
+                        "y1": 399,
+                        "y2": 425,
+                        "y3": 425
+                    },
+                    "text": "SCS Bivariate\nSingle-step"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 16,
+                        "x1": 42,
+                        "x2": 42,
+                        "x3": 16,
+                        "y0": 4,
+                        "y1": 4,
+                        "y2": 16,
+                        "y3": 16
+                    },
+                    "text": "1.00"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 15,
+                        "x1": 42,
+                        "x2": 42,
+                        "x3": 15,
+                        "y0": 97,
+                        "y1": 97,
+                        "y2": 109,
+                        "y3": 109
+                    },
+                    "text": "0.75"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 15,
+                        "x1": 42,
+                        "x2": 42,
+                        "x3": 15,
+                        "y0": 191,
+                        "y1": 191,
+                        "y2": 203,
+                        "y3": 203
+                    },
+                    "text": "0.50"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 15,
+                        "x1": 42,
+                        "x2": 42,
+                        "x3": 15,
+                        "y0": 284,
+                        "y1": 284,
+                        "y2": 296,
+                        "y3": 296
+                    },
+                    "text": "0.25"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 15,
+                        "x1": 42,
+                        "x2": 42,
+                        "x3": 15,
+                        "y0": 377,
+                        "y1": 377,
+                        "y2": 390,
+                        "y3": 390
+                    },
+                    "text": "0.00"
+                },
+                {
+                    "id": 9,
+                    "polygon": {
+                        "x0": 0,
+                        "x1": 18,
+                        "x2": 18,
+                        "x3": 0,
+                        "y0": 158,
+                        "y1": 158,
+                        "y2": 238,
+                        "y3": 238
+                    },
+                    "text": "Reliability"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 112,
+                            "x1": 192,
+                            "x2": 192,
+                            "x3": 112,
+                            "y0": 400,
+                            "y1": 400,
+                            "y2": 425,
+                            "y3": 425
+                        },
+                        "text": "MAST Bivariate\nPedigree"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 286,
+                            "x1": 366,
+                            "x2": 366,
+                            "x3": 286,
+                            "y0": 401,
+                            "y1": 401,
+                            "y2": 424,
+                            "y3": 424
+                        },
+                        "text": "MAST Bivariate\nSingle-step"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 464,
+                            "x1": 536,
+                            "x2": 536,
+                            "x3": 464,
+                            "y0": 401,
+                            "y1": 401,
+                            "y2": 425,
+                            "y3": 425
+                        },
+                        "text": "SCS Bivariate\nPedigree"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 637,
+                            "x1": 709,
+                            "x2": 709,
+                            "x3": 637,
+                            "y0": 399,
+                            "y1": 399,
+                            "y2": 425,
+                            "y3": 425
+                        },
+                        "text": "SCS Bivariate\nSingle-step"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 16,
+                            "x1": 42,
+                            "x2": 42,
+                            "x3": 16,
+                            "y0": 4,
+                            "y1": 4,
+                            "y2": 16,
+                            "y3": 16
+                        },
+                        "text": "1.00"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 15,
+                            "x1": 42,
+                            "x2": 42,
+                            "x3": 15,
+                            "y0": 97,
+                            "y1": 97,
+                            "y2": 109,
+                            "y3": 109
+                        },
+                        "text": "0.75"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 15,
+                            "x1": 42,
+                            "x2": 42,
+                            "x3": 15,
+                            "y0": 191,
+                            "y1": 191,
+                            "y2": 203,
+                            "y3": 203
+                        },
+                        "text": "0.50"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 15,
+                            "x1": 42,
+                            "x2": 42,
+                            "x3": 15,
+                            "y0": 284,
+                            "y1": 284,
+                            "y2": 296,
+                            "y3": 296
+                        },
+                        "text": "0.25"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 15,
+                            "x1": 42,
+                            "x2": 42,
+                            "x3": 15,
+                            "y0": 377,
+                            "y1": 377,
+                            "y2": 390,
+                            "y3": 390
+                        },
+                        "text": "0.00"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 18,
+                            "x2": 18,
+                            "x3": 0,
+                            "y0": 158,
+                            "y1": 158,
+                            "y2": 238,
+                            "y3": 238
+                        },
+                        "text": "Reliability"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "axis_title"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 112,
+                            "x1": 192,
+                            "x2": 192,
+                            "x3": 112,
+                            "y0": 400,
+                            "y1": 400,
+                            "y2": 425,
+                            "y3": 425
+                        },
+                        "text": "MAST Bivariate\nPedigree"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 286,
+                            "x1": 366,
+                            "x2": 366,
+                            "x3": 286,
+                            "y0": 401,
+                            "y1": 401,
+                            "y2": 424,
+                            "y3": 424
+                        },
+                        "text": "MAST Bivariate\nSingle-step"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 464,
+                            "x1": 536,
+                            "x2": 536,
+                            "x3": 464,
+                            "y0": 401,
+                            "y1": 401,
+                            "y2": 425,
+                            "y3": 425
+                        },
+                        "text": "SCS Bivariate\nPedigree"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 637,
+                            "x1": 709,
+                            "x2": 709,
+                            "x3": 637,
+                            "y0": 399,
+                            "y1": 399,
+                            "y2": 425,
+                            "y3": 425
+                        },
+                        "text": "SCS Bivariate\nSingle-step"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 16,
+                            "x1": 42,
+                            "x2": 42,
+                            "x3": 16,
+                            "y0": 4,
+                            "y1": 4,
+                            "y2": 16,
+                            "y3": 16
+                        },
+                        "text": "1.00"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 15,
+                            "x1": 42,
+                            "x2": 42,
+                            "x3": 15,
+                            "y0": 97,
+                            "y1": 97,
+                            "y2": 109,
+                            "y3": 109
+                        },
+                        "text": "0.75"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 15,
+                            "x1": 42,
+                            "x2": 42,
+                            "x3": 15,
+                            "y0": 191,
+                            "y1": 191,
+                            "y2": 203,
+                            "y3": 203
+                        },
+                        "text": "0.50"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 15,
+                            "x1": 42,
+                            "x2": 42,
+                            "x3": 15,
+                            "y0": 284,
+                            "y1": 284,
+                            "y2": 296,
+                            "y3": 296
+                        },
+                        "text": "0.25"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 15,
+                            "x1": 42,
+                            "x2": 42,
+                            "x3": 15,
+                            "y0": 377,
+                            "y1": 377,
+                            "y2": 390,
+                            "y3": 390
+                        },
+                        "text": "0.00"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 18,
+                            "x2": 18,
+                            "x3": 0,
+                            "y0": 158,
+                            "y1": 158,
+                            "y2": 238,
+                            "y3": 238
+                        },
+                        "text": "Reliability"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 395,
+                "width": 730,
+                "x0": 48,
+                "y0": 1
+            },
+            "axes": {
+                "_x-tick-type": "markers",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 0,
+                        "tick_pt": {
+                            "x": 152,
+                            "y": 396
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 326,
+                            "y": 396
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 500,
+                            "y": 396
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 674,
+                            "y": 396
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 48,
+                            "y": 11
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 48,
+                            "y": 104
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 48,
+                            "y": 197
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 48,
+                            "y": 290
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 48,
+                            "y": 383
+                        }
+                    }
+                ],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 112,
+                            "x1": 192,
+                            "x2": 192,
+                            "x3": 112,
+                            "y0": 400,
+                            "y1": 400,
+                            "y2": 425,
+                            "y3": 425
+                        },
+                        "text": "MAST Bivariate\nPedigree"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 286,
+                            "x1": 366,
+                            "x2": 366,
+                            "x3": 286,
+                            "y0": 401,
+                            "y1": 401,
+                            "y2": 424,
+                            "y3": 424
+                        },
+                        "text": "MAST Bivariate\nSingle-step"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 464,
+                            "x1": 536,
+                            "x2": 536,
+                            "x3": 464,
+                            "y0": 401,
+                            "y1": 401,
+                            "y2": 425,
+                            "y3": 425
+                        },
+                        "text": "SCS Bivariate\nPedigree"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 637,
+                            "x1": 709,
+                            "x2": 709,
+                            "x3": 637,
+                            "y0": 399,
+                            "y1": 399,
+                            "y2": 425,
+                            "y3": 425
+                        },
+                        "text": "SCS Bivariate\nSingle-step"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 16,
+                            "x1": 42,
+                            "x2": 42,
+                            "x3": 16,
+                            "y0": 4,
+                            "y1": 4,
+                            "y2": 16,
+                            "y3": 16
+                        },
+                        "text": "1.00"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 15,
+                            "x1": 42,
+                            "x2": 42,
+                            "x3": 15,
+                            "y0": 97,
+                            "y1": 97,
+                            "y2": 109,
+                            "y3": 109
+                        },
+                        "text": "0.75"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 15,
+                            "x1": 42,
+                            "x2": 42,
+                            "x3": 15,
+                            "y0": 191,
+                            "y1": 191,
+                            "y2": 203,
+                            "y3": 203
+                        },
+                        "text": "0.50"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 15,
+                            "x1": 42,
+                            "x2": 42,
+                            "x3": 15,
+                            "y0": 284,
+                            "y1": 284,
+                            "y2": 296,
+                            "y3": 296
+                        },
+                        "text": "0.25"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 15,
+                            "x1": 42,
+                            "x2": 42,
+                            "x3": 15,
+                            "y0": 377,
+                            "y1": 377,
+                            "y2": 390,
+                            "y3": 390
+                        },
+                        "text": "0.00"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 18,
+                            "x2": 18,
+                            "x3": 0,
+                            "y0": 158,
+                            "y1": 158,
+                            "y2": 238,
+                            "y3": 238
+                        },
+                        "text": "Reliability"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 112,
+                            "x1": 192,
+                            "x2": 192,
+                            "x3": 112,
+                            "y0": 400,
+                            "y1": 400,
+                            "y2": 425,
+                            "y3": 425
+                        },
+                        "text": "MAST Bivariate\nPedigree"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 286,
+                            "x1": 366,
+                            "x2": 366,
+                            "x3": 286,
+                            "y0": 401,
+                            "y1": 401,
+                            "y2": 424,
+                            "y3": 424
+                        },
+                        "text": "MAST Bivariate\nSingle-step"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 464,
+                            "x1": 536,
+                            "x2": 536,
+                            "x3": 464,
+                            "y0": 401,
+                            "y1": 401,
+                            "y2": 425,
+                            "y3": 425
+                        },
+                        "text": "SCS Bivariate\nPedigree"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 637,
+                            "x1": 709,
+                            "x2": 709,
+                            "x3": 637,
+                            "y0": 399,
+                            "y1": 399,
+                            "y2": 425,
+                            "y3": 425
+                        },
+                        "text": "SCS Bivariate\nSingle-step"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 16,
+                            "x1": 42,
+                            "x2": 42,
+                            "x3": 16,
+                            "y0": 4,
+                            "y1": 4,
+                            "y2": 16,
+                            "y3": 16
+                        },
+                        "text": "1.00"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 15,
+                            "x1": 42,
+                            "x2": 42,
+                            "x3": 15,
+                            "y0": 97,
+                            "y1": 97,
+                            "y2": 109,
+                            "y3": 109
+                        },
+                        "text": "0.75"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 15,
+                            "x1": 42,
+                            "x2": 42,
+                            "x3": 15,
+                            "y0": 191,
+                            "y1": 191,
+                            "y2": 203,
+                            "y3": 203
+                        },
+                        "text": "0.50"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 15,
+                            "x1": 42,
+                            "x2": 42,
+                            "x3": 15,
+                            "y0": 284,
+                            "y1": 284,
+                            "y2": 296,
+                            "y3": 296
+                        },
+                        "text": "0.25"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 15,
+                            "x1": 42,
+                            "x2": 42,
+                            "x3": 15,
+                            "y0": 377,
+                            "y1": 377,
+                            "y2": 390,
+                            "y3": 390
+                        },
+                        "text": "0.00"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 18,
+                            "x2": 18,
+                            "x3": 0,
+                            "y0": 158,
+                            "y1": 158,
+                            "y2": 238,
+                            "y3": 238
+                        },
+                        "text": "Reliability"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "axis_title"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 395,
+                    "width": 730,
+                    "x0": 48,
+                    "y0": 1
+                },
+                "axes": {
+                    "_x-tick-type": "markers",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": "markers",
+                    "_y2-tick-type": null,
+                    "x-axis": [
+                        {
+                            "id": 0,
+                            "tick_pt": {
+                                "x": 152,
+                                "y": 396
+                            }
+                        },
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 326,
+                                "y": 396
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 500,
+                                "y": 396
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 674,
+                                "y": 396
+                            }
+                        }
+                    ],
+                    "x-axis-2": [],
+                    "y-axis": [
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 48,
+                                "y": 11
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 48,
+                                "y": 104
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 48,
+                                "y": 197
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 48,
+                                "y": 290
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 48,
+                                "y": 383
+                            }
+                        }
+                    ],
+                    "y-axis-2": []
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "first_quartile": 0.23613595706618973,
+                            "max": 0.9069767441860466,
+                            "median": 0.34883720930232553,
+                            "min": 0.05903398926654743,
+                            "third_quartile": 0.5652951699463327,
+                            "x": "MAST Bivariate\nPedigree"
+                        },
+                        {
+                            "first_quartile": 0.7191413237924866,
+                            "max": 0.9785330948121646,
+                            "median": 0.7799642218246868,
+                            "min": 0.5330948121645795,
+                            "third_quartile": 0.8425760286225403,
+                            "x": "MAST Bivariate\nSingle-step"
+                        },
+                        {
+                            "first_quartile": 0.368515205724508,
+                            "max": 0.9570661896243291,
+                            "median": 0.51520572450805,
+                            "min": 0.014311270125223569,
+                            "third_quartile": 0.7280858676207513,
+                            "x": "SCS Bivariate\nPedigree"
+                        },
+                        {
+                            "first_quartile": 0.7531305903398926,
+                            "max": 0.9803220035778175,
+                            "median": 0.8103756708407871,
+                            "min": 0.5849731663685152,
+                            "third_quartile": 0.8694096601073346,
+                            "x": "SCS Bivariate\nSingle-step"
+                        }
+                    ],
+                    "name": "[unnamed data series #0]"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 130.0,
+                                "x0": 87.0,
+                                "y0": 295.0
+                            },
+                            "x": 152.0,
+                            "y": 295.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 130.0,
+                                "x0": 87.0,
+                                "y0": 45.0
+                            },
+                            "x": 152.0,
+                            "y": 45.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 130.0,
+                                "x0": 87.0,
+                                "y0": 253.0
+                            },
+                            "x": 152.0,
+                            "y": 253.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 130.0,
+                                "x0": 87.0,
+                                "y0": 361.0
+                            },
+                            "x": 152.0,
+                            "y": 361.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 130.0,
+                                "x0": 87.0,
+                                "y0": 173.0
+                            },
+                            "x": 152.0,
+                            "y": 173.0
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 130.0,
+                                "x0": 261.0,
+                                "y0": 115.0
+                            },
+                            "x": 326.0,
+                            "y": 115.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 130.0,
+                                "x0": 261.0,
+                                "y0": 19.0
+                            },
+                            "x": 326.0,
+                            "y": 19.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 130.0,
+                                "x0": 261.0,
+                                "y0": 93.0
+                            },
+                            "x": 326.0,
+                            "y": 93.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 130.0,
+                                "x0": 261.0,
+                                "y0": 185.0
+                            },
+                            "x": 326.0,
+                            "y": 185.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 130.0,
+                                "x0": 261.0,
+                                "y0": 69.0
+                            },
+                            "x": 326.0,
+                            "y": 69.0
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 130.0,
+                                "x0": 435.0,
+                                "y0": 246.0
+                            },
+                            "x": 500.0,
+                            "y": 246.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 130.0,
+                                "x0": 435.0,
+                                "y0": 27.0
+                            },
+                            "x": 500.0,
+                            "y": 27.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 130.0,
+                                "x0": 435.0,
+                                "y0": 191.0
+                            },
+                            "x": 500.0,
+                            "y": 191.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 130.0,
+                                "x0": 435.0,
+                                "y0": 378.0
+                            },
+                            "x": 500.0,
+                            "y": 378.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 130.0,
+                                "x0": 435.0,
+                                "y0": 112.0
+                            },
+                            "x": 500.0,
+                            "y": 112.0
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 130.0,
+                                "x0": 609.0,
+                                "y0": 103.0
+                            },
+                            "x": 674.0,
+                            "y": 103.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 130.0,
+                                "x0": 609.0,
+                                "y0": 18.0
+                            },
+                            "x": 674.0,
+                            "y": 18.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 130.0,
+                                "x0": 609.0,
+                                "y0": 81.0
+                            },
+                            "x": 674.0,
+                            "y": 81.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 130.0,
+                                "x0": 609.0,
+                                "y0": 165.0
+                            },
+                            "x": 674.0,
+                            "y": 165.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 130.0,
+                                "x0": 609.0,
+                                "y0": 59.0
+                            },
+                            "x": 674.0,
+                            "y": 59.0
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

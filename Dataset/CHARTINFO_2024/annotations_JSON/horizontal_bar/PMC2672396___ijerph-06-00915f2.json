@@ -1,0 +1,935 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 47,
+                        "x1": 112,
+                        "x2": 112,
+                        "x3": 47,
+                        "y0": 80,
+                        "y1": 80,
+                        "y2": 108,
+                        "y3": 108
+                    },
+                    "text": "Individual counselling"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 16,
+                        "x1": 112,
+                        "x2": 112,
+                        "x3": 16,
+                        "y0": 25,
+                        "y1": 25,
+                        "y2": 39,
+                        "y3": 39
+                    },
+                    "text": "Pharmacotherapy"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 32,
+                        "x1": 112,
+                        "x2": 112,
+                        "x3": 32,
+                        "y0": 148,
+                        "y1": 148,
+                        "y2": 162,
+                        "y3": 162
+                    },
+                    "text": "Group therapy"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 13,
+                        "x1": 110,
+                        "x2": 110,
+                        "x3": 13,
+                        "y0": 211,
+                        "y1": 211,
+                        "y2": 222,
+                        "y3": 222
+                    },
+                    "text": "Other treatments*"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 0,
+                        "x1": 302,
+                        "x2": 302,
+                        "x3": 0,
+                        "y0": 256,
+                        "y1": 256,
+                        "y2": 268,
+                        "y3": 268
+                    },
+                    "text": "*Other treatments as acupunture, relaxation therapy and hypnotherapy"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 182,
+                        "x1": 200,
+                        "x2": 200,
+                        "x3": 182,
+                        "y0": 211,
+                        "y1": 211,
+                        "y2": 222,
+                        "y3": 222
+                    },
+                    "text": "20%"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 307,
+                        "x1": 335,
+                        "x2": 335,
+                        "x3": 307,
+                        "y0": 149,
+                        "y1": 149,
+                        "y2": 159,
+                        "y3": 159
+                    },
+                    "text": "62.5%"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 371,
+                        "x1": 391,
+                        "x2": 391,
+                        "x3": 371,
+                        "y0": 88,
+                        "y1": 88,
+                        "y2": 98,
+                        "y3": 98
+                    },
+                    "text": "84%"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 401,
+                        "x1": 420,
+                        "x2": 420,
+                        "x3": 401,
+                        "y0": 26,
+                        "y1": 26,
+                        "y2": 36,
+                        "y3": 36
+                    },
+                    "text": "94%"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 47,
+                            "x1": 112,
+                            "x2": 112,
+                            "x3": 47,
+                            "y0": 80,
+                            "y1": 80,
+                            "y2": 108,
+                            "y3": 108
+                        },
+                        "text": "Individual counselling"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 16,
+                            "x1": 112,
+                            "x2": 112,
+                            "x3": 16,
+                            "y0": 25,
+                            "y1": 25,
+                            "y2": 39,
+                            "y3": 39
+                        },
+                        "text": "Pharmacotherapy"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 32,
+                            "x1": 112,
+                            "x2": 112,
+                            "x3": 32,
+                            "y0": 148,
+                            "y1": 148,
+                            "y2": 162,
+                            "y3": 162
+                        },
+                        "text": "Group therapy"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 13,
+                            "x1": 110,
+                            "x2": 110,
+                            "x3": 13,
+                            "y0": 211,
+                            "y1": 211,
+                            "y2": 222,
+                            "y3": 222
+                        },
+                        "text": "Other treatments*"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 302,
+                            "x2": 302,
+                            "x3": 0,
+                            "y0": 256,
+                            "y1": 256,
+                            "y2": 268,
+                            "y3": 268
+                        },
+                        "text": "*Other treatments as acupunture, relaxation therapy and hypnotherapy"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 182,
+                            "x1": 200,
+                            "x2": 200,
+                            "x3": 182,
+                            "y0": 211,
+                            "y1": 211,
+                            "y2": 222,
+                            "y3": 222
+                        },
+                        "text": "20%"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 307,
+                            "x1": 335,
+                            "x2": 335,
+                            "x3": 307,
+                            "y0": 149,
+                            "y1": 149,
+                            "y2": 159,
+                            "y3": 159
+                        },
+                        "text": "62.5%"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 371,
+                            "x1": 391,
+                            "x2": 391,
+                            "x3": 371,
+                            "y0": 88,
+                            "y1": 88,
+                            "y2": 98,
+                            "y3": 98
+                        },
+                        "text": "84%"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 401,
+                            "x1": 420,
+                            "x2": 420,
+                            "x3": 401,
+                            "y0": 26,
+                            "y1": 26,
+                            "y2": 36,
+                            "y3": 36
+                        },
+                        "text": "94%"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "other"
+                },
+                {
+                    "id": 5,
+                    "role": "value_label"
+                },
+                {
+                    "id": 6,
+                    "role": "value_label"
+                },
+                {
+                    "id": 7,
+                    "role": "value_label"
+                },
+                {
+                    "id": 8,
+                    "role": "value_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 47,
+                            "x1": 112,
+                            "x2": 112,
+                            "x3": 47,
+                            "y0": 80,
+                            "y1": 80,
+                            "y2": 108,
+                            "y3": 108
+                        },
+                        "text": "Individual counselling"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 16,
+                            "x1": 112,
+                            "x2": 112,
+                            "x3": 16,
+                            "y0": 25,
+                            "y1": 25,
+                            "y2": 39,
+                            "y3": 39
+                        },
+                        "text": "Pharmacotherapy"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 32,
+                            "x1": 112,
+                            "x2": 112,
+                            "x3": 32,
+                            "y0": 148,
+                            "y1": 148,
+                            "y2": 162,
+                            "y3": 162
+                        },
+                        "text": "Group therapy"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 13,
+                            "x1": 110,
+                            "x2": 110,
+                            "x3": 13,
+                            "y0": 211,
+                            "y1": 211,
+                            "y2": 222,
+                            "y3": 222
+                        },
+                        "text": "Other treatments*"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 302,
+                            "x2": 302,
+                            "x3": 0,
+                            "y0": 256,
+                            "y1": 256,
+                            "y2": 268,
+                            "y3": 268
+                        },
+                        "text": "*Other treatments as acupunture, relaxation therapy and hypnotherapy"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 182,
+                            "x1": 200,
+                            "x2": 200,
+                            "x3": 182,
+                            "y0": 211,
+                            "y1": 211,
+                            "y2": 222,
+                            "y3": 222
+                        },
+                        "text": "20%"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 307,
+                            "x1": 335,
+                            "x2": 335,
+                            "x3": 307,
+                            "y0": 149,
+                            "y1": 149,
+                            "y2": 159,
+                            "y3": 159
+                        },
+                        "text": "62.5%"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 371,
+                            "x1": 391,
+                            "x2": 391,
+                            "x3": 371,
+                            "y0": 88,
+                            "y1": 88,
+                            "y2": 98,
+                            "y3": 98
+                        },
+                        "text": "84%"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 401,
+                            "x1": 420,
+                            "x2": 420,
+                            "x3": 401,
+                            "y0": 26,
+                            "y1": 26,
+                            "y2": 36,
+                            "y3": 36
+                        },
+                        "text": "94%"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 247,
+                "width": 302,
+                "x0": 120,
+                "y0": 1
+            },
+            "axes": {
+                "_x-tick-type": "separators",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 0,
+                        "tick_pt": {
+                            "x": 120,
+                            "y": 94
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 120,
+                            "y": 32
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 120,
+                            "y": 155
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 120,
+                            "y": 216
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 47,
+                            "x1": 112,
+                            "x2": 112,
+                            "x3": 47,
+                            "y0": 80,
+                            "y1": 80,
+                            "y2": 108,
+                            "y3": 108
+                        },
+                        "text": "Individual counselling"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 16,
+                            "x1": 112,
+                            "x2": 112,
+                            "x3": 16,
+                            "y0": 25,
+                            "y1": 25,
+                            "y2": 39,
+                            "y3": 39
+                        },
+                        "text": "Pharmacotherapy"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 32,
+                            "x1": 112,
+                            "x2": 112,
+                            "x3": 32,
+                            "y0": 148,
+                            "y1": 148,
+                            "y2": 162,
+                            "y3": 162
+                        },
+                        "text": "Group therapy"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 13,
+                            "x1": 110,
+                            "x2": 110,
+                            "x3": 13,
+                            "y0": 211,
+                            "y1": 211,
+                            "y2": 222,
+                            "y3": 222
+                        },
+                        "text": "Other treatments*"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 302,
+                            "x2": 302,
+                            "x3": 0,
+                            "y0": 256,
+                            "y1": 256,
+                            "y2": 268,
+                            "y3": 268
+                        },
+                        "text": "*Other treatments as acupunture, relaxation therapy and hypnotherapy"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 182,
+                            "x1": 200,
+                            "x2": 200,
+                            "x3": 182,
+                            "y0": 211,
+                            "y1": 211,
+                            "y2": 222,
+                            "y3": 222
+                        },
+                        "text": "20%"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 307,
+                            "x1": 335,
+                            "x2": 335,
+                            "x3": 307,
+                            "y0": 149,
+                            "y1": 149,
+                            "y2": 159,
+                            "y3": 159
+                        },
+                        "text": "62.5%"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 371,
+                            "x1": 391,
+                            "x2": 391,
+                            "x3": 371,
+                            "y0": 88,
+                            "y1": 88,
+                            "y2": 98,
+                            "y3": 98
+                        },
+                        "text": "84%"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 401,
+                            "x1": 420,
+                            "x2": 420,
+                            "x3": 401,
+                            "y0": 26,
+                            "y1": 26,
+                            "y2": 36,
+                            "y3": 36
+                        },
+                        "text": "94%"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 47,
+                            "x1": 112,
+                            "x2": 112,
+                            "x3": 47,
+                            "y0": 80,
+                            "y1": 80,
+                            "y2": 108,
+                            "y3": 108
+                        },
+                        "text": "Individual counselling"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 16,
+                            "x1": 112,
+                            "x2": 112,
+                            "x3": 16,
+                            "y0": 25,
+                            "y1": 25,
+                            "y2": 39,
+                            "y3": 39
+                        },
+                        "text": "Pharmacotherapy"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 32,
+                            "x1": 112,
+                            "x2": 112,
+                            "x3": 32,
+                            "y0": 148,
+                            "y1": 148,
+                            "y2": 162,
+                            "y3": 162
+                        },
+                        "text": "Group therapy"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 13,
+                            "x1": 110,
+                            "x2": 110,
+                            "x3": 13,
+                            "y0": 211,
+                            "y1": 211,
+                            "y2": 222,
+                            "y3": 222
+                        },
+                        "text": "Other treatments*"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 302,
+                            "x2": 302,
+                            "x3": 0,
+                            "y0": 256,
+                            "y1": 256,
+                            "y2": 268,
+                            "y3": 268
+                        },
+                        "text": "*Other treatments as acupunture, relaxation therapy and hypnotherapy"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 182,
+                            "x1": 200,
+                            "x2": 200,
+                            "x3": 182,
+                            "y0": 211,
+                            "y1": 211,
+                            "y2": 222,
+                            "y3": 222
+                        },
+                        "text": "20%"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 307,
+                            "x1": 335,
+                            "x2": 335,
+                            "x3": 307,
+                            "y0": 149,
+                            "y1": 149,
+                            "y2": 159,
+                            "y3": 159
+                        },
+                        "text": "62.5%"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 371,
+                            "x1": 391,
+                            "x2": 391,
+                            "x3": 371,
+                            "y0": 88,
+                            "y1": 88,
+                            "y2": 98,
+                            "y3": 98
+                        },
+                        "text": "84%"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 401,
+                            "x1": 420,
+                            "x2": 420,
+                            "x3": 401,
+                            "y0": 26,
+                            "y1": 26,
+                            "y2": 36,
+                            "y3": 36
+                        },
+                        "text": "94%"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "other"
+                    },
+                    {
+                        "id": 5,
+                        "role": "value_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "value_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "value_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "value_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 247,
+                    "width": 302,
+                    "x0": 120,
+                    "y0": 1
+                },
+                "axes": {
+                    "_x-tick-type": "separators",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": "markers",
+                    "_y2-tick-type": null,
+                    "x-axis": [
+                        {
+                            "id": 0,
+                            "tick_pt": {
+                                "x": 120,
+                                "y": 94
+                            }
+                        },
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 120,
+                                "y": 32
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 120,
+                                "y": 155
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 120,
+                                "y": 216
+                            }
+                        }
+                    ],
+                    "x-axis-2": [],
+                    "y-axis": [],
+                    "y-axis-2": []
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Pharmacotherapy",
+                            "y": 0.9400000000000001
+                        },
+                        {
+                            "x": "Individual counselling",
+                            "y": 0.84
+                        },
+                        {
+                            "x": "Group therapy",
+                            "y": 0.625
+                        },
+                        {
+                            "x": "Other treatments*",
+                            "y": 0.2
+                        }
+                    ],
+                    "name": "[unnamed data series #0]"
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 26,
+                        "width": 279,
+                        "x0": 120,
+                        "y0": 19
+                    },
+                    {
+                        "height": 26,
+                        "width": 249,
+                        "x0": 120,
+                        "y0": 81
+                    },
+                    {
+                        "height": 26,
+                        "width": 185,
+                        "x0": 120,
+                        "y0": 142
+                    },
+                    {
+                        "height": 26,
+                        "width": 60,
+                        "x0": 120,
+                        "y0": 204
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

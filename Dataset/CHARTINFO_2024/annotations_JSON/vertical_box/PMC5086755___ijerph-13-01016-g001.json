@@ -1,0 +1,705 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 4,
+                        "x1": 98,
+                        "x2": 98,
+                        "x3": 4,
+                        "y0": 11,
+                        "y1": 11,
+                        "y2": 39,
+                        "y3": 39
+                    },
+                    "text": "\\delta FIM"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 39,
+                        "x1": 68,
+                        "x2": 68,
+                        "x3": 39,
+                        "y0": 190,
+                        "y1": 190,
+                        "y2": 211,
+                        "y3": 211
+                    },
+                    "text": "50"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 52,
+                        "x1": 68,
+                        "x2": 68,
+                        "x3": 52,
+                        "y0": 470,
+                        "y1": 470,
+                        "y2": 491,
+                        "y3": 491
+                    },
+                    "text": "0"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 235,
+                        "x1": 291,
+                        "x2": 291,
+                        "x3": 235,
+                        "y0": 766,
+                        "y1": 766,
+                        "y2": 792,
+                        "y3": 792
+                    },
+                    "text": "GG"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 515,
+                        "x1": 641,
+                        "x2": 641,
+                        "x3": 515,
+                        "y0": 767,
+                        "y1": 767,
+                        "y2": 796,
+                        "y3": 796
+                    },
+                    "text": "AG /AA"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 4,
+                            "x1": 98,
+                            "x2": 98,
+                            "x3": 4,
+                            "y0": 11,
+                            "y1": 11,
+                            "y2": 39,
+                            "y3": 39
+                        },
+                        "text": "\\delta FIM"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 39,
+                            "x1": 68,
+                            "x2": 68,
+                            "x3": 39,
+                            "y0": 190,
+                            "y1": 190,
+                            "y2": 211,
+                            "y3": 211
+                        },
+                        "text": "50"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 52,
+                            "x1": 68,
+                            "x2": 68,
+                            "x3": 52,
+                            "y0": 470,
+                            "y1": 470,
+                            "y2": 491,
+                            "y3": 491
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 235,
+                            "x1": 291,
+                            "x2": 291,
+                            "x3": 235,
+                            "y0": 766,
+                            "y1": 766,
+                            "y2": 792,
+                            "y3": 792
+                        },
+                        "text": "GG"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 515,
+                            "x1": 641,
+                            "x2": 641,
+                            "x3": 515,
+                            "y0": 767,
+                            "y1": 767,
+                            "y2": 796,
+                            "y3": 796
+                        },
+                        "text": "AG /AA"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 4,
+                            "x1": 98,
+                            "x2": 98,
+                            "x3": 4,
+                            "y0": 11,
+                            "y1": 11,
+                            "y2": 39,
+                            "y3": 39
+                        },
+                        "text": "\\delta FIM"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 39,
+                            "x1": 68,
+                            "x2": 68,
+                            "x3": 39,
+                            "y0": 190,
+                            "y1": 190,
+                            "y2": 211,
+                            "y3": 211
+                        },
+                        "text": "50"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 52,
+                            "x1": 68,
+                            "x2": 68,
+                            "x3": 52,
+                            "y0": 470,
+                            "y1": 470,
+                            "y2": 491,
+                            "y3": 491
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 235,
+                            "x1": 291,
+                            "x2": 291,
+                            "x3": 235,
+                            "y0": 766,
+                            "y1": 766,
+                            "y2": 792,
+                            "y3": 792
+                        },
+                        "text": "GG"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 515,
+                            "x1": 641,
+                            "x2": 641,
+                            "x3": 515,
+                            "y0": 767,
+                            "y1": 767,
+                            "y2": 796,
+                            "y3": 796
+                        },
+                        "text": "AG /AA"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 698,
+                "width": 693,
+                "x0": 78,
+                "y0": 52
+            },
+            "axes": {
+                "_x-tick-type": "markers",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 266,
+                            "y": 750
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 580,
+                            "y": 750
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 78,
+                            "y": 200
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 78,
+                            "y": 480
+                        }
+                    }
+                ],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 4,
+                            "x1": 98,
+                            "x2": 98,
+                            "x3": 4,
+                            "y0": 11,
+                            "y1": 11,
+                            "y2": 39,
+                            "y3": 39
+                        },
+                        "text": "\\delta FIM"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 39,
+                            "x1": 68,
+                            "x2": 68,
+                            "x3": 39,
+                            "y0": 190,
+                            "y1": 190,
+                            "y2": 211,
+                            "y3": 211
+                        },
+                        "text": "50"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 52,
+                            "x1": 68,
+                            "x2": 68,
+                            "x3": 52,
+                            "y0": 470,
+                            "y1": 470,
+                            "y2": 491,
+                            "y3": 491
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 235,
+                            "x1": 291,
+                            "x2": 291,
+                            "x3": 235,
+                            "y0": 766,
+                            "y1": 766,
+                            "y2": 792,
+                            "y3": 792
+                        },
+                        "text": "GG"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 515,
+                            "x1": 641,
+                            "x2": 641,
+                            "x3": 515,
+                            "y0": 767,
+                            "y1": 767,
+                            "y2": 796,
+                            "y3": 796
+                        },
+                        "text": "AG /AA"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 4,
+                            "x1": 98,
+                            "x2": 98,
+                            "x3": 4,
+                            "y0": 11,
+                            "y1": 11,
+                            "y2": 39,
+                            "y3": 39
+                        },
+                        "text": "\\delta FIM"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 39,
+                            "x1": 68,
+                            "x2": 68,
+                            "x3": 39,
+                            "y0": 190,
+                            "y1": 190,
+                            "y2": 211,
+                            "y3": 211
+                        },
+                        "text": "50"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 52,
+                            "x1": 68,
+                            "x2": 68,
+                            "x3": 52,
+                            "y0": 470,
+                            "y1": 470,
+                            "y2": 491,
+                            "y3": 491
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 235,
+                            "x1": 291,
+                            "x2": 291,
+                            "x3": 235,
+                            "y0": 766,
+                            "y1": 766,
+                            "y2": 792,
+                            "y3": 792
+                        },
+                        "text": "GG"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 515,
+                            "x1": 641,
+                            "x2": 641,
+                            "x3": 515,
+                            "y0": 767,
+                            "y1": 767,
+                            "y2": 796,
+                            "y3": 796
+                        },
+                        "text": "AG /AA"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 698,
+                    "width": 693,
+                    "x0": 78,
+                    "y0": 52
+                },
+                "axes": {
+                    "_x-tick-type": "markers",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": "markers",
+                    "_y2-tick-type": null,
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 266,
+                                "y": 750
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 580,
+                                "y": 750
+                            }
+                        }
+                    ],
+                    "x-axis-2": [],
+                    "y-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 78,
+                                "y": 200
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 78,
+                                "y": 480
+                            }
+                        }
+                    ],
+                    "y-axis-2": []
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "first_quartile": 0.019670958512147,
+                            "max": 32.083333333333314,
+                            "median": 9.403995503780983,
+                            "min": -12.559523809523796,
+                            "third_quartile": 14.20626405068462,
+                            "x": "GG"
+                        },
+                        {
+                            "first_quartile": 0.05952380952381629,
+                            "max": 27.321428571428573,
+                            "median": 7.20238095238096,
+                            "min": 0.05952380952381629,
+                            "third_quartile": 14.464285714285724,
+                            "x": "AG /AA"
+                        }
+                    ],
+                    "name": "[unnamed data series #0]"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 236.0,
+                                "x0": 148.0,
+                                "y0": 480.0
+                            },
+                            "x": 266.0,
+                            "y": 480.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 236.0,
+                                "x0": 148.0,
+                                "y0": 300.0
+                            },
+                            "x": 266.0,
+                            "y": 300.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 236.0,
+                                "x0": 148.0,
+                                "y0": 427.0
+                            },
+                            "x": 266.0,
+                            "y": 427.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 236.0,
+                                "x0": 148.0,
+                                "y0": 550.0
+                            },
+                            "x": 266.0,
+                            "y": 550.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 236.0,
+                                "x0": 148.0,
+                                "y0": 400.0
+                            },
+                            "x": 266.0,
+                            "y": 400.0
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 237.0,
+                                "x0": 462.0,
+                                "y0": 480.0
+                            },
+                            "x": 580.5,
+                            "y": 480.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 237.0,
+                                "x0": 462.0,
+                                "y0": 327.0
+                            },
+                            "x": 580.5,
+                            "y": 327.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 237.0,
+                                "x0": 462.0,
+                                "y0": 440.0
+                            },
+                            "x": 580.5,
+                            "y": 440.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 237.0,
+                                "x0": 462.0,
+                                "y0": 480.0
+                            },
+                            "x": 580.5,
+                            "y": 480.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 237.0,
+                                "x0": 462.0,
+                                "y0": 399.0
+                            },
+                            "x": 580.5,
+                            "y": 399.0
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

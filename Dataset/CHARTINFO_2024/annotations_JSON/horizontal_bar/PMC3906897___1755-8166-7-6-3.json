@@ -1,0 +1,1037 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 545,
+                        "x1": 558,
+                        "x2": 558,
+                        "x3": 545,
+                        "y0": 27,
+                        "y1": 27,
+                        "y2": 36,
+                        "y3": 36
+                    },
+                    "text": "136"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 309,
+                        "x1": 319,
+                        "x2": 319,
+                        "x3": 309,
+                        "y0": 148,
+                        "y1": 148,
+                        "y2": 156,
+                        "y3": 156
+                    },
+                    "text": "15"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 293,
+                        "x1": 299,
+                        "x2": 299,
+                        "x3": 293,
+                        "y0": 188,
+                        "y1": 188,
+                        "y2": 196,
+                        "y3": 196
+                    },
+                    "text": "7"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 297,
+                        "x1": 303,
+                        "x2": 303,
+                        "x3": 297,
+                        "y0": 108,
+                        "y1": 108,
+                        "y2": 116,
+                        "y3": 116
+                    },
+                    "text": "9"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 282,
+                        "x1": 287,
+                        "x2": 287,
+                        "x3": 282,
+                        "y0": 68,
+                        "y1": 68,
+                        "y2": 76,
+                        "y3": 76
+                    },
+                    "text": "1"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 193,
+                        "x1": 269,
+                        "x2": 269,
+                        "x3": 193,
+                        "y0": 26,
+                        "y1": 26,
+                        "y2": 35,
+                        "y3": 35
+                    },
+                    "text": "Normal array result"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 100,
+                        "x1": 266,
+                        "x2": 266,
+                        "x3": 100,
+                        "y0": 106,
+                        "y1": 106,
+                        "y2": 116,
+                        "y3": 116
+                    },
+                    "text": "Likely/probably benign CNV [inherited CNV]"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 5,
+                        "x1": 268,
+                        "x2": 268,
+                        "x3": 5,
+                        "y0": 146,
+                        "y1": 146,
+                        "y2": 156,
+                        "y3": 156
+                    },
+                    "text": "CNV of unknown clinical significance because of unknown Inheritance"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 182,
+                        "x1": 270,
+                        "x2": 270,
+                        "x3": 182,
+                        "y0": 186,
+                        "y1": 186,
+                        "y2": 197,
+                        "y3": 197
+                    },
+                    "text": "Clinically relevant CNV"
+                },
+                {
+                    "id": 9,
+                    "polygon": {
+                        "x0": 224,
+                        "x1": 269,
+                        "x2": 269,
+                        "x3": 224,
+                        "y0": 66,
+                        "y1": 66,
+                        "y2": 75,
+                        "y3": 75
+                    },
+                    "text": "Test failure"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 545,
+                            "x1": 558,
+                            "x2": 558,
+                            "x3": 545,
+                            "y0": 27,
+                            "y1": 27,
+                            "y2": 36,
+                            "y3": 36
+                        },
+                        "text": "136"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 309,
+                            "x1": 319,
+                            "x2": 319,
+                            "x3": 309,
+                            "y0": 148,
+                            "y1": 148,
+                            "y2": 156,
+                            "y3": 156
+                        },
+                        "text": "15"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 293,
+                            "x1": 299,
+                            "x2": 299,
+                            "x3": 293,
+                            "y0": 188,
+                            "y1": 188,
+                            "y2": 196,
+                            "y3": 196
+                        },
+                        "text": "7"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 297,
+                            "x1": 303,
+                            "x2": 303,
+                            "x3": 297,
+                            "y0": 108,
+                            "y1": 108,
+                            "y2": 116,
+                            "y3": 116
+                        },
+                        "text": "9"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 282,
+                            "x1": 287,
+                            "x2": 287,
+                            "x3": 282,
+                            "y0": 68,
+                            "y1": 68,
+                            "y2": 76,
+                            "y3": 76
+                        },
+                        "text": "1"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 193,
+                            "x1": 269,
+                            "x2": 269,
+                            "x3": 193,
+                            "y0": 26,
+                            "y1": 26,
+                            "y2": 35,
+                            "y3": 35
+                        },
+                        "text": "Normal array result"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 100,
+                            "x1": 266,
+                            "x2": 266,
+                            "x3": 100,
+                            "y0": 106,
+                            "y1": 106,
+                            "y2": 116,
+                            "y3": 116
+                        },
+                        "text": "Likely/probably benign CNV [inherited CNV]"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 5,
+                            "x1": 268,
+                            "x2": 268,
+                            "x3": 5,
+                            "y0": 146,
+                            "y1": 146,
+                            "y2": 156,
+                            "y3": 156
+                        },
+                        "text": "CNV of unknown clinical significance because of unknown Inheritance"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 182,
+                            "x1": 270,
+                            "x2": 270,
+                            "x3": 182,
+                            "y0": 186,
+                            "y1": 186,
+                            "y2": 197,
+                            "y3": 197
+                        },
+                        "text": "Clinically relevant CNV"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 224,
+                            "x1": 269,
+                            "x2": 269,
+                            "x3": 224,
+                            "y0": 66,
+                            "y1": 66,
+                            "y2": 75,
+                            "y3": 75
+                        },
+                        "text": "Test failure"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "value_label"
+                },
+                {
+                    "id": 1,
+                    "role": "value_label"
+                },
+                {
+                    "id": 2,
+                    "role": "value_label"
+                },
+                {
+                    "id": 3,
+                    "role": "value_label"
+                },
+                {
+                    "id": 4,
+                    "role": "value_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 545,
+                            "x1": 558,
+                            "x2": 558,
+                            "x3": 545,
+                            "y0": 27,
+                            "y1": 27,
+                            "y2": 36,
+                            "y3": 36
+                        },
+                        "text": "136"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 309,
+                            "x1": 319,
+                            "x2": 319,
+                            "x3": 309,
+                            "y0": 148,
+                            "y1": 148,
+                            "y2": 156,
+                            "y3": 156
+                        },
+                        "text": "15"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 293,
+                            "x1": 299,
+                            "x2": 299,
+                            "x3": 293,
+                            "y0": 188,
+                            "y1": 188,
+                            "y2": 196,
+                            "y3": 196
+                        },
+                        "text": "7"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 297,
+                            "x1": 303,
+                            "x2": 303,
+                            "x3": 297,
+                            "y0": 108,
+                            "y1": 108,
+                            "y2": 116,
+                            "y3": 116
+                        },
+                        "text": "9"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 282,
+                            "x1": 287,
+                            "x2": 287,
+                            "x3": 282,
+                            "y0": 68,
+                            "y1": 68,
+                            "y2": 76,
+                            "y3": 76
+                        },
+                        "text": "1"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 193,
+                            "x1": 269,
+                            "x2": 269,
+                            "x3": 193,
+                            "y0": 26,
+                            "y1": 26,
+                            "y2": 35,
+                            "y3": 35
+                        },
+                        "text": "Normal array result"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 100,
+                            "x1": 266,
+                            "x2": 266,
+                            "x3": 100,
+                            "y0": 106,
+                            "y1": 106,
+                            "y2": 116,
+                            "y3": 116
+                        },
+                        "text": "Likely/probably benign CNV [inherited CNV]"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 5,
+                            "x1": 268,
+                            "x2": 268,
+                            "x3": 5,
+                            "y0": 146,
+                            "y1": 146,
+                            "y2": 156,
+                            "y3": 156
+                        },
+                        "text": "CNV of unknown clinical significance because of unknown Inheritance"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 182,
+                            "x1": 270,
+                            "x2": 270,
+                            "x3": 182,
+                            "y0": 186,
+                            "y1": 186,
+                            "y2": 197,
+                            "y3": 197
+                        },
+                        "text": "Clinically relevant CNV"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 224,
+                            "x1": 269,
+                            "x2": 269,
+                            "x3": 224,
+                            "y0": 66,
+                            "y1": 66,
+                            "y2": 75,
+                            "y3": 75
+                        },
+                        "text": "Test failure"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 201,
+                "width": 300,
+                "x0": 275,
+                "y0": 11
+            },
+            "axes": {
+                "_x-tick-type": "markers",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 275,
+                            "y": 32
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 275,
+                            "y": 72
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 275,
+                            "y": 112
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 275,
+                            "y": 152
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 275,
+                            "y": 192
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 545,
+                            "x1": 558,
+                            "x2": 558,
+                            "x3": 545,
+                            "y0": 27,
+                            "y1": 27,
+                            "y2": 36,
+                            "y3": 36
+                        },
+                        "text": "136"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 309,
+                            "x1": 319,
+                            "x2": 319,
+                            "x3": 309,
+                            "y0": 148,
+                            "y1": 148,
+                            "y2": 156,
+                            "y3": 156
+                        },
+                        "text": "15"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 293,
+                            "x1": 299,
+                            "x2": 299,
+                            "x3": 293,
+                            "y0": 188,
+                            "y1": 188,
+                            "y2": 196,
+                            "y3": 196
+                        },
+                        "text": "7"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 297,
+                            "x1": 303,
+                            "x2": 303,
+                            "x3": 297,
+                            "y0": 108,
+                            "y1": 108,
+                            "y2": 116,
+                            "y3": 116
+                        },
+                        "text": "9"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 282,
+                            "x1": 287,
+                            "x2": 287,
+                            "x3": 282,
+                            "y0": 68,
+                            "y1": 68,
+                            "y2": 76,
+                            "y3": 76
+                        },
+                        "text": "1"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 193,
+                            "x1": 269,
+                            "x2": 269,
+                            "x3": 193,
+                            "y0": 26,
+                            "y1": 26,
+                            "y2": 35,
+                            "y3": 35
+                        },
+                        "text": "Normal array result"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 100,
+                            "x1": 266,
+                            "x2": 266,
+                            "x3": 100,
+                            "y0": 106,
+                            "y1": 106,
+                            "y2": 116,
+                            "y3": 116
+                        },
+                        "text": "Likely/probably benign CNV [inherited CNV]"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 5,
+                            "x1": 268,
+                            "x2": 268,
+                            "x3": 5,
+                            "y0": 146,
+                            "y1": 146,
+                            "y2": 156,
+                            "y3": 156
+                        },
+                        "text": "CNV of unknown clinical significance because of unknown Inheritance"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 182,
+                            "x1": 270,
+                            "x2": 270,
+                            "x3": 182,
+                            "y0": 186,
+                            "y1": 186,
+                            "y2": 197,
+                            "y3": 197
+                        },
+                        "text": "Clinically relevant CNV"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 224,
+                            "x1": 269,
+                            "x2": 269,
+                            "x3": 224,
+                            "y0": 66,
+                            "y1": 66,
+                            "y2": 75,
+                            "y3": 75
+                        },
+                        "text": "Test failure"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 545,
+                            "x1": 558,
+                            "x2": 558,
+                            "x3": 545,
+                            "y0": 27,
+                            "y1": 27,
+                            "y2": 36,
+                            "y3": 36
+                        },
+                        "text": "136"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 309,
+                            "x1": 319,
+                            "x2": 319,
+                            "x3": 309,
+                            "y0": 148,
+                            "y1": 148,
+                            "y2": 156,
+                            "y3": 156
+                        },
+                        "text": "15"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 293,
+                            "x1": 299,
+                            "x2": 299,
+                            "x3": 293,
+                            "y0": 188,
+                            "y1": 188,
+                            "y2": 196,
+                            "y3": 196
+                        },
+                        "text": "7"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 297,
+                            "x1": 303,
+                            "x2": 303,
+                            "x3": 297,
+                            "y0": 108,
+                            "y1": 108,
+                            "y2": 116,
+                            "y3": 116
+                        },
+                        "text": "9"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 282,
+                            "x1": 287,
+                            "x2": 287,
+                            "x3": 282,
+                            "y0": 68,
+                            "y1": 68,
+                            "y2": 76,
+                            "y3": 76
+                        },
+                        "text": "1"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 193,
+                            "x1": 269,
+                            "x2": 269,
+                            "x3": 193,
+                            "y0": 26,
+                            "y1": 26,
+                            "y2": 35,
+                            "y3": 35
+                        },
+                        "text": "Normal array result"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 100,
+                            "x1": 266,
+                            "x2": 266,
+                            "x3": 100,
+                            "y0": 106,
+                            "y1": 106,
+                            "y2": 116,
+                            "y3": 116
+                        },
+                        "text": "Likely/probably benign CNV [inherited CNV]"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 5,
+                            "x1": 268,
+                            "x2": 268,
+                            "x3": 5,
+                            "y0": 146,
+                            "y1": 146,
+                            "y2": 156,
+                            "y3": 156
+                        },
+                        "text": "CNV of unknown clinical significance because of unknown Inheritance"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 182,
+                            "x1": 270,
+                            "x2": 270,
+                            "x3": 182,
+                            "y0": 186,
+                            "y1": 186,
+                            "y2": 197,
+                            "y3": 197
+                        },
+                        "text": "Clinically relevant CNV"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 224,
+                            "x1": 269,
+                            "x2": 269,
+                            "x3": 224,
+                            "y0": 66,
+                            "y1": 66,
+                            "y2": 75,
+                            "y3": 75
+                        },
+                        "text": "Test failure"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "value_label"
+                    },
+                    {
+                        "id": 1,
+                        "role": "value_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "value_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "value_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "value_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 201,
+                    "width": 300,
+                    "x0": 275,
+                    "y0": 11
+                },
+                "axes": {
+                    "_x-tick-type": "markers",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": "markers",
+                    "_y2-tick-type": null,
+                    "x-axis": [
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 275,
+                                "y": 32
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 275,
+                                "y": 72
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 275,
+                                "y": 112
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 275,
+                                "y": 152
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 275,
+                                "y": 192
+                            }
+                        }
+                    ],
+                    "x-axis-2": [],
+                    "y-axis": [],
+                    "y-axis-2": []
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Normal array result",
+                            "y": 136.0
+                        },
+                        {
+                            "x": "Test failure",
+                            "y": 1.0
+                        },
+                        {
+                            "x": "Likely/probably benign CNV [inherited CNV]",
+                            "y": 9.0
+                        },
+                        {
+                            "x": "CNV of unknown clinical significance because of unknown Inheritance",
+                            "y": 15.0
+                        },
+                        {
+                            "x": "Clinically relevant CNV",
+                            "y": 7.0
+                        }
+                    ],
+                    "name": "[unnamed data series #0]"
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 16,
+                        "width": 265,
+                        "x0": 275,
+                        "y0": 23
+                    },
+                    {
+                        "height": 16,
+                        "width": 3,
+                        "x0": 275,
+                        "y0": 63
+                    },
+                    {
+                        "height": 16,
+                        "width": 18,
+                        "x0": 275,
+                        "y0": 103
+                    },
+                    {
+                        "height": 16,
+                        "width": 30,
+                        "x0": 275,
+                        "y0": 143
+                    },
+                    {
+                        "height": 16,
+                        "width": 15,
+                        "x0": 275,
+                        "y0": 183
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

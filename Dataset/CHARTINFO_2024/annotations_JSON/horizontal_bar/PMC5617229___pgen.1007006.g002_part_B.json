@@ -1,0 +1,2985 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 0,
+                        "x1": 25,
+                        "x2": 25,
+                        "x3": 0,
+                        "y0": 0,
+                        "y1": 0,
+                        "y2": 27,
+                        "y3": 27
+                    },
+                    "text": "B)"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 146,
+                        "x1": 247,
+                        "x2": 247,
+                        "x3": 146,
+                        "y0": 10,
+                        "y1": 10,
+                        "y2": 32,
+                        "y3": 32
+                    },
+                    "text": "GO Term"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 470,
+                        "x1": 693,
+                        "x2": 693,
+                        "x3": 470,
+                        "y0": 11,
+                        "y1": 11,
+                        "y2": 41,
+                        "y3": 41
+                    },
+                    "text": "-log_{10} (FDR q-value)"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 417,
+                        "x1": 430,
+                        "x2": 430,
+                        "x3": 417,
+                        "y0": 47,
+                        "y1": 47,
+                        "y2": 65,
+                        "y3": 65
+                    },
+                    "text": "0"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 523,
+                        "x1": 532,
+                        "x2": 532,
+                        "x3": 523,
+                        "y0": 47,
+                        "y1": 47,
+                        "y2": 65,
+                        "y3": 65
+                    },
+                    "text": "1"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 628,
+                        "x1": 641,
+                        "x2": 641,
+                        "x3": 628,
+                        "y0": 47,
+                        "y1": 47,
+                        "y2": 65,
+                        "y3": 65
+                    },
+                    "text": "2"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 732,
+                        "x1": 744,
+                        "x2": 744,
+                        "x3": 732,
+                        "y0": 47,
+                        "y1": 47,
+                        "y2": 65,
+                        "y3": 65
+                    },
+                    "text": "3"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 301,
+                        "x1": 417,
+                        "x2": 417,
+                        "x3": 301,
+                        "y0": 75,
+                        "y1": 75,
+                        "y2": 94,
+                        "y3": 94
+                    },
+                    "text": "DNA replication"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 242,
+                        "x1": 417,
+                        "x2": 417,
+                        "x3": 242,
+                        "y0": 95,
+                        "y1": 95,
+                        "y2": 114,
+                        "y3": 114
+                    },
+                    "text": "DNA metabolic process"
+                },
+                {
+                    "id": 9,
+                    "polygon": {
+                        "x0": 227,
+                        "x1": 417,
+                        "x2": 417,
+                        "x3": 227,
+                        "y0": 115,
+                        "y1": 115,
+                        "y2": 131,
+                        "y3": 131
+                    },
+                    "text": "sister chromatid cohesion"
+                },
+                {
+                    "id": 10,
+                    "polygon": {
+                        "x0": 348,
+                        "x1": 417,
+                        "x2": 417,
+                        "x3": 348,
+                        "y0": 135,
+                        "y1": 135,
+                        "y2": 154,
+                        "y3": 154
+                    },
+                    "text": "cell cycle"
+                },
+                {
+                    "id": 11,
+                    "polygon": {
+                        "x0": 235,
+                        "x1": 417,
+                        "x2": 417,
+                        "x3": 235,
+                        "y0": 155,
+                        "y1": 155,
+                        "y2": 174,
+                        "y3": 174
+                    },
+                    "text": "DNA replication initiation"
+                },
+                {
+                    "id": 12,
+                    "polygon": {
+                        "x0": 262,
+                        "x1": 417,
+                        "x2": 417,
+                        "x3": 262,
+                        "y0": 175,
+                        "y1": 175,
+                        "y2": 194,
+                        "y3": 194
+                    },
+                    "text": "reproductive process"
+                },
+                {
+                    "id": 13,
+                    "polygon": {
+                        "x0": 285,
+                        "x1": 417,
+                        "x2": 417,
+                        "x3": 285,
+                        "y0": 195,
+                        "y1": 195,
+                        "y2": 214,
+                        "y3": 214
+                    },
+                    "text": "cell cycle process"
+                },
+                {
+                    "id": 14,
+                    "polygon": {
+                        "x0": 86,
+                        "x1": 417,
+                        "x2": 417,
+                        "x3": 86,
+                        "y0": 215,
+                        "y1": 215,
+                        "y2": 234,
+                        "y3": 234
+                    },
+                    "text": "positive regulation of protein phosphorylation"
+                },
+                {
+                    "id": 15,
+                    "polygon": {
+                        "x0": 141,
+                        "x1": 417,
+                        "x2": 417,
+                        "x3": 141,
+                        "y0": 235,
+                        "y1": 235,
+                        "y2": 254,
+                        "y3": 254
+                    },
+                    "text": "positive regulation of phosphorylation"
+                },
+                {
+                    "id": 16,
+                    "polygon": {
+                        "x0": 233,
+                        "x1": 417,
+                        "x2": 417,
+                        "x3": 233,
+                        "y0": 255,
+                        "y1": 255,
+                        "y2": 274,
+                        "y3": 274
+                    },
+                    "text": "mitotic cell cycle process"
+                },
+                {
+                    "id": 17,
+                    "polygon": {
+                        "x0": 220,
+                        "x1": 418,
+                        "x2": 418,
+                        "x3": 220,
+                        "y0": 275,
+                        "y1": 275,
+                        "y2": 293,
+                        "y3": 293
+                    },
+                    "text": "double-strand break repair"
+                },
+                {
+                    "id": 18,
+                    "polygon": {
+                        "x0": 334,
+                        "x1": 418,
+                        "x2": 418,
+                        "x3": 334,
+                        "y0": 295,
+                        "y1": 295,
+                        "y2": 313,
+                        "y3": 313
+                    },
+                    "text": "DNA repair"
+                },
+                {
+                    "id": 19,
+                    "polygon": {
+                        "x0": 240,
+                        "x1": 417,
+                        "x2": 417,
+                        "x3": 240,
+                        "y0": 315,
+                        "y1": 315,
+                        "y2": 332,
+                        "y3": 332
+                    },
+                    "text": "budding cell bud growth"
+                },
+                {
+                    "id": 20,
+                    "polygon": {
+                        "x0": 175,
+                        "x1": 417,
+                        "x2": 417,
+                        "x3": 175,
+                        "y0": 335,
+                        "y1": 335,
+                        "y2": 350,
+                        "y3": 350
+                    },
+                    "text": "mitotic sister chromatid cohesion"
+                },
+                {
+                    "id": 21,
+                    "polygon": {
+                        "x0": 228,
+                        "x1": 417,
+                        "x2": 417,
+                        "x3": 228,
+                        "y0": 355,
+                        "y1": 355,
+                        "y2": 372,
+                        "y3": 372
+                    },
+                    "text": "meiotic cell cycle process"
+                },
+                {
+                    "id": 22,
+                    "polygon": {
+                        "x0": 140,
+                        "x1": 417,
+                        "x2": 417,
+                        "x3": 140,
+                        "y0": 375,
+                        "y1": 375,
+                        "y2": 392,
+                        "y3": 392
+                    },
+                    "text": "single organism reproductive process"
+                },
+                {
+                    "id": 23,
+                    "polygon": {
+                        "x0": 224,
+                        "x1": 417,
+                        "x2": 417,
+                        "x3": 224,
+                        "y0": 394,
+                        "y1": 394,
+                        "y2": 412,
+                        "y3": 412
+                    },
+                    "text": "chromosome organization"
+                },
+                {
+                    "id": 24,
+                    "polygon": {
+                        "x0": 9,
+                        "x1": 417,
+                        "x2": 417,
+                        "x3": 9,
+                        "y0": 414,
+                        "y1": 414,
+                        "y2": 432,
+                        "y3": 432
+                    },
+                    "text": "DNA strand elongation involved in DNA replication"
+                },
+                {
+                    "id": 25,
+                    "polygon": {
+                        "x0": 249,
+                        "x1": 417,
+                        "x2": 417,
+                        "x3": 249,
+                        "y0": 434,
+                        "y1": 434,
+                        "y2": 453,
+                        "y3": 453
+                    },
+                    "text": "DNA strand elongation"
+                },
+                {
+                    "id": 26,
+                    "polygon": {
+                        "x0": 222,
+                        "x1": 417,
+                        "x2": 417,
+                        "x3": 222,
+                        "y0": 454,
+                        "y1": 454,
+                        "y2": 473,
+                        "y3": 473
+                    },
+                    "text": "cellular response to stress"
+                },
+                {
+                    "id": 27,
+                    "polygon": {
+                        "x0": 101,
+                        "x1": 417,
+                        "x2": 417,
+                        "x3": 101,
+                        "y0": 474,
+                        "y1": 474,
+                        "y2": 492,
+                        "y3": 492
+                    },
+                    "text": "cellular response to DNA damage stimulus"
+                },
+                {
+                    "id": 28,
+                    "polygon": {
+                        "x0": 147,
+                        "x1": 417,
+                        "x2": 417,
+                        "x3": 147,
+                        "y0": 494,
+                        "y1": 494,
+                        "y2": 513,
+                        "y3": 513
+                    },
+                    "text": "regulation of protein phosphorylation"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 25,
+                            "x2": 25,
+                            "x3": 0,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 27,
+                            "y3": 27
+                        },
+                        "text": "B)"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 146,
+                            "x1": 247,
+                            "x2": 247,
+                            "x3": 146,
+                            "y0": 10,
+                            "y1": 10,
+                            "y2": 32,
+                            "y3": 32
+                        },
+                        "text": "GO Term"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 470,
+                            "x1": 693,
+                            "x2": 693,
+                            "x3": 470,
+                            "y0": 11,
+                            "y1": 11,
+                            "y2": 41,
+                            "y3": 41
+                        },
+                        "text": "-log_{10} (FDR q-value)"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 417,
+                            "x1": 430,
+                            "x2": 430,
+                            "x3": 417,
+                            "y0": 47,
+                            "y1": 47,
+                            "y2": 65,
+                            "y3": 65
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 523,
+                            "x1": 532,
+                            "x2": 532,
+                            "x3": 523,
+                            "y0": 47,
+                            "y1": 47,
+                            "y2": 65,
+                            "y3": 65
+                        },
+                        "text": "1"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 628,
+                            "x1": 641,
+                            "x2": 641,
+                            "x3": 628,
+                            "y0": 47,
+                            "y1": 47,
+                            "y2": 65,
+                            "y3": 65
+                        },
+                        "text": "2"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 732,
+                            "x1": 744,
+                            "x2": 744,
+                            "x3": 732,
+                            "y0": 47,
+                            "y1": 47,
+                            "y2": 65,
+                            "y3": 65
+                        },
+                        "text": "3"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 301,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 301,
+                            "y0": 75,
+                            "y1": 75,
+                            "y2": 94,
+                            "y3": 94
+                        },
+                        "text": "DNA replication"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 242,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 242,
+                            "y0": 95,
+                            "y1": 95,
+                            "y2": 114,
+                            "y3": 114
+                        },
+                        "text": "DNA metabolic process"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 227,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 227,
+                            "y0": 115,
+                            "y1": 115,
+                            "y2": 131,
+                            "y3": 131
+                        },
+                        "text": "sister chromatid cohesion"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 348,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 348,
+                            "y0": 135,
+                            "y1": 135,
+                            "y2": 154,
+                            "y3": 154
+                        },
+                        "text": "cell cycle"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 235,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 235,
+                            "y0": 155,
+                            "y1": 155,
+                            "y2": 174,
+                            "y3": 174
+                        },
+                        "text": "DNA replication initiation"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 262,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 262,
+                            "y0": 175,
+                            "y1": 175,
+                            "y2": 194,
+                            "y3": 194
+                        },
+                        "text": "reproductive process"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 285,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 285,
+                            "y0": 195,
+                            "y1": 195,
+                            "y2": 214,
+                            "y3": 214
+                        },
+                        "text": "cell cycle process"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 86,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 86,
+                            "y0": 215,
+                            "y1": 215,
+                            "y2": 234,
+                            "y3": 234
+                        },
+                        "text": "positive regulation of protein phosphorylation"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 141,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 141,
+                            "y0": 235,
+                            "y1": 235,
+                            "y2": 254,
+                            "y3": 254
+                        },
+                        "text": "positive regulation of phosphorylation"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 233,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 233,
+                            "y0": 255,
+                            "y1": 255,
+                            "y2": 274,
+                            "y3": 274
+                        },
+                        "text": "mitotic cell cycle process"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 220,
+                            "x1": 418,
+                            "x2": 418,
+                            "x3": 220,
+                            "y0": 275,
+                            "y1": 275,
+                            "y2": 293,
+                            "y3": 293
+                        },
+                        "text": "double-strand break repair"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 334,
+                            "x1": 418,
+                            "x2": 418,
+                            "x3": 334,
+                            "y0": 295,
+                            "y1": 295,
+                            "y2": 313,
+                            "y3": 313
+                        },
+                        "text": "DNA repair"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 240,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 240,
+                            "y0": 315,
+                            "y1": 315,
+                            "y2": 332,
+                            "y3": 332
+                        },
+                        "text": "budding cell bud growth"
+                    },
+                    {
+                        "id": 20,
+                        "polygon": {
+                            "x0": 175,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 175,
+                            "y0": 335,
+                            "y1": 335,
+                            "y2": 350,
+                            "y3": 350
+                        },
+                        "text": "mitotic sister chromatid cohesion"
+                    },
+                    {
+                        "id": 21,
+                        "polygon": {
+                            "x0": 228,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 228,
+                            "y0": 355,
+                            "y1": 355,
+                            "y2": 372,
+                            "y3": 372
+                        },
+                        "text": "meiotic cell cycle process"
+                    },
+                    {
+                        "id": 22,
+                        "polygon": {
+                            "x0": 140,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 140,
+                            "y0": 375,
+                            "y1": 375,
+                            "y2": 392,
+                            "y3": 392
+                        },
+                        "text": "single organism reproductive process"
+                    },
+                    {
+                        "id": 23,
+                        "polygon": {
+                            "x0": 224,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 224,
+                            "y0": 394,
+                            "y1": 394,
+                            "y2": 412,
+                            "y3": 412
+                        },
+                        "text": "chromosome organization"
+                    },
+                    {
+                        "id": 24,
+                        "polygon": {
+                            "x0": 9,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 9,
+                            "y0": 414,
+                            "y1": 414,
+                            "y2": 432,
+                            "y3": 432
+                        },
+                        "text": "DNA strand elongation involved in DNA replication"
+                    },
+                    {
+                        "id": 25,
+                        "polygon": {
+                            "x0": 249,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 249,
+                            "y0": 434,
+                            "y1": 434,
+                            "y2": 453,
+                            "y3": 453
+                        },
+                        "text": "DNA strand elongation"
+                    },
+                    {
+                        "id": 26,
+                        "polygon": {
+                            "x0": 222,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 222,
+                            "y0": 454,
+                            "y1": 454,
+                            "y2": 473,
+                            "y3": 473
+                        },
+                        "text": "cellular response to stress"
+                    },
+                    {
+                        "id": 27,
+                        "polygon": {
+                            "x0": 101,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 101,
+                            "y0": 474,
+                            "y1": 474,
+                            "y2": 492,
+                            "y3": 492
+                        },
+                        "text": "cellular response to DNA damage stimulus"
+                    },
+                    {
+                        "id": 28,
+                        "polygon": {
+                            "x0": 147,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 147,
+                            "y0": 494,
+                            "y1": 494,
+                            "y2": 513,
+                            "y3": 513
+                        },
+                        "text": "regulation of protein phosphorylation"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "other"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 18,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 19,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 20,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 21,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 22,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 23,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 24,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 25,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 26,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 27,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 28,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 25,
+                            "x2": 25,
+                            "x3": 0,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 27,
+                            "y3": 27
+                        },
+                        "text": "B)"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 146,
+                            "x1": 247,
+                            "x2": 247,
+                            "x3": 146,
+                            "y0": 10,
+                            "y1": 10,
+                            "y2": 32,
+                            "y3": 32
+                        },
+                        "text": "GO Term"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 470,
+                            "x1": 693,
+                            "x2": 693,
+                            "x3": 470,
+                            "y0": 11,
+                            "y1": 11,
+                            "y2": 41,
+                            "y3": 41
+                        },
+                        "text": "-log_{10} (FDR q-value)"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 417,
+                            "x1": 430,
+                            "x2": 430,
+                            "x3": 417,
+                            "y0": 47,
+                            "y1": 47,
+                            "y2": 65,
+                            "y3": 65
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 523,
+                            "x1": 532,
+                            "x2": 532,
+                            "x3": 523,
+                            "y0": 47,
+                            "y1": 47,
+                            "y2": 65,
+                            "y3": 65
+                        },
+                        "text": "1"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 628,
+                            "x1": 641,
+                            "x2": 641,
+                            "x3": 628,
+                            "y0": 47,
+                            "y1": 47,
+                            "y2": 65,
+                            "y3": 65
+                        },
+                        "text": "2"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 732,
+                            "x1": 744,
+                            "x2": 744,
+                            "x3": 732,
+                            "y0": 47,
+                            "y1": 47,
+                            "y2": 65,
+                            "y3": 65
+                        },
+                        "text": "3"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 301,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 301,
+                            "y0": 75,
+                            "y1": 75,
+                            "y2": 94,
+                            "y3": 94
+                        },
+                        "text": "DNA replication"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 242,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 242,
+                            "y0": 95,
+                            "y1": 95,
+                            "y2": 114,
+                            "y3": 114
+                        },
+                        "text": "DNA metabolic process"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 227,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 227,
+                            "y0": 115,
+                            "y1": 115,
+                            "y2": 131,
+                            "y3": 131
+                        },
+                        "text": "sister chromatid cohesion"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 348,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 348,
+                            "y0": 135,
+                            "y1": 135,
+                            "y2": 154,
+                            "y3": 154
+                        },
+                        "text": "cell cycle"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 235,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 235,
+                            "y0": 155,
+                            "y1": 155,
+                            "y2": 174,
+                            "y3": 174
+                        },
+                        "text": "DNA replication initiation"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 262,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 262,
+                            "y0": 175,
+                            "y1": 175,
+                            "y2": 194,
+                            "y3": 194
+                        },
+                        "text": "reproductive process"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 285,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 285,
+                            "y0": 195,
+                            "y1": 195,
+                            "y2": 214,
+                            "y3": 214
+                        },
+                        "text": "cell cycle process"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 86,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 86,
+                            "y0": 215,
+                            "y1": 215,
+                            "y2": 234,
+                            "y3": 234
+                        },
+                        "text": "positive regulation of protein phosphorylation"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 141,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 141,
+                            "y0": 235,
+                            "y1": 235,
+                            "y2": 254,
+                            "y3": 254
+                        },
+                        "text": "positive regulation of phosphorylation"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 233,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 233,
+                            "y0": 255,
+                            "y1": 255,
+                            "y2": 274,
+                            "y3": 274
+                        },
+                        "text": "mitotic cell cycle process"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 220,
+                            "x1": 418,
+                            "x2": 418,
+                            "x3": 220,
+                            "y0": 275,
+                            "y1": 275,
+                            "y2": 293,
+                            "y3": 293
+                        },
+                        "text": "double-strand break repair"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 334,
+                            "x1": 418,
+                            "x2": 418,
+                            "x3": 334,
+                            "y0": 295,
+                            "y1": 295,
+                            "y2": 313,
+                            "y3": 313
+                        },
+                        "text": "DNA repair"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 240,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 240,
+                            "y0": 315,
+                            "y1": 315,
+                            "y2": 332,
+                            "y3": 332
+                        },
+                        "text": "budding cell bud growth"
+                    },
+                    {
+                        "id": 20,
+                        "polygon": {
+                            "x0": 175,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 175,
+                            "y0": 335,
+                            "y1": 335,
+                            "y2": 350,
+                            "y3": 350
+                        },
+                        "text": "mitotic sister chromatid cohesion"
+                    },
+                    {
+                        "id": 21,
+                        "polygon": {
+                            "x0": 228,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 228,
+                            "y0": 355,
+                            "y1": 355,
+                            "y2": 372,
+                            "y3": 372
+                        },
+                        "text": "meiotic cell cycle process"
+                    },
+                    {
+                        "id": 22,
+                        "polygon": {
+                            "x0": 140,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 140,
+                            "y0": 375,
+                            "y1": 375,
+                            "y2": 392,
+                            "y3": 392
+                        },
+                        "text": "single organism reproductive process"
+                    },
+                    {
+                        "id": 23,
+                        "polygon": {
+                            "x0": 224,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 224,
+                            "y0": 394,
+                            "y1": 394,
+                            "y2": 412,
+                            "y3": 412
+                        },
+                        "text": "chromosome organization"
+                    },
+                    {
+                        "id": 24,
+                        "polygon": {
+                            "x0": 9,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 9,
+                            "y0": 414,
+                            "y1": 414,
+                            "y2": 432,
+                            "y3": 432
+                        },
+                        "text": "DNA strand elongation involved in DNA replication"
+                    },
+                    {
+                        "id": 25,
+                        "polygon": {
+                            "x0": 249,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 249,
+                            "y0": 434,
+                            "y1": 434,
+                            "y2": 453,
+                            "y3": 453
+                        },
+                        "text": "DNA strand elongation"
+                    },
+                    {
+                        "id": 26,
+                        "polygon": {
+                            "x0": 222,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 222,
+                            "y0": 454,
+                            "y1": 454,
+                            "y2": 473,
+                            "y3": 473
+                        },
+                        "text": "cellular response to stress"
+                    },
+                    {
+                        "id": 27,
+                        "polygon": {
+                            "x0": 101,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 101,
+                            "y0": 474,
+                            "y1": 474,
+                            "y2": 492,
+                            "y3": 492
+                        },
+                        "text": "cellular response to DNA damage stimulus"
+                    },
+                    {
+                        "id": 28,
+                        "polygon": {
+                            "x0": 147,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 147,
+                            "y0": 494,
+                            "y1": 494,
+                            "y2": 513,
+                            "y3": 513
+                        },
+                        "text": "regulation of protein phosphorylation"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 440,
+                "width": 314,
+                "x0": 422,
+                "y0": 72
+            },
+            "axes": {
+                "_x-tick-type": "markers",
+                "_x2-tick-type": null,
+                "_y-tick-type": null,
+                "_y2-tick-type": "markers",
+                "x-axis": [
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 422,
+                            "y": 82
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 422,
+                            "y": 102
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 422,
+                            "y": 122
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 422,
+                            "y": 142
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 422,
+                            "y": 162
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 422,
+                            "y": 182
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 422,
+                            "y": 202
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 422,
+                            "y": 222
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 422,
+                            "y": 242
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 422,
+                            "y": 262
+                        }
+                    },
+                    {
+                        "id": 17,
+                        "tick_pt": {
+                            "x": 422,
+                            "y": 282
+                        }
+                    },
+                    {
+                        "id": 18,
+                        "tick_pt": {
+                            "x": 422,
+                            "y": 302
+                        }
+                    },
+                    {
+                        "id": 19,
+                        "tick_pt": {
+                            "x": 422,
+                            "y": 322
+                        }
+                    },
+                    {
+                        "id": 20,
+                        "tick_pt": {
+                            "x": 422,
+                            "y": 342
+                        }
+                    },
+                    {
+                        "id": 21,
+                        "tick_pt": {
+                            "x": 422,
+                            "y": 362
+                        }
+                    },
+                    {
+                        "id": 22,
+                        "tick_pt": {
+                            "x": 422,
+                            "y": 382
+                        }
+                    },
+                    {
+                        "id": 23,
+                        "tick_pt": {
+                            "x": 422,
+                            "y": 402
+                        }
+                    },
+                    {
+                        "id": 24,
+                        "tick_pt": {
+                            "x": 422,
+                            "y": 422
+                        }
+                    },
+                    {
+                        "id": 25,
+                        "tick_pt": {
+                            "x": 422,
+                            "y": 442
+                        }
+                    },
+                    {
+                        "id": 26,
+                        "tick_pt": {
+                            "x": 422,
+                            "y": 462
+                        }
+                    },
+                    {
+                        "id": 27,
+                        "tick_pt": {
+                            "x": 422,
+                            "y": 482
+                        }
+                    },
+                    {
+                        "id": 28,
+                        "tick_pt": {
+                            "x": 422,
+                            "y": 502
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [],
+                "y-axis-2": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 422,
+                            "y": 72
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 529,
+                            "y": 72
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 634,
+                            "y": 72
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 740,
+                            "y": 72
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 25,
+                            "x2": 25,
+                            "x3": 0,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 27,
+                            "y3": 27
+                        },
+                        "text": "B)"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 146,
+                            "x1": 247,
+                            "x2": 247,
+                            "x3": 146,
+                            "y0": 10,
+                            "y1": 10,
+                            "y2": 32,
+                            "y3": 32
+                        },
+                        "text": "GO Term"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 470,
+                            "x1": 693,
+                            "x2": 693,
+                            "x3": 470,
+                            "y0": 11,
+                            "y1": 11,
+                            "y2": 41,
+                            "y3": 41
+                        },
+                        "text": "-log_{10} (FDR q-value)"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 417,
+                            "x1": 430,
+                            "x2": 430,
+                            "x3": 417,
+                            "y0": 47,
+                            "y1": 47,
+                            "y2": 65,
+                            "y3": 65
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 523,
+                            "x1": 532,
+                            "x2": 532,
+                            "x3": 523,
+                            "y0": 47,
+                            "y1": 47,
+                            "y2": 65,
+                            "y3": 65
+                        },
+                        "text": "1"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 628,
+                            "x1": 641,
+                            "x2": 641,
+                            "x3": 628,
+                            "y0": 47,
+                            "y1": 47,
+                            "y2": 65,
+                            "y3": 65
+                        },
+                        "text": "2"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 732,
+                            "x1": 744,
+                            "x2": 744,
+                            "x3": 732,
+                            "y0": 47,
+                            "y1": 47,
+                            "y2": 65,
+                            "y3": 65
+                        },
+                        "text": "3"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 301,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 301,
+                            "y0": 75,
+                            "y1": 75,
+                            "y2": 94,
+                            "y3": 94
+                        },
+                        "text": "DNA replication"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 242,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 242,
+                            "y0": 95,
+                            "y1": 95,
+                            "y2": 114,
+                            "y3": 114
+                        },
+                        "text": "DNA metabolic process"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 227,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 227,
+                            "y0": 115,
+                            "y1": 115,
+                            "y2": 131,
+                            "y3": 131
+                        },
+                        "text": "sister chromatid cohesion"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 348,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 348,
+                            "y0": 135,
+                            "y1": 135,
+                            "y2": 154,
+                            "y3": 154
+                        },
+                        "text": "cell cycle"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 235,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 235,
+                            "y0": 155,
+                            "y1": 155,
+                            "y2": 174,
+                            "y3": 174
+                        },
+                        "text": "DNA replication initiation"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 262,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 262,
+                            "y0": 175,
+                            "y1": 175,
+                            "y2": 194,
+                            "y3": 194
+                        },
+                        "text": "reproductive process"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 285,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 285,
+                            "y0": 195,
+                            "y1": 195,
+                            "y2": 214,
+                            "y3": 214
+                        },
+                        "text": "cell cycle process"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 86,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 86,
+                            "y0": 215,
+                            "y1": 215,
+                            "y2": 234,
+                            "y3": 234
+                        },
+                        "text": "positive regulation of protein phosphorylation"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 141,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 141,
+                            "y0": 235,
+                            "y1": 235,
+                            "y2": 254,
+                            "y3": 254
+                        },
+                        "text": "positive regulation of phosphorylation"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 233,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 233,
+                            "y0": 255,
+                            "y1": 255,
+                            "y2": 274,
+                            "y3": 274
+                        },
+                        "text": "mitotic cell cycle process"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 220,
+                            "x1": 418,
+                            "x2": 418,
+                            "x3": 220,
+                            "y0": 275,
+                            "y1": 275,
+                            "y2": 293,
+                            "y3": 293
+                        },
+                        "text": "double-strand break repair"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 334,
+                            "x1": 418,
+                            "x2": 418,
+                            "x3": 334,
+                            "y0": 295,
+                            "y1": 295,
+                            "y2": 313,
+                            "y3": 313
+                        },
+                        "text": "DNA repair"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 240,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 240,
+                            "y0": 315,
+                            "y1": 315,
+                            "y2": 332,
+                            "y3": 332
+                        },
+                        "text": "budding cell bud growth"
+                    },
+                    {
+                        "id": 20,
+                        "polygon": {
+                            "x0": 175,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 175,
+                            "y0": 335,
+                            "y1": 335,
+                            "y2": 350,
+                            "y3": 350
+                        },
+                        "text": "mitotic sister chromatid cohesion"
+                    },
+                    {
+                        "id": 21,
+                        "polygon": {
+                            "x0": 228,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 228,
+                            "y0": 355,
+                            "y1": 355,
+                            "y2": 372,
+                            "y3": 372
+                        },
+                        "text": "meiotic cell cycle process"
+                    },
+                    {
+                        "id": 22,
+                        "polygon": {
+                            "x0": 140,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 140,
+                            "y0": 375,
+                            "y1": 375,
+                            "y2": 392,
+                            "y3": 392
+                        },
+                        "text": "single organism reproductive process"
+                    },
+                    {
+                        "id": 23,
+                        "polygon": {
+                            "x0": 224,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 224,
+                            "y0": 394,
+                            "y1": 394,
+                            "y2": 412,
+                            "y3": 412
+                        },
+                        "text": "chromosome organization"
+                    },
+                    {
+                        "id": 24,
+                        "polygon": {
+                            "x0": 9,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 9,
+                            "y0": 414,
+                            "y1": 414,
+                            "y2": 432,
+                            "y3": 432
+                        },
+                        "text": "DNA strand elongation involved in DNA replication"
+                    },
+                    {
+                        "id": 25,
+                        "polygon": {
+                            "x0": 249,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 249,
+                            "y0": 434,
+                            "y1": 434,
+                            "y2": 453,
+                            "y3": 453
+                        },
+                        "text": "DNA strand elongation"
+                    },
+                    {
+                        "id": 26,
+                        "polygon": {
+                            "x0": 222,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 222,
+                            "y0": 454,
+                            "y1": 454,
+                            "y2": 473,
+                            "y3": 473
+                        },
+                        "text": "cellular response to stress"
+                    },
+                    {
+                        "id": 27,
+                        "polygon": {
+                            "x0": 101,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 101,
+                            "y0": 474,
+                            "y1": 474,
+                            "y2": 492,
+                            "y3": 492
+                        },
+                        "text": "cellular response to DNA damage stimulus"
+                    },
+                    {
+                        "id": 28,
+                        "polygon": {
+                            "x0": 147,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 147,
+                            "y0": 494,
+                            "y1": 494,
+                            "y2": 513,
+                            "y3": 513
+                        },
+                        "text": "regulation of protein phosphorylation"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 25,
+                            "x2": 25,
+                            "x3": 0,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 27,
+                            "y3": 27
+                        },
+                        "text": "B)"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 146,
+                            "x1": 247,
+                            "x2": 247,
+                            "x3": 146,
+                            "y0": 10,
+                            "y1": 10,
+                            "y2": 32,
+                            "y3": 32
+                        },
+                        "text": "GO Term"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 470,
+                            "x1": 693,
+                            "x2": 693,
+                            "x3": 470,
+                            "y0": 11,
+                            "y1": 11,
+                            "y2": 41,
+                            "y3": 41
+                        },
+                        "text": "-log_{10} (FDR q-value)"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 417,
+                            "x1": 430,
+                            "x2": 430,
+                            "x3": 417,
+                            "y0": 47,
+                            "y1": 47,
+                            "y2": 65,
+                            "y3": 65
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 523,
+                            "x1": 532,
+                            "x2": 532,
+                            "x3": 523,
+                            "y0": 47,
+                            "y1": 47,
+                            "y2": 65,
+                            "y3": 65
+                        },
+                        "text": "1"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 628,
+                            "x1": 641,
+                            "x2": 641,
+                            "x3": 628,
+                            "y0": 47,
+                            "y1": 47,
+                            "y2": 65,
+                            "y3": 65
+                        },
+                        "text": "2"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 732,
+                            "x1": 744,
+                            "x2": 744,
+                            "x3": 732,
+                            "y0": 47,
+                            "y1": 47,
+                            "y2": 65,
+                            "y3": 65
+                        },
+                        "text": "3"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 301,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 301,
+                            "y0": 75,
+                            "y1": 75,
+                            "y2": 94,
+                            "y3": 94
+                        },
+                        "text": "DNA replication"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 242,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 242,
+                            "y0": 95,
+                            "y1": 95,
+                            "y2": 114,
+                            "y3": 114
+                        },
+                        "text": "DNA metabolic process"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 227,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 227,
+                            "y0": 115,
+                            "y1": 115,
+                            "y2": 131,
+                            "y3": 131
+                        },
+                        "text": "sister chromatid cohesion"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 348,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 348,
+                            "y0": 135,
+                            "y1": 135,
+                            "y2": 154,
+                            "y3": 154
+                        },
+                        "text": "cell cycle"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 235,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 235,
+                            "y0": 155,
+                            "y1": 155,
+                            "y2": 174,
+                            "y3": 174
+                        },
+                        "text": "DNA replication initiation"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 262,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 262,
+                            "y0": 175,
+                            "y1": 175,
+                            "y2": 194,
+                            "y3": 194
+                        },
+                        "text": "reproductive process"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 285,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 285,
+                            "y0": 195,
+                            "y1": 195,
+                            "y2": 214,
+                            "y3": 214
+                        },
+                        "text": "cell cycle process"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 86,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 86,
+                            "y0": 215,
+                            "y1": 215,
+                            "y2": 234,
+                            "y3": 234
+                        },
+                        "text": "positive regulation of protein phosphorylation"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 141,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 141,
+                            "y0": 235,
+                            "y1": 235,
+                            "y2": 254,
+                            "y3": 254
+                        },
+                        "text": "positive regulation of phosphorylation"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 233,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 233,
+                            "y0": 255,
+                            "y1": 255,
+                            "y2": 274,
+                            "y3": 274
+                        },
+                        "text": "mitotic cell cycle process"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 220,
+                            "x1": 418,
+                            "x2": 418,
+                            "x3": 220,
+                            "y0": 275,
+                            "y1": 275,
+                            "y2": 293,
+                            "y3": 293
+                        },
+                        "text": "double-strand break repair"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 334,
+                            "x1": 418,
+                            "x2": 418,
+                            "x3": 334,
+                            "y0": 295,
+                            "y1": 295,
+                            "y2": 313,
+                            "y3": 313
+                        },
+                        "text": "DNA repair"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 240,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 240,
+                            "y0": 315,
+                            "y1": 315,
+                            "y2": 332,
+                            "y3": 332
+                        },
+                        "text": "budding cell bud growth"
+                    },
+                    {
+                        "id": 20,
+                        "polygon": {
+                            "x0": 175,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 175,
+                            "y0": 335,
+                            "y1": 335,
+                            "y2": 350,
+                            "y3": 350
+                        },
+                        "text": "mitotic sister chromatid cohesion"
+                    },
+                    {
+                        "id": 21,
+                        "polygon": {
+                            "x0": 228,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 228,
+                            "y0": 355,
+                            "y1": 355,
+                            "y2": 372,
+                            "y3": 372
+                        },
+                        "text": "meiotic cell cycle process"
+                    },
+                    {
+                        "id": 22,
+                        "polygon": {
+                            "x0": 140,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 140,
+                            "y0": 375,
+                            "y1": 375,
+                            "y2": 392,
+                            "y3": 392
+                        },
+                        "text": "single organism reproductive process"
+                    },
+                    {
+                        "id": 23,
+                        "polygon": {
+                            "x0": 224,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 224,
+                            "y0": 394,
+                            "y1": 394,
+                            "y2": 412,
+                            "y3": 412
+                        },
+                        "text": "chromosome organization"
+                    },
+                    {
+                        "id": 24,
+                        "polygon": {
+                            "x0": 9,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 9,
+                            "y0": 414,
+                            "y1": 414,
+                            "y2": 432,
+                            "y3": 432
+                        },
+                        "text": "DNA strand elongation involved in DNA replication"
+                    },
+                    {
+                        "id": 25,
+                        "polygon": {
+                            "x0": 249,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 249,
+                            "y0": 434,
+                            "y1": 434,
+                            "y2": 453,
+                            "y3": 453
+                        },
+                        "text": "DNA strand elongation"
+                    },
+                    {
+                        "id": 26,
+                        "polygon": {
+                            "x0": 222,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 222,
+                            "y0": 454,
+                            "y1": 454,
+                            "y2": 473,
+                            "y3": 473
+                        },
+                        "text": "cellular response to stress"
+                    },
+                    {
+                        "id": 27,
+                        "polygon": {
+                            "x0": 101,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 101,
+                            "y0": 474,
+                            "y1": 474,
+                            "y2": 492,
+                            "y3": 492
+                        },
+                        "text": "cellular response to DNA damage stimulus"
+                    },
+                    {
+                        "id": 28,
+                        "polygon": {
+                            "x0": 147,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 147,
+                            "y0": 494,
+                            "y1": 494,
+                            "y2": 513,
+                            "y3": 513
+                        },
+                        "text": "regulation of protein phosphorylation"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "other"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 18,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 19,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 20,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 21,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 22,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 23,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 24,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 25,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 26,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 27,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 28,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 440,
+                    "width": 314,
+                    "x0": 422,
+                    "y0": 72
+                },
+                "axes": {
+                    "_x-tick-type": "markers",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": null,
+                    "_y2-tick-type": "markers",
+                    "x-axis": [
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 422,
+                                "y": 82
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 422,
+                                "y": 102
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 422,
+                                "y": 122
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 422,
+                                "y": 142
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 422,
+                                "y": 162
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 422,
+                                "y": 182
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 422,
+                                "y": 202
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 422,
+                                "y": 222
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 422,
+                                "y": 242
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "tick_pt": {
+                                "x": 422,
+                                "y": 262
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "tick_pt": {
+                                "x": 422,
+                                "y": 282
+                            }
+                        },
+                        {
+                            "id": 18,
+                            "tick_pt": {
+                                "x": 422,
+                                "y": 302
+                            }
+                        },
+                        {
+                            "id": 19,
+                            "tick_pt": {
+                                "x": 422,
+                                "y": 322
+                            }
+                        },
+                        {
+                            "id": 20,
+                            "tick_pt": {
+                                "x": 422,
+                                "y": 342
+                            }
+                        },
+                        {
+                            "id": 21,
+                            "tick_pt": {
+                                "x": 422,
+                                "y": 362
+                            }
+                        },
+                        {
+                            "id": 22,
+                            "tick_pt": {
+                                "x": 422,
+                                "y": 382
+                            }
+                        },
+                        {
+                            "id": 23,
+                            "tick_pt": {
+                                "x": 422,
+                                "y": 402
+                            }
+                        },
+                        {
+                            "id": 24,
+                            "tick_pt": {
+                                "x": 422,
+                                "y": 422
+                            }
+                        },
+                        {
+                            "id": 25,
+                            "tick_pt": {
+                                "x": 422,
+                                "y": 442
+                            }
+                        },
+                        {
+                            "id": 26,
+                            "tick_pt": {
+                                "x": 422,
+                                "y": 462
+                            }
+                        },
+                        {
+                            "id": 27,
+                            "tick_pt": {
+                                "x": 422,
+                                "y": 482
+                            }
+                        },
+                        {
+                            "id": 28,
+                            "tick_pt": {
+                                "x": 422,
+                                "y": 502
+                            }
+                        }
+                    ],
+                    "x-axis-2": [],
+                    "y-axis": [],
+                    "y-axis-2": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 422,
+                                "y": 72
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 529,
+                                "y": 72
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 634,
+                                "y": 72
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 740,
+                                "y": 72
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "DNA replication",
+                            "y2": 2.4056603773584904
+                        },
+                        {
+                            "x": "DNA metabolic process",
+                            "y2": 2.452830188679245
+                        },
+                        {
+                            "x": "sister chromatid cohesion",
+                            "y2": 2.5754716981132075
+                        },
+                        {
+                            "x": "cell cycle",
+                            "y2": 2.650943396226415
+                        },
+                        {
+                            "x": "DNA replication initiation",
+                            "y2": 2.3962264150943398
+                        },
+                        {
+                            "x": "reproductive process",
+                            "y2": 1.8571428571428572
+                        },
+                        {
+                            "x": "cell cycle process",
+                            "y2": 1.7333333333333334
+                        },
+                        {
+                            "x": "positive regulation of protein phosphorylation",
+                            "y2": 1.780952380952381
+                        },
+                        {
+                            "x": "positive regulation of phosphorylation",
+                            "y2": 1.8285714285714287
+                        },
+                        {
+                            "x": "mitotic cell cycle process",
+                            "y2": 1.6571428571428573
+                        },
+                        {
+                            "x": "double-strand break repair",
+                            "y2": 1.3333333333333335
+                        },
+                        {
+                            "x": "DNA repair",
+                            "y2": 1.3714285714285714
+                        },
+                        {
+                            "x": "budding cell bud growth",
+                            "y2": 1.380952380952381
+                        },
+                        {
+                            "x": "mitotic sister chromatid cohesion",
+                            "y2": 1.4095238095238096
+                        },
+                        {
+                            "x": "meiotic cell cycle process",
+                            "y2": 1.3714285714285714
+                        },
+                        {
+                            "x": "single organism reproductive process",
+                            "y2": 1.1238095238095238
+                        },
+                        {
+                            "x": "chromosome organization",
+                            "y2": 1.0476190476190477
+                        },
+                        {
+                            "x": "DNA strand elongation involved in DNA replication",
+                            "y2": 1.0285714285714285
+                        },
+                        {
+                            "x": "DNA strand elongation",
+                            "y2": 1.0571428571428572
+                        },
+                        {
+                            "x": "cellular response to stress",
+                            "y2": 1.019047619047619
+                        },
+                        {
+                            "x": "cellular response to DNA damage stimulus",
+                            "y2": 1.0095238095238095
+                        },
+                        {
+                            "x": "regulation of protein phosphorylation",
+                            "y2": 1.0095238095238095
+                        }
+                    ],
+                    "name": "[unnamed data series #0]"
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 14,
+                        "width": 255,
+                        "x0": 422,
+                        "y0": 75
+                    },
+                    {
+                        "height": 14,
+                        "width": 260,
+                        "x0": 422,
+                        "y0": 95
+                    },
+                    {
+                        "height": 14,
+                        "width": 273,
+                        "x0": 422,
+                        "y0": 115
+                    },
+                    {
+                        "height": 14,
+                        "width": 281,
+                        "x0": 422,
+                        "y0": 135
+                    },
+                    {
+                        "height": 14,
+                        "width": 254,
+                        "x0": 422,
+                        "y0": 155
+                    },
+                    {
+                        "height": 14,
+                        "width": 197,
+                        "x0": 422,
+                        "y0": 175
+                    },
+                    {
+                        "height": 14,
+                        "width": 184,
+                        "x0": 422,
+                        "y0": 195
+                    },
+                    {
+                        "height": 14,
+                        "width": 189,
+                        "x0": 422,
+                        "y0": 215
+                    },
+                    {
+                        "height": 14,
+                        "width": 194,
+                        "x0": 422,
+                        "y0": 235
+                    },
+                    {
+                        "height": 14,
+                        "width": 176,
+                        "x0": 422,
+                        "y0": 255
+                    },
+                    {
+                        "height": 14,
+                        "width": 142,
+                        "x0": 422,
+                        "y0": 275
+                    },
+                    {
+                        "height": 14,
+                        "width": 146,
+                        "x0": 422,
+                        "y0": 295
+                    },
+                    {
+                        "height": 14,
+                        "width": 147,
+                        "x0": 422,
+                        "y0": 315
+                    },
+                    {
+                        "height": 14,
+                        "width": 150,
+                        "x0": 422,
+                        "y0": 335
+                    },
+                    {
+                        "height": 14,
+                        "width": 146,
+                        "x0": 422,
+                        "y0": 355
+                    },
+                    {
+                        "height": 14,
+                        "width": 120,
+                        "x0": 422,
+                        "y0": 375
+                    },
+                    {
+                        "height": 14,
+                        "width": 112,
+                        "x0": 422,
+                        "y0": 395
+                    },
+                    {
+                        "height": 14,
+                        "width": 110,
+                        "x0": 422,
+                        "y0": 415
+                    },
+                    {
+                        "height": 14,
+                        "width": 113,
+                        "x0": 422,
+                        "y0": 435
+                    },
+                    {
+                        "height": 14,
+                        "width": 109,
+                        "x0": 422,
+                        "y0": 455
+                    },
+                    {
+                        "height": 14,
+                        "width": 108,
+                        "x0": 422,
+                        "y0": 475
+                    },
+                    {
+                        "height": 14,
+                        "width": 108,
+                        "x0": 422,
+                        "y0": 495
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

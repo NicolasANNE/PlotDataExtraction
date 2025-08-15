@@ -1,0 +1,2254 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 324,
+                        "x1": 348,
+                        "x2": 348,
+                        "x3": 324,
+                        "y0": 536,
+                        "y1": 536,
+                        "y2": 548,
+                        "y3": 548
+                    },
+                    "text": "20%"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 386,
+                        "x1": 410,
+                        "x2": 410,
+                        "x3": 386,
+                        "y0": 537,
+                        "y1": 537,
+                        "y2": 548,
+                        "y3": 548
+                    },
+                    "text": "40%"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 448,
+                        "x1": 472,
+                        "x2": 472,
+                        "x3": 448,
+                        "y0": 537,
+                        "y1": 537,
+                        "y2": 548,
+                        "y3": 548
+                    },
+                    "text": "60%"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 510,
+                        "x1": 534,
+                        "x2": 534,
+                        "x3": 510,
+                        "y0": 537,
+                        "y1": 537,
+                        "y2": 548,
+                        "y3": 548
+                    },
+                    "text": "80%"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 570,
+                        "x1": 598,
+                        "x2": 598,
+                        "x3": 570,
+                        "y0": 537,
+                        "y1": 537,
+                        "y2": 548,
+                        "y3": 548
+                    },
+                    "text": "100%"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 365,
+                        "x1": 406,
+                        "x2": 406,
+                        "x3": 365,
+                        "y0": 0,
+                        "y1": 0,
+                        "y2": 10,
+                        "y3": 10
+                    },
+                    "text": "Correct"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 420,
+                        "x1": 481,
+                        "x2": 481,
+                        "x3": 420,
+                        "y0": 0,
+                        "y1": 0,
+                        "y2": 10,
+                        "y3": 10
+                    },
+                    "text": "Not correct"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 0,
+                        "x1": 264,
+                        "x2": 264,
+                        "x3": 0,
+                        "y0": 493,
+                        "y1": 493,
+                        "y2": 520,
+                        "y3": 520
+                    },
+                    "text": "Lesions in oral cavity remaining more than two weeks, need biopsy"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 12,
+                        "x1": 264,
+                        "x2": 264,
+                        "x3": 12,
+                        "y0": 296,
+                        "y1": 296,
+                        "y2": 324,
+                        "y3": 324
+                    },
+                    "text": "Periodontal disease can cause problems in diabetes control"
+                },
+                {
+                    "id": 9,
+                    "polygon": {
+                        "x0": 31,
+                        "x1": 264,
+                        "x2": 264,
+                        "x3": 31,
+                        "y0": 258,
+                        "y1": 258,
+                        "y2": 287,
+                        "y3": 287
+                    },
+                    "text": "Periodontal diseases can cause low birth weight"
+                },
+                {
+                    "id": 10,
+                    "polygon": {
+                        "x0": 29,
+                        "x1": 264,
+                        "x2": 264,
+                        "x3": 29,
+                        "y0": 414,
+                        "y1": 414,
+                        "y2": 441,
+                        "y3": 441
+                    },
+                    "text": "Chemotherapy increase the risk of dental caries"
+                },
+                {
+                    "id": 11,
+                    "polygon": {
+                        "x0": 82,
+                        "x1": 264,
+                        "x2": 264,
+                        "x3": 82,
+                        "y0": 453,
+                        "y1": 453,
+                        "y2": 480,
+                        "y3": 480
+                    },
+                    "text": "Periodontal diseases can cause cardiovascular disease"
+                },
+                {
+                    "id": 12,
+                    "polygon": {
+                        "x0": 35,
+                        "x1": 264,
+                        "x2": 264,
+                        "x3": 35,
+                        "y0": 22,
+                        "y1": 22,
+                        "y2": 50,
+                        "y3": 50
+                    },
+                    "text": "An antihypertensive increase the risk for dental caries"
+                },
+                {
+                    "id": 13,
+                    "polygon": {
+                        "x0": 13,
+                        "x1": 264,
+                        "x2": 264,
+                        "x3": 13,
+                        "y0": 101,
+                        "y1": 101,
+                        "y2": 129,
+                        "y3": 129
+                    },
+                    "text": "Muscle relaxants increase the risk for dental caries"
+                },
+                {
+                    "id": 14,
+                    "polygon": {
+                        "x0": 3,
+                        "x1": 264,
+                        "x2": 264,
+                        "x3": 3,
+                        "y0": 141,
+                        "y1": 141,
+                        "y2": 168,
+                        "y3": 168
+                    },
+                    "text": "Antibiotics capsules increase the risk for dental caries"
+                },
+                {
+                    "id": 15,
+                    "polygon": {
+                        "x0": 17,
+                        "x1": 264,
+                        "x2": 264,
+                        "x3": 17,
+                        "y0": 179,
+                        "y1": 179,
+                        "y2": 207,
+                        "y3": 207
+                    },
+                    "text": "Antidepressants increase the risk for dental caries"
+                },
+                {
+                    "id": 16,
+                    "polygon": {
+                        "x0": 15,
+                        "x1": 264,
+                        "x2": 264,
+                        "x3": 15,
+                        "y0": 227,
+                        "y1": 227,
+                        "y2": 241,
+                        "y3": 241
+                    },
+                    "text": "Hypnotics increase the risk of dental caries"
+                },
+                {
+                    "id": 17,
+                    "polygon": {
+                        "x0": 9,
+                        "x1": 264,
+                        "x2": 264,
+                        "x3": 9,
+                        "y0": 69,
+                        "y1": 69,
+                        "y2": 84,
+                        "y3": 84
+                    },
+                    "text": "Analgesics increase the risk for dental caries"
+                },
+                {
+                    "id": 18,
+                    "polygon": {
+                        "x0": 7,
+                        "x1": 262,
+                        "x2": 262,
+                        "x3": 7,
+                        "y0": 382,
+                        "y1": 382,
+                        "y2": 397,
+                        "y3": 397
+                    },
+                    "text": "Periodontal disease can cause lung disease"
+                },
+                {
+                    "id": 19,
+                    "polygon": {
+                        "x0": 0,
+                        "x1": 264,
+                        "x2": 264,
+                        "x3": 0,
+                        "y0": 344,
+                        "y1": 344,
+                        "y2": 359,
+                        "y3": 359
+                    },
+                    "text": "Radiotherapy increase the risk of dental caries"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 324,
+                            "x1": 348,
+                            "x2": 348,
+                            "x3": 324,
+                            "y0": 536,
+                            "y1": 536,
+                            "y2": 548,
+                            "y3": 548
+                        },
+                        "text": "20%"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 386,
+                            "x1": 410,
+                            "x2": 410,
+                            "x3": 386,
+                            "y0": 537,
+                            "y1": 537,
+                            "y2": 548,
+                            "y3": 548
+                        },
+                        "text": "40%"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 448,
+                            "x1": 472,
+                            "x2": 472,
+                            "x3": 448,
+                            "y0": 537,
+                            "y1": 537,
+                            "y2": 548,
+                            "y3": 548
+                        },
+                        "text": "60%"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 510,
+                            "x1": 534,
+                            "x2": 534,
+                            "x3": 510,
+                            "y0": 537,
+                            "y1": 537,
+                            "y2": 548,
+                            "y3": 548
+                        },
+                        "text": "80%"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 570,
+                            "x1": 598,
+                            "x2": 598,
+                            "x3": 570,
+                            "y0": 537,
+                            "y1": 537,
+                            "y2": 548,
+                            "y3": 548
+                        },
+                        "text": "100%"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 365,
+                            "x1": 406,
+                            "x2": 406,
+                            "x3": 365,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 10,
+                            "y3": 10
+                        },
+                        "text": "Correct"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 420,
+                            "x1": 481,
+                            "x2": 481,
+                            "x3": 420,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 10,
+                            "y3": 10
+                        },
+                        "text": "Not correct"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 0,
+                            "y0": 493,
+                            "y1": 493,
+                            "y2": 520,
+                            "y3": 520
+                        },
+                        "text": "Lesions in oral cavity remaining more than two weeks, need biopsy"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 12,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 12,
+                            "y0": 296,
+                            "y1": 296,
+                            "y2": 324,
+                            "y3": 324
+                        },
+                        "text": "Periodontal disease can cause problems in diabetes control"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 31,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 31,
+                            "y0": 258,
+                            "y1": 258,
+                            "y2": 287,
+                            "y3": 287
+                        },
+                        "text": "Periodontal diseases can cause low birth weight"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 29,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 29,
+                            "y0": 414,
+                            "y1": 414,
+                            "y2": 441,
+                            "y3": 441
+                        },
+                        "text": "Chemotherapy increase the risk of dental caries"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 82,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 82,
+                            "y0": 453,
+                            "y1": 453,
+                            "y2": 480,
+                            "y3": 480
+                        },
+                        "text": "Periodontal diseases can cause cardiovascular disease"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 35,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 35,
+                            "y0": 22,
+                            "y1": 22,
+                            "y2": 50,
+                            "y3": 50
+                        },
+                        "text": "An antihypertensive increase the risk for dental caries"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 13,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 13,
+                            "y0": 101,
+                            "y1": 101,
+                            "y2": 129,
+                            "y3": 129
+                        },
+                        "text": "Muscle relaxants increase the risk for dental caries"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 3,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 3,
+                            "y0": 141,
+                            "y1": 141,
+                            "y2": 168,
+                            "y3": 168
+                        },
+                        "text": "Antibiotics capsules increase the risk for dental caries"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 17,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 17,
+                            "y0": 179,
+                            "y1": 179,
+                            "y2": 207,
+                            "y3": 207
+                        },
+                        "text": "Antidepressants increase the risk for dental caries"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 15,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 15,
+                            "y0": 227,
+                            "y1": 227,
+                            "y2": 241,
+                            "y3": 241
+                        },
+                        "text": "Hypnotics increase the risk of dental caries"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 9,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 9,
+                            "y0": 69,
+                            "y1": 69,
+                            "y2": 84,
+                            "y3": 84
+                        },
+                        "text": "Analgesics increase the risk for dental caries"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 7,
+                            "x1": 262,
+                            "x2": 262,
+                            "x3": 7,
+                            "y0": 382,
+                            "y1": 382,
+                            "y2": 397,
+                            "y3": 397
+                        },
+                        "text": "Periodontal disease can cause lung disease"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 0,
+                            "y0": 344,
+                            "y1": 344,
+                            "y2": 359,
+                            "y3": 359
+                        },
+                        "text": "Radiotherapy increase the risk of dental caries"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 6,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 18,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 19,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 324,
+                            "x1": 348,
+                            "x2": 348,
+                            "x3": 324,
+                            "y0": 536,
+                            "y1": 536,
+                            "y2": 548,
+                            "y3": 548
+                        },
+                        "text": "20%"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 386,
+                            "x1": 410,
+                            "x2": 410,
+                            "x3": 386,
+                            "y0": 537,
+                            "y1": 537,
+                            "y2": 548,
+                            "y3": 548
+                        },
+                        "text": "40%"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 448,
+                            "x1": 472,
+                            "x2": 472,
+                            "x3": 448,
+                            "y0": 537,
+                            "y1": 537,
+                            "y2": 548,
+                            "y3": 548
+                        },
+                        "text": "60%"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 510,
+                            "x1": 534,
+                            "x2": 534,
+                            "x3": 510,
+                            "y0": 537,
+                            "y1": 537,
+                            "y2": 548,
+                            "y3": 548
+                        },
+                        "text": "80%"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 570,
+                            "x1": 598,
+                            "x2": 598,
+                            "x3": 570,
+                            "y0": 537,
+                            "y1": 537,
+                            "y2": 548,
+                            "y3": 548
+                        },
+                        "text": "100%"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 365,
+                            "x1": 406,
+                            "x2": 406,
+                            "x3": 365,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 10,
+                            "y3": 10
+                        },
+                        "text": "Correct"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 420,
+                            "x1": 481,
+                            "x2": 481,
+                            "x3": 420,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 10,
+                            "y3": 10
+                        },
+                        "text": "Not correct"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 0,
+                            "y0": 493,
+                            "y1": 493,
+                            "y2": 520,
+                            "y3": 520
+                        },
+                        "text": "Lesions in oral cavity remaining more than two weeks, need biopsy"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 12,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 12,
+                            "y0": 296,
+                            "y1": 296,
+                            "y2": 324,
+                            "y3": 324
+                        },
+                        "text": "Periodontal disease can cause problems in diabetes control"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 31,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 31,
+                            "y0": 258,
+                            "y1": 258,
+                            "y2": 287,
+                            "y3": 287
+                        },
+                        "text": "Periodontal diseases can cause low birth weight"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 29,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 29,
+                            "y0": 414,
+                            "y1": 414,
+                            "y2": 441,
+                            "y3": 441
+                        },
+                        "text": "Chemotherapy increase the risk of dental caries"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 82,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 82,
+                            "y0": 453,
+                            "y1": 453,
+                            "y2": 480,
+                            "y3": 480
+                        },
+                        "text": "Periodontal diseases can cause cardiovascular disease"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 35,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 35,
+                            "y0": 22,
+                            "y1": 22,
+                            "y2": 50,
+                            "y3": 50
+                        },
+                        "text": "An antihypertensive increase the risk for dental caries"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 13,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 13,
+                            "y0": 101,
+                            "y1": 101,
+                            "y2": 129,
+                            "y3": 129
+                        },
+                        "text": "Muscle relaxants increase the risk for dental caries"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 3,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 3,
+                            "y0": 141,
+                            "y1": 141,
+                            "y2": 168,
+                            "y3": 168
+                        },
+                        "text": "Antibiotics capsules increase the risk for dental caries"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 17,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 17,
+                            "y0": 179,
+                            "y1": 179,
+                            "y2": 207,
+                            "y3": 207
+                        },
+                        "text": "Antidepressants increase the risk for dental caries"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 15,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 15,
+                            "y0": 227,
+                            "y1": 227,
+                            "y2": 241,
+                            "y3": 241
+                        },
+                        "text": "Hypnotics increase the risk of dental caries"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 9,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 9,
+                            "y0": 69,
+                            "y1": 69,
+                            "y2": 84,
+                            "y3": 84
+                        },
+                        "text": "Analgesics increase the risk for dental caries"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 7,
+                            "x1": 262,
+                            "x2": 262,
+                            "x3": 7,
+                            "y0": 382,
+                            "y1": 382,
+                            "y2": 397,
+                            "y3": 397
+                        },
+                        "text": "Periodontal disease can cause lung disease"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 0,
+                            "y0": 344,
+                            "y1": 344,
+                            "y2": 359,
+                            "y3": 359
+                        },
+                        "text": "Radiotherapy increase the risk of dental caries"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 506,
+                "width": 309,
+                "x0": 274,
+                "y0": 19
+            },
+            "axes": {
+                "_x-tick-type": "separators",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 274,
+                            "y": 506
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 274,
+                            "y": 310
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 274,
+                            "y": 272
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 274,
+                            "y": 428
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 274,
+                            "y": 466
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 274,
+                            "y": 36
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 274,
+                            "y": 115
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 274,
+                            "y": 154
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 274,
+                            "y": 193
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 274,
+                            "y": 234
+                        }
+                    },
+                    {
+                        "id": 17,
+                        "tick_pt": {
+                            "x": 274,
+                            "y": 76
+                        }
+                    },
+                    {
+                        "id": 18,
+                        "tick_pt": {
+                            "x": 274,
+                            "y": 390
+                        }
+                    },
+                    {
+                        "id": 19,
+                        "tick_pt": {
+                            "x": 274,
+                            "y": 352
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [
+                    {
+                        "id": 0,
+                        "tick_pt": {
+                            "x": 336,
+                            "y": 525
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 398,
+                            "y": 525
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 460,
+                            "y": 525
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 522,
+                            "y": 525
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 583,
+                            "y": 525
+                        }
+                    }
+                ],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 324,
+                            "x1": 348,
+                            "x2": 348,
+                            "x3": 324,
+                            "y0": 536,
+                            "y1": 536,
+                            "y2": 548,
+                            "y3": 548
+                        },
+                        "text": "20%"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 386,
+                            "x1": 410,
+                            "x2": 410,
+                            "x3": 386,
+                            "y0": 537,
+                            "y1": 537,
+                            "y2": 548,
+                            "y3": 548
+                        },
+                        "text": "40%"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 448,
+                            "x1": 472,
+                            "x2": 472,
+                            "x3": 448,
+                            "y0": 537,
+                            "y1": 537,
+                            "y2": 548,
+                            "y3": 548
+                        },
+                        "text": "60%"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 510,
+                            "x1": 534,
+                            "x2": 534,
+                            "x3": 510,
+                            "y0": 537,
+                            "y1": 537,
+                            "y2": 548,
+                            "y3": 548
+                        },
+                        "text": "80%"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 570,
+                            "x1": 598,
+                            "x2": 598,
+                            "x3": 570,
+                            "y0": 537,
+                            "y1": 537,
+                            "y2": 548,
+                            "y3": 548
+                        },
+                        "text": "100%"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 365,
+                            "x1": 406,
+                            "x2": 406,
+                            "x3": 365,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 10,
+                            "y3": 10
+                        },
+                        "text": "Correct"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 420,
+                            "x1": 481,
+                            "x2": 481,
+                            "x3": 420,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 10,
+                            "y3": 10
+                        },
+                        "text": "Not correct"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 0,
+                            "y0": 493,
+                            "y1": 493,
+                            "y2": 520,
+                            "y3": 520
+                        },
+                        "text": "Lesions in oral cavity remaining more than two weeks, need biopsy"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 12,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 12,
+                            "y0": 296,
+                            "y1": 296,
+                            "y2": 324,
+                            "y3": 324
+                        },
+                        "text": "Periodontal disease can cause problems in diabetes control"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 31,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 31,
+                            "y0": 258,
+                            "y1": 258,
+                            "y2": 287,
+                            "y3": 287
+                        },
+                        "text": "Periodontal diseases can cause low birth weight"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 29,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 29,
+                            "y0": 414,
+                            "y1": 414,
+                            "y2": 441,
+                            "y3": 441
+                        },
+                        "text": "Chemotherapy increase the risk of dental caries"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 82,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 82,
+                            "y0": 453,
+                            "y1": 453,
+                            "y2": 480,
+                            "y3": 480
+                        },
+                        "text": "Periodontal diseases can cause cardiovascular disease"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 35,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 35,
+                            "y0": 22,
+                            "y1": 22,
+                            "y2": 50,
+                            "y3": 50
+                        },
+                        "text": "An antihypertensive increase the risk for dental caries"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 13,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 13,
+                            "y0": 101,
+                            "y1": 101,
+                            "y2": 129,
+                            "y3": 129
+                        },
+                        "text": "Muscle relaxants increase the risk for dental caries"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 3,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 3,
+                            "y0": 141,
+                            "y1": 141,
+                            "y2": 168,
+                            "y3": 168
+                        },
+                        "text": "Antibiotics capsules increase the risk for dental caries"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 17,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 17,
+                            "y0": 179,
+                            "y1": 179,
+                            "y2": 207,
+                            "y3": 207
+                        },
+                        "text": "Antidepressants increase the risk for dental caries"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 15,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 15,
+                            "y0": 227,
+                            "y1": 227,
+                            "y2": 241,
+                            "y3": 241
+                        },
+                        "text": "Hypnotics increase the risk of dental caries"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 9,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 9,
+                            "y0": 69,
+                            "y1": 69,
+                            "y2": 84,
+                            "y3": 84
+                        },
+                        "text": "Analgesics increase the risk for dental caries"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 7,
+                            "x1": 262,
+                            "x2": 262,
+                            "x3": 7,
+                            "y0": 382,
+                            "y1": 382,
+                            "y2": 397,
+                            "y3": 397
+                        },
+                        "text": "Periodontal disease can cause lung disease"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 0,
+                            "y0": 344,
+                            "y1": 344,
+                            "y2": 359,
+                            "y3": 359
+                        },
+                        "text": "Radiotherapy increase the risk of dental caries"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 9,
+                        "width": 10,
+                        "x0": 355,
+                        "y0": 0
+                    },
+                    "id": 5
+                },
+                {
+                    "bb": {
+                        "height": 8,
+                        "width": 10,
+                        "x0": 410,
+                        "y0": 0
+                    },
+                    "id": 6
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 324,
+                            "x1": 348,
+                            "x2": 348,
+                            "x3": 324,
+                            "y0": 536,
+                            "y1": 536,
+                            "y2": 548,
+                            "y3": 548
+                        },
+                        "text": "20%"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 386,
+                            "x1": 410,
+                            "x2": 410,
+                            "x3": 386,
+                            "y0": 537,
+                            "y1": 537,
+                            "y2": 548,
+                            "y3": 548
+                        },
+                        "text": "40%"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 448,
+                            "x1": 472,
+                            "x2": 472,
+                            "x3": 448,
+                            "y0": 537,
+                            "y1": 537,
+                            "y2": 548,
+                            "y3": 548
+                        },
+                        "text": "60%"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 510,
+                            "x1": 534,
+                            "x2": 534,
+                            "x3": 510,
+                            "y0": 537,
+                            "y1": 537,
+                            "y2": 548,
+                            "y3": 548
+                        },
+                        "text": "80%"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 570,
+                            "x1": 598,
+                            "x2": 598,
+                            "x3": 570,
+                            "y0": 537,
+                            "y1": 537,
+                            "y2": 548,
+                            "y3": 548
+                        },
+                        "text": "100%"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 365,
+                            "x1": 406,
+                            "x2": 406,
+                            "x3": 365,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 10,
+                            "y3": 10
+                        },
+                        "text": "Correct"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 420,
+                            "x1": 481,
+                            "x2": 481,
+                            "x3": 420,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 10,
+                            "y3": 10
+                        },
+                        "text": "Not correct"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 0,
+                            "y0": 493,
+                            "y1": 493,
+                            "y2": 520,
+                            "y3": 520
+                        },
+                        "text": "Lesions in oral cavity remaining more than two weeks, need biopsy"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 12,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 12,
+                            "y0": 296,
+                            "y1": 296,
+                            "y2": 324,
+                            "y3": 324
+                        },
+                        "text": "Periodontal disease can cause problems in diabetes control"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 31,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 31,
+                            "y0": 258,
+                            "y1": 258,
+                            "y2": 287,
+                            "y3": 287
+                        },
+                        "text": "Periodontal diseases can cause low birth weight"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 29,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 29,
+                            "y0": 414,
+                            "y1": 414,
+                            "y2": 441,
+                            "y3": 441
+                        },
+                        "text": "Chemotherapy increase the risk of dental caries"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 82,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 82,
+                            "y0": 453,
+                            "y1": 453,
+                            "y2": 480,
+                            "y3": 480
+                        },
+                        "text": "Periodontal diseases can cause cardiovascular disease"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 35,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 35,
+                            "y0": 22,
+                            "y1": 22,
+                            "y2": 50,
+                            "y3": 50
+                        },
+                        "text": "An antihypertensive increase the risk for dental caries"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 13,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 13,
+                            "y0": 101,
+                            "y1": 101,
+                            "y2": 129,
+                            "y3": 129
+                        },
+                        "text": "Muscle relaxants increase the risk for dental caries"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 3,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 3,
+                            "y0": 141,
+                            "y1": 141,
+                            "y2": 168,
+                            "y3": 168
+                        },
+                        "text": "Antibiotics capsules increase the risk for dental caries"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 17,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 17,
+                            "y0": 179,
+                            "y1": 179,
+                            "y2": 207,
+                            "y3": 207
+                        },
+                        "text": "Antidepressants increase the risk for dental caries"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 15,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 15,
+                            "y0": 227,
+                            "y1": 227,
+                            "y2": 241,
+                            "y3": 241
+                        },
+                        "text": "Hypnotics increase the risk of dental caries"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 9,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 9,
+                            "y0": 69,
+                            "y1": 69,
+                            "y2": 84,
+                            "y3": 84
+                        },
+                        "text": "Analgesics increase the risk for dental caries"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 7,
+                            "x1": 262,
+                            "x2": 262,
+                            "x3": 7,
+                            "y0": 382,
+                            "y1": 382,
+                            "y2": 397,
+                            "y3": 397
+                        },
+                        "text": "Periodontal disease can cause lung disease"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 0,
+                            "y0": 344,
+                            "y1": 344,
+                            "y2": 359,
+                            "y3": 359
+                        },
+                        "text": "Radiotherapy increase the risk of dental caries"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 18,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 19,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 506,
+                    "width": 309,
+                    "x0": 274,
+                    "y0": 19
+                },
+                "axes": {
+                    "_x-tick-type": "separators",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": "markers",
+                    "_y2-tick-type": null,
+                    "x-axis": [
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 274,
+                                "y": 506
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 274,
+                                "y": 310
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 274,
+                                "y": 272
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 274,
+                                "y": 428
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 274,
+                                "y": 466
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 274,
+                                "y": 36
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 274,
+                                "y": 115
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 274,
+                                "y": 154
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 274,
+                                "y": 193
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "tick_pt": {
+                                "x": 274,
+                                "y": 234
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "tick_pt": {
+                                "x": 274,
+                                "y": 76
+                            }
+                        },
+                        {
+                            "id": 18,
+                            "tick_pt": {
+                                "x": 274,
+                                "y": 390
+                            }
+                        },
+                        {
+                            "id": 19,
+                            "tick_pt": {
+                                "x": 274,
+                                "y": 352
+                            }
+                        }
+                    ],
+                    "x-axis-2": [],
+                    "y-axis": [
+                        {
+                            "id": 0,
+                            "tick_pt": {
+                                "x": 336,
+                                "y": 525
+                            }
+                        },
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 398,
+                                "y": 525
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 460,
+                                "y": 525
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 522,
+                                "y": 525
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 583,
+                                "y": 525
+                            }
+                        }
+                    ],
+                    "y-axis-2": []
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 9,
+                            "width": 10,
+                            "x0": 355,
+                            "y0": 0
+                        },
+                        "id": 5
+                    },
+                    {
+                        "bb": {
+                            "height": 8,
+                            "width": 10,
+                            "x0": 410,
+                            "y0": 0
+                        },
+                        "id": 6
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "An antihypertensive increase the risk for dental caries",
+                            "y": 0.26174062903920703
+                        },
+                        {
+                            "x": "Analgesics increase the risk for dental caries",
+                            "y": 0.30697975010771195
+                        },
+                        {
+                            "x": "Muscle relaxants increase the risk for dental caries",
+                            "y": 0.319905213270142
+                        },
+                        {
+                            "x": "Antibiotics capsules increase the risk for dental caries",
+                            "y": 0.33929340801378693
+                        },
+                        {
+                            "x": "Antidepressants increase the risk for dental caries",
+                            "y": 0.5105557949159842
+                        },
+                        {
+                            "x": "Hypnotics increase the risk of dental caries",
+                            "y": 0.5396380870314517
+                        },
+                        {
+                            "x": "Periodontal diseases can cause low birth weight",
+                            "y": 0.6688927186557515
+                        },
+                        {
+                            "x": "Periodontal disease can cause problems in diabetes control",
+                            "y": 0.7012063765618265
+                        },
+                        {
+                            "x": "Radiotherapy increase the risk of dental caries",
+                            "y": 0.7593709607927615
+                        },
+                        {
+                            "x": "Periodontal disease can cause lung disease",
+                            "y": 0.7593709607927615
+                        },
+                        {
+                            "x": "Chemotherapy increase the risk of dental caries",
+                            "y": 0.8110728134424814
+                        },
+                        {
+                            "x": "Periodontal diseases can cause cardiovascular disease",
+                            "y": 0.9015510555794912
+                        },
+                        {
+                            "x": "Lesions in oral cavity remaining more than two weeks, need biopsy",
+                            "y": 0.9209392503231363
+                        }
+                    ],
+                    "name": "Correct"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "An antihypertensive increase the risk for dental caries",
+                            "y": 0.7361051271003876
+                        },
+                        {
+                            "x": "Analgesics increase the risk for dental caries",
+                            "y": 0.6921585523481258
+                        },
+                        {
+                            "x": "Muscle relaxants increase the risk for dental caries",
+                            "y": 0.6792330891856959
+                        },
+                        {
+                            "x": "Antibiotics capsules increase the risk for dental caries",
+                            "y": 0.6559672554933217
+                        },
+                        {
+                            "x": "Antidepressants increase the risk for dental caries",
+                            "y": 0.48728996122361035
+                        },
+                        {
+                            "x": "Hypnotics increase the risk of dental caries",
+                            "y": 0.4582076691081429
+                        },
+                        {
+                            "x": "Periodontal diseases can cause low birth weight",
+                            "y": 0.3289530374838431
+                        },
+                        {
+                            "x": "Periodontal disease can cause problems in diabetes control",
+                            "y": 0.2966393795777681
+                        },
+                        {
+                            "x": "Radiotherapy increase the risk of dental caries",
+                            "y": 0.23847479534683313
+                        },
+                        {
+                            "x": "Periodontal disease can cause lung disease",
+                            "y": 0.23847479534683313
+                        },
+                        {
+                            "x": "Chemotherapy increase the risk of dental caries",
+                            "y": 0.1880654890133564
+                        },
+                        {
+                            "x": "Periodontal diseases can cause cardiovascular disease",
+                            "y": 0.09629470056010336
+                        },
+                        {
+                            "x": "Lesions in oral cavity remaining more than two weeks, need biopsy",
+                            "y": 0.07819905213270151
+                        }
+                    ],
+                    "name": "Not correct"
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 15,
+                        "width": 81,
+                        "x0": 274,
+                        "y0": 29
+                    },
+                    {
+                        "height": 15,
+                        "width": 228,
+                        "x0": 355,
+                        "y0": 29
+                    },
+                    {
+                        "height": 15,
+                        "width": 95,
+                        "x0": 274,
+                        "y0": 68
+                    },
+                    {
+                        "height": 15,
+                        "width": 214,
+                        "x0": 369,
+                        "y0": 68
+                    },
+                    {
+                        "height": 15,
+                        "width": 99,
+                        "x0": 274,
+                        "y0": 107
+                    },
+                    {
+                        "height": 15,
+                        "width": 210,
+                        "x0": 373,
+                        "y0": 107
+                    },
+                    {
+                        "height": 15,
+                        "width": 105,
+                        "x0": 274,
+                        "y0": 147
+                    },
+                    {
+                        "height": 15,
+                        "width": 203,
+                        "x0": 379,
+                        "y0": 147
+                    },
+                    {
+                        "height": 15,
+                        "width": 158,
+                        "x0": 274,
+                        "y0": 186
+                    },
+                    {
+                        "height": 15,
+                        "width": 151,
+                        "x0": 432,
+                        "y0": 186
+                    },
+                    {
+                        "height": 15,
+                        "width": 167,
+                        "x0": 274,
+                        "y0": 225
+                    },
+                    {
+                        "height": 15,
+                        "width": 142,
+                        "x0": 441,
+                        "y0": 225
+                    },
+                    {
+                        "height": 15,
+                        "width": 207,
+                        "x0": 274,
+                        "y0": 264
+                    },
+                    {
+                        "height": 15,
+                        "width": 102,
+                        "x0": 481,
+                        "y0": 264
+                    },
+                    {
+                        "height": 15,
+                        "width": 217,
+                        "x0": 274,
+                        "y0": 303
+                    },
+                    {
+                        "height": 15,
+                        "width": 92,
+                        "x0": 491,
+                        "y0": 303
+                    },
+                    {
+                        "height": 15,
+                        "width": 235,
+                        "x0": 274,
+                        "y0": 343
+                    },
+                    {
+                        "height": 15,
+                        "width": 74,
+                        "x0": 509,
+                        "y0": 343
+                    },
+                    {
+                        "height": 15,
+                        "width": 235,
+                        "x0": 274,
+                        "y0": 382
+                    },
+                    {
+                        "height": 15,
+                        "width": 74,
+                        "x0": 509,
+                        "y0": 382
+                    },
+                    {
+                        "height": 15,
+                        "width": 251,
+                        "x0": 274,
+                        "y0": 421
+                    },
+                    {
+                        "height": 15,
+                        "width": 58,
+                        "x0": 525,
+                        "y0": 421
+                    },
+                    {
+                        "height": 15,
+                        "width": 279,
+                        "x0": 274,
+                        "y0": 460
+                    },
+                    {
+                        "height": 15,
+                        "width": 30,
+                        "x0": 553,
+                        "y0": 460
+                    },
+                    {
+                        "height": 15,
+                        "width": 285,
+                        "x0": 274,
+                        "y0": 499
+                    },
+                    {
+                        "height": 15,
+                        "width": 24,
+                        "x0": 559,
+                        "y0": 499
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

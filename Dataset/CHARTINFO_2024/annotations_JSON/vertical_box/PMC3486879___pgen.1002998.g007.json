@@ -1,0 +1,1395 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 31,
+                        "x1": 49,
+                        "x2": 50,
+                        "x3": 31,
+                        "y0": 77,
+                        "y1": 77,
+                        "y2": 139,
+                        "y3": 138
+                    },
+                    "text": "300000"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 30,
+                        "x1": 51,
+                        "x2": 51,
+                        "x3": 30,
+                        "y0": 171,
+                        "y1": 172,
+                        "y2": 232,
+                        "y3": 231
+                    },
+                    "text": "250000"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 30,
+                        "x1": 51,
+                        "x2": 50,
+                        "x3": 30,
+                        "y0": 266,
+                        "y1": 266,
+                        "y2": 326,
+                        "y3": 327
+                    },
+                    "text": "200000"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 30,
+                        "x1": 50,
+                        "x2": 50,
+                        "x3": 30,
+                        "y0": 357,
+                        "y1": 357,
+                        "y2": 417,
+                        "y3": 416
+                    },
+                    "text": "150000"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 30,
+                        "x1": 50,
+                        "x2": 50,
+                        "x3": 30,
+                        "y0": 453,
+                        "y1": 453,
+                        "y2": 514,
+                        "y3": 514
+                    },
+                    "text": "100000"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 32,
+                        "x1": 48,
+                        "x2": 48,
+                        "x3": 32,
+                        "y0": 551,
+                        "y1": 551,
+                        "y2": 602,
+                        "y3": 602
+                    },
+                    "text": "50000"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 32,
+                        "x1": 49,
+                        "x2": 49,
+                        "x3": 32,
+                        "y0": 660,
+                        "y1": 660,
+                        "y2": 674,
+                        "y3": 674
+                    },
+                    "text": "0"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 2,
+                        "x1": 20,
+                        "x2": 17,
+                        "x3": -1,
+                        "y0": 216,
+                        "y1": 216,
+                        "y2": 506,
+                        "y3": 506
+                    },
+                    "text": "Distance to the exon of the SNPs (bp)"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 116,
+                        "x1": 247,
+                        "x2": 249,
+                        "x3": 116,
+                        "y0": 710,
+                        "y1": 711,
+                        "y2": 771,
+                        "y3": 770
+                    },
+                    "text": "Nearest exon of intronic SNPs in NHGRI catalogue"
+                },
+                {
+                    "id": 9,
+                    "polygon": {
+                        "x0": 330,
+                        "x1": 464,
+                        "x2": 464,
+                        "x3": 330,
+                        "y0": 709,
+                        "y1": 707,
+                        "y2": 767,
+                        "y3": 768
+                    },
+                    "text": "Nearest exon of ISE SNPs in NHGRI catalogue"
+                },
+                {
+                    "id": 10,
+                    "polygon": {
+                        "x0": 545,
+                        "x1": 677,
+                        "x2": 677,
+                        "x3": 545,
+                        "y0": 709,
+                        "y1": 709,
+                        "y2": 772,
+                        "y3": 772
+                    },
+                    "text": "Skipped exon of ISE SNPs in NHGRI catalogue"
+                },
+                {
+                    "id": 11,
+                    "polygon": {
+                        "x0": 352,
+                        "x1": 417,
+                        "x2": 417,
+                        "x3": 352,
+                        "y0": 30,
+                        "y1": 29,
+                        "y2": 49,
+                        "y3": 50
+                    },
+                    "text": "p=0.018"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 31,
+                            "x1": 49,
+                            "x2": 50,
+                            "x3": 31,
+                            "y0": 77,
+                            "y1": 77,
+                            "y2": 139,
+                            "y3": 138
+                        },
+                        "text": "300000"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 51,
+                            "x2": 51,
+                            "x3": 30,
+                            "y0": 171,
+                            "y1": 172,
+                            "y2": 232,
+                            "y3": 231
+                        },
+                        "text": "250000"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 51,
+                            "x2": 50,
+                            "x3": 30,
+                            "y0": 266,
+                            "y1": 266,
+                            "y2": 326,
+                            "y3": 327
+                        },
+                        "text": "200000"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 50,
+                            "x2": 50,
+                            "x3": 30,
+                            "y0": 357,
+                            "y1": 357,
+                            "y2": 417,
+                            "y3": 416
+                        },
+                        "text": "150000"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 50,
+                            "x2": 50,
+                            "x3": 30,
+                            "y0": 453,
+                            "y1": 453,
+                            "y2": 514,
+                            "y3": 514
+                        },
+                        "text": "100000"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 32,
+                            "x1": 48,
+                            "x2": 48,
+                            "x3": 32,
+                            "y0": 551,
+                            "y1": 551,
+                            "y2": 602,
+                            "y3": 602
+                        },
+                        "text": "50000"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 32,
+                            "x1": 49,
+                            "x2": 49,
+                            "x3": 32,
+                            "y0": 660,
+                            "y1": 660,
+                            "y2": 674,
+                            "y3": 674
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 2,
+                            "x1": 20,
+                            "x2": 17,
+                            "x3": -1,
+                            "y0": 216,
+                            "y1": 216,
+                            "y2": 506,
+                            "y3": 506
+                        },
+                        "text": "Distance to the exon of the SNPs (bp)"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 116,
+                            "x1": 247,
+                            "x2": 249,
+                            "x3": 116,
+                            "y0": 710,
+                            "y1": 711,
+                            "y2": 771,
+                            "y3": 770
+                        },
+                        "text": "Nearest exon of intronic SNPs in NHGRI catalogue"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 330,
+                            "x1": 464,
+                            "x2": 464,
+                            "x3": 330,
+                            "y0": 709,
+                            "y1": 707,
+                            "y2": 767,
+                            "y3": 768
+                        },
+                        "text": "Nearest exon of ISE SNPs in NHGRI catalogue"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 545,
+                            "x1": 677,
+                            "x2": 677,
+                            "x3": 545,
+                            "y0": 709,
+                            "y1": 709,
+                            "y2": 772,
+                            "y3": 772
+                        },
+                        "text": "Skipped exon of ISE SNPs in NHGRI catalogue"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 352,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 352,
+                            "y0": 30,
+                            "y1": 29,
+                            "y2": 49,
+                            "y3": 50
+                        },
+                        "text": "p=0.018"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "other"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 31,
+                            "x1": 49,
+                            "x2": 50,
+                            "x3": 31,
+                            "y0": 77,
+                            "y1": 77,
+                            "y2": 139,
+                            "y3": 138
+                        },
+                        "text": "300000"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 51,
+                            "x2": 51,
+                            "x3": 30,
+                            "y0": 171,
+                            "y1": 172,
+                            "y2": 232,
+                            "y3": 231
+                        },
+                        "text": "250000"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 51,
+                            "x2": 50,
+                            "x3": 30,
+                            "y0": 266,
+                            "y1": 266,
+                            "y2": 326,
+                            "y3": 327
+                        },
+                        "text": "200000"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 50,
+                            "x2": 50,
+                            "x3": 30,
+                            "y0": 357,
+                            "y1": 357,
+                            "y2": 417,
+                            "y3": 416
+                        },
+                        "text": "150000"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 50,
+                            "x2": 50,
+                            "x3": 30,
+                            "y0": 453,
+                            "y1": 453,
+                            "y2": 514,
+                            "y3": 514
+                        },
+                        "text": "100000"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 32,
+                            "x1": 48,
+                            "x2": 48,
+                            "x3": 32,
+                            "y0": 551,
+                            "y1": 551,
+                            "y2": 602,
+                            "y3": 602
+                        },
+                        "text": "50000"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 32,
+                            "x1": 49,
+                            "x2": 49,
+                            "x3": 32,
+                            "y0": 660,
+                            "y1": 660,
+                            "y2": 674,
+                            "y3": 674
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 2,
+                            "x1": 20,
+                            "x2": 17,
+                            "x3": -1,
+                            "y0": 216,
+                            "y1": 216,
+                            "y2": 506,
+                            "y3": 506
+                        },
+                        "text": "Distance to the exon of the SNPs (bp)"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 116,
+                            "x1": 247,
+                            "x2": 249,
+                            "x3": 116,
+                            "y0": 710,
+                            "y1": 711,
+                            "y2": 771,
+                            "y3": 770
+                        },
+                        "text": "Nearest exon of intronic SNPs in NHGRI catalogue"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 330,
+                            "x1": 464,
+                            "x2": 464,
+                            "x3": 330,
+                            "y0": 709,
+                            "y1": 707,
+                            "y2": 767,
+                            "y3": 768
+                        },
+                        "text": "Nearest exon of ISE SNPs in NHGRI catalogue"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 545,
+                            "x1": 677,
+                            "x2": 677,
+                            "x3": 545,
+                            "y0": 709,
+                            "y1": 709,
+                            "y2": 772,
+                            "y3": 772
+                        },
+                        "text": "Skipped exon of ISE SNPs in NHGRI catalogue"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 352,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 352,
+                            "y0": 30,
+                            "y1": 29,
+                            "y2": 49,
+                            "y3": 50
+                        },
+                        "text": "p=0.018"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 686,
+                "width": 652,
+                "x0": 67,
+                "y0": 4
+            },
+            "axes": {
+                "_x-tick-type": "markers",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 185,
+                            "y": 690
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 399,
+                            "y": 690
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 612,
+                            "y": 690
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [
+                    {
+                        "id": 0,
+                        "tick_pt": {
+                            "x": 67,
+                            "y": 102
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 67,
+                            "y": 196
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 67,
+                            "y": 290
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 67,
+                            "y": 384
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 67,
+                            "y": 478
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 67,
+                            "y": 572
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 67,
+                            "y": 666
+                        }
+                    }
+                ],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 31,
+                            "x1": 49,
+                            "x2": 50,
+                            "x3": 31,
+                            "y0": 77,
+                            "y1": 77,
+                            "y2": 139,
+                            "y3": 138
+                        },
+                        "text": "300000"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 51,
+                            "x2": 51,
+                            "x3": 30,
+                            "y0": 171,
+                            "y1": 172,
+                            "y2": 232,
+                            "y3": 231
+                        },
+                        "text": "250000"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 51,
+                            "x2": 50,
+                            "x3": 30,
+                            "y0": 266,
+                            "y1": 266,
+                            "y2": 326,
+                            "y3": 327
+                        },
+                        "text": "200000"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 50,
+                            "x2": 50,
+                            "x3": 30,
+                            "y0": 357,
+                            "y1": 357,
+                            "y2": 417,
+                            "y3": 416
+                        },
+                        "text": "150000"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 50,
+                            "x2": 50,
+                            "x3": 30,
+                            "y0": 453,
+                            "y1": 453,
+                            "y2": 514,
+                            "y3": 514
+                        },
+                        "text": "100000"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 32,
+                            "x1": 48,
+                            "x2": 48,
+                            "x3": 32,
+                            "y0": 551,
+                            "y1": 551,
+                            "y2": 602,
+                            "y3": 602
+                        },
+                        "text": "50000"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 32,
+                            "x1": 49,
+                            "x2": 49,
+                            "x3": 32,
+                            "y0": 660,
+                            "y1": 660,
+                            "y2": 674,
+                            "y3": 674
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 2,
+                            "x1": 20,
+                            "x2": 17,
+                            "x3": -1,
+                            "y0": 216,
+                            "y1": 216,
+                            "y2": 506,
+                            "y3": 506
+                        },
+                        "text": "Distance to the exon of the SNPs (bp)"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 116,
+                            "x1": 247,
+                            "x2": 249,
+                            "x3": 116,
+                            "y0": 710,
+                            "y1": 711,
+                            "y2": 771,
+                            "y3": 770
+                        },
+                        "text": "Nearest exon of intronic SNPs in NHGRI catalogue"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 330,
+                            "x1": 464,
+                            "x2": 464,
+                            "x3": 330,
+                            "y0": 709,
+                            "y1": 707,
+                            "y2": 767,
+                            "y3": 768
+                        },
+                        "text": "Nearest exon of ISE SNPs in NHGRI catalogue"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 545,
+                            "x1": 677,
+                            "x2": 677,
+                            "x3": 545,
+                            "y0": 709,
+                            "y1": 709,
+                            "y2": 772,
+                            "y3": 772
+                        },
+                        "text": "Skipped exon of ISE SNPs in NHGRI catalogue"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 352,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 352,
+                            "y0": 30,
+                            "y1": 29,
+                            "y2": 49,
+                            "y3": 50
+                        },
+                        "text": "p=0.018"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 31,
+                            "x1": 49,
+                            "x2": 50,
+                            "x3": 31,
+                            "y0": 77,
+                            "y1": 77,
+                            "y2": 139,
+                            "y3": 138
+                        },
+                        "text": "300000"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 51,
+                            "x2": 51,
+                            "x3": 30,
+                            "y0": 171,
+                            "y1": 172,
+                            "y2": 232,
+                            "y3": 231
+                        },
+                        "text": "250000"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 51,
+                            "x2": 50,
+                            "x3": 30,
+                            "y0": 266,
+                            "y1": 266,
+                            "y2": 326,
+                            "y3": 327
+                        },
+                        "text": "200000"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 50,
+                            "x2": 50,
+                            "x3": 30,
+                            "y0": 357,
+                            "y1": 357,
+                            "y2": 417,
+                            "y3": 416
+                        },
+                        "text": "150000"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 50,
+                            "x2": 50,
+                            "x3": 30,
+                            "y0": 453,
+                            "y1": 453,
+                            "y2": 514,
+                            "y3": 514
+                        },
+                        "text": "100000"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 32,
+                            "x1": 48,
+                            "x2": 48,
+                            "x3": 32,
+                            "y0": 551,
+                            "y1": 551,
+                            "y2": 602,
+                            "y3": 602
+                        },
+                        "text": "50000"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 32,
+                            "x1": 49,
+                            "x2": 49,
+                            "x3": 32,
+                            "y0": 660,
+                            "y1": 660,
+                            "y2": 674,
+                            "y3": 674
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 2,
+                            "x1": 20,
+                            "x2": 17,
+                            "x3": -1,
+                            "y0": 216,
+                            "y1": 216,
+                            "y2": 506,
+                            "y3": 506
+                        },
+                        "text": "Distance to the exon of the SNPs (bp)"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 116,
+                            "x1": 247,
+                            "x2": 249,
+                            "x3": 116,
+                            "y0": 710,
+                            "y1": 711,
+                            "y2": 771,
+                            "y3": 770
+                        },
+                        "text": "Nearest exon of intronic SNPs in NHGRI catalogue"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 330,
+                            "x1": 464,
+                            "x2": 464,
+                            "x3": 330,
+                            "y0": 709,
+                            "y1": 707,
+                            "y2": 767,
+                            "y3": 768
+                        },
+                        "text": "Nearest exon of ISE SNPs in NHGRI catalogue"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 545,
+                            "x1": 677,
+                            "x2": 677,
+                            "x3": 545,
+                            "y0": 709,
+                            "y1": 709,
+                            "y2": 772,
+                            "y3": 772
+                        },
+                        "text": "Skipped exon of ISE SNPs in NHGRI catalogue"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 352,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 352,
+                            "y0": 30,
+                            "y1": 29,
+                            "y2": 49,
+                            "y3": 50
+                        },
+                        "text": "p=0.018"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "other"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 686,
+                    "width": 652,
+                    "x0": 67,
+                    "y0": 4
+                },
+                "axes": {
+                    "_x-tick-type": "markers",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": "markers",
+                    "_y2-tick-type": null,
+                    "x-axis": [
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 185,
+                                "y": 690
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 399,
+                                "y": 690
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 612,
+                                "y": 690
+                            }
+                        }
+                    ],
+                    "x-axis-2": [],
+                    "y-axis": [
+                        {
+                            "id": 0,
+                            "tick_pt": {
+                                "x": 67,
+                                "y": 102
+                            }
+                        },
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 67,
+                                "y": 196
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 67,
+                                "y": 290
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 67,
+                                "y": 384
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 67,
+                                "y": 478
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 67,
+                                "y": 572
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 67,
+                                "y": 666
+                            }
+                        }
+                    ],
+                    "y-axis-2": []
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "first_quartile": 1446.4709716470886,
+                            "max": 30452.127659574464,
+                            "median": 3623.0155035146954,
+                            "min": 398.9361702127659,
+                            "third_quartile": 12915.231156012484,
+                            "x": "Nearest exon of intronic SNPs in NHGRI catalogue"
+                        },
+                        {
+                            "first_quartile": 1319.8938498069938,
+                            "max": 19547.87234042553,
+                            "median": 3477.2335769819983,
+                            "min": 0.0,
+                            "third_quartile": 9185.425299129176,
+                            "x": "Nearest exon of ISE SNPs in NHGRI catalogue"
+                        },
+                        {
+                            "first_quartile": 1965.8736440247746,
+                            "max": 53457.446808510635,
+                            "median": 7770.38037152522,
+                            "min": 265.9574468085106,
+                            "third_quartile": 22635.190185762458,
+                            "x": "Skipped exon of ISE SNPs in NHGRI catalogue"
+                        }
+                    ],
+                    "name": "[unnamed data series #0]"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 172.0,
+                                "x0": 99.0,
+                                "y0": 664.0
+                            },
+                            "x": 185.0,
+                            "y": 664.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 172.0,
+                                "x0": 99.0,
+                                "y0": 609.0
+                            },
+                            "x": 185.0,
+                            "y": 609.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 172.0,
+                                "x0": 99.0,
+                                "y0": 660.0
+                            },
+                            "x": 185.0,
+                            "y": 660.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 172.0,
+                                "x0": 99.0,
+                                "y0": 666.0
+                            },
+                            "x": 185.0,
+                            "y": 666.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 172.0,
+                                "x0": 99.0,
+                                "y0": 642.0
+                            },
+                            "x": 185.0,
+                            "y": 642.0
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 172.0,
+                                "x0": 312.0,
+                                "y0": 664.0
+                            },
+                            "x": 398.0,
+                            "y": 664.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 172.0,
+                                "x0": 312.0,
+                                "y0": 630.0
+                            },
+                            "x": 398.0,
+                            "y": 630.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 172.0,
+                                "x0": 312.0,
+                                "y0": 660.0
+                            },
+                            "x": 398.0,
+                            "y": 660.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 172.0,
+                                "x0": 312.0,
+                                "y0": 666.0
+                            },
+                            "x": 398.0,
+                            "y": 666.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 172.0,
+                                "x0": 312.0,
+                                "y0": 649.0
+                            },
+                            "x": 398.0,
+                            "y": 649.0
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 171.0,
+                                "x0": 526.0,
+                                "y0": 663.0
+                            },
+                            "x": 611.5,
+                            "y": 663.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 171.0,
+                                "x0": 526.0,
+                                "y0": 566.0
+                            },
+                            "x": 611.5,
+                            "y": 566.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 171.0,
+                                "x0": 526.0,
+                                "y0": 652.0
+                            },
+                            "x": 611.5,
+                            "y": 652.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 171.0,
+                                "x0": 526.0,
+                                "y0": 666.0
+                            },
+                            "x": 611.5,
+                            "y": 666.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 171.0,
+                                "x0": 526.0,
+                                "y0": 624.0
+                            },
+                            "x": 611.5,
+                            "y": 624.0
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

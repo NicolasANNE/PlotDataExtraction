@@ -1,0 +1,1075 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 529,
+                        "x1": 659,
+                        "x2": 659,
+                        "x3": 529,
+                        "y0": 263,
+                        "y1": 263,
+                        "y2": 288,
+                        "y3": 288
+                    },
+                    "text": "Viability (%)"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 328,
+                        "x1": 410,
+                        "x2": 410,
+                        "x3": 328,
+                        "y0": 35,
+                        "y1": 35,
+                        "y2": 54,
+                        "y3": 54
+                    },
+                    "text": "Control"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 149,
+                        "x1": 410,
+                        "x2": 410,
+                        "x3": 149,
+                        "y0": 108,
+                        "y1": 108,
+                        "y2": 132,
+                        "y3": 132
+                    },
+                    "text": "Direct electrodeposition"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 6,
+                        "x1": 415,
+                        "x2": 415,
+                        "x3": 6,
+                        "y0": 169,
+                        "y1": 169,
+                        "y2": 221,
+                        "y3": 221
+                    },
+                    "text": "Electrochemical hydrogel lithography\n(indirect electrodeposition)"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 747,
+                        "x1": 781,
+                        "x2": 781,
+                        "x3": 747,
+                        "y0": 237,
+                        "y1": 237,
+                        "y2": 255,
+                        "y3": 255
+                    },
+                    "text": "100"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 683,
+                        "x1": 707,
+                        "x2": 707,
+                        "x3": 683,
+                        "y0": 237,
+                        "y1": 237,
+                        "y2": 255,
+                        "y3": 255
+                    },
+                    "text": "95"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 614,
+                        "x1": 639,
+                        "x2": 639,
+                        "x3": 614,
+                        "y0": 237,
+                        "y1": 237,
+                        "y2": 255,
+                        "y3": 255
+                    },
+                    "text": "90"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 546,
+                        "x1": 570,
+                        "x2": 570,
+                        "x3": 546,
+                        "y0": 237,
+                        "y1": 237,
+                        "y2": 255,
+                        "y3": 255
+                    },
+                    "text": "85"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 478,
+                        "x1": 502,
+                        "x2": 502,
+                        "x3": 478,
+                        "y0": 237,
+                        "y1": 237,
+                        "y2": 255,
+                        "y3": 255
+                    },
+                    "text": "80"
+                },
+                {
+                    "id": 9,
+                    "polygon": {
+                        "x0": 409,
+                        "x1": 433,
+                        "x2": 433,
+                        "x3": 409,
+                        "y0": 237,
+                        "y1": 237,
+                        "y2": 255,
+                        "y3": 255
+                    },
+                    "text": "75"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 529,
+                            "x1": 659,
+                            "x2": 659,
+                            "x3": 529,
+                            "y0": 263,
+                            "y1": 263,
+                            "y2": 288,
+                            "y3": 288
+                        },
+                        "text": "Viability (%)"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 328,
+                            "x1": 410,
+                            "x2": 410,
+                            "x3": 328,
+                            "y0": 35,
+                            "y1": 35,
+                            "y2": 54,
+                            "y3": 54
+                        },
+                        "text": "Control"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 149,
+                            "x1": 410,
+                            "x2": 410,
+                            "x3": 149,
+                            "y0": 108,
+                            "y1": 108,
+                            "y2": 132,
+                            "y3": 132
+                        },
+                        "text": "Direct electrodeposition"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 6,
+                            "x1": 415,
+                            "x2": 415,
+                            "x3": 6,
+                            "y0": 169,
+                            "y1": 169,
+                            "y2": 221,
+                            "y3": 221
+                        },
+                        "text": "Electrochemical hydrogel lithography\n(indirect electrodeposition)"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 747,
+                            "x1": 781,
+                            "x2": 781,
+                            "x3": 747,
+                            "y0": 237,
+                            "y1": 237,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "100"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 683,
+                            "x1": 707,
+                            "x2": 707,
+                            "x3": 683,
+                            "y0": 237,
+                            "y1": 237,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "95"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 614,
+                            "x1": 639,
+                            "x2": 639,
+                            "x3": 614,
+                            "y0": 237,
+                            "y1": 237,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "90"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 546,
+                            "x1": 570,
+                            "x2": 570,
+                            "x3": 546,
+                            "y0": 237,
+                            "y1": 237,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "85"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 478,
+                            "x1": 502,
+                            "x2": 502,
+                            "x3": 478,
+                            "y0": 237,
+                            "y1": 237,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "80"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 409,
+                            "x1": 433,
+                            "x2": 433,
+                            "x3": 409,
+                            "y0": 237,
+                            "y1": 237,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "75"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 529,
+                            "x1": 659,
+                            "x2": 659,
+                            "x3": 529,
+                            "y0": 263,
+                            "y1": 263,
+                            "y2": 288,
+                            "y3": 288
+                        },
+                        "text": "Viability (%)"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 328,
+                            "x1": 410,
+                            "x2": 410,
+                            "x3": 328,
+                            "y0": 35,
+                            "y1": 35,
+                            "y2": 54,
+                            "y3": 54
+                        },
+                        "text": "Control"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 149,
+                            "x1": 410,
+                            "x2": 410,
+                            "x3": 149,
+                            "y0": 108,
+                            "y1": 108,
+                            "y2": 132,
+                            "y3": 132
+                        },
+                        "text": "Direct electrodeposition"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 6,
+                            "x1": 415,
+                            "x2": 415,
+                            "x3": 6,
+                            "y0": 169,
+                            "y1": 169,
+                            "y2": 221,
+                            "y3": 221
+                        },
+                        "text": "Electrochemical hydrogel lithography\n(indirect electrodeposition)"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 747,
+                            "x1": 781,
+                            "x2": 781,
+                            "x3": 747,
+                            "y0": 237,
+                            "y1": 237,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "100"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 683,
+                            "x1": 707,
+                            "x2": 707,
+                            "x3": 683,
+                            "y0": 237,
+                            "y1": 237,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "95"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 614,
+                            "x1": 639,
+                            "x2": 639,
+                            "x3": 614,
+                            "y0": 237,
+                            "y1": 237,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "90"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 546,
+                            "x1": 570,
+                            "x2": 570,
+                            "x3": 546,
+                            "y0": 237,
+                            "y1": 237,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "85"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 478,
+                            "x1": 502,
+                            "x2": 502,
+                            "x3": 478,
+                            "y0": 237,
+                            "y1": 237,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "80"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 409,
+                            "x1": 433,
+                            "x2": 433,
+                            "x3": 409,
+                            "y0": 237,
+                            "y1": 237,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "75"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 222,
+                "width": 343,
+                "x0": 421,
+                "y0": 8
+            },
+            "axes": {
+                "_x-tick-type": "separators",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 421,
+                            "y": 44
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 421,
+                            "y": 120
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 421,
+                            "y": 195
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 421,
+                            "y": 230
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 490,
+                            "y": 230
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 559,
+                            "y": 230
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 627,
+                            "y": 230
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 696,
+                            "y": 230
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 765,
+                            "y": 230
+                        }
+                    }
+                ],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 529,
+                            "x1": 659,
+                            "x2": 659,
+                            "x3": 529,
+                            "y0": 263,
+                            "y1": 263,
+                            "y2": 288,
+                            "y3": 288
+                        },
+                        "text": "Viability (%)"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 328,
+                            "x1": 410,
+                            "x2": 410,
+                            "x3": 328,
+                            "y0": 35,
+                            "y1": 35,
+                            "y2": 54,
+                            "y3": 54
+                        },
+                        "text": "Control"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 149,
+                            "x1": 410,
+                            "x2": 410,
+                            "x3": 149,
+                            "y0": 108,
+                            "y1": 108,
+                            "y2": 132,
+                            "y3": 132
+                        },
+                        "text": "Direct electrodeposition"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 6,
+                            "x1": 415,
+                            "x2": 415,
+                            "x3": 6,
+                            "y0": 169,
+                            "y1": 169,
+                            "y2": 221,
+                            "y3": 221
+                        },
+                        "text": "Electrochemical hydrogel lithography\n(indirect electrodeposition)"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 747,
+                            "x1": 781,
+                            "x2": 781,
+                            "x3": 747,
+                            "y0": 237,
+                            "y1": 237,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "100"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 683,
+                            "x1": 707,
+                            "x2": 707,
+                            "x3": 683,
+                            "y0": 237,
+                            "y1": 237,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "95"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 614,
+                            "x1": 639,
+                            "x2": 639,
+                            "x3": 614,
+                            "y0": 237,
+                            "y1": 237,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "90"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 546,
+                            "x1": 570,
+                            "x2": 570,
+                            "x3": 546,
+                            "y0": 237,
+                            "y1": 237,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "85"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 478,
+                            "x1": 502,
+                            "x2": 502,
+                            "x3": 478,
+                            "y0": 237,
+                            "y1": 237,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "80"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 409,
+                            "x1": 433,
+                            "x2": 433,
+                            "x3": 409,
+                            "y0": 237,
+                            "y1": 237,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "75"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 529,
+                            "x1": 659,
+                            "x2": 659,
+                            "x3": 529,
+                            "y0": 263,
+                            "y1": 263,
+                            "y2": 288,
+                            "y3": 288
+                        },
+                        "text": "Viability (%)"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 328,
+                            "x1": 410,
+                            "x2": 410,
+                            "x3": 328,
+                            "y0": 35,
+                            "y1": 35,
+                            "y2": 54,
+                            "y3": 54
+                        },
+                        "text": "Control"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 149,
+                            "x1": 410,
+                            "x2": 410,
+                            "x3": 149,
+                            "y0": 108,
+                            "y1": 108,
+                            "y2": 132,
+                            "y3": 132
+                        },
+                        "text": "Direct electrodeposition"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 6,
+                            "x1": 415,
+                            "x2": 415,
+                            "x3": 6,
+                            "y0": 169,
+                            "y1": 169,
+                            "y2": 221,
+                            "y3": 221
+                        },
+                        "text": "Electrochemical hydrogel lithography\n(indirect electrodeposition)"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 747,
+                            "x1": 781,
+                            "x2": 781,
+                            "x3": 747,
+                            "y0": 237,
+                            "y1": 237,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "100"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 683,
+                            "x1": 707,
+                            "x2": 707,
+                            "x3": 683,
+                            "y0": 237,
+                            "y1": 237,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "95"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 614,
+                            "x1": 639,
+                            "x2": 639,
+                            "x3": 614,
+                            "y0": 237,
+                            "y1": 237,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "90"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 546,
+                            "x1": 570,
+                            "x2": 570,
+                            "x3": 546,
+                            "y0": 237,
+                            "y1": 237,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "85"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 478,
+                            "x1": 502,
+                            "x2": 502,
+                            "x3": 478,
+                            "y0": 237,
+                            "y1": 237,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "80"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 409,
+                            "x1": 433,
+                            "x2": 433,
+                            "x3": 409,
+                            "y0": 237,
+                            "y1": 237,
+                            "y2": 255,
+                            "y3": 255
+                        },
+                        "text": "75"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 222,
+                    "width": 343,
+                    "x0": 421,
+                    "y0": 8
+                },
+                "axes": {
+                    "_x-tick-type": "separators",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": "markers",
+                    "_y2-tick-type": null,
+                    "x-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 421,
+                                "y": 44
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 421,
+                                "y": 120
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 421,
+                                "y": 195
+                            }
+                        }
+                    ],
+                    "x-axis-2": [],
+                    "y-axis": [
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 421,
+                                "y": 230
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 490,
+                                "y": 230
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 559,
+                                "y": 230
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 627,
+                                "y": 230
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 696,
+                                "y": 230
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 765,
+                                "y": 230
+                            }
+                        }
+                    ],
+                    "y-axis-2": []
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Control",
+                            "y": 94.55456354020089
+                        },
+                        {
+                            "x": "Direct electrodeposition",
+                            "y": 79.6096365665486
+                        },
+                        {
+                            "x": "Electrochemical hydrogel lithography\n(indirect electrodeposition)",
+                            "y": 86.18443398515211
+                        }
+                    ],
+                    "name": "[unnamed data series #0]"
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 44,
+                        "width": 269,
+                        "x0": 421,
+                        "y0": 23
+                    },
+                    {
+                        "height": 45,
+                        "width": 64,
+                        "x0": 421,
+                        "y0": 96
+                    },
+                    {
+                        "height": 44,
+                        "width": 154,
+                        "x0": 421,
+                        "y0": 170
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

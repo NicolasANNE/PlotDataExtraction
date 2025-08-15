@@ -1,0 +1,875 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 32,
+                        "x1": 52,
+                        "x2": 52,
+                        "x3": 32,
+                        "y0": 170,
+                        "y1": 170,
+                        "y2": 185,
+                        "y3": 185
+                    },
+                    "text": "90"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 32,
+                        "x1": 52,
+                        "x2": 52,
+                        "x3": 32,
+                        "y0": 378,
+                        "y1": 378,
+                        "y2": 394,
+                        "y3": 394
+                    },
+                    "text": "80"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 33,
+                        "x1": 51,
+                        "x2": 51,
+                        "x3": 33,
+                        "y0": 586,
+                        "y1": 586,
+                        "y2": 603,
+                        "y3": 603
+                    },
+                    "text": "70"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 223,
+                        "x1": 242,
+                        "x2": 242,
+                        "x3": 223,
+                        "y0": 664,
+                        "y1": 664,
+                        "y2": 680,
+                        "y3": 680
+                    },
+                    "text": "75"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 515,
+                        "x1": 535,
+                        "x2": 535,
+                        "x3": 515,
+                        "y0": 664,
+                        "y1": 664,
+                        "y2": 679,
+                        "y3": 679
+                    },
+                    "text": "90"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 146,
+                        "x1": 613,
+                        "x2": 613,
+                        "x3": 146,
+                        "y0": 684,
+                        "y1": 684,
+                        "y2": 706,
+                        "y3": 706
+                    },
+                    "text": "Perscribed Running Intensity (% of Maximal Speed)"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 6,
+                        "x1": 27,
+                        "x2": 27,
+                        "x3": 6,
+                        "y0": 183,
+                        "y1": 183,
+                        "y2": 486,
+                        "y3": 486
+                    },
+                    "text": "Percentage (%) of Maximal Speed"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 32,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 32,
+                            "y0": 170,
+                            "y1": 170,
+                            "y2": 185,
+                            "y3": 185
+                        },
+                        "text": "90"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 32,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 32,
+                            "y0": 378,
+                            "y1": 378,
+                            "y2": 394,
+                            "y3": 394
+                        },
+                        "text": "80"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 33,
+                            "x1": 51,
+                            "x2": 51,
+                            "x3": 33,
+                            "y0": 586,
+                            "y1": 586,
+                            "y2": 603,
+                            "y3": 603
+                        },
+                        "text": "70"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 223,
+                            "x1": 242,
+                            "x2": 242,
+                            "x3": 223,
+                            "y0": 664,
+                            "y1": 664,
+                            "y2": 680,
+                            "y3": 680
+                        },
+                        "text": "75"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 515,
+                            "x1": 535,
+                            "x2": 535,
+                            "x3": 515,
+                            "y0": 664,
+                            "y1": 664,
+                            "y2": 679,
+                            "y3": 679
+                        },
+                        "text": "90"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 146,
+                            "x1": 613,
+                            "x2": 613,
+                            "x3": 146,
+                            "y0": 684,
+                            "y1": 684,
+                            "y2": 706,
+                            "y3": 706
+                        },
+                        "text": "Perscribed Running Intensity (% of Maximal Speed)"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 6,
+                            "x1": 27,
+                            "x2": 27,
+                            "x3": 6,
+                            "y0": 183,
+                            "y1": 183,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "Percentage (%) of Maximal Speed"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 6,
+                    "role": "axis_title"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 32,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 32,
+                            "y0": 170,
+                            "y1": 170,
+                            "y2": 185,
+                            "y3": 185
+                        },
+                        "text": "90"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 32,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 32,
+                            "y0": 378,
+                            "y1": 378,
+                            "y2": 394,
+                            "y3": 394
+                        },
+                        "text": "80"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 33,
+                            "x1": 51,
+                            "x2": 51,
+                            "x3": 33,
+                            "y0": 586,
+                            "y1": 586,
+                            "y2": 603,
+                            "y3": 603
+                        },
+                        "text": "70"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 223,
+                            "x1": 242,
+                            "x2": 242,
+                            "x3": 223,
+                            "y0": 664,
+                            "y1": 664,
+                            "y2": 680,
+                            "y3": 680
+                        },
+                        "text": "75"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 515,
+                            "x1": 535,
+                            "x2": 535,
+                            "x3": 515,
+                            "y0": 664,
+                            "y1": 664,
+                            "y2": 679,
+                            "y3": 679
+                        },
+                        "text": "90"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 146,
+                            "x1": 613,
+                            "x2": 613,
+                            "x3": 146,
+                            "y0": 684,
+                            "y1": 684,
+                            "y2": 706,
+                            "y3": 706
+                        },
+                        "text": "Perscribed Running Intensity (% of Maximal Speed)"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 6,
+                            "x1": 27,
+                            "x2": 27,
+                            "x3": 6,
+                            "y0": 183,
+                            "y1": 183,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "Percentage (%) of Maximal Speed"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 646,
+                "width": 641,
+                "x0": 58,
+                "y0": 11
+            },
+            "axes": {
+                "_x-tick-type": "markers",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 232,
+                            "y": 657
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 525,
+                            "y": 657
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [
+                    {
+                        "id": 0,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 177
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 386
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 595
+                        }
+                    }
+                ],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 32,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 32,
+                            "y0": 170,
+                            "y1": 170,
+                            "y2": 185,
+                            "y3": 185
+                        },
+                        "text": "90"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 32,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 32,
+                            "y0": 378,
+                            "y1": 378,
+                            "y2": 394,
+                            "y3": 394
+                        },
+                        "text": "80"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 33,
+                            "x1": 51,
+                            "x2": 51,
+                            "x3": 33,
+                            "y0": 586,
+                            "y1": 586,
+                            "y2": 603,
+                            "y3": 603
+                        },
+                        "text": "70"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 223,
+                            "x1": 242,
+                            "x2": 242,
+                            "x3": 223,
+                            "y0": 664,
+                            "y1": 664,
+                            "y2": 680,
+                            "y3": 680
+                        },
+                        "text": "75"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 515,
+                            "x1": 535,
+                            "x2": 535,
+                            "x3": 515,
+                            "y0": 664,
+                            "y1": 664,
+                            "y2": 679,
+                            "y3": 679
+                        },
+                        "text": "90"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 146,
+                            "x1": 613,
+                            "x2": 613,
+                            "x3": 146,
+                            "y0": 684,
+                            "y1": 684,
+                            "y2": 706,
+                            "y3": 706
+                        },
+                        "text": "Perscribed Running Intensity (% of Maximal Speed)"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 6,
+                            "x1": 27,
+                            "x2": 27,
+                            "x3": 6,
+                            "y0": 183,
+                            "y1": 183,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "Percentage (%) of Maximal Speed"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 32,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 32,
+                            "y0": 170,
+                            "y1": 170,
+                            "y2": 185,
+                            "y3": 185
+                        },
+                        "text": "90"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 32,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 32,
+                            "y0": 378,
+                            "y1": 378,
+                            "y2": 394,
+                            "y3": 394
+                        },
+                        "text": "80"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 33,
+                            "x1": 51,
+                            "x2": 51,
+                            "x3": 33,
+                            "y0": 586,
+                            "y1": 586,
+                            "y2": 603,
+                            "y3": 603
+                        },
+                        "text": "70"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 223,
+                            "x1": 242,
+                            "x2": 242,
+                            "x3": 223,
+                            "y0": 664,
+                            "y1": 664,
+                            "y2": 680,
+                            "y3": 680
+                        },
+                        "text": "75"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 515,
+                            "x1": 535,
+                            "x2": 535,
+                            "x3": 515,
+                            "y0": 664,
+                            "y1": 664,
+                            "y2": 679,
+                            "y3": 679
+                        },
+                        "text": "90"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 146,
+                            "x1": 613,
+                            "x2": 613,
+                            "x3": 146,
+                            "y0": 684,
+                            "y1": 684,
+                            "y2": 706,
+                            "y3": 706
+                        },
+                        "text": "Perscribed Running Intensity (% of Maximal Speed)"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 6,
+                            "x1": 27,
+                            "x2": 27,
+                            "x3": 6,
+                            "y0": 183,
+                            "y1": 183,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "Percentage (%) of Maximal Speed"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 6,
+                        "role": "axis_title"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 646,
+                    "width": 641,
+                    "x0": 58,
+                    "y0": 11
+                },
+                "axes": {
+                    "_x-tick-type": "markers",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": "markers",
+                    "_y2-tick-type": null,
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 232,
+                                "y": 657
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 525,
+                                "y": 657
+                            }
+                        }
+                    ],
+                    "x-axis-2": [],
+                    "y-axis": [
+                        {
+                            "id": 0,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 177
+                            }
+                        },
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 386
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 595
+                            }
+                        }
+                    ],
+                    "y-axis-2": []
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "first_quartile": 74.29299976546085,
+                            "max": 87.48803827751198,
+                            "median": 77.96339925919895,
+                            "min": 68.26555023923444,
+                            "third_quartile": 80.68481563989799,
+                            "x": "75"
+                        },
+                        {
+                            "first_quartile": 84.67515166143674,
+                            "max": 96.6507177033493,
+                            "median": 87.14081166329935,
+                            "min": 81.81818181818183,
+                            "third_quartile": 92.34768542821388,
+                            "x": "90"
+                        }
+                    ],
+                    "name": "[unnamed data series #0]"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 219.0,
+                                "x0": 123.0,
+                                "y0": 506.0
+                            },
+                            "x": 232.5,
+                            "y": 506.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 219.0,
+                                "x0": 123.0,
+                                "y0": 230.0
+                            },
+                            "x": 232.5,
+                            "y": 230.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 219.0,
+                                "x0": 123.0,
+                                "y0": 429.0
+                            },
+                            "x": 232.5,
+                            "y": 429.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 219.0,
+                                "x0": 123.0,
+                                "y0": 632.0
+                            },
+                            "x": 232.5,
+                            "y": 632.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 219.0,
+                                "x0": 123.0,
+                                "y0": 372.0
+                            },
+                            "x": 232.5,
+                            "y": 372.0
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 219.0,
+                                "x0": 415.0,
+                                "y0": 289.0
+                            },
+                            "x": 524.5,
+                            "y": 289.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 219.0,
+                                "x0": 415.0,
+                                "y0": 38.0
+                            },
+                            "x": 524.5,
+                            "y": 38.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 219.0,
+                                "x0": 415.0,
+                                "y0": 237.0
+                            },
+                            "x": 524.5,
+                            "y": 237.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 219.0,
+                                "x0": 415.0,
+                                "y0": 348.0
+                            },
+                            "x": 524.5,
+                            "y": 348.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 219.0,
+                                "x0": 415.0,
+                                "y0": 128.0
+                            },
+                            "x": 524.5,
+                            "y": 128.0
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

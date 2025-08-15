@@ -1,0 +1,788 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "vertical bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 5,
+                        "x1": 61,
+                        "x2": 61,
+                        "x3": 5,
+                        "y0": 56,
+                        "y1": 56,
+                        "y2": 326,
+                        "y3": 326
+                    },
+                    "text": "Standardized Grade \\n Difference"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 255,
+                        "x1": 525,
+                        "x2": 525,
+                        "x3": 255,
+                        "y0": 388,
+                        "y1": 388,
+                        "y2": 418,
+                        "y3": 418
+                    },
+                    "text": "GTA Training Group"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 73,
+                        "x1": 85,
+                        "x2": 85,
+                        "x3": 73,
+                        "y0": 10,
+                        "y1": 10,
+                        "y2": 26,
+                        "y3": 26
+                    },
+                    "text": "2"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 74,
+                        "x1": 85,
+                        "x2": 85,
+                        "x3": 74,
+                        "y0": 185,
+                        "y1": 185,
+                        "y2": 201,
+                        "y3": 201
+                    },
+                    "text": "1"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 73,
+                        "x1": 85,
+                        "x2": 85,
+                        "x3": 73,
+                        "y0": 358,
+                        "y1": 358,
+                        "y2": 375,
+                        "y3": 375
+                    },
+                    "text": "0"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 451,
+                        "x1": 507,
+                        "x2": 507,
+                        "x3": 451,
+                        "y0": 11,
+                        "y1": 11,
+                        "y2": 25,
+                        "y3": 25
+                    },
+                    "text": "control"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 553,
+                        "x1": 609,
+                        "x2": 609,
+                        "x3": 553,
+                        "y0": 10,
+                        "y1": 10,
+                        "y2": 28,
+                        "y3": 28
+                    },
+                    "text": "inquiry"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 5,
+                            "x1": 61,
+                            "x2": 61,
+                            "x3": 5,
+                            "y0": 56,
+                            "y1": 56,
+                            "y2": 326,
+                            "y3": 326
+                        },
+                        "text": "Standardized Grade \\n Difference"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 255,
+                            "x1": 525,
+                            "x2": 525,
+                            "x3": 255,
+                            "y0": 388,
+                            "y1": 388,
+                            "y2": 418,
+                            "y3": 418
+                        },
+                        "text": "GTA Training Group"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 73,
+                            "x1": 85,
+                            "x2": 85,
+                            "x3": 73,
+                            "y0": 10,
+                            "y1": 10,
+                            "y2": 26,
+                            "y3": 26
+                        },
+                        "text": "2"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 74,
+                            "x1": 85,
+                            "x2": 85,
+                            "x3": 74,
+                            "y0": 185,
+                            "y1": 185,
+                            "y2": 201,
+                            "y3": 201
+                        },
+                        "text": "1"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 73,
+                            "x1": 85,
+                            "x2": 85,
+                            "x3": 73,
+                            "y0": 358,
+                            "y1": 358,
+                            "y2": 375,
+                            "y3": 375
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 451,
+                            "x1": 507,
+                            "x2": 507,
+                            "x3": 451,
+                            "y0": 11,
+                            "y1": 11,
+                            "y2": 25,
+                            "y3": 25
+                        },
+                        "text": "control"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 553,
+                            "x1": 609,
+                            "x2": 609,
+                            "x3": 553,
+                            "y0": 10,
+                            "y1": 10,
+                            "y2": 28,
+                            "y3": 28
+                        },
+                        "text": "inquiry"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 6,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 5,
+                            "x1": 61,
+                            "x2": 61,
+                            "x3": 5,
+                            "y0": 56,
+                            "y1": 56,
+                            "y2": 326,
+                            "y3": 326
+                        },
+                        "text": "Standardized Grade \\n Difference"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 255,
+                            "x1": 525,
+                            "x2": 525,
+                            "x3": 255,
+                            "y0": 388,
+                            "y1": 388,
+                            "y2": 418,
+                            "y3": 418
+                        },
+                        "text": "GTA Training Group"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 73,
+                            "x1": 85,
+                            "x2": 85,
+                            "x3": 73,
+                            "y0": 10,
+                            "y1": 10,
+                            "y2": 26,
+                            "y3": 26
+                        },
+                        "text": "2"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 74,
+                            "x1": 85,
+                            "x2": 85,
+                            "x3": 74,
+                            "y0": 185,
+                            "y1": 185,
+                            "y2": 201,
+                            "y3": 201
+                        },
+                        "text": "1"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 73,
+                            "x1": 85,
+                            "x2": 85,
+                            "x3": 73,
+                            "y0": 358,
+                            "y1": 358,
+                            "y2": 375,
+                            "y3": 375
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 451,
+                            "x1": 507,
+                            "x2": 507,
+                            "x3": 451,
+                            "y0": 11,
+                            "y1": 11,
+                            "y2": 25,
+                            "y3": 25
+                        },
+                        "text": "control"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 553,
+                            "x1": 609,
+                            "x2": 609,
+                            "x3": 553,
+                            "y0": 10,
+                            "y1": 10,
+                            "y2": 28,
+                            "y3": 28
+                        },
+                        "text": "inquiry"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 348,
+                "width": 572,
+                "x0": 103,
+                "y0": 19
+            },
+            "axes": {
+                "_x-tick-type": "markers",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [],
+                "x-axis-2": [],
+                "y-axis": [
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 103,
+                            "y": 19
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 103,
+                            "y": 192
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 103,
+                            "y": 366
+                        }
+                    }
+                ],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 5,
+                            "x1": 61,
+                            "x2": 61,
+                            "x3": 5,
+                            "y0": 56,
+                            "y1": 56,
+                            "y2": 326,
+                            "y3": 326
+                        },
+                        "text": "Standardized Grade \\n Difference"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 255,
+                            "x1": 525,
+                            "x2": 525,
+                            "x3": 255,
+                            "y0": 388,
+                            "y1": 388,
+                            "y2": 418,
+                            "y3": 418
+                        },
+                        "text": "GTA Training Group"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 73,
+                            "x1": 85,
+                            "x2": 85,
+                            "x3": 73,
+                            "y0": 10,
+                            "y1": 10,
+                            "y2": 26,
+                            "y3": 26
+                        },
+                        "text": "2"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 74,
+                            "x1": 85,
+                            "x2": 85,
+                            "x3": 74,
+                            "y0": 185,
+                            "y1": 185,
+                            "y2": 201,
+                            "y3": 201
+                        },
+                        "text": "1"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 73,
+                            "x1": 85,
+                            "x2": 85,
+                            "x3": 73,
+                            "y0": 358,
+                            "y1": 358,
+                            "y2": 375,
+                            "y3": 375
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 451,
+                            "x1": 507,
+                            "x2": 507,
+                            "x3": 451,
+                            "y0": 11,
+                            "y1": 11,
+                            "y2": 25,
+                            "y3": 25
+                        },
+                        "text": "control"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 553,
+                            "x1": 609,
+                            "x2": 609,
+                            "x3": 553,
+                            "y0": 10,
+                            "y1": 10,
+                            "y2": 28,
+                            "y3": 28
+                        },
+                        "text": "inquiry"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 26,
+                        "width": 28,
+                        "x0": 420,
+                        "y0": 6
+                    },
+                    "id": 5
+                },
+                {
+                    "bb": {
+                        "height": 26,
+                        "width": 26,
+                        "x0": 520,
+                        "y0": 6
+                    },
+                    "id": 6
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 5,
+                            "x1": 61,
+                            "x2": 61,
+                            "x3": 5,
+                            "y0": 56,
+                            "y1": 56,
+                            "y2": 326,
+                            "y3": 326
+                        },
+                        "text": "Standardized Grade \\n Difference"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 255,
+                            "x1": 525,
+                            "x2": 525,
+                            "x3": 255,
+                            "y0": 388,
+                            "y1": 388,
+                            "y2": 418,
+                            "y3": 418
+                        },
+                        "text": "GTA Training Group"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 73,
+                            "x1": 85,
+                            "x2": 85,
+                            "x3": 73,
+                            "y0": 10,
+                            "y1": 10,
+                            "y2": 26,
+                            "y3": 26
+                        },
+                        "text": "2"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 74,
+                            "x1": 85,
+                            "x2": 85,
+                            "x3": 74,
+                            "y0": 185,
+                            "y1": 185,
+                            "y2": 201,
+                            "y3": 201
+                        },
+                        "text": "1"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 73,
+                            "x1": 85,
+                            "x2": 85,
+                            "x3": 73,
+                            "y0": 358,
+                            "y1": 358,
+                            "y2": 375,
+                            "y3": 375
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 451,
+                            "x1": 507,
+                            "x2": 507,
+                            "x3": 451,
+                            "y0": 11,
+                            "y1": 11,
+                            "y2": 25,
+                            "y3": 25
+                        },
+                        "text": "control"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 553,
+                            "x1": 609,
+                            "x2": 609,
+                            "x3": 553,
+                            "y0": 10,
+                            "y1": 10,
+                            "y2": 28,
+                            "y3": 28
+                        },
+                        "text": "inquiry"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "legend_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 348,
+                    "width": 572,
+                    "x0": 103,
+                    "y0": 19
+                },
+                "axes": {
+                    "_x-tick-type": "markers",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": "markers",
+                    "_y2-tick-type": null,
+                    "x-axis": [],
+                    "x-axis-2": [],
+                    "y-axis": [
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 103,
+                                "y": 19
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 103,
+                                "y": 192
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 103,
+                                "y": 366
+                            }
+                        }
+                    ],
+                    "y-axis-2": []
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 26,
+                            "width": 28,
+                            "x0": 420,
+                            "y0": 6
+                        },
+                        "id": 5
+                    },
+                    {
+                        "bb": {
+                            "height": 26,
+                            "width": 26,
+                            "x0": 520,
+                            "y0": 6
+                        },
+                        "id": 6
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "[unnamed category #0]",
+                            "y": 0.5138309602569636
+                        }
+                    ],
+                    "name": "control"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "[unnamed category #0]",
+                            "y": 1.336497435159883
+                        }
+                    ],
+                    "name": "inquiry"
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 89,
+                        "width": 165,
+                        "x0": 224,
+                        "y0": 277
+                    },
+                    {
+                        "height": 232,
+                        "width": 165,
+                        "x0": 389,
+                        "y0": 134
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

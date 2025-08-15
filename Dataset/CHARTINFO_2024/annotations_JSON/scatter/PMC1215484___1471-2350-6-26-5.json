@@ -1,0 +1,1262 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "scatter"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "scatter"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 82,
+                        "x1": 100,
+                        "x2": 100,
+                        "x3": 82,
+                        "y0": 75,
+                        "y1": 75,
+                        "y2": 88,
+                        "y3": 88
+                    },
+                    "text": "2.0"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 74,
+                        "x1": 94,
+                        "x2": 94,
+                        "x3": 74,
+                        "y0": 181,
+                        "y1": 181,
+                        "y2": 194,
+                        "y3": 194
+                    },
+                    "text": "1.0"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 82,
+                        "x1": 100,
+                        "x2": 100,
+                        "x3": 82,
+                        "y0": 320,
+                        "y1": 320,
+                        "y2": 332,
+                        "y3": 332
+                    },
+                    "text": "0.4"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 82,
+                        "x1": 100,
+                        "x2": 100,
+                        "x3": 82,
+                        "y0": 256,
+                        "y1": 256,
+                        "y2": 268,
+                        "y3": 268
+                    },
+                    "text": "0.6"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 82,
+                        "x1": 100,
+                        "x2": 100,
+                        "x3": 82,
+                        "y0": 215,
+                        "y1": 215,
+                        "y2": 227,
+                        "y3": 227
+                    },
+                    "text": "0.8"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 148,
+                        "x1": 242,
+                        "x2": 242,
+                        "x3": 148,
+                        "y0": 377,
+                        "y1": 377,
+                        "y2": 411,
+                        "y3": 411
+                    },
+                    "text": "Disease-free controls"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 277,
+                        "x1": 386,
+                        "x2": 386,
+                        "x3": 277,
+                        "y0": 377,
+                        "y1": 377,
+                        "y2": 414,
+                        "y3": 414
+                    },
+                    "text": "BRCA1 carrier cancer patient"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 461,
+                        "x1": 580,
+                        "x2": 580,
+                        "x3": 461,
+                        "y0": 377,
+                        "y1": 377,
+                        "y2": 414,
+                        "y3": 414
+                    },
+                    "text": "Sporadic breast cancer"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 400,
+                        "x1": 454,
+                        "x2": 454,
+                        "x3": 400,
+                        "y0": 377,
+                        "y1": 377,
+                        "y2": 411,
+                        "y3": 411
+                    },
+                    "text": "New control"
+                },
+                {
+                    "id": 9,
+                    "polygon": {
+                        "x0": 15,
+                        "x1": 56,
+                        "x2": 56,
+                        "x3": 15,
+                        "y0": 79,
+                        "y1": 79,
+                        "y2": 289,
+                        "y3": 289
+                    },
+                    "text": "NER capacity (relative to normal BREs)"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 82,
+                            "x1": 100,
+                            "x2": 100,
+                            "x3": 82,
+                            "y0": 75,
+                            "y1": 75,
+                            "y2": 88,
+                            "y3": 88
+                        },
+                        "text": "2.0"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 74,
+                            "x1": 94,
+                            "x2": 94,
+                            "x3": 74,
+                            "y0": 181,
+                            "y1": 181,
+                            "y2": 194,
+                            "y3": 194
+                        },
+                        "text": "1.0"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 82,
+                            "x1": 100,
+                            "x2": 100,
+                            "x3": 82,
+                            "y0": 320,
+                            "y1": 320,
+                            "y2": 332,
+                            "y3": 332
+                        },
+                        "text": "0.4"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 82,
+                            "x1": 100,
+                            "x2": 100,
+                            "x3": 82,
+                            "y0": 256,
+                            "y1": 256,
+                            "y2": 268,
+                            "y3": 268
+                        },
+                        "text": "0.6"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 82,
+                            "x1": 100,
+                            "x2": 100,
+                            "x3": 82,
+                            "y0": 215,
+                            "y1": 215,
+                            "y2": 227,
+                            "y3": 227
+                        },
+                        "text": "0.8"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 148,
+                            "x1": 242,
+                            "x2": 242,
+                            "x3": 148,
+                            "y0": 377,
+                            "y1": 377,
+                            "y2": 411,
+                            "y3": 411
+                        },
+                        "text": "Disease-free controls"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 277,
+                            "x1": 386,
+                            "x2": 386,
+                            "x3": 277,
+                            "y0": 377,
+                            "y1": 377,
+                            "y2": 414,
+                            "y3": 414
+                        },
+                        "text": "BRCA1 carrier cancer patient"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 461,
+                            "x1": 580,
+                            "x2": 580,
+                            "x3": 461,
+                            "y0": 377,
+                            "y1": 377,
+                            "y2": 414,
+                            "y3": 414
+                        },
+                        "text": "Sporadic breast cancer"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 400,
+                            "x1": 454,
+                            "x2": 454,
+                            "x3": 400,
+                            "y0": 377,
+                            "y1": 377,
+                            "y2": 411,
+                            "y3": 411
+                        },
+                        "text": "New control"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 15,
+                            "x1": 56,
+                            "x2": 56,
+                            "x3": 15,
+                            "y0": 79,
+                            "y1": 79,
+                            "y2": 289,
+                            "y3": 289
+                        },
+                        "text": "NER capacity (relative to normal BREs)"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "axis_title"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 82,
+                            "x1": 100,
+                            "x2": 100,
+                            "x3": 82,
+                            "y0": 75,
+                            "y1": 75,
+                            "y2": 88,
+                            "y3": 88
+                        },
+                        "text": "2.0"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 74,
+                            "x1": 94,
+                            "x2": 94,
+                            "x3": 74,
+                            "y0": 181,
+                            "y1": 181,
+                            "y2": 194,
+                            "y3": 194
+                        },
+                        "text": "1.0"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 82,
+                            "x1": 100,
+                            "x2": 100,
+                            "x3": 82,
+                            "y0": 320,
+                            "y1": 320,
+                            "y2": 332,
+                            "y3": 332
+                        },
+                        "text": "0.4"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 82,
+                            "x1": 100,
+                            "x2": 100,
+                            "x3": 82,
+                            "y0": 256,
+                            "y1": 256,
+                            "y2": 268,
+                            "y3": 268
+                        },
+                        "text": "0.6"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 82,
+                            "x1": 100,
+                            "x2": 100,
+                            "x3": 82,
+                            "y0": 215,
+                            "y1": 215,
+                            "y2": 227,
+                            "y3": 227
+                        },
+                        "text": "0.8"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 148,
+                            "x1": 242,
+                            "x2": 242,
+                            "x3": 148,
+                            "y0": 377,
+                            "y1": 377,
+                            "y2": 411,
+                            "y3": 411
+                        },
+                        "text": "Disease-free controls"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 277,
+                            "x1": 386,
+                            "x2": 386,
+                            "x3": 277,
+                            "y0": 377,
+                            "y1": 377,
+                            "y2": 414,
+                            "y3": 414
+                        },
+                        "text": "BRCA1 carrier cancer patient"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 461,
+                            "x1": 580,
+                            "x2": 580,
+                            "x3": 461,
+                            "y0": 377,
+                            "y1": 377,
+                            "y2": 414,
+                            "y3": 414
+                        },
+                        "text": "Sporadic breast cancer"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 400,
+                            "x1": 454,
+                            "x2": 454,
+                            "x3": 400,
+                            "y0": 377,
+                            "y1": 377,
+                            "y2": 411,
+                            "y3": 411
+                        },
+                        "text": "New control"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 15,
+                            "x1": 56,
+                            "x2": 56,
+                            "x3": 15,
+                            "y0": 79,
+                            "y1": 79,
+                            "y2": 289,
+                            "y3": 289
+                        },
+                        "text": "NER capacity (relative to normal BREs)"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 351,
+                "width": 476,
+                "x0": 105,
+                "y0": 19
+            },
+            "axes": {
+                "_x-tick-type": "markers",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 194,
+                            "y": 370
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 329,
+                            "y": 370
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 426,
+                            "y": 370
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 521,
+                            "y": 370
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [
+                    {
+                        "id": 0,
+                        "tick_pt": {
+                            "x": 105,
+                            "y": 82
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 105,
+                            "y": 186
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 105,
+                            "y": 219
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 105,
+                            "y": 264
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 105,
+                            "y": 324
+                        }
+                    }
+                ],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 82,
+                            "x1": 100,
+                            "x2": 100,
+                            "x3": 82,
+                            "y0": 75,
+                            "y1": 75,
+                            "y2": 88,
+                            "y3": 88
+                        },
+                        "text": "2.0"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 74,
+                            "x1": 94,
+                            "x2": 94,
+                            "x3": 74,
+                            "y0": 181,
+                            "y1": 181,
+                            "y2": 194,
+                            "y3": 194
+                        },
+                        "text": "1.0"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 82,
+                            "x1": 100,
+                            "x2": 100,
+                            "x3": 82,
+                            "y0": 320,
+                            "y1": 320,
+                            "y2": 332,
+                            "y3": 332
+                        },
+                        "text": "0.4"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 82,
+                            "x1": 100,
+                            "x2": 100,
+                            "x3": 82,
+                            "y0": 256,
+                            "y1": 256,
+                            "y2": 268,
+                            "y3": 268
+                        },
+                        "text": "0.6"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 82,
+                            "x1": 100,
+                            "x2": 100,
+                            "x3": 82,
+                            "y0": 215,
+                            "y1": 215,
+                            "y2": 227,
+                            "y3": 227
+                        },
+                        "text": "0.8"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 148,
+                            "x1": 242,
+                            "x2": 242,
+                            "x3": 148,
+                            "y0": 377,
+                            "y1": 377,
+                            "y2": 411,
+                            "y3": 411
+                        },
+                        "text": "Disease-free controls"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 277,
+                            "x1": 386,
+                            "x2": 386,
+                            "x3": 277,
+                            "y0": 377,
+                            "y1": 377,
+                            "y2": 414,
+                            "y3": 414
+                        },
+                        "text": "BRCA1 carrier cancer patient"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 461,
+                            "x1": 580,
+                            "x2": 580,
+                            "x3": 461,
+                            "y0": 377,
+                            "y1": 377,
+                            "y2": 414,
+                            "y3": 414
+                        },
+                        "text": "Sporadic breast cancer"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 400,
+                            "x1": 454,
+                            "x2": 454,
+                            "x3": 400,
+                            "y0": 377,
+                            "y1": 377,
+                            "y2": 411,
+                            "y3": 411
+                        },
+                        "text": "New control"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 15,
+                            "x1": 56,
+                            "x2": 56,
+                            "x3": 15,
+                            "y0": 79,
+                            "y1": 79,
+                            "y2": 289,
+                            "y3": 289
+                        },
+                        "text": "NER capacity (relative to normal BREs)"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 82,
+                            "x1": 100,
+                            "x2": 100,
+                            "x3": 82,
+                            "y0": 75,
+                            "y1": 75,
+                            "y2": 88,
+                            "y3": 88
+                        },
+                        "text": "2.0"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 74,
+                            "x1": 94,
+                            "x2": 94,
+                            "x3": 74,
+                            "y0": 181,
+                            "y1": 181,
+                            "y2": 194,
+                            "y3": 194
+                        },
+                        "text": "1.0"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 82,
+                            "x1": 100,
+                            "x2": 100,
+                            "x3": 82,
+                            "y0": 320,
+                            "y1": 320,
+                            "y2": 332,
+                            "y3": 332
+                        },
+                        "text": "0.4"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 82,
+                            "x1": 100,
+                            "x2": 100,
+                            "x3": 82,
+                            "y0": 256,
+                            "y1": 256,
+                            "y2": 268,
+                            "y3": 268
+                        },
+                        "text": "0.6"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 82,
+                            "x1": 100,
+                            "x2": 100,
+                            "x3": 82,
+                            "y0": 215,
+                            "y1": 215,
+                            "y2": 227,
+                            "y3": 227
+                        },
+                        "text": "0.8"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 148,
+                            "x1": 242,
+                            "x2": 242,
+                            "x3": 148,
+                            "y0": 377,
+                            "y1": 377,
+                            "y2": 411,
+                            "y3": 411
+                        },
+                        "text": "Disease-free controls"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 277,
+                            "x1": 386,
+                            "x2": 386,
+                            "x3": 277,
+                            "y0": 377,
+                            "y1": 377,
+                            "y2": 414,
+                            "y3": 414
+                        },
+                        "text": "BRCA1 carrier cancer patient"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 461,
+                            "x1": 580,
+                            "x2": 580,
+                            "x3": 461,
+                            "y0": 377,
+                            "y1": 377,
+                            "y2": 414,
+                            "y3": 414
+                        },
+                        "text": "Sporadic breast cancer"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 400,
+                            "x1": 454,
+                            "x2": 454,
+                            "x3": 400,
+                            "y0": 377,
+                            "y1": 377,
+                            "y2": 411,
+                            "y3": 411
+                        },
+                        "text": "New control"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 15,
+                            "x1": 56,
+                            "x2": 56,
+                            "x3": 15,
+                            "y0": 79,
+                            "y1": 79,
+                            "y2": 289,
+                            "y3": 289
+                        },
+                        "text": "NER capacity (relative to normal BREs)"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "axis_title"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 351,
+                    "width": 476,
+                    "x0": 105,
+                    "y0": 19
+                },
+                "axes": {
+                    "_x-tick-type": "markers",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": "markers",
+                    "_y2-tick-type": null,
+                    "x-axis": [
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 194,
+                                "y": 370
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 329,
+                                "y": 370
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 426,
+                                "y": 370
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 521,
+                                "y": 370
+                            }
+                        }
+                    ],
+                    "x-axis-2": [],
+                    "y-axis": [
+                        {
+                            "id": 0,
+                            "tick_pt": {
+                                "x": 105,
+                                "y": 82
+                            }
+                        },
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 105,
+                                "y": 186
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 105,
+                                "y": 219
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 105,
+                                "y": 264
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 105,
+                                "y": 324
+                            }
+                        }
+                    ],
+                    "y-axis-2": []
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Disease-free controls",
+                            "y": 0.4548760330578513
+                        },
+                        {
+                            "x": "Disease-free controls",
+                            "y": 0.7577528089887642
+                        },
+                        {
+                            "x": "Disease-free controls",
+                            "y": 0.8945454545454548
+                        },
+                        {
+                            "x": "Disease-free controls",
+                            "y": 1.2173076923076924
+                        },
+                        {
+                            "x": "Disease-free controls",
+                            "y": 1.3615384615384618
+                        },
+                        {
+                            "x": "Disease-free controls",
+                            "y": 2.1500000000000004
+                        },
+                        {
+                            "x": "Disease-free controls",
+                            "y": 1.7942307692307695
+                        },
+                        {
+                            "x": "Disease-free controls",
+                            "y": 1.4865384615384618
+                        },
+                        {
+                            "x": "Disease-free controls",
+                            "y": 1.3326923076923078
+                        },
+                        {
+                            "x": "Disease-free controls",
+                            "y": 0.9854545454545456
+                        },
+                        {
+                            "x": "Disease-free controls",
+                            "y": 0.8703030303030305
+                        },
+                        {
+                            "x": "Disease-free controls",
+                            "y": 0.7802247191011238
+                        },
+                        {
+                            "x": "Disease-free controls",
+                            "y": 0.6813483146067417
+                        },
+                        {
+                            "x": "Disease-free controls",
+                            "y": 0.613932584269663
+                        },
+                        {
+                            "x": "Disease-free controls",
+                            "y": 0.6184269662921349
+                        },
+                        {
+                            "x": "Disease-free controls",
+                            "y": 0.6993258426966293
+                        },
+                        {
+                            "x": "Disease-free controls",
+                            "y": 0.7802247191011238
+                        },
+                        {
+                            "x": "Disease-free controls",
+                            "y": 0.8703030303030305
+                        },
+                        {
+                            "x": "Disease-free controls",
+                            "y": 0.9793939393939395
+                        },
+                        {
+                            "x": "Disease-free controls",
+                            "y": 1.3230769230769233
+                        },
+                        {
+                            "x": "Disease-free controls",
+                            "y": 1.4480769230769233
+                        },
+                        {
+                            "x": "Disease-free controls",
+                            "y": 1.803846153846154
+                        },
+                        {
+                            "x": "New control",
+                            "y": 1.7942307692307695
+                        }
+                    ],
+                    "name": "[unnamed data series #0]"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "BRCA1 carrier cancer patient",
+                            "y": 1.130769230769231
+                        },
+                        {
+                            "x": "BRCA1 carrier cancer patient",
+                            "y": 1.2173076923076924
+                        },
+                        {
+                            "x": "Sporadic breast cancer",
+                            "y": 1.7076923076923078
+                        }
+                    ],
+                    "name": "[unnamed data series #1]"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": [
+                    [
+                        {
+                            "x": 192.0,
+                            "y": 307.4
+                        },
+                        {
+                            "x": 194.0,
+                            "y": 228.39999999999998
+                        },
+                        {
+                            "x": 194.0,
+                            "y": 203.39999999999998
+                        },
+                        {
+                            "x": 194.0,
+                            "y": 163.39999999999998
+                        },
+                        {
+                            "x": 194.0,
+                            "y": 148.39999999999998
+                        },
+                        {
+                            "x": 192.0,
+                            "y": 66.39999999999998
+                        },
+                        {
+                            "x": 226.0,
+                            "y": 103.39999999999998
+                        },
+                        {
+                            "x": 229.0,
+                            "y": 135.39999999999998
+                        },
+                        {
+                            "x": 228.0,
+                            "y": 151.39999999999998
+                        },
+                        {
+                            "x": 228.0,
+                            "y": 188.39999999999998
+                        },
+                        {
+                            "x": 228.0,
+                            "y": 207.39999999999998
+                        },
+                        {
+                            "x": 229.0,
+                            "y": 223.39999999999998
+                        },
+                        {
+                            "x": 227.0,
+                            "y": 245.39999999999998
+                        },
+                        {
+                            "x": 227.0,
+                            "y": 260.4
+                        },
+                        {
+                            "x": 159.0,
+                            "y": 259.4
+                        },
+                        {
+                            "x": 157.0,
+                            "y": 241.39999999999998
+                        },
+                        {
+                            "x": 157.0,
+                            "y": 223.39999999999998
+                        },
+                        {
+                            "x": 157.0,
+                            "y": 207.39999999999998
+                        },
+                        {
+                            "x": 158.0,
+                            "y": 189.39999999999998
+                        },
+                        {
+                            "x": 157.0,
+                            "y": 152.39999999999998
+                        },
+                        {
+                            "x": 158.0,
+                            "y": 139.39999999999998
+                        },
+                        {
+                            "x": 157.0,
+                            "y": 102.39999999999998
+                        },
+                        {
+                            "x": 433.0,
+                            "y": 103.39999999999998
+                        }
+                    ],
+                    [
+                        {
+                            "x": 315.0,
+                            "y": 172.39999999999998
+                        },
+                        {
+                            "x": 356.0,
+                            "y": 163.39999999999998
+                        },
+                        {
+                            "x": 518.0,
+                            "y": 112.39999999999998
+                        }
+                    ]
+                ]
+            }
+        }
+    }
+}

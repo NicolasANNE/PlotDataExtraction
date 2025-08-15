@@ -1,0 +1,802 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "vertical bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 57,
+                        "x1": 100,
+                        "x2": 100,
+                        "x3": 57,
+                        "y0": 8,
+                        "y1": 8,
+                        "y2": 30,
+                        "y3": 30
+                    },
+                    "text": "150"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 56,
+                        "x1": 100,
+                        "x2": 100,
+                        "x3": 56,
+                        "y0": 166,
+                        "y1": 166,
+                        "y2": 188,
+                        "y3": 188
+                    },
+                    "text": "100"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 70,
+                        "x1": 99,
+                        "x2": 99,
+                        "x3": 70,
+                        "y0": 324,
+                        "y1": 324,
+                        "y2": 346,
+                        "y3": 346
+                    },
+                    "text": "50"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 84,
+                        "x1": 98,
+                        "x2": 98,
+                        "x3": 84,
+                        "y0": 482,
+                        "y1": 482,
+                        "y2": 504,
+                        "y3": 504
+                    },
+                    "text": "0"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 196,
+                        "x1": 295,
+                        "x2": 295,
+                        "x3": 196,
+                        "y0": 37,
+                        "y1": 37,
+                        "y2": 63,
+                        "y3": 63
+                    },
+                    "text": "Control"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 197,
+                        "x1": 365,
+                        "x2": 365,
+                        "x3": 197,
+                        "y0": 71,
+                        "y1": 71,
+                        "y2": 103,
+                        "y3": 103
+                    },
+                    "text": "ALC (6 day)"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 8,
+                        "x1": 40,
+                        "x2": 40,
+                        "x3": 8,
+                        "y0": 46,
+                        "y1": 46,
+                        "y2": 435,
+                        "y3": 435
+                    },
+                    "text": "pg PGE2 released/mg MBH"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 57,
+                            "x1": 100,
+                            "x2": 100,
+                            "x3": 57,
+                            "y0": 8,
+                            "y1": 8,
+                            "y2": 30,
+                            "y3": 30
+                        },
+                        "text": "150"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 56,
+                            "x1": 100,
+                            "x2": 100,
+                            "x3": 56,
+                            "y0": 166,
+                            "y1": 166,
+                            "y2": 188,
+                            "y3": 188
+                        },
+                        "text": "100"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 70,
+                            "x1": 99,
+                            "x2": 99,
+                            "x3": 70,
+                            "y0": 324,
+                            "y1": 324,
+                            "y2": 346,
+                            "y3": 346
+                        },
+                        "text": "50"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 84,
+                            "x1": 98,
+                            "x2": 98,
+                            "x3": 84,
+                            "y0": 482,
+                            "y1": 482,
+                            "y2": 504,
+                            "y3": 504
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 196,
+                            "x1": 295,
+                            "x2": 295,
+                            "x3": 196,
+                            "y0": 37,
+                            "y1": 37,
+                            "y2": 63,
+                            "y3": 63
+                        },
+                        "text": "Control"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 197,
+                            "x1": 365,
+                            "x2": 365,
+                            "x3": 197,
+                            "y0": 71,
+                            "y1": 71,
+                            "y2": 103,
+                            "y3": 103
+                        },
+                        "text": "ALC (6 day)"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 8,
+                            "x1": 40,
+                            "x2": 40,
+                            "x3": 8,
+                            "y0": 46,
+                            "y1": 46,
+                            "y2": 435,
+                            "y3": 435
+                        },
+                        "text": "pg PGE2 released/mg MBH"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 5,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 6,
+                    "role": "axis_title"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 57,
+                            "x1": 100,
+                            "x2": 100,
+                            "x3": 57,
+                            "y0": 8,
+                            "y1": 8,
+                            "y2": 30,
+                            "y3": 30
+                        },
+                        "text": "150"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 56,
+                            "x1": 100,
+                            "x2": 100,
+                            "x3": 56,
+                            "y0": 166,
+                            "y1": 166,
+                            "y2": 188,
+                            "y3": 188
+                        },
+                        "text": "100"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 70,
+                            "x1": 99,
+                            "x2": 99,
+                            "x3": 70,
+                            "y0": 324,
+                            "y1": 324,
+                            "y2": 346,
+                            "y3": 346
+                        },
+                        "text": "50"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 84,
+                            "x1": 98,
+                            "x2": 98,
+                            "x3": 84,
+                            "y0": 482,
+                            "y1": 482,
+                            "y2": 504,
+                            "y3": 504
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 196,
+                            "x1": 295,
+                            "x2": 295,
+                            "x3": 196,
+                            "y0": 37,
+                            "y1": 37,
+                            "y2": 63,
+                            "y3": 63
+                        },
+                        "text": "Control"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 197,
+                            "x1": 365,
+                            "x2": 365,
+                            "x3": 197,
+                            "y0": 71,
+                            "y1": 71,
+                            "y2": 103,
+                            "y3": 103
+                        },
+                        "text": "ALC (6 day)"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 8,
+                            "x1": 40,
+                            "x2": 40,
+                            "x3": 8,
+                            "y0": 46,
+                            "y1": 46,
+                            "y2": 435,
+                            "y3": 435
+                        },
+                        "text": "pg PGE2 released/mg MBH"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 474,
+                "width": 339,
+                "x0": 113,
+                "y0": 20
+            },
+            "axes": {
+                "_x-tick-type": "separators",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [],
+                "x-axis-2": [],
+                "y-axis": [
+                    {
+                        "id": 0,
+                        "tick_pt": {
+                            "x": 113,
+                            "y": 19
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 113,
+                            "y": 177
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 113,
+                            "y": 336
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 113,
+                            "y": 494
+                        }
+                    }
+                ],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 57,
+                            "x1": 100,
+                            "x2": 100,
+                            "x3": 57,
+                            "y0": 8,
+                            "y1": 8,
+                            "y2": 30,
+                            "y3": 30
+                        },
+                        "text": "150"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 56,
+                            "x1": 100,
+                            "x2": 100,
+                            "x3": 56,
+                            "y0": 166,
+                            "y1": 166,
+                            "y2": 188,
+                            "y3": 188
+                        },
+                        "text": "100"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 70,
+                            "x1": 99,
+                            "x2": 99,
+                            "x3": 70,
+                            "y0": 324,
+                            "y1": 324,
+                            "y2": 346,
+                            "y3": 346
+                        },
+                        "text": "50"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 84,
+                            "x1": 98,
+                            "x2": 98,
+                            "x3": 84,
+                            "y0": 482,
+                            "y1": 482,
+                            "y2": 504,
+                            "y3": 504
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 196,
+                            "x1": 295,
+                            "x2": 295,
+                            "x3": 196,
+                            "y0": 37,
+                            "y1": 37,
+                            "y2": 63,
+                            "y3": 63
+                        },
+                        "text": "Control"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 197,
+                            "x1": 365,
+                            "x2": 365,
+                            "x3": 197,
+                            "y0": 71,
+                            "y1": 71,
+                            "y2": 103,
+                            "y3": 103
+                        },
+                        "text": "ALC (6 day)"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 8,
+                            "x1": 40,
+                            "x2": 40,
+                            "x3": 8,
+                            "y0": 46,
+                            "y1": 46,
+                            "y2": 435,
+                            "y3": 435
+                        },
+                        "text": "pg PGE2 released/mg MBH"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 23,
+                        "width": 58,
+                        "x0": 132,
+                        "y0": 40
+                    },
+                    "id": 4
+                },
+                {
+                    "bb": {
+                        "height": 23,
+                        "width": 58,
+                        "x0": 134,
+                        "y0": 74
+                    },
+                    "id": 5
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 57,
+                            "x1": 100,
+                            "x2": 100,
+                            "x3": 57,
+                            "y0": 8,
+                            "y1": 8,
+                            "y2": 30,
+                            "y3": 30
+                        },
+                        "text": "150"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 56,
+                            "x1": 100,
+                            "x2": 100,
+                            "x3": 56,
+                            "y0": 166,
+                            "y1": 166,
+                            "y2": 188,
+                            "y3": 188
+                        },
+                        "text": "100"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 70,
+                            "x1": 99,
+                            "x2": 99,
+                            "x3": 70,
+                            "y0": 324,
+                            "y1": 324,
+                            "y2": 346,
+                            "y3": 346
+                        },
+                        "text": "50"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 84,
+                            "x1": 98,
+                            "x2": 98,
+                            "x3": 84,
+                            "y0": 482,
+                            "y1": 482,
+                            "y2": 504,
+                            "y3": 504
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 196,
+                            "x1": 295,
+                            "x2": 295,
+                            "x3": 196,
+                            "y0": 37,
+                            "y1": 37,
+                            "y2": 63,
+                            "y3": 63
+                        },
+                        "text": "Control"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 197,
+                            "x1": 365,
+                            "x2": 365,
+                            "x3": 197,
+                            "y0": 71,
+                            "y1": 71,
+                            "y2": 103,
+                            "y3": 103
+                        },
+                        "text": "ALC (6 day)"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 8,
+                            "x1": 40,
+                            "x2": 40,
+                            "x3": 8,
+                            "y0": 46,
+                            "y1": 46,
+                            "y2": 435,
+                            "y3": 435
+                        },
+                        "text": "pg PGE2 released/mg MBH"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "axis_title"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 474,
+                    "width": 339,
+                    "x0": 113,
+                    "y0": 20
+                },
+                "axes": {
+                    "_x-tick-type": "separators",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": "markers",
+                    "_y2-tick-type": null,
+                    "x-axis": [],
+                    "x-axis-2": [],
+                    "y-axis": [
+                        {
+                            "id": 0,
+                            "tick_pt": {
+                                "x": 113,
+                                "y": 19
+                            }
+                        },
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 113,
+                                "y": 177
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 113,
+                                "y": 336
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 113,
+                                "y": 494
+                            }
+                        }
+                    ],
+                    "y-axis-2": []
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 23,
+                            "width": 58,
+                            "x0": 132,
+                            "y0": 40
+                        },
+                        "id": 4
+                    },
+                    {
+                        "bb": {
+                            "height": 23,
+                            "width": 58,
+                            "x0": 134,
+                            "y0": 74
+                        },
+                        "id": 5
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "[unnamed category #0]",
+                            "y": 98.75100321027288
+                        }
+                    ],
+                    "name": "Control"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "[unnamed category #0]",
+                            "y": 32.47893258426966
+                        }
+                    ],
+                    "name": "ALC (6 day)"
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 313,
+                        "width": 100,
+                        "x0": 160,
+                        "y0": 181
+                    },
+                    {
+                        "height": 103,
+                        "width": 100,
+                        "x0": 304,
+                        "y0": 391
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

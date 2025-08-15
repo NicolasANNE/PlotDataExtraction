@@ -1,0 +1,1333 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "scatter"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "scatter"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 325,
+                        "x1": 450,
+                        "x2": 450,
+                        "x3": 325,
+                        "y0": 497,
+                        "y1": 497,
+                        "y2": 517,
+                        "y3": 517
+                    },
+                    "text": "City and Period"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 263,
+                        "x1": 389,
+                        "x2": 389,
+                        "x3": 263,
+                        "y0": 369,
+                        "y1": 369,
+                        "y2": 384,
+                        "y3": 384
+                    },
+                    "text": "Montreal / Future"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 61,
+                        "x1": 210,
+                        "x2": 210,
+                        "x3": 61,
+                        "y0": 426,
+                        "y1": 426,
+                        "y2": 442,
+                        "y3": 442
+                    },
+                    "text": "Montreal / Historical"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 468,
+                        "x1": 587,
+                        "x2": 587,
+                        "x3": 468,
+                        "y0": 433,
+                        "y1": 433,
+                        "y2": 448,
+                        "y3": 448
+                    },
+                    "text": "Paris / Historical"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 626,
+                        "x1": 722,
+                        "x2": 722,
+                        "x3": 626,
+                        "y0": 412,
+                        "y1": 412,
+                        "y2": 429,
+                        "y3": 429
+                    },
+                    "text": "Paris / Future"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 7,
+                        "x1": 24,
+                        "x2": 24,
+                        "x3": 7,
+                        "y0": 46,
+                        "y1": 46,
+                        "y2": 293,
+                        "y3": 293
+                    },
+                    "text": "DYLLD Rate (per 100 000 persons)"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 28,
+                        "x1": 43,
+                        "x2": 43,
+                        "x3": 28,
+                        "y0": 50,
+                        "y1": 50,
+                        "y2": 77,
+                        "y3": 77
+                    },
+                    "text": "100"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 28,
+                        "x1": 43,
+                        "x2": 43,
+                        "x3": 28,
+                        "y0": 249,
+                        "y1": 249,
+                        "y2": 269,
+                        "y3": 269
+                    },
+                    "text": "50"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 28,
+                        "x1": 43,
+                        "x2": 43,
+                        "x3": 28,
+                        "y0": 448,
+                        "y1": 448,
+                        "y2": 459,
+                        "y3": 459
+                    },
+                    "text": "0"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 325,
+                            "x1": 450,
+                            "x2": 450,
+                            "x3": 325,
+                            "y0": 497,
+                            "y1": 497,
+                            "y2": 517,
+                            "y3": 517
+                        },
+                        "text": "City and Period"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 263,
+                            "x1": 389,
+                            "x2": 389,
+                            "x3": 263,
+                            "y0": 369,
+                            "y1": 369,
+                            "y2": 384,
+                            "y3": 384
+                        },
+                        "text": "Montreal / Future"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 210,
+                            "x2": 210,
+                            "x3": 61,
+                            "y0": 426,
+                            "y1": 426,
+                            "y2": 442,
+                            "y3": 442
+                        },
+                        "text": "Montreal / Historical"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 468,
+                            "x1": 587,
+                            "x2": 587,
+                            "x3": 468,
+                            "y0": 433,
+                            "y1": 433,
+                            "y2": 448,
+                            "y3": 448
+                        },
+                        "text": "Paris / Historical"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 626,
+                            "x1": 722,
+                            "x2": 722,
+                            "x3": 626,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 429,
+                            "y3": 429
+                        },
+                        "text": "Paris / Future"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 7,
+                            "x1": 24,
+                            "x2": 24,
+                            "x3": 7,
+                            "y0": 46,
+                            "y1": 46,
+                            "y2": 293,
+                            "y3": 293
+                        },
+                        "text": "DYLLD Rate (per 100 000 persons)"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 28,
+                            "x1": 43,
+                            "x2": 43,
+                            "x3": 28,
+                            "y0": 50,
+                            "y1": 50,
+                            "y2": 77,
+                            "y3": 77
+                        },
+                        "text": "100"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 28,
+                            "x1": 43,
+                            "x2": 43,
+                            "x3": 28,
+                            "y0": 249,
+                            "y1": 249,
+                            "y2": 269,
+                            "y3": 269
+                        },
+                        "text": "50"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 28,
+                            "x1": 43,
+                            "x2": 43,
+                            "x3": 28,
+                            "y0": 448,
+                            "y1": 448,
+                            "y2": 459,
+                            "y3": 459
+                        },
+                        "text": "0"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 325,
+                            "x1": 450,
+                            "x2": 450,
+                            "x3": 325,
+                            "y0": 497,
+                            "y1": 497,
+                            "y2": 517,
+                            "y3": 517
+                        },
+                        "text": "City and Period"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 263,
+                            "x1": 389,
+                            "x2": 389,
+                            "x3": 263,
+                            "y0": 369,
+                            "y1": 369,
+                            "y2": 384,
+                            "y3": 384
+                        },
+                        "text": "Montreal / Future"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 210,
+                            "x2": 210,
+                            "x3": 61,
+                            "y0": 426,
+                            "y1": 426,
+                            "y2": 442,
+                            "y3": 442
+                        },
+                        "text": "Montreal / Historical"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 468,
+                            "x1": 587,
+                            "x2": 587,
+                            "x3": 468,
+                            "y0": 433,
+                            "y1": 433,
+                            "y2": 448,
+                            "y3": 448
+                        },
+                        "text": "Paris / Historical"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 626,
+                            "x1": 722,
+                            "x2": 722,
+                            "x3": 626,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 429,
+                            "y3": 429
+                        },
+                        "text": "Paris / Future"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 7,
+                            "x1": 24,
+                            "x2": 24,
+                            "x3": 7,
+                            "y0": 46,
+                            "y1": 46,
+                            "y2": 293,
+                            "y3": 293
+                        },
+                        "text": "DYLLD Rate (per 100 000 persons)"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 28,
+                            "x1": 43,
+                            "x2": 43,
+                            "x3": 28,
+                            "y0": 50,
+                            "y1": 50,
+                            "y2": 77,
+                            "y3": 77
+                        },
+                        "text": "100"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 28,
+                            "x1": 43,
+                            "x2": 43,
+                            "x3": 28,
+                            "y0": 249,
+                            "y1": 249,
+                            "y2": 269,
+                            "y3": 269
+                        },
+                        "text": "50"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 28,
+                            "x1": 43,
+                            "x2": 43,
+                            "x3": 28,
+                            "y0": 448,
+                            "y1": 448,
+                            "y2": 459,
+                            "y3": 459
+                        },
+                        "text": "0"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 452,
+                "width": 657,
+                "x0": 58,
+                "y0": 13
+            },
+            "axes": {
+                "_x-tick-type": "markers",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 69,
+                            "y": 466
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 281,
+                            "y": 466
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 492,
+                            "y": 466
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 703,
+                            "y": 466
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 64
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 258
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 453
+                        }
+                    }
+                ],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 325,
+                            "x1": 450,
+                            "x2": 450,
+                            "x3": 325,
+                            "y0": 497,
+                            "y1": 497,
+                            "y2": 517,
+                            "y3": 517
+                        },
+                        "text": "City and Period"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 263,
+                            "x1": 389,
+                            "x2": 389,
+                            "x3": 263,
+                            "y0": 369,
+                            "y1": 369,
+                            "y2": 384,
+                            "y3": 384
+                        },
+                        "text": "Montreal / Future"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 210,
+                            "x2": 210,
+                            "x3": 61,
+                            "y0": 426,
+                            "y1": 426,
+                            "y2": 442,
+                            "y3": 442
+                        },
+                        "text": "Montreal / Historical"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 468,
+                            "x1": 587,
+                            "x2": 587,
+                            "x3": 468,
+                            "y0": 433,
+                            "y1": 433,
+                            "y2": 448,
+                            "y3": 448
+                        },
+                        "text": "Paris / Historical"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 626,
+                            "x1": 722,
+                            "x2": 722,
+                            "x3": 626,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 429,
+                            "y3": 429
+                        },
+                        "text": "Paris / Future"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 7,
+                            "x1": 24,
+                            "x2": 24,
+                            "x3": 7,
+                            "y0": 46,
+                            "y1": 46,
+                            "y2": 293,
+                            "y3": 293
+                        },
+                        "text": "DYLLD Rate (per 100 000 persons)"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 28,
+                            "x1": 43,
+                            "x2": 43,
+                            "x3": 28,
+                            "y0": 50,
+                            "y1": 50,
+                            "y2": 77,
+                            "y3": 77
+                        },
+                        "text": "100"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 28,
+                            "x1": 43,
+                            "x2": 43,
+                            "x3": 28,
+                            "y0": 249,
+                            "y1": 249,
+                            "y2": 269,
+                            "y3": 269
+                        },
+                        "text": "50"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 28,
+                            "x1": 43,
+                            "x2": 43,
+                            "x3": 28,
+                            "y0": 448,
+                            "y1": 448,
+                            "y2": 459,
+                            "y3": 459
+                        },
+                        "text": "0"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 325,
+                            "x1": 450,
+                            "x2": 450,
+                            "x3": 325,
+                            "y0": 497,
+                            "y1": 497,
+                            "y2": 517,
+                            "y3": 517
+                        },
+                        "text": "City and Period"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 263,
+                            "x1": 389,
+                            "x2": 389,
+                            "x3": 263,
+                            "y0": 369,
+                            "y1": 369,
+                            "y2": 384,
+                            "y3": 384
+                        },
+                        "text": "Montreal / Future"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 210,
+                            "x2": 210,
+                            "x3": 61,
+                            "y0": 426,
+                            "y1": 426,
+                            "y2": 442,
+                            "y3": 442
+                        },
+                        "text": "Montreal / Historical"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 468,
+                            "x1": 587,
+                            "x2": 587,
+                            "x3": 468,
+                            "y0": 433,
+                            "y1": 433,
+                            "y2": 448,
+                            "y3": 448
+                        },
+                        "text": "Paris / Historical"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 626,
+                            "x1": 722,
+                            "x2": 722,
+                            "x3": 626,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 429,
+                            "y3": 429
+                        },
+                        "text": "Paris / Future"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 7,
+                            "x1": 24,
+                            "x2": 24,
+                            "x3": 7,
+                            "y0": 46,
+                            "y1": 46,
+                            "y2": 293,
+                            "y3": 293
+                        },
+                        "text": "DYLLD Rate (per 100 000 persons)"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 28,
+                            "x1": 43,
+                            "x2": 43,
+                            "x3": 28,
+                            "y0": 50,
+                            "y1": 50,
+                            "y2": 77,
+                            "y3": 77
+                        },
+                        "text": "100"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 28,
+                            "x1": 43,
+                            "x2": 43,
+                            "x3": 28,
+                            "y0": 249,
+                            "y1": 249,
+                            "y2": 269,
+                            "y3": 269
+                        },
+                        "text": "50"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 28,
+                            "x1": 43,
+                            "x2": 43,
+                            "x3": 28,
+                            "y0": 448,
+                            "y1": 448,
+                            "y2": 459,
+                            "y3": 459
+                        },
+                        "text": "0"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 452,
+                    "width": 657,
+                    "x0": 58,
+                    "y0": 13
+                },
+                "axes": {
+                    "_x-tick-type": "markers",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": "markers",
+                    "_y2-tick-type": null,
+                    "x-axis": [
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 69,
+                                "y": 466
+                            }
+                        },
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 281,
+                                "y": 466
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 492,
+                                "y": 466
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 703,
+                                "y": 466
+                            }
+                        }
+                    ],
+                    "x-axis-2": [],
+                    "y-axis": [
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 64
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 258
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 453
+                            }
+                        }
+                    ],
+                    "y-axis-2": []
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Montreal / Future",
+                            "y": 109.76863753213365
+                        },
+                        {
+                            "x": "Montreal / Future",
+                            "y": 106.85518423307624
+                        },
+                        {
+                            "x": "Montreal / Future",
+                            "y": 97.60068551842329
+                        },
+                        {
+                            "x": "Montreal / Future",
+                            "y": 95.37275064267351
+                        },
+                        {
+                            "x": "Montreal / Future",
+                            "y": 94.00171379605825
+                        },
+                        {
+                            "x": "Montreal / Future",
+                            "y": 91.43101970865466
+                        },
+                        {
+                            "x": "Montreal / Future",
+                            "y": 88.68894601542415
+                        },
+                        {
+                            "x": "Montreal / Future",
+                            "y": 86.63239074550127
+                        },
+                        {
+                            "x": "Montreal / Future",
+                            "y": 85.26135389888603
+                        },
+                        {
+                            "x": "Montreal / Future",
+                            "y": 82.69065981148242
+                        },
+                        {
+                            "x": "Montreal / Future",
+                            "y": 78.74892887746356
+                        },
+                        {
+                            "x": "Montreal / Future",
+                            "y": 76.00685518423306
+                        },
+                        {
+                            "x": "Montreal / Historical",
+                            "y": 49.10025706940872
+                        },
+                        {
+                            "x": "Montreal / Historical",
+                            "y": 47.043701799485845
+                        },
+                        {
+                            "x": "Montreal / Historical",
+                            "y": 42.41645244215937
+                        },
+                        {
+                            "x": "Montreal / Historical",
+                            "y": 41.38817480719793
+                        },
+                        {
+                            "x": "Montreal / Historical",
+                            "y": 39.67437874892887
+                        },
+                        {
+                            "x": "Montreal / Historical",
+                            "y": 37.78920308483289
+                        },
+                        {
+                            "x": "Montreal / Historical",
+                            "y": 30.077120822622092
+                        },
+                        {
+                            "x": "Montreal / Historical",
+                            "y": 22.1936589545844
+                        },
+                        {
+                            "x": "Montreal / Historical",
+                            "y": 17.737789203084816
+                        },
+                        {
+                            "x": "Montreal / Historical",
+                            "y": 34.532990574121676
+                        },
+                        {
+                            "x": "Montreal / Historical",
+                            "y": 32.990574121679515
+                        },
+                        {
+                            "x": "Montreal / Future",
+                            "y": 24.25021422450728
+                        },
+                        {
+                            "x": "Montreal / Future",
+                            "y": 32.476435304198795
+                        },
+                        {
+                            "x": "Montreal / Future",
+                            "y": 47.21508140531276
+                        },
+                        {
+                            "x": "Montreal / Future",
+                            "y": 50.299914310197074
+                        },
+                        {
+                            "x": "Montreal / Future",
+                            "y": 57.84061696658097
+                        },
+                        {
+                            "x": "Montreal / Future",
+                            "y": 60.06855184233075
+                        },
+                        {
+                            "x": "Montreal / Future",
+                            "y": 62.98200514138817
+                        },
+                        {
+                            "x": "Montreal / Future",
+                            "y": 65.72407883461867
+                        },
+                        {
+                            "x": "Montreal / Future",
+                            "y": 66.2382176520994
+                        },
+                        {
+                            "x": "Paris / Historical",
+                            "y": 7.283633247643525
+                        },
+                        {
+                            "x": "Paris / Future",
+                            "y": 11.739502999143092
+                        },
+                        {
+                            "x": "Paris / Future",
+                            "y": 42.93059125964009
+                        },
+                        {
+                            "x": "Paris / Future",
+                            "y": 39.67437874892887
+                        },
+                        {
+                            "x": "Paris / Future",
+                            "y": 36.41816623821764
+                        },
+                        {
+                            "x": "Paris / Future",
+                            "y": 34.87574978577548
+                        },
+                        {
+                            "x": "Paris / Future",
+                            "y": 32.64781491002569
+                        },
+                        {
+                            "x": "Paris / Future",
+                            "y": 29.220222793487565
+                        },
+                        {
+                            "x": "Paris / Future",
+                            "y": 26.992287917737773
+                        },
+                        {
+                            "x": "Paris / Future",
+                            "y": 23.050556983718927
+                        },
+                        {
+                            "x": "Paris / Future",
+                            "y": 24.935732647814895
+                        },
+                        {
+                            "x": "Paris / Future",
+                            "y": 17.0522707797772
+                        },
+                        {
+                            "x": "Paris / Future",
+                            "y": 14.652956298200499
+                        },
+                        {
+                            "x": "Paris / Historical",
+                            "y": 17.56640959725792
+                        },
+                        {
+                            "x": "Paris / Historical",
+                            "y": 15.85261353898885
+                        },
+                        {
+                            "x": "Paris / Historical",
+                            "y": 12.939160239931443
+                        },
+                        {
+                            "x": "Paris / Historical",
+                            "y": 10.882604970008563
+                        }
+                    ],
+                    "name": "[unnamed data series #0]"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": [
+                    [
+                        {
+                            "x": 280.6666666666667,
+                            "y": 26.000000000000057
+                        },
+                        {
+                            "x": 280.6666666666667,
+                            "y": 37.33333333333337
+                        },
+                        {
+                            "x": 280.6666666666667,
+                            "y": 73.33333333333337
+                        },
+                        {
+                            "x": 281.3333333333333,
+                            "y": 82.00000000000006
+                        },
+                        {
+                            "x": 280.6666666666667,
+                            "y": 87.33333333333337
+                        },
+                        {
+                            "x": 280.6666666666667,
+                            "y": 97.33333333333337
+                        },
+                        {
+                            "x": 280.6666666666667,
+                            "y": 108.00000000000006
+                        },
+                        {
+                            "x": 281.3333333333333,
+                            "y": 116.00000000000006
+                        },
+                        {
+                            "x": 281.3333333333333,
+                            "y": 121.33333333333337
+                        },
+                        {
+                            "x": 280.6666666666667,
+                            "y": 131.33333333333337
+                        },
+                        {
+                            "x": 280.6666666666667,
+                            "y": 146.66666666666674
+                        },
+                        {
+                            "x": 280.6666666666667,
+                            "y": 157.33333333333337
+                        },
+                        {
+                            "x": 69.33333333333333,
+                            "y": 262.00000000000006
+                        },
+                        {
+                            "x": 69.33333333333333,
+                            "y": 270.00000000000006
+                        },
+                        {
+                            "x": 71.33333333333333,
+                            "y": 288.00000000000006
+                        },
+                        {
+                            "x": 71.33333333333333,
+                            "y": 292.00000000000006
+                        },
+                        {
+                            "x": 70.0,
+                            "y": 298.6666666666667
+                        },
+                        {
+                            "x": 70.0,
+                            "y": 306.00000000000006
+                        },
+                        {
+                            "x": 70.0,
+                            "y": 336.00000000000006
+                        },
+                        {
+                            "x": 69.33333333333333,
+                            "y": 366.6666666666667
+                        },
+                        {
+                            "x": 70.0,
+                            "y": 384.00000000000006
+                        },
+                        {
+                            "x": 70.0,
+                            "y": 318.6666666666667
+                        },
+                        {
+                            "x": 70.0,
+                            "y": 324.6666666666667
+                        },
+                        {
+                            "x": 281.3333333333333,
+                            "y": 358.6666666666667
+                        },
+                        {
+                            "x": 280.6666666666667,
+                            "y": 326.6666666666667
+                        },
+                        {
+                            "x": 281.3333333333333,
+                            "y": 269.33333333333337
+                        },
+                        {
+                            "x": 281.3333333333333,
+                            "y": 257.33333333333337
+                        },
+                        {
+                            "x": 281.3333333333333,
+                            "y": 228.00000000000003
+                        },
+                        {
+                            "x": 282.0,
+                            "y": 219.33333333333337
+                        },
+                        {
+                            "x": 280.0,
+                            "y": 208.0
+                        },
+                        {
+                            "x": 281.3333333333333,
+                            "y": 197.33333333333337
+                        },
+                        {
+                            "x": 282.0,
+                            "y": 195.33333333333337
+                        },
+                        {
+                            "x": 492.6666666666667,
+                            "y": 424.6666666666667
+                        },
+                        {
+                            "x": 704.0,
+                            "y": 407.33333333333337
+                        },
+                        {
+                            "x": 703.3333333333334,
+                            "y": 286.00000000000006
+                        },
+                        {
+                            "x": 703.3333333333334,
+                            "y": 298.6666666666667
+                        },
+                        {
+                            "x": 703.3333333333334,
+                            "y": 311.33333333333337
+                        },
+                        {
+                            "x": 704.0,
+                            "y": 317.33333333333337
+                        },
+                        {
+                            "x": 703.3333333333334,
+                            "y": 326.00000000000006
+                        },
+                        {
+                            "x": 704.6666666666666,
+                            "y": 339.33333333333337
+                        },
+                        {
+                            "x": 704.0,
+                            "y": 348.00000000000006
+                        },
+                        {
+                            "x": 704.0,
+                            "y": 363.33333333333337
+                        },
+                        {
+                            "x": 703.3333333333334,
+                            "y": 356.00000000000006
+                        },
+                        {
+                            "x": 704.0,
+                            "y": 386.6666666666667
+                        },
+                        {
+                            "x": 704.6666666666666,
+                            "y": 396.00000000000006
+                        },
+                        {
+                            "x": 492.6666666666667,
+                            "y": 384.6666666666667
+                        },
+                        {
+                            "x": 493.3333333333333,
+                            "y": 391.33333333333337
+                        },
+                        {
+                            "x": 494.0,
+                            "y": 402.6666666666667
+                        },
+                        {
+                            "x": 493.3333333333333,
+                            "y": 410.6666666666667
+                        }
+                    ]
+                ]
+            }
+        }
+    }
+}

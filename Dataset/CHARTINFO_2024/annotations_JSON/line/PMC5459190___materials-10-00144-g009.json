@@ -1,0 +1,673 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 407,
+                        "x1": 430,
+                        "x2": 430,
+                        "x3": 407,
+                        "y0": 494,
+                        "y1": 494,
+                        "y2": 516,
+                        "y3": 516
+                    },
+                    "text": "Lt"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 6,
+                        "x1": 35,
+                        "x2": 35,
+                        "x3": 6,
+                        "y0": 204,
+                        "y1": 204,
+                        "y2": 280,
+                        "y3": 280
+                    },
+                    "text": "A (%)"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 102,
+                        "x1": 713,
+                        "x2": 713,
+                        "x3": 102,
+                        "y0": 7,
+                        "y1": 7,
+                        "y2": 42,
+                        "y3": 42
+                    },
+                    "text": "Main Effects Plot for Elongation at Break"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 135,
+                        "x1": 158,
+                        "x2": 174,
+                        "x3": 151,
+                        "y0": 447,
+                        "y1": 428,
+                        "y2": 447,
+                        "y3": 466
+                    },
+                    "text": "-1"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 405,
+                        "x1": 421,
+                        "x2": 409,
+                        "x3": 393,
+                        "y0": 428,
+                        "y1": 444,
+                        "y2": 456,
+                        "y3": 440
+                    },
+                    "text": "0"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 633,
+                        "x1": 652,
+                        "x2": 668,
+                        "x3": 649,
+                        "y0": 448,
+                        "y1": 429,
+                        "y2": 445,
+                        "y3": 464
+                    },
+                    "text": "+1"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 407,
+                            "x1": 430,
+                            "x2": 430,
+                            "x3": 407,
+                            "y0": 494,
+                            "y1": 494,
+                            "y2": 516,
+                            "y3": 516
+                        },
+                        "text": "Lt"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 6,
+                            "x1": 35,
+                            "x2": 35,
+                            "x3": 6,
+                            "y0": 204,
+                            "y1": 204,
+                            "y2": 280,
+                            "y3": 280
+                        },
+                        "text": "A (%)"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 102,
+                            "x1": 713,
+                            "x2": 713,
+                            "x3": 102,
+                            "y0": 7,
+                            "y1": 7,
+                            "y2": 42,
+                            "y3": 42
+                        },
+                        "text": "Main Effects Plot for Elongation at Break"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 135,
+                            "x1": 158,
+                            "x2": 174,
+                            "x3": 151,
+                            "y0": 447,
+                            "y1": 428,
+                            "y2": 447,
+                            "y3": 466
+                        },
+                        "text": "-1"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 405,
+                            "x1": 421,
+                            "x2": 409,
+                            "x3": 393,
+                            "y0": 428,
+                            "y1": 444,
+                            "y2": 456,
+                            "y3": 440
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 633,
+                            "x1": 652,
+                            "x2": 668,
+                            "x3": 649,
+                            "y0": 448,
+                            "y1": 429,
+                            "y2": 445,
+                            "y3": 464
+                        },
+                        "text": "+1"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 407,
+                            "x1": 430,
+                            "x2": 430,
+                            "x3": 407,
+                            "y0": 494,
+                            "y1": 494,
+                            "y2": 516,
+                            "y3": 516
+                        },
+                        "text": "Lt"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 6,
+                            "x1": 35,
+                            "x2": 35,
+                            "x3": 6,
+                            "y0": 204,
+                            "y1": 204,
+                            "y2": 280,
+                            "y3": 280
+                        },
+                        "text": "A (%)"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 102,
+                            "x1": 713,
+                            "x2": 713,
+                            "x3": 102,
+                            "y0": 7,
+                            "y1": 7,
+                            "y2": 42,
+                            "y3": 42
+                        },
+                        "text": "Main Effects Plot for Elongation at Break"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 135,
+                            "x1": 158,
+                            "x2": 174,
+                            "x3": 151,
+                            "y0": 447,
+                            "y1": 428,
+                            "y2": 447,
+                            "y3": 466
+                        },
+                        "text": "-1"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 405,
+                            "x1": 421,
+                            "x2": 409,
+                            "x3": 393,
+                            "y0": 428,
+                            "y1": 444,
+                            "y2": 456,
+                            "y3": 440
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 633,
+                            "x1": 652,
+                            "x2": 668,
+                            "x3": 649,
+                            "y0": 448,
+                            "y1": 429,
+                            "y2": 445,
+                            "y3": 464
+                        },
+                        "text": "+1"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 367,
+                "width": 746,
+                "x0": 44,
+                "y0": 56
+            },
+            "axes": {
+                "_x-tick-type": "markers",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 168,
+                            "y": 423
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 418,
+                            "y": 423
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 667,
+                            "y": 423
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 407,
+                            "x1": 430,
+                            "x2": 430,
+                            "x3": 407,
+                            "y0": 494,
+                            "y1": 494,
+                            "y2": 516,
+                            "y3": 516
+                        },
+                        "text": "Lt"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 6,
+                            "x1": 35,
+                            "x2": 35,
+                            "x3": 6,
+                            "y0": 204,
+                            "y1": 204,
+                            "y2": 280,
+                            "y3": 280
+                        },
+                        "text": "A (%)"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 102,
+                            "x1": 713,
+                            "x2": 713,
+                            "x3": 102,
+                            "y0": 7,
+                            "y1": 7,
+                            "y2": 42,
+                            "y3": 42
+                        },
+                        "text": "Main Effects Plot for Elongation at Break"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 135,
+                            "x1": 158,
+                            "x2": 174,
+                            "x3": 151,
+                            "y0": 447,
+                            "y1": 428,
+                            "y2": 447,
+                            "y3": 466
+                        },
+                        "text": "-1"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 405,
+                            "x1": 421,
+                            "x2": 409,
+                            "x3": 393,
+                            "y0": 428,
+                            "y1": 444,
+                            "y2": 456,
+                            "y3": 440
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 633,
+                            "x1": 652,
+                            "x2": 668,
+                            "x3": 649,
+                            "y0": 448,
+                            "y1": 429,
+                            "y2": 445,
+                            "y3": 464
+                        },
+                        "text": "+1"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 407,
+                            "x1": 430,
+                            "x2": 430,
+                            "x3": 407,
+                            "y0": 494,
+                            "y1": 494,
+                            "y2": 516,
+                            "y3": 516
+                        },
+                        "text": "Lt"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 6,
+                            "x1": 35,
+                            "x2": 35,
+                            "x3": 6,
+                            "y0": 204,
+                            "y1": 204,
+                            "y2": 280,
+                            "y3": 280
+                        },
+                        "text": "A (%)"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 102,
+                            "x1": 713,
+                            "x2": 713,
+                            "x3": 102,
+                            "y0": 7,
+                            "y1": 7,
+                            "y2": 42,
+                            "y3": 42
+                        },
+                        "text": "Main Effects Plot for Elongation at Break"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 135,
+                            "x1": 158,
+                            "x2": 174,
+                            "x3": 151,
+                            "y0": 447,
+                            "y1": 428,
+                            "y2": 447,
+                            "y3": 466
+                        },
+                        "text": "-1"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 405,
+                            "x1": 421,
+                            "x2": 409,
+                            "x3": 393,
+                            "y0": 428,
+                            "y1": 444,
+                            "y2": 456,
+                            "y3": 440
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 633,
+                            "x1": 652,
+                            "x2": 668,
+                            "x3": 649,
+                            "y0": 448,
+                            "y1": 429,
+                            "y2": 445,
+                            "y3": 464
+                        },
+                        "text": "+1"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 367,
+                    "width": 746,
+                    "x0": 44,
+                    "y0": 56
+                },
+                "axes": {
+                    "_x-tick-type": "markers",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": "markers",
+                    "_y2-tick-type": null,
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 168,
+                                "y": 423
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 418,
+                                "y": 423
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 667,
+                                "y": 423
+                            }
+                        }
+                    ],
+                    "x-axis-2": [],
+                    "y-axis": [],
+                    "y-axis-2": []
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": -1.0,
+                            "y": 0.4359673024523161
+                        },
+                        {
+                            "x": 0.0013351134846461188,
+                            "y": 0.8455949137148047
+                        },
+                        {
+                            "x": 0.9999999999999999,
+                            "y": 0.220708446866485
+                        }
+                    ],
+                    "name": "[unnamed data series #0]"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 168.0,
+                            "y": 263.0
+                        },
+                        {
+                            "x": 418.0,
+                            "y": 112.66666666666669
+                        },
+                        {
+                            "x": 667.3333333333334,
+                            "y": 342.0
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

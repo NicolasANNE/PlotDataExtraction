@@ -1,0 +1,875 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 498,
+                        "x1": 648,
+                        "x2": 648,
+                        "x3": 498,
+                        "y0": 469,
+                        "y1": 469,
+                        "y2": 492,
+                        "y3": 492
+                    },
+                    "text": "multistory building"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 336,
+                        "x1": 446,
+                        "x2": 446,
+                        "x3": 336,
+                        "y0": 492,
+                        "y1": 492,
+                        "y2": 516,
+                        "y3": 516
+                    },
+                    "text": "Building type"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 130,
+                        "x1": 288,
+                        "x2": 288,
+                        "x3": 130,
+                        "y0": 469,
+                        "y1": 469,
+                        "y2": 492,
+                        "y3": 492
+                    },
+                    "text": "single-family house"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 28,
+                        "x1": 52,
+                        "x2": 52,
+                        "x3": 28,
+                        "y0": 18,
+                        "y1": 18,
+                        "y2": 66,
+                        "y3": 66
+                    },
+                    "text": "2,250"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 28,
+                        "x1": 52,
+                        "x2": 52,
+                        "x3": 28,
+                        "y0": 67,
+                        "y1": 67,
+                        "y2": 115,
+                        "y3": 115
+                    },
+                    "text": "1,250"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 28,
+                        "x1": 52,
+                        "x2": 52,
+                        "x3": 28,
+                        "y0": 199,
+                        "y1": 199,
+                        "y2": 236,
+                        "y3": 236
+                    },
+                    "text": "250"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 8,
+                        "x1": 32,
+                        "x2": 32,
+                        "x3": 8,
+                        "y0": 118,
+                        "y1": 118,
+                        "y2": 349,
+                        "y3": 349
+                    },
+                    "text": "Radon concentration(Bq/m3)"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 498,
+                            "x1": 648,
+                            "x2": 648,
+                            "x3": 498,
+                            "y0": 469,
+                            "y1": 469,
+                            "y2": 492,
+                            "y3": 492
+                        },
+                        "text": "multistory building"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 336,
+                            "x1": 446,
+                            "x2": 446,
+                            "x3": 336,
+                            "y0": 492,
+                            "y1": 492,
+                            "y2": 516,
+                            "y3": 516
+                        },
+                        "text": "Building type"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 130,
+                            "x1": 288,
+                            "x2": 288,
+                            "x3": 130,
+                            "y0": 469,
+                            "y1": 469,
+                            "y2": 492,
+                            "y3": 492
+                        },
+                        "text": "single-family house"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 28,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 28,
+                            "y0": 18,
+                            "y1": 18,
+                            "y2": 66,
+                            "y3": 66
+                        },
+                        "text": "2,250"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 28,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 28,
+                            "y0": 67,
+                            "y1": 67,
+                            "y2": 115,
+                            "y3": 115
+                        },
+                        "text": "1,250"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 28,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 28,
+                            "y0": 199,
+                            "y1": 199,
+                            "y2": 236,
+                            "y3": 236
+                        },
+                        "text": "250"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 8,
+                            "x1": 32,
+                            "x2": 32,
+                            "x3": 8,
+                            "y0": 118,
+                            "y1": 118,
+                            "y2": 349,
+                            "y3": 349
+                        },
+                        "text": "Radon concentration(Bq/m3)"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "axis_title"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 498,
+                            "x1": 648,
+                            "x2": 648,
+                            "x3": 498,
+                            "y0": 469,
+                            "y1": 469,
+                            "y2": 492,
+                            "y3": 492
+                        },
+                        "text": "multistory building"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 336,
+                            "x1": 446,
+                            "x2": 446,
+                            "x3": 336,
+                            "y0": 492,
+                            "y1": 492,
+                            "y2": 516,
+                            "y3": 516
+                        },
+                        "text": "Building type"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 130,
+                            "x1": 288,
+                            "x2": 288,
+                            "x3": 130,
+                            "y0": 469,
+                            "y1": 469,
+                            "y2": 492,
+                            "y3": 492
+                        },
+                        "text": "single-family house"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 28,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 28,
+                            "y0": 18,
+                            "y1": 18,
+                            "y2": 66,
+                            "y3": 66
+                        },
+                        "text": "2,250"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 28,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 28,
+                            "y0": 67,
+                            "y1": 67,
+                            "y2": 115,
+                            "y3": 115
+                        },
+                        "text": "1,250"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 28,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 28,
+                            "y0": 199,
+                            "y1": 199,
+                            "y2": 236,
+                            "y3": 236
+                        },
+                        "text": "250"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 8,
+                            "x1": 32,
+                            "x2": 32,
+                            "x3": 8,
+                            "y0": 118,
+                            "y1": 118,
+                            "y2": 349,
+                            "y3": 349
+                        },
+                        "text": "Radon concentration(Bq/m3)"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 454,
+                "width": 659,
+                "x0": 63,
+                "y0": 8
+            },
+            "axes": {
+                "_x-tick-type": "markers",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 209,
+                            "y": 462
+                        }
+                    },
+                    {
+                        "id": 0,
+                        "tick_pt": {
+                            "x": 574,
+                            "y": 462
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 63,
+                            "y": 42
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 63,
+                            "y": 90
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 63,
+                            "y": 217
+                        }
+                    }
+                ],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 498,
+                            "x1": 648,
+                            "x2": 648,
+                            "x3": 498,
+                            "y0": 469,
+                            "y1": 469,
+                            "y2": 492,
+                            "y3": 492
+                        },
+                        "text": "multistory building"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 336,
+                            "x1": 446,
+                            "x2": 446,
+                            "x3": 336,
+                            "y0": 492,
+                            "y1": 492,
+                            "y2": 516,
+                            "y3": 516
+                        },
+                        "text": "Building type"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 130,
+                            "x1": 288,
+                            "x2": 288,
+                            "x3": 130,
+                            "y0": 469,
+                            "y1": 469,
+                            "y2": 492,
+                            "y3": 492
+                        },
+                        "text": "single-family house"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 28,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 28,
+                            "y0": 18,
+                            "y1": 18,
+                            "y2": 66,
+                            "y3": 66
+                        },
+                        "text": "2,250"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 28,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 28,
+                            "y0": 67,
+                            "y1": 67,
+                            "y2": 115,
+                            "y3": 115
+                        },
+                        "text": "1,250"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 28,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 28,
+                            "y0": 199,
+                            "y1": 199,
+                            "y2": 236,
+                            "y3": 236
+                        },
+                        "text": "250"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 8,
+                            "x1": 32,
+                            "x2": 32,
+                            "x3": 8,
+                            "y0": 118,
+                            "y1": 118,
+                            "y2": 349,
+                            "y3": 349
+                        },
+                        "text": "Radon concentration(Bq/m3)"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 498,
+                            "x1": 648,
+                            "x2": 648,
+                            "x3": 498,
+                            "y0": 469,
+                            "y1": 469,
+                            "y2": 492,
+                            "y3": 492
+                        },
+                        "text": "multistory building"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 336,
+                            "x1": 446,
+                            "x2": 446,
+                            "x3": 336,
+                            "y0": 492,
+                            "y1": 492,
+                            "y2": 516,
+                            "y3": 516
+                        },
+                        "text": "Building type"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 130,
+                            "x1": 288,
+                            "x2": 288,
+                            "x3": 130,
+                            "y0": 469,
+                            "y1": 469,
+                            "y2": 492,
+                            "y3": 492
+                        },
+                        "text": "single-family house"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 28,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 28,
+                            "y0": 18,
+                            "y1": 18,
+                            "y2": 66,
+                            "y3": 66
+                        },
+                        "text": "2,250"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 28,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 28,
+                            "y0": 67,
+                            "y1": 67,
+                            "y2": 115,
+                            "y3": 115
+                        },
+                        "text": "1,250"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 28,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 28,
+                            "y0": 199,
+                            "y1": 199,
+                            "y2": 236,
+                            "y3": 236
+                        },
+                        "text": "250"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 8,
+                            "x1": 32,
+                            "x2": 32,
+                            "x3": 8,
+                            "y0": 118,
+                            "y1": 118,
+                            "y2": 349,
+                            "y3": 349
+                        },
+                        "text": "Radon concentration(Bq/m3)"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "axis_title"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 454,
+                    "width": 659,
+                    "x0": 63,
+                    "y0": 8
+                },
+                "axes": {
+                    "_x-tick-type": "markers",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": "markers",
+                    "_y2-tick-type": null,
+                    "x-axis": [
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 209,
+                                "y": 462
+                            }
+                        },
+                        {
+                            "id": 0,
+                            "tick_pt": {
+                                "x": 574,
+                                "y": 462
+                            }
+                        }
+                    ],
+                    "x-axis-2": [],
+                    "y-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 63,
+                                "y": 42
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 63,
+                                "y": 90
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 63,
+                                "y": 217
+                            }
+                        }
+                    ],
+                    "y-axis-2": []
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "first_quartile": 82.41733828558047,
+                            "max": 463.9718606661162,
+                            "median": 120.15026063320792,
+                            "min": 14.394213776523056,
+                            "third_quartile": 236.60715684679397,
+                            "x": "single-family house"
+                        },
+                        {
+                            "first_quartile": 67.82759623198737,
+                            "max": 263.0345185991515,
+                            "median": 85.61958872519205,
+                            "min": 29.075519060510768,
+                            "third_quartile": 165.77487842793266,
+                            "x": "multistory building"
+                        }
+                    ],
+                    "name": "[unnamed data series #0]"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 183.0,
+                                "x0": 117.0,
+                                "y0": 304.0
+                            },
+                            "x": 208.5,
+                            "y": 304.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 183.0,
+                                "x0": 117.0,
+                                "y0": 168.0
+                            },
+                            "x": 208.5,
+                            "y": 168.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 183.0,
+                                "x0": 117.0,
+                                "y0": 274.0
+                            },
+                            "x": 208.5,
+                            "y": 274.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 183.0,
+                                "x0": 117.0,
+                                "y0": 441.0
+                            },
+                            "x": 208.5,
+                            "y": 441.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 183.0,
+                                "x0": 117.0,
+                                "y0": 221.0
+                            },
+                            "x": 208.5,
+                            "y": 221.0
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 182.0,
+                                "x0": 483.0,
+                                "y0": 319.0
+                            },
+                            "x": 574.0,
+                            "y": 319.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 182.0,
+                                "x0": 483.0,
+                                "y0": 213.0
+                            },
+                            "x": 574.0,
+                            "y": 213.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 182.0,
+                                "x0": 483.0,
+                                "y0": 301.0
+                            },
+                            "x": 574.0,
+                            "y": 301.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 182.0,
+                                "x0": 483.0,
+                                "y0": 386.0
+                            },
+                            "x": 574.0,
+                            "y": 386.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 182.0,
+                                "x0": 483.0,
+                                "y0": 249.0
+                            },
+                            "x": 574.0,
+                            "y": 249.0
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

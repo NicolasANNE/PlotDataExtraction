@@ -1,0 +1,1151 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 101,
+                        "x1": 181,
+                        "x2": 181,
+                        "x3": 101,
+                        "y0": 350,
+                        "y1": 350,
+                        "y2": 373,
+                        "y3": 373
+                    },
+                    "text": "Probes detecting DA"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 202,
+                        "x1": 310,
+                        "x2": 310,
+                        "x3": 202,
+                        "y0": 350,
+                        "y1": 350,
+                        "y2": 375,
+                        "y3": 375
+                    },
+                    "text": "Probes detecting equivalent accessability"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 12,
+                        "x1": 25,
+                        "x2": 25,
+                        "x3": 12,
+                        "y0": 84,
+                        "y1": 84,
+                        "y2": 258,
+                        "y3": 258
+                    },
+                    "text": "Normalized integrated intensity ratios"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 61,
+                        "x1": 72,
+                        "x2": 72,
+                        "x3": 61,
+                        "y0": 90,
+                        "y1": 90,
+                        "y2": 108,
+                        "y3": 108
+                    },
+                    "text": "0.8"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 61,
+                        "x1": 72,
+                        "x2": 72,
+                        "x3": 61,
+                        "y0": 151,
+                        "y1": 151,
+                        "y2": 168,
+                        "y3": 168
+                    },
+                    "text": "0.6"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 61,
+                        "x1": 72,
+                        "x2": 72,
+                        "x3": 61,
+                        "y0": 211,
+                        "y1": 211,
+                        "y2": 228,
+                        "y3": 228
+                    },
+                    "text": "0.4"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 61,
+                        "x1": 72,
+                        "x2": 72,
+                        "x3": 61,
+                        "y0": 271,
+                        "y1": 271,
+                        "y2": 288,
+                        "y3": 288
+                    },
+                    "text": "0.2"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 61,
+                        "x1": 72,
+                        "x2": 72,
+                        "x3": 61,
+                        "y0": 331,
+                        "y1": 331,
+                        "y2": 348,
+                        "y3": 348
+                    },
+                    "text": "0.0"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 61,
+                        "x1": 72,
+                        "x2": 72,
+                        "x3": 61,
+                        "y0": 30,
+                        "y1": 30,
+                        "y2": 47,
+                        "y3": 47
+                    },
+                    "text": "1.0"
+                },
+                {
+                    "id": 9,
+                    "polygon": {
+                        "x0": 11,
+                        "x1": 25,
+                        "x2": 25,
+                        "x3": 11,
+                        "y0": 4,
+                        "y1": 4,
+                        "y2": 20,
+                        "y3": 20
+                    },
+                    "text": "C"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 101,
+                            "x1": 181,
+                            "x2": 181,
+                            "x3": 101,
+                            "y0": 350,
+                            "y1": 350,
+                            "y2": 373,
+                            "y3": 373
+                        },
+                        "text": "Probes detecting DA"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 202,
+                            "x1": 310,
+                            "x2": 310,
+                            "x3": 202,
+                            "y0": 350,
+                            "y1": 350,
+                            "y2": 375,
+                            "y3": 375
+                        },
+                        "text": "Probes detecting equivalent accessability"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 12,
+                            "x1": 25,
+                            "x2": 25,
+                            "x3": 12,
+                            "y0": 84,
+                            "y1": 84,
+                            "y2": 258,
+                            "y3": 258
+                        },
+                        "text": "Normalized integrated intensity ratios"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 72,
+                            "x2": 72,
+                            "x3": 61,
+                            "y0": 90,
+                            "y1": 90,
+                            "y2": 108,
+                            "y3": 108
+                        },
+                        "text": "0.8"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 72,
+                            "x2": 72,
+                            "x3": 61,
+                            "y0": 151,
+                            "y1": 151,
+                            "y2": 168,
+                            "y3": 168
+                        },
+                        "text": "0.6"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 72,
+                            "x2": 72,
+                            "x3": 61,
+                            "y0": 211,
+                            "y1": 211,
+                            "y2": 228,
+                            "y3": 228
+                        },
+                        "text": "0.4"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 72,
+                            "x2": 72,
+                            "x3": 61,
+                            "y0": 271,
+                            "y1": 271,
+                            "y2": 288,
+                            "y3": 288
+                        },
+                        "text": "0.2"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 72,
+                            "x2": 72,
+                            "x3": 61,
+                            "y0": 331,
+                            "y1": 331,
+                            "y2": 348,
+                            "y3": 348
+                        },
+                        "text": "0.0"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 72,
+                            "x2": 72,
+                            "x3": 61,
+                            "y0": 30,
+                            "y1": 30,
+                            "y2": 47,
+                            "y3": 47
+                        },
+                        "text": "1.0"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 11,
+                            "x1": 25,
+                            "x2": 25,
+                            "x3": 11,
+                            "y0": 4,
+                            "y1": 4,
+                            "y2": 20,
+                            "y3": 20
+                        },
+                        "text": "C"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "other"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 101,
+                            "x1": 181,
+                            "x2": 181,
+                            "x3": 101,
+                            "y0": 350,
+                            "y1": 350,
+                            "y2": 373,
+                            "y3": 373
+                        },
+                        "text": "Probes detecting DA"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 202,
+                            "x1": 310,
+                            "x2": 310,
+                            "x3": 202,
+                            "y0": 350,
+                            "y1": 350,
+                            "y2": 375,
+                            "y3": 375
+                        },
+                        "text": "Probes detecting equivalent accessability"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 12,
+                            "x1": 25,
+                            "x2": 25,
+                            "x3": 12,
+                            "y0": 84,
+                            "y1": 84,
+                            "y2": 258,
+                            "y3": 258
+                        },
+                        "text": "Normalized integrated intensity ratios"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 72,
+                            "x2": 72,
+                            "x3": 61,
+                            "y0": 90,
+                            "y1": 90,
+                            "y2": 108,
+                            "y3": 108
+                        },
+                        "text": "0.8"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 72,
+                            "x2": 72,
+                            "x3": 61,
+                            "y0": 151,
+                            "y1": 151,
+                            "y2": 168,
+                            "y3": 168
+                        },
+                        "text": "0.6"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 72,
+                            "x2": 72,
+                            "x3": 61,
+                            "y0": 211,
+                            "y1": 211,
+                            "y2": 228,
+                            "y3": 228
+                        },
+                        "text": "0.4"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 72,
+                            "x2": 72,
+                            "x3": 61,
+                            "y0": 271,
+                            "y1": 271,
+                            "y2": 288,
+                            "y3": 288
+                        },
+                        "text": "0.2"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 72,
+                            "x2": 72,
+                            "x3": 61,
+                            "y0": 331,
+                            "y1": 331,
+                            "y2": 348,
+                            "y3": 348
+                        },
+                        "text": "0.0"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 72,
+                            "x2": 72,
+                            "x3": 61,
+                            "y0": 30,
+                            "y1": 30,
+                            "y2": 47,
+                            "y3": 47
+                        },
+                        "text": "1.0"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 11,
+                            "x1": 25,
+                            "x2": 25,
+                            "x3": 11,
+                            "y0": 4,
+                            "y1": 4,
+                            "y2": 20,
+                            "y3": 20
+                        },
+                        "text": "C"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 301,
+                "width": 219,
+                "x0": 80,
+                "y0": 39
+            },
+            "axes": {
+                "_x-tick-type": "markers",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 0,
+                        "tick_pt": {
+                            "x": 140,
+                            "y": 340
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 256,
+                            "y": 340
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 80,
+                            "y": 39
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 80,
+                            "y": 99
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 80,
+                            "y": 159
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 80,
+                            "y": 220
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 80,
+                            "y": 280
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 80,
+                            "y": 340
+                        }
+                    }
+                ],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 101,
+                            "x1": 181,
+                            "x2": 181,
+                            "x3": 101,
+                            "y0": 350,
+                            "y1": 350,
+                            "y2": 373,
+                            "y3": 373
+                        },
+                        "text": "Probes detecting DA"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 202,
+                            "x1": 310,
+                            "x2": 310,
+                            "x3": 202,
+                            "y0": 350,
+                            "y1": 350,
+                            "y2": 375,
+                            "y3": 375
+                        },
+                        "text": "Probes detecting equivalent accessability"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 12,
+                            "x1": 25,
+                            "x2": 25,
+                            "x3": 12,
+                            "y0": 84,
+                            "y1": 84,
+                            "y2": 258,
+                            "y3": 258
+                        },
+                        "text": "Normalized integrated intensity ratios"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 72,
+                            "x2": 72,
+                            "x3": 61,
+                            "y0": 90,
+                            "y1": 90,
+                            "y2": 108,
+                            "y3": 108
+                        },
+                        "text": "0.8"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 72,
+                            "x2": 72,
+                            "x3": 61,
+                            "y0": 151,
+                            "y1": 151,
+                            "y2": 168,
+                            "y3": 168
+                        },
+                        "text": "0.6"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 72,
+                            "x2": 72,
+                            "x3": 61,
+                            "y0": 211,
+                            "y1": 211,
+                            "y2": 228,
+                            "y3": 228
+                        },
+                        "text": "0.4"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 72,
+                            "x2": 72,
+                            "x3": 61,
+                            "y0": 271,
+                            "y1": 271,
+                            "y2": 288,
+                            "y3": 288
+                        },
+                        "text": "0.2"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 72,
+                            "x2": 72,
+                            "x3": 61,
+                            "y0": 331,
+                            "y1": 331,
+                            "y2": 348,
+                            "y3": 348
+                        },
+                        "text": "0.0"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 72,
+                            "x2": 72,
+                            "x3": 61,
+                            "y0": 30,
+                            "y1": 30,
+                            "y2": 47,
+                            "y3": 47
+                        },
+                        "text": "1.0"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 11,
+                            "x1": 25,
+                            "x2": 25,
+                            "x3": 11,
+                            "y0": 4,
+                            "y1": 4,
+                            "y2": 20,
+                            "y3": 20
+                        },
+                        "text": "C"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 101,
+                            "x1": 181,
+                            "x2": 181,
+                            "x3": 101,
+                            "y0": 350,
+                            "y1": 350,
+                            "y2": 373,
+                            "y3": 373
+                        },
+                        "text": "Probes detecting DA"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 202,
+                            "x1": 310,
+                            "x2": 310,
+                            "x3": 202,
+                            "y0": 350,
+                            "y1": 350,
+                            "y2": 375,
+                            "y3": 375
+                        },
+                        "text": "Probes detecting equivalent accessability"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 12,
+                            "x1": 25,
+                            "x2": 25,
+                            "x3": 12,
+                            "y0": 84,
+                            "y1": 84,
+                            "y2": 258,
+                            "y3": 258
+                        },
+                        "text": "Normalized integrated intensity ratios"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 72,
+                            "x2": 72,
+                            "x3": 61,
+                            "y0": 90,
+                            "y1": 90,
+                            "y2": 108,
+                            "y3": 108
+                        },
+                        "text": "0.8"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 72,
+                            "x2": 72,
+                            "x3": 61,
+                            "y0": 151,
+                            "y1": 151,
+                            "y2": 168,
+                            "y3": 168
+                        },
+                        "text": "0.6"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 72,
+                            "x2": 72,
+                            "x3": 61,
+                            "y0": 211,
+                            "y1": 211,
+                            "y2": 228,
+                            "y3": 228
+                        },
+                        "text": "0.4"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 72,
+                            "x2": 72,
+                            "x3": 61,
+                            "y0": 271,
+                            "y1": 271,
+                            "y2": 288,
+                            "y3": 288
+                        },
+                        "text": "0.2"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 72,
+                            "x2": 72,
+                            "x3": 61,
+                            "y0": 331,
+                            "y1": 331,
+                            "y2": 348,
+                            "y3": 348
+                        },
+                        "text": "0.0"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 61,
+                            "x1": 72,
+                            "x2": 72,
+                            "x3": 61,
+                            "y0": 30,
+                            "y1": 30,
+                            "y2": 47,
+                            "y3": 47
+                        },
+                        "text": "1.0"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 11,
+                            "x1": 25,
+                            "x2": 25,
+                            "x3": 11,
+                            "y0": 4,
+                            "y1": 4,
+                            "y2": 20,
+                            "y3": 20
+                        },
+                        "text": "C"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "other"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 301,
+                    "width": 219,
+                    "x0": 80,
+                    "y0": 39
+                },
+                "axes": {
+                    "_x-tick-type": "markers",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": "markers",
+                    "_y2-tick-type": null,
+                    "x-axis": [
+                        {
+                            "id": 0,
+                            "tick_pt": {
+                                "x": 140,
+                                "y": 340
+                            }
+                        },
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 256,
+                                "y": 340
+                            }
+                        }
+                    ],
+                    "x-axis-2": [],
+                    "y-axis": [
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 80,
+                                "y": 39
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 80,
+                                "y": 99
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 80,
+                                "y": 159
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 80,
+                                "y": 220
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 80,
+                                "y": 280
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 80,
+                                "y": 340
+                            }
+                        }
+                    ],
+                    "y-axis-2": []
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "first_quartile": 0.4520092992361343,
+                            "max": 0.999335768847559,
+                            "median": 0.8718033875788774,
+                            "min": 0.004317502490867047,
+                            "third_quartile": 0.999335768847559,
+                            "x": "Probes detecting DA"
+                        },
+                        {
+                            "first_quartile": 0.07206908003985399,
+                            "max": 0.5024908668216539,
+                            "median": 0.13849219528395892,
+                            "min": 0.004317502490867047,
+                            "third_quartile": 0.30454998339422135,
+                            "x": "Probes detecting equivalent accessability"
+                        }
+                    ],
+                    "name": "[unnamed data series #0]"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 60.0,
+                                "x0": 110.0,
+                                "y0": 204.0
+                            },
+                            "x": 140.0,
+                            "y": 204.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 60.0,
+                                "x0": 110.0,
+                                "y0": 39.0
+                            },
+                            "x": 140.0,
+                            "y": 39.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 60.0,
+                                "x0": 110.0,
+                                "y0": 78.0
+                            },
+                            "x": 140.0,
+                            "y": 78.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 60.0,
+                                "x0": 110.0,
+                                "y0": 339.0
+                            },
+                            "x": 140.0,
+                            "y": 339.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 60.0,
+                                "x0": 110.0,
+                                "y0": 39.0
+                            },
+                            "x": 140.0,
+                            "y": 39.0
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 60.0,
+                                "x0": 226.0,
+                                "y0": 318.0
+                            },
+                            "x": 256.0,
+                            "y": 318.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 60.0,
+                                "x0": 226.0,
+                                "y0": 189.0
+                            },
+                            "x": 256.0,
+                            "y": 189.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 60.0,
+                                "x0": 226.0,
+                                "y0": 298.0
+                            },
+                            "x": 256.0,
+                            "y": 298.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 60.0,
+                                "x0": 226.0,
+                                "y0": 339.0
+                            },
+                            "x": 256.0,
+                            "y": 339.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 60.0,
+                                "x0": 226.0,
+                                "y0": 248.0
+                            },
+                            "x": 256.0,
+                            "y": 248.0
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

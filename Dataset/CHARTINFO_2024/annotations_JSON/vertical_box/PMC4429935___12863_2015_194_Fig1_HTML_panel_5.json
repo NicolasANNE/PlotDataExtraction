@@ -1,0 +1,735 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 23,
+                        "x1": 35,
+                        "x2": 35,
+                        "x3": 23,
+                        "y0": 24,
+                        "y1": 24,
+                        "y2": 50,
+                        "y3": 50
+                    },
+                    "text": "2000"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 23,
+                        "x1": 35,
+                        "x2": 35,
+                        "x3": 23,
+                        "y0": 83,
+                        "y1": 83,
+                        "y2": 109,
+                        "y3": 109
+                    },
+                    "text": "1500"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 23,
+                        "x1": 35,
+                        "x2": 35,
+                        "x3": 23,
+                        "y0": 143,
+                        "y1": 143,
+                        "y2": 169,
+                        "y3": 169
+                    },
+                    "text": "1000"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 23,
+                        "x1": 35,
+                        "x2": 35,
+                        "x3": 23,
+                        "y0": 206,
+                        "y1": 206,
+                        "y2": 226,
+                        "y3": 226
+                    },
+                    "text": "500"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 23,
+                        "x1": 35,
+                        "x2": 35,
+                        "x3": 23,
+                        "y0": 271,
+                        "y1": 271,
+                        "y2": 280,
+                        "y3": 280
+                    },
+                    "text": "0"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 84,
+                        "x1": 131,
+                        "x2": 131,
+                        "x3": 84,
+                        "y0": 13,
+                        "y1": 13,
+                        "y2": 26,
+                        "y3": 26
+                    },
+                    "text": "Cross II"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 35,
+                            "x2": 35,
+                            "x3": 23,
+                            "y0": 24,
+                            "y1": 24,
+                            "y2": 50,
+                            "y3": 50
+                        },
+                        "text": "2000"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 35,
+                            "x2": 35,
+                            "x3": 23,
+                            "y0": 83,
+                            "y1": 83,
+                            "y2": 109,
+                            "y3": 109
+                        },
+                        "text": "1500"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 35,
+                            "x2": 35,
+                            "x3": 23,
+                            "y0": 143,
+                            "y1": 143,
+                            "y2": 169,
+                            "y3": 169
+                        },
+                        "text": "1000"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 35,
+                            "x2": 35,
+                            "x3": 23,
+                            "y0": 206,
+                            "y1": 206,
+                            "y2": 226,
+                            "y3": 226
+                        },
+                        "text": "500"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 35,
+                            "x2": 35,
+                            "x3": 23,
+                            "y0": 271,
+                            "y1": 271,
+                            "y2": 280,
+                            "y3": 280
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 84,
+                            "x1": 131,
+                            "x2": 131,
+                            "x3": 84,
+                            "y0": 13,
+                            "y1": 13,
+                            "y2": 26,
+                            "y3": 26
+                        },
+                        "text": "Cross II"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "chart_title"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 35,
+                            "x2": 35,
+                            "x3": 23,
+                            "y0": 24,
+                            "y1": 24,
+                            "y2": 50,
+                            "y3": 50
+                        },
+                        "text": "2000"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 35,
+                            "x2": 35,
+                            "x3": 23,
+                            "y0": 83,
+                            "y1": 83,
+                            "y2": 109,
+                            "y3": 109
+                        },
+                        "text": "1500"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 35,
+                            "x2": 35,
+                            "x3": 23,
+                            "y0": 143,
+                            "y1": 143,
+                            "y2": 169,
+                            "y3": 169
+                        },
+                        "text": "1000"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 35,
+                            "x2": 35,
+                            "x3": 23,
+                            "y0": 206,
+                            "y1": 206,
+                            "y2": 226,
+                            "y3": 226
+                        },
+                        "text": "500"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 35,
+                            "x2": 35,
+                            "x3": 23,
+                            "y0": 271,
+                            "y1": 271,
+                            "y2": 280,
+                            "y3": 280
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 84,
+                            "x1": 131,
+                            "x2": 131,
+                            "x3": 84,
+                            "y0": 13,
+                            "y1": 13,
+                            "y2": 26,
+                            "y3": 26
+                        },
+                        "text": "Cross II"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 257,
+                "width": 121,
+                "x0": 48,
+                "y0": 28
+            },
+            "axes": {
+                "_x-tick-type": "separators",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [],
+                "x-axis-2": [],
+                "y-axis": [
+                    {
+                        "id": 0,
+                        "tick_pt": {
+                            "x": 48,
+                            "y": 37
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 48,
+                            "y": 97
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 48,
+                            "y": 156
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 48,
+                            "y": 216
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 48,
+                            "y": 276
+                        }
+                    }
+                ],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 35,
+                            "x2": 35,
+                            "x3": 23,
+                            "y0": 24,
+                            "y1": 24,
+                            "y2": 50,
+                            "y3": 50
+                        },
+                        "text": "2000"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 35,
+                            "x2": 35,
+                            "x3": 23,
+                            "y0": 83,
+                            "y1": 83,
+                            "y2": 109,
+                            "y3": 109
+                        },
+                        "text": "1500"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 35,
+                            "x2": 35,
+                            "x3": 23,
+                            "y0": 143,
+                            "y1": 143,
+                            "y2": 169,
+                            "y3": 169
+                        },
+                        "text": "1000"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 35,
+                            "x2": 35,
+                            "x3": 23,
+                            "y0": 206,
+                            "y1": 206,
+                            "y2": 226,
+                            "y3": 226
+                        },
+                        "text": "500"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 35,
+                            "x2": 35,
+                            "x3": 23,
+                            "y0": 271,
+                            "y1": 271,
+                            "y2": 280,
+                            "y3": 280
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 84,
+                            "x1": 131,
+                            "x2": 131,
+                            "x3": 84,
+                            "y0": 13,
+                            "y1": 13,
+                            "y2": 26,
+                            "y3": 26
+                        },
+                        "text": "Cross II"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 35,
+                            "x2": 35,
+                            "x3": 23,
+                            "y0": 24,
+                            "y1": 24,
+                            "y2": 50,
+                            "y3": 50
+                        },
+                        "text": "2000"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 35,
+                            "x2": 35,
+                            "x3": 23,
+                            "y0": 83,
+                            "y1": 83,
+                            "y2": 109,
+                            "y3": 109
+                        },
+                        "text": "1500"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 35,
+                            "x2": 35,
+                            "x3": 23,
+                            "y0": 143,
+                            "y1": 143,
+                            "y2": 169,
+                            "y3": 169
+                        },
+                        "text": "1000"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 35,
+                            "x2": 35,
+                            "x3": 23,
+                            "y0": 206,
+                            "y1": 206,
+                            "y2": 226,
+                            "y3": 226
+                        },
+                        "text": "500"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 35,
+                            "x2": 35,
+                            "x3": 23,
+                            "y0": 271,
+                            "y1": 271,
+                            "y2": 280,
+                            "y3": 280
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 84,
+                            "x1": 131,
+                            "x2": 131,
+                            "x3": 84,
+                            "y0": 13,
+                            "y1": 13,
+                            "y2": 26,
+                            "y3": 26
+                        },
+                        "text": "Cross II"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "chart_title"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 257,
+                    "width": 121,
+                    "x0": 48,
+                    "y0": 28
+                },
+                "axes": {
+                    "_x-tick-type": "separators",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": "markers",
+                    "_y2-tick-type": null,
+                    "x-axis": [],
+                    "x-axis-2": [],
+                    "y-axis": [
+                        {
+                            "id": 0,
+                            "tick_pt": {
+                                "x": 48,
+                                "y": 37
+                            }
+                        },
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 48,
+                                "y": 97
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 48,
+                                "y": 156
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 48,
+                                "y": 216
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 48,
+                                "y": 276
+                            }
+                        }
+                    ],
+                    "y-axis-2": []
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "first_quartile": 55.3691275167787,
+                            "max": 302.8523489932887,
+                            "median": 93.12080536912768,
+                            "min": 26.006711409396154,
+                            "third_quartile": 156.04026845637597,
+                            "x": "[unnamed category #0]"
+                        }
+                    ],
+                    "name": "[unnamed data series #0]"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 46.0,
+                                "x0": 85.0,
+                                "y0": 269.0
+                            },
+                            "x": 108.0,
+                            "y": 269.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 46.0,
+                                "x0": 85.0,
+                                "y0": 240.0
+                            },
+                            "x": 108.0,
+                            "y": 240.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 46.0,
+                                "x0": 85.0,
+                                "y0": 264.0
+                            },
+                            "x": 108.0,
+                            "y": 264.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 46.0,
+                                "x0": 85.0,
+                                "y0": 272.0
+                            },
+                            "x": 108.0,
+                            "y": 272.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 46.0,
+                                "x0": 85.0,
+                                "y0": 257.0
+                            },
+                            "x": 108.0,
+                            "y": 257.0
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

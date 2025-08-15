@@ -1,0 +1,2326 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 79,
+                        "x1": 301,
+                        "x2": 301,
+                        "x3": 79,
+                        "y0": 28,
+                        "y1": 28,
+                        "y2": 42,
+                        "y3": 42
+                    },
+                    "text": "Smoke when you are so ill and stay in bed (1 point)"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 30,
+                        "x1": 301,
+                        "x2": 301,
+                        "x3": 30,
+                        "y0": 66,
+                        "y1": 66,
+                        "y2": 79,
+                        "y3": 79
+                    },
+                    "text": "Smoke more frequently during first hours after walking (1 point)"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 19,
+                        "x1": 301,
+                        "x2": 301,
+                        "x3": 19,
+                        "y0": 103,
+                        "y1": 103,
+                        "y2": 117,
+                        "y3": 117
+                    },
+                    "text": "Cigaratte would hate most to give up: first in the morning ( 1 point)"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 54,
+                        "x1": 301,
+                        "x2": 301,
+                        "x3": 54,
+                        "y0": 141,
+                        "y1": 141,
+                        "y2": 154,
+                        "y3": 154
+                    },
+                    "text": "Difficult to refrain in places where it is prohibited (1 point)"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 107,
+                        "x1": 301,
+                        "x2": 301,
+                        "x3": 107,
+                        "y0": 178,
+                        "y1": 178,
+                        "y2": 191,
+                        "y3": 191
+                    },
+                    "text": "* Time to first cigaratte: < minutes (3 points)"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 98,
+                        "x1": 301,
+                        "x2": 301,
+                        "x3": 98,
+                        "y0": 215,
+                        "y1": 215,
+                        "y2": 229,
+                        "y3": 229
+                    },
+                    "text": "* Time to first cigarrate: 6-30 minutes (2 points)"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 97,
+                        "x1": 301,
+                        "x2": 301,
+                        "x3": 97,
+                        "y0": 252,
+                        "y1": 252,
+                        "y2": 266,
+                        "y3": 266
+                    },
+                    "text": "Time to first cigaratte: 31-60 minutes (1 point)"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 102,
+                        "x1": 301,
+                        "x2": 301,
+                        "x3": 102,
+                        "y0": 290,
+                        "y1": 290,
+                        "y2": 304,
+                        "y3": 304
+                    },
+                    "text": "*Time to first cigaratte: >60 minutes (0 points)"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 139,
+                        "x1": 301,
+                        "x2": 301,
+                        "x3": 139,
+                        "y0": 364,
+                        "y1": 364,
+                        "y2": 378,
+                        "y3": 378
+                    },
+                    "text": "* Cigarattes per day: 21-30 (2 points)"
+                },
+                {
+                    "id": 9,
+                    "polygon": {
+                        "x0": 148,
+                        "x1": 301,
+                        "x2": 301,
+                        "x3": 148,
+                        "y0": 327,
+                        "y1": 327,
+                        "y2": 341,
+                        "y3": 341
+                    },
+                    "text": "Cigarattes per day:> 30(3 point)"
+                },
+                {
+                    "id": 10,
+                    "polygon": {
+                        "x0": 143,
+                        "x1": 301,
+                        "x2": 301,
+                        "x3": 143,
+                        "y0": 402,
+                        "y1": 402,
+                        "y2": 416,
+                        "y3": 416
+                    },
+                    "text": "* Cigarettes per day: 11-20 (1 point)"
+                },
+                {
+                    "id": 11,
+                    "polygon": {
+                        "x0": 148,
+                        "x1": 301,
+                        "x2": 301,
+                        "x3": 148,
+                        "y0": 439,
+                        "y1": 439,
+                        "y2": 453,
+                        "y3": 453
+                    },
+                    "text": "* Cigarattes per day: 1- 10 (0 point)"
+                },
+                {
+                    "id": 12,
+                    "polygon": {
+                        "x0": 298,
+                        "x1": 317,
+                        "x2": 317,
+                        "x3": 298,
+                        "y0": 475,
+                        "y1": 475,
+                        "y2": 486,
+                        "y3": 486
+                    },
+                    "text": "0%"
+                },
+                {
+                    "id": 13,
+                    "polygon": {
+                        "x0": 341,
+                        "x1": 362,
+                        "x2": 362,
+                        "x3": 341,
+                        "y0": 475,
+                        "y1": 475,
+                        "y2": 486,
+                        "y3": 486
+                    },
+                    "text": "10%"
+                },
+                {
+                    "id": 14,
+                    "polygon": {
+                        "x0": 384,
+                        "x1": 407,
+                        "x2": 407,
+                        "x3": 384,
+                        "y0": 475,
+                        "y1": 475,
+                        "y2": 486,
+                        "y3": 486
+                    },
+                    "text": "20%"
+                },
+                {
+                    "id": 15,
+                    "polygon": {
+                        "x0": 429,
+                        "x1": 453,
+                        "x2": 453,
+                        "x3": 429,
+                        "y0": 475,
+                        "y1": 475,
+                        "y2": 486,
+                        "y3": 486
+                    },
+                    "text": "30%"
+                },
+                {
+                    "id": 16,
+                    "polygon": {
+                        "x0": 473,
+                        "x1": 496,
+                        "x2": 496,
+                        "x3": 473,
+                        "y0": 475,
+                        "y1": 475,
+                        "y2": 486,
+                        "y3": 486
+                    },
+                    "text": "40%"
+                },
+                {
+                    "id": 17,
+                    "polygon": {
+                        "x0": 518,
+                        "x1": 542,
+                        "x2": 542,
+                        "x3": 518,
+                        "y0": 475,
+                        "y1": 475,
+                        "y2": 486,
+                        "y3": 486
+                    },
+                    "text": "50%"
+                },
+                {
+                    "id": 18,
+                    "polygon": {
+                        "x0": 563,
+                        "x1": 585,
+                        "x2": 585,
+                        "x3": 563,
+                        "y0": 475,
+                        "y1": 475,
+                        "y2": 486,
+                        "y3": 486
+                    },
+                    "text": "60%"
+                },
+                {
+                    "id": 19,
+                    "polygon": {
+                        "x0": 499,
+                        "x1": 553,
+                        "x2": 553,
+                        "x3": 499,
+                        "y0": 36,
+                        "y1": 36,
+                        "y2": 49,
+                        "y3": 49
+                    },
+                    "text": "Females"
+                },
+                {
+                    "id": 20,
+                    "polygon": {
+                        "x0": 499,
+                        "x1": 538,
+                        "x2": 538,
+                        "x3": 499,
+                        "y0": 58,
+                        "y1": 58,
+                        "y2": 71,
+                        "y3": 71
+                    },
+                    "text": "Males"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 79,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 79,
+                            "y0": 28,
+                            "y1": 28,
+                            "y2": 42,
+                            "y3": 42
+                        },
+                        "text": "Smoke when you are so ill and stay in bed (1 point)"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 30,
+                            "y0": 66,
+                            "y1": 66,
+                            "y2": 79,
+                            "y3": 79
+                        },
+                        "text": "Smoke more frequently during first hours after walking (1 point)"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 19,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 19,
+                            "y0": 103,
+                            "y1": 103,
+                            "y2": 117,
+                            "y3": 117
+                        },
+                        "text": "Cigaratte would hate most to give up: first in the morning ( 1 point)"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 54,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 54,
+                            "y0": 141,
+                            "y1": 141,
+                            "y2": 154,
+                            "y3": 154
+                        },
+                        "text": "Difficult to refrain in places where it is prohibited (1 point)"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 107,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 107,
+                            "y0": 178,
+                            "y1": 178,
+                            "y2": 191,
+                            "y3": 191
+                        },
+                        "text": "* Time to first cigaratte: < minutes (3 points)"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 98,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 98,
+                            "y0": 215,
+                            "y1": 215,
+                            "y2": 229,
+                            "y3": 229
+                        },
+                        "text": "* Time to first cigarrate: 6-30 minutes (2 points)"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 97,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 97,
+                            "y0": 252,
+                            "y1": 252,
+                            "y2": 266,
+                            "y3": 266
+                        },
+                        "text": "Time to first cigaratte: 31-60 minutes (1 point)"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 102,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 102,
+                            "y0": 290,
+                            "y1": 290,
+                            "y2": 304,
+                            "y3": 304
+                        },
+                        "text": "*Time to first cigaratte: >60 minutes (0 points)"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 139,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 139,
+                            "y0": 364,
+                            "y1": 364,
+                            "y2": 378,
+                            "y3": 378
+                        },
+                        "text": "* Cigarattes per day: 21-30 (2 points)"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 148,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 148,
+                            "y0": 327,
+                            "y1": 327,
+                            "y2": 341,
+                            "y3": 341
+                        },
+                        "text": "Cigarattes per day:> 30(3 point)"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 143,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 143,
+                            "y0": 402,
+                            "y1": 402,
+                            "y2": 416,
+                            "y3": 416
+                        },
+                        "text": "* Cigarettes per day: 11-20 (1 point)"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 148,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 148,
+                            "y0": 439,
+                            "y1": 439,
+                            "y2": 453,
+                            "y3": 453
+                        },
+                        "text": "* Cigarattes per day: 1- 10 (0 point)"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 298,
+                            "x1": 317,
+                            "x2": 317,
+                            "x3": 298,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "0%"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 341,
+                            "x1": 362,
+                            "x2": 362,
+                            "x3": 341,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "10%"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 384,
+                            "x1": 407,
+                            "x2": 407,
+                            "x3": 384,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "20%"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 429,
+                            "x1": 453,
+                            "x2": 453,
+                            "x3": 429,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "30%"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 473,
+                            "x1": 496,
+                            "x2": 496,
+                            "x3": 473,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "40%"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 518,
+                            "x1": 542,
+                            "x2": 542,
+                            "x3": 518,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "50%"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 563,
+                            "x1": 585,
+                            "x2": 585,
+                            "x3": 563,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "60%"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 499,
+                            "x1": 553,
+                            "x2": 553,
+                            "x3": 499,
+                            "y0": 36,
+                            "y1": 36,
+                            "y2": 49,
+                            "y3": 49
+                        },
+                        "text": "Females"
+                    },
+                    {
+                        "id": 20,
+                        "polygon": {
+                            "x0": 499,
+                            "x1": 538,
+                            "x2": 538,
+                            "x3": 499,
+                            "y0": 58,
+                            "y1": 58,
+                            "y2": 71,
+                            "y3": 71
+                        },
+                        "text": "Males"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 18,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 19,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 20,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 79,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 79,
+                            "y0": 28,
+                            "y1": 28,
+                            "y2": 42,
+                            "y3": 42
+                        },
+                        "text": "Smoke when you are so ill and stay in bed (1 point)"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 30,
+                            "y0": 66,
+                            "y1": 66,
+                            "y2": 79,
+                            "y3": 79
+                        },
+                        "text": "Smoke more frequently during first hours after walking (1 point)"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 19,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 19,
+                            "y0": 103,
+                            "y1": 103,
+                            "y2": 117,
+                            "y3": 117
+                        },
+                        "text": "Cigaratte would hate most to give up: first in the morning ( 1 point)"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 54,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 54,
+                            "y0": 141,
+                            "y1": 141,
+                            "y2": 154,
+                            "y3": 154
+                        },
+                        "text": "Difficult to refrain in places where it is prohibited (1 point)"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 107,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 107,
+                            "y0": 178,
+                            "y1": 178,
+                            "y2": 191,
+                            "y3": 191
+                        },
+                        "text": "* Time to first cigaratte: < minutes (3 points)"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 98,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 98,
+                            "y0": 215,
+                            "y1": 215,
+                            "y2": 229,
+                            "y3": 229
+                        },
+                        "text": "* Time to first cigarrate: 6-30 minutes (2 points)"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 97,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 97,
+                            "y0": 252,
+                            "y1": 252,
+                            "y2": 266,
+                            "y3": 266
+                        },
+                        "text": "Time to first cigaratte: 31-60 minutes (1 point)"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 102,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 102,
+                            "y0": 290,
+                            "y1": 290,
+                            "y2": 304,
+                            "y3": 304
+                        },
+                        "text": "*Time to first cigaratte: >60 minutes (0 points)"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 139,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 139,
+                            "y0": 364,
+                            "y1": 364,
+                            "y2": 378,
+                            "y3": 378
+                        },
+                        "text": "* Cigarattes per day: 21-30 (2 points)"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 148,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 148,
+                            "y0": 327,
+                            "y1": 327,
+                            "y2": 341,
+                            "y3": 341
+                        },
+                        "text": "Cigarattes per day:> 30(3 point)"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 143,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 143,
+                            "y0": 402,
+                            "y1": 402,
+                            "y2": 416,
+                            "y3": 416
+                        },
+                        "text": "* Cigarettes per day: 11-20 (1 point)"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 148,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 148,
+                            "y0": 439,
+                            "y1": 439,
+                            "y2": 453,
+                            "y3": 453
+                        },
+                        "text": "* Cigarattes per day: 1- 10 (0 point)"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 298,
+                            "x1": 317,
+                            "x2": 317,
+                            "x3": 298,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "0%"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 341,
+                            "x1": 362,
+                            "x2": 362,
+                            "x3": 341,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "10%"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 384,
+                            "x1": 407,
+                            "x2": 407,
+                            "x3": 384,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "20%"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 429,
+                            "x1": 453,
+                            "x2": 453,
+                            "x3": 429,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "30%"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 473,
+                            "x1": 496,
+                            "x2": 496,
+                            "x3": 473,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "40%"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 518,
+                            "x1": 542,
+                            "x2": 542,
+                            "x3": 518,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "50%"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 563,
+                            "x1": 585,
+                            "x2": 585,
+                            "x3": 563,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "60%"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 499,
+                            "x1": 553,
+                            "x2": 553,
+                            "x3": 499,
+                            "y0": 36,
+                            "y1": 36,
+                            "y2": 49,
+                            "y3": 49
+                        },
+                        "text": "Females"
+                    },
+                    {
+                        "id": 20,
+                        "polygon": {
+                            "x0": 499,
+                            "x1": 538,
+                            "x2": 538,
+                            "x3": 499,
+                            "y0": 58,
+                            "y1": 58,
+                            "y2": 71,
+                            "y3": 71
+                        },
+                        "text": "Males"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 449,
+                "width": 267,
+                "x0": 308,
+                "y0": 15
+            },
+            "axes": {
+                "_x-tick-type": "separators",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 0,
+                        "tick_pt": {
+                            "x": 308,
+                            "y": 35
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 308,
+                            "y": 72
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 308,
+                            "y": 110
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 308,
+                            "y": 148
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 308,
+                            "y": 184
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 308,
+                            "y": 222
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 308,
+                            "y": 259
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 308,
+                            "y": 297
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 308,
+                            "y": 371
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 308,
+                            "y": 334
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 308,
+                            "y": 409
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 308,
+                            "y": 446
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 308,
+                            "y": 464
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 352,
+                            "y": 464
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 397,
+                            "y": 464
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 442,
+                            "y": 464
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 486,
+                            "y": 464
+                        }
+                    },
+                    {
+                        "id": 17,
+                        "tick_pt": {
+                            "x": 530,
+                            "y": 464
+                        }
+                    },
+                    {
+                        "id": 18,
+                        "tick_pt": {
+                            "x": 575,
+                            "y": 464
+                        }
+                    }
+                ],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 79,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 79,
+                            "y0": 28,
+                            "y1": 28,
+                            "y2": 42,
+                            "y3": 42
+                        },
+                        "text": "Smoke when you are so ill and stay in bed (1 point)"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 30,
+                            "y0": 66,
+                            "y1": 66,
+                            "y2": 79,
+                            "y3": 79
+                        },
+                        "text": "Smoke more frequently during first hours after walking (1 point)"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 19,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 19,
+                            "y0": 103,
+                            "y1": 103,
+                            "y2": 117,
+                            "y3": 117
+                        },
+                        "text": "Cigaratte would hate most to give up: first in the morning ( 1 point)"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 54,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 54,
+                            "y0": 141,
+                            "y1": 141,
+                            "y2": 154,
+                            "y3": 154
+                        },
+                        "text": "Difficult to refrain in places where it is prohibited (1 point)"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 107,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 107,
+                            "y0": 178,
+                            "y1": 178,
+                            "y2": 191,
+                            "y3": 191
+                        },
+                        "text": "* Time to first cigaratte: < minutes (3 points)"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 98,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 98,
+                            "y0": 215,
+                            "y1": 215,
+                            "y2": 229,
+                            "y3": 229
+                        },
+                        "text": "* Time to first cigarrate: 6-30 minutes (2 points)"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 97,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 97,
+                            "y0": 252,
+                            "y1": 252,
+                            "y2": 266,
+                            "y3": 266
+                        },
+                        "text": "Time to first cigaratte: 31-60 minutes (1 point)"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 102,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 102,
+                            "y0": 290,
+                            "y1": 290,
+                            "y2": 304,
+                            "y3": 304
+                        },
+                        "text": "*Time to first cigaratte: >60 minutes (0 points)"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 139,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 139,
+                            "y0": 364,
+                            "y1": 364,
+                            "y2": 378,
+                            "y3": 378
+                        },
+                        "text": "* Cigarattes per day: 21-30 (2 points)"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 148,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 148,
+                            "y0": 327,
+                            "y1": 327,
+                            "y2": 341,
+                            "y3": 341
+                        },
+                        "text": "Cigarattes per day:> 30(3 point)"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 143,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 143,
+                            "y0": 402,
+                            "y1": 402,
+                            "y2": 416,
+                            "y3": 416
+                        },
+                        "text": "* Cigarettes per day: 11-20 (1 point)"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 148,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 148,
+                            "y0": 439,
+                            "y1": 439,
+                            "y2": 453,
+                            "y3": 453
+                        },
+                        "text": "* Cigarattes per day: 1- 10 (0 point)"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 298,
+                            "x1": 317,
+                            "x2": 317,
+                            "x3": 298,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "0%"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 341,
+                            "x1": 362,
+                            "x2": 362,
+                            "x3": 341,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "10%"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 384,
+                            "x1": 407,
+                            "x2": 407,
+                            "x3": 384,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "20%"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 429,
+                            "x1": 453,
+                            "x2": 453,
+                            "x3": 429,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "30%"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 473,
+                            "x1": 496,
+                            "x2": 496,
+                            "x3": 473,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "40%"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 518,
+                            "x1": 542,
+                            "x2": 542,
+                            "x3": 518,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "50%"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 563,
+                            "x1": 585,
+                            "x2": 585,
+                            "x3": 563,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "60%"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 499,
+                            "x1": 553,
+                            "x2": 553,
+                            "x3": 499,
+                            "y0": 36,
+                            "y1": 36,
+                            "y2": 49,
+                            "y3": 49
+                        },
+                        "text": "Females"
+                    },
+                    {
+                        "id": 20,
+                        "polygon": {
+                            "x0": 499,
+                            "x1": 538,
+                            "x2": 538,
+                            "x3": 499,
+                            "y0": 58,
+                            "y1": 58,
+                            "y2": 71,
+                            "y3": 71
+                        },
+                        "text": "Males"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 10,
+                        "width": 10,
+                        "x0": 486,
+                        "y0": 38
+                    },
+                    "id": 19
+                },
+                {
+                    "bb": {
+                        "height": 10,
+                        "width": 10,
+                        "x0": 486,
+                        "y0": 59
+                    },
+                    "id": 20
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 79,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 79,
+                            "y0": 28,
+                            "y1": 28,
+                            "y2": 42,
+                            "y3": 42
+                        },
+                        "text": "Smoke when you are so ill and stay in bed (1 point)"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 30,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 30,
+                            "y0": 66,
+                            "y1": 66,
+                            "y2": 79,
+                            "y3": 79
+                        },
+                        "text": "Smoke more frequently during first hours after walking (1 point)"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 19,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 19,
+                            "y0": 103,
+                            "y1": 103,
+                            "y2": 117,
+                            "y3": 117
+                        },
+                        "text": "Cigaratte would hate most to give up: first in the morning ( 1 point)"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 54,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 54,
+                            "y0": 141,
+                            "y1": 141,
+                            "y2": 154,
+                            "y3": 154
+                        },
+                        "text": "Difficult to refrain in places where it is prohibited (1 point)"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 107,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 107,
+                            "y0": 178,
+                            "y1": 178,
+                            "y2": 191,
+                            "y3": 191
+                        },
+                        "text": "* Time to first cigaratte: < minutes (3 points)"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 98,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 98,
+                            "y0": 215,
+                            "y1": 215,
+                            "y2": 229,
+                            "y3": 229
+                        },
+                        "text": "* Time to first cigarrate: 6-30 minutes (2 points)"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 97,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 97,
+                            "y0": 252,
+                            "y1": 252,
+                            "y2": 266,
+                            "y3": 266
+                        },
+                        "text": "Time to first cigaratte: 31-60 minutes (1 point)"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 102,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 102,
+                            "y0": 290,
+                            "y1": 290,
+                            "y2": 304,
+                            "y3": 304
+                        },
+                        "text": "*Time to first cigaratte: >60 minutes (0 points)"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 139,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 139,
+                            "y0": 364,
+                            "y1": 364,
+                            "y2": 378,
+                            "y3": 378
+                        },
+                        "text": "* Cigarattes per day: 21-30 (2 points)"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 148,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 148,
+                            "y0": 327,
+                            "y1": 327,
+                            "y2": 341,
+                            "y3": 341
+                        },
+                        "text": "Cigarattes per day:> 30(3 point)"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 143,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 143,
+                            "y0": 402,
+                            "y1": 402,
+                            "y2": 416,
+                            "y3": 416
+                        },
+                        "text": "* Cigarettes per day: 11-20 (1 point)"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 148,
+                            "x1": 301,
+                            "x2": 301,
+                            "x3": 148,
+                            "y0": 439,
+                            "y1": 439,
+                            "y2": 453,
+                            "y3": 453
+                        },
+                        "text": "* Cigarattes per day: 1- 10 (0 point)"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 298,
+                            "x1": 317,
+                            "x2": 317,
+                            "x3": 298,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "0%"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 341,
+                            "x1": 362,
+                            "x2": 362,
+                            "x3": 341,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "10%"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 384,
+                            "x1": 407,
+                            "x2": 407,
+                            "x3": 384,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "20%"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 429,
+                            "x1": 453,
+                            "x2": 453,
+                            "x3": 429,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "30%"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 473,
+                            "x1": 496,
+                            "x2": 496,
+                            "x3": 473,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "40%"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 518,
+                            "x1": 542,
+                            "x2": 542,
+                            "x3": 518,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "50%"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 563,
+                            "x1": 585,
+                            "x2": 585,
+                            "x3": 563,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 486,
+                            "y3": 486
+                        },
+                        "text": "60%"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 499,
+                            "x1": 553,
+                            "x2": 553,
+                            "x3": 499,
+                            "y0": 36,
+                            "y1": 36,
+                            "y2": 49,
+                            "y3": 49
+                        },
+                        "text": "Females"
+                    },
+                    {
+                        "id": 20,
+                        "polygon": {
+                            "x0": 499,
+                            "x1": 538,
+                            "x2": 538,
+                            "x3": 499,
+                            "y0": 58,
+                            "y1": 58,
+                            "y2": 71,
+                            "y3": 71
+                        },
+                        "text": "Males"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 18,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 19,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 20,
+                        "role": "legend_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 449,
+                    "width": 267,
+                    "x0": 308,
+                    "y0": 15
+                },
+                "axes": {
+                    "_x-tick-type": "separators",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": "markers",
+                    "_y2-tick-type": null,
+                    "x-axis": [
+                        {
+                            "id": 0,
+                            "tick_pt": {
+                                "x": 308,
+                                "y": 35
+                            }
+                        },
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 308,
+                                "y": 72
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 308,
+                                "y": 110
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 308,
+                                "y": 148
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 308,
+                                "y": 184
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 308,
+                                "y": 222
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 308,
+                                "y": 259
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 308,
+                                "y": 297
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 308,
+                                "y": 371
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 308,
+                                "y": 334
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 308,
+                                "y": 409
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 308,
+                                "y": 446
+                            }
+                        }
+                    ],
+                    "x-axis-2": [],
+                    "y-axis": [
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 308,
+                                "y": 464
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 352,
+                                "y": 464
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 397,
+                                "y": 464
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 442,
+                                "y": 464
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "tick_pt": {
+                                "x": 486,
+                                "y": 464
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "tick_pt": {
+                                "x": 530,
+                                "y": 464
+                            }
+                        },
+                        {
+                            "id": 18,
+                            "tick_pt": {
+                                "x": 575,
+                                "y": 464
+                            }
+                        }
+                    ],
+                    "y-axis-2": []
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 10,
+                            "width": 10,
+                            "x0": 486,
+                            "y0": 38
+                        },
+                        "id": 19
+                    },
+                    {
+                        "bb": {
+                            "height": 10,
+                            "width": 10,
+                            "x0": 486,
+                            "y0": 59
+                        },
+                        "id": 20
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Smoke when you are so ill and stay in bed (1 point)",
+                            "y": 0.1853932584269663
+                        },
+                        {
+                            "x": "Smoke more frequently during first hours after walking (1 point)",
+                            "y": 0.16741573033707868
+                        },
+                        {
+                            "x": "Cigaratte would hate most to give up: first in the morning ( 1 point)",
+                            "y": 0.31797752808988766
+                        },
+                        {
+                            "x": "Difficult to refrain in places where it is prohibited (1 point)",
+                            "y": 0.1910112359550562
+                        },
+                        {
+                            "x": "* Time to first cigaratte: < minutes (3 points)",
+                            "y": 0.09101123595505618
+                        },
+                        {
+                            "x": "* Time to first cigarrate: 6-30 minutes (2 points)",
+                            "y": 0.24719101123595505
+                        },
+                        {
+                            "x": "Time to first cigaratte: 31-60 minutes (1 point)",
+                            "y": 0.1550561797752809
+                        },
+                        {
+                            "x": "*Time to first cigaratte: >60 minutes (0 points)",
+                            "y": 0.5067415730337078
+                        },
+                        {
+                            "x": "Cigarattes per day:> 30(3 point)",
+                            "y": 0.025842696629213485
+                        },
+                        {
+                            "x": "* Cigarattes per day: 21-30 (2 points)",
+                            "y": 0.03370786516853933
+                        },
+                        {
+                            "x": "* Cigarettes per day: 11-20 (1 point)",
+                            "y": 0.37865168539325844
+                        },
+                        {
+                            "x": "* Cigarattes per day: 1- 10 (0 point)",
+                            "y": 0.5629213483146067
+                        }
+                    ],
+                    "name": "Females"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "Smoke when you are so ill and stay in bed (1 point)",
+                            "y": 0.1662921348314607
+                        },
+                        {
+                            "x": "Smoke more frequently during first hours after walking (1 point)",
+                            "y": 0.2303370786516854
+                        },
+                        {
+                            "x": "Cigaratte would hate most to give up: first in the morning ( 1 point)",
+                            "y": 0.3022471910112359
+                        },
+                        {
+                            "x": "Difficult to refrain in places where it is prohibited (1 point)",
+                            "y": 0.16404494382022472
+                        },
+                        {
+                            "x": "* Time to first cigaratte: < minutes (3 points)",
+                            "y": 0.0853932584269663
+                        },
+                        {
+                            "x": "* Time to first cigarrate: 6-30 minutes (2 points)",
+                            "y": 0.3202247191011236
+                        },
+                        {
+                            "x": "Time to first cigaratte: 31-60 minutes (1 point)",
+                            "y": 0.1943820224719101
+                        },
+                        {
+                            "x": "*Time to first cigaratte: >60 minutes (0 points)",
+                            "y": 0.40337078651685393
+                        },
+                        {
+                            "x": "Cigarattes per day:> 30(3 point)",
+                            "y": 0.08089887640449439
+                        },
+                        {
+                            "x": "* Cigarattes per day: 21-30 (2 points)",
+                            "y": 0.08764044943820226
+                        },
+                        {
+                            "x": "* Cigarettes per day: 11-20 (1 point)",
+                            "y": 0.49550561797752807
+                        },
+                        {
+                            "x": "* Cigarattes per day: 1- 10 (0 point)",
+                            "y": 0.3382022471910112
+                        }
+                    ],
+                    "name": "Males"
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 11,
+                        "width": 82,
+                        "x0": 308,
+                        "y0": 23
+                    },
+                    {
+                        "height": 11,
+                        "width": 74,
+                        "x0": 308,
+                        "y0": 34
+                    },
+                    {
+                        "height": 12,
+                        "width": 74,
+                        "x0": 308,
+                        "y0": 60
+                    },
+                    {
+                        "height": 12,
+                        "width": 102,
+                        "x0": 308,
+                        "y0": 71
+                    },
+                    {
+                        "height": 11,
+                        "width": 142,
+                        "x0": 308,
+                        "y0": 98
+                    },
+                    {
+                        "height": 11,
+                        "width": 134,
+                        "x0": 308,
+                        "y0": 109
+                    },
+                    {
+                        "height": 11,
+                        "width": 85,
+                        "x0": 308,
+                        "y0": 135
+                    },
+                    {
+                        "height": 12,
+                        "width": 73,
+                        "x0": 308,
+                        "y0": 146
+                    },
+                    {
+                        "height": 11,
+                        "width": 40,
+                        "x0": 308,
+                        "y0": 173
+                    },
+                    {
+                        "height": 11,
+                        "width": 38,
+                        "x0": 308,
+                        "y0": 184
+                    },
+                    {
+                        "height": 11,
+                        "width": 110,
+                        "x0": 308,
+                        "y0": 210
+                    },
+                    {
+                        "height": 11,
+                        "width": 142,
+                        "x0": 308,
+                        "y0": 221
+                    },
+                    {
+                        "height": 12,
+                        "width": 69,
+                        "x0": 308,
+                        "y0": 247
+                    },
+                    {
+                        "height": 11,
+                        "width": 86,
+                        "x0": 308,
+                        "y0": 259
+                    },
+                    {
+                        "height": 11,
+                        "width": 226,
+                        "x0": 308,
+                        "y0": 285
+                    },
+                    {
+                        "height": 11,
+                        "width": 180,
+                        "x0": 308,
+                        "y0": 296
+                    },
+                    {
+                        "height": 12,
+                        "width": 12,
+                        "x0": 308,
+                        "y0": 322
+                    },
+                    {
+                        "height": 12,
+                        "width": 36,
+                        "x0": 308,
+                        "y0": 333
+                    },
+                    {
+                        "height": 11,
+                        "width": 15,
+                        "x0": 308,
+                        "y0": 360
+                    },
+                    {
+                        "height": 11,
+                        "width": 39,
+                        "x0": 308,
+                        "y0": 371
+                    },
+                    {
+                        "height": 11,
+                        "width": 168,
+                        "x0": 308,
+                        "y0": 397
+                    },
+                    {
+                        "height": 11,
+                        "width": 220,
+                        "x0": 308,
+                        "y0": 408
+                    },
+                    {
+                        "height": 12,
+                        "width": 250,
+                        "x0": 308,
+                        "y0": 434
+                    },
+                    {
+                        "height": 11,
+                        "width": 150,
+                        "x0": 308,
+                        "y0": 446
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

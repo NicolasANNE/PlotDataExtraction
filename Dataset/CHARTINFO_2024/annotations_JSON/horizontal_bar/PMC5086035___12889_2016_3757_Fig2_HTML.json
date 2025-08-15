@@ -1,0 +1,2458 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 163,
+                        "x1": 193,
+                        "x2": 193,
+                        "x3": 163,
+                        "y0": 236,
+                        "y1": 236,
+                        "y2": 247,
+                        "y3": 247
+                    },
+                    "text": "0,00%"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 206,
+                        "x1": 240,
+                        "x2": 240,
+                        "x3": 206,
+                        "y0": 236,
+                        "y1": 236,
+                        "y2": 246,
+                        "y3": 246
+                    },
+                    "text": "20,00%"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 251,
+                        "x1": 285,
+                        "x2": 285,
+                        "x3": 251,
+                        "y0": 236,
+                        "y1": 236,
+                        "y2": 246,
+                        "y3": 246
+                    },
+                    "text": "40,00%"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 297,
+                        "x1": 332,
+                        "x2": 332,
+                        "x3": 297,
+                        "y0": 236,
+                        "y1": 236,
+                        "y2": 246,
+                        "y3": 246
+                    },
+                    "text": "60,00%"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 343,
+                        "x1": 377,
+                        "x2": 377,
+                        "x3": 343,
+                        "y0": 236,
+                        "y1": 236,
+                        "y2": 246,
+                        "y3": 246
+                    },
+                    "text": "80,00%"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 387,
+                        "x1": 424,
+                        "x2": 424,
+                        "x3": 387,
+                        "y0": 236,
+                        "y1": 236,
+                        "y2": 246,
+                        "y3": 246
+                    },
+                    "text": "100%"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 23,
+                        "x1": 167,
+                        "x2": 167,
+                        "x3": 23,
+                        "y0": 4,
+                        "y1": 4,
+                        "y2": 16,
+                        "y3": 16
+                    },
+                    "text": "Screentime> 2 hours per day - 2006"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 24,
+                        "x1": 167,
+                        "x2": 167,
+                        "x3": 24,
+                        "y0": 20,
+                        "y1": 20,
+                        "y2": 32,
+                        "y3": 32
+                    },
+                    "text": "Screentime > 2 hours  per day - 2012"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 26,
+                        "x1": 168,
+                        "x2": 168,
+                        "x3": 26,
+                        "y0": 37,
+                        "y1": 37,
+                        "y2": 47,
+                        "y3": 47
+                    },
+                    "text": "Tv viewing > 2 hours per day - 2006"
+                },
+                {
+                    "id": 9,
+                    "polygon": {
+                        "x0": 26,
+                        "x1": 167,
+                        "x2": 167,
+                        "x3": 26,
+                        "y0": 53,
+                        "y1": 53,
+                        "y2": 63,
+                        "y3": 63
+                    },
+                    "text": "Tv viewing > 2 hour per day - 2012"
+                },
+                {
+                    "id": 10,
+                    "polygon": {
+                        "x0": 23,
+                        "x1": 170,
+                        "x2": 170,
+                        "x3": 23,
+                        "y0": 101,
+                        "y1": 101,
+                        "y2": 112,
+                        "y3": 112
+                    },
+                    "text": "Outside play < 1 hour per day - 2006"
+                },
+                {
+                    "id": 11,
+                    "polygon": {
+                        "x0": 23,
+                        "x1": 170,
+                        "x2": 170,
+                        "x3": 23,
+                        "y0": 117,
+                        "y1": 117,
+                        "y2": 128,
+                        "y3": 128
+                    },
+                    "text": "Outside play < 1 hour per day - 2012"
+                },
+                {
+                    "id": 12,
+                    "polygon": {
+                        "x0": 0,
+                        "x1": 170,
+                        "x2": 170,
+                        "x3": 0,
+                        "y0": 69,
+                        "y1": 69,
+                        "y2": 80,
+                        "y3": 80
+                    },
+                    "text": "Organised sports < 1 hour per week - 2006"
+                },
+                {
+                    "id": 13,
+                    "polygon": {
+                        "x0": 0,
+                        "x1": 170,
+                        "x2": 170,
+                        "x3": 0,
+                        "y0": 85,
+                        "y1": 85,
+                        "y2": 96,
+                        "y3": 96
+                    },
+                    "text": "Organised play < 1 hour per week - 2012"
+                },
+                {
+                    "id": 14,
+                    "polygon": {
+                        "x0": 5,
+                        "x1": 168,
+                        "x2": 168,
+                        "x3": 5,
+                        "y0": 133,
+                        "y1": 133,
+                        "y2": 144,
+                        "y3": 144
+                    },
+                    "text": "Sugared drinks > 3 glasses per day - 2006"
+                },
+                {
+                    "id": 15,
+                    "polygon": {
+                        "x0": 7,
+                        "x1": 170,
+                        "x2": 170,
+                        "x3": 7,
+                        "y0": 149,
+                        "y1": 149,
+                        "y2": 161,
+                        "y3": 161
+                    },
+                    "text": "Sugared drinks > 3 glasses per day - 2012"
+                },
+                {
+                    "id": 16,
+                    "polygon": {
+                        "x0": 8,
+                        "x1": 170,
+                        "x2": 170,
+                        "x3": 8,
+                        "y0": 198,
+                        "y1": 198,
+                        "y2": 209,
+                        "y3": 209
+                    },
+                    "text": "Vegetable intake < 5 days a week - 2006"
+                },
+                {
+                    "id": 17,
+                    "polygon": {
+                        "x0": 8,
+                        "x1": 170,
+                        "x2": 170,
+                        "x3": 8,
+                        "y0": 214,
+                        "y1": 214,
+                        "y2": 225,
+                        "y3": 225
+                    },
+                    "text": "Vegetable intake < 5 days a week - 2012"
+                },
+                {
+                    "id": 18,
+                    "polygon": {
+                        "x0": 50,
+                        "x1": 170,
+                        "x2": 170,
+                        "x3": 50,
+                        "y0": 166,
+                        "y1": 166,
+                        "y2": 176,
+                        "y3": 176
+                    },
+                    "text": "Fruit < 2 portions a day - 2006"
+                },
+                {
+                    "id": 19,
+                    "polygon": {
+                        "x0": 48,
+                        "x1": 169,
+                        "x2": 169,
+                        "x3": 48,
+                        "y0": 182,
+                        "y1": 182,
+                        "y2": 193,
+                        "y3": 193
+                    },
+                    "text": "Fruit < 2 portions a day - 2012"
+                },
+                {
+                    "id": 20,
+                    "polygon": {
+                        "x0": 396,
+                        "x1": 566,
+                        "x2": 566,
+                        "x3": 396,
+                        "y0": 31,
+                        "y1": 31,
+                        "y2": 44,
+                        "y3": 44
+                    },
+                    "text": "Decreasing BMI sds trajectory (n=416)"
+                },
+                {
+                    "id": 21,
+                    "polygon": {
+                        "x0": 396,
+                        "x1": 563,
+                        "x2": 563,
+                        "x3": 396,
+                        "y0": 52,
+                        "y1": 52,
+                        "y2": 65,
+                        "y3": 65
+                    },
+                    "text": "Increasing BMI sds trajectory (n=197)"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 163,
+                            "x1": 193,
+                            "x2": 193,
+                            "x3": 163,
+                            "y0": 236,
+                            "y1": 236,
+                            "y2": 247,
+                            "y3": 247
+                        },
+                        "text": "0,00%"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 206,
+                            "x1": 240,
+                            "x2": 240,
+                            "x3": 206,
+                            "y0": 236,
+                            "y1": 236,
+                            "y2": 246,
+                            "y3": 246
+                        },
+                        "text": "20,00%"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 251,
+                            "x1": 285,
+                            "x2": 285,
+                            "x3": 251,
+                            "y0": 236,
+                            "y1": 236,
+                            "y2": 246,
+                            "y3": 246
+                        },
+                        "text": "40,00%"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 297,
+                            "x1": 332,
+                            "x2": 332,
+                            "x3": 297,
+                            "y0": 236,
+                            "y1": 236,
+                            "y2": 246,
+                            "y3": 246
+                        },
+                        "text": "60,00%"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 343,
+                            "x1": 377,
+                            "x2": 377,
+                            "x3": 343,
+                            "y0": 236,
+                            "y1": 236,
+                            "y2": 246,
+                            "y3": 246
+                        },
+                        "text": "80,00%"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 387,
+                            "x1": 424,
+                            "x2": 424,
+                            "x3": 387,
+                            "y0": 236,
+                            "y1": 236,
+                            "y2": 246,
+                            "y3": 246
+                        },
+                        "text": "100%"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 167,
+                            "x2": 167,
+                            "x3": 23,
+                            "y0": 4,
+                            "y1": 4,
+                            "y2": 16,
+                            "y3": 16
+                        },
+                        "text": "Screentime> 2 hours per day - 2006"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 24,
+                            "x1": 167,
+                            "x2": 167,
+                            "x3": 24,
+                            "y0": 20,
+                            "y1": 20,
+                            "y2": 32,
+                            "y3": 32
+                        },
+                        "text": "Screentime > 2 hours  per day - 2012"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 26,
+                            "x1": 168,
+                            "x2": 168,
+                            "x3": 26,
+                            "y0": 37,
+                            "y1": 37,
+                            "y2": 47,
+                            "y3": 47
+                        },
+                        "text": "Tv viewing > 2 hours per day - 2006"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 26,
+                            "x1": 167,
+                            "x2": 167,
+                            "x3": 26,
+                            "y0": 53,
+                            "y1": 53,
+                            "y2": 63,
+                            "y3": 63
+                        },
+                        "text": "Tv viewing > 2 hour per day - 2012"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 23,
+                            "y0": 101,
+                            "y1": 101,
+                            "y2": 112,
+                            "y3": 112
+                        },
+                        "text": "Outside play < 1 hour per day - 2006"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 23,
+                            "y0": 117,
+                            "y1": 117,
+                            "y2": 128,
+                            "y3": 128
+                        },
+                        "text": "Outside play < 1 hour per day - 2012"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 0,
+                            "y0": 69,
+                            "y1": 69,
+                            "y2": 80,
+                            "y3": 80
+                        },
+                        "text": "Organised sports < 1 hour per week - 2006"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 0,
+                            "y0": 85,
+                            "y1": 85,
+                            "y2": 96,
+                            "y3": 96
+                        },
+                        "text": "Organised play < 1 hour per week - 2012"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 5,
+                            "x1": 168,
+                            "x2": 168,
+                            "x3": 5,
+                            "y0": 133,
+                            "y1": 133,
+                            "y2": 144,
+                            "y3": 144
+                        },
+                        "text": "Sugared drinks > 3 glasses per day - 2006"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 7,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 7,
+                            "y0": 149,
+                            "y1": 149,
+                            "y2": 161,
+                            "y3": 161
+                        },
+                        "text": "Sugared drinks > 3 glasses per day - 2012"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 8,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 8,
+                            "y0": 198,
+                            "y1": 198,
+                            "y2": 209,
+                            "y3": 209
+                        },
+                        "text": "Vegetable intake < 5 days a week - 2006"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 8,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 8,
+                            "y0": 214,
+                            "y1": 214,
+                            "y2": 225,
+                            "y3": 225
+                        },
+                        "text": "Vegetable intake < 5 days a week - 2012"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 50,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 50,
+                            "y0": 166,
+                            "y1": 166,
+                            "y2": 176,
+                            "y3": 176
+                        },
+                        "text": "Fruit < 2 portions a day - 2006"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 48,
+                            "x1": 169,
+                            "x2": 169,
+                            "x3": 48,
+                            "y0": 182,
+                            "y1": 182,
+                            "y2": 193,
+                            "y3": 193
+                        },
+                        "text": "Fruit < 2 portions a day - 2012"
+                    },
+                    {
+                        "id": 20,
+                        "polygon": {
+                            "x0": 396,
+                            "x1": 566,
+                            "x2": 566,
+                            "x3": 396,
+                            "y0": 31,
+                            "y1": 31,
+                            "y2": 44,
+                            "y3": 44
+                        },
+                        "text": "Decreasing BMI sds trajectory (n=416)"
+                    },
+                    {
+                        "id": 21,
+                        "polygon": {
+                            "x0": 396,
+                            "x1": 563,
+                            "x2": 563,
+                            "x3": 396,
+                            "y0": 52,
+                            "y1": 52,
+                            "y2": 65,
+                            "y3": 65
+                        },
+                        "text": "Increasing BMI sds trajectory (n=197)"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 18,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 19,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 20,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 21,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 163,
+                            "x1": 193,
+                            "x2": 193,
+                            "x3": 163,
+                            "y0": 236,
+                            "y1": 236,
+                            "y2": 247,
+                            "y3": 247
+                        },
+                        "text": "0,00%"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 206,
+                            "x1": 240,
+                            "x2": 240,
+                            "x3": 206,
+                            "y0": 236,
+                            "y1": 236,
+                            "y2": 246,
+                            "y3": 246
+                        },
+                        "text": "20,00%"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 251,
+                            "x1": 285,
+                            "x2": 285,
+                            "x3": 251,
+                            "y0": 236,
+                            "y1": 236,
+                            "y2": 246,
+                            "y3": 246
+                        },
+                        "text": "40,00%"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 297,
+                            "x1": 332,
+                            "x2": 332,
+                            "x3": 297,
+                            "y0": 236,
+                            "y1": 236,
+                            "y2": 246,
+                            "y3": 246
+                        },
+                        "text": "60,00%"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 343,
+                            "x1": 377,
+                            "x2": 377,
+                            "x3": 343,
+                            "y0": 236,
+                            "y1": 236,
+                            "y2": 246,
+                            "y3": 246
+                        },
+                        "text": "80,00%"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 387,
+                            "x1": 424,
+                            "x2": 424,
+                            "x3": 387,
+                            "y0": 236,
+                            "y1": 236,
+                            "y2": 246,
+                            "y3": 246
+                        },
+                        "text": "100%"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 167,
+                            "x2": 167,
+                            "x3": 23,
+                            "y0": 4,
+                            "y1": 4,
+                            "y2": 16,
+                            "y3": 16
+                        },
+                        "text": "Screentime> 2 hours per day - 2006"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 24,
+                            "x1": 167,
+                            "x2": 167,
+                            "x3": 24,
+                            "y0": 20,
+                            "y1": 20,
+                            "y2": 32,
+                            "y3": 32
+                        },
+                        "text": "Screentime > 2 hours  per day - 2012"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 26,
+                            "x1": 168,
+                            "x2": 168,
+                            "x3": 26,
+                            "y0": 37,
+                            "y1": 37,
+                            "y2": 47,
+                            "y3": 47
+                        },
+                        "text": "Tv viewing > 2 hours per day - 2006"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 26,
+                            "x1": 167,
+                            "x2": 167,
+                            "x3": 26,
+                            "y0": 53,
+                            "y1": 53,
+                            "y2": 63,
+                            "y3": 63
+                        },
+                        "text": "Tv viewing > 2 hour per day - 2012"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 23,
+                            "y0": 101,
+                            "y1": 101,
+                            "y2": 112,
+                            "y3": 112
+                        },
+                        "text": "Outside play < 1 hour per day - 2006"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 23,
+                            "y0": 117,
+                            "y1": 117,
+                            "y2": 128,
+                            "y3": 128
+                        },
+                        "text": "Outside play < 1 hour per day - 2012"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 0,
+                            "y0": 69,
+                            "y1": 69,
+                            "y2": 80,
+                            "y3": 80
+                        },
+                        "text": "Organised sports < 1 hour per week - 2006"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 0,
+                            "y0": 85,
+                            "y1": 85,
+                            "y2": 96,
+                            "y3": 96
+                        },
+                        "text": "Organised play < 1 hour per week - 2012"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 5,
+                            "x1": 168,
+                            "x2": 168,
+                            "x3": 5,
+                            "y0": 133,
+                            "y1": 133,
+                            "y2": 144,
+                            "y3": 144
+                        },
+                        "text": "Sugared drinks > 3 glasses per day - 2006"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 7,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 7,
+                            "y0": 149,
+                            "y1": 149,
+                            "y2": 161,
+                            "y3": 161
+                        },
+                        "text": "Sugared drinks > 3 glasses per day - 2012"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 8,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 8,
+                            "y0": 198,
+                            "y1": 198,
+                            "y2": 209,
+                            "y3": 209
+                        },
+                        "text": "Vegetable intake < 5 days a week - 2006"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 8,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 8,
+                            "y0": 214,
+                            "y1": 214,
+                            "y2": 225,
+                            "y3": 225
+                        },
+                        "text": "Vegetable intake < 5 days a week - 2012"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 50,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 50,
+                            "y0": 166,
+                            "y1": 166,
+                            "y2": 176,
+                            "y3": 176
+                        },
+                        "text": "Fruit < 2 portions a day - 2006"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 48,
+                            "x1": 169,
+                            "x2": 169,
+                            "x3": 48,
+                            "y0": 182,
+                            "y1": 182,
+                            "y2": 193,
+                            "y3": 193
+                        },
+                        "text": "Fruit < 2 portions a day - 2012"
+                    },
+                    {
+                        "id": 20,
+                        "polygon": {
+                            "x0": 396,
+                            "x1": 566,
+                            "x2": 566,
+                            "x3": 396,
+                            "y0": 31,
+                            "y1": 31,
+                            "y2": 44,
+                            "y3": 44
+                        },
+                        "text": "Decreasing BMI sds trajectory (n=416)"
+                    },
+                    {
+                        "id": 21,
+                        "polygon": {
+                            "x0": 396,
+                            "x1": 563,
+                            "x2": 563,
+                            "x3": 396,
+                            "y0": 52,
+                            "y1": 52,
+                            "y2": 65,
+                            "y3": 65
+                        },
+                        "text": "Increasing BMI sds trajectory (n=197)"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 226,
+                "width": 227,
+                "x0": 178,
+                "y0": 1
+            },
+            "axes": {
+                "_x-tick-type": "separators",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 178,
+                            "y": 10
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 178,
+                            "y": 26
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 178,
+                            "y": 42
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 178,
+                            "y": 58
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 178,
+                            "y": 106
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 178,
+                            "y": 122
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 178,
+                            "y": 74
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 178,
+                            "y": 90
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 178,
+                            "y": 138
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 178,
+                            "y": 155
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 178,
+                            "y": 204
+                        }
+                    },
+                    {
+                        "id": 17,
+                        "tick_pt": {
+                            "x": 178,
+                            "y": 220
+                        }
+                    },
+                    {
+                        "id": 18,
+                        "tick_pt": {
+                            "x": 178,
+                            "y": 171
+                        }
+                    },
+                    {
+                        "id": 19,
+                        "tick_pt": {
+                            "x": 178,
+                            "y": 188
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [
+                    {
+                        "id": 0,
+                        "tick_pt": {
+                            "x": 178,
+                            "y": 227
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 224,
+                            "y": 227
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 269,
+                            "y": 227
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 315,
+                            "y": 227
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 360,
+                            "y": 227
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 406,
+                            "y": 227
+                        }
+                    }
+                ],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 163,
+                            "x1": 193,
+                            "x2": 193,
+                            "x3": 163,
+                            "y0": 236,
+                            "y1": 236,
+                            "y2": 247,
+                            "y3": 247
+                        },
+                        "text": "0,00%"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 206,
+                            "x1": 240,
+                            "x2": 240,
+                            "x3": 206,
+                            "y0": 236,
+                            "y1": 236,
+                            "y2": 246,
+                            "y3": 246
+                        },
+                        "text": "20,00%"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 251,
+                            "x1": 285,
+                            "x2": 285,
+                            "x3": 251,
+                            "y0": 236,
+                            "y1": 236,
+                            "y2": 246,
+                            "y3": 246
+                        },
+                        "text": "40,00%"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 297,
+                            "x1": 332,
+                            "x2": 332,
+                            "x3": 297,
+                            "y0": 236,
+                            "y1": 236,
+                            "y2": 246,
+                            "y3": 246
+                        },
+                        "text": "60,00%"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 343,
+                            "x1": 377,
+                            "x2": 377,
+                            "x3": 343,
+                            "y0": 236,
+                            "y1": 236,
+                            "y2": 246,
+                            "y3": 246
+                        },
+                        "text": "80,00%"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 387,
+                            "x1": 424,
+                            "x2": 424,
+                            "x3": 387,
+                            "y0": 236,
+                            "y1": 236,
+                            "y2": 246,
+                            "y3": 246
+                        },
+                        "text": "100%"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 167,
+                            "x2": 167,
+                            "x3": 23,
+                            "y0": 4,
+                            "y1": 4,
+                            "y2": 16,
+                            "y3": 16
+                        },
+                        "text": "Screentime> 2 hours per day - 2006"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 24,
+                            "x1": 167,
+                            "x2": 167,
+                            "x3": 24,
+                            "y0": 20,
+                            "y1": 20,
+                            "y2": 32,
+                            "y3": 32
+                        },
+                        "text": "Screentime > 2 hours  per day - 2012"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 26,
+                            "x1": 168,
+                            "x2": 168,
+                            "x3": 26,
+                            "y0": 37,
+                            "y1": 37,
+                            "y2": 47,
+                            "y3": 47
+                        },
+                        "text": "Tv viewing > 2 hours per day - 2006"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 26,
+                            "x1": 167,
+                            "x2": 167,
+                            "x3": 26,
+                            "y0": 53,
+                            "y1": 53,
+                            "y2": 63,
+                            "y3": 63
+                        },
+                        "text": "Tv viewing > 2 hour per day - 2012"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 23,
+                            "y0": 101,
+                            "y1": 101,
+                            "y2": 112,
+                            "y3": 112
+                        },
+                        "text": "Outside play < 1 hour per day - 2006"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 23,
+                            "y0": 117,
+                            "y1": 117,
+                            "y2": 128,
+                            "y3": 128
+                        },
+                        "text": "Outside play < 1 hour per day - 2012"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 0,
+                            "y0": 69,
+                            "y1": 69,
+                            "y2": 80,
+                            "y3": 80
+                        },
+                        "text": "Organised sports < 1 hour per week - 2006"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 0,
+                            "y0": 85,
+                            "y1": 85,
+                            "y2": 96,
+                            "y3": 96
+                        },
+                        "text": "Organised play < 1 hour per week - 2012"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 5,
+                            "x1": 168,
+                            "x2": 168,
+                            "x3": 5,
+                            "y0": 133,
+                            "y1": 133,
+                            "y2": 144,
+                            "y3": 144
+                        },
+                        "text": "Sugared drinks > 3 glasses per day - 2006"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 7,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 7,
+                            "y0": 149,
+                            "y1": 149,
+                            "y2": 161,
+                            "y3": 161
+                        },
+                        "text": "Sugared drinks > 3 glasses per day - 2012"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 8,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 8,
+                            "y0": 198,
+                            "y1": 198,
+                            "y2": 209,
+                            "y3": 209
+                        },
+                        "text": "Vegetable intake < 5 days a week - 2006"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 8,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 8,
+                            "y0": 214,
+                            "y1": 214,
+                            "y2": 225,
+                            "y3": 225
+                        },
+                        "text": "Vegetable intake < 5 days a week - 2012"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 50,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 50,
+                            "y0": 166,
+                            "y1": 166,
+                            "y2": 176,
+                            "y3": 176
+                        },
+                        "text": "Fruit < 2 portions a day - 2006"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 48,
+                            "x1": 169,
+                            "x2": 169,
+                            "x3": 48,
+                            "y0": 182,
+                            "y1": 182,
+                            "y2": 193,
+                            "y3": 193
+                        },
+                        "text": "Fruit < 2 portions a day - 2012"
+                    },
+                    {
+                        "id": 20,
+                        "polygon": {
+                            "x0": 396,
+                            "x1": 566,
+                            "x2": 566,
+                            "x3": 396,
+                            "y0": 31,
+                            "y1": 31,
+                            "y2": 44,
+                            "y3": 44
+                        },
+                        "text": "Decreasing BMI sds trajectory (n=416)"
+                    },
+                    {
+                        "id": 21,
+                        "polygon": {
+                            "x0": 396,
+                            "x1": 563,
+                            "x2": 563,
+                            "x3": 396,
+                            "y0": 52,
+                            "y1": 52,
+                            "y2": 65,
+                            "y3": 65
+                        },
+                        "text": "Increasing BMI sds trajectory (n=197)"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 8,
+                        "width": 6,
+                        "x0": 389,
+                        "y0": 34
+                    },
+                    "id": 20
+                },
+                {
+                    "bb": {
+                        "height": 8,
+                        "width": 6,
+                        "x0": 389,
+                        "y0": 54
+                    },
+                    "id": 21
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 163,
+                            "x1": 193,
+                            "x2": 193,
+                            "x3": 163,
+                            "y0": 236,
+                            "y1": 236,
+                            "y2": 247,
+                            "y3": 247
+                        },
+                        "text": "0,00%"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 206,
+                            "x1": 240,
+                            "x2": 240,
+                            "x3": 206,
+                            "y0": 236,
+                            "y1": 236,
+                            "y2": 246,
+                            "y3": 246
+                        },
+                        "text": "20,00%"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 251,
+                            "x1": 285,
+                            "x2": 285,
+                            "x3": 251,
+                            "y0": 236,
+                            "y1": 236,
+                            "y2": 246,
+                            "y3": 246
+                        },
+                        "text": "40,00%"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 297,
+                            "x1": 332,
+                            "x2": 332,
+                            "x3": 297,
+                            "y0": 236,
+                            "y1": 236,
+                            "y2": 246,
+                            "y3": 246
+                        },
+                        "text": "60,00%"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 343,
+                            "x1": 377,
+                            "x2": 377,
+                            "x3": 343,
+                            "y0": 236,
+                            "y1": 236,
+                            "y2": 246,
+                            "y3": 246
+                        },
+                        "text": "80,00%"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 387,
+                            "x1": 424,
+                            "x2": 424,
+                            "x3": 387,
+                            "y0": 236,
+                            "y1": 236,
+                            "y2": 246,
+                            "y3": 246
+                        },
+                        "text": "100%"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 167,
+                            "x2": 167,
+                            "x3": 23,
+                            "y0": 4,
+                            "y1": 4,
+                            "y2": 16,
+                            "y3": 16
+                        },
+                        "text": "Screentime> 2 hours per day - 2006"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 24,
+                            "x1": 167,
+                            "x2": 167,
+                            "x3": 24,
+                            "y0": 20,
+                            "y1": 20,
+                            "y2": 32,
+                            "y3": 32
+                        },
+                        "text": "Screentime > 2 hours  per day - 2012"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 26,
+                            "x1": 168,
+                            "x2": 168,
+                            "x3": 26,
+                            "y0": 37,
+                            "y1": 37,
+                            "y2": 47,
+                            "y3": 47
+                        },
+                        "text": "Tv viewing > 2 hours per day - 2006"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 26,
+                            "x1": 167,
+                            "x2": 167,
+                            "x3": 26,
+                            "y0": 53,
+                            "y1": 53,
+                            "y2": 63,
+                            "y3": 63
+                        },
+                        "text": "Tv viewing > 2 hour per day - 2012"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 23,
+                            "y0": 101,
+                            "y1": 101,
+                            "y2": 112,
+                            "y3": 112
+                        },
+                        "text": "Outside play < 1 hour per day - 2006"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 23,
+                            "y0": 117,
+                            "y1": 117,
+                            "y2": 128,
+                            "y3": 128
+                        },
+                        "text": "Outside play < 1 hour per day - 2012"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 0,
+                            "y0": 69,
+                            "y1": 69,
+                            "y2": 80,
+                            "y3": 80
+                        },
+                        "text": "Organised sports < 1 hour per week - 2006"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 0,
+                            "y0": 85,
+                            "y1": 85,
+                            "y2": 96,
+                            "y3": 96
+                        },
+                        "text": "Organised play < 1 hour per week - 2012"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 5,
+                            "x1": 168,
+                            "x2": 168,
+                            "x3": 5,
+                            "y0": 133,
+                            "y1": 133,
+                            "y2": 144,
+                            "y3": 144
+                        },
+                        "text": "Sugared drinks > 3 glasses per day - 2006"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 7,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 7,
+                            "y0": 149,
+                            "y1": 149,
+                            "y2": 161,
+                            "y3": 161
+                        },
+                        "text": "Sugared drinks > 3 glasses per day - 2012"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 8,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 8,
+                            "y0": 198,
+                            "y1": 198,
+                            "y2": 209,
+                            "y3": 209
+                        },
+                        "text": "Vegetable intake < 5 days a week - 2006"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 8,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 8,
+                            "y0": 214,
+                            "y1": 214,
+                            "y2": 225,
+                            "y3": 225
+                        },
+                        "text": "Vegetable intake < 5 days a week - 2012"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 50,
+                            "x1": 170,
+                            "x2": 170,
+                            "x3": 50,
+                            "y0": 166,
+                            "y1": 166,
+                            "y2": 176,
+                            "y3": 176
+                        },
+                        "text": "Fruit < 2 portions a day - 2006"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 48,
+                            "x1": 169,
+                            "x2": 169,
+                            "x3": 48,
+                            "y0": 182,
+                            "y1": 182,
+                            "y2": 193,
+                            "y3": 193
+                        },
+                        "text": "Fruit < 2 portions a day - 2012"
+                    },
+                    {
+                        "id": 20,
+                        "polygon": {
+                            "x0": 396,
+                            "x1": 566,
+                            "x2": 566,
+                            "x3": 396,
+                            "y0": 31,
+                            "y1": 31,
+                            "y2": 44,
+                            "y3": 44
+                        },
+                        "text": "Decreasing BMI sds trajectory (n=416)"
+                    },
+                    {
+                        "id": 21,
+                        "polygon": {
+                            "x0": 396,
+                            "x1": 563,
+                            "x2": 563,
+                            "x3": 396,
+                            "y0": 52,
+                            "y1": 52,
+                            "y2": 65,
+                            "y3": 65
+                        },
+                        "text": "Increasing BMI sds trajectory (n=197)"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 18,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 19,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 20,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 21,
+                        "role": "legend_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 226,
+                    "width": 227,
+                    "x0": 178,
+                    "y0": 1
+                },
+                "axes": {
+                    "_x-tick-type": "separators",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": "markers",
+                    "_y2-tick-type": null,
+                    "x-axis": [
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 178,
+                                "y": 10
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 178,
+                                "y": 26
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 178,
+                                "y": 42
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 178,
+                                "y": 58
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 178,
+                                "y": 106
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 178,
+                                "y": 122
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 178,
+                                "y": 74
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 178,
+                                "y": 90
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 178,
+                                "y": 138
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 178,
+                                "y": 155
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "tick_pt": {
+                                "x": 178,
+                                "y": 204
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "tick_pt": {
+                                "x": 178,
+                                "y": 220
+                            }
+                        },
+                        {
+                            "id": 18,
+                            "tick_pt": {
+                                "x": 178,
+                                "y": 171
+                            }
+                        },
+                        {
+                            "id": 19,
+                            "tick_pt": {
+                                "x": 178,
+                                "y": 188
+                            }
+                        }
+                    ],
+                    "x-axis-2": [],
+                    "y-axis": [
+                        {
+                            "id": 0,
+                            "tick_pt": {
+                                "x": 178,
+                                "y": 227
+                            }
+                        },
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 224,
+                                "y": 227
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 269,
+                                "y": 227
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 315,
+                                "y": 227
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 360,
+                                "y": 227
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 406,
+                                "y": 227
+                            }
+                        }
+                    ],
+                    "y-axis-2": []
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 8,
+                            "width": 6,
+                            "x0": 389,
+                            "y0": 34
+                        },
+                        "id": 20
+                    },
+                    {
+                        "bb": {
+                            "height": 8,
+                            "width": 6,
+                            "x0": 389,
+                            "y0": 54
+                        },
+                        "id": 21
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Screentime> 2 hours per day - 2006",
+                            "y": 0.05500550055005502
+                        },
+                        {
+                            "x": "Screentime > 2 hours  per day - 2012",
+                            "y": 0.5698569856985698
+                        },
+                        {
+                            "x": "Tv viewing > 2 hours per day - 2006",
+                            "y": 0.02860286028602861
+                        },
+                        {
+                            "x": "Tv viewing > 2 hour per day - 2012",
+                            "y": 0.09460946094609464
+                        },
+                        {
+                            "x": "Organised sports < 1 hour per week - 2006",
+                            "y": 0.6622662266226622
+                        },
+                        {
+                            "x": "Organised play < 1 hour per week - 2012",
+                            "y": 0.14301430143014307
+                        },
+                        {
+                            "x": "Outside play < 1 hour per day - 2006",
+                            "y": 0.5874587458745874
+                        },
+                        {
+                            "x": "Outside play < 1 hour per day - 2012",
+                            "y": 0.517051705170517
+                        },
+                        {
+                            "x": "Sugared drinks > 3 glasses per day - 2006",
+                            "y": 0.4598459845984599
+                        },
+                        {
+                            "x": "Sugared drinks > 3 glasses per day - 2012",
+                            "y": 0.3366336633663367
+                        },
+                        {
+                            "x": "Fruit < 2 portions a day - 2006",
+                            "y": 0.7282728272827282
+                        },
+                        {
+                            "x": "Fruit < 2 portions a day - 2012",
+                            "y": 0.8206820682068207
+                        },
+                        {
+                            "x": "Vegetable intake < 5 days a week - 2006",
+                            "y": 0.5522552255225521
+                        },
+                        {
+                            "x": "Vegetable intake < 5 days a week - 2012",
+                            "y": 0.5962596259625961
+                        }
+                    ],
+                    "name": "Decreasing BMI sds trajectory (n=416)"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "Screentime> 2 hours per day - 2006",
+                            "y": 0.05720572057205722
+                        },
+                        {
+                            "x": "Screentime > 2 hours  per day - 2012",
+                            "y": 0.649064906490649
+                        },
+                        {
+                            "x": "Tv viewing > 2 hours per day - 2006",
+                            "y": 0.03740374037403742
+                        },
+                        {
+                            "x": "Tv viewing > 2 hour per day - 2012",
+                            "y": 0.14301430143014307
+                        },
+                        {
+                            "x": "Organised sports < 1 hour per week - 2006",
+                            "y": 0.6886688668866886
+                        },
+                        {
+                            "x": "Organised play < 1 hour per week - 2012",
+                            "y": 0.20462046204620468
+                        },
+                        {
+                            "x": "Outside play < 1 hour per day - 2006",
+                            "y": 0.5522552255225521
+                        },
+                        {
+                            "x": "Outside play < 1 hour per day - 2012",
+                            "y": 0.4774477447744775
+                        },
+                        {
+                            "x": "Sugared drinks > 3 glasses per day - 2006",
+                            "y": 0.539053905390539
+                        },
+                        {
+                            "x": "Sugared drinks > 3 glasses per day - 2012",
+                            "y": 0.3982398239823984
+                        },
+                        {
+                            "x": "Fruit < 2 portions a day - 2006",
+                            "y": 0.7238723872387238
+                        },
+                        {
+                            "x": "Fruit < 2 portions a day - 2012",
+                            "y": 0.759075907590759
+                        },
+                        {
+                            "x": "Vegetable intake < 5 days a week - 2006",
+                            "y": 0.6050605060506049
+                        },
+                        {
+                            "x": "Vegetable intake < 5 days a week - 2012",
+                            "y": 0.5258525852585259
+                        }
+                    ],
+                    "name": "Increasing BMI sds trajectory (n=197)"
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 5,
+                        "width": 13,
+                        "x0": 178,
+                        "y0": 4
+                    },
+                    {
+                        "height": 5,
+                        "width": 14,
+                        "x0": 178,
+                        "y0": 9
+                    },
+                    {
+                        "height": 5,
+                        "width": 130,
+                        "x0": 178,
+                        "y0": 20
+                    },
+                    {
+                        "height": 5,
+                        "width": 148,
+                        "x0": 178,
+                        "y0": 25
+                    },
+                    {
+                        "height": 5,
+                        "width": 7,
+                        "x0": 178,
+                        "y0": 36
+                    },
+                    {
+                        "height": 5,
+                        "width": 9,
+                        "x0": 178,
+                        "y0": 41
+                    },
+                    {
+                        "height": 5,
+                        "width": 22,
+                        "x0": 178,
+                        "y0": 53
+                    },
+                    {
+                        "height": 5,
+                        "width": 33,
+                        "x0": 178,
+                        "y0": 58
+                    },
+                    {
+                        "height": 5,
+                        "width": 151,
+                        "x0": 178,
+                        "y0": 69
+                    },
+                    {
+                        "height": 5,
+                        "width": 157,
+                        "x0": 178,
+                        "y0": 74
+                    },
+                    {
+                        "height": 5,
+                        "width": 33,
+                        "x0": 178,
+                        "y0": 85
+                    },
+                    {
+                        "height": 5,
+                        "width": 47,
+                        "x0": 178,
+                        "y0": 90
+                    },
+                    {
+                        "height": 5,
+                        "width": 134,
+                        "x0": 178,
+                        "y0": 101
+                    },
+                    {
+                        "height": 5,
+                        "width": 126,
+                        "x0": 178,
+                        "y0": 106
+                    },
+                    {
+                        "height": 5,
+                        "width": 118,
+                        "x0": 178,
+                        "y0": 117
+                    },
+                    {
+                        "height": 5,
+                        "width": 109,
+                        "x0": 178,
+                        "y0": 122
+                    },
+                    {
+                        "height": 5,
+                        "width": 105,
+                        "x0": 178,
+                        "y0": 134
+                    },
+                    {
+                        "height": 5,
+                        "width": 123,
+                        "x0": 178,
+                        "y0": 139
+                    },
+                    {
+                        "height": 5,
+                        "width": 77,
+                        "x0": 178,
+                        "y0": 150
+                    },
+                    {
+                        "height": 5,
+                        "width": 91,
+                        "x0": 178,
+                        "y0": 155
+                    },
+                    {
+                        "height": 5,
+                        "width": 166,
+                        "x0": 178,
+                        "y0": 166
+                    },
+                    {
+                        "height": 5,
+                        "width": 165,
+                        "x0": 178,
+                        "y0": 171
+                    },
+                    {
+                        "height": 5,
+                        "width": 187,
+                        "x0": 178,
+                        "y0": 182
+                    },
+                    {
+                        "height": 5,
+                        "width": 173,
+                        "x0": 178,
+                        "y0": 187
+                    },
+                    {
+                        "height": 5,
+                        "width": 126,
+                        "x0": 178,
+                        "y0": 198
+                    },
+                    {
+                        "height": 5,
+                        "width": 138,
+                        "x0": 178,
+                        "y0": 203
+                    },
+                    {
+                        "height": 5,
+                        "width": 136,
+                        "x0": 178,
+                        "y0": 215
+                    },
+                    {
+                        "height": 5,
+                        "width": 120,
+                        "x0": 178,
+                        "y0": 220
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

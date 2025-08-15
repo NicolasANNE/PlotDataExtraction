@@ -1,0 +1,1059 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 181,
+                        "x1": 360,
+                        "x2": 360,
+                        "x3": 181,
+                        "y0": 467,
+                        "y1": 467,
+                        "y2": 533,
+                        "y3": 533
+                    },
+                    "text": "Bars in which smokers\nwere observed\n(n=4)"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 466,
+                        "x1": 645,
+                        "x2": 645,
+                        "x3": 466,
+                        "y0": 467,
+                        "y1": 467,
+                        "y2": 533,
+                        "y3": 533
+                    },
+                    "text": "Bars in which smokers\nwere not observed\n(n=17)"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 373,
+                        "x1": 459,
+                        "x2": 459,
+                        "x3": 373,
+                        "y0": 119,
+                        "y1": 119,
+                        "y2": 140,
+                        "y3": 140
+                    },
+                    "text": "p=0.018*"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 50,
+                        "x1": 99,
+                        "x2": 99,
+                        "x3": 50,
+                        "y0": 4,
+                        "y1": 4,
+                        "y2": 20,
+                        "y3": 20
+                    },
+                    "text": "10000"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 60,
+                        "x1": 99,
+                        "x2": 99,
+                        "x3": 60,
+                        "y0": 116,
+                        "y1": 116,
+                        "y2": 131,
+                        "y3": 131
+                    },
+                    "text": "1000"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 69,
+                        "x1": 99,
+                        "x2": 99,
+                        "x3": 69,
+                        "y0": 227,
+                        "y1": 227,
+                        "y2": 243,
+                        "y3": 243
+                    },
+                    "text": "100"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 79,
+                        "x1": 99,
+                        "x2": 99,
+                        "x3": 79,
+                        "y0": 338,
+                        "y1": 338,
+                        "y2": 354,
+                        "y3": 354
+                    },
+                    "text": "10"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 89,
+                        "x1": 97,
+                        "x2": 97,
+                        "x3": 89,
+                        "y0": 450,
+                        "y1": 450,
+                        "y2": 466,
+                        "y3": 466
+                    },
+                    "text": "1"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 2,
+                        "x1": 32,
+                        "x2": 32,
+                        "x3": 2,
+                        "y0": 80,
+                        "y1": 80,
+                        "y2": 389,
+                        "y3": 389
+                    },
+                    "text": "Indoor PM_{2.5} concentrations (\\micro g/m^3)"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 181,
+                            "x1": 360,
+                            "x2": 360,
+                            "x3": 181,
+                            "y0": 467,
+                            "y1": 467,
+                            "y2": 533,
+                            "y3": 533
+                        },
+                        "text": "Bars in which smokers\nwere observed\n(n=4)"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 466,
+                            "x1": 645,
+                            "x2": 645,
+                            "x3": 466,
+                            "y0": 467,
+                            "y1": 467,
+                            "y2": 533,
+                            "y3": 533
+                        },
+                        "text": "Bars in which smokers\nwere not observed\n(n=17)"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 373,
+                            "x1": 459,
+                            "x2": 459,
+                            "x3": 373,
+                            "y0": 119,
+                            "y1": 119,
+                            "y2": 140,
+                            "y3": 140
+                        },
+                        "text": "p=0.018*"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 50,
+                            "x1": 99,
+                            "x2": 99,
+                            "x3": 50,
+                            "y0": 4,
+                            "y1": 4,
+                            "y2": 20,
+                            "y3": 20
+                        },
+                        "text": "10000"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 60,
+                            "x1": 99,
+                            "x2": 99,
+                            "x3": 60,
+                            "y0": 116,
+                            "y1": 116,
+                            "y2": 131,
+                            "y3": 131
+                        },
+                        "text": "1000"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 69,
+                            "x1": 99,
+                            "x2": 99,
+                            "x3": 69,
+                            "y0": 227,
+                            "y1": 227,
+                            "y2": 243,
+                            "y3": 243
+                        },
+                        "text": "100"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 79,
+                            "x1": 99,
+                            "x2": 99,
+                            "x3": 79,
+                            "y0": 338,
+                            "y1": 338,
+                            "y2": 354,
+                            "y3": 354
+                        },
+                        "text": "10"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 89,
+                            "x1": 97,
+                            "x2": 97,
+                            "x3": 89,
+                            "y0": 450,
+                            "y1": 450,
+                            "y2": 466,
+                            "y3": 466
+                        },
+                        "text": "1"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 2,
+                            "x1": 32,
+                            "x2": 32,
+                            "x3": 2,
+                            "y0": 80,
+                            "y1": 80,
+                            "y2": 389,
+                            "y3": 389
+                        },
+                        "text": "Indoor PM_{2.5} concentrations (\\micro g/m^3)"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "other"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "axis_title"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 181,
+                            "x1": 360,
+                            "x2": 360,
+                            "x3": 181,
+                            "y0": 467,
+                            "y1": 467,
+                            "y2": 533,
+                            "y3": 533
+                        },
+                        "text": "Bars in which smokers\nwere observed\n(n=4)"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 466,
+                            "x1": 645,
+                            "x2": 645,
+                            "x3": 466,
+                            "y0": 467,
+                            "y1": 467,
+                            "y2": 533,
+                            "y3": 533
+                        },
+                        "text": "Bars in which smokers\nwere not observed\n(n=17)"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 373,
+                            "x1": 459,
+                            "x2": 459,
+                            "x3": 373,
+                            "y0": 119,
+                            "y1": 119,
+                            "y2": 140,
+                            "y3": 140
+                        },
+                        "text": "p=0.018*"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 50,
+                            "x1": 99,
+                            "x2": 99,
+                            "x3": 50,
+                            "y0": 4,
+                            "y1": 4,
+                            "y2": 20,
+                            "y3": 20
+                        },
+                        "text": "10000"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 60,
+                            "x1": 99,
+                            "x2": 99,
+                            "x3": 60,
+                            "y0": 116,
+                            "y1": 116,
+                            "y2": 131,
+                            "y3": 131
+                        },
+                        "text": "1000"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 69,
+                            "x1": 99,
+                            "x2": 99,
+                            "x3": 69,
+                            "y0": 227,
+                            "y1": 227,
+                            "y2": 243,
+                            "y3": 243
+                        },
+                        "text": "100"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 79,
+                            "x1": 99,
+                            "x2": 99,
+                            "x3": 79,
+                            "y0": 338,
+                            "y1": 338,
+                            "y2": 354,
+                            "y3": 354
+                        },
+                        "text": "10"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 89,
+                            "x1": 97,
+                            "x2": 97,
+                            "x3": 89,
+                            "y0": 450,
+                            "y1": 450,
+                            "y2": 466,
+                            "y3": 466
+                        },
+                        "text": "1"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 2,
+                            "x1": 32,
+                            "x2": 32,
+                            "x3": 2,
+                            "y0": 80,
+                            "y1": 80,
+                            "y2": 389,
+                            "y3": 389
+                        },
+                        "text": "Indoor PM_{2.5} concentrations (\\micro g/m^3)"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 447,
+                "width": 620,
+                "x0": 107,
+                "y0": 12
+            },
+            "axes": {
+                "_x-tick-type": "markers",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 0,
+                        "tick_pt": {
+                            "x": 278,
+                            "y": 459
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 557,
+                            "y": 459
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 107,
+                            "y": 12
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 107,
+                            "y": 124
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 107,
+                            "y": 235
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 107,
+                            "y": 347
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 107,
+                            "y": 459
+                        }
+                    }
+                ],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 181,
+                            "x1": 360,
+                            "x2": 360,
+                            "x3": 181,
+                            "y0": 467,
+                            "y1": 467,
+                            "y2": 533,
+                            "y3": 533
+                        },
+                        "text": "Bars in which smokers\nwere observed\n(n=4)"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 466,
+                            "x1": 645,
+                            "x2": 645,
+                            "x3": 466,
+                            "y0": 467,
+                            "y1": 467,
+                            "y2": 533,
+                            "y3": 533
+                        },
+                        "text": "Bars in which smokers\nwere not observed\n(n=17)"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 373,
+                            "x1": 459,
+                            "x2": 459,
+                            "x3": 373,
+                            "y0": 119,
+                            "y1": 119,
+                            "y2": 140,
+                            "y3": 140
+                        },
+                        "text": "p=0.018*"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 50,
+                            "x1": 99,
+                            "x2": 99,
+                            "x3": 50,
+                            "y0": 4,
+                            "y1": 4,
+                            "y2": 20,
+                            "y3": 20
+                        },
+                        "text": "10000"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 60,
+                            "x1": 99,
+                            "x2": 99,
+                            "x3": 60,
+                            "y0": 116,
+                            "y1": 116,
+                            "y2": 131,
+                            "y3": 131
+                        },
+                        "text": "1000"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 69,
+                            "x1": 99,
+                            "x2": 99,
+                            "x3": 69,
+                            "y0": 227,
+                            "y1": 227,
+                            "y2": 243,
+                            "y3": 243
+                        },
+                        "text": "100"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 79,
+                            "x1": 99,
+                            "x2": 99,
+                            "x3": 79,
+                            "y0": 338,
+                            "y1": 338,
+                            "y2": 354,
+                            "y3": 354
+                        },
+                        "text": "10"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 89,
+                            "x1": 97,
+                            "x2": 97,
+                            "x3": 89,
+                            "y0": 450,
+                            "y1": 450,
+                            "y2": 466,
+                            "y3": 466
+                        },
+                        "text": "1"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 2,
+                            "x1": 32,
+                            "x2": 32,
+                            "x3": 2,
+                            "y0": 80,
+                            "y1": 80,
+                            "y2": 389,
+                            "y3": 389
+                        },
+                        "text": "Indoor PM_{2.5} concentrations (\\micro g/m^3)"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 181,
+                            "x1": 360,
+                            "x2": 360,
+                            "x3": 181,
+                            "y0": 467,
+                            "y1": 467,
+                            "y2": 533,
+                            "y3": 533
+                        },
+                        "text": "Bars in which smokers\nwere observed\n(n=4)"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 466,
+                            "x1": 645,
+                            "x2": 645,
+                            "x3": 466,
+                            "y0": 467,
+                            "y1": 467,
+                            "y2": 533,
+                            "y3": 533
+                        },
+                        "text": "Bars in which smokers\nwere not observed\n(n=17)"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 373,
+                            "x1": 459,
+                            "x2": 459,
+                            "x3": 373,
+                            "y0": 119,
+                            "y1": 119,
+                            "y2": 140,
+                            "y3": 140
+                        },
+                        "text": "p=0.018*"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 50,
+                            "x1": 99,
+                            "x2": 99,
+                            "x3": 50,
+                            "y0": 4,
+                            "y1": 4,
+                            "y2": 20,
+                            "y3": 20
+                        },
+                        "text": "10000"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 60,
+                            "x1": 99,
+                            "x2": 99,
+                            "x3": 60,
+                            "y0": 116,
+                            "y1": 116,
+                            "y2": 131,
+                            "y3": 131
+                        },
+                        "text": "1000"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 69,
+                            "x1": 99,
+                            "x2": 99,
+                            "x3": 69,
+                            "y0": 227,
+                            "y1": 227,
+                            "y2": 243,
+                            "y3": 243
+                        },
+                        "text": "100"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 79,
+                            "x1": 99,
+                            "x2": 99,
+                            "x3": 79,
+                            "y0": 338,
+                            "y1": 338,
+                            "y2": 354,
+                            "y3": 354
+                        },
+                        "text": "10"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 89,
+                            "x1": 97,
+                            "x2": 97,
+                            "x3": 89,
+                            "y0": 450,
+                            "y1": 450,
+                            "y2": 466,
+                            "y3": 466
+                        },
+                        "text": "1"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 2,
+                            "x1": 32,
+                            "x2": 32,
+                            "x3": 2,
+                            "y0": 80,
+                            "y1": 80,
+                            "y2": 389,
+                            "y3": 389
+                        },
+                        "text": "Indoor PM_{2.5} concentrations (\\micro g/m^3)"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "other"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "axis_title"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 447,
+                    "width": 620,
+                    "x0": 107,
+                    "y0": 12
+                },
+                "axes": {
+                    "_x-tick-type": "markers",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": "markers",
+                    "_y2-tick-type": null,
+                    "x-axis": [
+                        {
+                            "id": 0,
+                            "tick_pt": {
+                                "x": 278,
+                                "y": 459
+                            }
+                        },
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 557,
+                                "y": 459
+                            }
+                        }
+                    ],
+                    "x-axis-2": [],
+                    "y-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 107,
+                                "y": 12
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 107,
+                                "y": 124
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 107,
+                                "y": 235
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 107,
+                                "y": 347
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 107,
+                                "y": 459
+                            }
+                        }
+                    ],
+                    "y-axis-2": []
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "first_quartile": 68.89070750586355,
+                            "max": 220.18558946899816,
+                            "median": 136.0727854478553,
+                            "min": 68.89070750586355,
+                            "third_quartile": 220.18558946899816,
+                            "x": "Bars in which smokers\nwere observed\n(n=4)"
+                        },
+                        {
+                            "first_quartile": 11.689109508117031,
+                            "max": 97.82388554747072,
+                            "median": 18.275497770623026,
+                            "min": 9.91101752910091,
+                            "third_quartile": 48.515038572613314,
+                            "x": "Bars in which smokers\nwere not observed\n(n=17)"
+                        }
+                    ],
+                    "name": "[unnamed data series #0]"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 140.0,
+                                "x0": 205.0,
+                                "y0": 253.0
+                            },
+                            "x": 275.0,
+                            "y": 253.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 140.0,
+                                "x0": 205.0,
+                                "y0": 197.0
+                            },
+                            "x": 275.0,
+                            "y": 197.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 140.0,
+                                "x0": 205.0,
+                                "y0": 220.0
+                            },
+                            "x": 275.0,
+                            "y": 220.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 140.0,
+                                "x0": 205.0,
+                                "y0": 253.0
+                            },
+                            "x": 275.0,
+                            "y": 253.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 140.0,
+                                "x0": 205.0,
+                                "y0": 197.0
+                            },
+                            "x": 275.0,
+                            "y": 197.0
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 140.0,
+                                "x0": 486.0,
+                                "y0": 339.0
+                            },
+                            "x": 556.0,
+                            "y": 339.0
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 140.0,
+                                "x0": 486.0,
+                                "y0": 236.0
+                            },
+                            "x": 556.0,
+                            "y": 236.0
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 140.0,
+                                "x0": 486.0,
+                                "y0": 318.0
+                            },
+                            "x": 556.0,
+                            "y": 318.0
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 140.0,
+                                "x0": 486.0,
+                                "y0": 347.0
+                            },
+                            "x": 556.0,
+                            "y": 347.0
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0.0,
+                                "width": 140.0,
+                                "x0": 486.0,
+                                "y0": 270.0
+                            },
+                            "x": 556.0,
+                            "y": 270.0
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

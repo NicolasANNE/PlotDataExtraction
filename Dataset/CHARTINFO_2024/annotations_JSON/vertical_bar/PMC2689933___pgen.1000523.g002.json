@@ -1,0 +1,881 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "vertical bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 276,
+                        "x1": 330,
+                        "x2": 330,
+                        "x3": 276,
+                        "y0": 275,
+                        "y1": 275,
+                        "y2": 289,
+                        "y3": 289
+                    },
+                    "text": "Lesional"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 114,
+                        "x1": 194,
+                        "x2": 194,
+                        "x3": 114,
+                        "y0": 275,
+                        "y1": 275,
+                        "y2": 289,
+                        "y3": 289
+                    },
+                    "text": "Non-lesional"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 43,
+                        "x1": 52,
+                        "x2": 52,
+                        "x3": 43,
+                        "y0": 1,
+                        "y1": 1,
+                        "y2": 12,
+                        "y3": 12
+                    },
+                    "text": "4"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 44,
+                        "x1": 52,
+                        "x2": 52,
+                        "x3": 44,
+                        "y0": 64,
+                        "y1": 64,
+                        "y2": 75,
+                        "y3": 75
+                    },
+                    "text": "3"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 44,
+                        "x1": 52,
+                        "x2": 52,
+                        "x3": 44,
+                        "y0": 128,
+                        "y1": 128,
+                        "y2": 139,
+                        "y3": 139
+                    },
+                    "text": "2"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 44,
+                        "x1": 51,
+                        "x2": 51,
+                        "x3": 44,
+                        "y0": 191,
+                        "y1": 191,
+                        "y2": 202,
+                        "y3": 202
+                    },
+                    "text": "1"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 44,
+                        "x1": 52,
+                        "x2": 52,
+                        "x3": 44,
+                        "y0": 254,
+                        "y1": 254,
+                        "y2": 266,
+                        "y3": 266
+                    },
+                    "text": "0"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 1,
+                        "x1": 32,
+                        "x2": 32,
+                        "x3": 1,
+                        "y0": 38,
+                        "y1": 38,
+                        "y2": 229,
+                        "y3": 229
+                    },
+                    "text": "Relative expression\nlesional over non-lesional skin"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 276,
+                            "x1": 330,
+                            "x2": 330,
+                            "x3": 276,
+                            "y0": 275,
+                            "y1": 275,
+                            "y2": 289,
+                            "y3": 289
+                        },
+                        "text": "Lesional"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 114,
+                            "x1": 194,
+                            "x2": 194,
+                            "x3": 114,
+                            "y0": 275,
+                            "y1": 275,
+                            "y2": 289,
+                            "y3": 289
+                        },
+                        "text": "Non-lesional"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 43,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 43,
+                            "y0": 1,
+                            "y1": 1,
+                            "y2": 12,
+                            "y3": 12
+                        },
+                        "text": "4"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 44,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 44,
+                            "y0": 64,
+                            "y1": 64,
+                            "y2": 75,
+                            "y3": 75
+                        },
+                        "text": "3"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 44,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 44,
+                            "y0": 128,
+                            "y1": 128,
+                            "y2": 139,
+                            "y3": 139
+                        },
+                        "text": "2"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 44,
+                            "x1": 51,
+                            "x2": 51,
+                            "x3": 44,
+                            "y0": 191,
+                            "y1": 191,
+                            "y2": 202,
+                            "y3": 202
+                        },
+                        "text": "1"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 44,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 44,
+                            "y0": 254,
+                            "y1": 254,
+                            "y2": 266,
+                            "y3": 266
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 1,
+                            "x1": 32,
+                            "x2": 32,
+                            "x3": 1,
+                            "y0": 38,
+                            "y1": 38,
+                            "y2": 229,
+                            "y3": 229
+                        },
+                        "text": "Relative expression\nlesional over non-lesional skin"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "axis_title"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 276,
+                            "x1": 330,
+                            "x2": 330,
+                            "x3": 276,
+                            "y0": 275,
+                            "y1": 275,
+                            "y2": 289,
+                            "y3": 289
+                        },
+                        "text": "Lesional"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 114,
+                            "x1": 194,
+                            "x2": 194,
+                            "x3": 114,
+                            "y0": 275,
+                            "y1": 275,
+                            "y2": 289,
+                            "y3": 289
+                        },
+                        "text": "Non-lesional"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 43,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 43,
+                            "y0": 1,
+                            "y1": 1,
+                            "y2": 12,
+                            "y3": 12
+                        },
+                        "text": "4"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 44,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 44,
+                            "y0": 64,
+                            "y1": 64,
+                            "y2": 75,
+                            "y3": 75
+                        },
+                        "text": "3"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 44,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 44,
+                            "y0": 128,
+                            "y1": 128,
+                            "y2": 139,
+                            "y3": 139
+                        },
+                        "text": "2"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 44,
+                            "x1": 51,
+                            "x2": 51,
+                            "x3": 44,
+                            "y0": 191,
+                            "y1": 191,
+                            "y2": 202,
+                            "y3": 202
+                        },
+                        "text": "1"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 44,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 44,
+                            "y0": 254,
+                            "y1": 254,
+                            "y2": 266,
+                            "y3": 266
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 1,
+                            "x1": 32,
+                            "x2": 32,
+                            "x3": 1,
+                            "y0": 38,
+                            "y1": 38,
+                            "y2": 229,
+                            "y3": 229
+                        },
+                        "text": "Relative expression\nlesional over non-lesional skin"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 254,
+                "width": 342,
+                "x0": 59,
+                "y0": 7
+            },
+            "axes": {
+                "_x-tick-type": "separators",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 0,
+                        "tick_pt": {
+                            "x": 303,
+                            "y": 261
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 154,
+                            "y": 261
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 59,
+                            "y": 7
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 59,
+                            "y": 70
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 59,
+                            "y": 133
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 59,
+                            "y": 196
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 59,
+                            "y": 260
+                        }
+                    }
+                ],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 276,
+                            "x1": 330,
+                            "x2": 330,
+                            "x3": 276,
+                            "y0": 275,
+                            "y1": 275,
+                            "y2": 289,
+                            "y3": 289
+                        },
+                        "text": "Lesional"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 114,
+                            "x1": 194,
+                            "x2": 194,
+                            "x3": 114,
+                            "y0": 275,
+                            "y1": 275,
+                            "y2": 289,
+                            "y3": 289
+                        },
+                        "text": "Non-lesional"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 43,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 43,
+                            "y0": 1,
+                            "y1": 1,
+                            "y2": 12,
+                            "y3": 12
+                        },
+                        "text": "4"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 44,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 44,
+                            "y0": 64,
+                            "y1": 64,
+                            "y2": 75,
+                            "y3": 75
+                        },
+                        "text": "3"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 44,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 44,
+                            "y0": 128,
+                            "y1": 128,
+                            "y2": 139,
+                            "y3": 139
+                        },
+                        "text": "2"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 44,
+                            "x1": 51,
+                            "x2": 51,
+                            "x3": 44,
+                            "y0": 191,
+                            "y1": 191,
+                            "y2": 202,
+                            "y3": 202
+                        },
+                        "text": "1"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 44,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 44,
+                            "y0": 254,
+                            "y1": 254,
+                            "y2": 266,
+                            "y3": 266
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 1,
+                            "x1": 32,
+                            "x2": 32,
+                            "x3": 1,
+                            "y0": 38,
+                            "y1": 38,
+                            "y2": 229,
+                            "y3": 229
+                        },
+                        "text": "Relative expression\nlesional over non-lesional skin"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 276,
+                            "x1": 330,
+                            "x2": 330,
+                            "x3": 276,
+                            "y0": 275,
+                            "y1": 275,
+                            "y2": 289,
+                            "y3": 289
+                        },
+                        "text": "Lesional"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 114,
+                            "x1": 194,
+                            "x2": 194,
+                            "x3": 114,
+                            "y0": 275,
+                            "y1": 275,
+                            "y2": 289,
+                            "y3": 289
+                        },
+                        "text": "Non-lesional"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 43,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 43,
+                            "y0": 1,
+                            "y1": 1,
+                            "y2": 12,
+                            "y3": 12
+                        },
+                        "text": "4"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 44,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 44,
+                            "y0": 64,
+                            "y1": 64,
+                            "y2": 75,
+                            "y3": 75
+                        },
+                        "text": "3"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 44,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 44,
+                            "y0": 128,
+                            "y1": 128,
+                            "y2": 139,
+                            "y3": 139
+                        },
+                        "text": "2"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 44,
+                            "x1": 51,
+                            "x2": 51,
+                            "x3": 44,
+                            "y0": 191,
+                            "y1": 191,
+                            "y2": 202,
+                            "y3": 202
+                        },
+                        "text": "1"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 44,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 44,
+                            "y0": 254,
+                            "y1": 254,
+                            "y2": 266,
+                            "y3": 266
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 1,
+                            "x1": 32,
+                            "x2": 32,
+                            "x3": 1,
+                            "y0": 38,
+                            "y1": 38,
+                            "y2": 229,
+                            "y3": 229
+                        },
+                        "text": "Relative expression\nlesional over non-lesional skin"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "axis_title"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 254,
+                    "width": 342,
+                    "x0": 59,
+                    "y0": 7
+                },
+                "axes": {
+                    "_x-tick-type": "separators",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": "markers",
+                    "_y2-tick-type": null,
+                    "x-axis": [
+                        {
+                            "id": 0,
+                            "tick_pt": {
+                                "x": 303,
+                                "y": 261
+                            }
+                        },
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 154,
+                                "y": 261
+                            }
+                        }
+                    ],
+                    "x-axis-2": [],
+                    "y-axis": [
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 59,
+                                "y": 7
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 59,
+                                "y": 70
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 59,
+                                "y": 133
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 59,
+                                "y": 196
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 59,
+                                "y": 260
+                            }
+                        }
+                    ],
+                    "y-axis-2": []
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Non-lesional",
+                            "y": 0.9900990099009901
+                        },
+                        {
+                            "x": "Lesional",
+                            "y": 1.9722772277227723
+                        }
+                    ],
+                    "name": "[unnamed data series #0]"
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 63,
+                        "width": 44,
+                        "x0": 134,
+                        "y0": 197
+                    },
+                    {
+                        "height": 125,
+                        "width": 44,
+                        "x0": 280,
+                        "y0": 135
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

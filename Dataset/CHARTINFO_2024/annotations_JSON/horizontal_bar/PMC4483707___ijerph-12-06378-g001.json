@@ -1,0 +1,2089 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 351,
+                        "x1": 374,
+                        "x2": 374,
+                        "x3": 351,
+                        "y0": 1,
+                        "y1": 1,
+                        "y2": 14,
+                        "y3": 14
+                    },
+                    "text": "0%"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 422,
+                        "x1": 454,
+                        "x2": 454,
+                        "x3": 422,
+                        "y0": 0,
+                        "y1": 0,
+                        "y2": 14,
+                        "y3": 14
+                    },
+                    "text": "20%"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 497,
+                        "x1": 529,
+                        "x2": 529,
+                        "x3": 497,
+                        "y0": 0,
+                        "y1": 0,
+                        "y2": 13,
+                        "y3": 13
+                    },
+                    "text": "40%"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 573,
+                        "x1": 605,
+                        "x2": 605,
+                        "x3": 573,
+                        "y0": 0,
+                        "y1": 0,
+                        "y2": 14,
+                        "y3": 14
+                    },
+                    "text": "60%"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 648,
+                        "x1": 679,
+                        "x2": 679,
+                        "x3": 648,
+                        "y0": 0,
+                        "y1": 0,
+                        "y2": 13,
+                        "y3": 13
+                    },
+                    "text": "80%"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 720,
+                        "x1": 760,
+                        "x2": 760,
+                        "x3": 720,
+                        "y0": 0,
+                        "y1": 0,
+                        "y2": 14,
+                        "y3": 14
+                    },
+                    "text": "100%"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 425,
+                        "x1": 465,
+                        "x2": 465,
+                        "x3": 425,
+                        "y0": 239,
+                        "y1": 239,
+                        "y2": 252,
+                        "y3": 252
+                    },
+                    "text": "Never"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 426,
+                        "x1": 534,
+                        "x2": 534,
+                        "x3": 426,
+                        "y0": 218,
+                        "y1": 218,
+                        "y2": 234,
+                        "y3": 234
+                    },
+                    "text": "Sometimes/rarely"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 426,
+                        "x1": 509,
+                        "x2": 509,
+                        "x3": 426,
+                        "y0": 198,
+                        "y1": 198,
+                        "y2": 216,
+                        "y3": 216
+                    },
+                    "text": "Always/often"
+                },
+                {
+                    "id": 9,
+                    "polygon": {
+                        "x0": 1,
+                        "x1": 351,
+                        "x2": 351,
+                        "x3": 1,
+                        "y0": 28,
+                        "y1": 28,
+                        "y2": 44,
+                        "y3": 44
+                    },
+                    "text": "Airport, indoor employee-only or restricted area (N=589)"
+                },
+                {
+                    "id": 10,
+                    "polygon": {
+                        "x0": 33,
+                        "x1": 351,
+                        "x2": 351,
+                        "x3": 33,
+                        "y0": 46,
+                        "y1": 46,
+                        "y2": 63,
+                        "y3": 63
+                    },
+                    "text": "Airport, designated smoking rooms or area (N=590)"
+                },
+                {
+                    "id": 11,
+                    "polygon": {
+                        "x0": 58,
+                        "x1": 351,
+                        "x2": 351,
+                        "x3": 58,
+                        "y0": 64,
+                        "y1": 64,
+                        "y2": 80,
+                        "y3": 80
+                    },
+                    "text": "Restaurant/caf\u00e9/bar, indoor public area (N=587)"
+                },
+                {
+                    "id": 12,
+                    "polygon": {
+                        "x0": 52,
+                        "x1": 351,
+                        "x2": 351,
+                        "x3": 52,
+                        "y0": 83,
+                        "y1": 83,
+                        "y2": 99,
+                        "y3": 99
+                    },
+                    "text": "Hotel, lobby or other indoor public area (N=589)"
+                },
+                {
+                    "id": 13,
+                    "polygon": {
+                        "x0": 139,
+                        "x1": 351,
+                        "x2": 351,
+                        "x3": 139,
+                        "y0": 101,
+                        "y1": 101,
+                        "y2": 118,
+                        "y3": 118
+                    },
+                    "text": "Hotel, restaurant/caf\u00e9/bar (N=588)"
+                },
+                {
+                    "id": 14,
+                    "polygon": {
+                        "x0": 57,
+                        "x1": 351,
+                        "x2": 351,
+                        "x3": 57,
+                        "y0": 119,
+                        "y1": 119,
+                        "y2": 136,
+                        "y3": 136
+                    },
+                    "text": "Transportation vehicle (including cars) (N=585)"
+                },
+                {
+                    "id": 15,
+                    "polygon": {
+                        "x0": 164,
+                        "x1": 351,
+                        "x2": 351,
+                        "x3": 164,
+                        "y0": 138,
+                        "y1": 138,
+                        "y2": 155,
+                        "y3": 155
+                    },
+                    "text": "Airport, outdoor area (N=591)"
+                },
+                {
+                    "id": 16,
+                    "polygon": {
+                        "x0": 50,
+                        "x1": 351,
+                        "x2": 351,
+                        "x3": 50,
+                        "y0": 156,
+                        "y1": 156,
+                        "y2": 173,
+                        "y3": 173
+                    },
+                    "text": "Restaurant/caf\u00e9/bar, outdoor public area (N=585)"
+                },
+                {
+                    "id": 17,
+                    "polygon": {
+                        "x0": 81,
+                        "x1": 350,
+                        "x2": 350,
+                        "x3": 81,
+                        "y0": 174,
+                        "y1": 174,
+                        "y2": 191,
+                        "y3": 191
+                    },
+                    "text": "Other public area \"out in the open\" (N=521)"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 351,
+                            "x1": 374,
+                            "x2": 374,
+                            "x3": 351,
+                            "y0": 1,
+                            "y1": 1,
+                            "y2": 14,
+                            "y3": 14
+                        },
+                        "text": "0%"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 422,
+                            "x1": 454,
+                            "x2": 454,
+                            "x3": 422,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 14,
+                            "y3": 14
+                        },
+                        "text": "20%"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 497,
+                            "x1": 529,
+                            "x2": 529,
+                            "x3": 497,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 13,
+                            "y3": 13
+                        },
+                        "text": "40%"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 573,
+                            "x1": 605,
+                            "x2": 605,
+                            "x3": 573,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 14,
+                            "y3": 14
+                        },
+                        "text": "60%"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 648,
+                            "x1": 679,
+                            "x2": 679,
+                            "x3": 648,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 13,
+                            "y3": 13
+                        },
+                        "text": "80%"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 720,
+                            "x1": 760,
+                            "x2": 760,
+                            "x3": 720,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 14,
+                            "y3": 14
+                        },
+                        "text": "100%"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 425,
+                            "x1": 465,
+                            "x2": 465,
+                            "x3": 425,
+                            "y0": 239,
+                            "y1": 239,
+                            "y2": 252,
+                            "y3": 252
+                        },
+                        "text": "Never"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 426,
+                            "x1": 534,
+                            "x2": 534,
+                            "x3": 426,
+                            "y0": 218,
+                            "y1": 218,
+                            "y2": 234,
+                            "y3": 234
+                        },
+                        "text": "Sometimes/rarely"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 426,
+                            "x1": 509,
+                            "x2": 509,
+                            "x3": 426,
+                            "y0": 198,
+                            "y1": 198,
+                            "y2": 216,
+                            "y3": 216
+                        },
+                        "text": "Always/often"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 1,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 1,
+                            "y0": 28,
+                            "y1": 28,
+                            "y2": 44,
+                            "y3": 44
+                        },
+                        "text": "Airport, indoor employee-only or restricted area (N=589)"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 33,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 33,
+                            "y0": 46,
+                            "y1": 46,
+                            "y2": 63,
+                            "y3": 63
+                        },
+                        "text": "Airport, designated smoking rooms or area (N=590)"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 58,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 58,
+                            "y0": 64,
+                            "y1": 64,
+                            "y2": 80,
+                            "y3": 80
+                        },
+                        "text": "Restaurant/caf\u00e9/bar, indoor public area (N=587)"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 52,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 52,
+                            "y0": 83,
+                            "y1": 83,
+                            "y2": 99,
+                            "y3": 99
+                        },
+                        "text": "Hotel, lobby or other indoor public area (N=589)"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 139,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 139,
+                            "y0": 101,
+                            "y1": 101,
+                            "y2": 118,
+                            "y3": 118
+                        },
+                        "text": "Hotel, restaurant/caf\u00e9/bar (N=588)"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 57,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 57,
+                            "y0": 119,
+                            "y1": 119,
+                            "y2": 136,
+                            "y3": 136
+                        },
+                        "text": "Transportation vehicle (including cars) (N=585)"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 164,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 164,
+                            "y0": 138,
+                            "y1": 138,
+                            "y2": 155,
+                            "y3": 155
+                        },
+                        "text": "Airport, outdoor area (N=591)"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 50,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 50,
+                            "y0": 156,
+                            "y1": 156,
+                            "y2": 173,
+                            "y3": 173
+                        },
+                        "text": "Restaurant/caf\u00e9/bar, outdoor public area (N=585)"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 81,
+                            "x1": 350,
+                            "x2": 350,
+                            "x3": 81,
+                            "y0": 174,
+                            "y1": 174,
+                            "y2": 191,
+                            "y3": 191
+                        },
+                        "text": "Other public area \"out in the open\" (N=521)"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 7,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 8,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 351,
+                            "x1": 374,
+                            "x2": 374,
+                            "x3": 351,
+                            "y0": 1,
+                            "y1": 1,
+                            "y2": 14,
+                            "y3": 14
+                        },
+                        "text": "0%"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 422,
+                            "x1": 454,
+                            "x2": 454,
+                            "x3": 422,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 14,
+                            "y3": 14
+                        },
+                        "text": "20%"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 497,
+                            "x1": 529,
+                            "x2": 529,
+                            "x3": 497,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 13,
+                            "y3": 13
+                        },
+                        "text": "40%"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 573,
+                            "x1": 605,
+                            "x2": 605,
+                            "x3": 573,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 14,
+                            "y3": 14
+                        },
+                        "text": "60%"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 648,
+                            "x1": 679,
+                            "x2": 679,
+                            "x3": 648,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 13,
+                            "y3": 13
+                        },
+                        "text": "80%"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 720,
+                            "x1": 760,
+                            "x2": 760,
+                            "x3": 720,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 14,
+                            "y3": 14
+                        },
+                        "text": "100%"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 425,
+                            "x1": 465,
+                            "x2": 465,
+                            "x3": 425,
+                            "y0": 239,
+                            "y1": 239,
+                            "y2": 252,
+                            "y3": 252
+                        },
+                        "text": "Never"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 426,
+                            "x1": 534,
+                            "x2": 534,
+                            "x3": 426,
+                            "y0": 218,
+                            "y1": 218,
+                            "y2": 234,
+                            "y3": 234
+                        },
+                        "text": "Sometimes/rarely"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 426,
+                            "x1": 509,
+                            "x2": 509,
+                            "x3": 426,
+                            "y0": 198,
+                            "y1": 198,
+                            "y2": 216,
+                            "y3": 216
+                        },
+                        "text": "Always/often"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 1,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 1,
+                            "y0": 28,
+                            "y1": 28,
+                            "y2": 44,
+                            "y3": 44
+                        },
+                        "text": "Airport, indoor employee-only or restricted area (N=589)"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 33,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 33,
+                            "y0": 46,
+                            "y1": 46,
+                            "y2": 63,
+                            "y3": 63
+                        },
+                        "text": "Airport, designated smoking rooms or area (N=590)"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 58,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 58,
+                            "y0": 64,
+                            "y1": 64,
+                            "y2": 80,
+                            "y3": 80
+                        },
+                        "text": "Restaurant/caf\u00e9/bar, indoor public area (N=587)"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 52,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 52,
+                            "y0": 83,
+                            "y1": 83,
+                            "y2": 99,
+                            "y3": 99
+                        },
+                        "text": "Hotel, lobby or other indoor public area (N=589)"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 139,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 139,
+                            "y0": 101,
+                            "y1": 101,
+                            "y2": 118,
+                            "y3": 118
+                        },
+                        "text": "Hotel, restaurant/caf\u00e9/bar (N=588)"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 57,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 57,
+                            "y0": 119,
+                            "y1": 119,
+                            "y2": 136,
+                            "y3": 136
+                        },
+                        "text": "Transportation vehicle (including cars) (N=585)"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 164,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 164,
+                            "y0": 138,
+                            "y1": 138,
+                            "y2": 155,
+                            "y3": 155
+                        },
+                        "text": "Airport, outdoor area (N=591)"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 50,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 50,
+                            "y0": 156,
+                            "y1": 156,
+                            "y2": 173,
+                            "y3": 173
+                        },
+                        "text": "Restaurant/caf\u00e9/bar, outdoor public area (N=585)"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 81,
+                            "x1": 350,
+                            "x2": 350,
+                            "x3": 81,
+                            "y0": 174,
+                            "y1": 174,
+                            "y2": 191,
+                            "y3": 191
+                        },
+                        "text": "Other public area \"out in the open\" (N=521)"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 165,
+                "width": 378,
+                "x0": 363,
+                "y0": 26
+            },
+            "axes": {
+                "_x-tick-type": "markers",
+                "_x2-tick-type": null,
+                "_y-tick-type": null,
+                "_y2-tick-type": "markers",
+                "x-axis": [
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 363,
+                            "y": 35
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 363,
+                            "y": 54
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 363,
+                            "y": 72
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 363,
+                            "y": 90
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 363,
+                            "y": 109
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 363,
+                            "y": 127
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 363,
+                            "y": 145
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 363,
+                            "y": 164
+                        }
+                    },
+                    {
+                        "id": 17,
+                        "tick_pt": {
+                            "x": 363,
+                            "y": 182
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [],
+                "y-axis-2": [
+                    {
+                        "id": 0,
+                        "tick_pt": {
+                            "x": 363,
+                            "y": 26
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 438,
+                            "y": 26
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 514,
+                            "y": 26
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 589,
+                            "y": 26
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 665,
+                            "y": 26
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 740,
+                            "y": 26
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 351,
+                            "x1": 374,
+                            "x2": 374,
+                            "x3": 351,
+                            "y0": 1,
+                            "y1": 1,
+                            "y2": 14,
+                            "y3": 14
+                        },
+                        "text": "0%"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 422,
+                            "x1": 454,
+                            "x2": 454,
+                            "x3": 422,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 14,
+                            "y3": 14
+                        },
+                        "text": "20%"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 497,
+                            "x1": 529,
+                            "x2": 529,
+                            "x3": 497,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 13,
+                            "y3": 13
+                        },
+                        "text": "40%"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 573,
+                            "x1": 605,
+                            "x2": 605,
+                            "x3": 573,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 14,
+                            "y3": 14
+                        },
+                        "text": "60%"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 648,
+                            "x1": 679,
+                            "x2": 679,
+                            "x3": 648,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 13,
+                            "y3": 13
+                        },
+                        "text": "80%"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 720,
+                            "x1": 760,
+                            "x2": 760,
+                            "x3": 720,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 14,
+                            "y3": 14
+                        },
+                        "text": "100%"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 425,
+                            "x1": 465,
+                            "x2": 465,
+                            "x3": 425,
+                            "y0": 239,
+                            "y1": 239,
+                            "y2": 252,
+                            "y3": 252
+                        },
+                        "text": "Never"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 426,
+                            "x1": 534,
+                            "x2": 534,
+                            "x3": 426,
+                            "y0": 218,
+                            "y1": 218,
+                            "y2": 234,
+                            "y3": 234
+                        },
+                        "text": "Sometimes/rarely"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 426,
+                            "x1": 509,
+                            "x2": 509,
+                            "x3": 426,
+                            "y0": 198,
+                            "y1": 198,
+                            "y2": 216,
+                            "y3": 216
+                        },
+                        "text": "Always/often"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 1,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 1,
+                            "y0": 28,
+                            "y1": 28,
+                            "y2": 44,
+                            "y3": 44
+                        },
+                        "text": "Airport, indoor employee-only or restricted area (N=589)"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 33,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 33,
+                            "y0": 46,
+                            "y1": 46,
+                            "y2": 63,
+                            "y3": 63
+                        },
+                        "text": "Airport, designated smoking rooms or area (N=590)"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 58,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 58,
+                            "y0": 64,
+                            "y1": 64,
+                            "y2": 80,
+                            "y3": 80
+                        },
+                        "text": "Restaurant/caf\u00e9/bar, indoor public area (N=587)"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 52,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 52,
+                            "y0": 83,
+                            "y1": 83,
+                            "y2": 99,
+                            "y3": 99
+                        },
+                        "text": "Hotel, lobby or other indoor public area (N=589)"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 139,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 139,
+                            "y0": 101,
+                            "y1": 101,
+                            "y2": 118,
+                            "y3": 118
+                        },
+                        "text": "Hotel, restaurant/caf\u00e9/bar (N=588)"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 57,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 57,
+                            "y0": 119,
+                            "y1": 119,
+                            "y2": 136,
+                            "y3": 136
+                        },
+                        "text": "Transportation vehicle (including cars) (N=585)"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 164,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 164,
+                            "y0": 138,
+                            "y1": 138,
+                            "y2": 155,
+                            "y3": 155
+                        },
+                        "text": "Airport, outdoor area (N=591)"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 50,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 50,
+                            "y0": 156,
+                            "y1": 156,
+                            "y2": 173,
+                            "y3": 173
+                        },
+                        "text": "Restaurant/caf\u00e9/bar, outdoor public area (N=585)"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 81,
+                            "x1": 350,
+                            "x2": 350,
+                            "x3": 81,
+                            "y0": 174,
+                            "y1": 174,
+                            "y2": 191,
+                            "y3": 191
+                        },
+                        "text": "Other public area \"out in the open\" (N=521)"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 9,
+                        "width": 9,
+                        "x0": 415,
+                        "y0": 242
+                    },
+                    "id": 6
+                },
+                {
+                    "bb": {
+                        "height": 9,
+                        "width": 9,
+                        "x0": 415,
+                        "y0": 222
+                    },
+                    "id": 7
+                },
+                {
+                    "bb": {
+                        "height": 9,
+                        "width": 9,
+                        "x0": 415,
+                        "y0": 202
+                    },
+                    "id": 8
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 351,
+                            "x1": 374,
+                            "x2": 374,
+                            "x3": 351,
+                            "y0": 1,
+                            "y1": 1,
+                            "y2": 14,
+                            "y3": 14
+                        },
+                        "text": "0%"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 422,
+                            "x1": 454,
+                            "x2": 454,
+                            "x3": 422,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 14,
+                            "y3": 14
+                        },
+                        "text": "20%"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 497,
+                            "x1": 529,
+                            "x2": 529,
+                            "x3": 497,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 13,
+                            "y3": 13
+                        },
+                        "text": "40%"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 573,
+                            "x1": 605,
+                            "x2": 605,
+                            "x3": 573,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 14,
+                            "y3": 14
+                        },
+                        "text": "60%"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 648,
+                            "x1": 679,
+                            "x2": 679,
+                            "x3": 648,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 13,
+                            "y3": 13
+                        },
+                        "text": "80%"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 720,
+                            "x1": 760,
+                            "x2": 760,
+                            "x3": 720,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 14,
+                            "y3": 14
+                        },
+                        "text": "100%"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 425,
+                            "x1": 465,
+                            "x2": 465,
+                            "x3": 425,
+                            "y0": 239,
+                            "y1": 239,
+                            "y2": 252,
+                            "y3": 252
+                        },
+                        "text": "Never"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 426,
+                            "x1": 534,
+                            "x2": 534,
+                            "x3": 426,
+                            "y0": 218,
+                            "y1": 218,
+                            "y2": 234,
+                            "y3": 234
+                        },
+                        "text": "Sometimes/rarely"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 426,
+                            "x1": 509,
+                            "x2": 509,
+                            "x3": 426,
+                            "y0": 198,
+                            "y1": 198,
+                            "y2": 216,
+                            "y3": 216
+                        },
+                        "text": "Always/often"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 1,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 1,
+                            "y0": 28,
+                            "y1": 28,
+                            "y2": 44,
+                            "y3": 44
+                        },
+                        "text": "Airport, indoor employee-only or restricted area (N=589)"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 33,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 33,
+                            "y0": 46,
+                            "y1": 46,
+                            "y2": 63,
+                            "y3": 63
+                        },
+                        "text": "Airport, designated smoking rooms or area (N=590)"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 58,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 58,
+                            "y0": 64,
+                            "y1": 64,
+                            "y2": 80,
+                            "y3": 80
+                        },
+                        "text": "Restaurant/caf\u00e9/bar, indoor public area (N=587)"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 52,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 52,
+                            "y0": 83,
+                            "y1": 83,
+                            "y2": 99,
+                            "y3": 99
+                        },
+                        "text": "Hotel, lobby or other indoor public area (N=589)"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 139,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 139,
+                            "y0": 101,
+                            "y1": 101,
+                            "y2": 118,
+                            "y3": 118
+                        },
+                        "text": "Hotel, restaurant/caf\u00e9/bar (N=588)"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 57,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 57,
+                            "y0": 119,
+                            "y1": 119,
+                            "y2": 136,
+                            "y3": 136
+                        },
+                        "text": "Transportation vehicle (including cars) (N=585)"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 164,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 164,
+                            "y0": 138,
+                            "y1": 138,
+                            "y2": 155,
+                            "y3": 155
+                        },
+                        "text": "Airport, outdoor area (N=591)"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 50,
+                            "x1": 351,
+                            "x2": 351,
+                            "x3": 50,
+                            "y0": 156,
+                            "y1": 156,
+                            "y2": 173,
+                            "y3": 173
+                        },
+                        "text": "Restaurant/caf\u00e9/bar, outdoor public area (N=585)"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 81,
+                            "x1": 350,
+                            "x2": 350,
+                            "x3": 81,
+                            "y0": 174,
+                            "y1": 174,
+                            "y2": 191,
+                            "y3": 191
+                        },
+                        "text": "Other public area \"out in the open\" (N=521)"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 165,
+                    "width": 378,
+                    "x0": 363,
+                    "y0": 26
+                },
+                "axes": {
+                    "_x-tick-type": "markers",
+                    "_x2-tick-type": null,
+                    "_y-tick-type": null,
+                    "_y2-tick-type": "markers",
+                    "x-axis": [
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 363,
+                                "y": 35
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 363,
+                                "y": 54
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 363,
+                                "y": 72
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 363,
+                                "y": 90
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 363,
+                                "y": 109
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 363,
+                                "y": 127
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 363,
+                                "y": 145
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "tick_pt": {
+                                "x": 363,
+                                "y": 164
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "tick_pt": {
+                                "x": 363,
+                                "y": 182
+                            }
+                        }
+                    ],
+                    "x-axis-2": [],
+                    "y-axis": [],
+                    "y-axis-2": [
+                        {
+                            "id": 0,
+                            "tick_pt": {
+                                "x": 363,
+                                "y": 26
+                            }
+                        },
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 438,
+                                "y": 26
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 514,
+                                "y": 26
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 589,
+                                "y": 26
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 665,
+                                "y": 26
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 740,
+                                "y": 26
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 9,
+                            "width": 9,
+                            "x0": 415,
+                            "y0": 242
+                        },
+                        "id": 6
+                    },
+                    {
+                        "bb": {
+                            "height": 9,
+                            "width": 9,
+                            "x0": 415,
+                            "y0": 222
+                        },
+                        "id": 7
+                    },
+                    {
+                        "bb": {
+                            "height": 9,
+                            "width": 9,
+                            "x0": 415,
+                            "y0": 202
+                        },
+                        "id": 8
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Airport, indoor employee-only or restricted area (N=589)",
+                            "y2": 0.11387711864406773
+                        },
+                        {
+                            "x": "Airport, designated smoking rooms or area (N=590)",
+                            "y2": 0.42637711864406774
+                        },
+                        {
+                            "x": "Restaurant/caf\u00e9/bar, indoor public area (N=587)",
+                            "y2": 0.20391949152542366
+                        },
+                        {
+                            "x": "Hotel, lobby or other indoor public area (N=589)",
+                            "y2": 0.18008474576271177
+                        },
+                        {
+                            "x": "Hotel, restaurant/caf\u00e9/bar (N=588)",
+                            "y2": 0.19862288135593212
+                        },
+                        {
+                            "x": "Transportation vehicle (including cars) (N=585)",
+                            "y2": 0.11387711864406773
+                        },
+                        {
+                            "x": "Airport, outdoor area (N=591)",
+                            "y2": 0.5773305084745762
+                        },
+                        {
+                            "x": "Restaurant/caf\u00e9/bar, outdoor public area (N=585)",
+                            "y2": 0.43432203389830504
+                        },
+                        {
+                            "x": "Other public area \"out in the open\" (N=521)",
+                            "y2": 0.46874999999999994
+                        }
+                    ],
+                    "name": "Always/often"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "Airport, indoor employee-only or restricted area (N=589)",
+                            "y2": 0.2807203389830508
+                        },
+                        {
+                            "x": "Airport, designated smoking rooms or area (N=590)",
+                            "y2": 0.40519067796610175
+                        },
+                        {
+                            "x": "Restaurant/caf\u00e9/bar, indoor public area (N=587)",
+                            "y2": 0.4396186440677967
+                        },
+                        {
+                            "x": "Hotel, lobby or other indoor public area (N=589)",
+                            "y2": 0.3310381355932204
+                        },
+                        {
+                            "x": "Hotel, restaurant/caf\u00e9/bar (N=588)",
+                            "y2": 0.4502118644067798
+                        },
+                        {
+                            "x": "Transportation vehicle (including cars) (N=585)",
+                            "y2": 0.2727754237288136
+                        },
+                        {
+                            "x": "Airport, outdoor area (N=591)",
+                            "y2": 0.3548728813559322
+                        },
+                        {
+                            "x": "Restaurant/caf\u00e9/bar, outdoor public area (N=585)",
+                            "y2": 0.41048728813559326
+                        },
+                        {
+                            "x": "Other public area \"out in the open\" (N=521)",
+                            "y2": 0.4263771186440678
+                        }
+                    ],
+                    "name": "Sometimes/rarely"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "Airport, indoor employee-only or restricted area (N=589)",
+                            "y2": 0.6038135593220337
+                        },
+                        {
+                            "x": "Airport, designated smoking rooms or area (N=590)",
+                            "y2": 0.1668432203389828
+                        },
+                        {
+                            "x": "Restaurant/caf\u00e9/bar, indoor public area (N=587)",
+                            "y2": 0.354872881355932
+                        },
+                        {
+                            "x": "Hotel, lobby or other indoor public area (N=589)",
+                            "y2": 0.48728813559322015
+                        },
+                        {
+                            "x": "Hotel, restaurant/caf\u00e9/bar (N=588)",
+                            "y2": 0.3495762711864404
+                        },
+                        {
+                            "x": "Transportation vehicle (including cars) (N=585)",
+                            "y2": 0.611758474576271
+                        },
+                        {
+                            "x": "Airport, outdoor area (N=591)",
+                            "y2": 0.06620762711864392
+                        },
+                        {
+                            "x": "Restaurant/caf\u00e9/bar, outdoor public area (N=585)",
+                            "y2": 0.153601694915254
+                        },
+                        {
+                            "x": "Other public area \"out in the open\" (N=521)",
+                            "y2": 0.10328389830508455
+                        }
+                    ],
+                    "name": "Never"
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 8,
+                        "width": 43,
+                        "x0": 362,
+                        "y0": 31
+                    },
+                    {
+                        "height": 8,
+                        "width": 106,
+                        "x0": 405,
+                        "y0": 31
+                    },
+                    {
+                        "height": 8,
+                        "width": 228,
+                        "x0": 511,
+                        "y0": 31
+                    },
+                    {
+                        "height": 8,
+                        "width": 161,
+                        "x0": 362,
+                        "y0": 49
+                    },
+                    {
+                        "height": 8,
+                        "width": 153,
+                        "x0": 523,
+                        "y0": 49
+                    },
+                    {
+                        "height": 8,
+                        "width": 63,
+                        "x0": 676,
+                        "y0": 49
+                    },
+                    {
+                        "height": 8,
+                        "width": 77,
+                        "x0": 362,
+                        "y0": 68
+                    },
+                    {
+                        "height": 8,
+                        "width": 166,
+                        "x0": 439,
+                        "y0": 68
+                    },
+                    {
+                        "height": 8,
+                        "width": 134,
+                        "x0": 605,
+                        "y0": 68
+                    },
+                    {
+                        "height": 8,
+                        "width": 68,
+                        "x0": 362,
+                        "y0": 86
+                    },
+                    {
+                        "height": 8,
+                        "width": 125,
+                        "x0": 430,
+                        "y0": 86
+                    },
+                    {
+                        "height": 8,
+                        "width": 184,
+                        "x0": 555,
+                        "y0": 86
+                    },
+                    {
+                        "height": 8,
+                        "width": 75,
+                        "x0": 362,
+                        "y0": 105
+                    },
+                    {
+                        "height": 8,
+                        "width": 170,
+                        "x0": 437,
+                        "y0": 105
+                    },
+                    {
+                        "height": 8,
+                        "width": 132,
+                        "x0": 607,
+                        "y0": 105
+                    },
+                    {
+                        "height": 8,
+                        "width": 43,
+                        "x0": 362,
+                        "y0": 123
+                    },
+                    {
+                        "height": 8,
+                        "width": 103,
+                        "x0": 405,
+                        "y0": 123
+                    },
+                    {
+                        "height": 8,
+                        "width": 231,
+                        "x0": 508,
+                        "y0": 123
+                    },
+                    {
+                        "height": 8,
+                        "width": 218,
+                        "x0": 362,
+                        "y0": 141
+                    },
+                    {
+                        "height": 8,
+                        "width": 134,
+                        "x0": 580,
+                        "y0": 141
+                    },
+                    {
+                        "height": 8,
+                        "width": 25,
+                        "x0": 714,
+                        "y0": 141
+                    },
+                    {
+                        "height": 8,
+                        "width": 164,
+                        "x0": 362,
+                        "y0": 160
+                    },
+                    {
+                        "height": 8,
+                        "width": 155,
+                        "x0": 526,
+                        "y0": 160
+                    },
+                    {
+                        "height": 8,
+                        "width": 58,
+                        "x0": 681,
+                        "y0": 160
+                    },
+                    {
+                        "height": 8,
+                        "width": 177,
+                        "x0": 362,
+                        "y0": 178
+                    },
+                    {
+                        "height": 8,
+                        "width": 161,
+                        "x0": 539,
+                        "y0": 178
+                    },
+                    {
+                        "height": 8,
+                        "width": 39,
+                        "x0": 700,
+                        "y0": 178
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}
