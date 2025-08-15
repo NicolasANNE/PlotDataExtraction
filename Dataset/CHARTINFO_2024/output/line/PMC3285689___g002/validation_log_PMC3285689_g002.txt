@@ -1,0 +1,230 @@
+
+================================================================================
+VALIDATION LOG - PMC3285689_g002
+================================================================================
+Timestamp: 2025-08-06 21:37:46
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3285689___g002
+================================================================================
+
+
+
+[21:37:46.653] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:37:46.660] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:37:46.759] === DATA_LOADING ===
+Chargement des données GT depuis PMC3285689___g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3285689___g002.json
+  - Series Count: 2
+  - Series Names: ['YWCS', 'Gentamycin']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[21:37:46.763] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3285689___g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3285689___g002\PMC3285689___g002.json
+  - Series Count: 2
+  - Series Names: ['YWCS', '-Gentamycin']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[21:37:46.767] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 54.0318
+  - Y Min-Max: [0.0000, 54.0318]
+  - X Range: 357.78388278388275
+--------------------------------------------------
+
+[21:37:46.769] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:37:46.772] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['YWCS <-> YWCS (method=exact_match, score=1.000)', 'Gentamycin <-> -Gentamycin (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[21:37:47.823] === SERIES_COMPARISON ===
+Comparaison YWCS vs YWCS avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.456544
+  - MAE Relative: 0.008450
+  - Left Miss (rel): -0.004351
+  - Right Miss (rel): 0.021756
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:37:49.203] === SERIES_COMPARISON ===
+Comparaison Gentamycin vs -Gentamycin avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.958083
+  - MAE Relative: 0.017732
+  - Left Miss (rel): -0.003071
+  - Right Miss (rel): 0.020842
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:37:49
+Total Duration: 2.58 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3285689_g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3285689_g002
+================================================================================
+Timestamp: 2025-08-07 12:53:34
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3285689___g002
+================================================================================
+
+
+
+[12:53:35.023] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:53:35.026] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:53:35.089] === DATA_LOADING ===
+Chargement des données GT depuis PMC3285689___g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3285689___g002.json
+  - Series Count: 2
+  - Series Names: ['YWCS', 'Gentamycin']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[12:53:35.094] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3285689___g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3285689___g002\PMC3285689___g002.json
+  - Series Count: 2
+  - Series Names: ['YWCS', '-Gentamycin']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[12:53:35.108] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 54.0318
+  - Y Min-Max: [0.0000, 54.0318]
+  - X Range: 357.78388278388275
+--------------------------------------------------
+
+[12:53:35.112] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:53:35.115] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['YWCS <-> YWCS (method=exact_match, score=1.000)', 'Gentamycin <-> -Gentamycin (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[12:53:35.812] === SERIES_COMPARISON ===
+Comparaison YWCS vs YWCS avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.456544
+  - MAE Relative: 0.008450
+  - Left Miss (rel): -0.004351
+  - Right Miss (rel): 0.021756
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:53:36.574] === SERIES_COMPARISON ===
+Comparaison Gentamycin vs -Gentamycin avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.958083
+  - MAE Relative: 0.017732
+  - Left Miss (rel): -0.003071
+  - Right Miss (rel): 0.020842
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:53:36
+Total Duration: 1.60 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3285689_g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

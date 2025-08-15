@@ -1,0 +1,628 @@
+
+================================================================================
+VALIDATION LOG - PMC1866830_1471-2156-6-S1-S109-1
+================================================================================
+Timestamp: 2025-08-06 20:15:42
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866830___1471-2156-6-S1-S109-1
+================================================================================
+
+
+
+[20:15:42.588] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:42.619] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:42.644] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866830___1471-2156-6-S1-S109-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866830___1471-2156-6-S1-S109-1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:42.666] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866830___1471-2156-6-S1-S109-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866830___1471-2156-6-S1-S109-1\PMC1866830___1471-2156-6-S1-S109-1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:42.670] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866830_1471-2156-6-S1-S109-1
+================================================================================
+Timestamp: 2025-08-06 21:31:48
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866830___1471-2156-6-S1-S109-1
+================================================================================
+
+
+
+[21:31:48.943] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:31:48.945] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:31:49.013] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866830___1471-2156-6-S1-S109-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866830___1471-2156-6-S1-S109-1.json
+  - Series Count: 2
+  - Series Names: ['Affymetrix', 'Illumina']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 11
+--------------------------------------------------
+
+[21:31:49.016] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866830___1471-2156-6-S1-S109-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866830___1471-2156-6-S1-S109-1\PMC1866830___1471-2156-6-S1-S109-1.json
+  - Series Count: 2
+  - Series Names: ['Affymetrix', 'Illumina']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[21:31:49.020] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 2.2796
+  - Y Min-Max: [0.4892, 2.7688]
+  - X Range: 0.10165445997787037
+--------------------------------------------------
+
+[21:31:49.041] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:31:49.043] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Affymetrix <-> Affymetrix (method=exact_match, score=1.000)', 'Illumina <-> Illumina (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:31:50.223] === SERIES_COMPARISON ===
+Comparaison Affymetrix vs Affymetrix avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.014927
+  - MAE Relative: 0.006548
+  - Left Miss (rel): 0.000002
+  - Right Miss (rel): 0.016372
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 5
+  - Points Ratio: 0.83
+--------------------------------------------------
+
+[21:31:52.215] === SERIES_COMPARISON ===
+Comparaison Illumina vs Illumina avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.013054
+  - MAE Relative: 0.005727
+  - Left Miss (rel): 0.000002
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:31:52
+Total Duration: 3.29 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866830_1471-2156-6-S1-S109-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866830_1471-2156-6-S1-S109-1
+================================================================================
+Timestamp: 2025-08-07 12:47:49
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866830___1471-2156-6-S1-S109-1
+================================================================================
+
+
+
+[12:47:49.726] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:47:49.731] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:47:49.816] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866830___1471-2156-6-S1-S109-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866830___1471-2156-6-S1-S109-1.json
+  - Series Count: 2
+  - Series Names: ['Affymetrix', 'Illumina']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 11
+--------------------------------------------------
+
+[12:47:49.820] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866830___1471-2156-6-S1-S109-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866830___1471-2156-6-S1-S109-1\PMC1866830___1471-2156-6-S1-S109-1.json
+  - Series Count: 2
+  - Series Names: ['Affymetrix', 'Illumina']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[12:47:49.833] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 2.2796
+  - Y Min-Max: [0.4892, 2.7688]
+  - X Range: 0.10165445997787037
+--------------------------------------------------
+
+[12:47:49.858] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:47:49.862] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Affymetrix <-> Affymetrix (method=exact_match, score=1.000)', 'Illumina <-> Illumina (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:47:50.936] === SERIES_COMPARISON ===
+Comparaison Affymetrix vs Affymetrix avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.014927
+  - MAE Relative: 0.006548
+  - Left Miss (rel): 0.000002
+  - Right Miss (rel): 0.016372
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 5
+  - Points Ratio: 0.83
+--------------------------------------------------
+
+[12:47:53.160] === SERIES_COMPARISON ===
+Comparaison Illumina vs Illumina avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.013054
+  - MAE Relative: 0.005727
+  - Left Miss (rel): 0.000002
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:47:53
+Total Duration: 3.45 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866830_1471-2156-6-S1-S109-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866830_1471-2156-6-S1-S109-1
+================================================================================
+Timestamp: 2025-08-07 13:04:48
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866830___1471-2156-6-S1-S109-1
+================================================================================
+
+
+
+[13:04:48.935] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:04:48.951] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:04:49.010] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866830___1471-2156-6-S1-S109-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866830___1471-2156-6-S1-S109-1.json
+  - Series Count: 2
+  - Series Names: ['Affymetrix', 'Illumina']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 11
+--------------------------------------------------
+
+[13:04:49.012] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866830___1471-2156-6-S1-S109-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866830___1471-2156-6-S1-S109-1\PMC1866830___1471-2156-6-S1-S109-1.json
+  - Series Count: 2
+  - Series Names: ['Affymetrix', 'Illumina']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[13:04:49.016] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 2.2796
+  - Y Min-Max: [0.4892, 2.7688]
+  - X Range: 0.10165445997787037
+--------------------------------------------------
+
+[13:04:49.019] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:04:49.023] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Affymetrix <-> Affymetrix (method=exact_match, score=1.000)', 'Illumina <-> Illumina (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:04:49.857] === SERIES_COMPARISON ===
+Comparaison Affymetrix vs Affymetrix avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.014927
+  - MAE Relative: 0.006548
+  - Left Miss (rel): 0.000002
+  - Right Miss (rel): 0.016372
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 5
+  - Points Ratio: 0.83
+--------------------------------------------------
+
+[13:04:51.090] === SERIES_COMPARISON ===
+Comparaison Illumina vs Illumina avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.013054
+  - MAE Relative: 0.005727
+  - Left Miss (rel): 0.000002
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:04:51
+Total Duration: 2.18 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866830_1471-2156-6-S1-S109-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866830_1471-2156-6-S1-S109-1
+================================================================================
+Timestamp: 2025-08-07 16:38:23
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866830___1471-2156-6-S1-S109-1
+================================================================================
+
+
+
+[16:38:23.608] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:38:23.610] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:38:23.670] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866830___1471-2156-6-S1-S109-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866830___1471-2156-6-S1-S109-1.json
+  - Series Count: 2
+  - Series Names: ['Affymetrix', 'Illumina']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 11
+--------------------------------------------------
+
+[16:38:23.691] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866830___1471-2156-6-S1-S109-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866830___1471-2156-6-S1-S109-1\PMC1866830___1471-2156-6-S1-S109-1.json
+  - Series Count: 2
+  - Series Names: ['Affymetrix', 'Illumina']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[16:38:23.728] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 2.2796
+  - Y Min-Max: [0.4892, 2.7688]
+  - X Range: 0.10165445997787037
+--------------------------------------------------
+
+[16:38:23.742] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:38:23.748] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Affymetrix <-> Affymetrix (method=exact_match, score=1.000)', 'Illumina <-> Illumina (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:38:24.494] === SERIES_COMPARISON ===
+Comparaison Affymetrix vs Affymetrix avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.014927
+  - MAE Relative: 0.006548
+  - Left Miss (rel): 0.000002
+  - Right Miss (rel): 0.016372
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 5
+  - Points Ratio: 0.83
+--------------------------------------------------
+
+[16:38:25.506] === SERIES_COMPARISON ===
+Comparaison Illumina vs Illumina avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.013054
+  - MAE Relative: 0.005727
+  - Left Miss (rel): 0.000002
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:38:25
+Total Duration: 1.91 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866830_1471-2156-6-S1-S109-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866830_1471-2156-6-S1-S109-1
+================================================================================
+Timestamp: 2025-08-07 16:57:37
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866830___1471-2156-6-S1-S109-1
+================================================================================
+
+
+
+[16:57:37.494] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:57:37.496] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:57:37.531] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866830___1471-2156-6-S1-S109-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866830___1471-2156-6-S1-S109-1.json
+  - Series Count: 2
+  - Series Names: ['Affymetrix', 'Illumina']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 11
+--------------------------------------------------
+
+[16:57:37.534] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866830___1471-2156-6-S1-S109-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866830___1471-2156-6-S1-S109-1\PMC1866830___1471-2156-6-S1-S109-1.json
+  - Series Count: 2
+  - Series Names: ['Affymetrix', 'Illumina']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[16:57:37.536] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 2.2796
+  - Y Min-Max: [0.4892, 2.7688]
+  - X Range: 0.10165445997787037
+--------------------------------------------------
+
+[16:57:37.537] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:57:37.540] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Affymetrix <-> Affymetrix (method=exact_match, score=1.000)', 'Illumina <-> Illumina (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:57:38.401] === SERIES_COMPARISON ===
+Comparaison Affymetrix vs Affymetrix avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.014927
+  - MAE Relative: 0.006548
+  - Left Miss (rel): 0.000002
+  - Right Miss (rel): 0.016372
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 5
+  - Points Ratio: 0.83
+--------------------------------------------------
+
+[16:57:39.664] === SERIES_COMPARISON ===
+Comparaison Illumina vs Illumina avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.013054
+  - MAE Relative: 0.005727
+  - Left Miss (rel): 0.000002
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:57:39
+Total Duration: 2.20 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866830_1471-2156-6-S1-S109-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

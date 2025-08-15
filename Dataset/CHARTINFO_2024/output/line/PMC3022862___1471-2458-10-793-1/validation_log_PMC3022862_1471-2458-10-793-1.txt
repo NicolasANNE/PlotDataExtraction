@@ -1,0 +1,342 @@
+
+================================================================================
+VALIDATION LOG - PMC3022862_1471-2458-10-793-1
+================================================================================
+Timestamp: 2025-08-06 21:35:30
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3022862___1471-2458-10-793-1
+================================================================================
+
+
+
+[21:35:30.996] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:35:30.998] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:35:31.032] === DATA_LOADING ===
+Chargement des données GT depuis PMC3022862___1471-2458-10-793-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3022862___1471-2458-10-793-1.json
+  - Series Count: 6
+  - Series Names: ['Total cases', 'Primary syphilis', 'Secondary syphilis', 'Tertiary syphilis', 'Latent syphilis', 'Congenital syphilis']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 68
+--------------------------------------------------
+
+[21:35:31.035] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3022862___1471-2458-10-793-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3022862___1471-2458-10-793-1\PMC3022862___1471-2458-10-793-1.json
+  - Series Count: 6
+  - Series Names: ['Total cases', 'Primary syphilis', 'Secondary syphilis', 'Tertiary syphilis', 'Latent syphilis', 'Congenital syphilis']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 84
+--------------------------------------------------
+
+[21:35:31.038] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 32000.0000
+  - Y Min-Max: [0.0000, 32000.0000]
+  - X Range: 13.048029556650135
+--------------------------------------------------
+
+[21:35:31.040] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:35:31.042] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['Total cases <-> Total cases (method=exact_match, score=1.000)', 'Primary syphilis <-> Primary syphilis (method=exact_match, score=1.000)', 'Secondary syphilis <-> Secondary syphilis (method=exact_match, score=1.000)', 'Tertiary syphilis <-> Tertiary syphilis (method=exact_match, score=1.000)', 'Latent syphilis <-> Latent syphilis (method=exact_match, score=1.000)', 'Congenital syphilis <-> Congenital syphilis (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:35:32.205] === SERIES_COMPARISON ===
+Comparaison Total cases vs Total cases avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 421.909784
+  - MAE Relative: 0.013185
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.001227
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 14
+  - Points Ratio: 1.40
+--------------------------------------------------
+
+[21:35:33.728] === SERIES_COMPARISON ===
+Comparaison Primary syphilis vs Primary syphilis avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 675.522866
+  - MAE Relative: 0.021110
+  - Left Miss (rel): 0.001227
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 14
+  - Points Ratio: 1.56
+--------------------------------------------------
+
+[21:35:35.304] === SERIES_COMPARISON ===
+Comparaison Secondary syphilis vs Secondary syphilis avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 138.919431
+  - MAE Relative: 0.004341
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.001227
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 14
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:35:36.125] === SERIES_COMPARISON ===
+Comparaison Tertiary syphilis vs Tertiary syphilis avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 179.745246
+  - MAE Relative: 0.005617
+  - Left Miss (rel): 0.002454
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 14
+  - Points Ratio: 2.00
+--------------------------------------------------
+
+[21:35:36.709] === SERIES_COMPARISON ===
+Comparaison Latent syphilis vs Latent syphilis avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2578.614185
+  - MAE Relative: 0.080582
+  - Left Miss (rel): 0.001227
+  - Right Miss (rel): 0.001227
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 14
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:35:37.487] === SERIES_COMPARISON ===
+Comparaison Congenital syphilis vs Congenital syphilis avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 582.349657
+  - MAE Relative: 0.018198
+  - Left Miss (rel): 0.002454
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 14
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:35:37
+Total Duration: 6.50 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3022862_1471-2458-10-793-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3022862_1471-2458-10-793-1
+================================================================================
+Timestamp: 2025-08-07 12:51:42
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3022862___1471-2458-10-793-1
+================================================================================
+
+
+
+[12:51:42.249] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:51:42.254] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:51:42.311] === DATA_LOADING ===
+Chargement des données GT depuis PMC3022862___1471-2458-10-793-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3022862___1471-2458-10-793-1.json
+  - Series Count: 6
+  - Series Names: ['Total cases', 'Primary syphilis', 'Secondary syphilis', 'Tertiary syphilis', 'Latent syphilis', 'Congenital syphilis']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 68
+--------------------------------------------------
+
+[12:51:42.330] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3022862___1471-2458-10-793-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3022862___1471-2458-10-793-1\PMC3022862___1471-2458-10-793-1.json
+  - Series Count: 6
+  - Series Names: ['Total cases', 'Primary syphilis', 'Secondary syphilis', 'Tertiary syphilis', 'Latent syphilis', 'Congenital syphilis']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 84
+--------------------------------------------------
+
+[12:51:42.338] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 32000.0000
+  - Y Min-Max: [0.0000, 32000.0000]
+  - X Range: 13.048029556650135
+--------------------------------------------------
+
+[12:51:42.350] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:51:42.354] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['Total cases <-> Total cases (method=exact_match, score=1.000)', 'Primary syphilis <-> Primary syphilis (method=exact_match, score=1.000)', 'Secondary syphilis <-> Secondary syphilis (method=exact_match, score=1.000)', 'Tertiary syphilis <-> Tertiary syphilis (method=exact_match, score=1.000)', 'Latent syphilis <-> Latent syphilis (method=exact_match, score=1.000)', 'Congenital syphilis <-> Congenital syphilis (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:51:43.094] === SERIES_COMPARISON ===
+Comparaison Total cases vs Total cases avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 599.207811
+  - MAE Relative: 0.018725
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.001227
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 14
+  - Points Ratio: 1.40
+--------------------------------------------------
+
+[12:51:44.010] === SERIES_COMPARISON ===
+Comparaison Primary syphilis vs Primary syphilis avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 830.479078
+  - MAE Relative: 0.025952
+  - Left Miss (rel): 0.001227
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 14
+  - Points Ratio: 1.56
+--------------------------------------------------
+
+[12:51:45.023] === SERIES_COMPARISON ===
+Comparaison Secondary syphilis vs Secondary syphilis avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 252.809464
+  - MAE Relative: 0.007900
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.001227
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 14
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:51:46.016] === SERIES_COMPARISON ===
+Comparaison Tertiary syphilis vs Tertiary syphilis avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 175.519894
+  - MAE Relative: 0.005485
+  - Left Miss (rel): 0.002454
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 14
+  - Points Ratio: 2.00
+--------------------------------------------------
+
+[12:51:47.033] === SERIES_COMPARISON ===
+Comparaison Latent syphilis vs Latent syphilis avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3368.839411
+  - MAE Relative: 0.105276
+  - Left Miss (rel): 0.001227
+  - Right Miss (rel): 0.001227
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 14
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:51:47.829] === SERIES_COMPARISON ===
+Comparaison Congenital syphilis vs Congenital syphilis avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 582.349657
+  - MAE Relative: 0.018198
+  - Left Miss (rel): 0.002454
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 14
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:51:47
+Total Duration: 5.61 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3022862_1471-2458-10-793-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

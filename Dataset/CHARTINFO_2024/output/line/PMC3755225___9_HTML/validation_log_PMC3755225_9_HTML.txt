@@ -1,0 +1,227 @@
+
+================================================================================
+VALIDATION LOG - PMC3755225_9_HTML
+================================================================================
+Timestamp: 2025-08-07 12:59:33
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3755225___9_HTML
+================================================================================
+
+
+
+[12:59:33.958] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:59:33.960] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:59:34.011] === DATA_LOADING ===
+Chargement des données GT depuis PMC3755225___9_HTML.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3755225___9_HTML.json
+  - Series Count: 10
+  - Series Names: ['non-voltage', 'AC, 1 kHz, 21kVrms/m', 'AC, 1kHz, 28kVrms/m', 'AC, 300kHz, 21kVrms/m', 'AC, 300kHz, 35kVrms/m', 'AC, 300kHz, 42kVrms/m', 'AC, 1000kHz, 21kVrms/m', 'DC, 6kV/m', 'DC, 8kV/m', 'DC, 10kV/m']
+  - X Data Types: {'numeric': 10}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[12:59:34.015] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3755225___9_HTML.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3755225___9_HTML\PMC3755225___9_HTML.json
+  - Series Count: 10
+  - Series Names: ['non-voltage', 'AC, 1kHz, 21kVrms/m', 'AC, 1kHz, 28kVrms/m', 'AC, 300kHz, 21kVrms/m', 'AC, 300kHz, 35kVrms/m', 'AC, 300kHz, 42kVrms/m', 'AC, 1000kHz, 21kVrms/m', 'DC, 6kV/m', 'DC, 8kV/m', 'DC, 10kV/m']
+  - X Data Types: {'numeric': 10}
+  - Total Data Points: 30
+--------------------------------------------------
+
+[12:59:34.022] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 71.0000
+  - Y Min-Max: [27.0000, 98.0000]
+  - X Range: 48.0
+--------------------------------------------------
+
+[12:59:34.024] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:59:34.027] === MATCHING_RESULTS ===
+10 appariements trouvés
+
+Data:
+  - Total Matches: 10
+  - Match Details: ['non-voltage <-> non-voltage (method=exact_match, score=1.000)', 'AC, 1kHz, 28kVrms/m <-> AC, 1kHz, 28kVrms/m (method=exact_match, score=1.000)', 'AC, 300kHz, 21kVrms/m <-> AC, 300kHz, 21kVrms/m (method=exact_match, score=1.000)', 'AC, 300kHz, 35kVrms/m <-> AC, 300kHz, 35kVrms/m (method=exact_match, score=1.000)', 'AC, 300kHz, 42kVrms/m <-> AC, 300kHz, 42kVrms/m (method=exact_match, score=1.000)', 'AC, 1000kHz, 21kVrms/m <-> AC, 1000kHz, 21kVrms/m (method=exact_match, score=1.000)', 'DC, 6kV/m <-> DC, 6kV/m (method=exact_match, score=1.000)', 'DC, 8kV/m <-> DC, 8kV/m (method=exact_match, score=1.000)', 'DC, 10kV/m <-> DC, 10kV/m (method=exact_match, score=1.000)', 'AC, 1 kHz, 21kVrms/m <-> AC, 1kHz, 21kVrms/m (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[12:59:34.750] === SERIES_COMPARISON ===
+Comparaison non-voltage vs non-voltage avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.621188
+  - MAE Relative: 0.008749
+  - Left Miss (rel): -0.008030
+  - Right Miss (rel): -0.004316
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 3
+  - Points Ratio: 0.60
+--------------------------------------------------
+
+[12:59:35.469] === SERIES_COMPARISON ===
+Comparaison AC, 1kHz, 28kVrms/m vs AC, 1kHz, 28kVrms/m avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.668464
+  - MAE Relative: 0.023499
+  - Left Miss (rel): -0.006022
+  - Right Miss (rel): -0.004316
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:59:36.230] === SERIES_COMPARISON ===
+Comparaison AC, 300kHz, 21kVrms/m vs AC, 300kHz, 21kVrms/m avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.939531
+  - MAE Relative: 0.013233
+  - Left Miss (rel): -0.004302
+  - Right Miss (rel): -0.004316
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:59:37.192] === SERIES_COMPARISON ===
+Comparaison AC, 300kHz, 35kVrms/m vs AC, 300kHz, 35kVrms/m avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.170653
+  - MAE Relative: 0.016488
+  - Left Miss (rel): -0.004015
+  - Right Miss (rel): -0.004316
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:59:38.097] === SERIES_COMPARISON ===
+Comparaison AC, 300kHz, 42kVrms/m vs AC, 300kHz, 42kVrms/m avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.101223
+  - MAE Relative: 0.043679
+  - Left Miss (rel): -0.008030
+  - Right Miss (rel): -0.000301
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:59:38.753] === SERIES_COMPARISON ===
+Comparaison AC, 1000kHz, 21kVrms/m vs AC, 1000kHz, 21kVrms/m avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 8.180543
+  - MAE Relative: 0.115219
+  - Left Miss (rel): -0.006883
+  - Right Miss (rel): -0.000301
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:59:39.438] === SERIES_COMPARISON ===
+Comparaison DC, 6kV/m vs DC, 6kV/m avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 14.105330
+  - MAE Relative: 0.198667
+  - Left Miss (rel): -0.008030
+  - Right Miss (rel): -0.004316
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:59:40.208] === SERIES_COMPARISON ===
+Comparaison DC, 8kV/m vs DC, 8kV/m avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 23.074927
+  - MAE Relative: 0.324999
+  - Left Miss (rel): -0.006022
+  - Right Miss (rel): -0.004316
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:59:41.352] === SERIES_COMPARISON ===
+Comparaison DC, 10kV/m vs DC, 10kV/m avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 42.798520
+  - MAE Relative: 0.602796
+  - Left Miss (rel): -0.006022
+  - Right Miss (rel): -0.004316
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:59:42.598] === SERIES_COMPARISON ===
+Comparaison AC, 1 kHz, 21kVrms/m vs AC, 1kHz, 21kVrms/m avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.957960
+  - MAE Relative: 0.055746
+  - Left Miss (rel): -0.006022
+  - Right Miss (rel): -0.001054
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:59:42
+Total Duration: 8.66 seconds
+Total Series Processed: 10
+Successful Comparisons: 10
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3755225_9_HTML.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

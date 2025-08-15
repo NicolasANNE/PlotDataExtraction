@@ -1,0 +1,768 @@
+
+================================================================================
+VALIDATION LOG - PMC2672397_ijerph-06-01145f1
+================================================================================
+Timestamp: 2025-08-06 20:16:17
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672397___ijerph-06-01145f1
+================================================================================
+
+
+
+[20:16:17.147] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:17.185] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:17.222] === DATA_LOADING ===
+Chargement des données GT depuis PMC2672397___ijerph-06-01145f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2672397___ijerph-06-01145f1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:17.242] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2672397___ijerph-06-01145f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672397___ijerph-06-01145f1\PMC2672397___ijerph-06-01145f1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:17.244] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2672397_ijerph-06-01145f1
+================================================================================
+Timestamp: 2025-08-06 21:33:13
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672397___ijerph-06-01145f1
+================================================================================
+
+
+
+[21:33:13.897] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:33:13.899] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:33:13.937] === DATA_LOADING ===
+Chargement des données GT depuis PMC2672397___ijerph-06-01145f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2672397___ijerph-06-01145f1.json
+  - Series Count: 4
+  - Series Names: ['COD (pH = 8.3)', 'COD (pH = 10)', 'TOC (pH = 8.3)', 'TOC (pH = 10)']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 100
+--------------------------------------------------
+
+[21:33:13.953] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2672397___ijerph-06-01145f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672397___ijerph-06-01145f1\PMC2672397___ijerph-06-01145f1.json
+  - Series Count: 4
+  - Series Names: ['COD (pH = 8.3)', 'TOC (pH = 8.3)', 'COD (pH = 10)', 'TOC (pH = 10)']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 28
+--------------------------------------------------
+
+[21:33:13.955] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.5448
+  - Y Min-Max: [0.4552, 1.0000]
+  - X Range: 60.0818139317438
+--------------------------------------------------
+
+[21:33:13.957] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:33:13.960] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['COD (pH = 8.3) <-> COD (pH = 8.3) (method=exact_match, score=1.000)', 'COD (pH = 10) <-> COD (pH = 10) (method=exact_match, score=1.000)', 'TOC (pH = 8.3) <-> TOC (pH = 8.3) (method=exact_match, score=1.000)', 'TOC (pH = 10) <-> TOC (pH = 10) (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:33:14.777] === SERIES_COMPARISON ===
+Comparaison COD (pH = 8.3) vs COD (pH = 8.3) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.031152
+  - MAE Relative: 0.057181
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.001867
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 7
+  - Points Ratio: 0.32
+--------------------------------------------------
+
+[21:33:18.172] === SERIES_COMPARISON ===
+Comparaison COD (pH = 10) vs COD (pH = 10) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.026363
+  - MAE Relative: 0.048391
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.000506
+  - X Cutoff: N/A
+  - GT Points: 31
+  - Extracted Points: 7
+  - Points Ratio: 0.23
+--------------------------------------------------
+
+[21:33:20.491] === SERIES_COMPARISON ===
+Comparaison TOC (pH = 8.3) vs TOC (pH = 8.3) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.008963
+  - MAE Relative: 0.016453
+  - Left Miss (rel): 0.001362
+  - Right Miss (rel): -0.001187
+  - X Cutoff: N/A
+  - GT Points: 24
+  - Extracted Points: 7
+  - Points Ratio: 0.29
+--------------------------------------------------
+
+[21:33:22.426] === SERIES_COMPARISON ===
+Comparaison TOC (pH = 10) vs TOC (pH = 10) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.016372
+  - MAE Relative: 0.030052
+  - Left Miss (rel): 0.001362
+  - Right Miss (rel): -0.001187
+  - X Cutoff: N/A
+  - GT Points: 23
+  - Extracted Points: 7
+  - Points Ratio: 0.30
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:33:22
+Total Duration: 8.54 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2672397_ijerph-06-01145f1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2672397_ijerph-06-01145f1
+================================================================================
+Timestamp: 2025-08-07 12:49:24
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672397___ijerph-06-01145f1
+================================================================================
+
+
+
+[12:49:24.470] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:49:24.472] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:49:24.514] === DATA_LOADING ===
+Chargement des données GT depuis PMC2672397___ijerph-06-01145f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2672397___ijerph-06-01145f1.json
+  - Series Count: 4
+  - Series Names: ['COD (pH = 8.3)', 'COD (pH = 10)', 'TOC (pH = 8.3)', 'TOC (pH = 10)']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 100
+--------------------------------------------------
+
+[12:49:24.525] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2672397___ijerph-06-01145f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672397___ijerph-06-01145f1\PMC2672397___ijerph-06-01145f1.json
+  - Series Count: 4
+  - Series Names: ['COD (pH = 8.3)', 'TOC (pH = 8.3)', 'COD (pH = 10)', 'TOC (pH = 10)']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 28
+--------------------------------------------------
+
+[12:49:24.529] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.5448
+  - Y Min-Max: [0.4552, 1.0000]
+  - X Range: 60.0818139317438
+--------------------------------------------------
+
+[12:49:24.531] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:49:24.534] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['COD (pH = 8.3) <-> COD (pH = 8.3) (method=exact_match, score=1.000)', 'COD (pH = 10) <-> COD (pH = 10) (method=exact_match, score=1.000)', 'TOC (pH = 8.3) <-> TOC (pH = 8.3) (method=exact_match, score=1.000)', 'TOC (pH = 10) <-> TOC (pH = 10) (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:49:25.410] === SERIES_COMPARISON ===
+Comparaison COD (pH = 8.3) vs COD (pH = 8.3) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.031152
+  - MAE Relative: 0.057181
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.001867
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 7
+  - Points Ratio: 0.32
+--------------------------------------------------
+
+[12:49:27.018] === SERIES_COMPARISON ===
+Comparaison COD (pH = 10) vs COD (pH = 10) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.026363
+  - MAE Relative: 0.048391
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.000506
+  - X Cutoff: N/A
+  - GT Points: 31
+  - Extracted Points: 7
+  - Points Ratio: 0.23
+--------------------------------------------------
+
+[12:49:29.025] === SERIES_COMPARISON ===
+Comparaison TOC (pH = 8.3) vs TOC (pH = 8.3) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.008963
+  - MAE Relative: 0.016453
+  - Left Miss (rel): 0.001362
+  - Right Miss (rel): -0.001187
+  - X Cutoff: N/A
+  - GT Points: 24
+  - Extracted Points: 7
+  - Points Ratio: 0.29
+--------------------------------------------------
+
+[12:49:30.517] === SERIES_COMPARISON ===
+Comparaison TOC (pH = 10) vs TOC (pH = 10) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.016372
+  - MAE Relative: 0.030052
+  - Left Miss (rel): 0.001362
+  - Right Miss (rel): -0.001187
+  - X Cutoff: N/A
+  - GT Points: 23
+  - Extracted Points: 7
+  - Points Ratio: 0.30
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:49:30
+Total Duration: 6.07 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2672397_ijerph-06-01145f1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2672397_ijerph-06-01145f1
+================================================================================
+Timestamp: 2025-08-07 13:06:17
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672397___ijerph-06-01145f1
+================================================================================
+
+
+
+[13:06:17.948] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:06:17.951] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:06:18.005] === DATA_LOADING ===
+Chargement des données GT depuis PMC2672397___ijerph-06-01145f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2672397___ijerph-06-01145f1.json
+  - Series Count: 4
+  - Series Names: ['COD (pH = 8.3)', 'COD (pH = 10)', 'TOC (pH = 8.3)', 'TOC (pH = 10)']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 100
+--------------------------------------------------
+
+[13:06:18.027] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2672397___ijerph-06-01145f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672397___ijerph-06-01145f1\PMC2672397___ijerph-06-01145f1.json
+  - Series Count: 4
+  - Series Names: ['COD (pH = 8.3)', 'COD (pH = 10)', 'TOC (pH = 8.3)', 'TOC (pH = 10)']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 28
+--------------------------------------------------
+
+[13:06:18.032] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.5448
+  - Y Min-Max: [0.4552, 1.0000]
+  - X Range: 60.0818139317438
+--------------------------------------------------
+
+[13:06:18.036] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:06:18.042] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['COD (pH = 8.3) <-> COD (pH = 8.3) (method=exact_match, score=1.000)', 'COD (pH = 10) <-> COD (pH = 10) (method=exact_match, score=1.000)', 'TOC (pH = 8.3) <-> TOC (pH = 8.3) (method=exact_match, score=1.000)', 'TOC (pH = 10) <-> TOC (pH = 10) (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:06:19.290] === SERIES_COMPARISON ===
+Comparaison COD (pH = 8.3) vs COD (pH = 8.3) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.031152
+  - MAE Relative: 0.057181
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.001867
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 7
+  - Points Ratio: 0.32
+--------------------------------------------------
+
+[13:06:20.330] === SERIES_COMPARISON ===
+Comparaison COD (pH = 10) vs COD (pH = 10) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.029981
+  - MAE Relative: 0.055033
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.000506
+  - X Cutoff: N/A
+  - GT Points: 31
+  - Extracted Points: 7
+  - Points Ratio: 0.23
+--------------------------------------------------
+
+[13:06:21.435] === SERIES_COMPARISON ===
+Comparaison TOC (pH = 8.3) vs TOC (pH = 8.3) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.005661
+  - MAE Relative: 0.010391
+  - Left Miss (rel): 0.001362
+  - Right Miss (rel): -0.001187
+  - X Cutoff: N/A
+  - GT Points: 24
+  - Extracted Points: 7
+  - Points Ratio: 0.29
+--------------------------------------------------
+
+[13:06:22.389] === SERIES_COMPARISON ===
+Comparaison TOC (pH = 10) vs TOC (pH = 10) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.017993
+  - MAE Relative: 0.033027
+  - Left Miss (rel): 0.001362
+  - Right Miss (rel): -0.001187
+  - X Cutoff: N/A
+  - GT Points: 23
+  - Extracted Points: 7
+  - Points Ratio: 0.30
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:06:22
+Total Duration: 4.45 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2672397_ijerph-06-01145f1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2672397_ijerph-06-01145f1
+================================================================================
+Timestamp: 2025-08-07 16:39:56
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672397___ijerph-06-01145f1
+================================================================================
+
+
+
+[16:39:56.857] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:39:56.889] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:39:56.980] === DATA_LOADING ===
+Chargement des données GT depuis PMC2672397___ijerph-06-01145f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2672397___ijerph-06-01145f1.json
+  - Series Count: 4
+  - Series Names: ['COD (pH = 8.3)', 'COD (pH = 10)', 'TOC (pH = 8.3)', 'TOC (pH = 10)']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 100
+--------------------------------------------------
+
+[16:39:56.984] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2672397___ijerph-06-01145f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672397___ijerph-06-01145f1\PMC2672397___ijerph-06-01145f1.json
+  - Series Count: 4
+  - Series Names: ['COD (pH = 8.3)', 'TOC (pH = 8.3)', 'COD (pH = 10)', 'TOC (pH = 10)']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 28
+--------------------------------------------------
+
+[16:39:56.997] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.5448
+  - Y Min-Max: [0.4552, 1.0000]
+  - X Range: 60.0818139317438
+--------------------------------------------------
+
+[16:39:57.021] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:39:57.043] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['COD (pH = 8.3) <-> COD (pH = 8.3) (method=exact_match, score=1.000)', 'COD (pH = 10) <-> COD (pH = 10) (method=exact_match, score=1.000)', 'TOC (pH = 8.3) <-> TOC (pH = 8.3) (method=exact_match, score=1.000)', 'TOC (pH = 10) <-> TOC (pH = 10) (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:39:58.975] === SERIES_COMPARISON ===
+Comparaison COD (pH = 8.3) vs COD (pH = 8.3) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.031152
+  - MAE Relative: 0.057181
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.001867
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 7
+  - Points Ratio: 0.32
+--------------------------------------------------
+
+[16:39:59.921] === SERIES_COMPARISON ===
+Comparaison COD (pH = 10) vs COD (pH = 10) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.026363
+  - MAE Relative: 0.048391
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.000506
+  - X Cutoff: N/A
+  - GT Points: 31
+  - Extracted Points: 7
+  - Points Ratio: 0.23
+--------------------------------------------------
+
+[16:40:00.762] === SERIES_COMPARISON ===
+Comparaison TOC (pH = 8.3) vs TOC (pH = 8.3) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.008963
+  - MAE Relative: 0.016453
+  - Left Miss (rel): 0.001362
+  - Right Miss (rel): -0.001187
+  - X Cutoff: N/A
+  - GT Points: 24
+  - Extracted Points: 7
+  - Points Ratio: 0.29
+--------------------------------------------------
+
+[16:40:01.305] === SERIES_COMPARISON ===
+Comparaison TOC (pH = 10) vs TOC (pH = 10) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.016372
+  - MAE Relative: 0.030052
+  - Left Miss (rel): 0.001362
+  - Right Miss (rel): -0.001187
+  - X Cutoff: N/A
+  - GT Points: 23
+  - Extracted Points: 7
+  - Points Ratio: 0.30
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:40:01
+Total Duration: 4.48 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2672397_ijerph-06-01145f1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2672397_ijerph-06-01145f1
+================================================================================
+Timestamp: 2025-08-07 16:59:11
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672397___ijerph-06-01145f1
+================================================================================
+
+
+
+[16:59:11.175] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:59:11.181] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:59:11.240] === DATA_LOADING ===
+Chargement des données GT depuis PMC2672397___ijerph-06-01145f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2672397___ijerph-06-01145f1.json
+  - Series Count: 4
+  - Series Names: ['COD (pH = 8.3)', 'COD (pH = 10)', 'TOC (pH = 8.3)', 'TOC (pH = 10)']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 100
+--------------------------------------------------
+
+[16:59:11.246] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2672397___ijerph-06-01145f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672397___ijerph-06-01145f1\PMC2672397___ijerph-06-01145f1.json
+  - Series Count: 4
+  - Series Names: ['COD (pH = 8.3)', 'COD (pH = 10)', 'TOC (pH = 8.3)', 'TOC (pH = 10)']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 28
+--------------------------------------------------
+
+[16:59:11.250] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.5448
+  - Y Min-Max: [0.4552, 1.0000]
+  - X Range: 60.0818139317438
+--------------------------------------------------
+
+[16:59:11.267] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:59:11.272] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['COD (pH = 8.3) <-> COD (pH = 8.3) (method=exact_match, score=1.000)', 'COD (pH = 10) <-> COD (pH = 10) (method=exact_match, score=1.000)', 'TOC (pH = 8.3) <-> TOC (pH = 8.3) (method=exact_match, score=1.000)', 'TOC (pH = 10) <-> TOC (pH = 10) (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:59:12.056] === SERIES_COMPARISON ===
+Comparaison COD (pH = 8.3) vs COD (pH = 8.3) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.031152
+  - MAE Relative: 0.057181
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.001867
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 7
+  - Points Ratio: 0.32
+--------------------------------------------------
+
+[16:59:13.265] === SERIES_COMPARISON ===
+Comparaison COD (pH = 10) vs COD (pH = 10) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.029981
+  - MAE Relative: 0.055033
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.000506
+  - X Cutoff: N/A
+  - GT Points: 31
+  - Extracted Points: 7
+  - Points Ratio: 0.23
+--------------------------------------------------
+
+[16:59:15.163] === SERIES_COMPARISON ===
+Comparaison TOC (pH = 8.3) vs TOC (pH = 8.3) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.005661
+  - MAE Relative: 0.010391
+  - Left Miss (rel): 0.001362
+  - Right Miss (rel): -0.001187
+  - X Cutoff: N/A
+  - GT Points: 24
+  - Extracted Points: 7
+  - Points Ratio: 0.29
+--------------------------------------------------
+
+[16:59:16.674] === SERIES_COMPARISON ===
+Comparaison TOC (pH = 10) vs TOC (pH = 10) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.017993
+  - MAE Relative: 0.033027
+  - Left Miss (rel): 0.001362
+  - Right Miss (rel): -0.001187
+  - X Cutoff: N/A
+  - GT Points: 23
+  - Extracted Points: 7
+  - Points Ratio: 0.30
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:59:16
+Total Duration: 5.53 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2672397_ijerph-06-01145f1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

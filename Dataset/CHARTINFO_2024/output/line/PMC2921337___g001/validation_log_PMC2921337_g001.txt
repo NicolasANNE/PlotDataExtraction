@@ -1,0 +1,283 @@
+
+================================================================================
+VALIDATION LOG - PMC2921337_g001
+================================================================================
+Timestamp: 2025-08-06 20:16:52
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2921337___g001
+================================================================================
+
+
+
+[20:16:52.834] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:52.877] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:52.886] === DATA_LOADING ===
+Chargement des données GT depuis PMC2921337___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2921337___g001.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:52.903] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2921337___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2921337___g001\PMC2921337___g001.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:52.906] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2921337_g001
+================================================================================
+Timestamp: 2025-08-06 21:35:04
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2921337___g001
+================================================================================
+
+
+
+[21:35:04.742] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:35:04.806] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:35:04.907] === DATA_LOADING ===
+Chargement des données GT depuis PMC2921337___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2921337___g001.json
+  - Series Count: 2
+  - Series Names: ['No Warfarin', 'Warfarin']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 73
+--------------------------------------------------
+
+[21:35:04.932] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2921337___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2921337___g001\PMC2921337___g001.json
+  - Series Count: 2
+  - Series Names: ['No Warfarin', 'Warfarin']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[21:35:04.969] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 9.2759
+  - Y Min-Max: [90.5737, 99.8496]
+  - X Range: 48.03588202502772
+--------------------------------------------------
+
+[21:35:05.003] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:35:05.014] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['No Warfarin <-> No Warfarin (method=exact_match, score=1.000)', 'Warfarin <-> Warfarin (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:35:06.742] === SERIES_COMPARISON ===
+Comparaison No Warfarin vs No Warfarin avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.380408
+  - MAE Relative: 0.041010
+  - Left Miss (rel): 0.000747
+  - Right Miss (rel): -0.031100
+  - X Cutoff: N/A
+  - GT Points: 41
+  - Extracted Points: 11
+  - Points Ratio: 0.27
+--------------------------------------------------
+
+[21:35:07.996] === SERIES_COMPARISON ===
+Comparaison Warfarin vs Warfarin avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.203628
+  - MAE Relative: 0.021952
+  - Left Miss (rel): 0.000747
+  - Right Miss (rel): -0.027676
+  - X Cutoff: N/A
+  - GT Points: 32
+  - Extracted Points: 11
+  - Points Ratio: 0.34
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:35:08
+Total Duration: 3.28 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2921337_g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2921337_g001
+================================================================================
+Timestamp: 2025-08-07 12:51:11
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2921337___g001
+================================================================================
+
+
+
+[12:51:11.315] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:51:11.317] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:51:11.378] === DATA_LOADING ===
+Chargement des données GT depuis PMC2921337___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2921337___g001.json
+  - Series Count: 2
+  - Series Names: ['No Warfarin', 'Warfarin']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 73
+--------------------------------------------------
+
+[12:51:11.399] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2921337___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2921337___g001\PMC2921337___g001.json
+  - Series Count: 2
+  - Series Names: ['No Warfarin', 'Warfarin']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[12:51:11.436] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 9.2759
+  - Y Min-Max: [90.5737, 99.8496]
+  - X Range: 48.03588202502772
+--------------------------------------------------
+
+[12:51:11.463] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:51:11.479] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['No Warfarin <-> No Warfarin (method=exact_match, score=1.000)', 'Warfarin <-> Warfarin (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:51:12.610] === SERIES_COMPARISON ===
+Comparaison No Warfarin vs No Warfarin avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.380408
+  - MAE Relative: 0.041010
+  - Left Miss (rel): 0.000747
+  - Right Miss (rel): -0.031100
+  - X Cutoff: N/A
+  - GT Points: 41
+  - Extracted Points: 11
+  - Points Ratio: 0.27
+--------------------------------------------------
+
+[12:51:13.787] === SERIES_COMPARISON ===
+Comparaison Warfarin vs Warfarin avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.203628
+  - MAE Relative: 0.021952
+  - Left Miss (rel): 0.000747
+  - Right Miss (rel): -0.027676
+  - X Cutoff: N/A
+  - GT Points: 32
+  - Extracted Points: 11
+  - Points Ratio: 0.34
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:51:13
+Total Duration: 2.48 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2921337_g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

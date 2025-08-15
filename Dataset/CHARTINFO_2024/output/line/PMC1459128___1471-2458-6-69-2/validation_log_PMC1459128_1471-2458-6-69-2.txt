@@ -1,0 +1,785 @@
+
+================================================================================
+VALIDATION LOG - PMC1459128_1471-2458-6-69-2
+================================================================================
+Timestamp: 2025-08-06 20:15:28
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1459128___1471-2458-6-69-2
+================================================================================
+
+
+
+[20:15:28.047] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:28.079] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:28.109] === DATA_LOADING ===
+Chargement des données GT depuis PMC1459128___1471-2458-6-69-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1459128___1471-2458-6-69-2.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:28.130] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1459128___1471-2458-6-69-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1459128___1471-2458-6-69-2\PMC1459128___1471-2458-6-69-2.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:28.142] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1459128_1471-2458-6-69-2
+================================================================================
+Timestamp: 2025-08-06 21:31:08
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1459128___1471-2458-6-69-2
+================================================================================
+
+
+
+[21:31:08.144] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:31:08.146] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:31:08.190] === DATA_LOADING ===
+Chargement des données GT depuis PMC1459128___1471-2458-6-69-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1459128___1471-2458-6-69-2.json
+  - Series Count: 5
+  - Series Names: ['Baseline Int', 'Baseline Contr', 'Six months Int', 'Six months Contr', 'Norm']
+  - X Data Types: {'categorical': 5}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[21:31:08.234] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1459128___1471-2458-6-69-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1459128___1471-2458-6-69-2\PMC1459128___1471-2458-6-69-2.json
+  - Series Count: 5
+  - Series Names: ['Baseline Int', 'Baseline Contr', 'Six months Int', 'Six months Contr', 'Norm']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[21:31:08.244] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 57.0000
+  - Y Min-Max: [34.0000, 91.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[21:31:08.249] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:31:08.252] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['Baseline Int <-> Baseline Int (method=exact_match, score=1.000)', 'Baseline Contr <-> Baseline Contr (method=exact_match, score=1.000)', 'Six months Int <-> Six months Int (method=exact_match, score=1.000)', 'Six months Contr <-> Six months Contr (method=exact_match, score=1.000)', 'Norm <-> Norm (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:31:08.270] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Baseline Int vs Baseline Int
+==================================================
+
+
+[21:31:08.308] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Baseline Contr vs Baseline Contr
+==================================================
+
+
+[21:31:08.336] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Six months Int vs Six months Int
+==================================================
+
+
+[21:31:08.369] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Six months Contr vs Six months Contr
+==================================================
+
+
+[21:31:08.403] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Norm vs Norm
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:31:08
+Total Duration: 0.27 seconds
+Total Series Processed: 5
+Successful Comparisons: 0
+Errors: 5
+Success Rate: 0.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1459128_1471-2458-6-69-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1459128_1471-2458-6-69-2
+================================================================================
+Timestamp: 2025-08-07 12:47:07
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1459128___1471-2458-6-69-2
+================================================================================
+
+
+
+[12:47:07.819] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:47:07.843] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:47:07.891] === DATA_LOADING ===
+Chargement des données GT depuis PMC1459128___1471-2458-6-69-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1459128___1471-2458-6-69-2.json
+  - Series Count: 5
+  - Series Names: ['Baseline Int', 'Baseline Contr', 'Six months Int', 'Six months Contr', 'Norm']
+  - X Data Types: {'categorical': 5}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[12:47:07.897] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1459128___1471-2458-6-69-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1459128___1471-2458-6-69-2\PMC1459128___1471-2458-6-69-2.json
+  - Series Count: 5
+  - Series Names: ['Baseline Int', 'Baseline Contr', 'Six months Int', 'Six months Contr', 'Norm']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[12:47:07.901] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 56.7007
+  - Y Min-Max: [34.0000, 90.7007]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:47:07.904] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:47:07.921] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['Baseline Int <-> Baseline Int (method=exact_match, score=1.000)', 'Baseline Contr <-> Baseline Contr (method=exact_match, score=1.000)', 'Six months Int <-> Six months Int (method=exact_match, score=1.000)', 'Six months Contr <-> Six months Contr (method=exact_match, score=1.000)', 'Norm <-> Norm (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:47:07.959] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Baseline Int vs Baseline Int
+==================================================
+
+
+[12:47:08.013] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Baseline Contr vs Baseline Contr
+==================================================
+
+
+[12:47:08.036] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Six months Int vs Six months Int
+==================================================
+
+
+[12:47:08.071] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Six months Contr vs Six months Contr
+==================================================
+
+
+[12:47:08.100] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Norm vs Norm
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:47:08
+Total Duration: 0.30 seconds
+Total Series Processed: 5
+Successful Comparisons: 0
+Errors: 5
+Success Rate: 0.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1459128_1471-2458-6-69-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1459128_1471-2458-6-69-2
+================================================================================
+Timestamp: 2025-08-07 13:04:04
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1459128___1471-2458-6-69-2
+================================================================================
+
+
+
+[13:04:04.851] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:04:04.859] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:04:04.916] === DATA_LOADING ===
+Chargement des données GT depuis PMC1459128___1471-2458-6-69-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1459128___1471-2458-6-69-2.json
+  - Series Count: 5
+  - Series Names: ['Baseline Int', 'Baseline Contr', 'Six months Int', 'Six months Contr', 'Norm']
+  - X Data Types: {'categorical': 5}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[13:04:04.922] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1459128___1471-2458-6-69-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1459128___1471-2458-6-69-2\PMC1459128___1471-2458-6-69-2.json
+  - Series Count: 5
+  - Series Names: ['Baseline Int', 'Baseline Contr', 'Six months Int', 'Six months Contr', 'Norm']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[13:04:04.929] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 56.7007
+  - Y Min-Max: [34.0000, 90.7007]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:04:04.936] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:04:04.955] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['Baseline Int <-> Baseline Int (method=exact_match, score=1.000)', 'Baseline Contr <-> Baseline Contr (method=exact_match, score=1.000)', 'Six months Int <-> Six months Int (method=exact_match, score=1.000)', 'Six months Contr <-> Six months Contr (method=exact_match, score=1.000)', 'Norm <-> Norm (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:04:04.973] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Baseline Int vs Baseline Int
+==================================================
+
+
+[13:04:05.022] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Baseline Contr vs Baseline Contr
+==================================================
+
+
+[13:04:05.040] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Six months Int vs Six months Int
+==================================================
+
+
+[13:04:05.056] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Six months Contr vs Six months Contr
+==================================================
+
+
+[13:04:05.082] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Norm vs Norm
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:04:05
+Total Duration: 0.26 seconds
+Total Series Processed: 5
+Successful Comparisons: 0
+Errors: 5
+Success Rate: 0.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1459128_1471-2458-6-69-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1459128_1471-2458-6-69-2
+================================================================================
+Timestamp: 2025-08-07 16:37:40
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1459128___1471-2458-6-69-2
+================================================================================
+
+
+
+[16:37:40.089] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:37:40.091] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:37:40.138] === DATA_LOADING ===
+Chargement des données GT depuis PMC1459128___1471-2458-6-69-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1459128___1471-2458-6-69-2.json
+  - Series Count: 5
+  - Series Names: ['Baseline Int', 'Baseline Contr', 'Six months Int', 'Six months Contr', 'Norm']
+  - X Data Types: {'categorical': 5}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[16:37:40.146] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1459128___1471-2458-6-69-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1459128___1471-2458-6-69-2\PMC1459128___1471-2458-6-69-2.json
+  - Series Count: 5
+  - Series Names: ['Baseline Int', 'Baseline Contr', 'Six months Int', 'Six months Contr', 'Norm']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[16:37:40.177] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 57.0000
+  - Y Min-Max: [34.0000, 91.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:37:40.179] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:37:40.194] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['Baseline Int <-> Baseline Int (method=exact_match, score=1.000)', 'Baseline Contr <-> Baseline Contr (method=exact_match, score=1.000)', 'Six months Int <-> Six months Int (method=exact_match, score=1.000)', 'Six months Contr <-> Six months Contr (method=exact_match, score=1.000)', 'Norm <-> Norm (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:37:40.212] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Baseline Int vs Baseline Int
+==================================================
+
+
+[16:37:40.242] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Baseline Contr vs Baseline Contr
+==================================================
+
+
+[16:37:40.267] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Six months Int vs Six months Int
+==================================================
+
+
+[16:37:40.289] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Six months Contr vs Six months Contr
+==================================================
+
+
+[16:37:40.312] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Norm vs Norm
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:37:40
+Total Duration: 0.24 seconds
+Total Series Processed: 5
+Successful Comparisons: 0
+Errors: 5
+Success Rate: 0.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1459128_1471-2458-6-69-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1459128_1471-2458-6-69-2
+================================================================================
+Timestamp: 2025-08-07 16:56:53
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1459128___1471-2458-6-69-2
+================================================================================
+
+
+
+[16:56:53.336] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:56:53.356] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:56:53.421] === DATA_LOADING ===
+Chargement des données GT depuis PMC1459128___1471-2458-6-69-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1459128___1471-2458-6-69-2.json
+  - Series Count: 5
+  - Series Names: ['Baseline Int', 'Baseline Contr', 'Six months Int', 'Six months Contr', 'Norm']
+  - X Data Types: {'categorical': 5}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[16:56:53.424] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1459128___1471-2458-6-69-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1459128___1471-2458-6-69-2\PMC1459128___1471-2458-6-69-2.json
+  - Series Count: 5
+  - Series Names: ['Baseline Int', 'Baseline Contr', 'Six months Int', 'Six months Contr', 'Norm']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[16:56:53.428] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 56.7007
+  - Y Min-Max: [34.0000, 90.7007]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:56:53.454] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:56:53.457] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['Baseline Int <-> Baseline Int (method=exact_match, score=1.000)', 'Baseline Contr <-> Baseline Contr (method=exact_match, score=1.000)', 'Six months Int <-> Six months Int (method=exact_match, score=1.000)', 'Six months Contr <-> Six months Contr (method=exact_match, score=1.000)', 'Norm <-> Norm (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:56:53.475] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Baseline Int vs Baseline Int
+==================================================
+
+
+[16:56:53.503] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Baseline Contr vs Baseline Contr
+==================================================
+
+
+[16:56:53.524] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Six months Int vs Six months Int
+==================================================
+
+
+[16:56:53.545] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Six months Contr vs Six months Contr
+==================================================
+
+
+[16:56:53.568] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Norm vs Norm
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:56:53
+Total Duration: 0.27 seconds
+Total Series Processed: 5
+Successful Comparisons: 0
+Errors: 5
+Success Rate: 0.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1459128_1471-2458-6-69-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1459128_1471-2458-6-69-2
+================================================================================
+Timestamp: 2025-08-11 13:45:47
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1459128___1471-2458-6-69-2
+================================================================================
+
+
+
+[13:45:47.067] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:45:47.071] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:45:47.265] === DATA_LOADING ===
+Chargement des données GT depuis PMC1459128___1471-2458-6-69-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1459128___1471-2458-6-69-2.json
+  - Series Count: 5
+  - Series Names: ['Baseline Int', 'Baseline Contr', 'Six months Int', 'Six months Contr', 'Norm']
+  - X Data Types: {'categorical': 5}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[13:45:47.276] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1459128___1471-2458-6-69-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1459128___1471-2458-6-69-2\PMC1459128___1471-2458-6-69-2.json
+  - Series Count: 5
+  - Series Names: ['Baseline Int', 'Baseline Contr', 'Six months Int', 'Six months Contr', 'Norm']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[13:45:47.319] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 56.7007
+  - Y Min-Max: [34.0000, 90.7007]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:45:47.323] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:45:47.332] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['Baseline Int <-> Baseline Int (method=exact_match, score=1.000)', 'Baseline Contr <-> Baseline Contr (method=exact_match, score=1.000)', 'Six months Int <-> Six months Int (method=exact_match, score=1.000)', 'Six months Contr <-> Six months Contr (method=exact_match, score=1.000)', 'Norm <-> Norm (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:45:47.379] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Baseline Int vs Baseline Int
+==================================================
+
+
+[13:45:47.403] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Baseline Contr vs Baseline Contr
+==================================================
+
+
+[13:45:47.444] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Six months Int vs Six months Int
+==================================================
+
+
+[13:45:47.473] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Six months Contr vs Six months Contr
+==================================================
+
+
+[13:45:47.517] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Norm vs Norm
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-11 13:45:47
+Total Duration: 0.48 seconds
+Total Series Processed: 5
+Successful Comparisons: 0
+Errors: 5
+Success Rate: 0.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1459128_1471-2458-6-69-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

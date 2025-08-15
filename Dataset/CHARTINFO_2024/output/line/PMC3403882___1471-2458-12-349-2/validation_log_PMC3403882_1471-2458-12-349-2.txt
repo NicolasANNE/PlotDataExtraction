@@ -1,0 +1,258 @@
+
+================================================================================
+VALIDATION LOG - PMC3403882_1471-2458-12-349-2
+================================================================================
+Timestamp: 2025-08-06 21:39:20
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3403882___1471-2458-12-349-2
+================================================================================
+
+
+
+[21:39:20.561] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:39:20.565] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:39:20.722] === DATA_LOADING ===
+Chargement des données GT depuis PMC3403882___1471-2458-12-349-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3403882___1471-2458-12-349-2.json
+  - Series Count: 3
+  - Series Names: ['Glucometer mg/dl', 'Fast. blood sugar mg/ml', 'Reference Line']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[21:39:20.726] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3403882___1471-2458-12-349-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3403882___1471-2458-12-349-2\PMC3403882___1471-2458-12-349-2.json
+  - Series Count: 3
+  - Series Names: ['Fast. blood sugar mg/ml', 'Glucometer mg/dl', 'Reference Line']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[21:39:20.729] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.0180
+  - Y Min-Max: [-0.0082, 1.0098]
+  - X Range: 1.0176991150442478
+--------------------------------------------------
+
+[21:39:20.732] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:39:20.734] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Glucometer mg/dl <-> Glucometer mg/dl (method=exact_match, score=1.000)', 'Fast. blood sugar mg/ml <-> Fast. blood sugar mg/ml (method=exact_match, score=1.000)', 'Reference Line <-> Reference Line (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:39:21.867] === SERIES_COMPARISON ===
+Comparaison Glucometer mg/dl vs Glucometer mg/dl avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.097862
+  - MAE Relative: 0.096130
+  - Left Miss (rel): -0.015043
+  - Right Miss (rel): -0.002174
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 9
+  - Points Ratio: 0.82
+--------------------------------------------------
+
+[21:39:23.464] === SERIES_COMPARISON ===
+Comparaison Fast. blood sugar mg/ml vs Fast. blood sugar mg/ml avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.027950
+  - MAE Relative: 0.027456
+  - Left Miss (rel): 0.008870
+  - Right Miss (rel): -0.004348
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 9
+  - Points Ratio: 0.82
+--------------------------------------------------
+
+[21:39:24.711] === SERIES_COMPARISON ===
+Comparaison Reference Line vs Reference Line avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.009592
+  - MAE Relative: 0.009422
+  - Left Miss (rel): 0.017391
+  - Right Miss (rel): -0.006522
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:39:24
+Total Duration: 4.36 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3403882_1471-2458-12-349-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3403882_1471-2458-12-349-2
+================================================================================
+Timestamp: 2025-08-07 12:54:50
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3403882___1471-2458-12-349-2
+================================================================================
+
+
+
+[12:54:50.626] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:54:50.629] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:54:50.672] === DATA_LOADING ===
+Chargement des données GT depuis PMC3403882___1471-2458-12-349-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3403882___1471-2458-12-349-2.json
+  - Series Count: 3
+  - Series Names: ['Glucometer mg/dl', 'Fast. blood sugar mg/ml', 'Reference Line']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[12:54:50.703] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3403882___1471-2458-12-349-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3403882___1471-2458-12-349-2\PMC3403882___1471-2458-12-349-2.json
+  - Series Count: 3
+  - Series Names: ['Fast. blood sugar mg/ml', 'Reference Line', 'Glucometer mg/dl']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 21
+--------------------------------------------------
+
+[12:54:50.706] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.0180
+  - Y Min-Max: [-0.0082, 1.0098]
+  - X Range: 1.0176991150442478
+--------------------------------------------------
+
+[12:54:50.708] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:54:50.710] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Glucometer mg/dl <-> Glucometer mg/dl (method=exact_match, score=1.000)', 'Fast. blood sugar mg/ml <-> Fast. blood sugar mg/ml (method=exact_match, score=1.000)', 'Reference Line <-> Reference Line (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:54:51.365] === SERIES_COMPARISON ===
+Comparaison Glucometer mg/dl vs Glucometer mg/dl avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.105892
+  - MAE Relative: 0.104018
+  - Left Miss (rel): -0.015043
+  - Right Miss (rel): -0.002174
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 10
+  - Points Ratio: 0.91
+--------------------------------------------------
+
+[12:54:51.997] === SERIES_COMPARISON ===
+Comparaison Fast. blood sugar mg/ml vs Fast. blood sugar mg/ml avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.069942
+  - MAE Relative: 0.068704
+  - Left Miss (rel): 0.008870
+  - Right Miss (rel): -0.004348
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 9
+  - Points Ratio: 0.82
+--------------------------------------------------
+
+[12:54:52.605] === SERIES_COMPARISON ===
+Comparaison Reference Line vs Reference Line avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.029734
+  - MAE Relative: 0.029208
+  - Left Miss (rel): 0.056696
+  - Right Miss (rel): -0.006522
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:54:52
+Total Duration: 2.02 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3403882_1471-2458-12-349-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,324 @@
+
+================================================================================
+VALIDATION LOG - PMC2672375_ijerph-06-01124f3
+================================================================================
+Timestamp: 2025-08-07 13:15:07
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2672375___ijerph-06-01124f3
+================================================================================
+
+
+
+[13:15:07.026] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:15:07.106] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:15:07.238] === DATA_LOADING ===
+Chargement des données GT depuis PMC2672375___ijerph-06-01124f3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC2672375___ijerph-06-01124f3.json
+  - Series Count: 2
+  - Series Names: ['Control', 'HU']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 6
+--------------------------------------------------
+
+[13:15:07.243] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2672375___ijerph-06-01124f3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2672375___ijerph-06-01124f3\PMC2672375___ijerph-06-01124f3.json
+  - Series Count: 2
+  - Series Names: ['Control', 'HU']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 6
+--------------------------------------------------
+
+[13:15:07.267] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0304
+  - Y Min-Max: [0.0619, 0.0923]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:15:07.289] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:15:07.296] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['[unnamed data series #0] <-> Exposed population (method=position_match, score=0.100)']
+--------------------------------------------------
+
+[13:15:07.335] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison [unnamed data series #0] vs Exposed population
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:15:07
+Total Duration: 0.35 seconds
+Total Series Processed: 1
+Successful Comparisons: 0
+Errors: 1
+Success Rate: 0.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2672375_ijerph-06-01124f3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2672375_ijerph-06-01124f3
+================================================================================
+Timestamp: 2025-08-07 16:49:22
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2672375___ijerph-06-01124f3
+================================================================================
+
+
+
+[16:49:22.286] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:49:22.289] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:49:22.360] === DATA_LOADING ===
+Chargement des données GT depuis PMC2672375___ijerph-06-01124f3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC2672375___ijerph-06-01124f3.json
+  - Series Count: 2
+  - Series Names: ['Control', 'HU']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 6
+--------------------------------------------------
+
+[16:49:22.365] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2672375___ijerph-06-01124f3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2672375___ijerph-06-01124f3\PMC2672375___ijerph-06-01124f3.json
+  - Series Count: 2
+  - Series Names: ['Control', 'HU']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 6
+--------------------------------------------------
+
+[16:49:22.396] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0304
+  - Y Min-Max: [0.0619, 0.0923]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:49:22.398] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:49:22.403] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Control <-> Control (method=exact_match, score=1.000)', 'HU <-> HU (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:49:24.630] === SERIES_COMPARISON ===
+Comparaison Control vs Control avec BarComparator
+
+Data:
+  - MAE Absolute: 0.000813
+  - MAE Relative: 0.026789
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:49:25.698] === SERIES_COMPARISON ===
+Comparaison HU vs HU avec BarComparator
+
+Data:
+  - MAE Absolute: 0.001307
+  - MAE Relative: 0.043049
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:49:25
+Total Duration: 3.53 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2672375_ijerph-06-01124f3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2672375_ijerph-06-01124f3
+================================================================================
+Timestamp: 2025-08-07 17:07:37
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2672375___ijerph-06-01124f3
+================================================================================
+
+
+
+[17:07:37.889] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:07:37.892] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[17:07:37.922] === DATA_LOADING ===
+Chargement des données GT depuis PMC2672375___ijerph-06-01124f3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC2672375___ijerph-06-01124f3.json
+  - Series Count: 2
+  - Series Names: ['Control', 'HU']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 6
+--------------------------------------------------
+
+[17:07:37.926] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2672375___ijerph-06-01124f3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2672375___ijerph-06-01124f3\PMC2672375___ijerph-06-01124f3.json
+  - Series Count: 2
+  - Series Names: ['Control', 'HU']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 6
+--------------------------------------------------
+
+[17:07:37.930] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0304
+  - Y Min-Max: [0.0619, 0.0923]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[17:07:37.934] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:07:37.942] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Control <-> Control (method=exact_match, score=1.000)', 'HU <-> HU (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[17:07:40.276] === SERIES_COMPARISON ===
+Comparaison Control vs Control avec BarComparator
+
+Data:
+  - MAE Absolute: 0.000813
+  - MAE Relative: 0.026789
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:07:41.909] === SERIES_COMPARISON ===
+Comparaison HU vs HU avec BarComparator
+
+Data:
+  - MAE Absolute: 0.001307
+  - MAE Relative: 0.043049
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:07:41
+Total Duration: 4.04 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2672375_ijerph-06-01124f3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

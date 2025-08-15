@@ -1,0 +1,345 @@
+
+================================================================================
+VALIDATION LOG - PMC2377260_1471-2458-8-117-2
+================================================================================
+Timestamp: 2025-08-07 13:14:28
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2377260___1471-2458-8-117-2
+================================================================================
+
+
+
+[13:14:28.569] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:14:28.574] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:14:28.682] === DATA_LOADING ===
+Chargement des données GT depuis PMC2377260___1471-2458-8-117-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC2377260___1471-2458-8-117-2.json
+  - Series Count: 2
+  - Series Names: ['GFR 30-59', 'GFR <30']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[13:14:28.687] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2377260___1471-2458-8-117-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2377260___1471-2458-8-117-2\PMC2377260___1471-2458-8-117-2.json
+  - Series Count: 2
+  - Series Names: ['GFR < 30', 'GFR 30-59']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[13:14:28.726] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 34.8000
+  - Y Min-Max: [0.0000, 34.8000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:14:28.752] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:14:28.757] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['GFR 30-59 <-> GFR 30-59 (method=exact_match, score=1.000)', 'GFR <30 <-> GFR < 30 (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[13:14:33.248] === SERIES_COMPARISON ===
+Comparaison GFR 30-59 vs GFR 30-59 avec BarComparator
+
+Data:
+  - MAE Absolute: 30.527654
+  - MAE Relative: 0.877231
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.947500
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:14:36.375] === SERIES_COMPARISON ===
+Comparaison GFR <30 vs GFR < 30 avec BarComparator
+
+Data:
+  - MAE Absolute: 1.727415
+  - MAE Relative: 0.049638
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.947500
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:14:36
+Total Duration: 7.86 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2377260_1471-2458-8-117-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2377260_1471-2458-8-117-2
+================================================================================
+Timestamp: 2025-08-07 16:48:36
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2377260___1471-2458-8-117-2
+================================================================================
+
+
+
+[16:48:36.551] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:48:36.554] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:48:36.600] === DATA_LOADING ===
+Chargement des données GT depuis PMC2377260___1471-2458-8-117-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC2377260___1471-2458-8-117-2.json
+  - Series Count: 2
+  - Series Names: ['GFR 30-59', 'GFR <30']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[16:48:36.603] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2377260___1471-2458-8-117-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2377260___1471-2458-8-117-2\PMC2377260___1471-2458-8-117-2.json
+  - Series Count: 2
+  - Series Names: ['GFR 30-59', 'GFR < 30']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[16:48:36.607] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 34.8000
+  - Y Min-Max: [0.0000, 34.8000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:48:36.610] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:48:36.613] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['GFR 30-59 <-> GFR 30-59 (method=exact_match, score=1.000)', 'GFR <30 <-> GFR < 30 (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[16:48:38.171] === SERIES_COMPARISON ===
+Comparaison GFR 30-59 vs GFR 30-59 avec BarComparator
+
+Data:
+  - MAE Absolute: 29.927654
+  - MAE Relative: 0.859990
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.947500
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:48:42.030] === SERIES_COMPARISON ===
+Comparaison GFR <30 vs GFR < 30 avec BarComparator
+
+Data:
+  - MAE Absolute: 2.327415
+  - MAE Relative: 0.066880
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.947500
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:48:42
+Total Duration: 5.54 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2377260_1471-2458-8-117-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2377260_1471-2458-8-117-2
+================================================================================
+Timestamp: 2025-08-07 17:07:03
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2377260___1471-2458-8-117-2
+================================================================================
+
+
+
+[17:07:03.212] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:07:03.215] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[17:07:03.254] === DATA_LOADING ===
+Chargement des données GT depuis PMC2377260___1471-2458-8-117-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC2377260___1471-2458-8-117-2.json
+  - Series Count: 2
+  - Series Names: ['GFR 30-59', 'GFR <30']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[17:07:03.269] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2377260___1471-2458-8-117-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2377260___1471-2458-8-117-2\PMC2377260___1471-2458-8-117-2.json
+  - Series Count: 2
+  - Series Names: ['GFR 30-59', 'GFR < 30']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[17:07:03.273] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 34.8000
+  - Y Min-Max: [0.0000, 34.8000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[17:07:03.275] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:07:03.278] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['GFR 30-59 <-> GFR 30-59 (method=exact_match, score=1.000)', 'GFR <30 <-> GFR < 30 (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[17:07:05.011] === SERIES_COMPARISON ===
+Comparaison GFR 30-59 vs GFR 30-59 avec BarComparator
+
+Data:
+  - MAE Absolute: 30.027654
+  - MAE Relative: 0.862864
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.947500
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:07:08.694] === SERIES_COMPARISON ===
+Comparaison GFR <30 vs GFR < 30 avec BarComparator
+
+Data:
+  - MAE Absolute: 2.227415
+  - MAE Relative: 0.064006
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.947500
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:07:08
+Total Duration: 5.50 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2377260_1471-2458-8-117-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

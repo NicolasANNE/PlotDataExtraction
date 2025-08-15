@@ -1,0 +1,129 @@
+
+================================================================================
+VALIDATION LOG - PMC3605113_pgen.1003348.g001
+================================================================================
+Timestamp: 2025-08-07 12:57:32
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3605113___pgen.1003348.g001
+================================================================================
+
+
+
+[12:57:32.861] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:57:32.865] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:57:32.949] === DATA_LOADING ===
+Chargement des données GT depuis PMC3605113___pgen.1003348.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3605113___pgen.1003348.g001.json
+  - Series Count: 3
+  - Series Names: ['pi0=0.95', 'piO=0.90', 'pi0=0']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 55
+--------------------------------------------------
+
+[12:57:32.954] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3605113___pgen.1003348.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3605113___pgen.1003348.g001\PMC3605113___pgen.1003348.g001.json
+  - Series Count: 3
+  - Series Names: ['pi0=0.95', 'pi0=0.90', 'pi0=0']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 29
+--------------------------------------------------
+
+[12:57:32.960] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 9.8271
+  - Y Min-Max: [23.2361, 33.0633]
+  - X Range: 1.007561436672968
+--------------------------------------------------
+
+[12:57:32.964] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:57:32.968] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['pi0=0.95 <-> pi0=0.95 (method=exact_match, score=1.000)', 'pi0=0 <-> pi0=0 (method=exact_match, score=1.000)', 'piO=0.90 <-> pi0=0.90 (method=fuzzy_match, score=0.850)']
+--------------------------------------------------
+
+[12:57:33.921] === SERIES_COMPARISON ===
+Comparaison pi0=0.95 vs pi0=0.95 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.509980
+  - MAE Relative: 0.051895
+  - Left Miss (rel): -0.003752
+  - Right Miss (rel): 0.007505
+  - X Cutoff: N/A
+  - GT Points: 21
+  - Extracted Points: 11
+  - Points Ratio: 0.52
+--------------------------------------------------
+
+[12:57:34.737] === SERIES_COMPARISON ===
+Comparaison pi0=0 vs pi0=0 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.937701
+  - MAE Relative: 0.095420
+  - Left Miss (rel): 0.018824
+  - Right Miss (rel): 0.001876
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 8
+  - Points Ratio: 0.50
+--------------------------------------------------
+
+[12:57:35.634] === SERIES_COMPARISON ===
+Comparaison piO=0.90 vs pi0=0.90 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.417090
+  - MAE Relative: 0.042443
+  - Left Miss (rel): 0.012946
+  - Right Miss (rel): 0.003127
+  - X Cutoff: N/A
+  - GT Points: 18
+  - Extracted Points: 10
+  - Points Ratio: 0.56
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:57:35
+Total Duration: 2.78 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3605113_pgen.1003348.g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

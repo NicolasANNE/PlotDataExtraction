@@ -1,0 +1,115 @@
+
+================================================================================
+VALIDATION LOG - PMC3458971_1471-2458-12-593-1
+================================================================================
+Timestamp: 2025-08-07 12:55:46
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3458971___1471-2458-12-593-1
+================================================================================
+
+
+
+[12:55:46.186] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:55:46.189] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:55:46.306] === DATA_LOADING ===
+Chargement des données GT depuis PMC3458971___1471-2458-12-593-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3458971___1471-2458-12-593-1.json
+  - Series Count: 2
+  - Series Names: ['Male', 'Female']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 14
+--------------------------------------------------
+
+[12:55:46.310] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3458971___1471-2458-12-593-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3458971___1471-2458-12-593-1\PMC3458971___1471-2458-12-593-1.json
+  - Series Count: 2
+  - Series Names: ['Male', 'Female']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 14
+--------------------------------------------------
+
+[12:55:46.314] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1180.4696
+  - Y Min-Max: [50.0000, 1230.4696]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:55:46.318] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:55:46.344] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Male <-> Male (method=exact_match, score=1.000)', 'Female <-> Female (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:55:47.398] === SERIES_COMPARISON ===
+Comparaison Male vs Male avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 126.946856
+  - MAE Relative: 0.107539
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.394286
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:55:48.440] === SERIES_COMPARISON ===
+Comparaison Female vs Female avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 329.702262
+  - MAE Relative: 0.279298
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.394286
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:55:48
+Total Duration: 2.26 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3458971_1471-2458-12-593-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

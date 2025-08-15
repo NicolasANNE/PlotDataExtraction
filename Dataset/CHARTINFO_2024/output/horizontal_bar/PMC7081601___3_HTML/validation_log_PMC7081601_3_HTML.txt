@@ -1,0 +1,101 @@
+
+================================================================================
+VALIDATION LOG - PMC7081601_3_HTML
+================================================================================
+Timestamp: 2025-08-06 20:46:57
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC7081601___3_HTML
+================================================================================
+
+
+
+[20:46:57.248] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:46:57.250] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[20:46:57.293] === DATA_LOADING ===
+Chargement des données GT depuis PMC7081601___3_HTML.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\horizontal_bar\PMC7081601___3_HTML.json
+  - Series Count: 1
+  - Series Names: ['[unnamed data series #0]']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[20:46:57.297] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC7081601___3_HTML.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC7081601___3_HTML\PMC7081601___3_HTML.json
+  - Series Count: 1
+  - Series Names: ['genes']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[20:46:57.299] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 126.0000
+  - Y Min-Max: [20.0000, 146.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[20:46:57.302] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[20:46:57.304] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['[unnamed data series #0] <-> genes (method=position_match, score=0.100)']
+--------------------------------------------------
+
+[20:46:58.902] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs genes avec BarComparator
+
+Data:
+  - MAE Absolute: 0.000000
+  - MAE Relative: 0.000000
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 20
+  - Extracted Points: 20
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 20:46:58
+Total Duration: 1.66 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC7081601_3_HTML.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

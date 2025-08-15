@@ -1,0 +1,303 @@
+
+================================================================================
+VALIDATION LOG - PMC2829002_1471-2458-10-35-4
+================================================================================
+Timestamp: 2025-08-07 13:07:58
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2829002___1471-2458-10-35-4
+================================================================================
+
+
+
+[13:07:58.513] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:07:58.517] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:07:58.574] === DATA_LOADING ===
+Chargement des données GT depuis PMC2829002___1471-2458-10-35-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC2829002___1471-2458-10-35-4.json
+  - Series Count: 1
+  - Series Names: ['[unnamed data series #0]']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[13:07:58.593] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2829002___1471-2458-10-35-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2829002___1471-2458-10-35-4\PMC2829002___1471-2458-10-35-4.json
+  - Series Count: 1
+  - Series Names: ['pink squares']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 19
+--------------------------------------------------
+
+[13:07:58.596] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.6300
+  - Y Min-Max: [0.0000, 0.6300]
+  - X Range: 62.95177440228868
+--------------------------------------------------
+
+[13:07:58.598] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:07:58.615] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['[unnamed data series #0] <-> pink squares (method=fuzzy_match, score=0.300)']
+--------------------------------------------------
+
+[13:07:59.254] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs pink squares avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.090785
+  - MAE Relative: 0.144103
+  - Left Miss (rel): -0.110145
+  - Right Miss (rel): 0.046889
+  - X Cutoff: N/A
+  - GT Points: 20
+  - Extracted Points: 19
+  - Points Ratio: 0.95
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:07:59
+Total Duration: 0.75 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2829002_1471-2458-10-35-4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2829002_1471-2458-10-35-4
+================================================================================
+Timestamp: 2025-08-07 16:41:34
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2829002___1471-2458-10-35-4
+================================================================================
+
+
+
+[16:41:34.875] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:41:34.877] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:41:34.923] === DATA_LOADING ===
+Chargement des données GT depuis PMC2829002___1471-2458-10-35-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC2829002___1471-2458-10-35-4.json
+  - Series Count: 1
+  - Series Names: ['[unnamed data series #0]']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[16:41:34.926] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2829002___1471-2458-10-35-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2829002___1471-2458-10-35-4\PMC2829002___1471-2458-10-35-4.json
+  - Series Count: 1
+  - Series Names: ['pink squares']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 19
+--------------------------------------------------
+
+[16:41:34.937] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.6300
+  - Y Min-Max: [0.0000, 0.6300]
+  - X Range: 62.95177440228868
+--------------------------------------------------
+
+[16:41:34.963] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:41:34.966] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['[unnamed data series #0] <-> pink squares (method=fuzzy_match, score=0.300)']
+--------------------------------------------------
+
+[16:41:35.904] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs pink squares avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.100118
+  - MAE Relative: 0.158918
+  - Left Miss (rel): -0.110145
+  - Right Miss (rel): 0.046889
+  - X Cutoff: N/A
+  - GT Points: 20
+  - Extracted Points: 19
+  - Points Ratio: 0.95
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:41:35
+Total Duration: 1.07 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2829002_1471-2458-10-35-4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2829002_1471-2458-10-35-4
+================================================================================
+Timestamp: 2025-08-07 17:00:48
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2829002___1471-2458-10-35-4
+================================================================================
+
+
+
+[17:00:48.056] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:00:48.059] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[17:00:48.111] === DATA_LOADING ===
+Chargement des données GT depuis PMC2829002___1471-2458-10-35-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC2829002___1471-2458-10-35-4.json
+  - Series Count: 1
+  - Series Names: ['[unnamed data series #0]']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[17:00:48.120] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2829002___1471-2458-10-35-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2829002___1471-2458-10-35-4\PMC2829002___1471-2458-10-35-4.json
+  - Series Count: 1
+  - Series Names: ['pink squares']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 19
+--------------------------------------------------
+
+[17:00:48.163] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.6300
+  - Y Min-Max: [0.0000, 0.6300]
+  - X Range: 62.95177440228868
+--------------------------------------------------
+
+[17:00:48.166] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:00:48.170] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['[unnamed data series #0] <-> pink squares (method=fuzzy_match, score=0.300)']
+--------------------------------------------------
+
+[17:00:48.772] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs pink squares avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.090785
+  - MAE Relative: 0.144103
+  - Left Miss (rel): -0.110145
+  - Right Miss (rel): 0.046889
+  - X Cutoff: N/A
+  - GT Points: 20
+  - Extracted Points: 19
+  - Points Ratio: 0.95
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:00:48
+Total Duration: 0.74 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2829002_1471-2458-10-35-4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

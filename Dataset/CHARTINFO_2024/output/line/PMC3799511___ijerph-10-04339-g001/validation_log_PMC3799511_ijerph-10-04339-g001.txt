@@ -1,0 +1,115 @@
+
+================================================================================
+VALIDATION LOG - PMC3799511_ijerph-10-04339-g001
+================================================================================
+Timestamp: 2025-08-07 12:59:56
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3799511___ijerph-10-04339-g001
+================================================================================
+
+
+
+[12:59:56.523] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:59:56.531] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:59:56.598] === DATA_LOADING ===
+Chargement des données GT depuis PMC3799511___ijerph-10-04339-g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3799511___ijerph-10-04339-g001.json
+  - Series Count: 2
+  - Series Names: ['Annual revenue to NZ (USD)', 'Cumulative revenue since 1998/1999 (USD):']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 26
+--------------------------------------------------
+
+[12:59:56.609] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3799511___ijerph-10-04339-g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3799511___ijerph-10-04339-g001\PMC3799511___ijerph-10-04339-g001.json
+  - Series Count: 2
+  - Series Names: ['Annual revenue to NZ (USD)', 'Cumulative revenue since 1998/1999 (USD):']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 26
+--------------------------------------------------
+
+[12:59:56.623] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 715.7046
+  - Y Min-Max: [20.0000, 735.7046]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:59:56.639] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:59:56.669] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Annual revenue to NZ (USD) <-> Annual revenue to NZ (USD) (method=exact_match, score=1.000)', 'Cumulative revenue since 1998/1999 (USD): <-> Cumulative revenue since 1998/1999 (USD): (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:59:59.000] === SERIES_COMPARISON ===
+Comparaison Annual revenue to NZ (USD) vs Annual revenue to NZ (USD) avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 16.472278
+  - MAE Relative: 0.023015
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.540000
+  - GT Points: 13
+  - Extracted Points: 13
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:00:00.746] === SERIES_COMPARISON ===
+Comparaison Cumulative revenue since 1998/1999 (USD): vs Cumulative revenue since 1998/1999 (USD): avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 108.469218
+  - MAE Relative: 0.151556
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.540000
+  - GT Points: 13
+  - Extracted Points: 13
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:00:00
+Total Duration: 4.24 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3799511_ijerph-10-04339-g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

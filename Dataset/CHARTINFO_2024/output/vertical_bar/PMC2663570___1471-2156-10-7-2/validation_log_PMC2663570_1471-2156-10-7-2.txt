@@ -1,0 +1,506 @@
+
+================================================================================
+VALIDATION LOG - PMC2663570_1471-2156-10-7-2
+================================================================================
+Timestamp: 2025-08-07 13:15:10
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2663570___1471-2156-10-7-2
+================================================================================
+
+
+
+[13:15:10.295] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:15:10.315] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:15:10.379] === DATA_LOADING ===
+Chargement des données GT depuis PMC2663570___1471-2156-10-7-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC2663570___1471-2156-10-7-2.json
+  - Series Count: 8
+  - Series Names: ['CSN1_EX9-dd', 'LIPE-G-1-cc', 'CSN1S1_5-aa', 'IL04SNP119R-tt', 'CALPA_ChRev345_SNP2-gg', 'IL2_In2-gg', 'CALPA_ChRev345_SNP2-ag', 'CSN1_EX9-cc']
+  - X Data Types: {'numeric': 8}
+  - Total Data Points: 48
+--------------------------------------------------
+
+[13:15:10.397] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2663570___1471-2156-10-7-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2663570___1471-2156-10-7-2\PMC2663570___1471-2156-10-7-2.json
+  - Series Count: 8
+  - Series Names: ['CSN1_EX9-dd', 'LIPE-G-1-cc', 'CSN1S1_5-aa', 'IL04SNP119R-tt', 'CALPA_ChRev345_SNP2-gg', 'IL2_ln2-gg', 'CALPA_ChRev345_SNP2-ag', 'CSN1_EX9-cc']
+  - X Data Types: {'numeric': 8}
+  - Total Data Points: 48
+--------------------------------------------------
+
+[13:15:10.415] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 45.0000
+  - Y Min-Max: [0.0000, 45.0000]
+  - X Range: 1.0099899e-11
+--------------------------------------------------
+
+[13:15:10.422] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:15:10.426] === MATCHING_RESULTS ===
+8 appariements trouvés
+
+Data:
+  - Total Matches: 8
+  - Match Details: ['CSN1_EX9-dd <-> CSN1_EX9-dd (method=exact_match, score=1.000)', 'LIPE-G-1-cc <-> LIPE-G-1-cc (method=exact_match, score=1.000)', 'CSN1S1_5-aa <-> CSN1S1_5-aa (method=exact_match, score=1.000)', 'IL04SNP119R-tt <-> IL04SNP119R-tt (method=exact_match, score=1.000)', 'CALPA_ChRev345_SNP2-gg <-> CALPA_ChRev345_SNP2-gg (method=exact_match, score=1.000)', 'CALPA_ChRev345_SNP2-ag <-> CALPA_ChRev345_SNP2-ag (method=exact_match, score=1.000)', 'CSN1_EX9-cc <-> CSN1_EX9-cc (method=exact_match, score=1.000)', 'IL2_In2-gg <-> IL2_ln2-gg (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[13:15:12.147] === SERIES_COMPARISON ===
+Comparaison CSN1_EX9-dd vs CSN1_EX9-dd avec BarComparator
+
+Data:
+  - MAE Absolute: 0.128205
+  - MAE Relative: 0.002849
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:15:13.710] === SERIES_COMPARISON ===
+Comparaison LIPE-G-1-cc vs LIPE-G-1-cc avec BarComparator
+
+Data:
+  - MAE Absolute: 0.923586
+  - MAE Relative: 0.020524
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:15:15.032] === SERIES_COMPARISON ===
+Comparaison CSN1S1_5-aa vs CSN1S1_5-aa avec BarComparator
+
+Data:
+  - MAE Absolute: 0.248270
+  - MAE Relative: 0.005517
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:15:16.717] === SERIES_COMPARISON ===
+Comparaison IL04SNP119R-tt vs IL04SNP119R-tt avec BarComparator
+
+Data:
+  - MAE Absolute: 1.047212
+  - MAE Relative: 0.023271
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:15:17.890] === SERIES_COMPARISON ===
+Comparaison CALPA_ChRev345_SNP2-gg vs CALPA_ChRev345_SNP2-gg avec BarComparator
+
+Data:
+  - MAE Absolute: 1.453907
+  - MAE Relative: 0.032309
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:15:19.087] === SERIES_COMPARISON ===
+Comparaison CALPA_ChRev345_SNP2-ag vs CALPA_ChRev345_SNP2-ag avec BarComparator
+
+Data:
+  - MAE Absolute: 0.363757
+  - MAE Relative: 0.008083
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:15:20.058] === SERIES_COMPARISON ===
+Comparaison CSN1_EX9-cc vs CSN1_EX9-cc avec BarComparator
+
+Data:
+  - MAE Absolute: 0.303928
+  - MAE Relative: 0.006754
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:15:21.243] === SERIES_COMPARISON ===
+Comparaison IL2_In2-gg vs IL2_ln2-gg avec BarComparator
+
+Data:
+  - MAE Absolute: 0.645910
+  - MAE Relative: 0.014354
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:15:21
+Total Duration: 11.00 seconds
+Total Series Processed: 8
+Successful Comparisons: 8
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2663570_1471-2156-10-7-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2663570_1471-2156-10-7-2
+================================================================================
+Timestamp: 2025-08-07 16:49:27
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2663570___1471-2156-10-7-2
+================================================================================
+
+
+
+[16:49:30.029] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:49:30.044] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:49:32.152] === DATA_LOADING ===
+Chargement des données GT depuis PMC2663570___1471-2156-10-7-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC2663570___1471-2156-10-7-2.json
+  - Series Count: 8
+  - Series Names: ['CSN1_EX9-dd', 'LIPE-G-1-cc', 'CSN1S1_5-aa', 'IL04SNP119R-tt', 'CALPA_ChRev345_SNP2-gg', 'IL2_In2-gg', 'CALPA_ChRev345_SNP2-ag', 'CSN1_EX9-cc']
+  - X Data Types: {'numeric': 8}
+  - Total Data Points: 48
+--------------------------------------------------
+
+[16:49:32.158] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2663570___1471-2156-10-7-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2663570___1471-2156-10-7-2\PMC2663570___1471-2156-10-7-2.json
+  - Series Count: 8
+  - Series Names: ['CSN1_EX9-dd', 'LIPE-G-1-cc', 'CSN1S1_5-aa', 'IL04SNP119R-tt', 'CALPA_ChRev345_SNP2-gg', 'IL2_ln2-gg', 'CALPA_ChRev345_SNP2-ag', 'CSN1_EX9-cc']
+  - X Data Types: {'numeric': 8}
+  - Total Data Points: 48
+--------------------------------------------------
+
+[16:49:32.161] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 45.0000
+  - Y Min-Max: [0.0000, 45.0000]
+  - X Range: 1.0099899e-11
+--------------------------------------------------
+
+[16:49:32.164] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:49:32.165] === MATCHING_RESULTS ===
+8 appariements trouvés
+
+Data:
+  - Total Matches: 8
+  - Match Details: ['CSN1_EX9-dd <-> CSN1_EX9-dd (method=exact_match, score=1.000)', 'LIPE-G-1-cc <-> LIPE-G-1-cc (method=exact_match, score=1.000)', 'CSN1S1_5-aa <-> CSN1S1_5-aa (method=exact_match, score=1.000)', 'IL04SNP119R-tt <-> IL04SNP119R-tt (method=exact_match, score=1.000)', 'CALPA_ChRev345_SNP2-gg <-> CALPA_ChRev345_SNP2-gg (method=exact_match, score=1.000)', 'CALPA_ChRev345_SNP2-ag <-> CALPA_ChRev345_SNP2-ag (method=exact_match, score=1.000)', 'CSN1_EX9-cc <-> CSN1_EX9-cc (method=exact_match, score=1.000)', 'IL2_In2-gg <-> IL2_ln2-gg (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[16:49:34.225] === SERIES_COMPARISON ===
+Comparaison CSN1_EX9-dd vs CSN1_EX9-dd avec BarComparator
+
+Data:
+  - MAE Absolute: 0.128205
+  - MAE Relative: 0.002849
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:49:35.279] === SERIES_COMPARISON ===
+Comparaison LIPE-G-1-cc vs LIPE-G-1-cc avec BarComparator
+
+Data:
+  - MAE Absolute: 0.923586
+  - MAE Relative: 0.020524
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:49:43.438] === SERIES_COMPARISON ===
+Comparaison CSN1S1_5-aa vs CSN1S1_5-aa avec BarComparator
+
+Data:
+  - MAE Absolute: 0.248270
+  - MAE Relative: 0.005517
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+================================================================================
+VALIDATION LOG - PMC2663570_1471-2156-10-7-2
+================================================================================
+Timestamp: 2025-08-07 17:07:43
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2663570___1471-2156-10-7-2
+================================================================================
+
+
+
+[17:07:43.245] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:07:43.248] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[17:07:43.306] === DATA_LOADING ===
+Chargement des données GT depuis PMC2663570___1471-2156-10-7-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC2663570___1471-2156-10-7-2.json
+  - Series Count: 8
+  - Series Names: ['CSN1_EX9-dd', 'LIPE-G-1-cc', 'CSN1S1_5-aa', 'IL04SNP119R-tt', 'CALPA_ChRev345_SNP2-gg', 'IL2_In2-gg', 'CALPA_ChRev345_SNP2-ag', 'CSN1_EX9-cc']
+  - X Data Types: {'numeric': 8}
+  - Total Data Points: 48
+--------------------------------------------------
+
+[17:07:43.312] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2663570___1471-2156-10-7-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2663570___1471-2156-10-7-2\PMC2663570___1471-2156-10-7-2.json
+  - Series Count: 8
+  - Series Names: ['CSN1_EX9-dd', 'LIPE-G-1-cc', 'CSN1S1_5-aa', 'IL04SNP119R-tt', 'CALPA_ChRev345_SNP2-gg', 'IL2_ln2-gg', 'CALPA_ChRev345_SNP2-ag', 'CSN1_EX9-cc']
+  - X Data Types: {'numeric': 8}
+  - Total Data Points: 48
+--------------------------------------------------
+
+[17:07:43.325] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 45.0000
+  - Y Min-Max: [0.0000, 45.0000]
+  - X Range: 1.0099899e-11
+--------------------------------------------------
+
+[17:07:43.327] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:07:43.330] === MATCHING_RESULTS ===
+8 appariements trouvés
+
+Data:
+  - Total Matches: 8
+  - Match Details: ['CSN1_EX9-dd <-> CSN1_EX9-dd (method=exact_match, score=1.000)', 'LIPE-G-1-cc <-> LIPE-G-1-cc (method=exact_match, score=1.000)', 'CSN1S1_5-aa <-> CSN1S1_5-aa (method=exact_match, score=1.000)', 'IL04SNP119R-tt <-> IL04SNP119R-tt (method=exact_match, score=1.000)', 'CALPA_ChRev345_SNP2-gg <-> CALPA_ChRev345_SNP2-gg (method=exact_match, score=1.000)', 'CALPA_ChRev345_SNP2-ag <-> CALPA_ChRev345_SNP2-ag (method=exact_match, score=1.000)', 'CSN1_EX9-cc <-> CSN1_EX9-cc (method=exact_match, score=1.000)', 'IL2_In2-gg <-> IL2_ln2-gg (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[17:07:45.032] === SERIES_COMPARISON ===
+Comparaison CSN1_EX9-dd vs CSN1_EX9-dd avec BarComparator
+
+Data:
+  - MAE Absolute: 0.128205
+  - MAE Relative: 0.002849
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:07:45.824] === SERIES_COMPARISON ===
+Comparaison LIPE-G-1-cc vs LIPE-G-1-cc avec BarComparator
+
+Data:
+  - MAE Absolute: 0.923586
+  - MAE Relative: 0.020524
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:07:46.461] === SERIES_COMPARISON ===
+Comparaison CSN1S1_5-aa vs CSN1S1_5-aa avec BarComparator
+
+Data:
+  - MAE Absolute: 0.248270
+  - MAE Relative: 0.005517
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:07:47.401] === SERIES_COMPARISON ===
+Comparaison IL04SNP119R-tt vs IL04SNP119R-tt avec BarComparator
+
+Data:
+  - MAE Absolute: 0.713879
+  - MAE Relative: 0.015864
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:07:48.171] === SERIES_COMPARISON ===
+Comparaison CALPA_ChRev345_SNP2-gg vs CALPA_ChRev345_SNP2-gg avec BarComparator
+
+Data:
+  - MAE Absolute: 0.560745
+  - MAE Relative: 0.012461
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:07:48.807] === SERIES_COMPARISON ===
+Comparaison CALPA_ChRev345_SNP2-ag vs CALPA_ChRev345_SNP2-ag avec BarComparator
+
+Data:
+  - MAE Absolute: 0.303928
+  - MAE Relative: 0.006754
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:07:49.492] === SERIES_COMPARISON ===
+Comparaison CSN1_EX9-cc vs CSN1_EX9-cc avec BarComparator
+
+Data:
+  - MAE Absolute: 0.303928
+  - MAE Relative: 0.006754
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:07:50.469] === SERIES_COMPARISON ===
+Comparaison IL2_In2-gg vs IL2_ln2-gg avec BarComparator
+
+Data:
+  - MAE Absolute: 0.645910
+  - MAE Relative: 0.014354
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:07:50
+Total Duration: 7.24 seconds
+Total Series Processed: 8
+Successful Comparisons: 8
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2663570_1471-2156-10-7-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

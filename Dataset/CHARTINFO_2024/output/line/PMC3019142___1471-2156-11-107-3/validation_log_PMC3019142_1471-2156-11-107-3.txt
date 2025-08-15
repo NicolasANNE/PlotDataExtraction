@@ -1,0 +1,230 @@
+
+================================================================================
+VALIDATION LOG - PMC3019142_1471-2156-11-107-3
+================================================================================
+Timestamp: 2025-08-06 21:35:26
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3019142___1471-2156-11-107-3
+================================================================================
+
+
+
+[21:35:26.156] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:35:26.159] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:35:26.207] === DATA_LOADING ===
+Chargement des données GT depuis PMC3019142___1471-2156-11-107-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3019142___1471-2156-11-107-3.json
+  - Series Count: 4
+  - Series Names: ['lgG1_AUC', 'lgG2_AUC', 'Genome wide 5%', 'Genome Wide 1%']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 45
+--------------------------------------------------
+
+[21:35:26.210] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3019142___1471-2156-11-107-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3019142___1471-2156-11-107-3\PMC3019142___1471-2156-11-107-3.json
+  - Series Count: 2
+  - Series Names: ['IgG1_AUC', 'IgG2_AUC']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 28
+--------------------------------------------------
+
+[21:35:26.213] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 10.1046
+  - Y Min-Max: [0.1091, 10.2137]
+  - X Range: 65.86849598757442
+--------------------------------------------------
+
+[21:35:26.215] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:35:26.217] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['lgG1_AUC <-> IgG1_AUC (method=fuzzy_match, score=0.850)', 'lgG2_AUC <-> IgG2_AUC (method=fuzzy_match, score=0.850)']
+--------------------------------------------------
+
+[21:35:26.768] === SERIES_COMPARISON ===
+Comparaison lgG1_AUC vs IgG1_AUC avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.166680
+  - MAE Relative: 0.016495
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.013185
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 14
+  - Points Ratio: 0.64
+--------------------------------------------------
+
+[21:35:27.317] === SERIES_COMPARISON ===
+Comparaison lgG2_AUC vs IgG2_AUC avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.579263
+  - MAE Relative: 0.057327
+  - Left Miss (rel): -0.002751
+  - Right Miss (rel): 0.010434
+  - X Cutoff: N/A
+  - GT Points: 19
+  - Extracted Points: 14
+  - Points Ratio: 0.74
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:35:27
+Total Duration: 1.17 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3019142_1471-2156-11-107-3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3019142_1471-2156-11-107-3
+================================================================================
+Timestamp: 2025-08-07 12:51:36
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3019142___1471-2156-11-107-3
+================================================================================
+
+
+
+[12:51:36.977] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:51:36.979] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:51:37.039] === DATA_LOADING ===
+Chargement des données GT depuis PMC3019142___1471-2156-11-107-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3019142___1471-2156-11-107-3.json
+  - Series Count: 4
+  - Series Names: ['lgG1_AUC', 'lgG2_AUC', 'Genome wide 5%', 'Genome Wide 1%']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 45
+--------------------------------------------------
+
+[12:51:37.044] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3019142___1471-2156-11-107-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3019142___1471-2156-11-107-3\PMC3019142___1471-2156-11-107-3.json
+  - Series Count: 2
+  - Series Names: ['IgG1_AUC', 'IgG2_AUC']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 28
+--------------------------------------------------
+
+[12:51:37.046] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 10.1137
+  - Y Min-Max: [0.1000, 10.2137]
+  - X Range: 65.86849598757442
+--------------------------------------------------
+
+[12:51:37.049] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:51:37.052] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['lgG1_AUC <-> IgG1_AUC (method=fuzzy_match, score=0.850)', 'lgG2_AUC <-> IgG2_AUC (method=fuzzy_match, score=0.850)']
+--------------------------------------------------
+
+[12:51:37.934] === SERIES_COMPARISON ===
+Comparaison lgG1_AUC vs IgG1_AUC avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.170970
+  - MAE Relative: 0.016905
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.013185
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 14
+  - Points Ratio: 0.64
+--------------------------------------------------
+
+[12:51:38.610] === SERIES_COMPARISON ===
+Comparaison lgG2_AUC vs IgG2_AUC avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.773693
+  - MAE Relative: 0.076500
+  - Left Miss (rel): -0.002751
+  - Right Miss (rel): 0.010434
+  - X Cutoff: N/A
+  - GT Points: 19
+  - Extracted Points: 14
+  - Points Ratio: 0.74
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:51:38
+Total Duration: 1.64 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3019142_1471-2156-11-107-3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

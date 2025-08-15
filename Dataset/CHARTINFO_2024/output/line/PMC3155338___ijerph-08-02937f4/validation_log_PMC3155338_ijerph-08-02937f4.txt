@@ -1,0 +1,342 @@
+
+================================================================================
+VALIDATION LOG - PMC3155338_ijerph-08-02937f4
+================================================================================
+Timestamp: 2025-08-06 21:37:06
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3155338___ijerph-08-02937f4
+================================================================================
+
+
+
+[21:37:06.902] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:37:06.923] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:37:06.993] === DATA_LOADING ===
+Chargement des données GT depuis PMC3155338___ijerph-08-02937f4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3155338___ijerph-08-02937f4.json
+  - Series Count: 6
+  - Series Names: ['gdp', 'cpi', 'ohm', 'cod', 'ppd', 'nap']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 72
+--------------------------------------------------
+
+[21:37:06.999] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3155338___ijerph-08-02937f4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3155338___ijerph-08-02937f4\PMC3155338___ijerph-08-02937f4.json
+  - Series Count: 6
+  - Series Names: ['gdp', 'cpi', 'ohm', 'cod', 'nap', 'ppd']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 72
+--------------------------------------------------
+
+[21:37:07.025] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 65.0000
+  - Y Min-Max: [0.5000, 65.5000]
+  - X Range: 11.0
+--------------------------------------------------
+
+[21:37:07.045] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:37:07.048] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['gdp <-> gdp (method=exact_match, score=1.000)', 'cpi <-> cpi (method=exact_match, score=1.000)', 'ohm <-> ohm (method=exact_match, score=1.000)', 'cod <-> cod (method=exact_match, score=1.000)', 'ppd <-> ppd (method=exact_match, score=1.000)', 'nap <-> nap (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:37:08.012] === SERIES_COMPARISON ===
+Comparaison gdp vs gdp avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.248076
+  - MAE Relative: 0.003817
+  - Left Miss (rel): -0.000554
+  - Right Miss (rel): -0.002494
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:37:08.768] === SERIES_COMPARISON ===
+Comparaison cpi vs cpi avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.187506
+  - MAE Relative: 0.018269
+  - Left Miss (rel): -0.002217
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:37:09.711] === SERIES_COMPARISON ===
+Comparaison ohm vs ohm avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.912550
+  - MAE Relative: 0.014039
+  - Left Miss (rel): -0.002217
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:37:10.666] === SERIES_COMPARISON ===
+Comparaison cod vs cod avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.052272
+  - MAE Relative: 0.016189
+  - Left Miss (rel): -0.000554
+  - Right Miss (rel): -0.001663
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:37:12.462] === SERIES_COMPARISON ===
+Comparaison ppd vs ppd avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.581227
+  - MAE Relative: 0.039711
+  - Left Miss (rel): -0.000554
+  - Right Miss (rel): -0.003326
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:37:16.012] === SERIES_COMPARISON ===
+Comparaison nap vs nap avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.599071
+  - MAE Relative: 0.024601
+  - Left Miss (rel): -0.000554
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:37:16
+Total Duration: 9.12 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3155338_ijerph-08-02937f4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3155338_ijerph-08-02937f4
+================================================================================
+Timestamp: 2025-08-07 12:53:06
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3155338___ijerph-08-02937f4
+================================================================================
+
+
+
+[12:53:06.560] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:53:06.564] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:53:06.614] === DATA_LOADING ===
+Chargement des données GT depuis PMC3155338___ijerph-08-02937f4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3155338___ijerph-08-02937f4.json
+  - Series Count: 6
+  - Series Names: ['gdp', 'cpi', 'ohm', 'cod', 'ppd', 'nap']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 72
+--------------------------------------------------
+
+[12:53:06.617] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3155338___ijerph-08-02937f4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3155338___ijerph-08-02937f4\PMC3155338___ijerph-08-02937f4.json
+  - Series Count: 6
+  - Series Names: ['gdp', 'cpi', 'ohm', 'cod', 'nap', 'ppd']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 72
+--------------------------------------------------
+
+[12:53:06.621] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 65.0000
+  - Y Min-Max: [0.5000, 65.5000]
+  - X Range: 11.0
+--------------------------------------------------
+
+[12:53:06.625] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:53:06.627] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['gdp <-> gdp (method=exact_match, score=1.000)', 'cpi <-> cpi (method=exact_match, score=1.000)', 'ohm <-> ohm (method=exact_match, score=1.000)', 'cod <-> cod (method=exact_match, score=1.000)', 'ppd <-> ppd (method=exact_match, score=1.000)', 'nap <-> nap (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:53:07.319] === SERIES_COMPARISON ===
+Comparaison gdp vs gdp avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.248076
+  - MAE Relative: 0.003817
+  - Left Miss (rel): -0.000554
+  - Right Miss (rel): -0.002494
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:53:08.369] === SERIES_COMPARISON ===
+Comparaison cpi vs cpi avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.187506
+  - MAE Relative: 0.018269
+  - Left Miss (rel): -0.002217
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:53:09.720] === SERIES_COMPARISON ===
+Comparaison ohm vs ohm avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.912550
+  - MAE Relative: 0.014039
+  - Left Miss (rel): -0.002217
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:53:11.031] === SERIES_COMPARISON ===
+Comparaison cod vs cod avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.052272
+  - MAE Relative: 0.016189
+  - Left Miss (rel): -0.000554
+  - Right Miss (rel): -0.001663
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:53:12.092] === SERIES_COMPARISON ===
+Comparaison ppd vs ppd avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.581227
+  - MAE Relative: 0.039711
+  - Left Miss (rel): -0.000554
+  - Right Miss (rel): -0.003326
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:53:12.674] === SERIES_COMPARISON ===
+Comparaison nap vs nap avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.599071
+  - MAE Relative: 0.024601
+  - Left Miss (rel): -0.000554
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:53:12
+Total Duration: 6.17 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3155338_ijerph-08-02937f4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

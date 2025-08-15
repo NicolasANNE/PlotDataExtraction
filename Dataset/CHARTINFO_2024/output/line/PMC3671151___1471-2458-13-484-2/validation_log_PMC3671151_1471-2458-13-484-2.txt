@@ -1,0 +1,115 @@
+
+================================================================================
+VALIDATION LOG - PMC3671151_1471-2458-13-484-2
+================================================================================
+Timestamp: 2025-08-07 12:58:18
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3671151___1471-2458-13-484-2
+================================================================================
+
+
+
+[12:58:18.124] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:58:18.127] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:58:18.136] === DATA_LOADING ===
+Chargement des données GT depuis PMC3671151___1471-2458-13-484-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3671151___1471-2458-13-484-2.json
+  - Series Count: 2
+  - Series Names: ['number of tests', 'proportion positive']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 28
+--------------------------------------------------
+
+[12:58:18.160] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3671151___1471-2458-13-484-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3671151___1471-2458-13-484-2\PMC3671151___1471-2458-13-484-2.json
+  - Series Count: 2
+  - Series Names: ['number of tests', 'proportion positive']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 51
+--------------------------------------------------
+
+[12:58:18.165] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 129999.9500
+  - Y Min-Max: [0.0500, 130000.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:58:18.171] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:58:18.181] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['number of tests <-> number of tests (method=exact_match, score=1.000)', 'proportion positive <-> proportion positive (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:58:19.838] === SERIES_COMPARISON ===
+Comparaison number of tests vs number of tests avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 23623.094565
+  - MAE Relative: 0.181716
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.377143
+  - GT Points: 14
+  - Extracted Points: 26
+  - Points Ratio: 1.86
+--------------------------------------------------
+
+[12:58:21.744] === SERIES_COMPARISON ===
+Comparaison proportion positive vs proportion positive avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 92584.250890
+  - MAE Relative: 0.712187
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.377143
+  - GT Points: 14
+  - Extracted Points: 25
+  - Points Ratio: 1.79
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:58:21
+Total Duration: 3.64 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3671151_1471-2458-13-484-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

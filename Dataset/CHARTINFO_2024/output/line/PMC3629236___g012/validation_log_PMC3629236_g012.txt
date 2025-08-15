@@ -1,0 +1,143 @@
+
+================================================================================
+VALIDATION LOG - PMC3629236_g012
+================================================================================
+Timestamp: 2025-08-07 12:58:14
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3629236___g012
+================================================================================
+
+
+
+[12:58:14.657] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:58:14.660] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:58:14.671] === DATA_LOADING ===
+Chargement des données GT depuis PMC3629236___g012.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3629236___g012.json
+  - Series Count: 4
+  - Series Names: ['AR DUD Actives', 'AR DUD Actives+2 PDM Leads+16 ZINC Leads', 'AR DUD Actives+2 PDM Leads', 'AR DUD Actives+16 ZINC Leads']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 134
+--------------------------------------------------
+
+[12:58:14.675] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3629236___g012.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3629236___g012\PMC3629236___g012.json
+  - Series Count: 4
+  - Series Names: ['AR DUD Actives', 'AR DUD Actives+2 PDM Leads+16 ZINC Leads', 'AR DUD Actives+2 PDM Leads', 'AR DUD Actives+16 ZINC Leads']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 80
+--------------------------------------------------
+
+[12:58:14.679] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.0175
+  - Y Min-Max: [-0.0122, 1.0052]
+  - X Range: 1.0
+--------------------------------------------------
+
+[12:58:14.683] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:58:14.686] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['AR DUD Actives <-> AR DUD Actives (method=exact_match, score=1.000)', 'AR DUD Actives+2 PDM Leads+16 ZINC Leads <-> AR DUD Actives+2 PDM Leads+16 ZINC Leads (method=exact_match, score=1.000)', 'AR DUD Actives+2 PDM Leads <-> AR DUD Actives+2 PDM Leads (method=exact_match, score=1.000)', 'AR DUD Actives+16 ZINC Leads <-> AR DUD Actives+16 ZINC Leads (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:58:16.289] === SERIES_COMPARISON ===
+Comparaison AR DUD Actives vs AR DUD Actives avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.012786
+  - MAE Relative: 0.012567
+  - Left Miss (rel): -0.003101
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 24
+  - Extracted Points: 20
+  - Points Ratio: 0.83
+--------------------------------------------------
+
+[12:58:18.474] === SERIES_COMPARISON ===
+Comparaison AR DUD Actives+2 PDM Leads+16 ZINC Leads vs AR DUD Actives+2 PDM Leads+16 ZINC Leads avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.089295
+  - MAE Relative: 0.087763
+  - Left Miss (rel): -0.004651
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 39
+  - Extracted Points: 20
+  - Points Ratio: 0.51
+--------------------------------------------------
+
+[12:58:19.516] === SERIES_COMPARISON ===
+Comparaison AR DUD Actives+2 PDM Leads vs AR DUD Actives+2 PDM Leads avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.022995
+  - MAE Relative: 0.022601
+  - Left Miss (rel): -0.001550
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 34
+  - Extracted Points: 20
+  - Points Ratio: 0.59
+--------------------------------------------------
+
+[12:58:21.188] === SERIES_COMPARISON ===
+Comparaison AR DUD Actives+16 ZINC Leads vs AR DUD Actives+16 ZINC Leads avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.097732
+  - MAE Relative: 0.096056
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 37
+  - Extracted Points: 20
+  - Points Ratio: 0.54
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:58:21
+Total Duration: 6.55 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3629236_g012.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

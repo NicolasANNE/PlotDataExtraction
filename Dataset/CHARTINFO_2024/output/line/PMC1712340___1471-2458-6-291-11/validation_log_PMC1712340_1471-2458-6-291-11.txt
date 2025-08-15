@@ -1,0 +1,743 @@
+
+================================================================================
+VALIDATION LOG - PMC1712340_1471-2458-6-291-11
+================================================================================
+Timestamp: 2025-08-06 20:15:29
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1712340___1471-2458-6-291-11
+================================================================================
+
+
+
+[20:15:29.965] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:29.999] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:30.007] === DATA_LOADING ===
+Chargement des données GT depuis PMC1712340___1471-2458-6-291-11.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1712340___1471-2458-6-291-11.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:30.010] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1712340___1471-2458-6-291-11.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1712340___1471-2458-6-291-11\PMC1712340___1471-2458-6-291-11.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:30.013] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1712340_1471-2458-6-291-11
+================================================================================
+Timestamp: 2025-08-06 21:31:16
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1712340___1471-2458-6-291-11
+================================================================================
+
+
+
+[21:31:16.564] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:31:16.569] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:31:16.637] === DATA_LOADING ===
+Chargement des données GT depuis PMC1712340___1471-2458-6-291-11.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1712340___1471-2458-6-291-11.json
+  - Series Count: 2
+  - Series Names: ['Imigration males', 'Imigration females']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[21:31:16.641] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1712340___1471-2458-6-291-11.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1712340___1471-2458-6-291-11\PMC1712340___1471-2458-6-291-11.json
+  - Series Count: 2
+  - Series Names: ['Imigration males', 'Imigration females']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 34
+--------------------------------------------------
+
+[21:31:16.644] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 205.0000
+  - Y Min-Max: [30.0000, 235.0000]
+  - X Range: 7577.0
+--------------------------------------------------
+
+[21:31:16.646] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:31:16.649] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Imigration males <-> Imigration males (method=exact_match, score=1.000)', 'Imigration females <-> Imigration females (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:31:17.666] === SERIES_COMPARISON ===
+Comparaison Imigration males vs Imigration males avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 46.462797
+  - MAE Relative: 0.226648
+  - Left Miss (rel): -0.000264
+  - Right Miss (rel): 0.989442
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 17
+  - Points Ratio: 1.06
+--------------------------------------------------
+
+[21:31:19.024] === SERIES_COMPARISON ===
+Comparaison Imigration females vs Imigration females avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 39.894723
+  - MAE Relative: 0.194608
+  - Left Miss (rel): -0.000264
+  - Right Miss (rel): 0.989442
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 17
+  - Points Ratio: 1.06
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:31:19
+Total Duration: 2.48 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1712340_1471-2458-6-291-11.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1712340_1471-2458-6-291-11
+================================================================================
+Timestamp: 2025-08-07 12:47:15
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1712340___1471-2458-6-291-11
+================================================================================
+
+
+
+[12:47:15.259] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:47:15.263] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:47:15.330] === DATA_LOADING ===
+Chargement des données GT depuis PMC1712340___1471-2458-6-291-11.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1712340___1471-2458-6-291-11.json
+  - Series Count: 2
+  - Series Names: ['Imigration males', 'Imigration females']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[12:47:15.333] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1712340___1471-2458-6-291-11.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1712340___1471-2458-6-291-11\PMC1712340___1471-2458-6-291-11.json
+  - Series Count: 2
+  - Series Names: ['Imigration males', 'Imigration females']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 34
+--------------------------------------------------
+
+[12:47:15.336] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 205.0000
+  - Y Min-Max: [30.0000, 235.0000]
+  - X Range: 7577.0
+--------------------------------------------------
+
+[12:47:15.338] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:47:15.341] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Imigration males <-> Imigration males (method=exact_match, score=1.000)', 'Imigration females <-> Imigration females (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:47:15.975] === SERIES_COMPARISON ===
+Comparaison Imigration males vs Imigration males avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 49.241764
+  - MAE Relative: 0.240204
+  - Left Miss (rel): -0.000264
+  - Right Miss (rel): 0.989442
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 17
+  - Points Ratio: 1.06
+--------------------------------------------------
+
+[12:47:16.721] === SERIES_COMPARISON ===
+Comparaison Imigration females vs Imigration females avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 37.193340
+  - MAE Relative: 0.181431
+  - Left Miss (rel): -0.000264
+  - Right Miss (rel): 0.989442
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 17
+  - Points Ratio: 1.06
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:47:16
+Total Duration: 1.51 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1712340_1471-2458-6-291-11.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1712340_1471-2458-6-291-11
+================================================================================
+Timestamp: 2025-08-07 13:04:12
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1712340___1471-2458-6-291-11
+================================================================================
+
+
+
+[13:04:12.273] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:04:12.278] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:04:12.331] === DATA_LOADING ===
+Chargement des données GT depuis PMC1712340___1471-2458-6-291-11.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1712340___1471-2458-6-291-11.json
+  - Series Count: 2
+  - Series Names: ['Imigration males', 'Imigration females']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[13:04:12.337] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1712340___1471-2458-6-291-11.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1712340___1471-2458-6-291-11\PMC1712340___1471-2458-6-291-11.json
+  - Series Count: 2
+  - Series Names: ['Imigration males', 'Imigration females']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 34
+--------------------------------------------------
+
+[13:04:12.341] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 205.0000
+  - Y Min-Max: [30.0000, 235.0000]
+  - X Range: 7577.0
+--------------------------------------------------
+
+[13:04:12.347] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:04:12.372] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Imigration males <-> Imigration males (method=exact_match, score=1.000)', 'Imigration females <-> Imigration females (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:04:13.632] === SERIES_COMPARISON ===
+Comparaison Imigration males vs Imigration males avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 46.462797
+  - MAE Relative: 0.226648
+  - Left Miss (rel): -0.000264
+  - Right Miss (rel): 0.989442
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 17
+  - Points Ratio: 1.06
+--------------------------------------------------
+
+[13:04:15.186] === SERIES_COMPARISON ===
+Comparaison Imigration females vs Imigration females avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 39.894723
+  - MAE Relative: 0.194608
+  - Left Miss (rel): -0.000264
+  - Right Miss (rel): 0.989442
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 17
+  - Points Ratio: 1.06
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:04:15
+Total Duration: 2.95 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1712340_1471-2458-6-291-11.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1712340_1471-2458-6-291-11
+================================================================================
+Timestamp: 2025-08-07 16:37:47
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1712340___1471-2458-6-291-11
+================================================================================
+
+
+
+[16:37:47.989] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:37:48.041] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:37:48.116] === DATA_LOADING ===
+Chargement des données GT depuis PMC1712340___1471-2458-6-291-11.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1712340___1471-2458-6-291-11.json
+  - Series Count: 2
+  - Series Names: ['Imigration males', 'Imigration females']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[16:37:48.120] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1712340___1471-2458-6-291-11.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1712340___1471-2458-6-291-11\PMC1712340___1471-2458-6-291-11.json
+  - Series Count: 2
+  - Series Names: ['Imigration males', 'Imigration females']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 34
+--------------------------------------------------
+
+[16:37:48.125] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 205.0000
+  - Y Min-Max: [30.0000, 235.0000]
+  - X Range: 7577.0
+--------------------------------------------------
+
+[16:37:48.129] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:37:48.138] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Imigration males <-> Imigration males (method=exact_match, score=1.000)', 'Imigration females <-> Imigration females (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:37:49.786] === SERIES_COMPARISON ===
+Comparaison Imigration males vs Imigration males avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 46.462797
+  - MAE Relative: 0.226648
+  - Left Miss (rel): -0.000264
+  - Right Miss (rel): 0.989442
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 17
+  - Points Ratio: 1.06
+--------------------------------------------------
+
+[16:37:51.714] === SERIES_COMPARISON ===
+Comparaison Imigration females vs Imigration females avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 39.894723
+  - MAE Relative: 0.194608
+  - Left Miss (rel): -0.000264
+  - Right Miss (rel): 0.989442
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 17
+  - Points Ratio: 1.06
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:37:51
+Total Duration: 3.75 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1712340_1471-2458-6-291-11.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1712340_1471-2458-6-291-11
+================================================================================
+Timestamp: 2025-08-07 16:57:04
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1712340___1471-2458-6-291-11
+================================================================================
+
+
+
+[16:57:04.791] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:57:04.794] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:57:04.866] === DATA_LOADING ===
+Chargement des données GT depuis PMC1712340___1471-2458-6-291-11.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1712340___1471-2458-6-291-11.json
+  - Series Count: 2
+  - Series Names: ['Imigration males', 'Imigration females']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[16:57:04.869] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1712340___1471-2458-6-291-11.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1712340___1471-2458-6-291-11\PMC1712340___1471-2458-6-291-11.json
+  - Series Count: 2
+  - Series Names: ['Imigration males', 'Imigration females']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 34
+--------------------------------------------------
+
+[16:57:04.872] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 205.0000
+  - Y Min-Max: [30.0000, 235.0000]
+  - X Range: 7577.0
+--------------------------------------------------
+
+[16:57:04.874] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:57:04.881] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Imigration males <-> Imigration males (method=exact_match, score=1.000)', 'Imigration females <-> Imigration females (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:57:06.294] === SERIES_COMPARISON ===
+Comparaison Imigration males vs Imigration males avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 46.462797
+  - MAE Relative: 0.226648
+  - Left Miss (rel): -0.000264
+  - Right Miss (rel): 0.989442
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 17
+  - Points Ratio: 1.06
+--------------------------------------------------
+
+[16:57:07.617] === SERIES_COMPARISON ===
+Comparaison Imigration females vs Imigration females avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 39.894723
+  - MAE Relative: 0.194608
+  - Left Miss (rel): -0.000264
+  - Right Miss (rel): 0.989442
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 17
+  - Points Ratio: 1.06
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:57:07
+Total Duration: 2.86 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1712340_1471-2458-6-291-11.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1712340_1471-2458-6-291-11
+================================================================================
+Timestamp: 2025-08-11 13:46:05
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1712340___1471-2458-6-291-11
+================================================================================
+
+
+
+[13:46:05.707] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:46:05.711] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:46:05.790] === DATA_LOADING ===
+Chargement des données GT depuis PMC1712340___1471-2458-6-291-11.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1712340___1471-2458-6-291-11.json
+  - Series Count: 2
+  - Series Names: ['Imigration males', 'Imigration females']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[13:46:05.797] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1712340___1471-2458-6-291-11.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1712340___1471-2458-6-291-11\PMC1712340___1471-2458-6-291-11.json
+  - Series Count: 2
+  - Series Names: ['Imigration males', 'Imigration females']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 34
+--------------------------------------------------
+
+[13:46:05.803] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 205.0000
+  - Y Min-Max: [30.0000, 235.0000]
+  - X Range: 7577.0
+--------------------------------------------------
+
+[13:46:05.819] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:46:05.829] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Imigration males <-> Imigration males (method=exact_match, score=1.000)', 'Imigration females <-> Imigration females (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:46:07.312] === SERIES_COMPARISON ===
+Comparaison Imigration males vs Imigration males avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 46.014528
+  - MAE Relative: 0.224461
+  - Left Miss (rel): -0.000264
+  - Right Miss (rel): 0.989442
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 17
+  - Points Ratio: 1.06
+--------------------------------------------------
+
+[13:46:08.899] === SERIES_COMPARISON ===
+Comparaison Imigration females vs Imigration females avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 39.559584
+  - MAE Relative: 0.192974
+  - Left Miss (rel): -0.000264
+  - Right Miss (rel): 0.989442
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 17
+  - Points Ratio: 1.06
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-11 13:46:08
+Total Duration: 3.20 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1712340_1471-2458-6-291-11.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

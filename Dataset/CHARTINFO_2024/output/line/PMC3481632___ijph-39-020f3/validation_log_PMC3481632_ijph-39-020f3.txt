@@ -1,0 +1,129 @@
+
+================================================================================
+VALIDATION LOG - PMC3481632_ijph-39-020f3
+================================================================================
+Timestamp: 2025-08-07 12:55:50
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3481632___ijph-39-020f3
+================================================================================
+
+
+
+[12:55:50.483] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:55:50.487] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:55:50.532] === DATA_LOADING ===
+Chargement des données GT depuis PMC3481632___ijph-39-020f3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3481632___ijph-39-020f3.json
+  - Series Count: 3
+  - Series Names: ['Iran', 'S.W.Asia', 'World']
+  - X Data Types: {'categorical': 3}
+  - Total Data Points: 21
+--------------------------------------------------
+
+[12:55:50.550] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3481632___ijph-39-020f3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3481632___ijph-39-020f3\PMC3481632___ijph-39-020f3.json
+  - Series Count: 3
+  - Series Names: ['Iran', 'S.W.Asia', 'World']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[12:55:50.553] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 245.0000
+  - Y Min-Max: [35.0000, 280.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:55:50.555] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:55:50.557] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Iran <-> Iran (method=exact_match, score=1.000)', 'S.W.Asia <-> S.W.Asia (method=exact_match, score=1.000)', 'World <-> World (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:55:52.193] === SERIES_COMPARISON ===
+Comparaison Iran vs Iran avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 24.918450
+  - MAE Relative: 0.101708
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.548571
+  - GT Points: 7
+  - Extracted Points: 8
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+[12:55:53.198] === SERIES_COMPARISON ===
+Comparaison S.W.Asia vs S.W.Asia avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 12.440438
+  - MAE Relative: 0.050777
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.548571
+  - GT Points: 7
+  - Extracted Points: 8
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+[12:55:54.059] === SERIES_COMPARISON ===
+Comparaison World vs World avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 19.041779
+  - MAE Relative: 0.077722
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.548571
+  - GT Points: 7
+  - Extracted Points: 8
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:55:54
+Total Duration: 3.59 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3481632_ijph-39-020f3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

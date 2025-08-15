@@ -1,0 +1,157 @@
+
+================================================================================
+VALIDATION LOG - PMC3443453_1471-2156-13-65-1
+================================================================================
+Timestamp: 2025-08-07 12:55:41
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3443453___1471-2156-13-65-1
+================================================================================
+
+
+
+[12:55:41.531] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:55:41.535] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:55:41.626] === DATA_LOADING ===
+Chargement des données GT depuis PMC3443453___1471-2156-13-65-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3443453___1471-2156-13-65-1.json
+  - Series Count: 5
+  - Series Names: ['X^{2}_{\\delta_{AB}}', 'X^2_{{D}_{ABB}}', 'X^(2)_{\\omega_{AB}}', 'X^{2}_{{D}_{AAB}}', 'X^2_{\\delta_{AABB}}']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 42
+--------------------------------------------------
+
+[12:55:41.648] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3443453___1471-2156-13-65-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3443453___1471-2156-13-65-1\PMC3443453___1471-2156-13-65-1.json
+  - Series Count: 5
+  - Series Names: ['X²ΔAB', 'X²DABB', 'X²ωAB', 'X²DAAB', 'X²ΔAABB']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 60
+--------------------------------------------------
+
+[12:55:41.652] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.8973
+  - Y Min-Max: [0.0000, 0.8973]
+  - X Range: 50.06666666666667
+--------------------------------------------------
+
+[12:55:41.655] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:55:41.663] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['X^2_{{D}_{ABB}} <-> X²DABB (method=fuzzy_match, score=0.450)', 'X^{2}_{{D}_{AAB}} <-> X²DAAB (method=fuzzy_match, score=0.400)', 'X^2_{\\delta_{AABB}} <-> X²ΔAABB (method=fuzzy_match, score=0.350)', 'X^{2}_{\\delta_{AB}} <-> X²ΔAB (method=similarity_match, score=0.926)', 'X^(2)_{\\omega_{AB}} <-> X²ωAB (method=similarity_match, score=0.905)']
+--------------------------------------------------
+
+[12:55:42.743] === SERIES_COMPARISON ===
+Comparaison X^2_{{D}_{ABB}} vs X²DABB avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.009679
+  - MAE Relative: 0.010787
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.001332
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 12
+  - Points Ratio: 3.00
+--------------------------------------------------
+
+[12:55:43.453] === SERIES_COMPARISON ===
+Comparaison X^{2}_{{D}_{AAB}} vs X²DAAB avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.011337
+  - MAE Relative: 0.012634
+  - Left Miss (rel): -0.001332
+  - Right Miss (rel): -0.001332
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 12
+  - Points Ratio: 4.00
+--------------------------------------------------
+
+[12:55:44.081] === SERIES_COMPARISON ===
+Comparaison X^2_{\delta_{AABB}} vs X²ΔAABB avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.033486
+  - MAE Relative: 0.037320
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.003995
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 12
+  - Points Ratio: 1.20
+--------------------------------------------------
+
+[12:55:44.720] === SERIES_COMPARISON ===
+Comparaison X^{2}_{\delta_{AB}} vs X²ΔAB avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.047497
+  - MAE Relative: 0.052935
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.009321
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:55:45.441] === SERIES_COMPARISON ===
+Comparaison X^(2)_{\omega_{AB}} vs X²ωAB avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.019233
+  - MAE Relative: 0.021436
+  - Left Miss (rel): 0.001332
+  - Right Miss (rel): -0.003995
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 12
+  - Points Ratio: 0.92
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:55:45
+Total Duration: 3.92 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3443453_1471-2156-13-65-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

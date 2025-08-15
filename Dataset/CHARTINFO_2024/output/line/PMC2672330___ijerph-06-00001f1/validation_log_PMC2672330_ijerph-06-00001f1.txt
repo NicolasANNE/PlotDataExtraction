@@ -1,0 +1,628 @@
+
+================================================================================
+VALIDATION LOG - PMC2672330_ijerph-06-00001f1
+================================================================================
+Timestamp: 2025-08-06 20:16:10
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672330___ijerph-06-00001f1
+================================================================================
+
+
+
+[20:16:10.064] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:10.093] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:10.114] === DATA_LOADING ===
+Chargement des données GT depuis PMC2672330___ijerph-06-00001f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2672330___ijerph-06-00001f1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:10.116] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2672330___ijerph-06-00001f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672330___ijerph-06-00001f1\PMC2672330___ijerph-06-00001f1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:10.118] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2672330_ijerph-06-00001f1
+================================================================================
+Timestamp: 2025-08-06 21:33:03
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672330___ijerph-06-00001f1
+================================================================================
+
+
+
+[21:33:03.328] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:33:03.332] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:33:03.377] === DATA_LOADING ===
+Chargement des données GT depuis PMC2672330___ijerph-06-00001f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2672330___ijerph-06-00001f1.json
+  - Series Count: 2
+  - Series Names: ['Experimental', 'Control']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[21:33:03.384] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2672330___ijerph-06-00001f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672330___ijerph-06-00001f1\PMC2672330___ijerph-06-00001f1.json
+  - Series Count: 2
+  - Series Names: ['Experimental', 'Control']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[21:33:03.387] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.8465
+  - Y Min-Max: [0.0989, 1.9454]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[21:33:03.391] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:33:03.418] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Experimental <-> Experimental (method=exact_match, score=1.000)', 'Control <-> Control (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:33:05.289] === SERIES_COMPARISON ===
+Comparaison Experimental vs Experimental avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.457732
+  - MAE Relative: 0.247889
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.220000
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:33:06.790] === SERIES_COMPARISON ===
+Comparaison Control vs Control avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.005553
+  - MAE Relative: 0.003007
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.220000
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:33:06
+Total Duration: 3.47 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2672330_ijerph-06-00001f1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2672330_ijerph-06-00001f1
+================================================================================
+Timestamp: 2025-08-07 12:49:13
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672330___ijerph-06-00001f1
+================================================================================
+
+
+
+[12:49:13.546] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:49:13.551] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:49:13.633] === DATA_LOADING ===
+Chargement des données GT depuis PMC2672330___ijerph-06-00001f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2672330___ijerph-06-00001f1.json
+  - Series Count: 2
+  - Series Names: ['Experimental', 'Control']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[12:49:13.638] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2672330___ijerph-06-00001f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672330___ijerph-06-00001f1\PMC2672330___ijerph-06-00001f1.json
+  - Series Count: 2
+  - Series Names: ['Experimental', 'Control']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[12:49:13.640] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.8465
+  - Y Min-Max: [0.0989, 1.9454]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:49:13.647] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:49:13.667] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Experimental <-> Experimental (method=exact_match, score=1.000)', 'Control <-> Control (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:49:15.371] === SERIES_COMPARISON ===
+Comparaison Experimental vs Experimental avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.457732
+  - MAE Relative: 0.247889
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.220000
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:49:16.407] === SERIES_COMPARISON ===
+Comparaison Control vs Control avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.005553
+  - MAE Relative: 0.003007
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.220000
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:49:16
+Total Duration: 2.92 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2672330_ijerph-06-00001f1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2672330_ijerph-06-00001f1
+================================================================================
+Timestamp: 2025-08-07 13:06:06
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672330___ijerph-06-00001f1
+================================================================================
+
+
+
+[13:06:06.626] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:06:06.630] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:06:06.752] === DATA_LOADING ===
+Chargement des données GT depuis PMC2672330___ijerph-06-00001f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2672330___ijerph-06-00001f1.json
+  - Series Count: 2
+  - Series Names: ['Experimental', 'Control']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[13:06:06.756] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2672330___ijerph-06-00001f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672330___ijerph-06-00001f1\PMC2672330___ijerph-06-00001f1.json
+  - Series Count: 2
+  - Series Names: ['Experimental', 'Control']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[13:06:06.761] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.8465
+  - Y Min-Max: [0.0989, 1.9454]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:06:06.769] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:06:06.773] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Experimental <-> Experimental (method=exact_match, score=1.000)', 'Control <-> Control (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:06:07.986] === SERIES_COMPARISON ===
+Comparaison Experimental vs Experimental avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.457732
+  - MAE Relative: 0.247889
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.220000
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:06:09.942] === SERIES_COMPARISON ===
+Comparaison Control vs Control avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.005553
+  - MAE Relative: 0.003007
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.220000
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:06:09
+Total Duration: 3.34 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2672330_ijerph-06-00001f1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2672330_ijerph-06-00001f1
+================================================================================
+Timestamp: 2025-08-07 16:39:46
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672330___ijerph-06-00001f1
+================================================================================
+
+
+
+[16:39:46.350] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:39:46.352] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:39:46.410] === DATA_LOADING ===
+Chargement des données GT depuis PMC2672330___ijerph-06-00001f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2672330___ijerph-06-00001f1.json
+  - Series Count: 2
+  - Series Names: ['Experimental', 'Control']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[16:39:46.414] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2672330___ijerph-06-00001f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672330___ijerph-06-00001f1\PMC2672330___ijerph-06-00001f1.json
+  - Series Count: 2
+  - Series Names: ['Experimental', 'Control']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[16:39:46.417] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.8465
+  - Y Min-Max: [0.0989, 1.9454]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:39:46.428] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:39:46.434] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Experimental <-> Experimental (method=exact_match, score=1.000)', 'Control <-> Control (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:39:47.384] === SERIES_COMPARISON ===
+Comparaison Experimental vs Experimental avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.457732
+  - MAE Relative: 0.247889
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.220000
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:39:48.845] === SERIES_COMPARISON ===
+Comparaison Control vs Control avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.005553
+  - MAE Relative: 0.003007
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.220000
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:39:48
+Total Duration: 2.53 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2672330_ijerph-06-00001f1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2672330_ijerph-06-00001f1
+================================================================================
+Timestamp: 2025-08-07 16:59:00
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672330___ijerph-06-00001f1
+================================================================================
+
+
+
+[16:59:00.822] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:59:00.825] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:59:00.871] === DATA_LOADING ===
+Chargement des données GT depuis PMC2672330___ijerph-06-00001f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2672330___ijerph-06-00001f1.json
+  - Series Count: 2
+  - Series Names: ['Experimental', 'Control']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[16:59:00.877] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2672330___ijerph-06-00001f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672330___ijerph-06-00001f1\PMC2672330___ijerph-06-00001f1.json
+  - Series Count: 2
+  - Series Names: ['Experimental', 'Control']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[16:59:00.880] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.8465
+  - Y Min-Max: [0.0989, 1.9454]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:59:00.882] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:59:00.886] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Experimental <-> Experimental (method=exact_match, score=1.000)', 'Control <-> Control (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:59:02.132] === SERIES_COMPARISON ===
+Comparaison Experimental vs Experimental avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.457732
+  - MAE Relative: 0.247889
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.220000
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:59:03.591] === SERIES_COMPARISON ===
+Comparaison Control vs Control avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.005553
+  - MAE Relative: 0.003007
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.220000
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:59:03
+Total Duration: 2.83 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2672330_ijerph-06-00001f1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

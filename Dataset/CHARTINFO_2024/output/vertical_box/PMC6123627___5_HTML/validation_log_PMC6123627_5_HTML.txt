@@ -1,0 +1,101 @@
+
+================================================================================
+VALIDATION LOG - PMC6123627_5_HTML
+================================================================================
+Timestamp: 2025-08-06 21:20:16
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_box\PMC6123627___5_HTML
+================================================================================
+
+
+
+[21:20:16.831] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:20:16.833] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: boxplot -> vertical_box
+
+Data:
+  - Original Type: boxplot
+  - Enum Type: vertical_box
+  - Final Type: boxplot
+  - Loader Used: BoxPlotDataLoader
+--------------------------------------------------
+
+[21:20:16.924] === DATA_LOADING ===
+Chargement des données GT depuis PMC6123627___5_HTML.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_box\PMC6123627___5_HTML.json
+  - Series Count: 1
+  - Series Names: ['[unnamed data series #0]']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[21:20:16.932] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC6123627___5_HTML.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_box\PMC6123627___5_HTML\PMC6123627___5_HTML.json
+  - Series Count: 1
+  - Series Names: ['Series 1']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[21:20:16.934] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0002
+  - Y Min-Max: [0.0000, 0.0002]
+  - X Range: nan
+--------------------------------------------------
+
+[21:20:16.936] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:20:16.941] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['[unnamed data series #0] <-> Series 1 (method=similarity_match_generic, score=0.976)']
+--------------------------------------------------
+
+[21:20:17.801] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs Series 1 avec BoxPlotComparator
+
+Data:
+  - MAE Absolute: 0.000004
+  - MAE Relative: 0.023267
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.900000
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:20:17
+Total Duration: 0.98 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC6123627_5_HTML.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

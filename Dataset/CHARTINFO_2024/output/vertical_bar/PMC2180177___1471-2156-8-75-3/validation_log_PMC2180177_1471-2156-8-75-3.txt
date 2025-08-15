@@ -1,0 +1,387 @@
+
+================================================================================
+VALIDATION LOG - PMC2180177_1471-2156-8-75-3
+================================================================================
+Timestamp: 2025-08-07 13:13:47
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2180177___1471-2156-8-75-3
+================================================================================
+
+
+
+[13:13:47.641] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:13:47.644] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:13:47.703] === DATA_LOADING ===
+Chargement des données GT depuis PMC2180177___1471-2156-8-75-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC2180177___1471-2156-8-75-3.json
+  - Series Count: 3
+  - Series Names: ['trend-tdt', 'TDT_L/S', 'TDT_max']
+  - X Data Types: {'categorical': 3}
+  - Total Data Points: 9
+--------------------------------------------------
+
+[13:13:47.716] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2180177___1471-2156-8-75-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2180177___1471-2156-8-75-3\PMC2180177___1471-2156-8-75-3.json
+  - Series Count: 3
+  - Series Names: ['trend-TDT', 'TDT_L/S', 'TDT_max']
+  - X Data Types: {'categorical': 3}
+  - Total Data Points: 9
+--------------------------------------------------
+
+[13:13:47.721] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.7658
+  - Y Min-Max: [0.1800, 0.9458]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:13:47.730] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:13:47.752] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['TDT_L/S <-> TDT_L/S (method=exact_match, score=1.000)', 'TDT_max <-> TDT_max (method=exact_match, score=1.000)', 'trend-tdt <-> trend-TDT (method=fuzzy_match, score=0.650)']
+--------------------------------------------------
+
+[13:13:50.762] === SERIES_COMPARISON ===
+Comparaison TDT_L/S vs TDT_L/S avec BarComparator
+
+Data:
+  - MAE Absolute: 0.005953
+  - MAE Relative: 0.007773
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:13:54.150] === SERIES_COMPARISON ===
+Comparaison TDT_max vs TDT_max avec BarComparator
+
+Data:
+  - MAE Absolute: 0.007572
+  - MAE Relative: 0.009887
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:13:56.734] === SERIES_COMPARISON ===
+Comparaison trend-tdt vs trend-TDT avec BarComparator
+
+Data:
+  - MAE Absolute: 0.005504
+  - MAE Relative: 0.007187
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:13:56
+Total Duration: 9.11 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2180177_1471-2156-8-75-3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2180177_1471-2156-8-75-3
+================================================================================
+Timestamp: 2025-08-07 16:47:58
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2180177___1471-2156-8-75-3
+================================================================================
+
+
+
+[16:47:58.148] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:47:58.150] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:47:58.190] === DATA_LOADING ===
+Chargement des données GT depuis PMC2180177___1471-2156-8-75-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC2180177___1471-2156-8-75-3.json
+  - Series Count: 3
+  - Series Names: ['trend-tdt', 'TDT_L/S', 'TDT_max']
+  - X Data Types: {'categorical': 3}
+  - Total Data Points: 9
+--------------------------------------------------
+
+[16:47:58.200] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2180177___1471-2156-8-75-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2180177___1471-2156-8-75-3\PMC2180177___1471-2156-8-75-3.json
+  - Series Count: 3
+  - Series Names: ['trend-TDT', 'TDT_L/S', 'TDT_max']
+  - X Data Types: {'categorical': 3}
+  - Total Data Points: 9
+--------------------------------------------------
+
+[16:47:58.226] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.7658
+  - Y Min-Max: [0.1800, 0.9458]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:47:58.229] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:47:58.240] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['TDT_L/S <-> TDT_L/S (method=exact_match, score=1.000)', 'TDT_max <-> TDT_max (method=exact_match, score=1.000)', 'trend-tdt <-> trend-TDT (method=fuzzy_match, score=0.650)']
+--------------------------------------------------
+
+[16:47:59.421] === SERIES_COMPARISON ===
+Comparaison TDT_L/S vs TDT_L/S avec BarComparator
+
+Data:
+  - MAE Absolute: 0.005953
+  - MAE Relative: 0.007773
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:48:01.757] === SERIES_COMPARISON ===
+Comparaison TDT_max vs TDT_max avec BarComparator
+
+Data:
+  - MAE Absolute: 0.007572
+  - MAE Relative: 0.009887
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:48:04.530] === SERIES_COMPARISON ===
+Comparaison trend-tdt vs trend-TDT avec BarComparator
+
+Data:
+  - MAE Absolute: 0.005504
+  - MAE Relative: 0.007187
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:48:04
+Total Duration: 6.41 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2180177_1471-2156-8-75-3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2180177_1471-2156-8-75-3
+================================================================================
+Timestamp: 2025-08-07 17:06:26
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2180177___1471-2156-8-75-3
+================================================================================
+
+
+
+[17:06:26.579] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:06:26.585] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[17:06:26.619] === DATA_LOADING ===
+Chargement des données GT depuis PMC2180177___1471-2156-8-75-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC2180177___1471-2156-8-75-3.json
+  - Series Count: 3
+  - Series Names: ['trend-tdt', 'TDT_L/S', 'TDT_max']
+  - X Data Types: {'categorical': 3}
+  - Total Data Points: 9
+--------------------------------------------------
+
+[17:06:26.628] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2180177___1471-2156-8-75-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2180177___1471-2156-8-75-3\PMC2180177___1471-2156-8-75-3.json
+  - Series Count: 3
+  - Series Names: ['trend-TDT', 'TDT_L/S', 'TDT_max']
+  - X Data Types: {'categorical': 3}
+  - Total Data Points: 9
+--------------------------------------------------
+
+[17:06:26.635] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.7658
+  - Y Min-Max: [0.1800, 0.9458]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[17:06:26.638] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:06:26.641] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['TDT_L/S <-> TDT_L/S (method=exact_match, score=1.000)', 'TDT_max <-> TDT_max (method=exact_match, score=1.000)', 'trend-tdt <-> trend-TDT (method=fuzzy_match, score=0.650)']
+--------------------------------------------------
+
+[17:06:27.631] === SERIES_COMPARISON ===
+Comparaison TDT_L/S vs TDT_L/S avec BarComparator
+
+Data:
+  - MAE Absolute: 0.005953
+  - MAE Relative: 0.007773
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:06:28.711] === SERIES_COMPARISON ===
+Comparaison TDT_max vs TDT_max avec BarComparator
+
+Data:
+  - MAE Absolute: 0.007572
+  - MAE Relative: 0.009887
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:06:30.580] === SERIES_COMPARISON ===
+Comparaison trend-tdt vs trend-TDT avec BarComparator
+
+Data:
+  - MAE Absolute: 0.005504
+  - MAE Relative: 0.007187
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:06:30
+Total Duration: 4.09 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2180177_1471-2156-8-75-3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,115 @@
+
+================================================================================
+VALIDATION LOG - PMC5666937_materials-10-01131-g009
+================================================================================
+Timestamp: 2025-08-06 20:50:57
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC5666937___materials-10-01131-g009
+================================================================================
+
+
+
+[20:50:57.854] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:50:57.857] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[20:50:57.932] === DATA_LOADING ===
+Chargement des données GT depuis PMC5666937___materials-10-01131-g009.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC5666937___materials-10-01131-g009.json
+  - Series Count: 2
+  - Series Names: ['Untreated', 'Treated']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[20:50:57.934] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC5666937___materials-10-01131-g009.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC5666937___materials-10-01131-g009\PMC5666937___materials-10-01131-g009.json
+  - Series Count: 2
+  - Series Names: ['Untreated', 'Treated']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[20:50:57.937] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 9.8599
+  - Y Min-Max: [7.1401, 17.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[20:50:57.939] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[20:50:57.942] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Untreated <-> Untreated (method=exact_match, score=1.000)', 'Treated <-> Treated (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[20:50:58.701] === SERIES_COMPARISON ===
+Comparaison Untreated vs Untreated avec BarComparator
+
+Data:
+  - MAE Absolute: 0.061314
+  - MAE Relative: 0.006219
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[20:50:59.391] === SERIES_COMPARISON ===
+Comparaison Treated vs Treated avec BarComparator
+
+Data:
+  - MAE Absolute: 0.084324
+  - MAE Relative: 0.008552
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 20:50:59
+Total Duration: 1.54 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC5666937_materials-10-01131-g009.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

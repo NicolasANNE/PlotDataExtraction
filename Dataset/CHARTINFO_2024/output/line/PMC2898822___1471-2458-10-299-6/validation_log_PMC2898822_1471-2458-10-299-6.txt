@@ -1,0 +1,325 @@
+
+================================================================================
+VALIDATION LOG - PMC2898822_1471-2458-10-299-6
+================================================================================
+Timestamp: 2025-08-06 20:16:53
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2898822___1471-2458-10-299-6
+================================================================================
+
+
+
+[20:16:53.177] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:53.209] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:53.216] === DATA_LOADING ===
+Chargement des données GT depuis PMC2898822___1471-2458-10-299-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2898822___1471-2458-10-299-6.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:53.218] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2898822___1471-2458-10-299-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2898822___1471-2458-10-299-6\PMC2898822___1471-2458-10-299-6.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:53.220] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2898822_1471-2458-10-299-6
+================================================================================
+Timestamp: 2025-08-06 21:34:57
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2898822___1471-2458-10-299-6
+================================================================================
+
+
+
+[21:34:57.932] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:34:57.935] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:34:57.976] === DATA_LOADING ===
+Chargement des données GT depuis PMC2898822___1471-2458-10-299-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2898822___1471-2458-10-299-6.json
+  - Series Count: 7
+  - Series Names: ['ALARMED', 'CONCERNED', 'CAUTIOUS', 'DISENGAGED', 'DOUBTFUL', 'DISMISSIVE', 'POPULATION']
+  - X Data Types: {'categorical': 7}
+  - Total Data Points: 28
+--------------------------------------------------
+
+[21:34:57.983] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2898822___1471-2458-10-299-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2898822___1471-2458-10-299-6\PMC2898822___1471-2458-10-299-6.json
+  - Series Count: 7
+  - Series Names: ['ALARMED', 'CONCERNED', 'CAUTIOUS', 'DISENGAGED', 'DOUBTFUL', 'DISMISSIVE', 'POPULATION']
+  - X Data Types: {'numeric': 7}
+  - Total Data Points: 28
+--------------------------------------------------
+
+[21:34:57.993] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 11.4332
+  - Y Min-Max: [-4.6332, 6.8000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[21:34:57.996] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:34:58.000] === MATCHING_RESULTS ===
+7 appariements trouvés
+
+Data:
+  - Total Matches: 7
+  - Match Details: ['ALARMED <-> ALARMED (method=exact_match, score=1.000)', 'CONCERNED <-> CONCERNED (method=exact_match, score=1.000)', 'CAUTIOUS <-> CAUTIOUS (method=exact_match, score=1.000)', 'DISENGAGED <-> DISENGAGED (method=exact_match, score=1.000)', 'DOUBTFUL <-> DOUBTFUL (method=exact_match, score=1.000)', 'DISMISSIVE <-> DISMISSIVE (method=exact_match, score=1.000)', 'POPULATION <-> POPULATION (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:34:58.012] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison ALARMED vs ALARMED
+==================================================
+
+
+[21:34:58.025] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison CONCERNED vs CONCERNED
+==================================================
+
+
+[21:34:58.038] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison CAUTIOUS vs CAUTIOUS
+==================================================
+
+
+[21:34:58.054] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison DISENGAGED vs DISENGAGED
+==================================================
+
+
+[21:34:58.067] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison DOUBTFUL vs DOUBTFUL
+==================================================
+
+
+[21:34:58.095] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison DISMISSIVE vs DISMISSIVE
+==================================================
+
+
+[21:34:58.118] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison POPULATION vs POPULATION
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:34:58
+Total Duration: 0.21 seconds
+Total Series Processed: 7
+Successful Comparisons: 0
+Errors: 7
+Success Rate: 0.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2898822_1471-2458-10-299-6.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2898822_1471-2458-10-299-6
+================================================================================
+Timestamp: 2025-08-07 12:51:03
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2898822___1471-2458-10-299-6
+================================================================================
+
+
+
+[12:51:03.797] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:51:03.833] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:51:03.952] === DATA_LOADING ===
+Chargement des données GT depuis PMC2898822___1471-2458-10-299-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2898822___1471-2458-10-299-6.json
+  - Series Count: 7
+  - Series Names: ['ALARMED', 'CONCERNED', 'CAUTIOUS', 'DISENGAGED', 'DOUBTFUL', 'DISMISSIVE', 'POPULATION']
+  - X Data Types: {'categorical': 7}
+  - Total Data Points: 28
+--------------------------------------------------
+
+[12:51:03.968] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2898822___1471-2458-10-299-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2898822___1471-2458-10-299-6\PMC2898822___1471-2458-10-299-6.json
+  - Series Count: 7
+  - Series Names: ['ALARMED', 'CONCERNED', 'CAUTIOUS', 'DISEGAGED', 'DOUBTFUL', 'DISMISSIVE', 'POPULATION']
+  - X Data Types: {'numeric': 7}
+  - Total Data Points: 28
+--------------------------------------------------
+
+[12:51:03.989] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 11.4332
+  - Y Min-Max: [-4.6332, 6.8000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:51:04.009] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:51:04.015] === MATCHING_RESULTS ===
+7 appariements trouvés
+
+Data:
+  - Total Matches: 7
+  - Match Details: ['ALARMED <-> ALARMED (method=exact_match, score=1.000)', 'CONCERNED <-> CONCERNED (method=exact_match, score=1.000)', 'CAUTIOUS <-> CAUTIOUS (method=exact_match, score=1.000)', 'DOUBTFUL <-> DOUBTFUL (method=exact_match, score=1.000)', 'DISMISSIVE <-> DISMISSIVE (method=exact_match, score=1.000)', 'POPULATION <-> POPULATION (method=exact_match, score=1.000)', 'DISENGAGED <-> DISEGAGED (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[12:51:04.031] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison ALARMED vs ALARMED
+==================================================
+
+
+[12:51:04.059] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison CONCERNED vs CONCERNED
+==================================================
+
+
+[12:51:04.082] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison CAUTIOUS vs CAUTIOUS
+==================================================
+
+
+[12:51:04.104] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison DOUBTFUL vs DOUBTFUL
+==================================================
+
+
+[12:51:04.127] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison DISMISSIVE vs DISMISSIVE
+==================================================
+
+
+[12:51:04.148] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison POPULATION vs POPULATION
+==================================================
+
+
+[12:51:04.172] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison DISENGAGED vs DISEGAGED
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:51:04
+Total Duration: 0.39 seconds
+Total Series Processed: 7
+Successful Comparisons: 0
+Errors: 7
+Success Rate: 0.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2898822_1471-2458-10-299-6.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

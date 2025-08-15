@@ -1,0 +1,101 @@
+
+================================================================================
+VALIDATION LOG - PMC5456011_materials-07-07010-g002
+================================================================================
+Timestamp: 2025-08-06 17:41:49
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC5456011___materials-07-07010-g002
+================================================================================
+
+
+
+[17:41:49.328] === VALIDATION_START ===
+Début de la validation pour l'image PMC5456011___materials-07-07010-g002
+--------------------------------------------------
+
+[17:41:49.373] === DATA_LOADING ===
+Chargement des données Ground Truth depuis PMC5456011___materials-07-07010-g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC5456011___materials-07-07010-g002.json
+  - Series Count: 1
+  - Series Names: ['[unnamed data series #0]']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 35
+--------------------------------------------------
+
+[17:41:49.395] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC5456011___materials-07-07010-g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC5456011___materials-07-07010-g002\PMC5456011___materials-07-07010-g002.json
+  - Series Count: 1
+  - Series Names: ['unnamed data series #0']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 14
+--------------------------------------------------
+
+[17:41:49.398] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line
+  - Extractor Plot Type: line plot
+  - Final Plot Type: line
+  - Categorical X Detected: False
+  - Comparator Used: Standard comparator
+--------------------------------------------------
+
+[17:41:49.400] === BOUNDS_CALCULATION ===
+Bornes global calculées pour normalisation MAE relative
+
+Data:
+  - X Range: 600.0000
+  - Y Range: 0.9800
+  - X Min-Max: [300.0, 900.0]
+  - Y Min-Max: [0.0200, 1.0000]
+--------------------------------------------------
+
+[17:41:49.405] === SERIES_MATCHING ===
+Appariement des séries utilisant: Similarity-only (generic names)
+
+Data:
+  - GT Series: 1 séries: ['[unnamed data series #0]']
+  - Extracted Series: 1 séries: ['unnamed data series #0']
+  - Matches Found: 1 appariements
+  - Match Details: ['[unnamed data series #0] <-> unnamed data series #0 (method=similarity_match_generic, score=0.819)']
+--------------------------------------------------
+
+[17:41:49.925] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs unnamed data series #0 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.100077
+  - MAE Relative: 0.102119
+  - Left Miss (rel): -0.059088
+  - Right Miss (rel): -0.064051
+  - X Cutoff: N/A
+  - GT Points: 35
+  - Extracted Points: 14
+  - Points Ratio: 0.40
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 17:41:49
+Total Duration: 0.60 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0% if total_results > 0 else "N/A"
+
+Generated Files:
+- Validation Log: validation_log_PMC5456011_materials-07-07010-g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

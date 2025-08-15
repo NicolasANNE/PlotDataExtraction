@@ -1,0 +1,513 @@
+
+================================================================================
+VALIDATION LOG - PMC3253801_g007
+================================================================================
+Timestamp: 2025-08-07 13:08:55
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC3253801___g007
+================================================================================
+
+
+
+[13:08:55.724] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:08:55.728] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:08:55.786] === DATA_LOADING ===
+Chargement des données GT depuis PMC3253801___g007.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC3253801___g007.json
+  - Series Count: 6
+  - Series Names: ['Win/Nor-1', 'Stork', 'Gerald', 'CIAV 9327', 'Belinda', 'LPWH 992209']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 48
+--------------------------------------------------
+
+[13:08:55.790] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3253801___g007.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC3253801___g007\PMC3253801___g007.json
+  - Series Count: 6
+  - Series Names: ['Win/Nor-1', 'Stork', 'Gerald', 'CLAV 9327', 'Belinda', 'LPWH 992209']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[13:08:55.795] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 9.5742
+  - Y Min-Max: [-3.9052, 5.6690]
+  - X Range: 10.343822843822842
+--------------------------------------------------
+
+[13:08:55.798] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:08:55.802] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['Win/Nor-1 <-> Win/Nor-1 (method=exact_match, score=1.000)', 'Stork <-> Stork (method=exact_match, score=1.000)', 'Gerald <-> Gerald (method=exact_match, score=1.000)', 'Belinda <-> Belinda (method=exact_match, score=1.000)', 'LPWH 992209 <-> LPWH 992209 (method=exact_match, score=1.000)', 'CIAV 9327 <-> CLAV 9327 (method=fuzzy_match, score=0.850)']
+--------------------------------------------------
+
+[13:08:56.515] === SERIES_COMPARISON ===
+Comparaison Win/Nor-1 vs Win/Nor-1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.461576
+  - MAE Relative: 0.048211
+  - Left Miss (rel): 0.004394
+  - Right Miss (rel): 0.004237
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 6
+  - Points Ratio: 0.75
+--------------------------------------------------
+
+[13:08:57.598] === SERIES_COMPARISON ===
+Comparaison Stork vs Stork avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.746325
+  - MAE Relative: 0.077952
+  - Left Miss (rel): 0.003786
+  - Right Miss (rel): 0.020394
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 7
+  - Points Ratio: 0.88
+--------------------------------------------------
+
+[13:08:58.697] === SERIES_COMPARISON ===
+Comparaison Gerald vs Gerald avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.311935
+  - MAE Relative: 0.032581
+  - Left Miss (rel): 0.042096
+  - Right Miss (rel): -0.026704
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:08:59.612] === SERIES_COMPARISON ===
+Comparaison Belinda vs Belinda avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.670066
+  - MAE Relative: 0.069987
+  - Left Miss (rel): -0.000563
+  - Right Miss (rel): 0.099944
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 5
+  - Points Ratio: 0.62
+--------------------------------------------------
+
+[13:09:00.221] === SERIES_COMPARISON ===
+Comparaison LPWH 992209 vs LPWH 992209 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.440254
+  - MAE Relative: 0.045984
+  - Left Miss (rel): -0.058637
+  - Right Miss (rel): 0.124507
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 7
+  - Points Ratio: 0.88
+--------------------------------------------------
+
+[13:09:00.940] === SERIES_COMPARISON ===
+Comparaison CIAV 9327 vs CLAV 9327 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.454461
+  - MAE Relative: 0.047467
+  - Left Miss (rel): -0.036777
+  - Right Miss (rel): 0.028575
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 7
+  - Points Ratio: 0.88
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:09:00
+Total Duration: 5.22 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3253801_g007.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3253801_g007
+================================================================================
+Timestamp: 2025-08-07 16:42:37
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC3253801___g007
+================================================================================
+
+
+
+[16:42:37.678] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:42:37.680] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:42:37.726] === DATA_LOADING ===
+Chargement des données GT depuis PMC3253801___g007.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC3253801___g007.json
+  - Series Count: 6
+  - Series Names: ['Win/Nor-1', 'Stork', 'Gerald', 'CIAV 9327', 'Belinda', 'LPWH 992209']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 48
+--------------------------------------------------
+
+[16:42:37.731] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3253801___g007.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC3253801___g007\PMC3253801___g007.json
+  - Series Count: 6
+  - Series Names: ['Win/Nor-1', 'Stork', 'Gerald', 'CLAV 9327', 'Belinda', 'LPWH 992209']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[16:42:37.734] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 9.5742
+  - Y Min-Max: [-3.9052, 5.6690]
+  - X Range: 11.0
+--------------------------------------------------
+
+[16:42:37.739] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:42:37.742] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['Win/Nor-1 <-> Win/Nor-1 (method=exact_match, score=1.000)', 'Stork <-> Stork (method=exact_match, score=1.000)', 'Gerald <-> Gerald (method=exact_match, score=1.000)', 'Belinda <-> Belinda (method=exact_match, score=1.000)', 'LPWH 992209 <-> LPWH 992209 (method=exact_match, score=1.000)', 'CIAV 9327 <-> CLAV 9327 (method=fuzzy_match, score=0.850)']
+--------------------------------------------------
+
+[16:42:38.610] === SERIES_COMPARISON ===
+Comparaison Win/Nor-1 vs Win/Nor-1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.532689
+  - MAE Relative: 0.055638
+  - Left Miss (rel): 0.004132
+  - Right Miss (rel): -0.014198
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 7
+  - Points Ratio: 0.88
+--------------------------------------------------
+
+[16:42:39.312] === SERIES_COMPARISON ===
+Comparaison Stork vs Stork avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.561849
+  - MAE Relative: 0.058684
+  - Left Miss (rel): 0.030833
+  - Right Miss (rel): -0.026277
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 7
+  - Points Ratio: 0.88
+--------------------------------------------------
+
+[16:42:39.901] === SERIES_COMPARISON ===
+Comparaison Gerald vs Gerald avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.479185
+  - MAE Relative: 0.050050
+  - Left Miss (rel): -0.024052
+  - Right Miss (rel): -0.025111
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:42:40.615] === SERIES_COMPARISON ===
+Comparaison Belinda vs Belinda avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.574191
+  - MAE Relative: 0.059973
+  - Left Miss (rel): -0.045984
+  - Right Miss (rel): 0.093982
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 5
+  - Points Ratio: 0.62
+--------------------------------------------------
+
+[16:42:41.704] === SERIES_COMPARISON ===
+Comparaison LPWH 992209 vs LPWH 992209 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.955312
+  - MAE Relative: 0.099780
+  - Left Miss (rel): -0.073321
+  - Right Miss (rel): 0.117080
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 6
+  - Points Ratio: 0.75
+--------------------------------------------------
+
+[16:42:42.405] === SERIES_COMPARISON ===
+Comparaison CIAV 9327 vs CLAV 9327 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.826987
+  - MAE Relative: 0.086377
+  - Left Miss (rel): -0.052765
+  - Right Miss (rel): 0.054143
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 7
+  - Points Ratio: 0.88
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:42:42
+Total Duration: 4.74 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3253801_g007.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3253801_g007
+================================================================================
+Timestamp: 2025-08-07 17:01:54
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC3253801___g007
+================================================================================
+
+
+
+[17:01:54.445] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:01:54.447] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[17:01:54.475] === DATA_LOADING ===
+Chargement des données GT depuis PMC3253801___g007.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC3253801___g007.json
+  - Series Count: 6
+  - Series Names: ['Win/Nor-1', 'Stork', 'Gerald', 'CIAV 9327', 'Belinda', 'LPWH 992209']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 48
+--------------------------------------------------
+
+[17:01:54.478] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3253801___g007.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC3253801___g007\PMC3253801___g007.json
+  - Series Count: 6
+  - Series Names: ['Win/Nor-1', 'Stork', 'Gerald', 'CLAV 9327', 'Belinda', 'LPWH 992209']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[17:01:54.482] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 9.5742
+  - Y Min-Max: [-3.9052, 5.6690]
+  - X Range: 11.0
+--------------------------------------------------
+
+[17:01:54.484] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:01:54.487] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['Win/Nor-1 <-> Win/Nor-1 (method=exact_match, score=1.000)', 'Stork <-> Stork (method=exact_match, score=1.000)', 'Gerald <-> Gerald (method=exact_match, score=1.000)', 'Belinda <-> Belinda (method=exact_match, score=1.000)', 'LPWH 992209 <-> LPWH 992209 (method=exact_match, score=1.000)', 'CIAV 9327 <-> CLAV 9327 (method=fuzzy_match, score=0.850)']
+--------------------------------------------------
+
+[17:01:55.016] === SERIES_COMPARISON ===
+Comparaison Win/Nor-1 vs Win/Nor-1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.532689
+  - MAE Relative: 0.055638
+  - Left Miss (rel): 0.004132
+  - Right Miss (rel): -0.014198
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 7
+  - Points Ratio: 0.88
+--------------------------------------------------
+
+[17:01:55.525] === SERIES_COMPARISON ===
+Comparaison Stork vs Stork avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.561849
+  - MAE Relative: 0.058684
+  - Left Miss (rel): 0.030833
+  - Right Miss (rel): -0.026277
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 7
+  - Points Ratio: 0.88
+--------------------------------------------------
+
+[17:01:56.118] === SERIES_COMPARISON ===
+Comparaison Gerald vs Gerald avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.479185
+  - MAE Relative: 0.050050
+  - Left Miss (rel): -0.024052
+  - Right Miss (rel): -0.025111
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:01:56.620] === SERIES_COMPARISON ===
+Comparaison Belinda vs Belinda avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.574191
+  - MAE Relative: 0.059973
+  - Left Miss (rel): -0.045984
+  - Right Miss (rel): 0.093982
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 5
+  - Points Ratio: 0.62
+--------------------------------------------------
+
+[17:01:57.396] === SERIES_COMPARISON ===
+Comparaison LPWH 992209 vs LPWH 992209 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.955312
+  - MAE Relative: 0.099780
+  - Left Miss (rel): -0.073321
+  - Right Miss (rel): 0.117080
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 6
+  - Points Ratio: 0.75
+--------------------------------------------------
+
+[17:01:58.198] === SERIES_COMPARISON ===
+Comparaison CIAV 9327 vs CLAV 9327 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.826987
+  - MAE Relative: 0.086377
+  - Left Miss (rel): -0.052765
+  - Right Miss (rel): 0.054143
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 7
+  - Points Ratio: 0.88
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:01:58
+Total Duration: 3.78 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3253801_g007.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

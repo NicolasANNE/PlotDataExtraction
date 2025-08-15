@@ -1,0 +1,698 @@
+
+================================================================================
+VALIDATION LOG - PMC2475504_pgen.1000147.g004
+================================================================================
+Timestamp: 2025-08-06 20:16:05
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2475504___pgen.1000147.g004
+================================================================================
+
+
+
+[20:16:05.132] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:05.187] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:05.201] === DATA_LOADING ===
+Chargement des données GT depuis PMC2475504___pgen.1000147.g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2475504___pgen.1000147.g004.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:05.227] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2475504___pgen.1000147.g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2475504___pgen.1000147.g004\PMC2475504___pgen.1000147.g004.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:05.230] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2475504_pgen.1000147.g004
+================================================================================
+Timestamp: 2025-08-06 21:32:42
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2475504___pgen.1000147.g004
+================================================================================
+
+
+
+[21:32:42.232] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:32:42.234] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:32:42.268] === DATA_LOADING ===
+Chargement des données GT depuis PMC2475504___pgen.1000147.g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2475504___pgen.1000147.g004.json
+  - Series Count: 3
+  - Series Names: ['CEU', 'YRI', 'JPT+CHB']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 121
+--------------------------------------------------
+
+[21:32:42.299] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2475504___pgen.1000147.g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2475504___pgen.1000147.g004\PMC2475504___pgen.1000147.g004.json
+  - Series Count: 3
+  - Series Names: ['CEU', 'YRI', 'JPT+CHB']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 30
+--------------------------------------------------
+
+[21:32:42.301] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.9473
+  - Y Min-Max: [0.0127, 0.9600]
+  - X Range: 0.9317700453857791
+--------------------------------------------------
+
+[21:32:42.303] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:32:42.305] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['CEU <-> CEU (method=exact_match, score=1.000)', 'YRI <-> YRI (method=exact_match, score=1.000)', 'JPT+CHB <-> JPT+CHB (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:32:42.811] === SERIES_COMPARISON ===
+Comparaison CEU vs CEU avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.027282
+  - MAE Relative: 0.028798
+  - Left Miss (rel): 0.034096
+  - Right Miss (rel): -0.005033
+  - X Cutoff: N/A
+  - GT Points: 54
+  - Extracted Points: 10
+  - Points Ratio: 0.19
+--------------------------------------------------
+
+[21:32:43.328] === SERIES_COMPARISON ===
+Comparaison YRI vs YRI avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.047083
+  - MAE Relative: 0.049700
+  - Left Miss (rel): 0.030200
+  - Right Miss (rel): -0.010229
+  - X Cutoff: N/A
+  - GT Points: 29
+  - Extracted Points: 10
+  - Points Ratio: 0.34
+--------------------------------------------------
+
+[21:32:43.828] === SERIES_COMPARISON ===
+Comparaison JPT+CHB vs JPT+CHB avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.053428
+  - MAE Relative: 0.056397
+  - Left Miss (rel): 0.028576
+  - Right Miss (rel): -0.005683
+  - X Cutoff: N/A
+  - GT Points: 38
+  - Extracted Points: 10
+  - Points Ratio: 0.26
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:32:43
+Total Duration: 1.61 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2475504_pgen.1000147.g004.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2475504_pgen.1000147.g004
+================================================================================
+Timestamp: 2025-08-07 12:48:47
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2475504___pgen.1000147.g004
+================================================================================
+
+
+
+[12:48:47.678] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:48:47.680] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:48:47.761] === DATA_LOADING ===
+Chargement des données GT depuis PMC2475504___pgen.1000147.g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2475504___pgen.1000147.g004.json
+  - Series Count: 3
+  - Series Names: ['CEU', 'YRI', 'JPT+CHB']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 121
+--------------------------------------------------
+
+[12:48:47.767] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2475504___pgen.1000147.g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2475504___pgen.1000147.g004\PMC2475504___pgen.1000147.g004.json
+  - Series Count: 3
+  - Series Names: ['CEU', 'YRI', 'JPT+CHB']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 30
+--------------------------------------------------
+
+[12:48:47.771] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.9473
+  - Y Min-Max: [0.0127, 0.9600]
+  - X Range: 0.9317700453857791
+--------------------------------------------------
+
+[12:48:47.773] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:48:47.775] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['CEU <-> CEU (method=exact_match, score=1.000)', 'YRI <-> YRI (method=exact_match, score=1.000)', 'JPT+CHB <-> JPT+CHB (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:48:48.642] === SERIES_COMPARISON ===
+Comparaison CEU vs CEU avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.027282
+  - MAE Relative: 0.028798
+  - Left Miss (rel): 0.034096
+  - Right Miss (rel): -0.005033
+  - X Cutoff: N/A
+  - GT Points: 54
+  - Extracted Points: 10
+  - Points Ratio: 0.19
+--------------------------------------------------
+
+[12:48:49.366] === SERIES_COMPARISON ===
+Comparaison YRI vs YRI avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.047083
+  - MAE Relative: 0.049700
+  - Left Miss (rel): 0.030200
+  - Right Miss (rel): -0.010229
+  - X Cutoff: N/A
+  - GT Points: 29
+  - Extracted Points: 10
+  - Points Ratio: 0.34
+--------------------------------------------------
+
+[12:48:49.962] === SERIES_COMPARISON ===
+Comparaison JPT+CHB vs JPT+CHB avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.053428
+  - MAE Relative: 0.056397
+  - Left Miss (rel): 0.028576
+  - Right Miss (rel): -0.005683
+  - X Cutoff: N/A
+  - GT Points: 38
+  - Extracted Points: 10
+  - Points Ratio: 0.26
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:48:49
+Total Duration: 2.29 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2475504_pgen.1000147.g004.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2475504_pgen.1000147.g004
+================================================================================
+Timestamp: 2025-08-07 13:05:42
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2475504___pgen.1000147.g004
+================================================================================
+
+
+
+[13:05:42.753] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:05:42.755] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:05:42.852] === DATA_LOADING ===
+Chargement des données GT depuis PMC2475504___pgen.1000147.g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2475504___pgen.1000147.g004.json
+  - Series Count: 3
+  - Series Names: ['CEU', 'YRI', 'JPT+CHB']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 121
+--------------------------------------------------
+
+[13:05:42.876] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2475504___pgen.1000147.g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2475504___pgen.1000147.g004\PMC2475504___pgen.1000147.g004.json
+  - Series Count: 3
+  - Series Names: ['CEU', 'YRI', 'JPT+CHB']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 30
+--------------------------------------------------
+
+[13:05:42.885] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.9473
+  - Y Min-Max: [0.0127, 0.9600]
+  - X Range: 0.9317700453857791
+--------------------------------------------------
+
+[13:05:42.890] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:05:42.894] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['CEU <-> CEU (method=exact_match, score=1.000)', 'YRI <-> YRI (method=exact_match, score=1.000)', 'JPT+CHB <-> JPT+CHB (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:05:43.933] === SERIES_COMPARISON ===
+Comparaison CEU vs CEU avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.025523
+  - MAE Relative: 0.026941
+  - Left Miss (rel): 0.034096
+  - Right Miss (rel): -0.005033
+  - X Cutoff: N/A
+  - GT Points: 54
+  - Extracted Points: 10
+  - Points Ratio: 0.19
+--------------------------------------------------
+
+[13:05:44.724] === SERIES_COMPARISON ===
+Comparaison YRI vs YRI avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.040361
+  - MAE Relative: 0.042604
+  - Left Miss (rel): 0.030200
+  - Right Miss (rel): -0.010229
+  - X Cutoff: N/A
+  - GT Points: 29
+  - Extracted Points: 10
+  - Points Ratio: 0.34
+--------------------------------------------------
+
+[13:05:45.265] === SERIES_COMPARISON ===
+Comparaison JPT+CHB vs JPT+CHB avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.037223
+  - MAE Relative: 0.039292
+  - Left Miss (rel): 0.028576
+  - Right Miss (rel): -0.005683
+  - X Cutoff: N/A
+  - GT Points: 38
+  - Extracted Points: 10
+  - Points Ratio: 0.26
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:05:45
+Total Duration: 2.52 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2475504_pgen.1000147.g004.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2475504_pgen.1000147.g004
+================================================================================
+Timestamp: 2025-08-07 16:39:21
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2475504___pgen.1000147.g004
+================================================================================
+
+
+
+[16:39:21.498] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:39:21.529] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:39:21.593] === DATA_LOADING ===
+Chargement des données GT depuis PMC2475504___pgen.1000147.g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2475504___pgen.1000147.g004.json
+  - Series Count: 3
+  - Series Names: ['CEU', 'YRI', 'JPT+CHB']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 121
+--------------------------------------------------
+
+[16:39:21.597] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2475504___pgen.1000147.g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2475504___pgen.1000147.g004\PMC2475504___pgen.1000147.g004.json
+  - Series Count: 3
+  - Series Names: ['CEU', 'YRI', 'JPT+CHB']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 30
+--------------------------------------------------
+
+[16:39:21.603] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.9473
+  - Y Min-Max: [0.0127, 0.9600]
+  - X Range: 0.9317700453857791
+--------------------------------------------------
+
+[16:39:21.605] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:39:21.626] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['CEU <-> CEU (method=exact_match, score=1.000)', 'YRI <-> YRI (method=exact_match, score=1.000)', 'JPT+CHB <-> JPT+CHB (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:39:22.280] === SERIES_COMPARISON ===
+Comparaison CEU vs CEU avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.025523
+  - MAE Relative: 0.026941
+  - Left Miss (rel): 0.034096
+  - Right Miss (rel): -0.005033
+  - X Cutoff: N/A
+  - GT Points: 54
+  - Extracted Points: 10
+  - Points Ratio: 0.19
+--------------------------------------------------
+
+[16:39:22.754] === SERIES_COMPARISON ===
+Comparaison YRI vs YRI avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.040361
+  - MAE Relative: 0.042604
+  - Left Miss (rel): 0.030200
+  - Right Miss (rel): -0.010229
+  - X Cutoff: N/A
+  - GT Points: 29
+  - Extracted Points: 10
+  - Points Ratio: 0.34
+--------------------------------------------------
+
+[16:39:23.246] === SERIES_COMPARISON ===
+Comparaison JPT+CHB vs JPT+CHB avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.037223
+  - MAE Relative: 0.039292
+  - Left Miss (rel): 0.028576
+  - Right Miss (rel): -0.005683
+  - X Cutoff: N/A
+  - GT Points: 38
+  - Extracted Points: 10
+  - Points Ratio: 0.26
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:39:23
+Total Duration: 1.80 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2475504_pgen.1000147.g004.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2475504_pgen.1000147.g004
+================================================================================
+Timestamp: 2025-08-07 16:58:36
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2475504___pgen.1000147.g004
+================================================================================
+
+
+
+[16:58:36.664] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:58:36.665] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:58:36.701] === DATA_LOADING ===
+Chargement des données GT depuis PMC2475504___pgen.1000147.g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2475504___pgen.1000147.g004.json
+  - Series Count: 3
+  - Series Names: ['CEU', 'YRI', 'JPT+CHB']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 121
+--------------------------------------------------
+
+[16:58:36.704] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2475504___pgen.1000147.g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2475504___pgen.1000147.g004\PMC2475504___pgen.1000147.g004.json
+  - Series Count: 3
+  - Series Names: ['CEU', 'YRI', 'JPT+CHB']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 30
+--------------------------------------------------
+
+[16:58:36.706] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.9473
+  - Y Min-Max: [0.0127, 0.9600]
+  - X Range: 0.9317700453857791
+--------------------------------------------------
+
+[16:58:36.708] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:58:36.710] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['CEU <-> CEU (method=exact_match, score=1.000)', 'YRI <-> YRI (method=exact_match, score=1.000)', 'JPT+CHB <-> JPT+CHB (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:58:37.181] === SERIES_COMPARISON ===
+Comparaison CEU vs CEU avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.027282
+  - MAE Relative: 0.028798
+  - Left Miss (rel): 0.034096
+  - Right Miss (rel): -0.005033
+  - X Cutoff: N/A
+  - GT Points: 54
+  - Extracted Points: 10
+  - Points Ratio: 0.19
+--------------------------------------------------
+
+[16:58:37.645] === SERIES_COMPARISON ===
+Comparaison YRI vs YRI avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.047083
+  - MAE Relative: 0.049700
+  - Left Miss (rel): 0.030200
+  - Right Miss (rel): -0.010229
+  - X Cutoff: N/A
+  - GT Points: 29
+  - Extracted Points: 10
+  - Points Ratio: 0.34
+--------------------------------------------------
+
+[16:58:38.121] === SERIES_COMPARISON ===
+Comparaison JPT+CHB vs JPT+CHB avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.053428
+  - MAE Relative: 0.056397
+  - Left Miss (rel): 0.028576
+  - Right Miss (rel): -0.005683
+  - X Cutoff: N/A
+  - GT Points: 38
+  - Extracted Points: 10
+  - Points Ratio: 0.26
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:58:38
+Total Duration: 1.47 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2475504_pgen.1000147.g004.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

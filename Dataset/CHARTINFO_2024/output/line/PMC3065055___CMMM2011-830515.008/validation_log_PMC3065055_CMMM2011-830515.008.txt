@@ -1,0 +1,314 @@
+
+================================================================================
+VALIDATION LOG - PMC3065055_CMMM2011-830515.008
+================================================================================
+Timestamp: 2025-08-06 21:36:15
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3065055___CMMM2011-830515.008
+================================================================================
+
+
+
+[21:36:15.174] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:36:15.214] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:36:15.309] === DATA_LOADING ===
+Chargement des données GT depuis PMC3065055___CMMM2011-830515.008.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3065055___CMMM2011-830515.008.json
+  - Series Count: 5
+  - Series Names: ['No treatment', 'VDA: T_{3} = 0.6', 'VDA: T_{3} = 0.1', 'VDA: T_{3} = 0.9', 'VDA: T_{3} = 0.3']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 227
+--------------------------------------------------
+
+[21:36:15.316] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3065055___CMMM2011-830515.008.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3065055___CMMM2011-830515.008\PMC3065055___CMMM2011-830515.008.json
+  - Series Count: 5
+  - Series Names: ['No treatment', 'VDA: T₃ = 0.1', 'VDA: T₃ = 0.3', 'VDA: T₃ = 0.6', 'VDA: T₃ = 0.9']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 100
+--------------------------------------------------
+
+[21:36:15.321] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 187.2160
+  - Y Min-Max: [-0.1336, 187.0824]
+  - X Range: 380.0
+--------------------------------------------------
+
+[21:36:15.327] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:36:15.331] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['No treatment <-> No treatment (method=exact_match, score=1.000)', 'VDA: T_{3} = 0.6 <-> VDA: T₃ = 0.6 (method=fuzzy_match, score=0.800)', 'VDA: T_{3} = 0.1 <-> VDA: T₃ = 0.1 (method=fuzzy_match, score=0.800)', 'VDA: T_{3} = 0.9 <-> VDA: T₃ = 0.9 (method=fuzzy_match, score=0.800)', 'VDA: T_{3} = 0.3 <-> VDA: T₃ = 0.3 (method=fuzzy_match, score=0.800)']
+--------------------------------------------------
+
+[21:36:16.369] === SERIES_COMPARISON ===
+Comparaison No treatment vs No treatment avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 11.152120
+  - MAE Relative: 0.059568
+  - Left Miss (rel): -0.004580
+  - Right Miss (rel): -0.036678
+  - X Cutoff: N/A
+  - GT Points: 32
+  - Extracted Points: 20
+  - Points Ratio: 0.62
+--------------------------------------------------
+
+[21:36:17.268] === SERIES_COMPARISON ===
+Comparaison VDA: T_{3} = 0.6 vs VDA: T₃ = 0.6 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.348923
+  - MAE Relative: 0.012547
+  - Left Miss (rel): -0.003053
+  - Right Miss (rel): -0.036678
+  - X Cutoff: N/A
+  - GT Points: 48
+  - Extracted Points: 20
+  - Points Ratio: 0.42
+--------------------------------------------------
+
+[21:36:18.064] === SERIES_COMPARISON ===
+Comparaison VDA: T_{3} = 0.1 vs VDA: T₃ = 0.1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 4.211163
+  - MAE Relative: 0.022494
+  - Left Miss (rel): -0.006107
+  - Right Miss (rel): -0.038205
+  - X Cutoff: N/A
+  - GT Points: 38
+  - Extracted Points: 20
+  - Points Ratio: 0.53
+--------------------------------------------------
+
+[21:36:18.903] === SERIES_COMPARISON ===
+Comparaison VDA: T_{3} = 0.9 vs VDA: T₃ = 0.9 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 4.245637
+  - MAE Relative: 0.022678
+  - Left Miss (rel): -0.003053
+  - Right Miss (rel): -0.044311
+  - X Cutoff: N/A
+  - GT Points: 51
+  - Extracted Points: 20
+  - Points Ratio: 0.39
+--------------------------------------------------
+
+[21:36:20.255] === SERIES_COMPARISON ===
+Comparaison VDA: T_{3} = 0.3 vs VDA: T₃ = 0.3 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.422603
+  - MAE Relative: 0.018282
+  - Left Miss (rel): -0.002443
+  - Right Miss (rel): -0.041258
+  - X Cutoff: N/A
+  - GT Points: 58
+  - Extracted Points: 20
+  - Points Ratio: 0.34
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:36:20
+Total Duration: 5.13 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3065055_CMMM2011-830515.008.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3065055_CMMM2011-830515.008
+================================================================================
+Timestamp: 2025-08-07 12:52:17
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3065055___CMMM2011-830515.008
+================================================================================
+
+
+
+[12:52:17.708] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:52:17.711] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:52:17.758] === DATA_LOADING ===
+Chargement des données GT depuis PMC3065055___CMMM2011-830515.008.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3065055___CMMM2011-830515.008.json
+  - Series Count: 5
+  - Series Names: ['No treatment', 'VDA: T_{3} = 0.6', 'VDA: T_{3} = 0.1', 'VDA: T_{3} = 0.9', 'VDA: T_{3} = 0.3']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 227
+--------------------------------------------------
+
+[12:52:17.762] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3065055___CMMM2011-830515.008.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3065055___CMMM2011-830515.008\PMC3065055___CMMM2011-830515.008.json
+  - Series Count: 5
+  - Series Names: ['No treatment', 'VDA: T₃ = 0.1', 'VDA: T₃ = 0.3', 'VDA: T₃ = 0.6', 'VDA: T₃ = 0.9']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 100
+--------------------------------------------------
+
+[12:52:17.764] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 187.2160
+  - Y Min-Max: [-0.1336, 187.0824]
+  - X Range: 380.0
+--------------------------------------------------
+
+[12:52:17.767] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:52:17.770] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['No treatment <-> No treatment (method=exact_match, score=1.000)', 'VDA: T_{3} = 0.6 <-> VDA: T₃ = 0.6 (method=fuzzy_match, score=0.800)', 'VDA: T_{3} = 0.1 <-> VDA: T₃ = 0.1 (method=fuzzy_match, score=0.800)', 'VDA: T_{3} = 0.9 <-> VDA: T₃ = 0.9 (method=fuzzy_match, score=0.800)', 'VDA: T_{3} = 0.3 <-> VDA: T₃ = 0.3 (method=fuzzy_match, score=0.800)']
+--------------------------------------------------
+
+[12:52:18.525] === SERIES_COMPARISON ===
+Comparaison No treatment vs No treatment avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 11.152120
+  - MAE Relative: 0.059568
+  - Left Miss (rel): -0.004580
+  - Right Miss (rel): -0.036678
+  - X Cutoff: N/A
+  - GT Points: 32
+  - Extracted Points: 20
+  - Points Ratio: 0.62
+--------------------------------------------------
+
+[12:52:19.365] === SERIES_COMPARISON ===
+Comparaison VDA: T_{3} = 0.6 vs VDA: T₃ = 0.6 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.348923
+  - MAE Relative: 0.012547
+  - Left Miss (rel): -0.003053
+  - Right Miss (rel): -0.036678
+  - X Cutoff: N/A
+  - GT Points: 48
+  - Extracted Points: 20
+  - Points Ratio: 0.42
+--------------------------------------------------
+
+[12:52:19.946] === SERIES_COMPARISON ===
+Comparaison VDA: T_{3} = 0.1 vs VDA: T₃ = 0.1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 4.211163
+  - MAE Relative: 0.022494
+  - Left Miss (rel): -0.006107
+  - Right Miss (rel): -0.038205
+  - X Cutoff: N/A
+  - GT Points: 38
+  - Extracted Points: 20
+  - Points Ratio: 0.53
+--------------------------------------------------
+
+[12:52:20.489] === SERIES_COMPARISON ===
+Comparaison VDA: T_{3} = 0.9 vs VDA: T₃ = 0.9 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 4.245637
+  - MAE Relative: 0.022678
+  - Left Miss (rel): -0.003053
+  - Right Miss (rel): -0.044311
+  - X Cutoff: N/A
+  - GT Points: 51
+  - Extracted Points: 20
+  - Points Ratio: 0.39
+--------------------------------------------------
+
+[12:52:21.150] === SERIES_COMPARISON ===
+Comparaison VDA: T_{3} = 0.3 vs VDA: T₃ = 0.3 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.422603
+  - MAE Relative: 0.018282
+  - Left Miss (rel): -0.002443
+  - Right Miss (rel): -0.041258
+  - X Cutoff: N/A
+  - GT Points: 58
+  - Extracted Points: 20
+  - Points Ratio: 0.34
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:52:21
+Total Duration: 3.46 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3065055_CMMM2011-830515.008.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

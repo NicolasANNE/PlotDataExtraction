@@ -1,0 +1,995 @@
+
+================================================================================
+VALIDATION LOG - PMC1526726_1471-2458-6-167-7
+================================================================================
+Timestamp: 2025-08-06 20:15:41
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1526726___1471-2458-6-167-7
+================================================================================
+
+
+
+[20:15:41.329] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:41.373] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:41.382] === DATA_LOADING ===
+Chargement des données GT depuis PMC1526726___1471-2458-6-167-7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1526726___1471-2458-6-167-7.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:41.385] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1526726___1471-2458-6-167-7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1526726___1471-2458-6-167-7\PMC1526726___1471-2458-6-167-7.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:41.387] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1526726_1471-2458-6-167-7
+================================================================================
+Timestamp: 2025-08-06 21:31:19
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1526726___1471-2458-6-167-7
+================================================================================
+
+
+
+[21:31:19.430] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:31:19.436] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:31:19.484] === DATA_LOADING ===
+Chargement des données GT depuis PMC1526726___1471-2458-6-167-7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1526726___1471-2458-6-167-7.json
+  - Series Count: 5
+  - Series Names: ['Poisoning', 'Hanging, strangulation & suffocation', 'Drowning', 'Firearms & explosives', 'Cutting & piercing instruments']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 110
+--------------------------------------------------
+
+[21:31:19.488] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1526726___1471-2458-6-167-7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1526726___1471-2458-6-167-7\PMC1526726___1471-2458-6-167-7.json
+  - Series Count: 6
+  - Series Names: ['Poisoning', 'Hanging, strangulation & suffocation', 'Drowning', 'Firearms & explosives', 'Cutting & piercing instruments', 'unnamed data series #5']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 132
+--------------------------------------------------
+
+[21:31:19.492] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 47.2851
+  - Y Min-Max: [-0.1131, 47.1719]
+  - X Range: 21.49333333333334
+--------------------------------------------------
+
+[21:31:19.501] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:31:19.506] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['Poisoning <-> Poisoning (method=exact_match, score=1.000)', 'Hanging, strangulation & suffocation <-> Hanging, strangulation & suffocation (method=exact_match, score=1.000)', 'Drowning <-> Drowning (method=exact_match, score=1.000)', 'Firearms & explosives <-> Firearms & explosives (method=exact_match, score=1.000)', 'Cutting & piercing instruments <-> Cutting & piercing instruments (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:31:20.438] === SERIES_COMPARISON ===
+Comparaison Poisoning vs Poisoning avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.630279
+  - MAE Relative: 0.034478
+  - Left Miss (rel): 0.022953
+  - Right Miss (rel): -0.024814
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 22
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:31:21.505] === SERIES_COMPARISON ===
+Comparaison Hanging, strangulation & suffocation vs Hanging, strangulation & suffocation avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.126894
+  - MAE Relative: 0.066129
+  - Left Miss (rel): 0.022953
+  - Right Miss (rel): -0.024814
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 22
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:31:22.337] === SERIES_COMPARISON ===
+Comparaison Drowning vs Drowning avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.719069
+  - MAE Relative: 0.057504
+  - Left Miss (rel): 0.022953
+  - Right Miss (rel): -0.023573
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 22
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:31:23.231] === SERIES_COMPARISON ===
+Comparaison Firearms & explosives vs Firearms & explosives avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.851448
+  - MAE Relative: 0.018007
+  - Left Miss (rel): 0.022953
+  - Right Miss (rel): -0.024814
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 22
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:31:24.212] === SERIES_COMPARISON ===
+Comparaison Cutting & piercing instruments vs Cutting & piercing instruments avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.213026
+  - MAE Relative: 0.067950
+  - Left Miss (rel): 0.022953
+  - Right Miss (rel): -0.024814
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 22
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:31:24
+Total Duration: 4.84 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1526726_1471-2458-6-167-7.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1526726_1471-2458-6-167-7
+================================================================================
+Timestamp: 2025-08-07 12:47:20
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1526726___1471-2458-6-167-7
+================================================================================
+
+
+
+[12:47:20.835] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:47:20.854] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:47:20.904] === DATA_LOADING ===
+Chargement des données GT depuis PMC1526726___1471-2458-6-167-7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1526726___1471-2458-6-167-7.json
+  - Series Count: 5
+  - Series Names: ['Poisoning', 'Hanging, strangulation & suffocation', 'Drowning', 'Firearms & explosives', 'Cutting & piercing instruments']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 110
+--------------------------------------------------
+
+[12:47:20.925] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1526726___1471-2458-6-167-7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1526726___1471-2458-6-167-7\PMC1526726___1471-2458-6-167-7.json
+  - Series Count: 6
+  - Series Names: ['Poisoning', 'Hanging, strangulation & suffocation', 'Drowning', 'Firearms & explosives', 'Cutting & piercing instruments', 'unnamed data series #5']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 132
+--------------------------------------------------
+
+[12:47:20.931] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 47.2851
+  - Y Min-Max: [-0.1131, 47.1719]
+  - X Range: 21.49333333333334
+--------------------------------------------------
+
+[12:47:20.957] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:47:20.961] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['Poisoning <-> Poisoning (method=exact_match, score=1.000)', 'Hanging, strangulation & suffocation <-> Hanging, strangulation & suffocation (method=exact_match, score=1.000)', 'Drowning <-> Drowning (method=exact_match, score=1.000)', 'Firearms & explosives <-> Firearms & explosives (method=exact_match, score=1.000)', 'Cutting & piercing instruments <-> Cutting & piercing instruments (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:47:21.721] === SERIES_COMPARISON ===
+Comparaison Poisoning vs Poisoning avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.630279
+  - MAE Relative: 0.034478
+  - Left Miss (rel): 0.022953
+  - Right Miss (rel): -0.024814
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 22
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:47:22.768] === SERIES_COMPARISON ===
+Comparaison Hanging, strangulation & suffocation vs Hanging, strangulation & suffocation avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.126894
+  - MAE Relative: 0.066129
+  - Left Miss (rel): 0.022953
+  - Right Miss (rel): -0.024814
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 22
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:47:23.613] === SERIES_COMPARISON ===
+Comparaison Drowning vs Drowning avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.719069
+  - MAE Relative: 0.057504
+  - Left Miss (rel): 0.022953
+  - Right Miss (rel): -0.023573
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 22
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:47:24.703] === SERIES_COMPARISON ===
+Comparaison Firearms & explosives vs Firearms & explosives avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.851448
+  - MAE Relative: 0.018007
+  - Left Miss (rel): 0.022953
+  - Right Miss (rel): -0.024814
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 22
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:47:25.645] === SERIES_COMPARISON ===
+Comparaison Cutting & piercing instruments vs Cutting & piercing instruments avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.213026
+  - MAE Relative: 0.067950
+  - Left Miss (rel): 0.022953
+  - Right Miss (rel): -0.024814
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 22
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:47:25
+Total Duration: 4.83 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1526726_1471-2458-6-167-7.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1526726_1471-2458-6-167-7
+================================================================================
+Timestamp: 2025-08-07 13:04:13
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1526726___1471-2458-6-167-7
+================================================================================
+
+
+
+[13:04:13.144] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:04:13.165] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:04:13.228] === DATA_LOADING ===
+Chargement des données GT depuis PMC1526726___1471-2458-6-167-7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1526726___1471-2458-6-167-7.json
+  - Series Count: 5
+  - Series Names: ['Poisoning', 'Hanging, strangulation & suffocation', 'Drowning', 'Firearms & explosives', 'Cutting & piercing instruments']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 110
+--------------------------------------------------
+
+[13:04:13.231] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1526726___1471-2458-6-167-7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1526726___1471-2458-6-167-7\PMC1526726___1471-2458-6-167-7.json
+  - Series Count: 6
+  - Series Names: ['Poisoning', 'Hanging, strangulation & suffocation', 'Drowning', 'Firearms & explosives', 'Cutting & piercing instruments', 'unnamed data series #5']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 132
+--------------------------------------------------
+
+[13:04:13.256] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 47.2851
+  - Y Min-Max: [-0.1131, 47.1719]
+  - X Range: 21.49333333333334
+--------------------------------------------------
+
+[13:04:13.281] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:04:13.299] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['Poisoning <-> Poisoning (method=exact_match, score=1.000)', 'Hanging, strangulation & suffocation <-> Hanging, strangulation & suffocation (method=exact_match, score=1.000)', 'Drowning <-> Drowning (method=exact_match, score=1.000)', 'Firearms & explosives <-> Firearms & explosives (method=exact_match, score=1.000)', 'Cutting & piercing instruments <-> Cutting & piercing instruments (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:04:14.980] === SERIES_COMPARISON ===
+Comparaison Poisoning vs Poisoning avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.500785
+  - MAE Relative: 0.031739
+  - Left Miss (rel): 0.022953
+  - Right Miss (rel): -0.024814
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 22
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:04:16.186] === SERIES_COMPARISON ===
+Comparaison Hanging, strangulation & suffocation vs Hanging, strangulation & suffocation avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.404297
+  - MAE Relative: 0.029699
+  - Left Miss (rel): 0.022953
+  - Right Miss (rel): -0.024814
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 22
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:04:18.164] === SERIES_COMPARISON ===
+Comparaison Drowning vs Drowning avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.929801
+  - MAE Relative: 0.019664
+  - Left Miss (rel): 0.022953
+  - Right Miss (rel): -0.023573
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 22
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:04:19.542] === SERIES_COMPARISON ===
+Comparaison Firearms & explosives vs Firearms & explosives avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.044066
+  - MAE Relative: 0.022080
+  - Left Miss (rel): 0.022953
+  - Right Miss (rel): -0.024814
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 22
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:04:20.431] === SERIES_COMPARISON ===
+Comparaison Cutting & piercing instruments vs Cutting & piercing instruments avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.254179
+  - MAE Relative: 0.047672
+  - Left Miss (rel): 0.022953
+  - Right Miss (rel): -0.024814
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 22
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:04:20
+Total Duration: 7.32 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1526726_1471-2458-6-167-7.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1526726_1471-2458-6-167-7
+================================================================================
+Timestamp: 2025-08-07 16:37:47
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1526726___1471-2458-6-167-7
+================================================================================
+
+
+
+[16:37:47.566] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:37:47.568] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:37:47.635] === DATA_LOADING ===
+Chargement des données GT depuis PMC1526726___1471-2458-6-167-7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1526726___1471-2458-6-167-7.json
+  - Series Count: 5
+  - Series Names: ['Poisoning', 'Hanging, strangulation & suffocation', 'Drowning', 'Firearms & explosives', 'Cutting & piercing instruments']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 110
+--------------------------------------------------
+
+[16:37:47.639] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1526726___1471-2458-6-167-7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1526726___1471-2458-6-167-7\PMC1526726___1471-2458-6-167-7.json
+  - Series Count: 6
+  - Series Names: ['Poisoning', 'Hanging, strangulation & suffocation', 'Drowning', 'Firearms & explosives', 'Cutting & piercing instruments', 'unnamed data series #5']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 132
+--------------------------------------------------
+
+[16:37:47.642] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 47.2851
+  - Y Min-Max: [-0.1131, 47.1719]
+  - X Range: 21.49333333333334
+--------------------------------------------------
+
+[16:37:47.645] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:37:47.647] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['Poisoning <-> Poisoning (method=exact_match, score=1.000)', 'Hanging, strangulation & suffocation <-> Hanging, strangulation & suffocation (method=exact_match, score=1.000)', 'Drowning <-> Drowning (method=exact_match, score=1.000)', 'Firearms & explosives <-> Firearms & explosives (method=exact_match, score=1.000)', 'Cutting & piercing instruments <-> Cutting & piercing instruments (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:37:48.847] === SERIES_COMPARISON ===
+Comparaison Poisoning vs Poisoning avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.500785
+  - MAE Relative: 0.031739
+  - Left Miss (rel): 0.022953
+  - Right Miss (rel): -0.024814
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 22
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:37:50.291] === SERIES_COMPARISON ===
+Comparaison Hanging, strangulation & suffocation vs Hanging, strangulation & suffocation avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.404297
+  - MAE Relative: 0.029699
+  - Left Miss (rel): 0.022953
+  - Right Miss (rel): -0.024814
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 22
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:37:52.084] === SERIES_COMPARISON ===
+Comparaison Drowning vs Drowning avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.929801
+  - MAE Relative: 0.019664
+  - Left Miss (rel): 0.022953
+  - Right Miss (rel): -0.023573
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 22
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:37:53.800] === SERIES_COMPARISON ===
+Comparaison Firearms & explosives vs Firearms & explosives avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.044066
+  - MAE Relative: 0.022080
+  - Left Miss (rel): 0.022953
+  - Right Miss (rel): -0.024814
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 22
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:37:54.947] === SERIES_COMPARISON ===
+Comparaison Cutting & piercing instruments vs Cutting & piercing instruments avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.254179
+  - MAE Relative: 0.047672
+  - Left Miss (rel): 0.022953
+  - Right Miss (rel): -0.024814
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 22
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:37:54
+Total Duration: 7.41 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1526726_1471-2458-6-167-7.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1526726_1471-2458-6-167-7
+================================================================================
+Timestamp: 2025-08-07 16:57:04
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1526726___1471-2458-6-167-7
+================================================================================
+
+
+
+[16:57:04.266] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:57:04.272] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:57:04.330] === DATA_LOADING ===
+Chargement des données GT depuis PMC1526726___1471-2458-6-167-7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1526726___1471-2458-6-167-7.json
+  - Series Count: 5
+  - Series Names: ['Poisoning', 'Hanging, strangulation & suffocation', 'Drowning', 'Firearms & explosives', 'Cutting & piercing instruments']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 110
+--------------------------------------------------
+
+[16:57:04.345] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1526726___1471-2458-6-167-7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1526726___1471-2458-6-167-7\PMC1526726___1471-2458-6-167-7.json
+  - Series Count: 6
+  - Series Names: ['Poisoning', 'Hanging, strangulation & suffocation', 'Drowning', 'Firearms & explosives', 'Cutting & piercing instruments', 'unnamed data series #5']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 132
+--------------------------------------------------
+
+[16:57:04.349] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 47.2851
+  - Y Min-Max: [-0.1131, 47.1719]
+  - X Range: 21.49333333333334
+--------------------------------------------------
+
+[16:57:04.353] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:57:04.380] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['Poisoning <-> Poisoning (method=exact_match, score=1.000)', 'Hanging, strangulation & suffocation <-> Hanging, strangulation & suffocation (method=exact_match, score=1.000)', 'Drowning <-> Drowning (method=exact_match, score=1.000)', 'Firearms & explosives <-> Firearms & explosives (method=exact_match, score=1.000)', 'Cutting & piercing instruments <-> Cutting & piercing instruments (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:57:05.553] === SERIES_COMPARISON ===
+Comparaison Poisoning vs Poisoning avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.500785
+  - MAE Relative: 0.031739
+  - Left Miss (rel): 0.022953
+  - Right Miss (rel): -0.024814
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 22
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:57:06.587] === SERIES_COMPARISON ===
+Comparaison Hanging, strangulation & suffocation vs Hanging, strangulation & suffocation avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.404297
+  - MAE Relative: 0.029699
+  - Left Miss (rel): 0.022953
+  - Right Miss (rel): -0.024814
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 22
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:57:07.734] === SERIES_COMPARISON ===
+Comparaison Drowning vs Drowning avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.929801
+  - MAE Relative: 0.019664
+  - Left Miss (rel): 0.022953
+  - Right Miss (rel): -0.023573
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 22
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:57:08.659] === SERIES_COMPARISON ===
+Comparaison Firearms & explosives vs Firearms & explosives avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.044066
+  - MAE Relative: 0.022080
+  - Left Miss (rel): 0.022953
+  - Right Miss (rel): -0.024814
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 22
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:57:09.702] === SERIES_COMPARISON ===
+Comparaison Cutting & piercing instruments vs Cutting & piercing instruments avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.254179
+  - MAE Relative: 0.047672
+  - Left Miss (rel): 0.022953
+  - Right Miss (rel): -0.024814
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 22
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:57:09
+Total Duration: 5.48 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1526726_1471-2458-6-167-7.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1526726_1471-2458-6-167-7
+================================================================================
+Timestamp: 2025-08-11 13:46:05
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1526726___1471-2458-6-167-7
+================================================================================
+
+
+
+[13:46:05.728] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:46:05.733] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:46:05.817] === DATA_LOADING ===
+Chargement des données GT depuis PMC1526726___1471-2458-6-167-7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1526726___1471-2458-6-167-7.json
+  - Series Count: 5
+  - Series Names: ['Poisoning', 'Hanging, strangulation & suffocation', 'Drowning', 'Firearms & explosives', 'Cutting & piercing instruments']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 110
+--------------------------------------------------
+
+[13:46:05.824] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1526726___1471-2458-6-167-7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1526726___1471-2458-6-167-7\PMC1526726___1471-2458-6-167-7.json
+  - Series Count: 5
+  - Series Names: ['Poisoning', 'Hanging, strangulation & suffocation', 'Drowning', 'Firearms & explosives', 'Cutting & piercing instruments']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 110
+--------------------------------------------------
+
+[13:46:05.837] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 47.2851
+  - Y Min-Max: [-0.1131, 47.1719]
+  - X Range: 21.49333333333334
+--------------------------------------------------
+
+[13:46:05.865] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:46:05.874] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['Poisoning <-> Poisoning (method=exact_match, score=1.000)', 'Hanging, strangulation & suffocation <-> Hanging, strangulation & suffocation (method=exact_match, score=1.000)', 'Drowning <-> Drowning (method=exact_match, score=1.000)', 'Firearms & explosives <-> Firearms & explosives (method=exact_match, score=1.000)', 'Cutting & piercing instruments <-> Cutting & piercing instruments (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:46:07.341] === SERIES_COMPARISON ===
+Comparaison Poisoning vs Poisoning avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.592555
+  - MAE Relative: 0.033680
+  - Left Miss (rel): 0.022953
+  - Right Miss (rel): -0.024814
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 22
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:46:09.030] === SERIES_COMPARISON ===
+Comparaison Hanging, strangulation & suffocation vs Hanging, strangulation & suffocation avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.178086
+  - MAE Relative: 0.067211
+  - Left Miss (rel): 0.022953
+  - Right Miss (rel): -0.024814
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 22
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:46:10.229] === SERIES_COMPARISON ===
+Comparaison Drowning vs Drowning avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.912369
+  - MAE Relative: 0.019295
+  - Left Miss (rel): 0.022953
+  - Right Miss (rel): -0.023573
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 22
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:46:11.303] === SERIES_COMPARISON ===
+Comparaison Firearms & explosives vs Firearms & explosives avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.046841
+  - MAE Relative: 0.022139
+  - Left Miss (rel): 0.022953
+  - Right Miss (rel): -0.024814
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 22
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:46:12.177] === SERIES_COMPARISON ===
+Comparaison Cutting & piercing instruments vs Cutting & piercing instruments avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.200445
+  - MAE Relative: 0.025387
+  - Left Miss (rel): 0.022953
+  - Right Miss (rel): -0.024814
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 22
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-11 13:46:12
+Total Duration: 6.54 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1526726_1471-2458-6-167-7.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

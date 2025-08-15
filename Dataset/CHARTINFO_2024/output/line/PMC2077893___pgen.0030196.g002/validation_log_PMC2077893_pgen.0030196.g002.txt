@@ -1,0 +1,768 @@
+
+================================================================================
+VALIDATION LOG - PMC2077893_pgen.0030196.g002
+================================================================================
+Timestamp: 2025-08-06 20:15:54
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2077893___pgen.0030196.g002
+================================================================================
+
+
+
+[20:15:54.682] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:54.769] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:54.800] === DATA_LOADING ===
+Chargement des données GT depuis PMC2077893___pgen.0030196.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2077893___pgen.0030196.g002.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:54.816] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2077893___pgen.0030196.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2077893___pgen.0030196.g002\PMC2077893___pgen.0030196.g002.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:54.820] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2077893_pgen.0030196.g002
+================================================================================
+Timestamp: 2025-08-06 21:32:18
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2077893___pgen.0030196.g002
+================================================================================
+
+
+
+[21:32:18.144] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:32:18.146] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:32:18.187] === DATA_LOADING ===
+Chargement des données GT depuis PMC2077893___pgen.0030196.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2077893___pgen.0030196.g002.json
+  - Series Count: 4
+  - Series Names: ['d2s1400', 'd3s2460', 'GATA184A08', 'd21s1432']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 47
+--------------------------------------------------
+
+[21:32:18.190] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2077893___pgen.0030196.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2077893___pgen.0030196.g002\PMC2077893___pgen.0030196.g002.json
+  - Series Count: 4
+  - Series Names: ['d2s1400', 'd3s2460', 'GATA184A08', 'd21s1432']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[21:32:18.193] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 2.2726
+  - Y Min-Max: [-0.4726, 1.8000]
+  - X Range: 0.5111172413793104
+--------------------------------------------------
+
+[21:32:18.195] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:32:18.198] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['d2s1400 <-> d2s1400 (method=exact_match, score=1.000)', 'd3s2460 <-> d3s2460 (method=exact_match, score=1.000)', 'GATA184A08 <-> GATA184A08 (method=exact_match, score=1.000)', 'd21s1432 <-> d21s1432 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:32:18.888] === SERIES_COMPARISON ===
+Comparaison d2s1400 vs d2s1400 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.070544
+  - MAE Relative: 0.031040
+  - Left Miss (rel): -0.084197
+  - Right Miss (rel): -0.175302
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 9
+  - Points Ratio: 0.90
+--------------------------------------------------
+
+[21:32:19.776] === SERIES_COMPARISON ===
+Comparaison d3s2460 vs d3s2460 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.246026
+  - MAE Relative: 0.108255
+  - Left Miss (rel): -0.022021
+  - Right Miss (rel): -0.093912
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 7
+  - Points Ratio: 0.70
+--------------------------------------------------
+
+[21:32:20.590] === SERIES_COMPARISON ===
+Comparaison GATA184A08 vs GATA184A08 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.598037
+  - MAE Relative: 0.263146
+  - Left Miss (rel): -0.102332
+  - Right Miss (rel): 0.060881
+  - X Cutoff: N/A
+  - GT Points: 17
+  - Extracted Points: 13
+  - Points Ratio: 0.76
+--------------------------------------------------
+
+[21:32:21.558] === SERIES_COMPARISON ===
+Comparaison d21s1432 vs d21s1432 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.076365
+  - MAE Relative: 0.033602
+  - Left Miss (rel): -0.063472
+  - Right Miss (rel): -0.055052
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 7
+  - Points Ratio: 0.70
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:32:21
+Total Duration: 3.46 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2077893_pgen.0030196.g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2077893_pgen.0030196.g002
+================================================================================
+Timestamp: 2025-08-07 12:48:25
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2077893___pgen.0030196.g002
+================================================================================
+
+
+
+[12:48:25.113] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:48:25.120] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:48:25.195] === DATA_LOADING ===
+Chargement des données GT depuis PMC2077893___pgen.0030196.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2077893___pgen.0030196.g002.json
+  - Series Count: 4
+  - Series Names: ['d2s1400', 'd3s2460', 'GATA184A08', 'd21s1432']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 47
+--------------------------------------------------
+
+[12:48:25.200] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2077893___pgen.0030196.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2077893___pgen.0030196.g002\PMC2077893___pgen.0030196.g002.json
+  - Series Count: 4
+  - Series Names: ['d2s1400', 'd3s2460', 'GATA184A08', 'd21s1432']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 34
+--------------------------------------------------
+
+[12:48:25.240] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 2.2526
+  - Y Min-Max: [-0.4726, 1.7800]
+  - X Range: 0.5111172413793104
+--------------------------------------------------
+
+[12:48:25.249] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:48:25.251] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['d2s1400 <-> d2s1400 (method=exact_match, score=1.000)', 'd3s2460 <-> d3s2460 (method=exact_match, score=1.000)', 'GATA184A08 <-> GATA184A08 (method=exact_match, score=1.000)', 'd21s1432 <-> d21s1432 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:48:26.325] === SERIES_COMPARISON ===
+Comparaison d2s1400 vs d2s1400 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.739007
+  - MAE Relative: 0.328062
+  - Left Miss (rel): -0.084197
+  - Right Miss (rel): -0.488342
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 13
+  - Points Ratio: 1.30
+--------------------------------------------------
+
+[12:48:27.513] === SERIES_COMPARISON ===
+Comparaison d3s2460 vs d3s2460 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.252924
+  - MAE Relative: 0.112279
+  - Left Miss (rel): -0.022021
+  - Right Miss (rel): -0.093912
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 7
+  - Points Ratio: 0.70
+--------------------------------------------------
+
+[12:48:28.280] === SERIES_COMPARISON ===
+Comparaison GATA184A08 vs GATA184A08 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.936791
+  - MAE Relative: 0.415863
+  - Left Miss (rel): -0.102332
+  - Right Miss (rel): 0.530440
+  - X Cutoff: N/A
+  - GT Points: 17
+  - Extracted Points: 7
+  - Points Ratio: 0.41
+--------------------------------------------------
+
+[12:48:28.916] === SERIES_COMPARISON ===
+Comparaison d21s1432 vs d21s1432 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.067041
+  - MAE Relative: 0.029761
+  - Left Miss (rel): -0.063472
+  - Right Miss (rel): -0.055052
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 7
+  - Points Ratio: 0.70
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:48:28
+Total Duration: 3.84 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2077893_pgen.0030196.g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2077893_pgen.0030196.g002
+================================================================================
+Timestamp: 2025-08-07 13:05:21
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2077893___pgen.0030196.g002
+================================================================================
+
+
+
+[13:05:21.216] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:05:21.221] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:05:21.292] === DATA_LOADING ===
+Chargement des données GT depuis PMC2077893___pgen.0030196.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2077893___pgen.0030196.g002.json
+  - Series Count: 4
+  - Series Names: ['d2s1400', 'd3s2460', 'GATA184A08', 'd21s1432']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 47
+--------------------------------------------------
+
+[13:05:21.295] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2077893___pgen.0030196.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2077893___pgen.0030196.g002\PMC2077893___pgen.0030196.g002.json
+  - Series Count: 4
+  - Series Names: ['d2s1400', 'd3s2460', 'GATA184A08', 'd21s1432']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 34
+--------------------------------------------------
+
+[13:05:21.299] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 2.2600
+  - Y Min-Max: [-0.4800, 1.7800]
+  - X Range: 0.5111172413793104
+--------------------------------------------------
+
+[13:05:21.301] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:05:21.303] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['d2s1400 <-> d2s1400 (method=exact_match, score=1.000)', 'd3s2460 <-> d3s2460 (method=exact_match, score=1.000)', 'GATA184A08 <-> GATA184A08 (method=exact_match, score=1.000)', 'd21s1432 <-> d21s1432 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:05:22.068] === SERIES_COMPARISON ===
+Comparaison d2s1400 vs d2s1400 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.738412
+  - MAE Relative: 0.326731
+  - Left Miss (rel): -0.084197
+  - Right Miss (rel): -0.488342
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 13
+  - Points Ratio: 1.30
+--------------------------------------------------
+
+[13:05:22.898] === SERIES_COMPARISON ===
+Comparaison d3s2460 vs d3s2460 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.186310
+  - MAE Relative: 0.082438
+  - Left Miss (rel): -0.022021
+  - Right Miss (rel): -0.093912
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 7
+  - Points Ratio: 0.70
+--------------------------------------------------
+
+[13:05:23.708] === SERIES_COMPARISON ===
+Comparaison GATA184A08 vs GATA184A08 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.028043
+  - MAE Relative: 0.454886
+  - Left Miss (rel): -0.102332
+  - Right Miss (rel): 0.530440
+  - X Cutoff: N/A
+  - GT Points: 17
+  - Extracted Points: 7
+  - Points Ratio: 0.41
+--------------------------------------------------
+
+[13:05:24.434] === SERIES_COMPARISON ===
+Comparaison d21s1432 vs d21s1432 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.031389
+  - MAE Relative: 0.013889
+  - Left Miss (rel): -0.063472
+  - Right Miss (rel): -0.055052
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 7
+  - Points Ratio: 0.70
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:05:24
+Total Duration: 3.24 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2077893_pgen.0030196.g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2077893_pgen.0030196.g002
+================================================================================
+Timestamp: 2025-08-07 16:38:57
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2077893___pgen.0030196.g002
+================================================================================
+
+
+
+[16:38:57.723] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:38:57.724] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:38:57.759] === DATA_LOADING ===
+Chargement des données GT depuis PMC2077893___pgen.0030196.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2077893___pgen.0030196.g002.json
+  - Series Count: 4
+  - Series Names: ['d2s1400', 'd3s2460', 'GATA184A08', 'd21s1432']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 47
+--------------------------------------------------
+
+[16:38:57.788] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2077893___pgen.0030196.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2077893___pgen.0030196.g002\PMC2077893___pgen.0030196.g002.json
+  - Series Count: 4
+  - Series Names: ['d2s1400', 'd3s2460', 'GATA184A08', 'd21s1432']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 34
+--------------------------------------------------
+
+[16:38:57.791] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 2.2600
+  - Y Min-Max: [-0.4800, 1.7800]
+  - X Range: 0.5111172413793104
+--------------------------------------------------
+
+[16:38:57.793] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:38:57.794] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['d2s1400 <-> d2s1400 (method=exact_match, score=1.000)', 'd3s2460 <-> d3s2460 (method=exact_match, score=1.000)', 'GATA184A08 <-> GATA184A08 (method=exact_match, score=1.000)', 'd21s1432 <-> d21s1432 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:38:58.262] === SERIES_COMPARISON ===
+Comparaison d2s1400 vs d2s1400 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.738412
+  - MAE Relative: 0.326731
+  - Left Miss (rel): -0.084197
+  - Right Miss (rel): -0.488342
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 13
+  - Points Ratio: 1.30
+--------------------------------------------------
+
+[16:38:58.817] === SERIES_COMPARISON ===
+Comparaison d3s2460 vs d3s2460 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.186310
+  - MAE Relative: 0.082438
+  - Left Miss (rel): -0.022021
+  - Right Miss (rel): -0.093912
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 7
+  - Points Ratio: 0.70
+--------------------------------------------------
+
+[16:38:59.548] === SERIES_COMPARISON ===
+Comparaison GATA184A08 vs GATA184A08 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.028043
+  - MAE Relative: 0.454886
+  - Left Miss (rel): -0.102332
+  - Right Miss (rel): 0.530440
+  - X Cutoff: N/A
+  - GT Points: 17
+  - Extracted Points: 7
+  - Points Ratio: 0.41
+--------------------------------------------------
+
+[16:39:00.222] === SERIES_COMPARISON ===
+Comparaison d21s1432 vs d21s1432 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.031389
+  - MAE Relative: 0.013889
+  - Left Miss (rel): -0.063472
+  - Right Miss (rel): -0.055052
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 7
+  - Points Ratio: 0.70
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:39:00
+Total Duration: 2.51 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2077893_pgen.0030196.g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2077893_pgen.0030196.g002
+================================================================================
+Timestamp: 2025-08-07 16:58:05
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2077893___pgen.0030196.g002
+================================================================================
+
+
+
+[16:58:05.988] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:58:05.991] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:58:06.026] === DATA_LOADING ===
+Chargement des données GT depuis PMC2077893___pgen.0030196.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2077893___pgen.0030196.g002.json
+  - Series Count: 4
+  - Series Names: ['d2s1400', 'd3s2460', 'GATA184A08', 'd21s1432']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 47
+--------------------------------------------------
+
+[16:58:06.028] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2077893___pgen.0030196.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2077893___pgen.0030196.g002\PMC2077893___pgen.0030196.g002.json
+  - Series Count: 4
+  - Series Names: ['d2s1400', 'd3s2460', 'GATA184A08', 'd21s1432']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 34
+--------------------------------------------------
+
+[16:58:06.031] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 2.2526
+  - Y Min-Max: [-0.4726, 1.7800]
+  - X Range: 0.5111172413793104
+--------------------------------------------------
+
+[16:58:06.033] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:58:06.036] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['d2s1400 <-> d2s1400 (method=exact_match, score=1.000)', 'd3s2460 <-> d3s2460 (method=exact_match, score=1.000)', 'GATA184A08 <-> GATA184A08 (method=exact_match, score=1.000)', 'd21s1432 <-> d21s1432 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:58:06.708] === SERIES_COMPARISON ===
+Comparaison d2s1400 vs d2s1400 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.739007
+  - MAE Relative: 0.328062
+  - Left Miss (rel): -0.084197
+  - Right Miss (rel): -0.488342
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 13
+  - Points Ratio: 1.30
+--------------------------------------------------
+
+[16:58:07.228] === SERIES_COMPARISON ===
+Comparaison d3s2460 vs d3s2460 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.252924
+  - MAE Relative: 0.112279
+  - Left Miss (rel): -0.022021
+  - Right Miss (rel): -0.093912
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 7
+  - Points Ratio: 0.70
+--------------------------------------------------
+
+[16:58:07.707] === SERIES_COMPARISON ===
+Comparaison GATA184A08 vs GATA184A08 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.936791
+  - MAE Relative: 0.415863
+  - Left Miss (rel): -0.102332
+  - Right Miss (rel): 0.530440
+  - X Cutoff: N/A
+  - GT Points: 17
+  - Extracted Points: 7
+  - Points Ratio: 0.41
+--------------------------------------------------
+
+[16:58:08.225] === SERIES_COMPARISON ===
+Comparaison d21s1432 vs d21s1432 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.067041
+  - MAE Relative: 0.029761
+  - Left Miss (rel): -0.063472
+  - Right Miss (rel): -0.055052
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 7
+  - Points Ratio: 0.70
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:58:08
+Total Duration: 2.25 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2077893_pgen.0030196.g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

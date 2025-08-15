@@ -1,0 +1,122 @@
+
+================================================================================
+VALIDATION LOG - PMC3672016_1471-2458-12-1115-2
+================================================================================
+Timestamp: 2025-08-07 12:58:17
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3672016___1471-2458-12-1115-2
+================================================================================
+
+
+
+[12:58:17.759] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:58:17.762] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:58:17.773] === DATA_LOADING ===
+Chargement des données GT depuis PMC3672016___1471-2458-12-1115-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3672016___1471-2458-12-1115-2.json
+  - Series Count: 5
+  - Series Names: ['2006', '2007', '2008', '2009', '2010']
+  - X Data Types: {'categorical': 5}
+  - Total Data Points: 60
+--------------------------------------------------
+
+[12:58:17.777] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3672016___1471-2458-12-1115-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3672016___1471-2458-12-1115-2\PMC3672016___1471-2458-12-1115-2.json
+  - Series Count: 5
+  - Series Names: ['2006', '2007', '2008', '2009', '2010']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 60
+--------------------------------------------------
+
+[12:58:17.781] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 17.0930
+  - Y Min-Max: [-0.0930, 17.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:58:17.784] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:58:17.786] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['2006 <-> 2006 (method=exact_match, score=1.000)', '2007 <-> 2007 (method=exact_match, score=1.000)', '2008 <-> 2008 (method=exact_match, score=1.000)', '2009 <-> 2009 (method=exact_match, score=1.000)', '2010 <-> 2010 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:58:17.836] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison 2006 vs 2006
+==================================================
+
+
+[12:58:17.884] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison 2007 vs 2007
+==================================================
+
+
+[12:58:17.932] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison 2008 vs 2008
+==================================================
+
+
+[12:58:17.978] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison 2009 vs 2009
+==================================================
+
+
+[12:58:18.036] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison 2010 vs 2010
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:58:18
+Total Duration: 0.28 seconds
+Total Series Processed: 5
+Successful Comparisons: 0
+Errors: 5
+Success Rate: 0.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3672016_1471-2458-12-1115-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,129 @@
+
+================================================================================
+VALIDATION LOG - PMC5666965_materials-10-01159-g003_panel_2
+================================================================================
+Timestamp: 2025-08-06 20:38:27
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC5666965___materials-10-01159-g003_panel_2
+================================================================================
+
+
+
+[20:38:27.036] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:38:27.038] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[20:38:27.085] === DATA_LOADING ===
+Chargement des données GT depuis PMC5666965___materials-10-01159-g003_panel_2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC5666965___materials-10-01159-g003_panel_2.json
+  - Series Count: 4
+  - Series Names: ['H_{2}', 'CH_{4}', 'C_{2}H_{4}', 'C_{3}H_{6}']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[20:38:27.104] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC5666965___materials-10-01159-g003_panel_2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC5666965___materials-10-01159-g003_panel_2\PMC5666965___materials-10-01159-g003_panel_2.json
+  - Series Count: 3
+  - Series Names: ['H2', 'CH4', 'C2H6']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 9
+--------------------------------------------------
+
+[20:38:27.108] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.3795
+  - Y Min-Max: [0.0205, 0.4000]
+  - X Range: 50.776242136028145
+--------------------------------------------------
+
+[20:38:27.110] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[20:38:27.113] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['H_{2} <-> H2 (method=fuzzy_match, score=0.550)', 'CH_{4} <-> CH4 (method=fuzzy_match, score=0.650)', 'C_{2}H_{4} <-> C2H6 (method=fuzzy_match, score=0.400)']
+--------------------------------------------------
+
+[20:38:27.584] === SERIES_COMPARISON ===
+Comparaison H_{2} vs H2 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001875
+  - MAE Relative: 0.004940
+  - Left Miss (rel): 0.011385
+  - Right Miss (rel): -0.007044
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[20:38:28.161] === SERIES_COMPARISON ===
+Comparaison CH_{4} vs CH4 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.003651
+  - MAE Relative: 0.009620
+  - Left Miss (rel): 0.011190
+  - Right Miss (rel): -0.008410
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[20:38:28.715] === SERIES_COMPARISON ===
+Comparaison C_{2}H_{4} vs C2H6 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.017062
+  - MAE Relative: 0.044959
+  - Left Miss (rel): 0.015288
+  - Right Miss (rel): -0.009775
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 20:38:28
+Total Duration: 1.68 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC5666965_materials-10-01159-g003_panel_2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

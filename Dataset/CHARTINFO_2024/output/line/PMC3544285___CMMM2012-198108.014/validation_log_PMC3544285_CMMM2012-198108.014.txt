@@ -1,0 +1,199 @@
+
+================================================================================
+VALIDATION LOG - PMC3544285_CMMM2012-198108.014
+================================================================================
+Timestamp: 2025-08-07 12:57:01
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3544285___CMMM2012-198108.014
+================================================================================
+
+
+
+[12:57:01.329] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:57:01.360] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:57:01.442] === DATA_LOADING ===
+Chargement des données GT depuis PMC3544285___CMMM2012-198108.014.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3544285___CMMM2012-198108.014.json
+  - Series Count: 8
+  - Series Names: ['Case 2_LPA', 'Normal_LPA', 'Normal_RPA', 'Case 2_RPA', 'Case 1_LPA', 'Case 3_LPA', 'Case 1_RPA', 'Case 3_RPA']
+  - X Data Types: {'numeric': 8}
+  - Total Data Points: 124
+--------------------------------------------------
+
+[12:57:01.447] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3544285___CMMM2012-198108.014.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3544285___CMMM2012-198108.014\PMC3544285___CMMM2012-198108.014.json
+  - Series Count: 8
+  - Series Names: ['Normal.LPA', 'Normal.RPA', 'Case 1.LPA', 'Case 1.RPA', 'Case 2.LPA', 'Case 2.RPA', 'Case 3.LPA', 'Case 3.RPA']
+  - X Data Types: {'numeric': 8}
+  - Total Data Points: 88
+--------------------------------------------------
+
+[12:57:01.452] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.6141
+  - Y Min-Max: [-0.1500, 0.4641]
+  - X Range: 1.0
+--------------------------------------------------
+
+[12:57:01.455] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:57:01.461] === MATCHING_RESULTS ===
+8 appariements trouvés
+
+Data:
+  - Total Matches: 8
+  - Match Details: ['Case 2_LPA <-> Case 2.LPA (method=fuzzy_match, score=0.900)', 'Normal_LPA <-> Normal.LPA (method=fuzzy_match, score=0.900)', 'Normal_RPA <-> Normal.RPA (method=fuzzy_match, score=0.900)', 'Case 2_RPA <-> Case 2.RPA (method=fuzzy_match, score=0.900)', 'Case 1_LPA <-> Case 1.LPA (method=fuzzy_match, score=0.900)', 'Case 3_LPA <-> Case 3.LPA (method=fuzzy_match, score=0.900)', 'Case 1_RPA <-> Case 1.RPA (method=fuzzy_match, score=0.900)', 'Case 3_RPA <-> Case 3.RPA (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[12:57:04.496] === SERIES_COMPARISON ===
+Comparaison Case 2_LPA vs Case 2.LPA avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.025032
+  - MAE Relative: 0.040762
+  - Left Miss (rel): -0.001423
+  - Right Miss (rel): -0.071025
+  - X Cutoff: N/A
+  - GT Points: 19
+  - Extracted Points: 11
+  - Points Ratio: 0.58
+--------------------------------------------------
+
+[12:57:06.917] === SERIES_COMPARISON ===
+Comparaison Normal_LPA vs Normal.LPA avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.021539
+  - MAE Relative: 0.035074
+  - Left Miss (rel): -0.004268
+  - Right Miss (rel): -0.356973
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 11
+  - Points Ratio: 0.92
+--------------------------------------------------
+
+[12:57:08.618] === SERIES_COMPARISON ===
+Comparaison Normal_RPA vs Normal.RPA avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.013292
+  - MAE Relative: 0.021645
+  - Left Miss (rel): -0.004268
+  - Right Miss (rel): -0.308603
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 11
+  - Points Ratio: 0.85
+--------------------------------------------------
+
+[12:57:09.798] === SERIES_COMPARISON ===
+Comparaison Case 2_RPA vs Case 2.RPA avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.030156
+  - MAE Relative: 0.049104
+  - Left Miss (rel): -0.004268
+  - Right Miss (rel): -0.056798
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 11
+  - Points Ratio: 0.69
+--------------------------------------------------
+
+[12:57:13.145] === SERIES_COMPARISON ===
+Comparaison Case 1_LPA vs Case 1.LPA avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.045948
+  - MAE Relative: 0.074820
+  - Left Miss (rel): -0.006402
+  - Right Miss (rel): -0.228581
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 11
+  - Points Ratio: 0.69
+--------------------------------------------------
+
+[12:57:14.418] === SERIES_COMPARISON ===
+Comparaison Case 3_LPA vs Case 3.LPA avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.030227
+  - MAE Relative: 0.049221
+  - Left Miss (rel): -0.002134
+  - Right Miss (rel): -0.058932
+  - X Cutoff: N/A
+  - GT Points: 19
+  - Extracted Points: 11
+  - Points Ratio: 0.58
+--------------------------------------------------
+
+[12:57:15.637] === SERIES_COMPARISON ===
+Comparaison Case 1_RPA vs Case 1.RPA avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.061252
+  - MAE Relative: 0.099741
+  - Left Miss (rel): -0.004268
+  - Right Miss (rel): -0.228581
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 11
+  - Points Ratio: 0.79
+--------------------------------------------------
+
+[12:57:17.552] === SERIES_COMPARISON ===
+Comparaison Case 3_RPA vs Case 3.RPA avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.043523
+  - MAE Relative: 0.070872
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.054664
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 11
+  - Points Ratio: 0.73
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:57:17
+Total Duration: 16.29 seconds
+Total Series Processed: 8
+Successful Comparisons: 8
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3544285_CMMM2012-198108.014.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

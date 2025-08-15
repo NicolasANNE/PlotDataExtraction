@@ -1,0 +1,230 @@
+
+================================================================================
+VALIDATION LOG - PMC3184147_g006
+================================================================================
+Timestamp: 2025-08-07 13:16:42
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_box\PMC3184147___g006
+================================================================================
+
+
+
+[13:16:42.143] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:16:42.165] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: boxplot -> vertical_box
+
+Data:
+  - Original Type: boxplot
+  - Enum Type: vertical_box
+  - Final Type: boxplot
+  - Loader Used: BoxPlotDataLoader
+--------------------------------------------------
+
+[13:16:42.234] === DATA_LOADING ===
+Chargement des données GT depuis PMC3184147___g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_box\PMC3184147___g006.json
+  - Series Count: 2
+  - Series Names: ['[unnamed data series #0]', '[unnamed data series #1]']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[13:16:42.238] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3184147___g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_box\PMC3184147___g006\PMC3184147___g006.json
+  - Series Count: 2
+  - Series Names: ['HIV+', 'HIV-']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[13:16:42.241] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 80.0000
+  - Y Min-Max: [1.0000, 81.0000]
+  - X Range: nan
+--------------------------------------------------
+
+[13:16:42.245] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:16:42.259] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['[unnamed data series #0] <-> HIV+ (method=similarity_match, score=0.956)', '[unnamed data series #1] <-> HIV- (method=similarity_match, score=0.991)']
+--------------------------------------------------
+
+[13:16:43.052] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs HIV+ avec BoxPlotComparator
+
+Data:
+  - MAE Absolute: 2.475837
+  - MAE Relative: 0.030948
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:16:43.807] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #1] vs HIV- avec BoxPlotComparator
+
+Data:
+  - MAE Absolute: 1.351447
+  - MAE Relative: 0.016893
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:16:43
+Total Duration: 1.67 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3184147_g006.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3184147_g006
+================================================================================
+Timestamp: 2025-08-07 17:09:17
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_box\PMC3184147___g006
+================================================================================
+
+
+
+[17:09:17.503] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:09:17.505] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: boxplot -> vertical_box
+
+Data:
+  - Original Type: boxplot
+  - Enum Type: vertical_box
+  - Final Type: boxplot
+  - Loader Used: BoxPlotDataLoader
+--------------------------------------------------
+
+[17:09:17.540] === DATA_LOADING ===
+Chargement des données GT depuis PMC3184147___g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_box\PMC3184147___g006.json
+  - Series Count: 2
+  - Series Names: ['[unnamed data series #0]', '[unnamed data series #1]']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[17:09:17.560] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3184147___g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_box\PMC3184147___g006\PMC3184147___g006.json
+  - Series Count: 2
+  - Series Names: ['HIV+', 'HIV-']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[17:09:17.563] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 80.0000
+  - Y Min-Max: [1.0000, 81.0000]
+  - X Range: nan
+--------------------------------------------------
+
+[17:09:17.565] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:09:17.573] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['[unnamed data series #0] <-> HIV+ (method=similarity_match, score=0.956)', '[unnamed data series #1] <-> HIV- (method=similarity_match, score=0.991)']
+--------------------------------------------------
+
+[17:09:18.087] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs HIV+ avec BoxPlotComparator
+
+Data:
+  - MAE Absolute: 2.475837
+  - MAE Relative: 0.030948
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:09:18.788] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #1] vs HIV- avec BoxPlotComparator
+
+Data:
+  - MAE Absolute: 1.351447
+  - MAE Relative: 0.016893
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:09:18
+Total Duration: 1.31 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3184147_g006.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

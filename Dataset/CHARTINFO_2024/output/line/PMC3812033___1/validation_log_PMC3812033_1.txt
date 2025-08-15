@@ -1,0 +1,238 @@
+
+================================================================================
+VALIDATION LOG - PMC3812033_1
+================================================================================
+Timestamp: 2025-08-06 20:26:30
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3812033___1
+================================================================================
+
+
+
+[20:26:30.628] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:26:30.713] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:26:30.725] === DATA_LOADING ===
+Chargement des données GT depuis PMC3812033___1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3812033___1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:26:30.727] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3812033___1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3812033___1\PMC3812033___1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:26:30.729] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3812033_1
+================================================================================
+Timestamp: 2025-08-07 13:00:02
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3812033___1
+================================================================================
+
+
+
+[13:00:02.469] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:00:02.472] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:00:02.528] === DATA_LOADING ===
+Chargement des données GT depuis PMC3812033___1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3812033___1.json
+  - Series Count: 7
+  - Series Names: ['Attack^{®}', 'C. odorata', 'N. tabacum', 'A. conyzoides', 'S. nodiflora', 'R. communis', 'Tap water']
+  - X Data Types: {'categorical': 7}
+  - Total Data Points: 42
+--------------------------------------------------
+
+[13:00:02.533] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3812033___1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3812033___1\PMC3812033___1.json
+  - Series Count: 7
+  - Series Names: ['A. conyzoides', 'Attack®', 'C. odorata', 'N. tabacum', 'R. communis', 'S. nodiflora', 'Tap water']
+  - X Data Types: {'numeric': 7}
+  - Total Data Points: 42
+--------------------------------------------------
+
+[13:00:02.536] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 3.7976
+  - Y Min-Max: [-0.0476, 3.7500]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:00:02.538] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:00:02.540] === MATCHING_RESULTS ===
+7 appariements trouvés
+
+Data:
+  - Total Matches: 7
+  - Match Details: ['C. odorata <-> C. odorata (method=exact_match, score=1.000)', 'N. tabacum <-> N. tabacum (method=exact_match, score=1.000)', 'A. conyzoides <-> A. conyzoides (method=exact_match, score=1.000)', 'S. nodiflora <-> S. nodiflora (method=exact_match, score=1.000)', 'R. communis <-> R. communis (method=exact_match, score=1.000)', 'Tap water <-> Tap water (method=exact_match, score=1.000)', 'Attack^{®} <-> Attack® (method=fuzzy_match, score=0.800)']
+--------------------------------------------------
+
+[13:00:03.531] === SERIES_COMPARISON ===
+Comparaison C. odorata vs C. odorata avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.035619
+  - MAE Relative: 0.009379
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.280000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:00:04.580] === SERIES_COMPARISON ===
+Comparaison N. tabacum vs N. tabacum avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.107325
+  - MAE Relative: 0.028261
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.280000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:00:06.034] === SERIES_COMPARISON ===
+Comparaison A. conyzoides vs A. conyzoides avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.109103
+  - MAE Relative: 0.028729
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.280000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:00:07.227] === SERIES_COMPARISON ===
+Comparaison S. nodiflora vs S. nodiflora avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.053545
+  - MAE Relative: 0.014100
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.280000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:00:08.391] === SERIES_COMPARISON ===
+Comparaison R. communis vs R. communis avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.142171
+  - MAE Relative: 0.037437
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.280000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:00:10.724] === SERIES_COMPARISON ===
+Comparaison Tap water vs Tap water avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.168657
+  - MAE Relative: 0.044411
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.280000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:00:17.632] === SERIES_COMPARISON ===
+Comparaison Attack^{®} vs Attack® avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.141083
+  - MAE Relative: 0.037150
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.280000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:00:17
+Total Duration: 15.18 seconds
+Total Series Processed: 7
+Successful Comparisons: 7
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3812033_1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

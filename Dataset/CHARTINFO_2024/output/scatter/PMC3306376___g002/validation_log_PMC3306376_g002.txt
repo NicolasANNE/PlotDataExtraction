@@ -1,0 +1,258 @@
+
+================================================================================
+VALIDATION LOG - PMC3306376_g002
+================================================================================
+Timestamp: 2025-08-07 13:09:06
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC3306376___g002
+================================================================================
+
+
+
+[13:09:06.042] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:09:06.044] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:09:06.085] === DATA_LOADING ===
+Chargement des données GT depuis PMC3306376___g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC3306376___g002.json
+  - Series Count: 3
+  - Series Names: ['Carpinus', 'Quercus', 'Abies']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 143
+--------------------------------------------------
+
+[13:09:06.088] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3306376___g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC3306376___g002\PMC3306376___g002.json
+  - Series Count: 3
+  - Series Names: ['Carpinus', 'Quercus', 'Abies']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 72
+--------------------------------------------------
+
+[13:09:06.092] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.1293
+  - Y Min-Max: [0.4553, 0.5846]
+  - X Range: 0.23732765547163742
+--------------------------------------------------
+
+[13:09:06.094] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:09:06.095] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Carpinus <-> Carpinus (method=exact_match, score=1.000)', 'Quercus <-> Quercus (method=exact_match, score=1.000)', 'Abies <-> Abies (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:09:06.978] === SERIES_COMPARISON ===
+Comparaison Carpinus vs Carpinus avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.015966
+  - MAE Relative: 0.123479
+  - Left Miss (rel): 0.030876
+  - Right Miss (rel): 0.049936
+  - X Cutoff: N/A
+  - GT Points: 46
+  - Extracted Points: 25
+  - Points Ratio: 0.54
+--------------------------------------------------
+
+[13:09:07.687] === SERIES_COMPARISON ===
+Comparaison Quercus vs Quercus avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.012303
+  - MAE Relative: 0.095152
+  - Left Miss (rel): 0.004049
+  - Right Miss (rel): 0.018038
+  - X Cutoff: N/A
+  - GT Points: 43
+  - Extracted Points: 25
+  - Points Ratio: 0.58
+--------------------------------------------------
+
+[13:09:08.295] === SERIES_COMPARISON ===
+Comparaison Abies vs Abies avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.011184
+  - MAE Relative: 0.086497
+  - Left Miss (rel): 0.515631
+  - Right Miss (rel): -0.021423
+  - X Cutoff: N/A
+  - GT Points: 54
+  - Extracted Points: 22
+  - Points Ratio: 0.41
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:09:08
+Total Duration: 2.26 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3306376_g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3306376_g002
+================================================================================
+Timestamp: 2025-08-07 17:02:02
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC3306376___g002
+================================================================================
+
+
+
+[17:02:02.792] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:02:02.794] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[17:02:02.864] === DATA_LOADING ===
+Chargement des données GT depuis PMC3306376___g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC3306376___g002.json
+  - Series Count: 3
+  - Series Names: ['Carpinus', 'Quercus', 'Abies']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 143
+--------------------------------------------------
+
+[17:02:02.883] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3306376___g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC3306376___g002\PMC3306376___g002.json
+  - Series Count: 3
+  - Series Names: ['Carpinus', 'Quercus', 'Abies']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 72
+--------------------------------------------------
+
+[17:02:02.886] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.1293
+  - Y Min-Max: [0.4553, 0.5846]
+  - X Range: 0.23732765547163742
+--------------------------------------------------
+
+[17:02:02.888] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:02:02.889] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Carpinus <-> Carpinus (method=exact_match, score=1.000)', 'Quercus <-> Quercus (method=exact_match, score=1.000)', 'Abies <-> Abies (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[17:02:03.684] === SERIES_COMPARISON ===
+Comparaison Carpinus vs Carpinus avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.015966
+  - MAE Relative: 0.123479
+  - Left Miss (rel): 0.030876
+  - Right Miss (rel): 0.049936
+  - X Cutoff: N/A
+  - GT Points: 46
+  - Extracted Points: 25
+  - Points Ratio: 0.54
+--------------------------------------------------
+
+[17:02:05.297] === SERIES_COMPARISON ===
+Comparaison Quercus vs Quercus avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.012303
+  - MAE Relative: 0.095152
+  - Left Miss (rel): 0.004049
+  - Right Miss (rel): 0.018038
+  - X Cutoff: N/A
+  - GT Points: 43
+  - Extracted Points: 25
+  - Points Ratio: 0.58
+--------------------------------------------------
+
+[17:02:06.496] === SERIES_COMPARISON ===
+Comparaison Abies vs Abies avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.011184
+  - MAE Relative: 0.086497
+  - Left Miss (rel): 0.515631
+  - Right Miss (rel): -0.021423
+  - X Cutoff: N/A
+  - GT Points: 54
+  - Extracted Points: 22
+  - Points Ratio: 0.41
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:02:06
+Total Duration: 3.73 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3306376_g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

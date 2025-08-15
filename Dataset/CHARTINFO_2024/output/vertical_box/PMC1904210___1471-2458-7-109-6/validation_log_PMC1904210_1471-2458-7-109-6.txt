@@ -1,0 +1,202 @@
+
+================================================================================
+VALIDATION LOG - PMC1904210_1471-2458-7-109-6
+================================================================================
+Timestamp: 2025-08-07 13:15:27
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_box\PMC1904210___1471-2458-7-109-6
+================================================================================
+
+
+
+[13:15:27.082] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:15:27.086] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: boxplot -> vertical_box
+
+Data:
+  - Original Type: boxplot
+  - Enum Type: vertical_box
+  - Final Type: boxplot
+  - Loader Used: BoxPlotDataLoader
+--------------------------------------------------
+
+[13:15:27.134] === DATA_LOADING ===
+Chargement des données GT depuis PMC1904210___1471-2458-7-109-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_box\PMC1904210___1471-2458-7-109-6.json
+  - Series Count: 1
+  - Series Names: ['[unnamed data series #0]']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 2
+--------------------------------------------------
+
+[13:15:27.139] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1904210___1471-2458-7-109-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_box\PMC1904210___1471-2458-7-109-6\PMC1904210___1471-2458-7-109-6.json
+  - Series Count: 1
+  - Series Names: ['Reconstructed BoxPlot Series']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 2
+--------------------------------------------------
+
+[13:15:27.142] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 61557.8814
+  - Y Min-Max: [8.0000, 61565.8814]
+  - X Range: nan
+--------------------------------------------------
+
+[13:15:27.144] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:15:27.148] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['[unnamed data series #0] <-> Reconstructed BoxPlot Series (method=fuzzy_match, score=0.400)']
+--------------------------------------------------
+
+[13:15:28.124] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs Reconstructed BoxPlot Series avec BoxPlotComparator
+
+Data:
+  - MAE Absolute: 1452.272199
+  - MAE Relative: 0.023592
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:15:28
+Total Duration: 1.05 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1904210_1471-2458-7-109-6.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1904210_1471-2458-7-109-6
+================================================================================
+Timestamp: 2025-08-07 17:07:58
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_box\PMC1904210___1471-2458-7-109-6
+================================================================================
+
+
+
+[17:07:58.814] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:07:58.816] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: boxplot -> vertical_box
+
+Data:
+  - Original Type: boxplot
+  - Enum Type: vertical_box
+  - Final Type: boxplot
+  - Loader Used: BoxPlotDataLoader
+--------------------------------------------------
+
+[17:07:58.853] === DATA_LOADING ===
+Chargement des données GT depuis PMC1904210___1471-2458-7-109-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_box\PMC1904210___1471-2458-7-109-6.json
+  - Series Count: 1
+  - Series Names: ['[unnamed data series #0]']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 2
+--------------------------------------------------
+
+[17:07:58.857] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1904210___1471-2458-7-109-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_box\PMC1904210___1471-2458-7-109-6\PMC1904210___1471-2458-7-109-6.json
+  - Series Count: 1
+  - Series Names: ['Reconstructed BoxPlot Series']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 2
+--------------------------------------------------
+
+[17:07:58.860] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 61564.8814
+  - Y Min-Max: [1.0000, 61565.8814]
+  - X Range: nan
+--------------------------------------------------
+
+[17:07:58.863] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:07:58.890] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['[unnamed data series #0] <-> Reconstructed BoxPlot Series (method=fuzzy_match, score=0.400)']
+--------------------------------------------------
+
+[17:08:00.096] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs Reconstructed BoxPlot Series avec BoxPlotComparator
+
+Data:
+  - MAE Absolute: 1352.950704
+  - MAE Relative: 0.021976
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:08:00
+Total Duration: 1.31 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1904210_1471-2458-7-109-6.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

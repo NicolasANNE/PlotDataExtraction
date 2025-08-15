@@ -1,0 +1,171 @@
+
+================================================================================
+VALIDATION LOG - PMC3792104_g006
+================================================================================
+Timestamp: 2025-08-07 12:59:46
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3792104___g006
+================================================================================
+
+
+
+[12:59:46.607] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:59:46.610] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:59:46.668] === DATA_LOADING ===
+Chargement des données GT depuis PMC3792104___g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3792104___g006.json
+  - Series Count: 6
+  - Series Names: ['PLS Model 3 (Vss)', 'PLS Model 3 (fu)', 'RP Model 5 (Vss&Fu)', '% compounds', '% compounds', '% compounds']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 64
+--------------------------------------------------
+
+[12:59:46.675] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3792104___g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3792104___g006\PMC3792104___g006.json
+  - Series Count: 6
+  - Series Names: ['PLS Model 3 (Vss)', 'PLS Model 3 (fu)', 'RP Model 5 (Vss&Fu)', '% compounds', '% compounds', '% compounds']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[12:59:46.679] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.7498
+  - Y Min-Max: [0.2600, 1.0098]
+  - X Range: 19.5
+--------------------------------------------------
+
+[12:59:46.683] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:59:46.686] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['PLS Model 3 (Vss) <-> PLS Model 3 (Vss) (method=exact_match, score=1.000)', 'PLS Model 3 (fu) <-> PLS Model 3 (fu) (method=exact_match, score=1.000)', 'RP Model 5 (Vss&Fu) <-> RP Model 5 (Vss&Fu) (method=exact_match, score=1.000)', '% compounds <-> % compounds (method=exact_match, score=1.000)', '% compounds <-> % compounds (method=fuzzy_match, score=0.950)', '% compounds <-> % compounds (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[12:59:48.172] === SERIES_COMPARISON ===
+Comparaison PLS Model 3 (Vss) vs PLS Model 3 (Vss) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.016141
+  - MAE Relative: 0.021528
+  - Left Miss (rel): -0.000210
+  - Right Miss (rel): -0.031397
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 6
+  - Points Ratio: 0.43
+--------------------------------------------------
+
+[12:59:49.103] === SERIES_COMPARISON ===
+Comparaison PLS Model 3 (fu) vs PLS Model 3 (fu) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.462382
+  - MAE Relative: 0.616692
+  - Left Miss (rel): -0.000105
+  - Right Miss (rel): -0.005233
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 6
+  - Points Ratio: 0.40
+--------------------------------------------------
+
+[12:59:50.136] === SERIES_COMPARISON ===
+Comparaison RP Model 5 (Vss&Fu) vs RP Model 5 (Vss&Fu) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.417721
+  - MAE Relative: 0.557126
+  - Left Miss (rel): -0.000105
+  - Right Miss (rel): -0.005233
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 6
+  - Points Ratio: 0.86
+--------------------------------------------------
+
+[12:59:51.059] === SERIES_COMPARISON ===
+Comparaison % compounds vs % compounds avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.009004
+  - MAE Relative: 0.012009
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:59:51.815] === SERIES_COMPARISON ===
+Comparaison % compounds vs % compounds avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.009004
+  - MAE Relative: 0.012009
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:59:52.459] === SERIES_COMPARISON ===
+Comparaison % compounds vs % compounds avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.009004
+  - MAE Relative: 0.012009
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:59:52
+Total Duration: 5.87 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3792104_g006.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

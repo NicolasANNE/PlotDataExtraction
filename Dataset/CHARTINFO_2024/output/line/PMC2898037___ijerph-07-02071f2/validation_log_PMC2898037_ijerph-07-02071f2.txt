@@ -1,0 +1,241 @@
+
+================================================================================
+VALIDATION LOG - PMC2898037_ijerph-07-02071f2
+================================================================================
+Timestamp: 2025-08-06 20:16:46
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2898037___ijerph-07-02071f2
+================================================================================
+
+
+
+[20:16:46.389] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:46.425] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:46.432] === DATA_LOADING ===
+Chargement des données GT depuis PMC2898037___ijerph-07-02071f2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2898037___ijerph-07-02071f2.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:46.436] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2898037___ijerph-07-02071f2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2898037___ijerph-07-02071f2\PMC2898037___ijerph-07-02071f2.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:46.444] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2898037_ijerph-07-02071f2
+================================================================================
+Timestamp: 2025-08-06 21:34:45
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2898037___ijerph-07-02071f2
+================================================================================
+
+
+
+[21:34:45.306] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:34:45.309] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:34:45.339] === DATA_LOADING ===
+Chargement des données GT depuis PMC2898037___ijerph-07-02071f2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2898037___ijerph-07-02071f2.json
+  - Series Count: 1
+  - Series Names: ['[unnamed data series #0]']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 6
+--------------------------------------------------
+
+[21:34:45.347] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2898037___ijerph-07-02071f2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2898037___ijerph-07-02071f2\PMC2898037___ijerph-07-02071f2.json
+  - Series Count: 1
+  - Series Names: ['unnamed data series #0']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 6
+--------------------------------------------------
+
+[21:34:45.356] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0970
+  - Y Min-Max: [0.0140, 0.1110]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[21:34:45.359] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:34:45.364] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['[unnamed data series #0] <-> unnamed data series #0 (method=position_match_generic, score=0.100)']
+--------------------------------------------------
+
+[21:34:45.381] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison [unnamed data series #0] vs unnamed data series #0
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:34:45
+Total Duration: 0.11 seconds
+Total Series Processed: 1
+Successful Comparisons: 0
+Errors: 1
+Success Rate: 0.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2898037_ijerph-07-02071f2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2898037_ijerph-07-02071f2
+================================================================================
+Timestamp: 2025-08-07 12:50:51
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2898037___ijerph-07-02071f2
+================================================================================
+
+
+
+[12:50:51.128] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:50:51.133] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:50:51.179] === DATA_LOADING ===
+Chargement des données GT depuis PMC2898037___ijerph-07-02071f2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2898037___ijerph-07-02071f2.json
+  - Series Count: 1
+  - Series Names: ['[unnamed data series #0]']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 6
+--------------------------------------------------
+
+[12:50:51.184] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2898037___ijerph-07-02071f2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2898037___ijerph-07-02071f2\PMC2898037___ijerph-07-02071f2.json
+  - Series Count: 1
+  - Series Names: ['unnamed data series #0']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 6
+--------------------------------------------------
+
+[12:50:51.188] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0970
+  - Y Min-Max: [0.0140, 0.1110]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:50:51.195] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:50:51.199] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['[unnamed data series #0] <-> unnamed data series #0 (method=position_match_generic, score=0.100)']
+--------------------------------------------------
+
+[12:50:51.216] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison [unnamed data series #0] vs unnamed data series #0
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:50:51
+Total Duration: 0.11 seconds
+Total Series Processed: 1
+Successful Comparisons: 0
+Errors: 1
+Success Rate: 0.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2898037_ijerph-07-02071f2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

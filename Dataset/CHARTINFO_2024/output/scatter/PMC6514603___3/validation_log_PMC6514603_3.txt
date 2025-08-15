@@ -1,0 +1,157 @@
+
+================================================================================
+VALIDATION LOG - PMC6514603_3
+================================================================================
+Timestamp: 2025-08-07 12:46:04
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC6514603___3
+================================================================================
+
+
+
+[12:46:04.712] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:46:04.715] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:46:04.816] === DATA_LOADING ===
+Chargement des données GT depuis PMC6514603___3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC6514603___3.json
+  - Series Count: 5
+  - Series Names: ['0.4 ms', '0.6 ms', '0.8 ms', '1.0 ms', '5.2 ms']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 45
+--------------------------------------------------
+
+[12:46:04.819] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC6514603___3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC6514603___3\PMC6514603___3.json
+  - Series Count: 5
+  - Series Names: ['0.4 ms', '0.6 ms', '0.8 ms', '1.0 ms', '5.2 ms']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 25
+--------------------------------------------------
+
+[12:46:04.822] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 30.0216
+  - Y Min-Max: [-52.0000, -21.9784]
+  - X Range: 40.03472770323599
+--------------------------------------------------
+
+[12:46:04.825] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:46:04.827] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['0.4 ms <-> 0.4 ms (method=exact_match, score=1.000)', '0.6 ms <-> 0.6 ms (method=exact_match, score=1.000)', '0.8 ms <-> 0.8 ms (method=exact_match, score=1.000)', '1.0 ms <-> 1.0 ms (method=exact_match, score=1.000)', '5.2 ms <-> 5.2 ms (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:46:05.544] === SERIES_COMPARISON ===
+Comparaison 0.4 ms vs 0.4 ms avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.317804
+  - MAE Relative: 0.043895
+  - Left Miss (rel): -0.000789
+  - Right Miss (rel): 0.000394
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 5
+  - Points Ratio: 0.56
+--------------------------------------------------
+
+[12:46:06.324] === SERIES_COMPARISON ===
+Comparaison 0.6 ms vs 0.6 ms avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.085260
+  - MAE Relative: 0.069459
+  - Left Miss (rel): -0.000789
+  - Right Miss (rel): -0.000394
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 5
+  - Points Ratio: 0.56
+--------------------------------------------------
+
+[12:46:06.947] === SERIES_COMPARISON ===
+Comparaison 0.8 ms vs 0.8 ms avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.525127
+  - MAE Relative: 0.050801
+  - Left Miss (rel): -0.000394
+  - Right Miss (rel): -0.000789
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 5
+  - Points Ratio: 0.56
+--------------------------------------------------
+
+[12:46:07.655] === SERIES_COMPARISON ===
+Comparaison 1.0 ms vs 1.0 ms avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.019766
+  - MAE Relative: 0.067277
+  - Left Miss (rel): -0.001183
+  - Right Miss (rel): -0.000394
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 5
+  - Points Ratio: 0.56
+--------------------------------------------------
+
+[12:46:08.307] === SERIES_COMPARISON ===
+Comparaison 5.2 ms vs 5.2 ms avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.565670
+  - MAE Relative: 0.085461
+  - Left Miss (rel): 0.000473
+  - Right Miss (rel): -0.001577
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 5
+  - Points Ratio: 0.56
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:46:08
+Total Duration: 3.60 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC6514603_3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,129 @@
+
+================================================================================
+VALIDATION LOG - PMC3681663_pgen.1003566.g004
+================================================================================
+Timestamp: 2025-08-07 12:58:59
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3681663___pgen.1003566.g004
+================================================================================
+
+
+
+[12:58:59.194] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:58:59.196] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:58:59.252] === DATA_LOADING ===
+Chargement des données GT depuis PMC3681663___pgen.1003566.g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3681663___pgen.1003566.g004.json
+  - Series Count: 3
+  - Series Names: ['CDF of Replicated', 'CDF of Not Replicated', 'CDF of Random Genomic (with 95% Cl)']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 73
+--------------------------------------------------
+
+[12:58:59.256] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3681663___pgen.1003566.g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3681663___pgen.1003566.g004\PMC3681663___pgen.1003566.g004.json
+  - Series Count: 3
+  - Series Names: ['CDF of Replicated', 'CDF of Not Replicated', 'CDF of Random Genomic (with 95% CI)']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 153
+--------------------------------------------------
+
+[12:58:59.261] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 99.3549
+  - Y Min-Max: [-0.6567, 98.6982]
+  - X Range: 0.51875
+--------------------------------------------------
+
+[12:58:59.263] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:58:59.265] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['CDF of Replicated <-> CDF of Replicated (method=exact_match, score=1.000)', 'CDF of Not Replicated <-> CDF of Not Replicated (method=exact_match, score=1.000)', 'CDF of Random Genomic (with 95% Cl) <-> CDF of Random Genomic (with 95% CI) (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[12:58:59.955] === SERIES_COMPARISON ===
+Comparaison CDF of Replicated vs CDF of Replicated avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 4.405605
+  - MAE Relative: 0.044342
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.034639
+  - X Cutoff: N/A
+  - GT Points: 23
+  - Extracted Points: 51
+  - Points Ratio: 2.22
+--------------------------------------------------
+
+[12:59:01.304] === SERIES_COMPARISON ===
+Comparaison CDF of Not Replicated vs CDF of Not Replicated avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 5.222618
+  - MAE Relative: 0.052565
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.035141
+  - X Cutoff: N/A
+  - GT Points: 21
+  - Extracted Points: 51
+  - Points Ratio: 2.43
+--------------------------------------------------
+
+[12:59:02.747] === SERIES_COMPARISON ===
+Comparaison CDF of Random Genomic (with 95% Cl) vs CDF of Random Genomic (with 95% CI) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 10.659901
+  - MAE Relative: 0.107291
+  - Left Miss (rel): -0.001506
+  - Right Miss (rel): 0.036145
+  - X Cutoff: N/A
+  - GT Points: 29
+  - Extracted Points: 51
+  - Points Ratio: 1.76
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:59:02
+Total Duration: 3.58 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3681663_pgen.1003566.g004.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

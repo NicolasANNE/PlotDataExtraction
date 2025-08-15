@@ -1,0 +1,129 @@
+
+================================================================================
+VALIDATION LOG - PMC3799508_ijerph-10-04143-g006
+================================================================================
+Timestamp: 2025-08-07 12:59:54
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3799508___ijerph-10-04143-g006
+================================================================================
+
+
+
+[12:59:54.088] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:59:54.111] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:59:54.171] === DATA_LOADING ===
+Chargement des données GT depuis PMC3799508___ijerph-10-04143-g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3799508___ijerph-10-04143-g006.json
+  - Series Count: 3
+  - Series Names: ['Untreated', 'Free Cholorine', 'Membrane Filtration']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 18
+--------------------------------------------------
+
+[12:59:54.180] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3799508___ijerph-10-04143-g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3799508___ijerph-10-04143-g006\PMC3799508___ijerph-10-04143-g006.json
+  - Series Count: 3
+  - Series Names: ['Untreated', 'Free Cholorine', 'Membrane Filtration']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[12:59:54.183] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 312072.8335
+  - Y Min-Max: [-1424.3231, 310648.5105]
+  - X Range: 90.49875874520423
+--------------------------------------------------
+
+[12:59:54.185] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:59:54.188] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Untreated <-> Untreated (method=exact_match, score=1.000)', 'Free Cholorine <-> Free Cholorine (method=exact_match, score=1.000)', 'Membrane Filtration <-> Membrane Filtration (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:59:55.137] === SERIES_COMPARISON ===
+Comparaison Untreated vs Untreated avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 6556.411135
+  - MAE Relative: 0.021009
+  - Left Miss (rel): 0.001247
+  - Right Miss (rel): 0.001147
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 5
+  - Points Ratio: 0.62
+--------------------------------------------------
+
+[12:59:56.577] === SERIES_COMPARISON ===
+Comparaison Free Cholorine vs Free Cholorine avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 4168.814497
+  - MAE Relative: 0.013358
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.004264
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:59:59.465] === SERIES_COMPARISON ===
+Comparaison Membrane Filtration vs Membrane Filtration avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2801.351343
+  - MAE Relative: 0.008977
+  - Left Miss (rel): -0.001870
+  - Right Miss (rel): 0.003017
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:59:59
+Total Duration: 5.42 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3799508_ijerph-10-04143-g006.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

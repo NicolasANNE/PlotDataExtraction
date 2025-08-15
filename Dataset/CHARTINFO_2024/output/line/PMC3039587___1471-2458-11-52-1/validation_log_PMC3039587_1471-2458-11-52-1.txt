@@ -1,0 +1,342 @@
+
+================================================================================
+VALIDATION LOG - PMC3039587_1471-2458-11-52-1
+================================================================================
+Timestamp: 2025-08-06 21:35:45
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3039587___1471-2458-11-52-1
+================================================================================
+
+
+
+[21:35:45.396] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:35:45.414] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:35:45.559] === DATA_LOADING ===
+Chargement des données GT depuis PMC3039587___1471-2458-11-52-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3039587___1471-2458-11-52-1.json
+  - Series Count: 6
+  - Series Names: ['HCV', 'HCV/HIV', 'HBV', 'HBV/HIV', 'HBV/HCV', 'NSW population']
+  - X Data Types: {'categorical': 6}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[21:35:45.587] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3039587___1471-2458-11-52-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3039587___1471-2458-11-52-1\PMC3039587___1471-2458-11-52-1.json
+  - Series Count: 6
+  - Series Names: ['HCV', 'HBV', 'NSW population', 'HCV/HIV', 'HBV/HIV', 'HBV/HCV']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 30
+--------------------------------------------------
+
+[21:35:45.616] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 860.0000
+  - Y Min-Max: [120.0000, 980.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[21:35:45.622] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:35:45.625] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['HCV <-> HCV (method=exact_match, score=1.000)', 'HCV/HIV <-> HCV/HIV (method=exact_match, score=1.000)', 'HBV <-> HBV (method=exact_match, score=1.000)', 'HBV/HIV <-> HBV/HIV (method=exact_match, score=1.000)', 'HBV/HCV <-> HBV/HCV (method=exact_match, score=1.000)', 'NSW population <-> NSW population (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:35:51.568] === SERIES_COMPARISON ===
+Comparaison HCV vs HCV avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 156.535424
+  - MAE Relative: 0.182018
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.457500
+  - GT Points: 4
+  - Extracted Points: 5
+  - Points Ratio: 1.25
+--------------------------------------------------
+
+[21:35:53.531] === SERIES_COMPARISON ===
+Comparaison HCV/HIV vs HCV/HIV avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 261.465734
+  - MAE Relative: 0.304030
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.457500
+  - GT Points: 4
+  - Extracted Points: 5
+  - Points Ratio: 1.25
+--------------------------------------------------
+
+[21:35:55.488] === SERIES_COMPARISON ===
+Comparaison HBV vs HBV avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 95.500099
+  - MAE Relative: 0.111047
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.457500
+  - GT Points: 4
+  - Extracted Points: 5
+  - Points Ratio: 1.25
+--------------------------------------------------
+
+[21:35:58.054] === SERIES_COMPARISON ===
+Comparaison HBV/HIV vs HBV/HIV avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 178.343229
+  - MAE Relative: 0.207376
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.457500
+  - GT Points: 4
+  - Extracted Points: 5
+  - Points Ratio: 1.25
+--------------------------------------------------
+
+[21:35:59.674] === SERIES_COMPARISON ===
+Comparaison HBV/HCV vs HBV/HCV avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 93.705655
+  - MAE Relative: 0.108960
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.457500
+  - GT Points: 4
+  - Extracted Points: 5
+  - Points Ratio: 1.25
+--------------------------------------------------
+
+[21:36:00.811] === SERIES_COMPARISON ===
+Comparaison NSW population vs NSW population avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 158.544107
+  - MAE Relative: 0.184354
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.457500
+  - GT Points: 4
+  - Extracted Points: 5
+  - Points Ratio: 1.25
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:36:00
+Total Duration: 15.45 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3039587_1471-2458-11-52-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3039587_1471-2458-11-52-1
+================================================================================
+Timestamp: 2025-08-07 12:51:54
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3039587___1471-2458-11-52-1
+================================================================================
+
+
+
+[12:51:54.198] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:51:54.200] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:51:54.251] === DATA_LOADING ===
+Chargement des données GT depuis PMC3039587___1471-2458-11-52-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3039587___1471-2458-11-52-1.json
+  - Series Count: 6
+  - Series Names: ['HCV', 'HCV/HIV', 'HBV', 'HBV/HIV', 'HBV/HCV', 'NSW population']
+  - X Data Types: {'categorical': 6}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[12:51:54.255] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3039587___1471-2458-11-52-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3039587___1471-2458-11-52-1\PMC3039587___1471-2458-11-52-1.json
+  - Series Count: 6
+  - Series Names: ['HCV', 'HBV', 'NSW population', 'HCV/HIV', 'HBV/HIV', 'HBV/HCV']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 30
+--------------------------------------------------
+
+[12:51:54.260] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 860.0000
+  - Y Min-Max: [120.0000, 980.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:51:54.265] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:51:54.267] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['HCV <-> HCV (method=exact_match, score=1.000)', 'HCV/HIV <-> HCV/HIV (method=exact_match, score=1.000)', 'HBV <-> HBV (method=exact_match, score=1.000)', 'HBV/HIV <-> HBV/HIV (method=exact_match, score=1.000)', 'HBV/HCV <-> HBV/HCV (method=exact_match, score=1.000)', 'NSW population <-> NSW population (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:51:55.904] === SERIES_COMPARISON ===
+Comparaison HCV vs HCV avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 156.535424
+  - MAE Relative: 0.182018
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.457500
+  - GT Points: 4
+  - Extracted Points: 5
+  - Points Ratio: 1.25
+--------------------------------------------------
+
+[12:51:57.381] === SERIES_COMPARISON ===
+Comparaison HCV/HIV vs HCV/HIV avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 261.465734
+  - MAE Relative: 0.304030
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.457500
+  - GT Points: 4
+  - Extracted Points: 5
+  - Points Ratio: 1.25
+--------------------------------------------------
+
+[12:51:58.290] === SERIES_COMPARISON ===
+Comparaison HBV vs HBV avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 95.500099
+  - MAE Relative: 0.111047
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.457500
+  - GT Points: 4
+  - Extracted Points: 5
+  - Points Ratio: 1.25
+--------------------------------------------------
+
+[12:51:59.342] === SERIES_COMPARISON ===
+Comparaison HBV/HIV vs HBV/HIV avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 178.343229
+  - MAE Relative: 0.207376
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.457500
+  - GT Points: 4
+  - Extracted Points: 5
+  - Points Ratio: 1.25
+--------------------------------------------------
+
+[12:52:00.525] === SERIES_COMPARISON ===
+Comparaison HBV/HCV vs HBV/HCV avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 93.705655
+  - MAE Relative: 0.108960
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.457500
+  - GT Points: 4
+  - Extracted Points: 5
+  - Points Ratio: 1.25
+--------------------------------------------------
+
+[12:52:01.518] === SERIES_COMPARISON ===
+Comparaison NSW population vs NSW population avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 158.544107
+  - MAE Relative: 0.184354
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.457500
+  - GT Points: 4
+  - Extracted Points: 5
+  - Points Ratio: 1.25
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:52:01
+Total Duration: 7.37 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3039587_1471-2458-11-52-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

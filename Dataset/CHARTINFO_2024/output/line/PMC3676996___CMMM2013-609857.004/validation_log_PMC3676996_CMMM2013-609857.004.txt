@@ -1,0 +1,143 @@
+
+================================================================================
+VALIDATION LOG - PMC3676996_CMMM2013-609857.004
+================================================================================
+Timestamp: 2025-08-07 12:58:28
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3676996___CMMM2013-609857.004
+================================================================================
+
+
+
+[12:58:28.279] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:58:28.284] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:58:28.300] === DATA_LOADING ===
+Chargement des données GT depuis PMC3676996___CMMM2013-609857.004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3676996___CMMM2013-609857.004.json
+  - Series Count: 4
+  - Series Names: ['Spline (<21 days)', 'Piecewise exponential (>20 days)', 'Spline (>20days)', 'Piecewise exponential (<21 days)']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 72
+--------------------------------------------------
+
+[12:58:28.334] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3676996___CMMM2013-609857.004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3676996___CMMM2013-609857.004\PMC3676996___CMMM2013-609857.004.json
+  - Series Count: 4
+  - Series Names: ['Spline (<21 days)', 'Spline (>20 days)', 'Piecewise exponential (<21 days)', 'Piecewise exponential (>20 days)']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 60
+--------------------------------------------------
+
+[12:58:28.357] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.3900
+  - Y Min-Max: [0.5500, 0.9400]
+  - X Range: 70.12738853503184
+--------------------------------------------------
+
+[12:58:28.376] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:58:28.378] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Spline (<21 days) <-> Spline (<21 days) (method=exact_match, score=1.000)', 'Piecewise exponential (>20 days) <-> Piecewise exponential (>20 days) (method=exact_match, score=1.000)', 'Piecewise exponential (<21 days) <-> Piecewise exponential (<21 days) (method=exact_match, score=1.000)', 'Spline (>20days) <-> Spline (>20 days) (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[12:58:30.312] === SERIES_COMPARISON ===
+Comparaison Spline (<21 days) vs Spline (<21 days) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.030083
+  - MAE Relative: 0.077135
+  - Left Miss (rel): 0.047139
+  - Right Miss (rel): 0.049046
+  - X Cutoff: N/A
+  - GT Points: 19
+  - Extracted Points: 15
+  - Points Ratio: 0.79
+--------------------------------------------------
+
+[12:58:32.985] === SERIES_COMPARISON ===
+Comparaison Piecewise exponential (>20 days) vs Piecewise exponential (>20 days) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.018121
+  - MAE Relative: 0.046464
+  - Left Miss (rel): 0.047139
+  - Right Miss (rel): 0.054496
+  - X Cutoff: N/A
+  - GT Points: 19
+  - Extracted Points: 15
+  - Points Ratio: 0.79
+--------------------------------------------------
+
+[12:58:35.285] === SERIES_COMPARISON ===
+Comparaison Piecewise exponential (<21 days) vs Piecewise exponential (<21 days) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.020154
+  - MAE Relative: 0.051677
+  - Left Miss (rel): 0.044414
+  - Right Miss (rel): 0.043597
+  - X Cutoff: N/A
+  - GT Points: 17
+  - Extracted Points: 15
+  - Points Ratio: 0.88
+--------------------------------------------------
+
+[12:58:36.962] === SERIES_COMPARISON ===
+Comparaison Spline (>20days) vs Spline (>20 days) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.032865
+  - MAE Relative: 0.084270
+  - Left Miss (rel): 0.044414
+  - Right Miss (rel): 0.049046
+  - X Cutoff: N/A
+  - GT Points: 17
+  - Extracted Points: 15
+  - Points Ratio: 0.88
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:58:36
+Total Duration: 8.69 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3676996_CMMM2013-609857.004.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

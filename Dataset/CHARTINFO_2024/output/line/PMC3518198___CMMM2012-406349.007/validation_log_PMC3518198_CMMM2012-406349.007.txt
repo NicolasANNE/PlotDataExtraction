@@ -1,0 +1,143 @@
+
+================================================================================
+VALIDATION LOG - PMC3518198_CMMM2012-406349.007
+================================================================================
+Timestamp: 2025-08-07 12:56:07
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3518198___CMMM2012-406349.007
+================================================================================
+
+
+
+[12:56:07.139] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:56:07.143] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:56:07.214] === DATA_LOADING ===
+Chargement des données GT depuis PMC3518198___CMMM2012-406349.007.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3518198___CMMM2012-406349.007.json
+  - Series Count: 4
+  - Series Names: ['Image1', 'Image3', 'Image4', 'Image2']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 28
+--------------------------------------------------
+
+[12:56:07.220] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3518198___CMMM2012-406349.007.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3518198___CMMM2012-406349.007\PMC3518198___CMMM2012-406349.007.json
+  - Series Count: 4
+  - Series Names: ['Image1', 'Image3', 'Image2', 'Image4']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 28
+--------------------------------------------------
+
+[12:56:07.226] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 8.5674
+  - Y Min-Max: [22.0326, 30.6000]
+  - X Range: 0.6060278207109737
+--------------------------------------------------
+
+[12:56:07.253] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:56:07.256] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Image1 <-> Image1 (method=exact_match, score=1.000)', 'Image3 <-> Image3 (method=exact_match, score=1.000)', 'Image4 <-> Image4 (method=exact_match, score=1.000)', 'Image2 <-> Image2 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:56:08.318] === SERIES_COMPARISON ===
+Comparaison Image1 vs Image1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.163151
+  - MAE Relative: 0.019043
+  - Left Miss (rel): -0.006886
+  - Right Miss (rel): 0.009946
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:56:09.123] === SERIES_COMPARISON ===
+Comparaison Image3 vs Image3 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.149835
+  - MAE Relative: 0.017489
+  - Left Miss (rel): -0.003826
+  - Right Miss (rel): 0.009946
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:56:09.804] === SERIES_COMPARISON ===
+Comparaison Image4 vs Image4 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.143210
+  - MAE Relative: 0.016716
+  - Left Miss (rel): -0.005356
+  - Right Miss (rel): 0.005356
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:56:11.139] === SERIES_COMPARISON ===
+Comparaison Image2 vs Image2 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.135674
+  - MAE Relative: 0.015836
+  - Left Miss (rel): -0.005356
+  - Right Miss (rel): 0.006886
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:56:11
+Total Duration: 4.01 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3518198_CMMM2012-406349.007.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

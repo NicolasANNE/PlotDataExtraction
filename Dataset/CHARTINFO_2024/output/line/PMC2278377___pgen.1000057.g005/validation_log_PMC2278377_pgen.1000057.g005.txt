@@ -1,0 +1,643 @@
+
+================================================================================
+VALIDATION LOG - PMC2278377_pgen.1000057.g005
+================================================================================
+Timestamp: 2025-08-06 20:15:56
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2278377___pgen.1000057.g005
+================================================================================
+
+
+
+[20:15:56.994] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:57.035] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:57.062] === DATA_LOADING ===
+Chargement des données GT depuis PMC2278377___pgen.1000057.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2278377___pgen.1000057.g005.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:57.083] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2278377___pgen.1000057.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2278377___pgen.1000057.g005\PMC2278377___pgen.1000057.g005.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:57.085] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2278377_pgen.1000057.g005
+================================================================================
+Timestamp: 2025-08-06 21:32:21
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2278377___pgen.1000057.g005
+================================================================================
+
+
+
+[21:32:21.036] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:32:21.039] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:32:21.077] === DATA_LOADING ===
+Chargement des données GT depuis PMC2278377___pgen.1000057.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2278377___pgen.1000057.g005.json
+  - Series Count: 2
+  - Series Names: ['Divergent site rate between\nchimp and bonobo\n(genome average = 12.2%)', 'fate of CH sites near CH clusters or BH sites near\nBH clusters (genome average = 0.3%)']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[21:32:21.100] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2278377___pgen.1000057.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2278377___pgen.1000057.g005\PMC2278377___pgen.1000057.g005.json
+  - Series Count: 2
+  - Series Names: ['unnamed data series #0', 'unnamed data series #1']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[21:32:21.113] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 45.9560
+  - Y Min-Max: [0.0440, 46.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[21:32:21.126] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:32:21.133] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Divergent site rate between\nchimp and bonobo\n(genome average = 12.2%) <-> unnamed data series #0 (method=position_match_generic, score=0.100)', 'fate of CH sites near CH clusters or BH sites near\nBH clusters (genome average = 0.3%) <-> unnamed data series #1 (method=position_match_generic, score=0.100)']
+--------------------------------------------------
+
+[21:32:22.225] === SERIES_COMPARISON ===
+Comparaison Divergent site rate between
+chimp and bonobo
+(genome average = 12.2%) vs unnamed data series #0 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 39.881496
+  - MAE Relative: 0.867819
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.230000
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:32:23.038] === SERIES_COMPARISON ===
+Comparaison fate of CH sites near CH clusters or BH sites near
+BH clusters (genome average = 0.3%) vs unnamed data series #1 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 6.944592
+  - MAE Relative: 0.151114
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.230000
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:32:23
+Total Duration: 2.01 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2278377_pgen.1000057.g005.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2278377_pgen.1000057.g005
+================================================================================
+Timestamp: 2025-08-07 12:48:25
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2278377___pgen.1000057.g005
+================================================================================
+
+
+
+[12:48:25.545] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:48:25.549] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:48:25.625] === DATA_LOADING ===
+Chargement des données GT depuis PMC2278377___pgen.1000057.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2278377___pgen.1000057.g005.json
+  - Series Count: 2
+  - Series Names: ['Divergent site rate between\nchimp and bonobo\n(genome average = 12.2%)', 'fate of CH sites near CH clusters or BH sites near\nBH clusters (genome average = 0.3%)']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[12:48:25.630] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2278377___pgen.1000057.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2278377___pgen.1000057.g005\PMC2278377___pgen.1000057.g005.json
+  - Series Count: 2
+  - Series Names: ['unnamed data series #0', 'unnamed data series #1']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[12:48:25.662] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 45.9560
+  - Y Min-Max: [0.0440, 46.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:48:25.699] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:48:25.719] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Divergent site rate between\nchimp and bonobo\n(genome average = 12.2%) <-> unnamed data series #0 (method=position_match_generic, score=0.100)', 'fate of CH sites near CH clusters or BH sites near\nBH clusters (genome average = 0.3%) <-> unnamed data series #1 (method=position_match_generic, score=0.100)']
+--------------------------------------------------
+
+[12:48:27.182] === SERIES_COMPARISON ===
+Comparaison Divergent site rate between
+chimp and bonobo
+(genome average = 12.2%) vs unnamed data series #0 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 39.881496
+  - MAE Relative: 0.867819
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.230000
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:48:28.118] === SERIES_COMPARISON ===
+Comparaison fate of CH sites near CH clusters or BH sites near
+BH clusters (genome average = 0.3%) vs unnamed data series #1 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 6.944592
+  - MAE Relative: 0.151114
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.230000
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:48:28
+Total Duration: 2.58 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2278377_pgen.1000057.g005.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2278377_pgen.1000057.g005
+================================================================================
+Timestamp: 2025-08-07 13:05:21
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2278377___pgen.1000057.g005
+================================================================================
+
+
+
+[13:05:21.453] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:05:21.499] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:05:21.568] === DATA_LOADING ===
+Chargement des données GT depuis PMC2278377___pgen.1000057.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2278377___pgen.1000057.g005.json
+  - Series Count: 2
+  - Series Names: ['Divergent site rate between\nchimp and bonobo\n(genome average = 12.2%)', 'fate of CH sites near CH clusters or BH sites near\nBH clusters (genome average = 0.3%)']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[13:05:21.571] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2278377___pgen.1000057.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2278377___pgen.1000057.g005\PMC2278377___pgen.1000057.g005.json
+  - Series Count: 2
+  - Series Names: ['unnamed data series #0', 'unnamed data series #1']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[13:05:21.574] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 45.9560
+  - Y Min-Max: [0.0440, 46.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:05:21.578] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:05:21.590] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Divergent site rate between\nchimp and bonobo\n(genome average = 12.2%) <-> unnamed data series #0 (method=position_match_generic, score=0.100)', 'fate of CH sites near CH clusters or BH sites near\nBH clusters (genome average = 0.3%) <-> unnamed data series #1 (method=position_match_generic, score=0.100)']
+--------------------------------------------------
+
+[13:05:22.738] === SERIES_COMPARISON ===
+Comparaison Divergent site rate between
+chimp and bonobo
+(genome average = 12.2%) vs unnamed data series #0 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 39.881496
+  - MAE Relative: 0.867819
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.230000
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:05:23.521] === SERIES_COMPARISON ===
+Comparaison fate of CH sites near CH clusters or BH sites near
+BH clusters (genome average = 0.3%) vs unnamed data series #1 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 6.944592
+  - MAE Relative: 0.151114
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.230000
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:05:23
+Total Duration: 2.10 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2278377_pgen.1000057.g005.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2278377_pgen.1000057.g005
+================================================================================
+Timestamp: 2025-08-07 16:38:58
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2278377___pgen.1000057.g005
+================================================================================
+
+
+
+[16:38:58.844] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:38:58.856] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:38:58.895] === DATA_LOADING ===
+Chargement des données GT depuis PMC2278377___pgen.1000057.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2278377___pgen.1000057.g005.json
+  - Series Count: 2
+  - Series Names: ['Divergent site rate between\nchimp and bonobo\n(genome average = 12.2%)', 'fate of CH sites near CH clusters or BH sites near\nBH clusters (genome average = 0.3%)']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[16:38:58.905] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2278377___pgen.1000057.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2278377___pgen.1000057.g005\PMC2278377___pgen.1000057.g005.json
+  - Series Count: 2
+  - Series Names: ['unnamed data series #0', 'unnamed data series #1']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[16:38:58.908] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 45.9560
+  - Y Min-Max: [0.0440, 46.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:38:58.910] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:38:58.919] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Divergent site rate between\nchimp and bonobo\n(genome average = 12.2%) <-> unnamed data series #0 (method=position_match_generic, score=0.100)', 'fate of CH sites near CH clusters or BH sites near\nBH clusters (genome average = 0.3%) <-> unnamed data series #1 (method=position_match_generic, score=0.100)']
+--------------------------------------------------
+
+[16:38:59.951] === SERIES_COMPARISON ===
+Comparaison Divergent site rate between
+chimp and bonobo
+(genome average = 12.2%) vs unnamed data series #0 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 39.881496
+  - MAE Relative: 0.867819
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.230000
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:39:00.915] === SERIES_COMPARISON ===
+Comparaison fate of CH sites near CH clusters or BH sites near
+BH clusters (genome average = 0.3%) vs unnamed data series #1 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 6.944592
+  - MAE Relative: 0.151114
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.230000
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:39:00
+Total Duration: 2.08 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2278377_pgen.1000057.g005.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2278377_pgen.1000057.g005
+================================================================================
+Timestamp: 2025-08-07 16:58:11
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2278377___pgen.1000057.g005
+================================================================================
+
+
+
+[16:58:11.372] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:58:11.375] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:58:11.400] === DATA_LOADING ===
+Chargement des données GT depuis PMC2278377___pgen.1000057.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2278377___pgen.1000057.g005.json
+  - Series Count: 2
+  - Series Names: ['Divergent site rate between\nchimp and bonobo\n(genome average = 12.2%)', 'fate of CH sites near CH clusters or BH sites near\nBH clusters (genome average = 0.3%)']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[16:58:11.405] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2278377___pgen.1000057.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2278377___pgen.1000057.g005\PMC2278377___pgen.1000057.g005.json
+  - Series Count: 2
+  - Series Names: ['unnamed data series #0', 'unnamed data series #1']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[16:58:11.411] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 45.9560
+  - Y Min-Max: [0.0440, 46.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:58:11.412] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:58:11.415] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Divergent site rate between\nchimp and bonobo\n(genome average = 12.2%) <-> unnamed data series #0 (method=position_match_generic, score=0.100)', 'fate of CH sites near CH clusters or BH sites near\nBH clusters (genome average = 0.3%) <-> unnamed data series #1 (method=position_match_generic, score=0.100)']
+--------------------------------------------------
+
+[16:58:12.202] === SERIES_COMPARISON ===
+Comparaison Divergent site rate between
+chimp and bonobo
+(genome average = 12.2%) vs unnamed data series #0 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 39.881496
+  - MAE Relative: 0.867819
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.230000
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:58:13.327] === SERIES_COMPARISON ===
+Comparaison fate of CH sites near CH clusters or BH sites near
+BH clusters (genome average = 0.3%) vs unnamed data series #1 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 6.944592
+  - MAE Relative: 0.151114
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.230000
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:58:13
+Total Duration: 1.97 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2278377_pgen.1000057.g005.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

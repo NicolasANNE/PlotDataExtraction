@@ -1,0 +1,283 @@
+
+================================================================================
+VALIDATION LOG - PMC2681204_ijerph-06-01298f3
+================================================================================
+Timestamp: 2025-08-06 20:16:26
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2681204___ijerph-06-01298f3
+================================================================================
+
+
+
+[20:16:26.162] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:26.194] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:26.203] === DATA_LOADING ===
+Chargement des données GT depuis PMC2681204___ijerph-06-01298f3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2681204___ijerph-06-01298f3.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:26.205] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2681204___ijerph-06-01298f3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2681204___ijerph-06-01298f3\PMC2681204___ijerph-06-01298f3.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:26.207] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2681204_ijerph-06-01298f3
+================================================================================
+Timestamp: 2025-08-06 21:33:46
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2681204___ijerph-06-01298f3
+================================================================================
+
+
+
+[21:33:46.740] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:33:46.752] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:33:46.839] === DATA_LOADING ===
+Chargement des données GT depuis PMC2681204___ijerph-06-01298f3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2681204___ijerph-06-01298f3.json
+  - Series Count: 2
+  - Series Names: ['Control', 'Intervention']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[21:33:46.854] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2681204___ijerph-06-01298f3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2681204___ijerph-06-01298f3\PMC2681204___ijerph-06-01298f3.json
+  - Series Count: 2
+  - Series Names: ['Control', 'Intervention']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[21:33:46.866] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 3.6165
+  - Y Min-Max: [7.1000, 10.7165]
+  - X Range: 3.0057057057057053
+--------------------------------------------------
+
+[21:33:46.869] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:33:46.871] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Control <-> Control (method=exact_match, score=1.000)', 'Intervention <-> Intervention (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:33:47.645] === SERIES_COMPARISON ===
+Comparaison Control vs Control avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.009157
+  - MAE Relative: 0.002532
+  - Left Miss (rel): 0.000999
+  - Right Miss (rel): 0.000899
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:33:48.514] === SERIES_COMPARISON ===
+Comparaison Intervention vs Intervention avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.010341
+  - MAE Relative: 0.002860
+  - Left Miss (rel): 0.000599
+  - Right Miss (rel): -0.003297
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:33:48
+Total Duration: 1.79 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2681204_ijerph-06-01298f3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2681204_ijerph-06-01298f3
+================================================================================
+Timestamp: 2025-08-07 12:49:56
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2681204___ijerph-06-01298f3
+================================================================================
+
+
+
+[12:49:56.057] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:49:56.060] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:49:56.099] === DATA_LOADING ===
+Chargement des données GT depuis PMC2681204___ijerph-06-01298f3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2681204___ijerph-06-01298f3.json
+  - Series Count: 2
+  - Series Names: ['Control', 'Intervention']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[12:49:56.109] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2681204___ijerph-06-01298f3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2681204___ijerph-06-01298f3\PMC2681204___ijerph-06-01298f3.json
+  - Series Count: 2
+  - Series Names: ['Control', 'Intervention']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[12:49:56.113] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 3.6165
+  - Y Min-Max: [7.1000, 10.7165]
+  - X Range: 3.0057057057057053
+--------------------------------------------------
+
+[12:49:56.116] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:49:56.118] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Control <-> Control (method=exact_match, score=1.000)', 'Intervention <-> Intervention (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:49:56.729] === SERIES_COMPARISON ===
+Comparaison Control vs Control avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.009157
+  - MAE Relative: 0.002532
+  - Left Miss (rel): 0.000999
+  - Right Miss (rel): 0.000899
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:49:57.381] === SERIES_COMPARISON ===
+Comparaison Intervention vs Intervention avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.010341
+  - MAE Relative: 0.002860
+  - Left Miss (rel): 0.000599
+  - Right Miss (rel): -0.003297
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:49:57
+Total Duration: 1.33 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2681204_ijerph-06-01298f3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,258 @@
+
+================================================================================
+VALIDATION LOG - PMC3413872_fgene-03-00142-g002
+================================================================================
+Timestamp: 2025-08-06 21:39:33
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3413872___fgene-03-00142-g002
+================================================================================
+
+
+
+[21:39:33.527] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:39:33.552] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:39:35.697] === DATA_LOADING ===
+Chargement des données GT depuis PMC3413872___fgene-03-00142-g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3413872___fgene-03-00142-g002.json
+  - Series Count: 3
+  - Series Names: ['Loss', 'Normal', 'Gain']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 105
+--------------------------------------------------
+
+[21:39:35.712] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3413872___fgene-03-00142-g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3413872___fgene-03-00142-g002\PMC3413872___fgene-03-00142-g002.json
+  - Series Count: 3
+  - Series Names: ['Loss', 'Normal', 'Gain']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 45
+--------------------------------------------------
+
+[21:39:35.723] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 43.6900
+  - Y Min-Max: [0.3100, 44.0000]
+  - X Range: 3699.1869918699185
+--------------------------------------------------
+
+[21:39:35.751] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:39:36.829] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Loss <-> Loss (method=exact_match, score=1.000)', 'Normal <-> Normal (method=exact_match, score=1.000)', 'Gain <-> Gain (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:39:39.018] === SERIES_COMPARISON ===
+Comparaison Loss vs Loss avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.049624
+  - MAE Relative: 0.001136
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.052308
+  - X Cutoff: N/A
+  - GT Points: 36
+  - Extracted Points: 15
+  - Points Ratio: 0.42
+--------------------------------------------------
+
+[21:39:40.129] === SERIES_COMPARISON ===
+Comparaison Normal vs Normal avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.196190
+  - MAE Relative: 0.073156
+  - Left Miss (rel): 0.001538
+  - Right Miss (rel): -0.012308
+  - X Cutoff: N/A
+  - GT Points: 26
+  - Extracted Points: 15
+  - Points Ratio: 0.58
+--------------------------------------------------
+
+[21:39:41.209] === SERIES_COMPARISON ===
+Comparaison Gain vs Gain avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.146499
+  - MAE Relative: 0.003353
+  - Left Miss (rel): -0.003077
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 43
+  - Extracted Points: 15
+  - Points Ratio: 0.35
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:39:41
+Total Duration: 7.75 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3413872_fgene-03-00142-g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3413872_fgene-03-00142-g002
+================================================================================
+Timestamp: 2025-08-07 12:54:59
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3413872___fgene-03-00142-g002
+================================================================================
+
+
+
+[12:54:59.101] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:54:59.141] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:54:59.198] === DATA_LOADING ===
+Chargement des données GT depuis PMC3413872___fgene-03-00142-g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3413872___fgene-03-00142-g002.json
+  - Series Count: 3
+  - Series Names: ['Loss', 'Normal', 'Gain']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 105
+--------------------------------------------------
+
+[12:54:59.201] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3413872___fgene-03-00142-g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3413872___fgene-03-00142-g002\PMC3413872___fgene-03-00142-g002.json
+  - Series Count: 3
+  - Series Names: ['Loss', 'Normal', 'Gain']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 45
+--------------------------------------------------
+
+[12:54:59.239] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.6943
+  - Y Min-Max: [0.3100, 1.0043]
+  - X Range: 3699.1869918699185
+--------------------------------------------------
+
+[12:54:59.251] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:54:59.259] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Loss <-> Loss (method=exact_match, score=1.000)', 'Normal <-> Normal (method=exact_match, score=1.000)', 'Gain <-> Gain (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:55:00.958] === SERIES_COMPARISON ===
+Comparaison Loss vs Loss avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.048910
+  - MAE Relative: 0.070441
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.052308
+  - X Cutoff: N/A
+  - GT Points: 36
+  - Extracted Points: 15
+  - Points Ratio: 0.42
+--------------------------------------------------
+
+[12:55:02.676] === SERIES_COMPARISON ===
+Comparaison Normal vs Normal avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.076368
+  - MAE Relative: 0.109986
+  - Left Miss (rel): 0.001538
+  - Right Miss (rel): -0.012308
+  - X Cutoff: N/A
+  - GT Points: 26
+  - Extracted Points: 15
+  - Points Ratio: 0.58
+--------------------------------------------------
+
+[12:55:04.688] === SERIES_COMPARISON ===
+Comparaison Gain vs Gain avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.146499
+  - MAE Relative: 0.210990
+  - Left Miss (rel): -0.003077
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 43
+  - Extracted Points: 15
+  - Points Ratio: 0.35
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:55:04
+Total Duration: 5.61 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3413872_fgene-03-00142-g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,345 @@
+
+================================================================================
+VALIDATION LOG - PMC2676504_pgen.1000488.g006
+================================================================================
+Timestamp: 2025-08-07 13:07:22
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2676504___pgen.1000488.g006
+================================================================================
+
+
+
+[13:07:22.871] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:07:22.874] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:07:22.931] === DATA_LOADING ===
+Chargement des données GT depuis PMC2676504___pgen.1000488.g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC2676504___pgen.1000488.g006.json
+  - Series Count: 2
+  - Series Names: ['Untreated', '0.1 MM H_{2}O_{2}']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 17
+--------------------------------------------------
+
+[13:07:22.937] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2676504___pgen.1000488.g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2676504___pgen.1000488.g006\PMC2676504___pgen.1000488.g006.json
+  - Series Count: 2
+  - Series Names: ['Untreated', '0.1 mM H2O2']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[13:07:22.949] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.6182
+  - Y Min-Max: [0.9960, 1.6142]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:07:22.953] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:07:22.957] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Untreated <-> Untreated (method=exact_match, score=1.000)', '0.1 MM H_{2}O_{2} <-> 0.1 mM H2O2 (method=fuzzy_match, score=0.700)']
+--------------------------------------------------
+
+[13:07:23.730] === SERIES_COMPARISON ===
+Comparaison Untreated vs Untreated avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.081818
+  - MAE Relative: 0.132353
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.150000
+  - GT Points: 8
+  - Extracted Points: 5
+  - Points Ratio: 0.62
+--------------------------------------------------
+
+[13:07:24.491] === SERIES_COMPARISON ===
+Comparaison 0.1 MM H_{2}O_{2} vs 0.1 mM H2O2 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.092273
+  - MAE Relative: 0.149265
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.150000
+  - GT Points: 9
+  - Extracted Points: 7
+  - Points Ratio: 0.78
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:07:24
+Total Duration: 1.64 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2676504_pgen.1000488.g006.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2676504_pgen.1000488.g006
+================================================================================
+Timestamp: 2025-08-07 16:40:56
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2676504___pgen.1000488.g006
+================================================================================
+
+
+
+[16:40:56.605] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:40:56.618] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:40:56.678] === DATA_LOADING ===
+Chargement des données GT depuis PMC2676504___pgen.1000488.g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC2676504___pgen.1000488.g006.json
+  - Series Count: 2
+  - Series Names: ['Untreated', '0.1 MM H_{2}O_{2}']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 17
+--------------------------------------------------
+
+[16:40:56.682] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2676504___pgen.1000488.g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2676504___pgen.1000488.g006\PMC2676504___pgen.1000488.g006.json
+  - Series Count: 2
+  - Series Names: ['Untreated', '0.1 mM H2O2']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[16:40:56.688] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.6182
+  - Y Min-Max: [0.9960, 1.6142]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:40:56.717] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:40:56.720] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Untreated <-> Untreated (method=exact_match, score=1.000)', '0.1 MM H_{2}O_{2} <-> 0.1 mM H2O2 (method=fuzzy_match, score=0.700)']
+--------------------------------------------------
+
+[16:40:57.912] === SERIES_COMPARISON ===
+Comparaison Untreated vs Untreated avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.081818
+  - MAE Relative: 0.132353
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.150000
+  - GT Points: 8
+  - Extracted Points: 5
+  - Points Ratio: 0.62
+--------------------------------------------------
+
+[16:40:58.811] === SERIES_COMPARISON ===
+Comparaison 0.1 MM H_{2}O_{2} vs 0.1 mM H2O2 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.092273
+  - MAE Relative: 0.149265
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.150000
+  - GT Points: 9
+  - Extracted Points: 7
+  - Points Ratio: 0.78
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:40:58
+Total Duration: 2.25 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2676504_pgen.1000488.g006.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2676504_pgen.1000488.g006
+================================================================================
+Timestamp: 2025-08-07 17:00:09
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2676504___pgen.1000488.g006
+================================================================================
+
+
+
+[17:00:09.645] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:00:09.650] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[17:00:09.711] === DATA_LOADING ===
+Chargement des données GT depuis PMC2676504___pgen.1000488.g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC2676504___pgen.1000488.g006.json
+  - Series Count: 2
+  - Series Names: ['Untreated', '0.1 MM H_{2}O_{2}']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 17
+--------------------------------------------------
+
+[17:00:09.726] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2676504___pgen.1000488.g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2676504___pgen.1000488.g006\PMC2676504___pgen.1000488.g006.json
+  - Series Count: 2
+  - Series Names: ['Untreated', '0.1 mM H2O2']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[17:00:09.778] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.6182
+  - Y Min-Max: [0.9960, 1.6142]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[17:00:09.799] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:00:09.831] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Untreated <-> Untreated (method=exact_match, score=1.000)', '0.1 MM H_{2}O_{2} <-> 0.1 mM H2O2 (method=fuzzy_match, score=0.700)']
+--------------------------------------------------
+
+[17:00:11.108] === SERIES_COMPARISON ===
+Comparaison Untreated vs Untreated avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.081818
+  - MAE Relative: 0.132353
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.150000
+  - GT Points: 8
+  - Extracted Points: 5
+  - Points Ratio: 0.62
+--------------------------------------------------
+
+[17:00:11.831] === SERIES_COMPARISON ===
+Comparaison 0.1 MM H_{2}O_{2} vs 0.1 mM H2O2 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.092273
+  - MAE Relative: 0.149265
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.150000
+  - GT Points: 9
+  - Extracted Points: 7
+  - Points Ratio: 0.78
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:00:11
+Total Duration: 2.23 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2676504_pgen.1000488.g006.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

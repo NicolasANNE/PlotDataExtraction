@@ -1,0 +1,143 @@
+
+================================================================================
+VALIDATION LOG - PMC3606348_g008
+================================================================================
+Timestamp: 2025-08-07 12:57:39
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3606348___g008
+================================================================================
+
+
+
+[12:57:39.732] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:57:39.735] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:57:39.802] === DATA_LOADING ===
+Chargement des données GT depuis PMC3606348___g008.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3606348___g008.json
+  - Series Count: 4
+  - Series Names: ['2G12-KDEL D6', '2G12-KDEL D12', '2G12-KDEL D16', '2G12 CHO']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 31
+--------------------------------------------------
+
+[12:57:39.816] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3606348___g008.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3606348___g008\PMC3606348___g008.json
+  - Series Count: 4
+  - Series Names: ['2G12-KDEL D6', '2G12-KDEL D12', '2G12-KDEL D16', '2G12 CHO']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[12:57:39.826] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 77.0000
+  - Y Min-Max: [0.0000, 77.0000]
+  - X Range: 46.700638815789475
+--------------------------------------------------
+
+[12:57:39.832] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:57:39.858] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['2G12-KDEL D6 <-> 2G12-KDEL D6 (method=exact_match, score=1.000)', '2G12-KDEL D12 <-> 2G12-KDEL D12 (method=exact_match, score=1.000)', '2G12-KDEL D16 <-> 2G12-KDEL D16 (method=exact_match, score=1.000)', '2G12 CHO <-> 2G12 CHO (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:57:42.150] === SERIES_COMPARISON ===
+Comparaison 2G12-KDEL D6 vs 2G12-KDEL D6 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.393444
+  - MAE Relative: 0.044071
+  - Left Miss (rel): 0.000002
+  - Right Miss (rel): 0.231035
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:57:44.254] === SERIES_COMPARISON ===
+Comparaison 2G12-KDEL D12 vs 2G12-KDEL D12 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.465415
+  - MAE Relative: 0.019031
+  - Left Miss (rel): -0.000000
+  - Right Miss (rel): 0.205677
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:57:47.136] === SERIES_COMPARISON ===
+Comparaison 2G12-KDEL D16 vs 2G12-KDEL D16 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 5.744967
+  - MAE Relative: 0.074610
+  - Left Miss (rel): -0.000049
+  - Right Miss (rel): 0.281750
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:57:49.772] === SERIES_COMPARISON ===
+Comparaison 2G12 CHO vs 2G12 CHO avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.393356
+  - MAE Relative: 0.044070
+  - Left Miss (rel): -0.000024
+  - Right Miss (rel): 0.357822
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 8
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:57:49
+Total Duration: 10.05 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3606348_g008.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

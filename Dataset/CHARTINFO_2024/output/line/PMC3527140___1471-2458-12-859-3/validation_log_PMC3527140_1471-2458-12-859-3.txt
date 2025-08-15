@@ -1,0 +1,115 @@
+
+================================================================================
+VALIDATION LOG - PMC3527140_1471-2458-12-859-3
+================================================================================
+Timestamp: 2025-08-07 12:56:23
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3527140___1471-2458-12-859-3
+================================================================================
+
+
+
+[12:56:23.661] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:56:23.663] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:56:23.706] === DATA_LOADING ===
+Chargement des données GT depuis PMC3527140___1471-2458-12-859-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3527140___1471-2458-12-859-3.json
+  - Series Count: 2
+  - Series Names: ['Ruptured', 'Without rupture']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 43
+--------------------------------------------------
+
+[12:56:23.711] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3527140___1471-2458-12-859-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3527140___1471-2458-12-859-3\PMC3527140___1471-2458-12-859-3.json
+  - Series Count: 2
+  - Series Names: ['Ruptured', 'Without rupture']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 50
+--------------------------------------------------
+
+[12:56:23.715] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 2.2107
+  - Y Min-Max: [0.9922, 3.2030]
+  - X Range: 24.0
+--------------------------------------------------
+
+[12:56:23.718] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:56:23.720] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Ruptured <-> Ruptured (method=exact_match, score=1.000)', 'Without rupture <-> Without rupture (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:56:24.367] === SERIES_COMPARISON ===
+Comparaison Ruptured vs Ruptured avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.105427
+  - MAE Relative: 0.047689
+  - Left Miss (rel): -0.004135
+  - Right Miss (rel): -0.001754
+  - X Cutoff: N/A
+  - GT Points: 21
+  - Extracted Points: 25
+  - Points Ratio: 1.19
+--------------------------------------------------
+
+[12:56:24.965] === SERIES_COMPARISON ===
+Comparaison Without rupture vs Without rupture avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.072626
+  - MAE Relative: 0.032852
+  - Left Miss (rel): -0.003133
+  - Right Miss (rel): -0.001253
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 25
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:56:24
+Total Duration: 1.31 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3527140_1471-2458-12-859-3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

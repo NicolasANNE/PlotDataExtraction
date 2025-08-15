@@ -1,0 +1,911 @@
+
+================================================================================
+VALIDATION LOG - PMC1866524_1471-2156-4-S1-S84-1
+================================================================================
+Timestamp: 2025-08-06 20:15:34
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866524___1471-2156-4-S1-S84-1
+================================================================================
+
+
+
+[20:15:34.893] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:34.914] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:34.943] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866524___1471-2156-4-S1-S84-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866524___1471-2156-4-S1-S84-1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:34.948] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866524___1471-2156-4-S1-S84-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866524___1471-2156-4-S1-S84-1\PMC1866524___1471-2156-4-S1-S84-1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:34.950] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866524_1471-2156-4-S1-S84-1
+================================================================================
+Timestamp: 2025-08-06 21:31:30
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866524___1471-2156-4-S1-S84-1
+================================================================================
+
+
+
+[21:31:30.977] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:31:30.981] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:31:31.007] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866524___1471-2156-4-S1-S84-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866524___1471-2156-4-S1-S84-1.json
+  - Series Count: 4
+  - Series Names: ['AgeU_RTM', 'AgeL_RTM', 'AgeAv_RTM', 'AgeAv_PH']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[21:31:31.028] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866524___1471-2156-4-S1-S84-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866524___1471-2156-4-S1-S84-1\PMC1866524___1471-2156-4-S1-S84-1.json
+  - Series Count: 4
+  - Series Names: ['AgeU_RTM', 'AgeL_RTM', 'AgeAv_RTM', 'AgeAv_PH']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 18
+--------------------------------------------------
+
+[21:31:31.032] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.8404
+  - Y Min-Max: [0.1600, 1.0004]
+  - X Range: 20.090090090090087
+--------------------------------------------------
+
+[21:31:31.034] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:31:31.037] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['AgeU_RTM <-> AgeU_RTM (method=exact_match, score=1.000)', 'AgeL_RTM <-> AgeL_RTM (method=exact_match, score=1.000)', 'AgeAv_RTM <-> AgeAv_RTM (method=exact_match, score=1.000)', 'AgeAv_PH <-> AgeAv_PH (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:31:32.035] === SERIES_COMPARISON ===
+Comparaison AgeU_RTM vs AgeU_RTM avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.004451
+  - MAE Relative: 0.005296
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.003139
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:31:32.801] === SERIES_COMPARISON ===
+Comparaison AgeL_RTM vs AgeL_RTM avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.003385
+  - MAE Relative: 0.004028
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:31:33.317] === SERIES_COMPARISON ===
+Comparaison AgeAv_RTM vs AgeAv_RTM avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.007091
+  - MAE Relative: 0.008438
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.002691
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:31:33.903] === SERIES_COMPARISON ===
+Comparaison AgeAv_PH vs AgeAv_PH avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.014139
+  - MAE Relative: 0.016824
+  - Left Miss (rel): 0.250224
+  - Right Miss (rel): 0.002691
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 3
+  - Points Ratio: 0.60
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:31:33
+Total Duration: 2.97 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866524_1471-2156-4-S1-S84-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866524_1471-2156-4-S1-S84-1
+================================================================================
+Timestamp: 2025-08-07 12:47:31
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866524___1471-2156-4-S1-S84-1
+================================================================================
+
+
+
+[12:47:31.570] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:47:31.573] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:47:31.617] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866524___1471-2156-4-S1-S84-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866524___1471-2156-4-S1-S84-1.json
+  - Series Count: 4
+  - Series Names: ['AgeU_RTM', 'AgeL_RTM', 'AgeAv_RTM', 'AgeAv_PH']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[12:47:31.624] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866524___1471-2156-4-S1-S84-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866524___1471-2156-4-S1-S84-1\PMC1866524___1471-2156-4-S1-S84-1.json
+  - Series Count: 4
+  - Series Names: ['AgeU_RTM', 'AgeL_RTM', 'AgeAv_RTM', 'AgeAv_PH']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 18
+--------------------------------------------------
+
+[12:47:31.628] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.8404
+  - Y Min-Max: [0.1600, 1.0004]
+  - X Range: 20.090090090090087
+--------------------------------------------------
+
+[12:47:31.630] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:47:31.633] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['AgeU_RTM <-> AgeU_RTM (method=exact_match, score=1.000)', 'AgeL_RTM <-> AgeL_RTM (method=exact_match, score=1.000)', 'AgeAv_RTM <-> AgeAv_RTM (method=exact_match, score=1.000)', 'AgeAv_PH <-> AgeAv_PH (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:47:32.287] === SERIES_COMPARISON ===
+Comparaison AgeU_RTM vs AgeU_RTM avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.004451
+  - MAE Relative: 0.005296
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.003139
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:47:33.445] === SERIES_COMPARISON ===
+Comparaison AgeL_RTM vs AgeL_RTM avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.003385
+  - MAE Relative: 0.004028
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:47:34.965] === SERIES_COMPARISON ===
+Comparaison AgeAv_RTM vs AgeAv_RTM avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.007091
+  - MAE Relative: 0.008438
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.002691
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:47:36.206] === SERIES_COMPARISON ===
+Comparaison AgeAv_PH vs AgeAv_PH avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.014139
+  - MAE Relative: 0.016824
+  - Left Miss (rel): 0.250224
+  - Right Miss (rel): 0.002691
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 3
+  - Points Ratio: 0.60
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:47:36
+Total Duration: 4.67 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866524_1471-2156-4-S1-S84-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866524_1471-2156-4-S1-S84-1
+================================================================================
+Timestamp: 2025-08-07 13:04:27
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866524___1471-2156-4-S1-S84-1
+================================================================================
+
+
+
+[13:04:27.229] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:04:27.245] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:04:27.336] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866524___1471-2156-4-S1-S84-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866524___1471-2156-4-S1-S84-1.json
+  - Series Count: 4
+  - Series Names: ['AgeU_RTM', 'AgeL_RTM', 'AgeAv_RTM', 'AgeAv_PH']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[13:04:27.342] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866524___1471-2156-4-S1-S84-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866524___1471-2156-4-S1-S84-1\PMC1866524___1471-2156-4-S1-S84-1.json
+  - Series Count: 4
+  - Series Names: ['AgeU_RTM', 'AgeL_RTM', 'AgeAv_RTM', 'AgeAv_PH']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 18
+--------------------------------------------------
+
+[13:04:27.349] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.8404
+  - Y Min-Max: [0.1600, 1.0004]
+  - X Range: 20.090090090090087
+--------------------------------------------------
+
+[13:04:27.352] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:04:27.358] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['AgeU_RTM <-> AgeU_RTM (method=exact_match, score=1.000)', 'AgeL_RTM <-> AgeL_RTM (method=exact_match, score=1.000)', 'AgeAv_RTM <-> AgeAv_RTM (method=exact_match, score=1.000)', 'AgeAv_PH <-> AgeAv_PH (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:04:28.177] === SERIES_COMPARISON ===
+Comparaison AgeU_RTM vs AgeU_RTM avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.004451
+  - MAE Relative: 0.005296
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.003139
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:04:29.161] === SERIES_COMPARISON ===
+Comparaison AgeL_RTM vs AgeL_RTM avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.003385
+  - MAE Relative: 0.004028
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:04:30.602] === SERIES_COMPARISON ===
+Comparaison AgeAv_RTM vs AgeAv_RTM avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.007091
+  - MAE Relative: 0.008438
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.002691
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:04:32.305] === SERIES_COMPARISON ===
+Comparaison AgeAv_PH vs AgeAv_PH avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.014139
+  - MAE Relative: 0.016824
+  - Left Miss (rel): 0.250224
+  - Right Miss (rel): 0.002691
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 3
+  - Points Ratio: 0.60
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:04:32
+Total Duration: 5.12 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866524_1471-2156-4-S1-S84-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866524_1471-2156-4-S1-S84-1
+================================================================================
+Timestamp: 2025-08-07 16:38:03
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866524___1471-2156-4-S1-S84-1
+================================================================================
+
+
+
+[16:38:03.044] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:38:03.046] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:38:03.082] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866524___1471-2156-4-S1-S84-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866524___1471-2156-4-S1-S84-1.json
+  - Series Count: 4
+  - Series Names: ['AgeU_RTM', 'AgeL_RTM', 'AgeAv_RTM', 'AgeAv_PH']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[16:38:03.105] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866524___1471-2156-4-S1-S84-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866524___1471-2156-4-S1-S84-1\PMC1866524___1471-2156-4-S1-S84-1.json
+  - Series Count: 4
+  - Series Names: ['AgeU_RTM', 'AgeL_RTM', 'AgeAv_RTM', 'AgeAv_PH']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 18
+--------------------------------------------------
+
+[16:38:03.109] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.8404
+  - Y Min-Max: [0.1600, 1.0004]
+  - X Range: 20.090090090090087
+--------------------------------------------------
+
+[16:38:03.111] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:38:03.113] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['AgeU_RTM <-> AgeU_RTM (method=exact_match, score=1.000)', 'AgeL_RTM <-> AgeL_RTM (method=exact_match, score=1.000)', 'AgeAv_RTM <-> AgeAv_RTM (method=exact_match, score=1.000)', 'AgeAv_PH <-> AgeAv_PH (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:38:03.788] === SERIES_COMPARISON ===
+Comparaison AgeU_RTM vs AgeU_RTM avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.004451
+  - MAE Relative: 0.005296
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.003139
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:38:05.086] === SERIES_COMPARISON ===
+Comparaison AgeL_RTM vs AgeL_RTM avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.003385
+  - MAE Relative: 0.004028
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:38:06.388] === SERIES_COMPARISON ===
+Comparaison AgeAv_RTM vs AgeAv_RTM avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.007091
+  - MAE Relative: 0.008438
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.002691
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:38:08.032] === SERIES_COMPARISON ===
+Comparaison AgeAv_PH vs AgeAv_PH avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.014139
+  - MAE Relative: 0.016824
+  - Left Miss (rel): 0.250224
+  - Right Miss (rel): 0.002691
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 3
+  - Points Ratio: 0.60
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:38:08
+Total Duration: 5.00 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866524_1471-2156-4-S1-S84-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866524_1471-2156-4-S1-S84-1
+================================================================================
+Timestamp: 2025-08-07 16:57:17
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866524___1471-2156-4-S1-S84-1
+================================================================================
+
+
+
+[16:57:17.803] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:57:17.842] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:57:17.878] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866524___1471-2156-4-S1-S84-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866524___1471-2156-4-S1-S84-1.json
+  - Series Count: 4
+  - Series Names: ['AgeU_RTM', 'AgeL_RTM', 'AgeAv_RTM', 'AgeAv_PH']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[16:57:17.900] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866524___1471-2156-4-S1-S84-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866524___1471-2156-4-S1-S84-1\PMC1866524___1471-2156-4-S1-S84-1.json
+  - Series Count: 4
+  - Series Names: ['AgeU_RTM', 'AgeL_RTM', 'AgeAv_RTM', 'AgeAv_PH']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 18
+--------------------------------------------------
+
+[16:57:17.904] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.8404
+  - Y Min-Max: [0.1600, 1.0004]
+  - X Range: 20.090090090090087
+--------------------------------------------------
+
+[16:57:17.907] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:57:17.910] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['AgeU_RTM <-> AgeU_RTM (method=exact_match, score=1.000)', 'AgeL_RTM <-> AgeL_RTM (method=exact_match, score=1.000)', 'AgeAv_RTM <-> AgeAv_RTM (method=exact_match, score=1.000)', 'AgeAv_PH <-> AgeAv_PH (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:57:18.651] === SERIES_COMPARISON ===
+Comparaison AgeU_RTM vs AgeU_RTM avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.004451
+  - MAE Relative: 0.005296
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.003139
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:57:20.103] === SERIES_COMPARISON ===
+Comparaison AgeL_RTM vs AgeL_RTM avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.003385
+  - MAE Relative: 0.004028
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:57:21.879] === SERIES_COMPARISON ===
+Comparaison AgeAv_RTM vs AgeAv_RTM avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.007091
+  - MAE Relative: 0.008438
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.002691
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:57:23.492] === SERIES_COMPARISON ===
+Comparaison AgeAv_PH vs AgeAv_PH avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.014139
+  - MAE Relative: 0.016824
+  - Left Miss (rel): 0.250224
+  - Right Miss (rel): 0.002691
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 3
+  - Points Ratio: 0.60
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:57:23
+Total Duration: 5.70 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866524_1471-2156-4-S1-S84-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866524_1471-2156-4-S1-S84-1
+================================================================================
+Timestamp: 2025-08-11 13:46:21
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866524___1471-2156-4-S1-S84-1
+================================================================================
+
+
+
+[13:46:21.047] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:46:21.053] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:46:21.163] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866524___1471-2156-4-S1-S84-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866524___1471-2156-4-S1-S84-1.json
+  - Series Count: 4
+  - Series Names: ['AgeU_RTM', 'AgeL_RTM', 'AgeAv_RTM', 'AgeAv_PH']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[13:46:21.173] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866524___1471-2156-4-S1-S84-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866524___1471-2156-4-S1-S84-1\PMC1866524___1471-2156-4-S1-S84-1.json
+  - Series Count: 4
+  - Series Names: ['AgeU_RTM', 'AgeL_RTM', 'AgeAv_RTM', 'AgeAv_PH']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 18
+--------------------------------------------------
+
+[13:46:21.182] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.8404
+  - Y Min-Max: [0.1600, 1.0004]
+  - X Range: 20.090090090090087
+--------------------------------------------------
+
+[13:46:21.203] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:46:21.225] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['AgeU_RTM <-> AgeU_RTM (method=exact_match, score=1.000)', 'AgeL_RTM <-> AgeL_RTM (method=exact_match, score=1.000)', 'AgeAv_RTM <-> AgeAv_RTM (method=exact_match, score=1.000)', 'AgeAv_PH <-> AgeAv_PH (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:46:23.196] === SERIES_COMPARISON ===
+Comparaison AgeU_RTM vs AgeU_RTM avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.004451
+  - MAE Relative: 0.005296
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.003139
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:46:25.375] === SERIES_COMPARISON ===
+Comparaison AgeL_RTM vs AgeL_RTM avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.003385
+  - MAE Relative: 0.004028
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:46:27.572] === SERIES_COMPARISON ===
+Comparaison AgeAv_RTM vs AgeAv_RTM avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.007091
+  - MAE Relative: 0.008438
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.002691
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:46:29.652] === SERIES_COMPARISON ===
+Comparaison AgeAv_PH vs AgeAv_PH avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.014139
+  - MAE Relative: 0.016824
+  - Left Miss (rel): 0.250224
+  - Right Miss (rel): 0.002691
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 3
+  - Points Ratio: 0.60
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-11 13:46:29
+Total Duration: 8.65 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866524_1471-2156-4-S1-S84-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

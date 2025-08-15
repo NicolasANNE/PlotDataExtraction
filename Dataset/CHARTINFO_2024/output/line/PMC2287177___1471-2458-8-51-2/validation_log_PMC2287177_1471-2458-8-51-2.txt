@@ -1,0 +1,628 @@
+
+================================================================================
+VALIDATION LOG - PMC2287177_1471-2458-8-51-2
+================================================================================
+Timestamp: 2025-08-06 20:16:01
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2287177___1471-2458-8-51-2
+================================================================================
+
+
+
+[20:16:01.489] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:01.556] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:01.575] === DATA_LOADING ===
+Chargement des données GT depuis PMC2287177___1471-2458-8-51-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2287177___1471-2458-8-51-2.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:01.602] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2287177___1471-2458-8-51-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2287177___1471-2458-8-51-2\PMC2287177___1471-2458-8-51-2.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:01.606] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2287177_1471-2458-8-51-2
+================================================================================
+Timestamp: 2025-08-06 21:32:26
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2287177___1471-2458-8-51-2
+================================================================================
+
+
+
+[21:32:26.251] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:32:26.254] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:32:26.285] === DATA_LOADING ===
+Chargement des données GT depuis PMC2287177___1471-2458-8-51-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2287177___1471-2458-8-51-2.json
+  - Series Count: 2
+  - Series Names: ['casos notificados', 'casos oecrreferenoiados']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 83
+--------------------------------------------------
+
+[21:32:26.314] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2287177___1471-2458-8-51-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2287177___1471-2458-8-51-2\PMC2287177___1471-2458-8-51-2.json
+  - Series Count: 2
+  - Series Names: ['casos notificados', 'casos georeferenciados']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 54
+--------------------------------------------------
+
+[21:32:26.340] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1700.0000
+  - Y Min-Max: [0.0000, 1700.0000]
+  - X Range: 52.27777777777778
+--------------------------------------------------
+
+[21:32:26.343] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:32:26.346] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['casos notificados <-> casos notificados (method=exact_match, score=1.000)', 'casos oecrreferenoiados <-> casos georeferenciados (method=fuzzy_match, score=0.800)']
+--------------------------------------------------
+
+[21:32:26.957] === SERIES_COMPARISON ===
+Comparaison casos notificados vs casos notificados avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 179.733985
+  - MAE Relative: 0.105726
+  - Left Miss (rel): -0.053560
+  - Right Miss (rel): 0.003188
+  - X Cutoff: N/A
+  - GT Points: 41
+  - Extracted Points: 27
+  - Points Ratio: 0.66
+--------------------------------------------------
+
+[21:32:27.530] === SERIES_COMPARISON ===
+Comparaison casos oecrreferenoiados vs casos georeferenciados avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 74.760378
+  - MAE Relative: 0.043977
+  - Left Miss (rel): 0.001063
+  - Right Miss (rel): 0.004251
+  - X Cutoff: N/A
+  - GT Points: 42
+  - Extracted Points: 27
+  - Points Ratio: 0.64
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:32:27
+Total Duration: 1.29 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2287177_1471-2458-8-51-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2287177_1471-2458-8-51-2
+================================================================================
+Timestamp: 2025-08-07 12:48:31
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2287177___1471-2458-8-51-2
+================================================================================
+
+
+
+[12:48:31.264] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:48:31.266] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:48:31.319] === DATA_LOADING ===
+Chargement des données GT depuis PMC2287177___1471-2458-8-51-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2287177___1471-2458-8-51-2.json
+  - Series Count: 2
+  - Series Names: ['casos notificados', 'casos oecrreferenoiados']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 83
+--------------------------------------------------
+
+[12:48:31.329] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2287177___1471-2458-8-51-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2287177___1471-2458-8-51-2\PMC2287177___1471-2458-8-51-2.json
+  - Series Count: 2
+  - Series Names: ['casos notificados', 'casos georeferenciados']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 54
+--------------------------------------------------
+
+[12:48:31.334] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1690.5379
+  - Y Min-Max: [0.0000, 1690.5379]
+  - X Range: 52.27777777777778
+--------------------------------------------------
+
+[12:48:31.337] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:48:31.341] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['casos notificados <-> casos notificados (method=exact_match, score=1.000)', 'casos oecrreferenoiados <-> casos georeferenciados (method=fuzzy_match, score=0.800)']
+--------------------------------------------------
+
+[12:48:32.184] === SERIES_COMPARISON ===
+Comparaison casos notificados vs casos notificados avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 189.441982
+  - MAE Relative: 0.112060
+  - Left Miss (rel): -0.053560
+  - Right Miss (rel): 0.003188
+  - X Cutoff: N/A
+  - GT Points: 41
+  - Extracted Points: 27
+  - Points Ratio: 0.66
+--------------------------------------------------
+
+[12:48:32.899] === SERIES_COMPARISON ===
+Comparaison casos oecrreferenoiados vs casos georeferenciados avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 72.378593
+  - MAE Relative: 0.042814
+  - Left Miss (rel): 0.001063
+  - Right Miss (rel): 0.004251
+  - X Cutoff: N/A
+  - GT Points: 42
+  - Extracted Points: 27
+  - Points Ratio: 0.64
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:48:32
+Total Duration: 1.67 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2287177_1471-2458-8-51-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2287177_1471-2458-8-51-2
+================================================================================
+Timestamp: 2025-08-07 13:05:26
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2287177___1471-2458-8-51-2
+================================================================================
+
+
+
+[13:05:26.846] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:05:26.872] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:05:26.929] === DATA_LOADING ===
+Chargement des données GT depuis PMC2287177___1471-2458-8-51-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2287177___1471-2458-8-51-2.json
+  - Series Count: 2
+  - Series Names: ['casos notificados', 'casos oecrreferenoiados']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 83
+--------------------------------------------------
+
+[13:05:26.934] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2287177___1471-2458-8-51-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2287177___1471-2458-8-51-2\PMC2287177___1471-2458-8-51-2.json
+  - Series Count: 2
+  - Series Names: ['casos notificados', 'casos georeferenciados']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 54
+--------------------------------------------------
+
+[13:05:26.936] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1700.0000
+  - Y Min-Max: [0.0000, 1700.0000]
+  - X Range: 52.27777777777778
+--------------------------------------------------
+
+[13:05:26.939] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:05:26.941] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['casos notificados <-> casos notificados (method=exact_match, score=1.000)', 'casos oecrreferenoiados <-> casos georeferenciados (method=fuzzy_match, score=0.800)']
+--------------------------------------------------
+
+[13:05:27.451] === SERIES_COMPARISON ===
+Comparaison casos notificados vs casos notificados avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 179.733985
+  - MAE Relative: 0.105726
+  - Left Miss (rel): -0.053560
+  - Right Miss (rel): 0.003188
+  - X Cutoff: N/A
+  - GT Points: 41
+  - Extracted Points: 27
+  - Points Ratio: 0.66
+--------------------------------------------------
+
+[13:05:28.035] === SERIES_COMPARISON ===
+Comparaison casos oecrreferenoiados vs casos georeferenciados avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 74.760378
+  - MAE Relative: 0.043977
+  - Left Miss (rel): 0.001063
+  - Right Miss (rel): 0.004251
+  - X Cutoff: N/A
+  - GT Points: 42
+  - Extracted Points: 27
+  - Points Ratio: 0.64
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:05:28
+Total Duration: 1.21 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2287177_1471-2458-8-51-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2287177_1471-2458-8-51-2
+================================================================================
+Timestamp: 2025-08-07 16:39:04
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2287177___1471-2458-8-51-2
+================================================================================
+
+
+
+[16:39:04.526] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:39:04.528] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:39:04.569] === DATA_LOADING ===
+Chargement des données GT depuis PMC2287177___1471-2458-8-51-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2287177___1471-2458-8-51-2.json
+  - Series Count: 2
+  - Series Names: ['casos notificados', 'casos oecrreferenoiados']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 83
+--------------------------------------------------
+
+[16:39:04.572] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2287177___1471-2458-8-51-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2287177___1471-2458-8-51-2\PMC2287177___1471-2458-8-51-2.json
+  - Series Count: 2
+  - Series Names: ['casos notificados', 'casos georeferenciados']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 54
+--------------------------------------------------
+
+[16:39:04.575] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1690.5379
+  - Y Min-Max: [0.0000, 1690.5379]
+  - X Range: 52.27777777777778
+--------------------------------------------------
+
+[16:39:04.578] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:39:04.580] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['casos notificados <-> casos notificados (method=exact_match, score=1.000)', 'casos oecrreferenoiados <-> casos georeferenciados (method=fuzzy_match, score=0.800)']
+--------------------------------------------------
+
+[16:39:05.077] === SERIES_COMPARISON ===
+Comparaison casos notificados vs casos notificados avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 189.441982
+  - MAE Relative: 0.112060
+  - Left Miss (rel): -0.053560
+  - Right Miss (rel): 0.003188
+  - X Cutoff: N/A
+  - GT Points: 41
+  - Extracted Points: 27
+  - Points Ratio: 0.66
+--------------------------------------------------
+
+[16:39:05.610] === SERIES_COMPARISON ===
+Comparaison casos oecrreferenoiados vs casos georeferenciados avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 72.378593
+  - MAE Relative: 0.042814
+  - Left Miss (rel): 0.001063
+  - Right Miss (rel): 0.004251
+  - X Cutoff: N/A
+  - GT Points: 42
+  - Extracted Points: 27
+  - Points Ratio: 0.64
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:39:05
+Total Duration: 1.10 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2287177_1471-2458-8-51-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2287177_1471-2458-8-51-2
+================================================================================
+Timestamp: 2025-08-07 16:58:17
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2287177___1471-2458-8-51-2
+================================================================================
+
+
+
+[16:58:17.760] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:58:17.762] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:58:17.826] === DATA_LOADING ===
+Chargement des données GT depuis PMC2287177___1471-2458-8-51-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2287177___1471-2458-8-51-2.json
+  - Series Count: 2
+  - Series Names: ['casos notificados', 'casos oecrreferenoiados']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 83
+--------------------------------------------------
+
+[16:58:17.838] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2287177___1471-2458-8-51-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2287177___1471-2458-8-51-2\PMC2287177___1471-2458-8-51-2.json
+  - Series Count: 2
+  - Series Names: ['casos notificados', 'casos georeferenciados']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 54
+--------------------------------------------------
+
+[16:58:17.841] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1700.0000
+  - Y Min-Max: [0.0000, 1700.0000]
+  - X Range: 52.27777777777778
+--------------------------------------------------
+
+[16:58:17.843] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:58:17.845] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['casos notificados <-> casos notificados (method=exact_match, score=1.000)', 'casos oecrreferenoiados <-> casos georeferenciados (method=fuzzy_match, score=0.800)']
+--------------------------------------------------
+
+[16:58:18.348] === SERIES_COMPARISON ===
+Comparaison casos notificados vs casos notificados avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 179.733985
+  - MAE Relative: 0.105726
+  - Left Miss (rel): -0.053560
+  - Right Miss (rel): 0.003188
+  - X Cutoff: N/A
+  - GT Points: 41
+  - Extracted Points: 27
+  - Points Ratio: 0.66
+--------------------------------------------------
+
+[16:58:19.079] === SERIES_COMPARISON ===
+Comparaison casos oecrreferenoiados vs casos georeferenciados avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 74.760378
+  - MAE Relative: 0.043977
+  - Left Miss (rel): 0.001063
+  - Right Miss (rel): 0.004251
+  - X Cutoff: N/A
+  - GT Points: 42
+  - Extracted Points: 27
+  - Points Ratio: 0.64
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:58:19
+Total Duration: 1.34 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2287177_1471-2458-8-51-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

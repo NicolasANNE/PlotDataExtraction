@@ -1,0 +1,454 @@
+
+================================================================================
+VALIDATION LOG - PMC3068938_1297-9686-43-12-3
+================================================================================
+Timestamp: 2025-08-06 21:36:19
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3068938___1297-9686-43-12-3
+================================================================================
+
+
+
+[21:36:19.777] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:36:19.809] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:36:19.890] === DATA_LOADING ===
+Chargement des données GT depuis PMC3068938___1297-9686-43-12-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3068938___1297-9686-43-12-3.json
+  - Series Count: 10
+  - Series Names: ['Core 100', 'Core 200', 'Core 300', 'Core 400', 'Core 500', 'Core 600', 'Core 700', 'Core 800', 'Core 1000', 'Core 2000']
+  - X Data Types: {'numeric': 10}
+  - Total Data Points: 98
+--------------------------------------------------
+
+[21:36:19.902] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3068938___1297-9686-43-12-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3068938___1297-9686-43-12-3\PMC3068938___1297-9686-43-12-3.json
+  - Series Count: 10
+  - Series Names: ['Core 100', 'Core 200', 'Core 300', 'Core 400', 'Core 500', 'Core 600', 'Core 700', 'Core 800', 'Core 1000', 'Core 2000']
+  - X Data Types: {'numeric': 10}
+  - Total Data Points: 56
+--------------------------------------------------
+
+[21:36:19.907] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 31.9697
+  - Y Min-Max: [67.4572, 99.4269]
+  - X Range: 1905.099150141643
+--------------------------------------------------
+
+[21:36:19.911] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:36:19.915] === MATCHING_RESULTS ===
+10 appariements trouvés
+
+Data:
+  - Total Matches: 10
+  - Match Details: ['Core 100 <-> Core 100 (method=exact_match, score=1.000)', 'Core 200 <-> Core 200 (method=exact_match, score=1.000)', 'Core 300 <-> Core 300 (method=exact_match, score=1.000)', 'Core 400 <-> Core 400 (method=exact_match, score=1.000)', 'Core 500 <-> Core 500 (method=exact_match, score=1.000)', 'Core 600 <-> Core 600 (method=exact_match, score=1.000)', 'Core 700 <-> Core 700 (method=exact_match, score=1.000)', 'Core 800 <-> Core 800 (method=exact_match, score=1.000)', 'Core 1000 <-> Core 1000 (method=exact_match, score=1.000)', 'Core 2000 <-> Core 2000 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:36:21.436] === SERIES_COMPARISON ===
+Comparaison Core 100 vs Core 100 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.509666
+  - MAE Relative: 0.015942
+  - Left Miss (rel): 0.028996
+  - Right Miss (rel): 0.043494
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 8
+  - Points Ratio: 0.57
+--------------------------------------------------
+
+[21:36:22.961] === SERIES_COMPARISON ===
+Comparaison Core 200 vs Core 200 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.779629
+  - MAE Relative: 0.024387
+  - Left Miss (rel): 0.032714
+  - Right Miss (rel): 0.036307
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 8
+  - Points Ratio: 0.67
+--------------------------------------------------
+
+[21:36:26.699] === SERIES_COMPARISON ===
+Comparaison Core 300 vs Core 300 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.227507
+  - MAE Relative: 0.007116
+  - Left Miss (rel): -0.024907
+  - Right Miss (rel): 0.027633
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 8
+  - Points Ratio: 0.62
+--------------------------------------------------
+
+[21:36:29.665] === SERIES_COMPARISON ===
+Comparaison Core 400 vs Core 400 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.396770
+  - MAE Relative: 0.012411
+  - Left Miss (rel): -0.086245
+  - Right Miss (rel): 0.033829
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 8
+  - Points Ratio: 0.80
+--------------------------------------------------
+
+[21:36:31.422] === SERIES_COMPARISON ===
+Comparaison Core 500 vs Core 500 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.220418
+  - MAE Relative: 0.006895
+  - Left Miss (rel): 0.004089
+  - Right Miss (rel): 0.036059
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 7
+  - Points Ratio: 0.70
+--------------------------------------------------
+
+[21:36:32.978] === SERIES_COMPARISON ===
+Comparaison Core 600 vs Core 600 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.229185
+  - MAE Relative: 0.007169
+  - Left Miss (rel): 0.075836
+  - Right Miss (rel): 0.024164
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 4
+  - Points Ratio: 0.40
+--------------------------------------------------
+
+[21:36:34.195] === SERIES_COMPARISON ===
+Comparaison Core 700 vs Core 700 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.024503
+  - MAE Relative: 0.032046
+  - Left Miss (rel): 0.012639
+  - Right Miss (rel): -0.036803
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 3
+  - Points Ratio: 0.27
+--------------------------------------------------
+
+[21:36:34.986] === SERIES_COMPARISON ===
+Comparaison Core 800 vs Core 800 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.419594
+  - MAE Relative: 0.013125
+  - Left Miss (rel): -0.037546
+  - Right Miss (rel): 0.024535
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 3
+  - Points Ratio: 0.33
+--------------------------------------------------
+
+[21:36:35.771] === SERIES_COMPARISON ===
+Comparaison Core 1000 vs Core 1000 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.704359
+  - MAE Relative: 0.022032
+  - Left Miss (rel): -0.010409
+  - Right Miss (rel): 0.048699
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 2
+  - Points Ratio: 0.29
+--------------------------------------------------
+
+[21:36:36.490] === SERIES_COMPARISON ===
+Comparaison Core 2000 vs Core 2000 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: NaN
+  - MAE Relative: NaN
+  - Left Miss (rel): -0.936803
+  - Right Miss (rel): 0.034325
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 5
+  - Points Ratio: 2.50
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:36:36
+Total Duration: 16.73 seconds
+Total Series Processed: 10
+Successful Comparisons: 10
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3068938_1297-9686-43-12-3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3068938_1297-9686-43-12-3
+================================================================================
+Timestamp: 2025-08-07 12:52:21
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3068938___1297-9686-43-12-3
+================================================================================
+
+
+
+[12:52:21.436] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:52:21.444] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:52:21.490] === DATA_LOADING ===
+Chargement des données GT depuis PMC3068938___1297-9686-43-12-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3068938___1297-9686-43-12-3.json
+  - Series Count: 10
+  - Series Names: ['Core 100', 'Core 200', 'Core 300', 'Core 400', 'Core 500', 'Core 600', 'Core 700', 'Core 800', 'Core 1000', 'Core 2000']
+  - X Data Types: {'numeric': 10}
+  - Total Data Points: 98
+--------------------------------------------------
+
+[12:52:21.494] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3068938___1297-9686-43-12-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3068938___1297-9686-43-12-3\PMC3068938___1297-9686-43-12-3.json
+  - Series Count: 10
+  - Series Names: ['Core 100', 'Core 200', 'Core 300', 'Core 400', 'Core 500', 'Core 600', 'Core 700', 'Core 800', 'Core 1000', 'Core 2000']
+  - X Data Types: {'numeric': 10}
+  - Total Data Points: 56
+--------------------------------------------------
+
+[12:52:21.499] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 31.9697
+  - Y Min-Max: [67.4572, 99.4269]
+  - X Range: 1905.099150141643
+--------------------------------------------------
+
+[12:52:21.502] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:52:21.504] === MATCHING_RESULTS ===
+10 appariements trouvés
+
+Data:
+  - Total Matches: 10
+  - Match Details: ['Core 100 <-> Core 100 (method=exact_match, score=1.000)', 'Core 200 <-> Core 200 (method=exact_match, score=1.000)', 'Core 300 <-> Core 300 (method=exact_match, score=1.000)', 'Core 400 <-> Core 400 (method=exact_match, score=1.000)', 'Core 500 <-> Core 500 (method=exact_match, score=1.000)', 'Core 600 <-> Core 600 (method=exact_match, score=1.000)', 'Core 700 <-> Core 700 (method=exact_match, score=1.000)', 'Core 800 <-> Core 800 (method=exact_match, score=1.000)', 'Core 1000 <-> Core 1000 (method=exact_match, score=1.000)', 'Core 2000 <-> Core 2000 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:52:22.341] === SERIES_COMPARISON ===
+Comparaison Core 100 vs Core 100 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.509666
+  - MAE Relative: 0.015942
+  - Left Miss (rel): 0.028996
+  - Right Miss (rel): 0.043494
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 8
+  - Points Ratio: 0.57
+--------------------------------------------------
+
+[12:52:23.063] === SERIES_COMPARISON ===
+Comparaison Core 200 vs Core 200 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.779629
+  - MAE Relative: 0.024387
+  - Left Miss (rel): 0.032714
+  - Right Miss (rel): 0.036307
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 8
+  - Points Ratio: 0.67
+--------------------------------------------------
+
+[12:52:23.682] === SERIES_COMPARISON ===
+Comparaison Core 300 vs Core 300 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.227507
+  - MAE Relative: 0.007116
+  - Left Miss (rel): -0.024907
+  - Right Miss (rel): 0.027633
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 8
+  - Points Ratio: 0.62
+--------------------------------------------------
+
+[12:52:24.333] === SERIES_COMPARISON ===
+Comparaison Core 400 vs Core 400 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.396770
+  - MAE Relative: 0.012411
+  - Left Miss (rel): -0.086245
+  - Right Miss (rel): 0.033829
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 8
+  - Points Ratio: 0.80
+--------------------------------------------------
+
+[12:52:25.142] === SERIES_COMPARISON ===
+Comparaison Core 500 vs Core 500 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.220418
+  - MAE Relative: 0.006895
+  - Left Miss (rel): 0.004089
+  - Right Miss (rel): 0.036059
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 7
+  - Points Ratio: 0.70
+--------------------------------------------------
+
+[12:52:25.952] === SERIES_COMPARISON ===
+Comparaison Core 600 vs Core 600 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.229185
+  - MAE Relative: 0.007169
+  - Left Miss (rel): 0.075836
+  - Right Miss (rel): 0.024164
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 4
+  - Points Ratio: 0.40
+--------------------------------------------------
+
+[12:52:26.717] === SERIES_COMPARISON ===
+Comparaison Core 700 vs Core 700 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.024503
+  - MAE Relative: 0.032046
+  - Left Miss (rel): 0.012639
+  - Right Miss (rel): -0.036803
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 3
+  - Points Ratio: 0.27
+--------------------------------------------------
+
+[12:52:27.622] === SERIES_COMPARISON ===
+Comparaison Core 800 vs Core 800 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.419594
+  - MAE Relative: 0.013125
+  - Left Miss (rel): -0.037546
+  - Right Miss (rel): 0.024535
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 3
+  - Points Ratio: 0.33
+--------------------------------------------------
+
+[12:52:28.166] === SERIES_COMPARISON ===
+Comparaison Core 1000 vs Core 1000 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.704359
+  - MAE Relative: 0.022032
+  - Left Miss (rel): -0.010409
+  - Right Miss (rel): 0.048699
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 2
+  - Points Ratio: 0.29
+--------------------------------------------------
+
+[12:52:28.786] === SERIES_COMPARISON ===
+Comparaison Core 2000 vs Core 2000 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: NaN
+  - MAE Relative: NaN
+  - Left Miss (rel): -0.936803
+  - Right Miss (rel): 0.034325
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 5
+  - Points Ratio: 2.50
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:52:28
+Total Duration: 7.36 seconds
+Total Series Processed: 10
+Successful Comparisons: 10
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3068938_1297-9686-43-12-3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,115 @@
+
+================================================================================
+VALIDATION LOG - PMC3438796_CMMM2012-198145.005
+================================================================================
+Timestamp: 2025-08-07 12:55:13
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3438796___CMMM2012-198145.005
+================================================================================
+
+
+
+[12:55:13.324] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:55:13.329] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:55:13.376] === DATA_LOADING ===
+Chargement des données GT depuis PMC3438796___CMMM2012-198145.005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3438796___CMMM2012-198145.005.json
+  - Series Count: 2
+  - Series Names: ['Simulated tumor growth (A = 24h_{-1})', 'Average glucose concentration']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 13
+--------------------------------------------------
+
+[12:55:13.382] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3438796___CMMM2012-198145.005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3438796___CMMM2012-198145.005\PMC3438796___CMMM2012-198145.005.json
+  - Series Count: 2
+  - Series Names: ['Simulated tumor growth (A = 24 h⁻¹)', 'Average glucose concentration']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[12:55:13.385] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.3100
+  - Y Min-Max: [0.0200, 1.3300]
+  - X Range: 30.0
+--------------------------------------------------
+
+[12:55:13.389] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:55:13.395] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Average glucose concentration <-> Average glucose concentration (method=exact_match, score=1.000)', 'Simulated tumor growth (A = 24h_{-1}) <-> Simulated tumor growth (A = 24 h⁻¹) (method=fuzzy_match, score=0.850)']
+--------------------------------------------------
+
+[12:55:14.768] === SERIES_COMPARISON ===
+Comparaison Average glucose concentration vs Average glucose concentration avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.091183
+  - MAE Relative: 0.069606
+  - Left Miss (rel): 0.002568
+  - Right Miss (rel): -0.029841
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:55:16.327] === SERIES_COMPARISON ===
+Comparaison Simulated tumor growth (A = 24h_{-1}) vs Simulated tumor growth (A = 24 h⁻¹) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.090980
+  - MAE Relative: 0.069450
+  - Left Miss (rel): -0.004109
+  - Right Miss (rel): -0.003595
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 16
+  - Points Ratio: 1.78
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:55:16
+Total Duration: 3.04 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3438796_CMMM2012-198145.005.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,310 @@
+
+================================================================================
+VALIDATION LOG - PMC1868722_1471-2458-7-62-2
+================================================================================
+Timestamp: 2025-08-07 13:13:33
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC1868722___1471-2458-7-62-2
+================================================================================
+
+
+
+[13:13:33.700] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:13:33.767] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:13:33.835] === DATA_LOADING ===
+Chargement des données GT depuis PMC1868722___1471-2458-7-62-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC1868722___1471-2458-7-62-2.json
+  - Series Count: 1
+  - Series Names: ['[unnamed data series #0]']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 6
+--------------------------------------------------
+
+[13:13:33.840] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1868722___1471-2458-7-62-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC1868722___1471-2458-7-62-2\PMC1868722___1471-2458-7-62-2.json
+  - Series Count: 1
+  - Series Names: ['Number episodes mastitis']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 6
+--------------------------------------------------
+
+[13:13:33.856] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 34.1878
+  - Y Min-Max: [1.0000, 35.1878]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:13:33.871] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:13:33.873] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Adipose <-> Adipose (method=exact_match, score=1.000)', 'Liver <-> Liver (method=exact_match, score=1.000)', 'Skeletal Muscle <-> Skeletal Muscle (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:13:33.879] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison Adipose vs Adipose
+==================================================
+
+
+[13:13:33.968] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison Liver vs Liver
+==================================================
+
+
+[13:13:34.001] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison Skeletal Muscle vs Skeletal Muscle
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:13:34
+Total Duration: 0.45 seconds
+Total Series Processed: 3
+Successful Comparisons: 0
+Errors: 3
+Success Rate: 0.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1868722_1471-2458-7-62-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1868722_1471-2458-7-62-2
+================================================================================
+Timestamp: 2025-08-07 16:47:44
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC1868722___1471-2458-7-62-2
+================================================================================
+
+
+
+[16:47:44.236] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:47:44.239] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:47:44.323] === DATA_LOADING ===
+Chargement des données GT depuis PMC1868722___1471-2458-7-62-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC1868722___1471-2458-7-62-2.json
+  - Series Count: 1
+  - Series Names: ['[unnamed data series #0]']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 6
+--------------------------------------------------
+
+[16:47:44.331] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1868722___1471-2458-7-62-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC1868722___1471-2458-7-62-2\PMC1868722___1471-2458-7-62-2.json
+  - Series Count: 1
+  - Series Names: ['Number episodes mastitis']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 6
+--------------------------------------------------
+
+[16:47:44.338] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 34.1878
+  - Y Min-Max: [1.0000, 35.1878]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:47:44.342] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:47:44.351] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['EM Algorithm <-> EM Algorithm (method=exact_match, score=1.000)', 'ANN Algorithen <-> ANN Algorithm (method=fuzzy_match, score=0.850)']
+--------------------------------------------------
+
+[16:47:44.392] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison EM Algorithm vs EM Algorithm
+==================================================
+
+
+[16:47:44.444] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison ANN Algorithen vs ANN Algorithm
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:47:44
+Total Duration: 0.26 seconds
+Total Series Processed: 2
+Successful Comparisons: 0
+Errors: 2
+Success Rate: 0.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1868722_1471-2458-7-62-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1868722_1471-2458-7-62-2
+================================================================================
+Timestamp: 2025-08-07 17:06:12
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC1868722___1471-2458-7-62-2
+================================================================================
+
+
+
+[17:06:12.358] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:06:12.360] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[17:06:12.409] === DATA_LOADING ===
+Chargement des données GT depuis PMC1868722___1471-2458-7-62-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC1868722___1471-2458-7-62-2.json
+  - Series Count: 1
+  - Series Names: ['[unnamed data series #0]']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 6
+--------------------------------------------------
+
+[17:06:12.415] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1868722___1471-2458-7-62-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC1868722___1471-2458-7-62-2\PMC1868722___1471-2458-7-62-2.json
+  - Series Count: 1
+  - Series Names: ['Number episodes mastitis/ women breastfeeding- weeks *1000']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 6
+--------------------------------------------------
+
+[17:06:12.418] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 34.1878
+  - Y Min-Max: [1.0000, 35.1878]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[17:06:12.420] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:06:12.423] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['[unnamed data series #0] <-> Number episodes mastitis/ women breastfeeding- weeks *1000 (method=position_match, score=0.100)']
+--------------------------------------------------
+
+[17:06:13.337] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs Number episodes mastitis/ women breastfeeding- weeks *1000 avec BarComparator
+
+Data:
+  - MAE Absolute: 0.761039
+  - MAE Relative: 0.022261
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:06:13
+Total Duration: 1.01 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1868722_1471-2458-7-62-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

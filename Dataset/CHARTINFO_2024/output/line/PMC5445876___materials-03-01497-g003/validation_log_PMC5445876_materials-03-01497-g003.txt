@@ -1,0 +1,115 @@
+
+================================================================================
+VALIDATION LOG - PMC5445876_materials-03-01497-g003
+================================================================================
+Timestamp: 2025-08-06 17:43:00
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC5445876___materials-03-01497-g003
+================================================================================
+
+
+
+[17:43:00.316] === VALIDATION_START ===
+Début de la validation pour l'image PMC5445876___materials-03-01497-g003
+--------------------------------------------------
+
+[17:43:00.359] === DATA_LOADING ===
+Chargement des données Ground Truth depuis PMC5445876___materials-03-01497-g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC5445876___materials-03-01497-g003.json
+  - Series Count: 2
+  - Series Names: ['481 ^{\\circ} C', '481 ^{\\circ} C']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 92
+--------------------------------------------------
+
+[17:43:00.363] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC5445876___materials-03-01497-g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC5445876___materials-03-01497-g003\PMC5445876___materials-03-01497-g003.json
+  - Series Count: 2
+  - Series Names: ['481 °C', '497 °C']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 42
+--------------------------------------------------
+
+[17:43:00.365] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line
+  - Extractor Plot Type: line plot
+  - Final Plot Type: line
+  - Categorical X Detected: False
+  - Comparator Used: Standard comparator
+--------------------------------------------------
+
+[17:43:00.369] === BOUNDS_CALCULATION ===
+Bornes global calculées pour normalisation MAE relative
+
+Data:
+  - X Range: 205.6698
+  - Y Range: 8099.0000
+  - X Min-Max: [1194.8503717716299, 1400.520217545519]
+  - Y Min-Max: [1.0000, 8100.0000]
+--------------------------------------------------
+
+[17:43:00.371] === SERIES_MATCHING ===
+Appariement des séries utilisant: Exact -> Fuzzy -> Similarity
+
+Data:
+  - GT Series: 2 séries: ['481 ^{\\circ} C', '481 ^{\\circ} C']
+  - Extracted Series: 2 séries: ['481 °C', '497 °C']
+  - Matches Found: 2 appariements
+  - Match Details: ['481 ^{\\circ} C <-> 481 °C (method=fuzzy_match, score=0.500)', '481 ^{\\circ} C <-> 497 °C (method=fuzzy_match, score=0.300)']
+--------------------------------------------------
+
+[17:43:00.857] === SERIES_COMPARISON ===
+Comparaison 481 ^{\circ} C vs 481 °C avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 715.842246
+  - MAE Relative: 0.088386
+  - Left Miss (rel): 0.025038
+  - Right Miss (rel): 0.000996
+  - X Cutoff: N/A
+  - GT Points: 52
+  - Extracted Points: 21
+  - Points Ratio: 0.40
+--------------------------------------------------
+
+[17:43:01.376] === SERIES_COMPARISON ===
+Comparaison 481 ^{\circ} C vs 497 °C avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2310.449970
+  - MAE Relative: 0.285276
+  - Left Miss (rel): 0.025038
+  - Right Miss (rel): 0.000996
+  - X Cutoff: N/A
+  - GT Points: 52
+  - Extracted Points: 21
+  - Points Ratio: 0.40
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 17:43:01
+Total Duration: 1.07 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0% if total_results > 0 else "N/A"
+
+Generated Files:
+- Validation Log: validation_log_PMC5445876_materials-03-01497-g003.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

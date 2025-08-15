@@ -1,0 +1,202 @@
+
+================================================================================
+VALIDATION LOG - PMC2945946_1471-2458-10-543-4
+================================================================================
+Timestamp: 2025-08-07 13:16:20
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_box\PMC2945946___1471-2458-10-543-4
+================================================================================
+
+
+
+[13:16:20.337] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:16:20.340] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: boxplot -> vertical_box
+
+Data:
+  - Original Type: boxplot
+  - Enum Type: vertical_box
+  - Final Type: boxplot
+  - Loader Used: BoxPlotDataLoader
+--------------------------------------------------
+
+[13:16:20.389] === DATA_LOADING ===
+Chargement des données GT depuis PMC2945946___1471-2458-10-543-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_box\PMC2945946___1471-2458-10-543-4.json
+  - Series Count: 1
+  - Series Names: ['[unnamed data series #0]']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[13:16:20.394] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2945946___1471-2458-10-543-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_box\PMC2945946___1471-2458-10-543-4\PMC2945946___1471-2458-10-543-4.json
+  - Series Count: 1
+  - Series Names: ['Cost']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[13:16:20.397] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 468.3393
+  - Y Min-Max: [119.0362, 587.3755]
+  - X Range: nan
+--------------------------------------------------
+
+[13:16:20.399] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:16:20.404] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['[unnamed data series #0] <-> Cost (method=similarity_match, score=0.993)']
+--------------------------------------------------
+
+[13:16:21.610] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs Cost avec BoxPlotComparator
+
+Data:
+  - MAE Absolute: 17.196037
+  - MAE Relative: 0.036717
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:16:21
+Total Duration: 1.28 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2945946_1471-2458-10-543-4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2945946_1471-2458-10-543-4
+================================================================================
+Timestamp: 2025-08-07 17:08:55
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_box\PMC2945946___1471-2458-10-543-4
+================================================================================
+
+
+
+[17:08:55.441] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:08:55.442] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: boxplot -> vertical_box
+
+Data:
+  - Original Type: boxplot
+  - Enum Type: vertical_box
+  - Final Type: boxplot
+  - Loader Used: BoxPlotDataLoader
+--------------------------------------------------
+
+[17:08:55.504] === DATA_LOADING ===
+Chargement des données GT depuis PMC2945946___1471-2458-10-543-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_box\PMC2945946___1471-2458-10-543-4.json
+  - Series Count: 1
+  - Series Names: ['[unnamed data series #0]']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[17:08:55.507] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2945946___1471-2458-10-543-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_box\PMC2945946___1471-2458-10-543-4\PMC2945946___1471-2458-10-543-4.json
+  - Series Count: 1
+  - Series Names: ['Cost']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[17:08:55.509] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 468.3393
+  - Y Min-Max: [119.0362, 587.3755]
+  - X Range: nan
+--------------------------------------------------
+
+[17:08:55.514] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:08:55.525] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['[unnamed data series #0] <-> Cost (method=similarity_match, score=0.993)']
+--------------------------------------------------
+
+[17:08:56.468] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs Cost avec BoxPlotComparator
+
+Data:
+  - MAE Absolute: 17.943449
+  - MAE Relative: 0.038313
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:08:56
+Total Duration: 1.05 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2945946_1471-2458-10-543-4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

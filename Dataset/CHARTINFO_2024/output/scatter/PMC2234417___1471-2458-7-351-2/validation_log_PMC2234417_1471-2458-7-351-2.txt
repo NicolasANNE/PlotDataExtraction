@@ -1,0 +1,345 @@
+
+================================================================================
+VALIDATION LOG - PMC2234417_1471-2458-7-351-2
+================================================================================
+Timestamp: 2025-08-07 13:07:05
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2234417___1471-2458-7-351-2
+================================================================================
+
+
+
+[13:07:05.248] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:07:05.250] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:07:05.316] === DATA_LOADING ===
+Chargement des données GT depuis PMC2234417___1471-2458-7-351-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC2234417___1471-2458-7-351-2.json
+  - Series Count: 2
+  - Series Names: ['FRS Score (Phase II)', 'FRS score (Phase I)']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 28
+--------------------------------------------------
+
+[13:07:05.350] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2234417___1471-2458-7-351-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2234417___1471-2458-7-351-2\PMC2234417___1471-2458-7-351-2.json
+  - Series Count: 2
+  - Series Names: ['FRS Score (Phase II)', 'FRS score (Phase I)']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 23
+--------------------------------------------------
+
+[13:07:05.387] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 53.0546
+  - Y Min-Max: [0.8454, 53.9000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:07:05.410] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:07:05.469] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['FRS Score (Phase II) <-> FRS Score (Phase II) (method=exact_match, score=1.000)', 'FRS score (Phase I) <-> FRS score (Phase I) (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:07:06.587] === SERIES_COMPARISON ===
+Comparaison FRS Score (Phase II) vs FRS Score (Phase II) avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 37.231507
+  - MAE Relative: 0.701758
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.250000
+  - GT Points: 18
+  - Extracted Points: 15
+  - Points Ratio: 0.83
+--------------------------------------------------
+
+[13:07:07.276] === SERIES_COMPARISON ===
+Comparaison FRS score (Phase I) vs FRS score (Phase I) avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 22.173581
+  - MAE Relative: 0.417939
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.250000
+  - GT Points: 10
+  - Extracted Points: 8
+  - Points Ratio: 0.80
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:07:07
+Total Duration: 2.03 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2234417_1471-2458-7-351-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2234417_1471-2458-7-351-2
+================================================================================
+Timestamp: 2025-08-07 16:40:40
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2234417___1471-2458-7-351-2
+================================================================================
+
+
+
+[16:40:40.921] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:40:40.922] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:40:40.954] === DATA_LOADING ===
+Chargement des données GT depuis PMC2234417___1471-2458-7-351-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC2234417___1471-2458-7-351-2.json
+  - Series Count: 2
+  - Series Names: ['FRS Score (Phase II)', 'FRS score (Phase I)']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 28
+--------------------------------------------------
+
+[16:40:40.957] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2234417___1471-2458-7-351-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2234417___1471-2458-7-351-2\PMC2234417___1471-2458-7-351-2.json
+  - Series Count: 2
+  - Series Names: ['FRS Score (Phase II)', 'FRS score (Phase I)']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 25
+--------------------------------------------------
+
+[16:40:40.959] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 52.6546
+  - Y Min-Max: [0.8454, 53.5000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:40:40.961] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:40:40.962] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['FRS Score (Phase II) <-> FRS Score (Phase II) (method=exact_match, score=1.000)', 'FRS score (Phase I) <-> FRS score (Phase I) (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:40:41.519] === SERIES_COMPARISON ===
+Comparaison FRS Score (Phase II) vs FRS Score (Phase II) avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 51.431507
+  - MAE Relative: 0.976771
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.250000
+  - GT Points: 18
+  - Extracted Points: 16
+  - Points Ratio: 0.89
+--------------------------------------------------
+
+[16:40:42.300] === SERIES_COMPARISON ===
+Comparaison FRS score (Phase I) vs FRS score (Phase I) avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 8.473581
+  - MAE Relative: 0.160928
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.250000
+  - GT Points: 10
+  - Extracted Points: 9
+  - Points Ratio: 0.90
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:40:42
+Total Duration: 1.39 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2234417_1471-2458-7-351-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2234417_1471-2458-7-351-2
+================================================================================
+Timestamp: 2025-08-07 16:59:54
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2234417___1471-2458-7-351-2
+================================================================================
+
+
+
+[16:59:54.110] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:59:54.112] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:59:54.145] === DATA_LOADING ===
+Chargement des données GT depuis PMC2234417___1471-2458-7-351-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC2234417___1471-2458-7-351-2.json
+  - Series Count: 2
+  - Series Names: ['FRS Score (Phase II)', 'FRS score (Phase I)']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 28
+--------------------------------------------------
+
+[16:59:54.157] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2234417___1471-2458-7-351-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2234417___1471-2458-7-351-2\PMC2234417___1471-2458-7-351-2.json
+  - Series Count: 2
+  - Series Names: ['FRS Score (Phase II)', 'FRS score (Phase I)']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 25
+--------------------------------------------------
+
+[16:59:54.160] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 53.0546
+  - Y Min-Max: [0.8454, 53.9000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:59:54.162] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:59:54.164] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['FRS Score (Phase II) <-> FRS Score (Phase II) (method=exact_match, score=1.000)', 'FRS score (Phase I) <-> FRS score (Phase I) (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:59:55.073] === SERIES_COMPARISON ===
+Comparaison FRS Score (Phase II) vs FRS Score (Phase II) avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 37.231507
+  - MAE Relative: 0.701758
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.250000
+  - GT Points: 18
+  - Extracted Points: 16
+  - Points Ratio: 0.89
+--------------------------------------------------
+
+[16:59:55.850] === SERIES_COMPARISON ===
+Comparaison FRS score (Phase I) vs FRS score (Phase I) avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 22.573581
+  - MAE Relative: 0.425478
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.250000
+  - GT Points: 10
+  - Extracted Points: 9
+  - Points Ratio: 0.90
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:59:55
+Total Duration: 1.75 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2234417_1471-2458-7-351-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

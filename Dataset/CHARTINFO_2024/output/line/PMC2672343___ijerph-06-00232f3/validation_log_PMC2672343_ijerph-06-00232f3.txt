@@ -1,0 +1,768 @@
+
+================================================================================
+VALIDATION LOG - PMC2672343_ijerph-06-00232f3
+================================================================================
+Timestamp: 2025-08-06 20:16:16
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672343___ijerph-06-00232f3
+================================================================================
+
+
+
+[20:16:16.535] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:16.572] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:16.592] === DATA_LOADING ===
+Chargement des données GT depuis PMC2672343___ijerph-06-00232f3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2672343___ijerph-06-00232f3.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:16.595] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2672343___ijerph-06-00232f3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672343___ijerph-06-00232f3\PMC2672343___ijerph-06-00232f3.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:16.597] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2672343_ijerph-06-00232f3
+================================================================================
+Timestamp: 2025-08-06 21:33:14
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672343___ijerph-06-00232f3
+================================================================================
+
+
+
+[21:33:14.224] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:33:14.229] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:33:14.290] === DATA_LOADING ===
+Chargement des données GT depuis PMC2672343___ijerph-06-00232f3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2672343___ijerph-06-00232f3.json
+  - Series Count: 4
+  - Series Names: ['30-59 yrs', '60 - 75', '75 +', 'All 30 + patients']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 48
+--------------------------------------------------
+
+[21:33:14.306] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2672343___ijerph-06-00232f3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672343___ijerph-06-00232f3\PMC2672343___ijerph-06-00232f3.json
+  - Series Count: 4
+  - Series Names: ['30-59 yrs', '60 - 75', '75 +', 'All 30 + patients']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 48
+--------------------------------------------------
+
+[21:33:14.338] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 15.2242
+  - Y Min-Max: [1.0000, 16.2242]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[21:33:14.349] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:33:14.359] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['30-59 yrs <-> 30-59 yrs (method=exact_match, score=1.000)', '60 - 75 <-> 60 - 75 (method=exact_match, score=1.000)', '75 + <-> 75 + (method=exact_match, score=1.000)', 'All 30 + patients <-> All 30 + patients (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:33:16.325] === SERIES_COMPARISON ===
+Comparaison 30-59 yrs vs 30-59 yrs avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.455810
+  - MAE Relative: 0.029940
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.622500
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:33:19.503] === SERIES_COMPARISON ===
+Comparaison 60 - 75 vs 60 - 75 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 9.286287
+  - MAE Relative: 0.609968
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.622500
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:33:21.570] === SERIES_COMPARISON ===
+Comparaison 75 + vs 75 + avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 4.440459
+  - MAE Relative: 0.291671
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.622500
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:33:23.282] === SERIES_COMPARISON ===
+Comparaison All 30 + patients vs All 30 + patients avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.922675
+  - MAE Relative: 0.060606
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.622500
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:33:23
+Total Duration: 9.08 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2672343_ijerph-06-00232f3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2672343_ijerph-06-00232f3
+================================================================================
+Timestamp: 2025-08-07 12:49:25
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672343___ijerph-06-00232f3
+================================================================================
+
+
+
+[12:49:25.305] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:49:25.317] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:49:25.365] === DATA_LOADING ===
+Chargement des données GT depuis PMC2672343___ijerph-06-00232f3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2672343___ijerph-06-00232f3.json
+  - Series Count: 4
+  - Series Names: ['30-59 yrs', '60 - 75', '75 +', 'All 30 + patients']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 48
+--------------------------------------------------
+
+[12:49:25.370] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2672343___ijerph-06-00232f3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672343___ijerph-06-00232f3\PMC2672343___ijerph-06-00232f3.json
+  - Series Count: 4
+  - Series Names: ['30-59 yrs', '60 - 75', '75 +', 'All 30 + patients']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 48
+--------------------------------------------------
+
+[12:49:25.375] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 15.2242
+  - Y Min-Max: [1.0000, 16.2242]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:49:25.378] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:49:25.407] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['30-59 yrs <-> 30-59 yrs (method=exact_match, score=1.000)', '60 - 75 <-> 60 - 75 (method=exact_match, score=1.000)', '75 + <-> 75 + (method=exact_match, score=1.000)', 'All 30 + patients <-> All 30 + patients (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:49:26.471] === SERIES_COMPARISON ===
+Comparaison 30-59 yrs vs 30-59 yrs avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.455810
+  - MAE Relative: 0.029940
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.622500
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:49:28.760] === SERIES_COMPARISON ===
+Comparaison 60 - 75 vs 60 - 75 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 9.286287
+  - MAE Relative: 0.609968
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.622500
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:49:31.089] === SERIES_COMPARISON ===
+Comparaison 75 + vs 75 + avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 4.423792
+  - MAE Relative: 0.290576
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.622500
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:49:33.011] === SERIES_COMPARISON ===
+Comparaison All 30 + patients vs All 30 + patients avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.922675
+  - MAE Relative: 0.060606
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.622500
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:49:33
+Total Duration: 7.75 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2672343_ijerph-06-00232f3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2672343_ijerph-06-00232f3
+================================================================================
+Timestamp: 2025-08-07 13:06:16
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672343___ijerph-06-00232f3
+================================================================================
+
+
+
+[13:06:16.064] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:06:16.088] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:06:16.201] === DATA_LOADING ===
+Chargement des données GT depuis PMC2672343___ijerph-06-00232f3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2672343___ijerph-06-00232f3.json
+  - Series Count: 4
+  - Series Names: ['30-59 yrs', '60 - 75', '75 +', 'All 30 + patients']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 48
+--------------------------------------------------
+
+[13:06:16.206] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2672343___ijerph-06-00232f3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672343___ijerph-06-00232f3\PMC2672343___ijerph-06-00232f3.json
+  - Series Count: 4
+  - Series Names: ['30-59 yrs', '60 - 75', '75 +', 'All 30 + patients']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 48
+--------------------------------------------------
+
+[13:06:16.212] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 15.2242
+  - Y Min-Max: [1.0000, 16.2242]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:06:16.234] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:06:16.254] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['30-59 yrs <-> 30-59 yrs (method=exact_match, score=1.000)', '60 - 75 <-> 60 - 75 (method=exact_match, score=1.000)', '75 + <-> 75 + (method=exact_match, score=1.000)', 'All 30 + patients <-> All 30 + patients (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:06:18.349] === SERIES_COMPARISON ===
+Comparaison 30-59 yrs vs 30-59 yrs avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.455810
+  - MAE Relative: 0.029940
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.622500
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:06:20.176] === SERIES_COMPARISON ===
+Comparaison 60 - 75 vs 60 - 75 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 9.286287
+  - MAE Relative: 0.609968
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.622500
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:06:21.231] === SERIES_COMPARISON ===
+Comparaison 75 + vs 75 + avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 4.423792
+  - MAE Relative: 0.290576
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.622500
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:06:22.484] === SERIES_COMPARISON ===
+Comparaison All 30 + patients vs All 30 + patients avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.922675
+  - MAE Relative: 0.060606
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.622500
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:06:22
+Total Duration: 6.44 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2672343_ijerph-06-00232f3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2672343_ijerph-06-00232f3
+================================================================================
+Timestamp: 2025-08-07 16:39:54
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672343___ijerph-06-00232f3
+================================================================================
+
+
+
+[16:39:54.896] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:39:54.898] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:39:54.953] === DATA_LOADING ===
+Chargement des données GT depuis PMC2672343___ijerph-06-00232f3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2672343___ijerph-06-00232f3.json
+  - Series Count: 4
+  - Series Names: ['30-59 yrs', '60 - 75', '75 +', 'All 30 + patients']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 48
+--------------------------------------------------
+
+[16:39:54.968] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2672343___ijerph-06-00232f3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672343___ijerph-06-00232f3\PMC2672343___ijerph-06-00232f3.json
+  - Series Count: 4
+  - Series Names: ['30-59 yrs', '60 - 75', '75 +', 'All 30 + patients']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 48
+--------------------------------------------------
+
+[16:39:54.971] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 15.2242
+  - Y Min-Max: [1.0000, 16.2242]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:39:54.973] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:39:54.976] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['30-59 yrs <-> 30-59 yrs (method=exact_match, score=1.000)', '60 - 75 <-> 60 - 75 (method=exact_match, score=1.000)', '75 + <-> 75 + (method=exact_match, score=1.000)', 'All 30 + patients <-> All 30 + patients (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:39:56.460] === SERIES_COMPARISON ===
+Comparaison 30-59 yrs vs 30-59 yrs avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.455810
+  - MAE Relative: 0.029940
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.622500
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:39:57.632] === SERIES_COMPARISON ===
+Comparaison 60 - 75 vs 60 - 75 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 9.286287
+  - MAE Relative: 0.609968
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.622500
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:39:59.744] === SERIES_COMPARISON ===
+Comparaison 75 + vs 75 + avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 4.423792
+  - MAE Relative: 0.290576
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.622500
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:40:00.634] === SERIES_COMPARISON ===
+Comparaison All 30 + patients vs All 30 + patients avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.922675
+  - MAE Relative: 0.060606
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.622500
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:40:00
+Total Duration: 5.77 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2672343_ijerph-06-00232f3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2672343_ijerph-06-00232f3
+================================================================================
+Timestamp: 2025-08-07 16:59:13
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672343___ijerph-06-00232f3
+================================================================================
+
+
+
+[16:59:13.418] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:59:13.438] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:59:13.513] === DATA_LOADING ===
+Chargement des données GT depuis PMC2672343___ijerph-06-00232f3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2672343___ijerph-06-00232f3.json
+  - Series Count: 4
+  - Series Names: ['30-59 yrs', '60 - 75', '75 +', 'All 30 + patients']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 48
+--------------------------------------------------
+
+[16:59:13.519] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2672343___ijerph-06-00232f3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672343___ijerph-06-00232f3\PMC2672343___ijerph-06-00232f3.json
+  - Series Count: 4
+  - Series Names: ['30-59 yrs', '60 - 75', '75 +', 'All 30 + patients']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 48
+--------------------------------------------------
+
+[16:59:13.525] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 15.2242
+  - Y Min-Max: [1.0000, 16.2242]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:59:13.530] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:59:13.548] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['30-59 yrs <-> 30-59 yrs (method=exact_match, score=1.000)', '60 - 75 <-> 60 - 75 (method=exact_match, score=1.000)', '75 + <-> 75 + (method=exact_match, score=1.000)', 'All 30 + patients <-> All 30 + patients (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:59:14.775] === SERIES_COMPARISON ===
+Comparaison 30-59 yrs vs 30-59 yrs avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.455810
+  - MAE Relative: 0.029940
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.622500
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:59:16.319] === SERIES_COMPARISON ===
+Comparaison 60 - 75 vs 60 - 75 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 9.286287
+  - MAE Relative: 0.609968
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.622500
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:59:17.893] === SERIES_COMPARISON ===
+Comparaison 75 + vs 75 + avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 4.440459
+  - MAE Relative: 0.291671
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.622500
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:59:19.254] === SERIES_COMPARISON ===
+Comparaison All 30 + patients vs All 30 + patients avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.922675
+  - MAE Relative: 0.060606
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.622500
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:59:19
+Total Duration: 5.91 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2672343_ijerph-06-00232f3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

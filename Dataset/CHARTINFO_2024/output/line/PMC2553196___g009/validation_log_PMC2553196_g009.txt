@@ -1,0 +1,558 @@
+
+================================================================================
+VALIDATION LOG - PMC2553196_g009
+================================================================================
+Timestamp: 2025-08-06 20:16:05
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2553196___g009
+================================================================================
+
+
+
+[20:16:05.927] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:05.963] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:05.986] === DATA_LOADING ===
+Chargement des données GT depuis PMC2553196___g009.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2553196___g009.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:06.006] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2553196___g009.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2553196___g009\PMC2553196___g009.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:06.008] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2553196_g009
+================================================================================
+Timestamp: 2025-08-06 21:32:47
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2553196___g009
+================================================================================
+
+
+
+[21:32:47.509] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:32:47.511] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:32:47.590] === DATA_LOADING ===
+Chargement des données GT depuis PMC2553196___g009.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2553196___g009.json
+  - Series Count: 2
+  - Series Names: ['H9p67', '[unnamed data series #1]']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[21:32:47.603] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2553196___g009.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2553196___g009\PMC2553196___g009.json
+  - Series Count: 1
+  - Series Names: ['H9p67']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 6
+--------------------------------------------------
+
+[21:32:47.614] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0960
+  - Y Min-Max: [0.0780, 0.1740]
+  - X Range: 2564.860716501747
+--------------------------------------------------
+
+[21:32:47.640] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:32:47.657] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['H9p67 <-> H9p67 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:32:48.365] === SERIES_COMPARISON ===
+Comparaison H9p67 vs H9p67 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000300
+  - MAE Relative: 0.003121
+  - Left Miss (rel): 0.000705
+  - Right Miss (rel): -0.019156
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:32:48
+Total Duration: 0.93 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2553196_g009.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2553196_g009
+================================================================================
+Timestamp: 2025-08-07 12:48:54
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2553196___g009
+================================================================================
+
+
+
+[12:48:54.249] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:48:54.254] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:48:54.316] === DATA_LOADING ===
+Chargement des données GT depuis PMC2553196___g009.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2553196___g009.json
+  - Series Count: 2
+  - Series Names: ['H9p67', '[unnamed data series #1]']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[12:48:54.321] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2553196___g009.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2553196___g009\PMC2553196___g009.json
+  - Series Count: 1
+  - Series Names: ['H9p67']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 6
+--------------------------------------------------
+
+[12:48:54.326] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0960
+  - Y Min-Max: [0.0780, 0.1740]
+  - X Range: 2564.860716501747
+--------------------------------------------------
+
+[12:48:54.330] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:48:54.333] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['H9p67 <-> H9p67 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:48:55.035] === SERIES_COMPARISON ===
+Comparaison H9p67 vs H9p67 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000300
+  - MAE Relative: 0.003121
+  - Left Miss (rel): 0.000705
+  - Right Miss (rel): -0.019156
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:48:55
+Total Duration: 0.79 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2553196_g009.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2553196_g009
+================================================================================
+Timestamp: 2025-08-07 13:05:49
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2553196___g009
+================================================================================
+
+
+
+[13:05:49.593] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:05:49.596] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:05:49.630] === DATA_LOADING ===
+Chargement des données GT depuis PMC2553196___g009.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2553196___g009.json
+  - Series Count: 2
+  - Series Names: ['H9p67', '[unnamed data series #1]']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[13:05:49.652] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2553196___g009.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2553196___g009\PMC2553196___g009.json
+  - Series Count: 1
+  - Series Names: ['H9p67']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 6
+--------------------------------------------------
+
+[13:05:49.655] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0960
+  - Y Min-Max: [0.0780, 0.1740]
+  - X Range: 2564.860716501747
+--------------------------------------------------
+
+[13:05:49.658] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:05:49.660] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['H9p67 <-> H9p67 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:05:50.531] === SERIES_COMPARISON ===
+Comparaison H9p67 vs H9p67 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000300
+  - MAE Relative: 0.003121
+  - Left Miss (rel): 0.000705
+  - Right Miss (rel): -0.019156
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:05:50
+Total Duration: 0.94 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2553196_g009.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2553196_g009
+================================================================================
+Timestamp: 2025-08-07 16:39:27
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2553196___g009
+================================================================================
+
+
+
+[16:39:27.874] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:39:27.876] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:39:27.906] === DATA_LOADING ===
+Chargement des données GT depuis PMC2553196___g009.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2553196___g009.json
+  - Series Count: 2
+  - Series Names: ['H9p67', '[unnamed data series #1]']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[16:39:27.908] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2553196___g009.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2553196___g009\PMC2553196___g009.json
+  - Series Count: 1
+  - Series Names: ['H9p67']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 6
+--------------------------------------------------
+
+[16:39:27.910] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0960
+  - Y Min-Max: [0.0780, 0.1740]
+  - X Range: 2564.860716501747
+--------------------------------------------------
+
+[16:39:27.912] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:39:27.914] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['H9p67 <-> H9p67 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:39:28.426] === SERIES_COMPARISON ===
+Comparaison H9p67 vs H9p67 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000300
+  - MAE Relative: 0.003121
+  - Left Miss (rel): 0.000705
+  - Right Miss (rel): -0.019156
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:39:28
+Total Duration: 0.57 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2553196_g009.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2553196_g009
+================================================================================
+Timestamp: 2025-08-07 16:58:43
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2553196___g009
+================================================================================
+
+
+
+[16:58:43.842] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:58:43.844] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:58:43.883] === DATA_LOADING ===
+Chargement des données GT depuis PMC2553196___g009.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2553196___g009.json
+  - Series Count: 2
+  - Series Names: ['H9p67', '[unnamed data series #1]']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[16:58:43.888] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2553196___g009.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2553196___g009\PMC2553196___g009.json
+  - Series Count: 1
+  - Series Names: ['H9p67']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 6
+--------------------------------------------------
+
+[16:58:43.891] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0960
+  - Y Min-Max: [0.0780, 0.1740]
+  - X Range: 2564.860716501747
+--------------------------------------------------
+
+[16:58:43.893] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:58:43.896] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['H9p67 <-> H9p67 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:58:45.024] === SERIES_COMPARISON ===
+Comparaison H9p67 vs H9p67 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000300
+  - MAE Relative: 0.003121
+  - Left Miss (rel): 0.000705
+  - Right Miss (rel): -0.019156
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:58:45
+Total Duration: 1.21 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2553196_g009.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

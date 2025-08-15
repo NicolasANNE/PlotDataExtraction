@@ -1,0 +1,628 @@
+
+================================================================================
+VALIDATION LOG - PMC2486442_ddn14604
+================================================================================
+Timestamp: 2025-08-06 20:16:04
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2486442___ddn14604
+================================================================================
+
+
+
+[20:16:04.434] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:04.470] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:04.490] === DATA_LOADING ===
+Chargement des données GT depuis PMC2486442___ddn14604.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2486442___ddn14604.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:04.511] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2486442___ddn14604.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2486442___ddn14604\PMC2486442___ddn14604.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:04.515] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2486442_ddn14604
+================================================================================
+Timestamp: 2025-08-06 21:32:46
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2486442___ddn14604
+================================================================================
+
+
+
+[21:32:46.544] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:32:46.547] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:32:46.570] === DATA_LOADING ===
+Chargement des données GT depuis PMC2486442___ddn14604.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2486442___ddn14604.json
+  - Series Count: 2
+  - Series Names: ['DISC1 SerSer', 'DISC1 Cys Carrier']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[21:32:46.581] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2486442___ddn14604.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2486442___ddn14604\PMC2486442___ddn14604.json
+  - Series Count: 2
+  - Series Names: ['DISC1 SerSer', 'DISC1 Cys Carrier']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[21:32:46.598] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.5034
+  - Y Min-Max: [0.5000, 2.0034]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[21:32:46.602] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:32:46.604] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['DISC1 SerSer <-> DISC1 SerSer (method=exact_match, score=1.000)', 'DISC1 Cys Carrier <-> DISC1 Cys Carrier (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:32:47.352] === SERIES_COMPARISON ===
+Comparaison DISC1 SerSer vs DISC1 SerSer avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.131511
+  - MAE Relative: 0.087479
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.155000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:32:48.267] === SERIES_COMPARISON ===
+Comparaison DISC1 Cys Carrier vs DISC1 Cys Carrier avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.758121
+  - MAE Relative: 0.504288
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.155000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:32:48
+Total Duration: 1.78 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2486442_ddn14604.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2486442_ddn14604
+================================================================================
+Timestamp: 2025-08-07 12:48:51
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2486442___ddn14604
+================================================================================
+
+
+
+[12:48:51.292] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:48:51.296] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:48:51.347] === DATA_LOADING ===
+Chargement des données GT depuis PMC2486442___ddn14604.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2486442___ddn14604.json
+  - Series Count: 2
+  - Series Names: ['DISC1 SerSer', 'DISC1 Cys Carrier']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[12:48:51.353] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2486442___ddn14604.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2486442___ddn14604\PMC2486442___ddn14604.json
+  - Series Count: 2
+  - Series Names: ['DISC1 SerSer', 'DISC1 Cys Carrier']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[12:48:51.370] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.5034
+  - Y Min-Max: [0.5000, 2.0034]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:48:51.391] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:48:51.395] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['DISC1 SerSer <-> DISC1 SerSer (method=exact_match, score=1.000)', 'DISC1 Cys Carrier <-> DISC1 Cys Carrier (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:48:52.420] === SERIES_COMPARISON ===
+Comparaison DISC1 SerSer vs DISC1 SerSer avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.131511
+  - MAE Relative: 0.087479
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.155000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:48:53.423] === SERIES_COMPARISON ===
+Comparaison DISC1 Cys Carrier vs DISC1 Cys Carrier avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.758121
+  - MAE Relative: 0.504288
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.155000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:48:53
+Total Duration: 2.15 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2486442_ddn14604.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2486442_ddn14604
+================================================================================
+Timestamp: 2025-08-07 13:05:47
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2486442___ddn14604
+================================================================================
+
+
+
+[13:05:47.044] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:05:47.047] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:05:47.100] === DATA_LOADING ===
+Chargement des données GT depuis PMC2486442___ddn14604.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2486442___ddn14604.json
+  - Series Count: 2
+  - Series Names: ['DISC1 SerSer', 'DISC1 Cys Carrier']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[13:05:47.119] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2486442___ddn14604.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2486442___ddn14604\PMC2486442___ddn14604.json
+  - Series Count: 2
+  - Series Names: ['DISC1 SerSer', 'DISC1 Cys Carrier']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[13:05:47.122] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.5034
+  - Y Min-Max: [0.5000, 2.0034]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:05:47.125] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:05:47.127] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['DISC1 SerSer <-> DISC1 SerSer (method=exact_match, score=1.000)', 'DISC1 Cys Carrier <-> DISC1 Cys Carrier (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:05:47.810] === SERIES_COMPARISON ===
+Comparaison DISC1 SerSer vs DISC1 SerSer avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.131511
+  - MAE Relative: 0.087479
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.155000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:05:48.634] === SERIES_COMPARISON ===
+Comparaison DISC1 Cys Carrier vs DISC1 Cys Carrier avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.758121
+  - MAE Relative: 0.504288
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.155000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:05:48
+Total Duration: 1.60 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2486442_ddn14604.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2486442_ddn14604
+================================================================================
+Timestamp: 2025-08-07 16:39:24
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2486442___ddn14604
+================================================================================
+
+
+
+[16:39:24.918] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:39:24.919] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:39:24.940] === DATA_LOADING ===
+Chargement des données GT depuis PMC2486442___ddn14604.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2486442___ddn14604.json
+  - Series Count: 2
+  - Series Names: ['DISC1 SerSer', 'DISC1 Cys Carrier']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[16:39:24.943] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2486442___ddn14604.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2486442___ddn14604\PMC2486442___ddn14604.json
+  - Series Count: 2
+  - Series Names: ['DISC1 SerSer', 'DISC1 Cys Carrier']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[16:39:24.946] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.5034
+  - Y Min-Max: [0.5000, 2.0034]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:39:24.949] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:39:24.951] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['DISC1 SerSer <-> DISC1 SerSer (method=exact_match, score=1.000)', 'DISC1 Cys Carrier <-> DISC1 Cys Carrier (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:39:25.547] === SERIES_COMPARISON ===
+Comparaison DISC1 SerSer vs DISC1 SerSer avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.131511
+  - MAE Relative: 0.087479
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.155000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:39:26.163] === SERIES_COMPARISON ===
+Comparaison DISC1 Cys Carrier vs DISC1 Cys Carrier avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.758121
+  - MAE Relative: 0.504288
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.155000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:39:26
+Total Duration: 1.26 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2486442_ddn14604.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2486442_ddn14604
+================================================================================
+Timestamp: 2025-08-07 16:58:39
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2486442___ddn14604
+================================================================================
+
+
+
+[16:58:39.902] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:58:39.922] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:58:39.955] === DATA_LOADING ===
+Chargement des données GT depuis PMC2486442___ddn14604.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2486442___ddn14604.json
+  - Series Count: 2
+  - Series Names: ['DISC1 SerSer', 'DISC1 Cys Carrier']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[16:58:39.964] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2486442___ddn14604.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2486442___ddn14604\PMC2486442___ddn14604.json
+  - Series Count: 2
+  - Series Names: ['DISC1 SerSer', 'DISC1 Cys Carrier']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[16:58:39.967] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.5034
+  - Y Min-Max: [0.5000, 2.0034]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:58:39.969] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:58:39.971] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['DISC1 SerSer <-> DISC1 SerSer (method=exact_match, score=1.000)', 'DISC1 Cys Carrier <-> DISC1 Cys Carrier (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:58:40.628] === SERIES_COMPARISON ===
+Comparaison DISC1 SerSer vs DISC1 SerSer avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.131511
+  - MAE Relative: 0.087479
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.155000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:58:41.306] === SERIES_COMPARISON ===
+Comparaison DISC1 Cys Carrier vs DISC1 Cys Carrier avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.758121
+  - MAE Relative: 0.504288
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.155000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:58:41
+Total Duration: 1.42 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2486442_ddn14604.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

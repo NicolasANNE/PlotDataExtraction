@@ -1,0 +1,101 @@
+
+================================================================================
+VALIDATION LOG - PMC3499871_ijerph-09-03318-g003
+================================================================================
+Timestamp: 2025-08-07 12:55:54
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3499871___ijerph-09-03318-g003
+================================================================================
+
+
+
+[12:55:54.559] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:55:54.563] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:55:54.618] === DATA_LOADING ===
+Chargement des données GT depuis PMC3499871___ijerph-09-03318-g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3499871___ijerph-09-03318-g003.json
+  - Series Count: 1
+  - Series Names: ['254nm,4nm (1.00)']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 71
+--------------------------------------------------
+
+[12:55:54.621] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3499871___ijerph-09-03318-g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3499871___ijerph-09-03318-g003\PMC3499871___ijerph-09-03318-g003.json
+  - Series Count: 1
+  - Series Names: ['unnamed data series #0']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 19
+--------------------------------------------------
+
+[12:55:54.626] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.5003
+  - Y Min-Max: [0.0024, 0.5028]
+  - X Range: 9.979861266502574
+--------------------------------------------------
+
+[12:55:54.628] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:55:54.633] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['254nm,4nm (1.00) <-> unnamed data series #0 (method=similarity_match_generic, score=0.816)']
+--------------------------------------------------
+
+[12:55:55.259] === SERIES_COMPARISON ===
+Comparaison 254nm,4nm (1.00) vs unnamed data series #0 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.034626
+  - MAE Relative: 0.069203
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.098184
+  - X Cutoff: N/A
+  - GT Points: 71
+  - Extracted Points: 19
+  - Points Ratio: 0.27
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:55:55
+Total Duration: 0.71 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3499871_ijerph-09-03318-g003.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

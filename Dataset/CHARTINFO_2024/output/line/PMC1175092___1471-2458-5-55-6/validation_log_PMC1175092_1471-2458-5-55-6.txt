@@ -1,0 +1,1137 @@
+
+================================================================================
+VALIDATION LOG - PMC1175092_1471-2458-5-55-6
+================================================================================
+Timestamp: 2025-08-06 20:15:15
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-6
+================================================================================
+
+
+
+[20:15:15.997] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:16.035] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:16.055] === DATA_LOADING ===
+Chargement des données GT depuis PMC1175092___1471-2458-5-55-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1175092___1471-2458-5-55-6.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:16.058] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1175092___1471-2458-5-55-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-6\PMC1175092___1471-2458-5-55-6.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:16.060] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1175092_1471-2458-5-55-6
+================================================================================
+Timestamp: 2025-08-06 21:06:15
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-6
+================================================================================
+
+
+
+[21:06:15.729] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:06:15.737] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:06:15.784] === DATA_LOADING ===
+Chargement des données GT depuis PMC1175092___1471-2458-5-55-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1175092___1471-2458-5-55-6.json
+  - Series Count: 5
+  - Series Names: ['75 and over, woman\n(n=225)', '75 and over man\n(n=115)', 'total (n=1107)', '65-74, woman\n(n=452)', '65-74, man (n=315)']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[21:06:15.791] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1175092___1471-2458-5-55-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-6\PMC1175092___1471-2458-5-55-6.json
+  - Series Count: 5
+  - Series Names: ['75 and over, woman (n=225)', '75 and over,man (n=115)', 'total (n=1107)', '65-74, woman (n=452)', '65-74, man (n=315)']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 35
+--------------------------------------------------
+
+[21:06:15.822] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0331
+  - Y Min-Max: [0.0000, 0.0331]
+  - X Range: 6.012474012474058
+--------------------------------------------------
+
+[21:06:15.835] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:06:15.839] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['total (n=1107) <-> total (n=1107) (method=exact_match, score=1.000)', '65-74, man (n=315) <-> 65-74, man (n=315) (method=exact_match, score=1.000)', '75 and over, woman\n(n=225) <-> 75 and over, woman (n=225) (method=fuzzy_match, score=0.950)', '75 and over man\n(n=115) <-> 75 and over,man (n=115) (method=fuzzy_match, score=0.900)', '65-74, woman\n(n=452) <-> 65-74, woman (n=452) (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[21:06:27.196] === SERIES_COMPARISON ===
+Comparaison total (n=1107) vs total (n=1107) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000226
+  - MAE Relative: 0.006826
+  - Left Miss (rel): -0.005187
+  - Right Miss (rel): -0.016598
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 7
+  - Points Ratio: 1.17
+--------------------------------------------------
+
+[21:06:31.583] === SERIES_COMPARISON ===
+Comparaison 65-74, man (n=315) vs 65-74, man (n=315) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000300
+  - MAE Relative: 0.009078
+  - Left Miss (rel): -0.007261
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:06:35.301] === SERIES_COMPARISON ===
+Comparaison 75 and over, woman
+(n=225) vs 75 and over, woman (n=225) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001668
+  - MAE Relative: 0.050403
+  - Left Miss (rel): -0.003112
+  - Right Miss (rel): 0.002075
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 7
+  - Points Ratio: 1.17
+--------------------------------------------------
+
+[21:06:49.924] === SERIES_COMPARISON ===
+Comparaison 75 and over man
+(n=115) vs 75 and over,man (n=115) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000360
+  - MAE Relative: 0.010877
+  - Left Miss (rel): -0.009336
+  - Right Miss (rel): 0.002075
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+================================================================================
+VALIDATION LOG - PMC1175092_1471-2458-5-55-6
+================================================================================
+Timestamp: 2025-08-06 21:30:30
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-6
+================================================================================
+
+
+
+[21:30:30.283] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:30:30.285] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:30:30.329] === DATA_LOADING ===
+Chargement des données GT depuis PMC1175092___1471-2458-5-55-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1175092___1471-2458-5-55-6.json
+  - Series Count: 5
+  - Series Names: ['75 and over, woman\n(n=225)', '75 and over man\n(n=115)', 'total (n=1107)', '65-74, woman\n(n=452)', '65-74, man (n=315)']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[21:30:30.332] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1175092___1471-2458-5-55-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-6\PMC1175092___1471-2458-5-55-6.json
+  - Series Count: 5
+  - Series Names: ['75 and over, woman (n=225)', '75 and over,man (n=115)', 'total (n=1107)', '65-74, woman (n=452)', '65-74, man (n=315)']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 35
+--------------------------------------------------
+
+[21:30:30.335] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0331
+  - Y Min-Max: [0.0000, 0.0331]
+  - X Range: 6.012474012474058
+--------------------------------------------------
+
+[21:30:30.337] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:30:30.339] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['total (n=1107) <-> total (n=1107) (method=exact_match, score=1.000)', '65-74, man (n=315) <-> 65-74, man (n=315) (method=exact_match, score=1.000)', '75 and over, woman\n(n=225) <-> 75 and over, woman (n=225) (method=fuzzy_match, score=0.950)', '75 and over man\n(n=115) <-> 75 and over,man (n=115) (method=fuzzy_match, score=0.900)', '65-74, woman\n(n=452) <-> 65-74, woman (n=452) (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[21:30:30.929] === SERIES_COMPARISON ===
+Comparaison total (n=1107) vs total (n=1107) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000226
+  - MAE Relative: 0.006826
+  - Left Miss (rel): -0.005187
+  - Right Miss (rel): -0.016598
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 7
+  - Points Ratio: 1.17
+--------------------------------------------------
+
+[21:30:31.843] === SERIES_COMPARISON ===
+Comparaison 65-74, man (n=315) vs 65-74, man (n=315) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000468
+  - MAE Relative: 0.014148
+  - Left Miss (rel): -0.007261
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:30:32.991] === SERIES_COMPARISON ===
+Comparaison 75 and over, woman
+(n=225) vs 75 and over, woman (n=225) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001501
+  - MAE Relative: 0.045355
+  - Left Miss (rel): -0.003112
+  - Right Miss (rel): 0.002075
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 7
+  - Points Ratio: 1.17
+--------------------------------------------------
+
+[21:30:34.049] === SERIES_COMPARISON ===
+Comparaison 75 and over man
+(n=115) vs 75 and over,man (n=115) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000360
+  - MAE Relative: 0.010877
+  - Left Miss (rel): -0.009336
+  - Right Miss (rel): 0.002075
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:30:35.109] === SERIES_COMPARISON ===
+Comparaison 65-74, woman
+(n=452) vs 65-74, woman (n=452) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000526
+  - MAE Relative: 0.015902
+  - Left Miss (rel): -0.003112
+  - Right Miss (rel): -0.010373
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 7
+  - Points Ratio: 1.17
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:30:35
+Total Duration: 4.88 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1175092_1471-2458-5-55-6.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1175092_1471-2458-5-55-6
+================================================================================
+Timestamp: 2025-08-07 12:46:25
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-6
+================================================================================
+
+
+
+[12:46:25.157] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:46:25.160] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:46:25.225] === DATA_LOADING ===
+Chargement des données GT depuis PMC1175092___1471-2458-5-55-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1175092___1471-2458-5-55-6.json
+  - Series Count: 5
+  - Series Names: ['75 and over, woman\n(n=225)', '75 and over man\n(n=115)', 'total (n=1107)', '65-74, woman\n(n=452)', '65-74, man (n=315)']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[12:46:25.228] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1175092___1471-2458-5-55-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-6\PMC1175092___1471-2458-5-55-6.json
+  - Series Count: 5
+  - Series Names: ['75 and over, woman (n=225)', '75 and over,man (n=115)', 'total (n=1107)', '65-74, woman (n=452)', '65-74, man (n=315)']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 35
+--------------------------------------------------
+
+[12:46:25.231] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0331
+  - Y Min-Max: [0.0000, 0.0331]
+  - X Range: 6.012474012474058
+--------------------------------------------------
+
+[12:46:25.233] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:46:25.239] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['total (n=1107) <-> total (n=1107) (method=exact_match, score=1.000)', '65-74, man (n=315) <-> 65-74, man (n=315) (method=exact_match, score=1.000)', '75 and over, woman\n(n=225) <-> 75 and over, woman (n=225) (method=fuzzy_match, score=0.950)', '75 and over man\n(n=115) <-> 75 and over,man (n=115) (method=fuzzy_match, score=0.900)', '65-74, woman\n(n=452) <-> 65-74, woman (n=452) (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[12:46:26.253] === SERIES_COMPARISON ===
+Comparaison total (n=1107) vs total (n=1107) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000226
+  - MAE Relative: 0.006826
+  - Left Miss (rel): -0.005187
+  - Right Miss (rel): -0.016598
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 7
+  - Points Ratio: 1.17
+--------------------------------------------------
+
+[12:46:27.045] === SERIES_COMPARISON ===
+Comparaison 65-74, man (n=315) vs 65-74, man (n=315) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000300
+  - MAE Relative: 0.009078
+  - Left Miss (rel): -0.007261
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:46:27.928] === SERIES_COMPARISON ===
+Comparaison 75 and over, woman
+(n=225) vs 75 and over, woman (n=225) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001668
+  - MAE Relative: 0.050403
+  - Left Miss (rel): -0.003112
+  - Right Miss (rel): 0.002075
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 7
+  - Points Ratio: 1.17
+--------------------------------------------------
+
+[12:46:29.035] === SERIES_COMPARISON ===
+Comparaison 75 and over man
+(n=115) vs 75 and over,man (n=115) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000360
+  - MAE Relative: 0.010877
+  - Left Miss (rel): -0.009336
+  - Right Miss (rel): 0.002075
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:46:30.781] === SERIES_COMPARISON ===
+Comparaison 65-74, woman
+(n=452) vs 65-74, woman (n=452) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000526
+  - MAE Relative: 0.015902
+  - Left Miss (rel): -0.003112
+  - Right Miss (rel): -0.010373
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 7
+  - Points Ratio: 1.17
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:46:30
+Total Duration: 5.66 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1175092_1471-2458-5-55-6.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1175092_1471-2458-5-55-6
+================================================================================
+Timestamp: 2025-08-07 13:03:23
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-6
+================================================================================
+
+
+
+[13:03:23.809] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:03:23.811] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:03:23.862] === DATA_LOADING ===
+Chargement des données GT depuis PMC1175092___1471-2458-5-55-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1175092___1471-2458-5-55-6.json
+  - Series Count: 5
+  - Series Names: ['75 and over, woman\n(n=225)', '75 and over man\n(n=115)', 'total (n=1107)', '65-74, woman\n(n=452)', '65-74, man (n=315)']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[13:03:23.866] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1175092___1471-2458-5-55-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-6\PMC1175092___1471-2458-5-55-6.json
+  - Series Count: 5
+  - Series Names: ['75 and over, woman (n=225)', '75 and over,man (n=115)', 'total (n=1107)', '65-74, woman (n=452)', '65-74, man (n=315)']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 35
+--------------------------------------------------
+
+[13:03:23.871] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0331
+  - Y Min-Max: [0.0000, 0.0331]
+  - X Range: 6.012474012474058
+--------------------------------------------------
+
+[13:03:23.873] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:03:23.876] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['total (n=1107) <-> total (n=1107) (method=exact_match, score=1.000)', '65-74, man (n=315) <-> 65-74, man (n=315) (method=exact_match, score=1.000)', '75 and over, woman\n(n=225) <-> 75 and over, woman (n=225) (method=fuzzy_match, score=0.950)', '75 and over man\n(n=115) <-> 75 and over,man (n=115) (method=fuzzy_match, score=0.900)', '65-74, woman\n(n=452) <-> 65-74, woman (n=452) (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[13:03:24.538] === SERIES_COMPARISON ===
+Comparaison total (n=1107) vs total (n=1107) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000226
+  - MAE Relative: 0.006826
+  - Left Miss (rel): -0.005187
+  - Right Miss (rel): -0.016598
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 7
+  - Points Ratio: 1.17
+--------------------------------------------------
+
+[13:03:25.120] === SERIES_COMPARISON ===
+Comparaison 65-74, man (n=315) vs 65-74, man (n=315) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000468
+  - MAE Relative: 0.014148
+  - Left Miss (rel): -0.007261
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:03:25.748] === SERIES_COMPARISON ===
+Comparaison 75 and over, woman
+(n=225) vs 75 and over, woman (n=225) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001501
+  - MAE Relative: 0.045355
+  - Left Miss (rel): -0.003112
+  - Right Miss (rel): 0.002075
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 7
+  - Points Ratio: 1.17
+--------------------------------------------------
+
+[13:03:26.537] === SERIES_COMPARISON ===
+Comparaison 75 and over man
+(n=115) vs 75 and over,man (n=115) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000360
+  - MAE Relative: 0.010877
+  - Left Miss (rel): -0.009336
+  - Right Miss (rel): 0.002075
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:03:27.380] === SERIES_COMPARISON ===
+Comparaison 65-74, woman
+(n=452) vs 65-74, woman (n=452) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000526
+  - MAE Relative: 0.015902
+  - Left Miss (rel): -0.003112
+  - Right Miss (rel): -0.010373
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 7
+  - Points Ratio: 1.17
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:03:27
+Total Duration: 3.58 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1175092_1471-2458-5-55-6.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1175092_1471-2458-5-55-6
+================================================================================
+Timestamp: 2025-08-07 16:36:59
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-6
+================================================================================
+
+
+
+[16:36:59.427] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:36:59.428] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:36:59.467] === DATA_LOADING ===
+Chargement des données GT depuis PMC1175092___1471-2458-5-55-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1175092___1471-2458-5-55-6.json
+  - Series Count: 5
+  - Series Names: ['75 and over, woman\n(n=225)', '75 and over man\n(n=115)', 'total (n=1107)', '65-74, woman\n(n=452)', '65-74, man (n=315)']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[16:36:59.470] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1175092___1471-2458-5-55-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-6\PMC1175092___1471-2458-5-55-6.json
+  - Series Count: 5
+  - Series Names: ['75 and over, woman (n=225)', '75 and over,man (n=115)', 'total (n=1107)', '65-74, woman (n=452)', '65-74, man (n=315)']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 35
+--------------------------------------------------
+
+[16:36:59.473] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0331
+  - Y Min-Max: [0.0000, 0.0331]
+  - X Range: 6.012474012474058
+--------------------------------------------------
+
+[16:36:59.475] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:36:59.477] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['total (n=1107) <-> total (n=1107) (method=exact_match, score=1.000)', '65-74, man (n=315) <-> 65-74, man (n=315) (method=exact_match, score=1.000)', '75 and over, woman\n(n=225) <-> 75 and over, woman (n=225) (method=fuzzy_match, score=0.950)', '75 and over man\n(n=115) <-> 75 and over,man (n=115) (method=fuzzy_match, score=0.900)', '65-74, woman\n(n=452) <-> 65-74, woman (n=452) (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[16:37:00.009] === SERIES_COMPARISON ===
+Comparaison total (n=1107) vs total (n=1107) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000226
+  - MAE Relative: 0.006826
+  - Left Miss (rel): -0.005187
+  - Right Miss (rel): -0.016598
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 7
+  - Points Ratio: 1.17
+--------------------------------------------------
+
+[16:37:00.531] === SERIES_COMPARISON ===
+Comparaison 65-74, man (n=315) vs 65-74, man (n=315) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000468
+  - MAE Relative: 0.014148
+  - Left Miss (rel): -0.007261
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:37:01.216] === SERIES_COMPARISON ===
+Comparaison 75 and over, woman
+(n=225) vs 75 and over, woman (n=225) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001501
+  - MAE Relative: 0.045355
+  - Left Miss (rel): -0.003112
+  - Right Miss (rel): 0.002075
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 7
+  - Points Ratio: 1.17
+--------------------------------------------------
+
+[16:37:02.055] === SERIES_COMPARISON ===
+Comparaison 75 and over man
+(n=115) vs 75 and over,man (n=115) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000360
+  - MAE Relative: 0.010877
+  - Left Miss (rel): -0.009336
+  - Right Miss (rel): 0.002075
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:37:02.736] === SERIES_COMPARISON ===
+Comparaison 65-74, woman
+(n=452) vs 65-74, woman (n=452) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000526
+  - MAE Relative: 0.015902
+  - Left Miss (rel): -0.003112
+  - Right Miss (rel): -0.010373
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 7
+  - Points Ratio: 1.17
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:37:02
+Total Duration: 3.33 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1175092_1471-2458-5-55-6.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1175092_1471-2458-5-55-6
+================================================================================
+Timestamp: 2025-08-07 16:56:14
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-6
+================================================================================
+
+
+
+[16:56:14.898] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:56:14.900] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:56:14.944] === DATA_LOADING ===
+Chargement des données GT depuis PMC1175092___1471-2458-5-55-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1175092___1471-2458-5-55-6.json
+  - Series Count: 5
+  - Series Names: ['75 and over, woman\n(n=225)', '75 and over man\n(n=115)', 'total (n=1107)', '65-74, woman\n(n=452)', '65-74, man (n=315)']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[16:56:14.947] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1175092___1471-2458-5-55-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-6\PMC1175092___1471-2458-5-55-6.json
+  - Series Count: 5
+  - Series Names: ['75 and over, woman (n=225)', '75 and over,man (n=115)', 'total (n=1107)', '65-74, woman (n=452)', '65-74, man (n=315)']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 35
+--------------------------------------------------
+
+[16:56:14.950] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0331
+  - Y Min-Max: [0.0000, 0.0331]
+  - X Range: 6.012474012474058
+--------------------------------------------------
+
+[16:56:14.952] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:56:14.956] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['total (n=1107) <-> total (n=1107) (method=exact_match, score=1.000)', '65-74, man (n=315) <-> 65-74, man (n=315) (method=exact_match, score=1.000)', '75 and over, woman\n(n=225) <-> 75 and over, woman (n=225) (method=fuzzy_match, score=0.950)', '75 and over man\n(n=115) <-> 75 and over,man (n=115) (method=fuzzy_match, score=0.900)', '65-74, woman\n(n=452) <-> 65-74, woman (n=452) (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[16:56:15.772] === SERIES_COMPARISON ===
+Comparaison total (n=1107) vs total (n=1107) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000226
+  - MAE Relative: 0.006826
+  - Left Miss (rel): -0.005187
+  - Right Miss (rel): -0.016598
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 7
+  - Points Ratio: 1.17
+--------------------------------------------------
+
+[16:56:16.579] === SERIES_COMPARISON ===
+Comparaison 65-74, man (n=315) vs 65-74, man (n=315) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000300
+  - MAE Relative: 0.009078
+  - Left Miss (rel): -0.007261
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:56:17.410] === SERIES_COMPARISON ===
+Comparaison 75 and over, woman
+(n=225) vs 75 and over, woman (n=225) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001668
+  - MAE Relative: 0.050403
+  - Left Miss (rel): -0.003112
+  - Right Miss (rel): 0.002075
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 7
+  - Points Ratio: 1.17
+--------------------------------------------------
+
+[16:56:18.446] === SERIES_COMPARISON ===
+Comparaison 75 and over man
+(n=115) vs 75 and over,man (n=115) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000360
+  - MAE Relative: 0.010877
+  - Left Miss (rel): -0.009336
+  - Right Miss (rel): 0.002075
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:56:19.304] === SERIES_COMPARISON ===
+Comparaison 65-74, woman
+(n=452) vs 65-74, woman (n=452) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000526
+  - MAE Relative: 0.015902
+  - Left Miss (rel): -0.003112
+  - Right Miss (rel): -0.010373
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 7
+  - Points Ratio: 1.17
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:56:19
+Total Duration: 4.43 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1175092_1471-2458-5-55-6.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1175092_1471-2458-5-55-6
+================================================================================
+Timestamp: 2025-08-11 13:44:51
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-6
+================================================================================
+
+
+
+[13:44:52.004] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:44:52.042] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:44:52.148] === DATA_LOADING ===
+Chargement des données GT depuis PMC1175092___1471-2458-5-55-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1175092___1471-2458-5-55-6.json
+  - Series Count: 5
+  - Series Names: ['75 and over, woman\n(n=225)', '75 and over man\n(n=115)', 'total (n=1107)', '65-74, woman\n(n=452)', '65-74, man (n=315)']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[13:44:52.152] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1175092___1471-2458-5-55-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-6\PMC1175092___1471-2458-5-55-6.json
+  - Series Count: 5
+  - Series Names: ['75 and over, woman (n=225)', '75 and over,man (n=115)', 'total (n=1107)', '65-74, woman (n=452)', '65-74, man (n=315)']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 35
+--------------------------------------------------
+
+[13:44:52.169] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0331
+  - Y Min-Max: [0.0000, 0.0331]
+  - X Range: 6.012474012474058
+--------------------------------------------------
+
+[13:44:52.192] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:44:52.195] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['total (n=1107) <-> total (n=1107) (method=exact_match, score=1.000)', '65-74, man (n=315) <-> 65-74, man (n=315) (method=exact_match, score=1.000)', '75 and over, woman\n(n=225) <-> 75 and over, woman (n=225) (method=fuzzy_match, score=0.950)', '75 and over man\n(n=115) <-> 75 and over,man (n=115) (method=fuzzy_match, score=0.900)', '65-74, woman\n(n=452) <-> 65-74, woman (n=452) (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[13:44:53.350] === SERIES_COMPARISON ===
+Comparaison total (n=1107) vs total (n=1107) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000226
+  - MAE Relative: 0.006826
+  - Left Miss (rel): -0.005187
+  - Right Miss (rel): -0.016598
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 7
+  - Points Ratio: 1.17
+--------------------------------------------------
+
+[13:44:56.202] === SERIES_COMPARISON ===
+Comparaison 65-74, man (n=315) vs 65-74, man (n=315) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000261
+  - MAE Relative: 0.007886
+  - Left Miss (rel): -0.007261
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:44:57.692] === SERIES_COMPARISON ===
+Comparaison 75 and over, woman
+(n=225) vs 75 and over, woman (n=225) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001167
+  - MAE Relative: 0.035260
+  - Left Miss (rel): -0.003112
+  - Right Miss (rel): 0.002075
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 7
+  - Points Ratio: 1.17
+--------------------------------------------------
+
+[13:44:59.615] === SERIES_COMPARISON ===
+Comparaison 75 and over man
+(n=115) vs 75 and over,man (n=115) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000297
+  - MAE Relative: 0.008989
+  - Left Miss (rel): -0.009336
+  - Right Miss (rel): 0.002075
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:45:01.960] === SERIES_COMPARISON ===
+Comparaison 65-74, woman
+(n=452) vs 65-74, woman (n=452) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000213
+  - MAE Relative: 0.006427
+  - Left Miss (rel): -0.003112
+  - Right Miss (rel): -0.010373
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 7
+  - Points Ratio: 1.17
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-11 13:45:01
+Total Duration: 9.99 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1175092_1471-2458-5-55-6.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

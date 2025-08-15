@@ -1,0 +1,143 @@
+
+================================================================================
+VALIDATION LOG - PMC3439994_CMMM2012-972037.010
+================================================================================
+Timestamp: 2025-08-07 12:55:25
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3439994___CMMM2012-972037.010
+================================================================================
+
+
+
+[12:55:25.985] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:55:25.988] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:55:26.049] === DATA_LOADING ===
+Chargement des données GT depuis PMC3439994___CMMM2012-972037.010.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3439994___CMMM2012-972037.010.json
+  - Series Count: 4
+  - Series Names: ['L1', 'LDP', 'L2', 'RLDA']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 23
+--------------------------------------------------
+
+[12:55:26.056] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3439994___CMMM2012-972037.010.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3439994___CMMM2012-972037.010\PMC3439994___CMMM2012-972037.010.json
+  - Series Count: 4
+  - Series Names: ['LDP', 'RLDA', 'L1', 'L2']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[12:55:26.080] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.2924
+  - Y Min-Max: [0.6400, 0.9324]
+  - X Range: 1232.695652173913
+--------------------------------------------------
+
+[12:55:26.083] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:55:26.091] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['L1 <-> L1 (method=exact_match, score=1.000)', 'LDP <-> LDP (method=exact_match, score=1.000)', 'L2 <-> L2 (method=exact_match, score=1.000)', 'RLDA <-> RLDA (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:55:27.411] === SERIES_COMPARISON ===
+Comparaison L1 vs L1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.002435
+  - MAE Relative: 0.008326
+  - Left Miss (rel): 0.004515
+  - Right Miss (rel): 0.009029
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 6
+  - Points Ratio: 1.20
+--------------------------------------------------
+
+[12:55:29.493] === SERIES_COMPARISON ===
+Comparaison LDP vs LDP avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.002922
+  - MAE Relative: 0.009991
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.004515
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:55:30.708] === SERIES_COMPARISON ===
+Comparaison L2 vs L2 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.003704
+  - MAE Relative: 0.012666
+  - Left Miss (rel): 0.000752
+  - Right Miss (rel): 0.006772
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:55:31.546] === SERIES_COMPARISON ===
+Comparaison RLDA vs RLDA avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001856
+  - MAE Relative: 0.006347
+  - Left Miss (rel): 0.002257
+  - Right Miss (rel): 0.006772
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:55:31
+Total Duration: 5.58 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3439994_CMMM2012-972037.010.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

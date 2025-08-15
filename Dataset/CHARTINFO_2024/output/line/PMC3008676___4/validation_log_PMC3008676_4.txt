@@ -1,0 +1,255 @@
+
+================================================================================
+VALIDATION LOG - PMC3008676_4
+================================================================================
+Timestamp: 2025-08-06 20:16:59
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3008676___4
+================================================================================
+
+
+
+[20:16:59.431] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:59.486] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:59.515] === DATA_LOADING ===
+Chargement des données GT depuis PMC3008676___4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3008676___4.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:59.517] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3008676___4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3008676___4\PMC3008676___4.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:59.520] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3008676_4
+================================================================================
+Timestamp: 2025-08-06 21:35:22
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3008676___4
+================================================================================
+
+
+
+[21:35:22.447] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:35:22.469] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:35:22.493] === DATA_LOADING ===
+Chargement des données GT depuis PMC3008676___4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3008676___4.json
+  - Series Count: 1
+  - Series Names: ['CHRNA4']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[21:35:22.520] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3008676___4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3008676___4\PMC3008676___4.json
+  - Series Count: 1
+  - Series Names: ['CHRNA4']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 5
+--------------------------------------------------
+
+[21:35:22.522] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0545
+  - Y Min-Max: [0.0000, 0.0545]
+  - X Range: 4.09974428556518
+--------------------------------------------------
+
+[21:35:22.524] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:35:22.527] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['CHRNA4 <-> CHRNA4 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:35:23.055] === SERIES_COMPARISON ===
+Comparaison CHRNA4 vs CHRNA4 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001321
+  - MAE Relative: 0.024220
+  - Left Miss (rel): 0.011769
+  - Right Miss (rel): 0.012560
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 5
+  - Points Ratio: 0.33
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:35:23
+Total Duration: 0.62 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3008676_4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3008676_4
+================================================================================
+Timestamp: 2025-08-07 12:51:32
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3008676___4
+================================================================================
+
+
+
+[12:51:32.433] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:51:32.437] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:51:32.516] === DATA_LOADING ===
+Chargement des données GT depuis PMC3008676___4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3008676___4.json
+  - Series Count: 1
+  - Series Names: ['CHRNA4']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[12:51:32.521] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3008676___4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3008676___4\PMC3008676___4.json
+  - Series Count: 1
+  - Series Names: ['CHRNA4']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 9
+--------------------------------------------------
+
+[12:51:32.525] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0534
+  - Y Min-Max: [0.0012, 0.0545]
+  - X Range: 4.09974428556518
+--------------------------------------------------
+
+[12:51:32.528] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:51:32.531] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['CHRNA4 <-> CHRNA4 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:51:33.106] === SERIES_COMPARISON ===
+Comparaison CHRNA4 vs CHRNA4 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001913
+  - MAE Relative: 0.035848
+  - Left Miss (rel): 0.011769
+  - Right Miss (rel): 0.012560
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 9
+  - Points Ratio: 0.60
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:51:33
+Total Duration: 0.68 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3008676_4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

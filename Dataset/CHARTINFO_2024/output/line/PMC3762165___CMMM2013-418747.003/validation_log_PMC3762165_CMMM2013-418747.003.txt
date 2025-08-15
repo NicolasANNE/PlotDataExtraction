@@ -1,0 +1,129 @@
+
+================================================================================
+VALIDATION LOG - PMC3762165_CMMM2013-418747.003
+================================================================================
+Timestamp: 2025-08-07 12:59:41
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3762165___CMMM2013-418747.003
+================================================================================
+
+
+
+[12:59:41.795] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:59:41.806] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:59:41.870] === DATA_LOADING ===
+Chargement des données GT depuis PMC3762165___CMMM2013-418747.003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3762165___CMMM2013-418747.003.json
+  - Series Count: 3
+  - Series Names: ['ASD-POCS', 'ADTVM', 'New method']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[12:59:41.881] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3762165___CMMM2013-418747.003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3762165___CMMM2013-418747.003\PMC3762165___CMMM2013-418747.003.json
+  - Series Count: 3
+  - Series Names: ['ASD-POCS', 'ADTVM', 'New method']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 60
+--------------------------------------------------
+
+[12:59:41.900] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0099
+  - Y Min-Max: [0.0001, 0.0100]
+  - X Range: 951.7941099033364
+--------------------------------------------------
+
+[12:59:41.904] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:59:41.907] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['ASD-POCS <-> ASD-POCS (method=exact_match, score=1.000)', 'ADTVM <-> ADTVM (method=exact_match, score=1.000)', 'New method <-> New method (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:59:43.487] === SERIES_COMPARISON ===
+Comparaison ASD-POCS vs ASD-POCS avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000096
+  - MAE Relative: 0.009733
+  - Left Miss (rel): -0.009854
+  - Right Miss (rel): 0.001885
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 20
+  - Points Ratio: 2.00
+--------------------------------------------------
+
+[12:59:45.261] === SERIES_COMPARISON ===
+Comparaison ADTVM vs ADTVM avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000212
+  - MAE Relative: 0.021515
+  - Left Miss (rel): -0.022657
+  - Right Miss (rel): -0.000249
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 20
+  - Points Ratio: 1.67
+--------------------------------------------------
+
+[12:59:47.561] === SERIES_COMPARISON ===
+Comparaison New method vs New method avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000186
+  - MAE Relative: 0.018876
+  - Left Miss (rel): -0.026925
+  - Right Miss (rel): -0.000249
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 20
+  - Points Ratio: 2.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:59:47
+Total Duration: 5.82 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3762165_CMMM2013-418747.003.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

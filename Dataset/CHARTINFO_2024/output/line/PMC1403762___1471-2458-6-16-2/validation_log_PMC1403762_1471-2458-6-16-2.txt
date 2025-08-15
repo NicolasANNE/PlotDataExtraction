@@ -1,0 +1,743 @@
+
+================================================================================
+VALIDATION LOG - PMC1403762_1471-2458-6-16-2
+================================================================================
+Timestamp: 2025-08-06 20:15:26
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1403762___1471-2458-6-16-2
+================================================================================
+
+
+
+[20:15:26.209] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:26.242] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:26.260] === DATA_LOADING ===
+Chargement des données GT depuis PMC1403762___1471-2458-6-16-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1403762___1471-2458-6-16-2.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:26.262] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1403762___1471-2458-6-16-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1403762___1471-2458-6-16-2\PMC1403762___1471-2458-6-16-2.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:26.264] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1403762_1471-2458-6-16-2
+================================================================================
+Timestamp: 2025-08-06 21:31:06
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1403762___1471-2458-6-16-2
+================================================================================
+
+
+
+[21:31:06.185] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:31:06.187] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:31:06.231] === DATA_LOADING ===
+Chargement des données GT depuis PMC1403762___1471-2458-6-16-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1403762___1471-2458-6-16-2.json
+  - Series Count: 2
+  - Series Names: ['[unnamed data series #0]', '[unnamed data series #1]']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[21:31:06.235] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1403762___1471-2458-6-16-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1403762___1471-2458-6-16-2\PMC1403762___1471-2458-6-16-2.json
+  - Series Count: 2
+  - Series Names: ['unnamed data series #0', 'unnamed data series #1']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[21:31:06.238] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 205.0000
+  - Y Min-Max: [195.0000, 400.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[21:31:06.240] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:31:06.244] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['[unnamed data series #0] <-> unnamed data series #0 (method=position_match_generic, score=0.100)', '[unnamed data series #1] <-> unnamed data series #1 (method=position_match_generic, score=0.100)']
+--------------------------------------------------
+
+[21:31:07.271] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs unnamed data series #0 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 53.639587
+  - MAE Relative: 0.261657
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.773000
+  - GT Points: 10
+  - Extracted Points: 10
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:31:08.455] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #1] vs unnamed data series #1 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 60.706943
+  - MAE Relative: 0.296131
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.773000
+  - GT Points: 10
+  - Extracted Points: 10
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:31:08
+Total Duration: 2.28 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1403762_1471-2458-6-16-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1403762_1471-2458-6-16-2
+================================================================================
+Timestamp: 2025-08-07 12:47:06
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1403762___1471-2458-6-16-2
+================================================================================
+
+
+
+[12:47:06.490] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:47:06.493] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:47:06.546] === DATA_LOADING ===
+Chargement des données GT depuis PMC1403762___1471-2458-6-16-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1403762___1471-2458-6-16-2.json
+  - Series Count: 2
+  - Series Names: ['[unnamed data series #0]', '[unnamed data series #1]']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[12:47:06.550] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1403762___1471-2458-6-16-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1403762___1471-2458-6-16-2\PMC1403762___1471-2458-6-16-2.json
+  - Series Count: 2
+  - Series Names: ['unnamed data series #0', 'unnamed data series #1']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[12:47:06.569] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 205.0000
+  - Y Min-Max: [195.0000, 400.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:47:06.572] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:47:06.580] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['[unnamed data series #0] <-> unnamed data series #0 (method=position_match_generic, score=0.100)', '[unnamed data series #1] <-> unnamed data series #1 (method=position_match_generic, score=0.100)']
+--------------------------------------------------
+
+[12:47:07.621] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs unnamed data series #0 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 71.286897
+  - MAE Relative: 0.347741
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.773000
+  - GT Points: 10
+  - Extracted Points: 10
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:47:08.717] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #1] vs unnamed data series #1 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 64.206943
+  - MAE Relative: 0.313205
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.773000
+  - GT Points: 10
+  - Extracted Points: 10
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:47:08
+Total Duration: 2.26 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1403762_1471-2458-6-16-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1403762_1471-2458-6-16-2
+================================================================================
+Timestamp: 2025-08-07 13:04:02
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1403762___1471-2458-6-16-2
+================================================================================
+
+
+
+[13:04:02.355] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:04:02.358] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:04:02.419] === DATA_LOADING ===
+Chargement des données GT depuis PMC1403762___1471-2458-6-16-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1403762___1471-2458-6-16-2.json
+  - Series Count: 2
+  - Series Names: ['[unnamed data series #0]', '[unnamed data series #1]']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[13:04:02.443] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1403762___1471-2458-6-16-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1403762___1471-2458-6-16-2\PMC1403762___1471-2458-6-16-2.json
+  - Series Count: 2
+  - Series Names: ['unnamed data series #0', 'unnamed data series #1']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[13:04:02.450] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 205.0000
+  - Y Min-Max: [195.0000, 400.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:04:02.454] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:04:02.464] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['[unnamed data series #0] <-> unnamed data series #0 (method=position_match_generic, score=0.100)', '[unnamed data series #1] <-> unnamed data series #1 (method=position_match_generic, score=0.100)']
+--------------------------------------------------
+
+[13:04:03.790] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs unnamed data series #0 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 53.639587
+  - MAE Relative: 0.261657
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.773000
+  - GT Points: 10
+  - Extracted Points: 10
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:04:05.264] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #1] vs unnamed data series #1 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 60.706943
+  - MAE Relative: 0.296131
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.773000
+  - GT Points: 10
+  - Extracted Points: 10
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:04:05
+Total Duration: 2.92 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1403762_1471-2458-6-16-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1403762_1471-2458-6-16-2
+================================================================================
+Timestamp: 2025-08-07 16:37:38
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1403762___1471-2458-6-16-2
+================================================================================
+
+
+
+[16:37:38.834] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:37:38.838] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:37:38.936] === DATA_LOADING ===
+Chargement des données GT depuis PMC1403762___1471-2458-6-16-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1403762___1471-2458-6-16-2.json
+  - Series Count: 2
+  - Series Names: ['[unnamed data series #0]', '[unnamed data series #1]']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[16:37:38.939] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1403762___1471-2458-6-16-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1403762___1471-2458-6-16-2\PMC1403762___1471-2458-6-16-2.json
+  - Series Count: 2
+  - Series Names: ['unnamed data series #0', 'unnamed data series #1']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[16:37:38.941] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 205.0000
+  - Y Min-Max: [195.0000, 400.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:37:38.943] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:37:38.967] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['[unnamed data series #0] <-> unnamed data series #0 (method=position_match_generic, score=0.100)', '[unnamed data series #1] <-> unnamed data series #1 (method=position_match_generic, score=0.100)']
+--------------------------------------------------
+
+[16:37:39.973] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs unnamed data series #0 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 71.286897
+  - MAE Relative: 0.347741
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.773000
+  - GT Points: 10
+  - Extracted Points: 10
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:37:41.013] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #1] vs unnamed data series #1 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 64.206943
+  - MAE Relative: 0.313205
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.773000
+  - GT Points: 10
+  - Extracted Points: 10
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:37:41
+Total Duration: 2.18 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1403762_1471-2458-6-16-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1403762_1471-2458-6-16-2
+================================================================================
+Timestamp: 2025-08-07 16:56:52
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1403762___1471-2458-6-16-2
+================================================================================
+
+
+
+[16:56:52.169] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:56:52.190] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:56:52.259] === DATA_LOADING ===
+Chargement des données GT depuis PMC1403762___1471-2458-6-16-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1403762___1471-2458-6-16-2.json
+  - Series Count: 2
+  - Series Names: ['[unnamed data series #0]', '[unnamed data series #1]']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[16:56:52.267] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1403762___1471-2458-6-16-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1403762___1471-2458-6-16-2\PMC1403762___1471-2458-6-16-2.json
+  - Series Count: 2
+  - Series Names: ['unnamed data series #0', 'unnamed data series #1']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[16:56:52.275] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 205.0000
+  - Y Min-Max: [195.0000, 400.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:56:52.279] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:56:52.306] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['[unnamed data series #0] <-> unnamed data series #0 (method=position_match_generic, score=0.100)', '[unnamed data series #1] <-> unnamed data series #1 (method=position_match_generic, score=0.100)']
+--------------------------------------------------
+
+[16:56:54.375] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs unnamed data series #0 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 53.639587
+  - MAE Relative: 0.261657
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.773000
+  - GT Points: 10
+  - Extracted Points: 10
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:56:55.990] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #1] vs unnamed data series #1 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 60.706943
+  - MAE Relative: 0.296131
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.773000
+  - GT Points: 10
+  - Extracted Points: 10
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:56:55
+Total Duration: 3.85 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1403762_1471-2458-6-16-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1403762_1471-2458-6-16-2
+================================================================================
+Timestamp: 2025-08-11 13:45:43
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1403762___1471-2458-6-16-2
+================================================================================
+
+
+
+[13:45:43.070] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:45:43.077] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:45:43.208] === DATA_LOADING ===
+Chargement des données GT depuis PMC1403762___1471-2458-6-16-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1403762___1471-2458-6-16-2.json
+  - Series Count: 2
+  - Series Names: ['[unnamed data series #0]', '[unnamed data series #1]']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[13:45:43.220] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1403762___1471-2458-6-16-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1403762___1471-2458-6-16-2\PMC1403762___1471-2458-6-16-2.json
+  - Series Count: 2
+  - Series Names: ['unnamed data series #0', 'unnamed data series #1']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[13:45:43.227] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 205.0000
+  - Y Min-Max: [195.0000, 400.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:45:43.263] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:45:43.286] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['[unnamed data series #0] <-> unnamed data series #1 (method=similarity_match_generic, score=0.789)', '[unnamed data series #1] <-> unnamed data series #0 (method=similarity_match_generic, score=0.860)']
+--------------------------------------------------
+
+[13:45:45.444] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs unnamed data series #1 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 9.475163
+  - MAE Relative: 0.046220
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.773000
+  - GT Points: 10
+  - Extracted Points: 10
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:45:47.628] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #1] vs unnamed data series #0 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 14.248562
+  - MAE Relative: 0.069505
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.773000
+  - GT Points: 10
+  - Extracted Points: 10
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-11 13:45:47
+Total Duration: 4.58 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1403762_1471-2458-6-16-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

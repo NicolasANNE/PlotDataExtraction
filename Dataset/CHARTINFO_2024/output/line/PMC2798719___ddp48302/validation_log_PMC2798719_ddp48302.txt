@@ -1,0 +1,283 @@
+
+================================================================================
+VALIDATION LOG - PMC2798719_ddp48302
+================================================================================
+Timestamp: 2025-08-06 20:16:34
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2798719___ddp48302
+================================================================================
+
+
+
+[20:16:34.469] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:34.510] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:34.522] === DATA_LOADING ===
+Chargement des données GT depuis PMC2798719___ddp48302.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2798719___ddp48302.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:34.546] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2798719___ddp48302.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2798719___ddp48302\PMC2798719___ddp48302.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:34.548] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2798719_ddp48302
+================================================================================
+Timestamp: 2025-08-06 21:34:03
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2798719___ddp48302
+================================================================================
+
+
+
+[21:34:04.006] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:34:04.010] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:34:04.050] === DATA_LOADING ===
+Chargement des données GT depuis PMC2798719___ddp48302.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2798719___ddp48302.json
+  - Series Count: 2
+  - Series Names: ['OoTsc1^{+/+}(n=14)', 'OoTsc1^{-/-} (n=10)']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[21:34:04.053] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2798719___ddp48302.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2798719___ddp48302\PMC2798719___ddp48302.json
+  - Series Count: 2
+  - Series Names: ['OoTsc1-/- (n=10)', 'OoTsc1+/+ (n=14)']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[21:34:04.056] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 22.0676
+  - Y Min-Max: [-0.0331, 22.0345]
+  - X Range: 20.988296488946684
+--------------------------------------------------
+
+[21:34:04.057] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:34:04.060] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['OoTsc1^{+/+}(n=14) <-> OoTsc1+/+ (n=14) (method=fuzzy_match, score=0.850)', 'OoTsc1^{-/-} (n=10) <-> OoTsc1-/- (n=10) (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[21:34:04.783] === SERIES_COMPARISON ===
+Comparaison OoTsc1^{+/+}(n=14) vs OoTsc1+/+ (n=14) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.797323
+  - MAE Relative: 0.036131
+  - Left Miss (rel): -0.045849
+  - Right Miss (rel): 0.047088
+  - X Cutoff: N/A
+  - GT Points: 32
+  - Extracted Points: 11
+  - Points Ratio: 0.34
+--------------------------------------------------
+
+[21:34:05.541] === SERIES_COMPARISON ===
+Comparaison OoTsc1^{-/-} (n=10) vs OoTsc1-/- (n=10) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.231302
+  - MAE Relative: 0.055797
+  - Left Miss (rel): -0.045849
+  - Right Miss (rel): 0.044610
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 11
+  - Points Ratio: 1.38
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:34:05
+Total Duration: 1.55 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2798719_ddp48302.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2798719_ddp48302
+================================================================================
+Timestamp: 2025-08-07 12:50:17
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2798719___ddp48302
+================================================================================
+
+
+
+[12:50:17.376] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:50:17.378] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:50:17.424] === DATA_LOADING ===
+Chargement des données GT depuis PMC2798719___ddp48302.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2798719___ddp48302.json
+  - Series Count: 2
+  - Series Names: ['OoTsc1^{+/+}(n=14)', 'OoTsc1^{-/-} (n=10)']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[12:50:17.437] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2798719___ddp48302.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2798719___ddp48302\PMC2798719___ddp48302.json
+  - Series Count: 2
+  - Series Names: ['OoTsc1+/+ (n=14)', 'OoTsc1-/- (n=10)']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 31
+--------------------------------------------------
+
+[12:50:17.442] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 22.0676
+  - Y Min-Max: [-0.0331, 22.0345]
+  - X Range: 20.988296488946684
+--------------------------------------------------
+
+[12:50:17.444] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:50:17.446] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['OoTsc1^{+/+}(n=14) <-> OoTsc1+/+ (n=14) (method=fuzzy_match, score=0.850)', 'OoTsc1^{-/-} (n=10) <-> OoTsc1-/- (n=10) (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[12:50:18.080] === SERIES_COMPARISON ===
+Comparaison OoTsc1^{+/+}(n=14) vs OoTsc1+/+ (n=14) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.000050
+  - MAE Relative: 0.045318
+  - Left Miss (rel): -0.045849
+  - Right Miss (rel): 0.047088
+  - X Cutoff: N/A
+  - GT Points: 32
+  - Extracted Points: 21
+  - Points Ratio: 0.66
+--------------------------------------------------
+
+[12:50:18.669] === SERIES_COMPARISON ===
+Comparaison OoTsc1^{-/-} (n=10) vs OoTsc1-/- (n=10) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.423785
+  - MAE Relative: 0.019204
+  - Left Miss (rel): -0.045849
+  - Right Miss (rel): 0.044610
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 10
+  - Points Ratio: 1.25
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:50:18
+Total Duration: 1.30 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2798719_ddp48302.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

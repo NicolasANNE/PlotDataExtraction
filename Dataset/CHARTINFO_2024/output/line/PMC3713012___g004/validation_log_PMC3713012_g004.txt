@@ -1,0 +1,143 @@
+
+================================================================================
+VALIDATION LOG - PMC3713012_g004
+================================================================================
+Timestamp: 2025-08-07 12:59:14
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3713012___g004
+================================================================================
+
+
+
+[12:59:14.604] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:59:14.608] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:59:14.647] === DATA_LOADING ===
+Chargement des données GT depuis PMC3713012___g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3713012___g004.json
+  - Series Count: 4
+  - Series Names: ['peptide 22', 'peptide 25', 'peptide 103', 'peptide 107']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 84
+--------------------------------------------------
+
+[12:59:14.653] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3713012___g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3713012___g004\PMC3713012___g004.json
+  - Series Count: 4
+  - Series Names: ['peptide 22', 'peptide 25', 'peptide 103', 'peptide 107']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 44
+--------------------------------------------------
+
+[12:59:14.656] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 91.9885
+  - Y Min-Max: [-26.5476, 65.4409]
+  - X Range: 0.10021716399903469
+--------------------------------------------------
+
+[12:59:14.658] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:59:14.662] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['peptide 22 <-> peptide 22 (method=exact_match, score=1.000)', 'peptide 25 <-> peptide 25 (method=exact_match, score=1.000)', 'peptide 103 <-> peptide 103 (method=exact_match, score=1.000)', 'peptide 107 <-> peptide 107 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:59:15.392] === SERIES_COMPARISON ===
+Comparaison peptide 22 vs peptide 22 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 4.644461
+  - MAE Relative: 0.050490
+  - Left Miss (rel): 0.001605
+  - Right Miss (rel): 0.000562
+  - X Cutoff: N/A
+  - GT Points: 21
+  - Extracted Points: 11
+  - Points Ratio: 0.52
+--------------------------------------------------
+
+[12:59:16.170] === SERIES_COMPARISON ===
+Comparaison peptide 25 vs peptide 25 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.609641
+  - MAE Relative: 0.028369
+  - Left Miss (rel): -0.001605
+  - Right Miss (rel): -0.001043
+  - X Cutoff: N/A
+  - GT Points: 21
+  - Extracted Points: 11
+  - Points Ratio: 0.52
+--------------------------------------------------
+
+[12:59:17.173] === SERIES_COMPARISON ===
+Comparaison peptide 103 vs peptide 103 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.835167
+  - MAE Relative: 0.041692
+  - Left Miss (rel): 0.001605
+  - Right Miss (rel): -0.001043
+  - X Cutoff: N/A
+  - GT Points: 21
+  - Extracted Points: 11
+  - Points Ratio: 0.52
+--------------------------------------------------
+
+[12:59:18.112] === SERIES_COMPARISON ===
+Comparaison peptide 107 vs peptide 107 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 7.560577
+  - MAE Relative: 0.082190
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000562
+  - X Cutoff: N/A
+  - GT Points: 21
+  - Extracted Points: 11
+  - Points Ratio: 0.52
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:59:18
+Total Duration: 3.52 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3713012_g004.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

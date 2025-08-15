@@ -1,0 +1,342 @@
+
+================================================================================
+VALIDATION LOG - PMC3306921_fgene-03-00038-g002
+================================================================================
+Timestamp: 2025-08-06 21:38:17
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3306921___fgene-03-00038-g002
+================================================================================
+
+
+
+[21:38:17.856] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:38:17.859] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:38:17.959] === DATA_LOADING ===
+Chargement des données GT depuis PMC3306921___fgene-03-00038-g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3306921___fgene-03-00038-g002.json
+  - Series Count: 6
+  - Series Names: ['Processor 1', 'Processor 2', 'Processor 3', 'Processor 4', 'Processor 5', 'Processor 6']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 29
+--------------------------------------------------
+
+[21:38:17.964] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3306921___fgene-03-00038-g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3306921___fgene-03-00038-g002\PMC3306921___fgene-03-00038-g002.json
+  - Series Count: 6
+  - Series Names: ['Processor 1', 'Processor 2', 'Processor 3', 'Processor 4', 'Processor 5', 'Processor 6']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 30
+--------------------------------------------------
+
+[21:38:17.979] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 493.8064
+  - Y Min-Max: [23.7916, 517.5980]
+  - X Range: 15.227115555571961
+--------------------------------------------------
+
+[21:38:18.000] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:38:18.017] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['Processor 1 <-> Processor 1 (method=exact_match, score=1.000)', 'Processor 2 <-> Processor 2 (method=exact_match, score=1.000)', 'Processor 3 <-> Processor 3 (method=exact_match, score=1.000)', 'Processor 4 <-> Processor 4 (method=exact_match, score=1.000)', 'Processor 5 <-> Processor 5 (method=exact_match, score=1.000)', 'Processor 6 <-> Processor 6 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:38:19.938] === SERIES_COMPARISON ===
+Comparaison Processor 1 vs Processor 1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 4.514617
+  - MAE Relative: 0.009142
+  - Left Miss (rel): 0.000228
+  - Right Miss (rel): 0.013895
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:38:21.971] === SERIES_COMPARISON ===
+Comparaison Processor 2 vs Processor 2 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 217.728137
+  - MAE Relative: 0.440918
+  - Left Miss (rel): 0.001020
+  - Right Miss (rel): -0.011727
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:38:23.300] === SERIES_COMPARISON ===
+Comparaison Processor 3 vs Processor 3 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 255.595394
+  - MAE Relative: 0.517602
+  - Left Miss (rel): -0.000689
+  - Right Miss (rel): -0.004470
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:38:24.259] === SERIES_COMPARISON ===
+Comparaison Processor 4 vs Processor 4 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 8.052735
+  - MAE Relative: 0.016307
+  - Left Miss (rel): -0.000459
+  - Right Miss (rel): -0.000822
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 5
+  - Points Ratio: 1.25
+--------------------------------------------------
+
+[21:38:25.064] === SERIES_COMPARISON ===
+Comparaison Processor 5 vs Processor 5 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 5.819757
+  - MAE Relative: 0.011786
+  - Left Miss (rel): 0.000455
+  - Right Miss (rel): 0.000091
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:38:26.180] === SERIES_COMPARISON ===
+Comparaison Processor 6 vs Processor 6 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.359806
+  - MAE Relative: 0.004779
+  - Left Miss (rel): -0.001037
+  - Right Miss (rel): -0.006289
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:38:26
+Total Duration: 8.37 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3306921_fgene-03-00038-g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3306921_fgene-03-00038-g002
+================================================================================
+Timestamp: 2025-08-07 12:54:03
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3306921___fgene-03-00038-g002
+================================================================================
+
+
+
+[12:54:03.526] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:54:03.546] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:54:03.605] === DATA_LOADING ===
+Chargement des données GT depuis PMC3306921___fgene-03-00038-g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3306921___fgene-03-00038-g002.json
+  - Series Count: 6
+  - Series Names: ['Processor 1', 'Processor 2', 'Processor 3', 'Processor 4', 'Processor 5', 'Processor 6']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 29
+--------------------------------------------------
+
+[12:54:03.612] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3306921___fgene-03-00038-g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3306921___fgene-03-00038-g002\PMC3306921___fgene-03-00038-g002.json
+  - Series Count: 6
+  - Series Names: ['Processor 1', 'Processor 2', 'Processor 3', 'Processor 4', 'Processor 5', 'Processor 6']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 30
+--------------------------------------------------
+
+[12:54:03.617] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 497.5980
+  - Y Min-Max: [20.0000, 517.5980]
+  - X Range: 15.227115555571961
+--------------------------------------------------
+
+[12:54:03.639] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:54:03.643] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['Processor 1 <-> Processor 1 (method=exact_match, score=1.000)', 'Processor 2 <-> Processor 2 (method=exact_match, score=1.000)', 'Processor 3 <-> Processor 3 (method=exact_match, score=1.000)', 'Processor 4 <-> Processor 4 (method=exact_match, score=1.000)', 'Processor 5 <-> Processor 5 (method=exact_match, score=1.000)', 'Processor 6 <-> Processor 6 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:54:05.361] === SERIES_COMPARISON ===
+Comparaison Processor 1 vs Processor 1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.907437
+  - MAE Relative: 0.007853
+  - Left Miss (rel): 0.000228
+  - Right Miss (rel): 0.013895
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:54:06.596] === SERIES_COMPARISON ===
+Comparaison Processor 2 vs Processor 2 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 217.728137
+  - MAE Relative: 0.437558
+  - Left Miss (rel): 0.001020
+  - Right Miss (rel): -0.011727
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:54:07.318] === SERIES_COMPARISON ===
+Comparaison Processor 3 vs Processor 3 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 257.249890
+  - MAE Relative: 0.516983
+  - Left Miss (rel): -0.000689
+  - Right Miss (rel): -0.004470
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:54:08.001] === SERIES_COMPARISON ===
+Comparaison Processor 4 vs Processor 4 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 8.308883
+  - MAE Relative: 0.016698
+  - Left Miss (rel): -0.000459
+  - Right Miss (rel): -0.000822
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 5
+  - Points Ratio: 1.25
+--------------------------------------------------
+
+[12:54:08.720] === SERIES_COMPARISON ===
+Comparaison Processor 5 vs Processor 5 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 5.884296
+  - MAE Relative: 0.011825
+  - Left Miss (rel): 0.000455
+  - Right Miss (rel): 0.000091
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:54:09.474] === SERIES_COMPARISON ===
+Comparaison Processor 6 vs Processor 6 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 5.815591
+  - MAE Relative: 0.011687
+  - Left Miss (rel): -0.001037
+  - Right Miss (rel): -0.006289
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:54:09
+Total Duration: 5.97 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3306921_fgene-03-00038-g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

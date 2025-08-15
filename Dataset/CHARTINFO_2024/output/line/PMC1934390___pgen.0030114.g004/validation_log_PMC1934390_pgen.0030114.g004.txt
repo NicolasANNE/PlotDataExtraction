@@ -1,0 +1,628 @@
+
+================================================================================
+VALIDATION LOG - PMC1934390_pgen.0030114.g004
+================================================================================
+Timestamp: 2025-08-06 20:15:44
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1934390___pgen.0030114.g004
+================================================================================
+
+
+
+[20:15:44.942] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:44.974] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:44.991] === DATA_LOADING ===
+Chargement des données GT depuis PMC1934390___pgen.0030114.g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1934390___pgen.0030114.g004.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:45.008] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1934390___pgen.0030114.g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1934390___pgen.0030114.g004\PMC1934390___pgen.0030114.g004.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:45.010] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1934390_pgen.0030114.g004
+================================================================================
+Timestamp: 2025-08-06 21:31:58
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1934390___pgen.0030114.g004
+================================================================================
+
+
+
+[21:31:58.717] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:31:58.718] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:31:58.741] === DATA_LOADING ===
+Chargement des données GT depuis PMC1934390___pgen.0030114.g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1934390___pgen.0030114.g004.json
+  - Series Count: 2
+  - Series Names: ['fastPHASE imputations', 'PHASE imputations']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 103
+--------------------------------------------------
+
+[21:31:58.744] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1934390___pgen.0030114.g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1934390___pgen.0030114.g004\PMC1934390___pgen.0030114.g004.json
+  - Series Count: 2
+  - Series Names: ['fastPHASE imputations', 'PHASE imputations']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[21:31:58.747] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.2963
+  - Y Min-Max: [0.0200, 0.3163]
+  - X Range: 0.10408599828694409
+--------------------------------------------------
+
+[21:31:58.749] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:31:58.751] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['fastPHASE imputations <-> fastPHASE imputations (method=exact_match, score=1.000)', 'PHASE imputations <-> PHASE imputations (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:32:00.101] === SERIES_COMPARISON ===
+Comparaison fastPHASE imputations vs fastPHASE imputations avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.020739
+  - MAE Relative: 0.069992
+  - Left Miss (rel): -0.016385
+  - Right Miss (rel): 0.036277
+  - X Cutoff: N/A
+  - GT Points: 44
+  - Extracted Points: 11
+  - Points Ratio: 0.25
+--------------------------------------------------
+
+[21:32:01.700] === SERIES_COMPARISON ===
+Comparaison PHASE imputations vs PHASE imputations avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.011070
+  - MAE Relative: 0.037359
+  - Left Miss (rel): 0.002979
+  - Right Miss (rel): 0.035534
+  - X Cutoff: N/A
+  - GT Points: 59
+  - Extracted Points: 11
+  - Points Ratio: 0.19
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:32:01
+Total Duration: 2.99 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1934390_pgen.0030114.g004.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1934390_pgen.0030114.g004
+================================================================================
+Timestamp: 2025-08-07 12:47:59
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1934390___pgen.0030114.g004
+================================================================================
+
+
+
+[12:47:59.041] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:47:59.045] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:47:59.101] === DATA_LOADING ===
+Chargement des données GT depuis PMC1934390___pgen.0030114.g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1934390___pgen.0030114.g004.json
+  - Series Count: 2
+  - Series Names: ['fastPHASE imputations', 'PHASE imputations']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 103
+--------------------------------------------------
+
+[12:47:59.108] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1934390___pgen.0030114.g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1934390___pgen.0030114.g004\PMC1934390___pgen.0030114.g004.json
+  - Series Count: 2
+  - Series Names: ['fastPHASE imputations', 'PHASE imputations']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[12:47:59.117] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.2963
+  - Y Min-Max: [0.0200, 0.3163]
+  - X Range: 0.10408599828694409
+--------------------------------------------------
+
+[12:47:59.120] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:47:59.122] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['fastPHASE imputations <-> fastPHASE imputations (method=exact_match, score=1.000)', 'PHASE imputations <-> PHASE imputations (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:47:59.966] === SERIES_COMPARISON ===
+Comparaison fastPHASE imputations vs fastPHASE imputations avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.020739
+  - MAE Relative: 0.069992
+  - Left Miss (rel): -0.016385
+  - Right Miss (rel): 0.036277
+  - X Cutoff: N/A
+  - GT Points: 44
+  - Extracted Points: 11
+  - Points Ratio: 0.25
+--------------------------------------------------
+
+[12:48:01.086] === SERIES_COMPARISON ===
+Comparaison PHASE imputations vs PHASE imputations avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.011070
+  - MAE Relative: 0.037359
+  - Left Miss (rel): 0.002979
+  - Right Miss (rel): 0.035534
+  - X Cutoff: N/A
+  - GT Points: 59
+  - Extracted Points: 11
+  - Points Ratio: 0.19
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:48:01
+Total Duration: 2.06 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1934390_pgen.0030114.g004.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1934390_pgen.0030114.g004
+================================================================================
+Timestamp: 2025-08-07 13:04:55
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1934390___pgen.0030114.g004
+================================================================================
+
+
+
+[13:04:55.360] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:04:55.363] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:04:55.399] === DATA_LOADING ===
+Chargement des données GT depuis PMC1934390___pgen.0030114.g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1934390___pgen.0030114.g004.json
+  - Series Count: 2
+  - Series Names: ['fastPHASE imputations', 'PHASE imputations']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 103
+--------------------------------------------------
+
+[13:04:55.403] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1934390___pgen.0030114.g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1934390___pgen.0030114.g004\PMC1934390___pgen.0030114.g004.json
+  - Series Count: 2
+  - Series Names: ['fastPHASE imputations', 'PHASE imputations']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[13:04:55.406] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.2963
+  - Y Min-Max: [0.0200, 0.3163]
+  - X Range: 0.10408599828694409
+--------------------------------------------------
+
+[13:04:55.409] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:04:55.412] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['fastPHASE imputations <-> fastPHASE imputations (method=exact_match, score=1.000)', 'PHASE imputations <-> PHASE imputations (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:04:56.052] === SERIES_COMPARISON ===
+Comparaison fastPHASE imputations vs fastPHASE imputations avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.020739
+  - MAE Relative: 0.069992
+  - Left Miss (rel): -0.016385
+  - Right Miss (rel): 0.036277
+  - X Cutoff: N/A
+  - GT Points: 44
+  - Extracted Points: 11
+  - Points Ratio: 0.25
+--------------------------------------------------
+
+[13:04:57.480] === SERIES_COMPARISON ===
+Comparaison PHASE imputations vs PHASE imputations avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.011070
+  - MAE Relative: 0.037359
+  - Left Miss (rel): 0.002979
+  - Right Miss (rel): 0.035534
+  - X Cutoff: N/A
+  - GT Points: 59
+  - Extracted Points: 11
+  - Points Ratio: 0.19
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:04:57
+Total Duration: 2.16 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1934390_pgen.0030114.g004.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1934390_pgen.0030114.g004
+================================================================================
+Timestamp: 2025-08-07 16:38:31
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1934390___pgen.0030114.g004
+================================================================================
+
+
+
+[16:38:31.446] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:38:31.454] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:38:31.503] === DATA_LOADING ===
+Chargement des données GT depuis PMC1934390___pgen.0030114.g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1934390___pgen.0030114.g004.json
+  - Series Count: 2
+  - Series Names: ['fastPHASE imputations', 'PHASE imputations']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 103
+--------------------------------------------------
+
+[16:38:31.506] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1934390___pgen.0030114.g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1934390___pgen.0030114.g004\PMC1934390___pgen.0030114.g004.json
+  - Series Count: 2
+  - Series Names: ['fastPHASE imputations', 'PHASE imputations']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[16:38:31.510] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.2963
+  - Y Min-Max: [0.0200, 0.3163]
+  - X Range: 0.10408599828694409
+--------------------------------------------------
+
+[16:38:31.517] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:38:31.543] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['fastPHASE imputations <-> fastPHASE imputations (method=exact_match, score=1.000)', 'PHASE imputations <-> PHASE imputations (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:38:32.541] === SERIES_COMPARISON ===
+Comparaison fastPHASE imputations vs fastPHASE imputations avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.020739
+  - MAE Relative: 0.069992
+  - Left Miss (rel): -0.016385
+  - Right Miss (rel): 0.036277
+  - X Cutoff: N/A
+  - GT Points: 44
+  - Extracted Points: 11
+  - Points Ratio: 0.25
+--------------------------------------------------
+
+[16:38:34.564] === SERIES_COMPARISON ===
+Comparaison PHASE imputations vs PHASE imputations avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.011070
+  - MAE Relative: 0.037359
+  - Left Miss (rel): 0.002979
+  - Right Miss (rel): 0.035534
+  - X Cutoff: N/A
+  - GT Points: 59
+  - Extracted Points: 11
+  - Points Ratio: 0.19
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:38:34
+Total Duration: 3.13 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1934390_pgen.0030114.g004.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1934390_pgen.0030114.g004
+================================================================================
+Timestamp: 2025-08-07 16:57:42
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1934390___pgen.0030114.g004
+================================================================================
+
+
+
+[16:57:42.394] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:57:42.396] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:57:42.433] === DATA_LOADING ===
+Chargement des données GT depuis PMC1934390___pgen.0030114.g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1934390___pgen.0030114.g004.json
+  - Series Count: 2
+  - Series Names: ['fastPHASE imputations', 'PHASE imputations']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 103
+--------------------------------------------------
+
+[16:57:42.436] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1934390___pgen.0030114.g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1934390___pgen.0030114.g004\PMC1934390___pgen.0030114.g004.json
+  - Series Count: 2
+  - Series Names: ['fastPHASE imputations', 'PHASE imputations']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[16:57:42.439] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.2963
+  - Y Min-Max: [0.0200, 0.3163]
+  - X Range: 0.10408599828694409
+--------------------------------------------------
+
+[16:57:42.440] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:57:42.442] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['fastPHASE imputations <-> fastPHASE imputations (method=exact_match, score=1.000)', 'PHASE imputations <-> PHASE imputations (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:57:43.370] === SERIES_COMPARISON ===
+Comparaison fastPHASE imputations vs fastPHASE imputations avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.020739
+  - MAE Relative: 0.069992
+  - Left Miss (rel): -0.016385
+  - Right Miss (rel): 0.036277
+  - X Cutoff: N/A
+  - GT Points: 44
+  - Extracted Points: 11
+  - Points Ratio: 0.25
+--------------------------------------------------
+
+[16:57:44.747] === SERIES_COMPARISON ===
+Comparaison PHASE imputations vs PHASE imputations avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.011070
+  - MAE Relative: 0.037359
+  - Left Miss (rel): 0.002979
+  - Right Miss (rel): 0.035534
+  - X Cutoff: N/A
+  - GT Points: 59
+  - Extracted Points: 11
+  - Points Ratio: 0.19
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:57:44
+Total Duration: 2.38 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1934390_pgen.0030114.g004.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

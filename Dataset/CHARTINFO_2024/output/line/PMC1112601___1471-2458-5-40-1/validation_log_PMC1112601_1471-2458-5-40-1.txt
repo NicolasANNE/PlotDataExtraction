@@ -1,0 +1,956 @@
+
+================================================================================
+VALIDATION LOG - PMC1112601_1471-2458-5-40-1
+================================================================================
+Timestamp: 2025-08-06 20:15:10
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1112601___1471-2458-5-40-1
+================================================================================
+
+
+
+[20:15:10.952] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:11.002] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:11.047] === DATA_LOADING ===
+Chargement des données GT depuis PMC1112601___1471-2458-5-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1112601___1471-2458-5-40-1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:11.049] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1112601___1471-2458-5-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1112601___1471-2458-5-40-1\PMC1112601___1471-2458-5-40-1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:11.061] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1112601_1471-2458-5-40-1
+================================================================================
+Timestamp: 2025-08-06 21:06:09
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1112601___1471-2458-5-40-1
+================================================================================
+
+
+
+[21:06:09.623] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:06:09.625] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:06:09.675] === DATA_LOADING ===
+Chargement des données GT depuis PMC1112601___1471-2458-5-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1112601___1471-2458-5-40-1.json
+  - Series Count: 3
+  - Series Names: ['used yesterday', 'median days used', 'daily use']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[21:06:09.702] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1112601___1471-2458-5-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1112601___1471-2458-5-40-1\PMC1112601___1471-2458-5-40-1.json
+  - Series Count: 3
+  - Series Names: ['median days used', 'daily use', 'used yesterday']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[21:06:09.705] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 89.7498
+  - Y Min-Max: [-0.0807, 89.6691]
+  - X Range: 7.022930123311426
+--------------------------------------------------
+
+[21:06:09.707] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:06:09.709] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['used yesterday <-> used yesterday (method=exact_match, score=1.000)', 'median days used <-> median days used (method=exact_match, score=1.000)', 'daily use <-> daily use (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:06:11.000] === SERIES_COMPARISON ===
+Comparaison used yesterday vs used yesterday avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 10.768216
+  - MAE Relative: 0.119980
+  - Left Miss (rel): 0.002717
+  - Right Miss (rel): -0.002738
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 8
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+[21:06:14.700] === SERIES_COMPARISON ===
+Comparaison median days used vs median days used avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 17.592860
+  - MAE Relative: 0.196021
+  - Left Miss (rel): -0.002174
+  - Right Miss (rel): -0.004381
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:06:17.363] === SERIES_COMPARISON ===
+Comparaison daily use vs daily use avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 20.152854
+  - MAE Relative: 0.224545
+  - Left Miss (rel): -0.144021
+  - Right Miss (rel): 0.000548
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 8
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:06:18
+Total Duration: 8.80 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1112601_1471-2458-5-40-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1112601_1471-2458-5-40-1
+================================================================================
+Timestamp: 2025-08-06 21:30:22
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1112601___1471-2458-5-40-1
+================================================================================
+
+
+
+[21:30:22.871] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:30:22.875] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:30:22.960] === DATA_LOADING ===
+Chargement des données GT depuis PMC1112601___1471-2458-5-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1112601___1471-2458-5-40-1.json
+  - Series Count: 3
+  - Series Names: ['used yesterday', 'median days used', 'daily use']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[21:30:22.987] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1112601___1471-2458-5-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1112601___1471-2458-5-40-1\PMC1112601___1471-2458-5-40-1.json
+  - Series Count: 3
+  - Series Names: ['used yesterday', 'median days used', 'daily use']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[21:30:23.024] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 89.7498
+  - Y Min-Max: [-0.0807, 89.6691]
+  - X Range: 7.022930123311426
+--------------------------------------------------
+
+[21:30:23.033] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:30:23.044] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['used yesterday <-> used yesterday (method=exact_match, score=1.000)', 'median days used <-> median days used (method=exact_match, score=1.000)', 'daily use <-> daily use (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:30:24.216] === SERIES_COMPARISON ===
+Comparaison used yesterday vs used yesterday avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.425346
+  - MAE Relative: 0.038166
+  - Left Miss (rel): 0.002717
+  - Right Miss (rel): -0.002738
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 8
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+[21:30:25.695] === SERIES_COMPARISON ===
+Comparaison median days used vs median days used avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.147841
+  - MAE Relative: 0.035074
+  - Left Miss (rel): -0.002174
+  - Right Miss (rel): -0.004381
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:30:27.327] === SERIES_COMPARISON ===
+Comparaison daily use vs daily use avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 20.311214
+  - MAE Relative: 0.226309
+  - Left Miss (rel): -0.144021
+  - Right Miss (rel): 0.000548
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 8
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:30:27
+Total Duration: 4.47 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1112601_1471-2458-5-40-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1112601_1471-2458-5-40-1
+================================================================================
+Timestamp: 2025-08-07 12:46:16
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1112601___1471-2458-5-40-1
+================================================================================
+
+
+
+[12:46:16.118] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:46:16.121] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:46:16.225] === DATA_LOADING ===
+Chargement des données GT depuis PMC1112601___1471-2458-5-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1112601___1471-2458-5-40-1.json
+  - Series Count: 3
+  - Series Names: ['used yesterday', 'median days used', 'daily use']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[12:46:16.238] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1112601___1471-2458-5-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1112601___1471-2458-5-40-1\PMC1112601___1471-2458-5-40-1.json
+  - Series Count: 3
+  - Series Names: ['median days used', 'daily use', 'used yesterday']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[12:46:16.248] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 89.7498
+  - Y Min-Max: [-0.0807, 89.6691]
+  - X Range: 7.022930123311426
+--------------------------------------------------
+
+[12:46:16.256] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:46:16.283] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['used yesterday <-> used yesterday (method=exact_match, score=1.000)', 'median days used <-> median days used (method=exact_match, score=1.000)', 'daily use <-> daily use (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:46:17.728] === SERIES_COMPARISON ===
+Comparaison used yesterday vs used yesterday avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 10.768216
+  - MAE Relative: 0.119980
+  - Left Miss (rel): 0.002717
+  - Right Miss (rel): -0.002738
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 8
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+[12:46:18.661] === SERIES_COMPARISON ===
+Comparaison median days used vs median days used avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 17.592860
+  - MAE Relative: 0.196021
+  - Left Miss (rel): -0.002174
+  - Right Miss (rel): -0.004381
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:46:19.949] === SERIES_COMPARISON ===
+Comparaison daily use vs daily use avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 20.152854
+  - MAE Relative: 0.224545
+  - Left Miss (rel): -0.144021
+  - Right Miss (rel): 0.000548
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 8
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:46:19
+Total Duration: 3.85 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1112601_1471-2458-5-40-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1112601_1471-2458-5-40-1
+================================================================================
+Timestamp: 2025-08-07 13:03:16
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1112601___1471-2458-5-40-1
+================================================================================
+
+
+
+[13:03:16.352] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:03:16.355] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:03:16.436] === DATA_LOADING ===
+Chargement des données GT depuis PMC1112601___1471-2458-5-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1112601___1471-2458-5-40-1.json
+  - Series Count: 3
+  - Series Names: ['used yesterday', 'median days used', 'daily use']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[13:03:16.441] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1112601___1471-2458-5-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1112601___1471-2458-5-40-1\PMC1112601___1471-2458-5-40-1.json
+  - Series Count: 3
+  - Series Names: ['used yesterday', 'median days used', 'daily use']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[13:03:16.445] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 89.7498
+  - Y Min-Max: [-0.0807, 89.6691]
+  - X Range: 7.022930123311426
+--------------------------------------------------
+
+[13:03:16.459] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:03:16.486] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['used yesterday <-> used yesterday (method=exact_match, score=1.000)', 'median days used <-> median days used (method=exact_match, score=1.000)', 'daily use <-> daily use (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:03:17.696] === SERIES_COMPARISON ===
+Comparaison used yesterday vs used yesterday avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.425346
+  - MAE Relative: 0.038166
+  - Left Miss (rel): 0.002717
+  - Right Miss (rel): -0.002738
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 8
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+[13:03:18.563] === SERIES_COMPARISON ===
+Comparaison median days used vs median days used avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.147841
+  - MAE Relative: 0.035074
+  - Left Miss (rel): -0.002174
+  - Right Miss (rel): -0.004381
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:03:20.099] === SERIES_COMPARISON ===
+Comparaison daily use vs daily use avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 20.311214
+  - MAE Relative: 0.226309
+  - Left Miss (rel): -0.144021
+  - Right Miss (rel): 0.000548
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 8
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:03:20
+Total Duration: 3.81 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1112601_1471-2458-5-40-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1112601_1471-2458-5-40-1
+================================================================================
+Timestamp: 2025-08-07 16:36:51
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1112601___1471-2458-5-40-1
+================================================================================
+
+
+
+[16:36:51.127] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:36:51.130] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:36:51.216] === DATA_LOADING ===
+Chargement des données GT depuis PMC1112601___1471-2458-5-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1112601___1471-2458-5-40-1.json
+  - Series Count: 3
+  - Series Names: ['used yesterday', 'median days used', 'daily use']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[16:36:51.224] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1112601___1471-2458-5-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1112601___1471-2458-5-40-1\PMC1112601___1471-2458-5-40-1.json
+  - Series Count: 3
+  - Series Names: ['used yesterday', 'median days used', 'daily use']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[16:36:51.234] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 89.7498
+  - Y Min-Max: [-0.0807, 89.6691]
+  - X Range: 7.022930123311426
+--------------------------------------------------
+
+[16:36:51.262] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:36:51.267] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['used yesterday <-> used yesterday (method=exact_match, score=1.000)', 'median days used <-> median days used (method=exact_match, score=1.000)', 'daily use <-> daily use (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:36:52.335] === SERIES_COMPARISON ===
+Comparaison used yesterday vs used yesterday avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.425346
+  - MAE Relative: 0.038166
+  - Left Miss (rel): 0.002717
+  - Right Miss (rel): -0.002738
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 8
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+[16:36:53.453] === SERIES_COMPARISON ===
+Comparaison median days used vs median days used avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.147841
+  - MAE Relative: 0.035074
+  - Left Miss (rel): -0.002174
+  - Right Miss (rel): -0.004381
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:36:54.593] === SERIES_COMPARISON ===
+Comparaison daily use vs daily use avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 20.311214
+  - MAE Relative: 0.226309
+  - Left Miss (rel): -0.144021
+  - Right Miss (rel): 0.000548
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 8
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:36:54
+Total Duration: 3.49 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1112601_1471-2458-5-40-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1112601_1471-2458-5-40-1
+================================================================================
+Timestamp: 2025-08-07 16:56:05
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1112601___1471-2458-5-40-1
+================================================================================
+
+
+
+[16:56:05.923] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:56:05.945] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:56:06.012] === DATA_LOADING ===
+Chargement des données GT depuis PMC1112601___1471-2458-5-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1112601___1471-2458-5-40-1.json
+  - Series Count: 3
+  - Series Names: ['used yesterday', 'median days used', 'daily use']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[16:56:06.019] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1112601___1471-2458-5-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1112601___1471-2458-5-40-1\PMC1112601___1471-2458-5-40-1.json
+  - Series Count: 3
+  - Series Names: ['used yesterday', 'median days used', 'daily use']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[16:56:06.023] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 89.7498
+  - Y Min-Max: [-0.0807, 89.6691]
+  - X Range: 7.022930123311426
+--------------------------------------------------
+
+[16:56:06.026] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:56:06.029] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['used yesterday <-> used yesterday (method=exact_match, score=1.000)', 'median days used <-> median days used (method=exact_match, score=1.000)', 'daily use <-> daily use (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:56:07.597] === SERIES_COMPARISON ===
+Comparaison used yesterday vs used yesterday avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.425346
+  - MAE Relative: 0.038166
+  - Left Miss (rel): 0.002717
+  - Right Miss (rel): -0.002738
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 8
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+[16:56:08.559] === SERIES_COMPARISON ===
+Comparaison median days used vs median days used avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.147841
+  - MAE Relative: 0.035074
+  - Left Miss (rel): -0.002174
+  - Right Miss (rel): -0.004381
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:56:10.011] === SERIES_COMPARISON ===
+Comparaison daily use vs daily use avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 20.311214
+  - MAE Relative: 0.226309
+  - Left Miss (rel): -0.144021
+  - Right Miss (rel): 0.000548
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 8
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:56:10
+Total Duration: 4.12 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1112601_1471-2458-5-40-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1112601_1471-2458-5-40-1
+================================================================================
+Timestamp: 2025-08-11 13:44:40
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1112601___1471-2458-5-40-1
+================================================================================
+
+
+
+[13:44:40.738] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:44:40.742] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:44:40.810] === DATA_LOADING ===
+Chargement des données GT depuis PMC1112601___1471-2458-5-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1112601___1471-2458-5-40-1.json
+  - Series Count: 3
+  - Series Names: ['used yesterday', 'median days used', 'daily use']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[13:44:40.843] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1112601___1471-2458-5-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1112601___1471-2458-5-40-1\PMC1112601___1471-2458-5-40-1.json
+  - Series Count: 3
+  - Series Names: ['used yesterday', 'median days used', 'daily use']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[13:44:40.861] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 89.7498
+  - Y Min-Max: [-0.0807, 89.6691]
+  - X Range: 7.022930123311426
+--------------------------------------------------
+
+[13:44:40.885] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:44:40.901] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['used yesterday <-> used yesterday (method=exact_match, score=1.000)', 'median days used <-> median days used (method=exact_match, score=1.000)', 'daily use <-> daily use (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:44:42.412] === SERIES_COMPARISON ===
+Comparaison used yesterday vs used yesterday avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.572570
+  - MAE Relative: 0.028664
+  - Left Miss (rel): 0.002717
+  - Right Miss (rel): -0.002738
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 8
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+[13:44:44.668] === SERIES_COMPARISON ===
+Comparaison median days used vs median days used avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.282082
+  - MAE Relative: 0.036569
+  - Left Miss (rel): -0.002174
+  - Right Miss (rel): -0.004381
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:44:47.171] === SERIES_COMPARISON ===
+Comparaison daily use vs daily use avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 20.311214
+  - MAE Relative: 0.226309
+  - Left Miss (rel): -0.144021
+  - Right Miss (rel): 0.000548
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 8
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-11 13:44:47
+Total Duration: 6.45 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1112601_1471-2458-5-40-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

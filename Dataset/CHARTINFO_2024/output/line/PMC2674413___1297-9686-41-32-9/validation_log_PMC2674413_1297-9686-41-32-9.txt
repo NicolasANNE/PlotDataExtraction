@@ -1,0 +1,339 @@
+
+================================================================================
+VALIDATION LOG - PMC2674413_1297-9686-41-32-9
+================================================================================
+Timestamp: 2025-08-06 20:16:24
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2674413___1297-9686-41-32-9
+================================================================================
+
+
+
+[20:16:24.057] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:24.109] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:24.118] === DATA_LOADING ===
+Chargement des données GT depuis PMC2674413___1297-9686-41-32-9.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2674413___1297-9686-41-32-9.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:24.120] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2674413___1297-9686-41-32-9.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2674413___1297-9686-41-32-9\PMC2674413___1297-9686-41-32-9.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:24.122] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2674413_1297-9686-41-32-9
+================================================================================
+Timestamp: 2025-08-06 21:33:33
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2674413___1297-9686-41-32-9
+================================================================================
+
+
+
+[21:33:33.490] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:33:33.494] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:33:33.531] === DATA_LOADING ===
+Chargement des données GT depuis PMC2674413___1297-9686-41-32-9.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2674413___1297-9686-41-32-9.json
+  - Series Count: 4
+  - Series Names: ['Fertility(C2005)', 'Fertility(S1997)', 'Fertility(S2001)', 'Fertility(S2005)']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 58
+--------------------------------------------------
+
+[21:33:33.535] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2674413___1297-9686-41-32-9.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2674413___1297-9686-41-32-9\PMC2674413___1297-9686-41-32-9.json
+  - Series Count: 4
+  - Series Names: ['Fertility(C2005)', 'Fertility(S1997)', 'Fertility(S2001)', 'Fertility(S2005)']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 60
+--------------------------------------------------
+
+[21:33:33.537] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 93.6528
+  - Y Min-Max: [0.3472, 94.0000]
+  - X Range: 14.0
+--------------------------------------------------
+
+[21:33:33.539] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:33:33.540] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Fertility(C2005) <-> Fertility(C2005) (method=exact_match, score=1.000)', 'Fertility(S1997) <-> Fertility(S1997) (method=exact_match, score=1.000)', 'Fertility(S2001) <-> Fertility(S2001) (method=exact_match, score=1.000)', 'Fertility(S2005) <-> Fertility(S2005) (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:33:34.086] === SERIES_COMPARISON ===
+Comparaison Fertility(C2005) vs Fertility(C2005) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.754761
+  - MAE Relative: 0.008059
+  - Left Miss (rel): -0.073290
+  - Right Miss (rel): -0.001629
+  - X Cutoff: N/A
+  - GT Points: 17
+  - Extracted Points: 15
+  - Points Ratio: 0.88
+--------------------------------------------------
+
+[21:33:34.985] === SERIES_COMPARISON ===
+Comparaison Fertility(S1997) vs Fertility(S1997) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.033573
+  - MAE Relative: 0.011036
+  - Left Miss (rel): -0.073290
+  - Right Miss (rel): -0.001629
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 15
+  - Points Ratio: 1.15
+--------------------------------------------------
+
+[21:33:35.914] === SERIES_COMPARISON ===
+Comparaison Fertility(S2001) vs Fertility(S2001) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.938535
+  - MAE Relative: 0.020699
+  - Left Miss (rel): -0.071661
+  - Right Miss (rel): -0.004886
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 15
+  - Points Ratio: 1.07
+--------------------------------------------------
+
+[21:33:37.258] === SERIES_COMPARISON ===
+Comparaison Fertility(S2005) vs Fertility(S2005) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.499834
+  - MAE Relative: 0.026693
+  - Left Miss (rel): -0.073290
+  - Right Miss (rel): -0.001629
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 15
+  - Points Ratio: 1.07
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:33:37
+Total Duration: 3.78 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2674413_1297-9686-41-32-9.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2674413_1297-9686-41-32-9
+================================================================================
+Timestamp: 2025-08-07 12:49:44
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2674413___1297-9686-41-32-9
+================================================================================
+
+
+
+[12:49:44.183] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:49:44.187] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:49:44.247] === DATA_LOADING ===
+Chargement des données GT depuis PMC2674413___1297-9686-41-32-9.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2674413___1297-9686-41-32-9.json
+  - Series Count: 4
+  - Series Names: ['Fertility(C2005)', 'Fertility(S1997)', 'Fertility(S2001)', 'Fertility(S2005)']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 58
+--------------------------------------------------
+
+[12:49:44.251] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2674413___1297-9686-41-32-9.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2674413___1297-9686-41-32-9\PMC2674413___1297-9686-41-32-9.json
+  - Series Count: 4
+  - Series Names: ['Fertility(C2005)', 'Fertility(S1997)', 'Fertility(S2001)', 'Fertility(S2005)']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 60
+--------------------------------------------------
+
+[12:49:44.255] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 93.6528
+  - Y Min-Max: [0.3472, 94.0000]
+  - X Range: 14.0
+--------------------------------------------------
+
+[12:49:44.258] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:49:44.260] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Fertility(C2005) <-> Fertility(C2005) (method=exact_match, score=1.000)', 'Fertility(S1997) <-> Fertility(S1997) (method=exact_match, score=1.000)', 'Fertility(S2001) <-> Fertility(S2001) (method=exact_match, score=1.000)', 'Fertility(S2005) <-> Fertility(S2005) (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:49:44.939] === SERIES_COMPARISON ===
+Comparaison Fertility(C2005) vs Fertility(C2005) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.754761
+  - MAE Relative: 0.008059
+  - Left Miss (rel): -0.073290
+  - Right Miss (rel): -0.001629
+  - X Cutoff: N/A
+  - GT Points: 17
+  - Extracted Points: 15
+  - Points Ratio: 0.88
+--------------------------------------------------
+
+[12:49:45.701] === SERIES_COMPARISON ===
+Comparaison Fertility(S1997) vs Fertility(S1997) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.033573
+  - MAE Relative: 0.011036
+  - Left Miss (rel): -0.073290
+  - Right Miss (rel): -0.001629
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 15
+  - Points Ratio: 1.15
+--------------------------------------------------
+
+[12:49:46.352] === SERIES_COMPARISON ===
+Comparaison Fertility(S2001) vs Fertility(S2001) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.938535
+  - MAE Relative: 0.020699
+  - Left Miss (rel): -0.071661
+  - Right Miss (rel): -0.004886
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 15
+  - Points Ratio: 1.07
+--------------------------------------------------
+
+[12:49:47.150] === SERIES_COMPARISON ===
+Comparaison Fertility(S2005) vs Fertility(S2005) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.499834
+  - MAE Relative: 0.026693
+  - Left Miss (rel): -0.073290
+  - Right Miss (rel): -0.001629
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 15
+  - Points Ratio: 1.07
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:49:47
+Total Duration: 2.98 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2674413_1297-9686-41-32-9.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

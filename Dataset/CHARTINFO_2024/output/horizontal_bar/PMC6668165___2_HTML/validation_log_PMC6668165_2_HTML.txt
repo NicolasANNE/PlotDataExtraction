@@ -1,0 +1,143 @@
+
+================================================================================
+VALIDATION LOG - PMC6668165_2_HTML
+================================================================================
+Timestamp: 2025-08-06 20:47:18
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC6668165___2_HTML
+================================================================================
+
+
+
+[20:47:18.901] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:47:18.903] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[20:47:18.938] === DATA_LOADING ===
+Chargement des données GT depuis PMC6668165___2_HTML.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\horizontal_bar\PMC6668165___2_HTML.json
+  - Series Count: 4
+  - Series Names: ['Phase 2', 'Outcome Time Point 1', 'Outcome Time Point 2', 'Outcome Time Point 3']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[20:47:18.941] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC6668165___2_HTML.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC6668165___2_HTML\PMC6668165___2_HTML.json
+  - Series Count: 14
+  - Series Names: ['Phase 2', 'Outcome Time Point 1', 'Outcome Time Point 2', 'Outcome Time Point 3', 'Phase 2', 'Outcome Time Point 1', 'Outcome Time Point 2', 'Outcome Time Point 3', 'Phase 2', 'Outcome Time Point 1', 'Outcome Time Point 2', 'Outcome Time Point 3', 'Phase 2', 'Outcome Time Point 1']
+  - X Data Types: {'categorical': 14}
+  - Total Data Points: 25
+--------------------------------------------------
+
+[20:47:18.945] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 13.0000
+  - Y Min-Max: [0.0000, 13.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[20:47:18.947] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[20:47:18.949] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Phase 2 <-> Phase 2 (method=exact_match, score=1.000)', 'Outcome Time Point 1 <-> Outcome Time Point 1 (method=exact_match, score=1.000)', 'Outcome Time Point 2 <-> Outcome Time Point 2 (method=exact_match, score=1.000)', 'Outcome Time Point 3 <-> Outcome Time Point 3 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[20:47:19.730] === SERIES_COMPARISON ===
+Comparaison Phase 2 vs Phase 2 avec BarComparator
+
+Data:
+  - MAE Absolute: 1.045170
+  - MAE Relative: 0.080398
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.702222
+  - GT Points: 9
+  - Extracted Points: 2
+  - Points Ratio: 0.22
+--------------------------------------------------
+
+[20:47:20.497] === SERIES_COMPARISON ===
+Comparaison Outcome Time Point 1 vs Outcome Time Point 1 avec BarComparator
+
+Data:
+  - MAE Absolute: 2.722989
+  - MAE Relative: 0.209461
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.694444
+  - GT Points: 9
+  - Extracted Points: 2
+  - Points Ratio: 0.22
+--------------------------------------------------
+
+[20:47:21.265] === SERIES_COMPARISON ===
+Comparaison Outcome Time Point 2 vs Outcome Time Point 2 avec BarComparator
+
+Data:
+  - MAE Absolute: 1.980518
+  - MAE Relative: 0.152348
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.670000
+  - GT Points: 9
+  - Extracted Points: 2
+  - Points Ratio: 0.22
+--------------------------------------------------
+
+[20:47:22.055] === SERIES_COMPARISON ===
+Comparaison Outcome Time Point 3 vs Outcome Time Point 3 avec BarComparator
+
+Data:
+  - MAE Absolute: 2.667127
+  - MAE Relative: 0.205164
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.665556
+  - GT Points: 9
+  - Extracted Points: 2
+  - Points Ratio: 0.22
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 20:47:22
+Total Duration: 3.16 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC6668165_2_HTML.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

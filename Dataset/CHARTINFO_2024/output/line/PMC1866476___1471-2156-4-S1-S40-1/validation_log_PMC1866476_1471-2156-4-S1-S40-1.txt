@@ -1,0 +1,911 @@
+
+================================================================================
+VALIDATION LOG - PMC1866476_1471-2156-4-S1-S40-1
+================================================================================
+Timestamp: 2025-08-06 20:15:31
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866476___1471-2156-4-S1-S40-1
+================================================================================
+
+
+
+[20:15:31.628] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:31.663] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:31.671] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866476___1471-2156-4-S1-S40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866476___1471-2156-4-S1-S40-1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:31.673] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866476___1471-2156-4-S1-S40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866476___1471-2156-4-S1-S40-1\PMC1866476___1471-2156-4-S1-S40-1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:31.675] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866476_1471-2156-4-S1-S40-1
+================================================================================
+Timestamp: 2025-08-06 21:31:23
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866476___1471-2156-4-S1-S40-1
+================================================================================
+
+
+
+[21:31:23.467] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:31:23.470] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:31:23.578] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866476___1471-2156-4-S1-S40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866476___1471-2156-4-S1-S40-1.json
+  - Series Count: 4
+  - Series Names: ['ge025', 'ge050', 'ge075', 'ge100']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[21:31:23.583] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866476___1471-2156-4-S1-S40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866476___1471-2156-4-S1-S40-1\PMC1866476___1471-2156-4-S1-S40-1.json
+  - Series Count: 4
+  - Series Names: ['ge025', 'ge050', 'ge075', 'ge100']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[21:31:23.588] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.4788
+  - Y Min-Max: [0.2612, 0.7400]
+  - X Range: 0.12535714285714286
+--------------------------------------------------
+
+[21:31:23.591] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:31:23.593] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['ge025 <-> ge025 (method=exact_match, score=1.000)', 'ge050 <-> ge050 (method=exact_match, score=1.000)', 'ge075 <-> ge075 (method=exact_match, score=1.000)', 'ge100 <-> ge100 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:31:24.601] === SERIES_COMPARISON ===
+Comparaison ge025 vs ge025 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.005486
+  - MAE Relative: 0.011458
+  - Left Miss (rel): -0.001492
+  - Right Miss (rel): 0.003527
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:31:25.237] === SERIES_COMPARISON ===
+Comparaison ge050 vs ge050 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.009338
+  - MAE Relative: 0.019504
+  - Left Miss (rel): 0.001764
+  - Right Miss (rel): -0.001357
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:31:25.773] === SERIES_COMPARISON ===
+Comparaison ge075 vs ge075 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.007060
+  - MAE Relative: 0.014746
+  - Left Miss (rel): 0.099715
+  - Right Miss (rel): 0.102564
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 5
+  - Points Ratio: 0.71
+--------------------------------------------------
+
+[21:31:26.337] === SERIES_COMPARISON ===
+Comparaison ge100 vs ge100 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.010304
+  - MAE Relative: 0.021522
+  - Left Miss (rel): -0.001899
+  - Right Miss (rel): 0.001899
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:31:26
+Total Duration: 2.88 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866476_1471-2156-4-S1-S40-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866476_1471-2156-4-S1-S40-1
+================================================================================
+Timestamp: 2025-08-07 12:47:21
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866476___1471-2156-4-S1-S40-1
+================================================================================
+
+
+
+[12:47:21.116] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:47:21.121] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:47:21.220] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866476___1471-2156-4-S1-S40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866476___1471-2156-4-S1-S40-1.json
+  - Series Count: 4
+  - Series Names: ['ge025', 'ge050', 'ge075', 'ge100']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[12:47:21.224] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866476___1471-2156-4-S1-S40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866476___1471-2156-4-S1-S40-1\PMC1866476___1471-2156-4-S1-S40-1.json
+  - Series Count: 4
+  - Series Names: ['ge025', 'ge050', 'ge075', 'ge100']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[12:47:21.229] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.4788
+  - Y Min-Max: [0.2612, 0.7400]
+  - X Range: 0.12535714285714286
+--------------------------------------------------
+
+[12:47:21.250] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:47:21.254] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['ge025 <-> ge025 (method=exact_match, score=1.000)', 'ge050 <-> ge050 (method=exact_match, score=1.000)', 'ge075 <-> ge075 (method=exact_match, score=1.000)', 'ge100 <-> ge100 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:47:21.934] === SERIES_COMPARISON ===
+Comparaison ge025 vs ge025 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.005486
+  - MAE Relative: 0.011458
+  - Left Miss (rel): -0.001492
+  - Right Miss (rel): 0.003527
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:47:22.959] === SERIES_COMPARISON ===
+Comparaison ge050 vs ge050 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.009338
+  - MAE Relative: 0.019504
+  - Left Miss (rel): 0.001764
+  - Right Miss (rel): -0.001357
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:47:23.823] === SERIES_COMPARISON ===
+Comparaison ge075 vs ge075 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.004679
+  - MAE Relative: 0.009774
+  - Left Miss (rel): 0.099715
+  - Right Miss (rel): 0.102564
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 5
+  - Points Ratio: 0.71
+--------------------------------------------------
+
+[12:47:24.888] === SERIES_COMPARISON ===
+Comparaison ge100 vs ge100 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.006484
+  - MAE Relative: 0.013543
+  - Left Miss (rel): -0.001899
+  - Right Miss (rel): 0.001899
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:47:24
+Total Duration: 3.79 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866476_1471-2156-4-S1-S40-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866476_1471-2156-4-S1-S40-1
+================================================================================
+Timestamp: 2025-08-07 13:04:22
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866476___1471-2156-4-S1-S40-1
+================================================================================
+
+
+
+[13:04:22.262] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:04:22.266] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:04:22.324] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866476___1471-2156-4-S1-S40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866476___1471-2156-4-S1-S40-1.json
+  - Series Count: 4
+  - Series Names: ['ge025', 'ge050', 'ge075', 'ge100']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[13:04:22.327] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866476___1471-2156-4-S1-S40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866476___1471-2156-4-S1-S40-1\PMC1866476___1471-2156-4-S1-S40-1.json
+  - Series Count: 4
+  - Series Names: ['ge025', 'ge050', 'ge075', 'ge100']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[13:04:22.330] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.4788
+  - Y Min-Max: [0.2612, 0.7400]
+  - X Range: 0.12535714285714286
+--------------------------------------------------
+
+[13:04:22.332] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:04:22.335] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['ge025 <-> ge025 (method=exact_match, score=1.000)', 'ge050 <-> ge050 (method=exact_match, score=1.000)', 'ge075 <-> ge075 (method=exact_match, score=1.000)', 'ge100 <-> ge100 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:04:22.945] === SERIES_COMPARISON ===
+Comparaison ge025 vs ge025 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.005486
+  - MAE Relative: 0.011458
+  - Left Miss (rel): -0.001492
+  - Right Miss (rel): 0.003527
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:04:23.512] === SERIES_COMPARISON ===
+Comparaison ge050 vs ge050 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.009338
+  - MAE Relative: 0.019504
+  - Left Miss (rel): 0.001764
+  - Right Miss (rel): -0.001357
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:04:24.115] === SERIES_COMPARISON ===
+Comparaison ge075 vs ge075 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.007060
+  - MAE Relative: 0.014746
+  - Left Miss (rel): 0.099715
+  - Right Miss (rel): 0.102564
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 5
+  - Points Ratio: 0.71
+--------------------------------------------------
+
+[13:04:24.838] === SERIES_COMPARISON ===
+Comparaison ge100 vs ge100 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.010304
+  - MAE Relative: 0.021522
+  - Left Miss (rel): -0.001899
+  - Right Miss (rel): 0.001899
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:04:24
+Total Duration: 2.58 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866476_1471-2156-4-S1-S40-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866476_1471-2156-4-S1-S40-1
+================================================================================
+Timestamp: 2025-08-07 16:37:58
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866476___1471-2156-4-S1-S40-1
+================================================================================
+
+
+
+[16:37:58.376] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:37:58.378] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:37:58.410] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866476___1471-2156-4-S1-S40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866476___1471-2156-4-S1-S40-1.json
+  - Series Count: 4
+  - Series Names: ['ge025', 'ge050', 'ge075', 'ge100']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[16:37:58.452] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866476___1471-2156-4-S1-S40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866476___1471-2156-4-S1-S40-1\PMC1866476___1471-2156-4-S1-S40-1.json
+  - Series Count: 4
+  - Series Names: ['ge025', 'ge050', 'ge075', 'ge100']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[16:37:58.456] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.4788
+  - Y Min-Max: [0.2612, 0.7400]
+  - X Range: 0.12535714285714286
+--------------------------------------------------
+
+[16:37:58.458] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:37:58.460] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['ge025 <-> ge025 (method=exact_match, score=1.000)', 'ge050 <-> ge050 (method=exact_match, score=1.000)', 'ge075 <-> ge075 (method=exact_match, score=1.000)', 'ge100 <-> ge100 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:37:58.934] === SERIES_COMPARISON ===
+Comparaison ge025 vs ge025 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.005486
+  - MAE Relative: 0.011458
+  - Left Miss (rel): -0.001492
+  - Right Miss (rel): 0.003527
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:37:59.594] === SERIES_COMPARISON ===
+Comparaison ge050 vs ge050 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.009338
+  - MAE Relative: 0.019504
+  - Left Miss (rel): 0.001764
+  - Right Miss (rel): -0.001357
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:38:00.199] === SERIES_COMPARISON ===
+Comparaison ge075 vs ge075 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.007060
+  - MAE Relative: 0.014746
+  - Left Miss (rel): 0.099715
+  - Right Miss (rel): 0.102564
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 5
+  - Points Ratio: 0.71
+--------------------------------------------------
+
+[16:38:00.697] === SERIES_COMPARISON ===
+Comparaison ge100 vs ge100 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.010304
+  - MAE Relative: 0.021522
+  - Left Miss (rel): -0.001899
+  - Right Miss (rel): 0.001899
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:38:00
+Total Duration: 2.33 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866476_1471-2156-4-S1-S40-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866476_1471-2156-4-S1-S40-1
+================================================================================
+Timestamp: 2025-08-07 16:57:08
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866476___1471-2156-4-S1-S40-1
+================================================================================
+
+
+
+[16:57:08.644] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:57:08.649] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:57:08.720] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866476___1471-2156-4-S1-S40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866476___1471-2156-4-S1-S40-1.json
+  - Series Count: 4
+  - Series Names: ['ge025', 'ge050', 'ge075', 'ge100']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[16:57:08.725] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866476___1471-2156-4-S1-S40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866476___1471-2156-4-S1-S40-1\PMC1866476___1471-2156-4-S1-S40-1.json
+  - Series Count: 4
+  - Series Names: ['ge025', 'ge050', 'ge075', 'ge100']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[16:57:08.729] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.4788
+  - Y Min-Max: [0.2612, 0.7400]
+  - X Range: 0.12535714285714286
+--------------------------------------------------
+
+[16:57:08.731] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:57:08.735] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['ge025 <-> ge025 (method=exact_match, score=1.000)', 'ge050 <-> ge050 (method=exact_match, score=1.000)', 'ge075 <-> ge075 (method=exact_match, score=1.000)', 'ge100 <-> ge100 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:57:09.447] === SERIES_COMPARISON ===
+Comparaison ge025 vs ge025 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.005486
+  - MAE Relative: 0.011458
+  - Left Miss (rel): -0.001492
+  - Right Miss (rel): 0.003527
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:57:10.249] === SERIES_COMPARISON ===
+Comparaison ge050 vs ge050 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.009338
+  - MAE Relative: 0.019504
+  - Left Miss (rel): 0.001764
+  - Right Miss (rel): -0.001357
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:57:10.873] === SERIES_COMPARISON ===
+Comparaison ge075 vs ge075 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.007060
+  - MAE Relative: 0.014746
+  - Left Miss (rel): 0.099715
+  - Right Miss (rel): 0.102564
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 5
+  - Points Ratio: 0.71
+--------------------------------------------------
+
+[16:57:11.363] === SERIES_COMPARISON ===
+Comparaison ge100 vs ge100 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.010304
+  - MAE Relative: 0.021522
+  - Left Miss (rel): -0.001899
+  - Right Miss (rel): 0.001899
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:57:11
+Total Duration: 2.75 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866476_1471-2156-4-S1-S40-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866476_1471-2156-4-S1-S40-1
+================================================================================
+Timestamp: 2025-08-11 13:46:14
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866476___1471-2156-4-S1-S40-1
+================================================================================
+
+
+
+[13:46:14.192] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:46:14.197] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:46:14.340] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866476___1471-2156-4-S1-S40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866476___1471-2156-4-S1-S40-1.json
+  - Series Count: 4
+  - Series Names: ['ge025', 'ge050', 'ge075', 'ge100']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[13:46:14.347] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866476___1471-2156-4-S1-S40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866476___1471-2156-4-S1-S40-1\PMC1866476___1471-2156-4-S1-S40-1.json
+  - Series Count: 4
+  - Series Names: ['ge025', 'ge050', 'ge075', 'ge100']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[13:46:14.367] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.4788
+  - Y Min-Max: [0.2612, 0.7400]
+  - X Range: 0.12535714285714286
+--------------------------------------------------
+
+[13:46:14.391] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:46:14.412] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['ge025 <-> ge025 (method=exact_match, score=1.000)', 'ge050 <-> ge050 (method=exact_match, score=1.000)', 'ge075 <-> ge075 (method=exact_match, score=1.000)', 'ge100 <-> ge100 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:46:15.274] === SERIES_COMPARISON ===
+Comparaison ge025 vs ge025 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.005486
+  - MAE Relative: 0.011458
+  - Left Miss (rel): -0.001492
+  - Right Miss (rel): 0.003527
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:46:16.110] === SERIES_COMPARISON ===
+Comparaison ge050 vs ge050 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.009338
+  - MAE Relative: 0.019504
+  - Left Miss (rel): 0.001764
+  - Right Miss (rel): -0.001357
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:46:17.409] === SERIES_COMPARISON ===
+Comparaison ge075 vs ge075 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.005575
+  - MAE Relative: 0.011643
+  - Left Miss (rel): 0.099715
+  - Right Miss (rel): 0.102564
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 5
+  - Points Ratio: 0.71
+--------------------------------------------------
+
+[13:46:18.306] === SERIES_COMPARISON ===
+Comparaison ge100 vs ge100 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.008987
+  - MAE Relative: 0.018772
+  - Left Miss (rel): -0.001899
+  - Right Miss (rel): 0.001899
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-11 13:46:18
+Total Duration: 4.12 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866476_1471-2156-4-S1-S40-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

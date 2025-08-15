@@ -1,0 +1,768 @@
+
+================================================================================
+VALIDATION LOG - PMC1965474_1471-2458-7-142-2
+================================================================================
+Timestamp: 2025-08-06 20:15:50
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1965474___1471-2458-7-142-2
+================================================================================
+
+
+
+[20:15:50.415] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:50.452] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:50.471] === DATA_LOADING ===
+Chargement des données GT depuis PMC1965474___1471-2458-7-142-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1965474___1471-2458-7-142-2.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:50.489] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1965474___1471-2458-7-142-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1965474___1471-2458-7-142-2\PMC1965474___1471-2458-7-142-2.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:50.492] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1965474_1471-2458-7-142-2
+================================================================================
+Timestamp: 2025-08-06 21:32:04
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1965474___1471-2458-7-142-2
+================================================================================
+
+
+
+[21:32:04.400] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:32:04.402] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:32:04.428] === DATA_LOADING ===
+Chargement des données GT depuis PMC1965474___1471-2458-7-142-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1965474___1471-2458-7-142-2.json
+  - Series Count: 4
+  - Series Names: ['Non South Asian female', 'South Asian female', 'Non South Asian male', 'South Asian male']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 51
+--------------------------------------------------
+
+[21:32:04.431] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1965474___1471-2458-7-142-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1965474___1471-2458-7-142-2\PMC1965474___1471-2458-7-142-2.json
+  - Series Count: 4
+  - Series Names: ['Non South Asian female', 'Non South Asian male', 'South Asian female', 'South Asian male']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 30
+--------------------------------------------------
+
+[21:32:04.434] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.5451
+  - Y Min-Max: [0.4592, 1.0043]
+  - X Range: 1000.0
+--------------------------------------------------
+
+[21:32:04.436] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:32:04.438] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Non South Asian female <-> Non South Asian female (method=exact_match, score=1.000)', 'South Asian female <-> South Asian female (method=exact_match, score=1.000)', 'Non South Asian male <-> Non South Asian male (method=exact_match, score=1.000)', 'South Asian male <-> South Asian male (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:32:04.982] === SERIES_COMPARISON ===
+Comparaison Non South Asian female vs Non South Asian female avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.024427
+  - MAE Relative: 0.044809
+  - Left Miss (rel): -0.001965
+  - Right Miss (rel): -0.026850
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 12
+  - Points Ratio: 0.92
+--------------------------------------------------
+
+[21:32:05.615] === SERIES_COMPARISON ===
+Comparaison South Asian female vs South Asian female avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.018695
+  - MAE Relative: 0.034294
+  - Left Miss (rel): -0.000655
+  - Right Miss (rel): -0.034709
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 2
+  - Points Ratio: 0.40
+--------------------------------------------------
+
+[21:32:06.391] === SERIES_COMPARISON ===
+Comparaison Non South Asian male vs Non South Asian male avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.052155
+  - MAE Relative: 0.095673
+  - Left Miss (rel): -0.001965
+  - Right Miss (rel): -0.026850
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 12
+  - Points Ratio: 1.33
+--------------------------------------------------
+
+[21:32:07.057] === SERIES_COMPARISON ===
+Comparaison South Asian male vs South Asian male avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.007285
+  - MAE Relative: 0.013364
+  - Left Miss (rel): -0.004584
+  - Right Miss (rel): -0.029470
+  - X Cutoff: N/A
+  - GT Points: 24
+  - Extracted Points: 4
+  - Points Ratio: 0.17
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:32:07
+Total Duration: 2.66 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1965474_1471-2458-7-142-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1965474_1471-2458-7-142-2
+================================================================================
+Timestamp: 2025-08-07 12:48:11
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1965474___1471-2458-7-142-2
+================================================================================
+
+
+
+[12:48:11.465] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:48:11.468] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:48:11.527] === DATA_LOADING ===
+Chargement des données GT depuis PMC1965474___1471-2458-7-142-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1965474___1471-2458-7-142-2.json
+  - Series Count: 4
+  - Series Names: ['Non South Asian female', 'South Asian female', 'Non South Asian male', 'South Asian male']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 51
+--------------------------------------------------
+
+[12:48:11.532] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1965474___1471-2458-7-142-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1965474___1471-2458-7-142-2\PMC1965474___1471-2458-7-142-2.json
+  - Series Count: 4
+  - Series Names: ['Non South Asian female', 'South Asian female', 'Non South Asian male', 'South Asian male']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 47
+--------------------------------------------------
+
+[12:48:11.537] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.5451
+  - Y Min-Max: [0.4592, 1.0043]
+  - X Range: 1000.0
+--------------------------------------------------
+
+[12:48:11.543] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:48:11.545] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Non South Asian female <-> Non South Asian female (method=exact_match, score=1.000)', 'South Asian female <-> South Asian female (method=exact_match, score=1.000)', 'Non South Asian male <-> Non South Asian male (method=exact_match, score=1.000)', 'South Asian male <-> South Asian male (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:48:12.911] === SERIES_COMPARISON ===
+Comparaison Non South Asian female vs Non South Asian female avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.024427
+  - MAE Relative: 0.044809
+  - Left Miss (rel): -0.001965
+  - Right Miss (rel): -0.026850
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 12
+  - Points Ratio: 0.92
+--------------------------------------------------
+
+[12:48:13.932] === SERIES_COMPARISON ===
+Comparaison South Asian female vs South Asian female avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.015810
+  - MAE Relative: 0.029003
+  - Left Miss (rel): -0.000655
+  - Right Miss (rel): -0.034709
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 11
+  - Points Ratio: 2.20
+--------------------------------------------------
+
+[12:48:15.327] === SERIES_COMPARISON ===
+Comparaison Non South Asian male vs Non South Asian male avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.059361
+  - MAE Relative: 0.108893
+  - Left Miss (rel): -0.001965
+  - Right Miss (rel): -0.026850
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 12
+  - Points Ratio: 1.33
+--------------------------------------------------
+
+[12:48:16.796] === SERIES_COMPARISON ===
+Comparaison South Asian male vs South Asian male avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.040948
+  - MAE Relative: 0.075115
+  - Left Miss (rel): -0.004584
+  - Right Miss (rel): -0.029470
+  - X Cutoff: N/A
+  - GT Points: 24
+  - Extracted Points: 12
+  - Points Ratio: 0.50
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:48:16
+Total Duration: 5.39 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1965474_1471-2458-7-142-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1965474_1471-2458-7-142-2
+================================================================================
+Timestamp: 2025-08-07 13:05:05
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1965474___1471-2458-7-142-2
+================================================================================
+
+
+
+[13:05:05.257] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:05:05.260] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:05:05.341] === DATA_LOADING ===
+Chargement des données GT depuis PMC1965474___1471-2458-7-142-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1965474___1471-2458-7-142-2.json
+  - Series Count: 4
+  - Series Names: ['Non South Asian female', 'South Asian female', 'Non South Asian male', 'South Asian male']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 51
+--------------------------------------------------
+
+[13:05:05.344] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1965474___1471-2458-7-142-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1965474___1471-2458-7-142-2\PMC1965474___1471-2458-7-142-2.json
+  - Series Count: 4
+  - Series Names: ['Non South Asian female', 'Non South Asian male', 'South Asian female', 'South Asian male']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 30
+--------------------------------------------------
+
+[13:05:05.348] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.5451
+  - Y Min-Max: [0.4592, 1.0043]
+  - X Range: 1000.0
+--------------------------------------------------
+
+[13:05:05.351] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:05:05.354] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Non South Asian female <-> Non South Asian female (method=exact_match, score=1.000)', 'South Asian female <-> South Asian female (method=exact_match, score=1.000)', 'Non South Asian male <-> Non South Asian male (method=exact_match, score=1.000)', 'South Asian male <-> South Asian male (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:05:06.016] === SERIES_COMPARISON ===
+Comparaison Non South Asian female vs Non South Asian female avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.024427
+  - MAE Relative: 0.044809
+  - Left Miss (rel): -0.001965
+  - Right Miss (rel): -0.026850
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 12
+  - Points Ratio: 0.92
+--------------------------------------------------
+
+[13:05:06.633] === SERIES_COMPARISON ===
+Comparaison South Asian female vs South Asian female avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.018695
+  - MAE Relative: 0.034294
+  - Left Miss (rel): -0.000655
+  - Right Miss (rel): -0.034709
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 2
+  - Points Ratio: 0.40
+--------------------------------------------------
+
+[13:05:07.212] === SERIES_COMPARISON ===
+Comparaison Non South Asian male vs Non South Asian male avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.052155
+  - MAE Relative: 0.095673
+  - Left Miss (rel): -0.001965
+  - Right Miss (rel): -0.026850
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 12
+  - Points Ratio: 1.33
+--------------------------------------------------
+
+[13:05:08.189] === SERIES_COMPARISON ===
+Comparaison South Asian male vs South Asian male avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.007285
+  - MAE Relative: 0.013364
+  - Left Miss (rel): -0.004584
+  - Right Miss (rel): -0.029470
+  - X Cutoff: N/A
+  - GT Points: 24
+  - Extracted Points: 4
+  - Points Ratio: 0.17
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:05:08
+Total Duration: 2.95 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1965474_1471-2458-7-142-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1965474_1471-2458-7-142-2
+================================================================================
+Timestamp: 2025-08-07 16:38:41
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1965474___1471-2458-7-142-2
+================================================================================
+
+
+
+[16:38:41.668] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:38:41.669] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:38:41.703] === DATA_LOADING ===
+Chargement des données GT depuis PMC1965474___1471-2458-7-142-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1965474___1471-2458-7-142-2.json
+  - Series Count: 4
+  - Series Names: ['Non South Asian female', 'South Asian female', 'Non South Asian male', 'South Asian male']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 51
+--------------------------------------------------
+
+[16:38:41.706] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1965474___1471-2458-7-142-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1965474___1471-2458-7-142-2\PMC1965474___1471-2458-7-142-2.json
+  - Series Count: 4
+  - Series Names: ['Non South Asian female', 'Non South Asian male', 'South Asian female', 'South Asian male']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 30
+--------------------------------------------------
+
+[16:38:41.709] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.5451
+  - Y Min-Max: [0.4592, 1.0043]
+  - X Range: 1000.0
+--------------------------------------------------
+
+[16:38:41.711] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:38:41.713] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Non South Asian female <-> Non South Asian female (method=exact_match, score=1.000)', 'South Asian female <-> South Asian female (method=exact_match, score=1.000)', 'Non South Asian male <-> Non South Asian male (method=exact_match, score=1.000)', 'South Asian male <-> South Asian male (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:38:42.262] === SERIES_COMPARISON ===
+Comparaison Non South Asian female vs Non South Asian female avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.024427
+  - MAE Relative: 0.044809
+  - Left Miss (rel): -0.001965
+  - Right Miss (rel): -0.026850
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 12
+  - Points Ratio: 0.92
+--------------------------------------------------
+
+[16:38:43.679] === SERIES_COMPARISON ===
+Comparaison South Asian female vs South Asian female avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.018695
+  - MAE Relative: 0.034294
+  - Left Miss (rel): -0.000655
+  - Right Miss (rel): -0.034709
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 2
+  - Points Ratio: 0.40
+--------------------------------------------------
+
+[16:38:45.491] === SERIES_COMPARISON ===
+Comparaison Non South Asian male vs Non South Asian male avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.052155
+  - MAE Relative: 0.095673
+  - Left Miss (rel): -0.001965
+  - Right Miss (rel): -0.026850
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 12
+  - Points Ratio: 1.33
+--------------------------------------------------
+
+[16:38:46.863] === SERIES_COMPARISON ===
+Comparaison South Asian male vs South Asian male avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.007285
+  - MAE Relative: 0.013364
+  - Left Miss (rel): -0.004584
+  - Right Miss (rel): -0.029470
+  - X Cutoff: N/A
+  - GT Points: 24
+  - Extracted Points: 4
+  - Points Ratio: 0.17
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:38:46
+Total Duration: 5.20 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1965474_1471-2458-7-142-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1965474_1471-2458-7-142-2
+================================================================================
+Timestamp: 2025-08-07 16:57:53
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1965474___1471-2458-7-142-2
+================================================================================
+
+
+
+[16:57:53.587] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:57:53.589] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:57:53.630] === DATA_LOADING ===
+Chargement des données GT depuis PMC1965474___1471-2458-7-142-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1965474___1471-2458-7-142-2.json
+  - Series Count: 4
+  - Series Names: ['Non South Asian female', 'South Asian female', 'Non South Asian male', 'South Asian male']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 51
+--------------------------------------------------
+
+[16:57:53.655] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1965474___1471-2458-7-142-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1965474___1471-2458-7-142-2\PMC1965474___1471-2458-7-142-2.json
+  - Series Count: 4
+  - Series Names: ['Non South Asian female', 'Non South Asian male', 'South Asian female', 'South Asian male']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 30
+--------------------------------------------------
+
+[16:57:53.659] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.5451
+  - Y Min-Max: [0.4592, 1.0043]
+  - X Range: 1000.0
+--------------------------------------------------
+
+[16:57:53.662] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:57:53.665] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Non South Asian female <-> Non South Asian female (method=exact_match, score=1.000)', 'South Asian female <-> South Asian female (method=exact_match, score=1.000)', 'Non South Asian male <-> Non South Asian male (method=exact_match, score=1.000)', 'South Asian male <-> South Asian male (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:57:54.669] === SERIES_COMPARISON ===
+Comparaison Non South Asian female vs Non South Asian female avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.024427
+  - MAE Relative: 0.044809
+  - Left Miss (rel): -0.001965
+  - Right Miss (rel): -0.026850
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 12
+  - Points Ratio: 0.92
+--------------------------------------------------
+
+[16:57:55.860] === SERIES_COMPARISON ===
+Comparaison South Asian female vs South Asian female avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.018695
+  - MAE Relative: 0.034294
+  - Left Miss (rel): -0.000655
+  - Right Miss (rel): -0.034709
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 2
+  - Points Ratio: 0.40
+--------------------------------------------------
+
+[16:57:57.394] === SERIES_COMPARISON ===
+Comparaison Non South Asian male vs Non South Asian male avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.052155
+  - MAE Relative: 0.095673
+  - Left Miss (rel): -0.001965
+  - Right Miss (rel): -0.026850
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 12
+  - Points Ratio: 1.33
+--------------------------------------------------
+
+[16:57:58.450] === SERIES_COMPARISON ===
+Comparaison South Asian male vs South Asian male avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.007285
+  - MAE Relative: 0.013364
+  - Left Miss (rel): -0.004584
+  - Right Miss (rel): -0.029470
+  - X Cutoff: N/A
+  - GT Points: 24
+  - Extracted Points: 4
+  - Points Ratio: 0.17
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:57:58
+Total Duration: 4.88 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1965474_1471-2458-7-142-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

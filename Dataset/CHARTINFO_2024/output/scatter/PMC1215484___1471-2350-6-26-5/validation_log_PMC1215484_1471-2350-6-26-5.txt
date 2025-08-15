@@ -1,0 +1,324 @@
+
+================================================================================
+VALIDATION LOG - PMC1215484_1471-2350-6-26-5
+================================================================================
+Timestamp: 2025-08-07 13:06:29
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC1215484___1471-2350-6-26-5
+================================================================================
+
+
+
+[13:06:29.865] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:06:29.870] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:06:29.927] === DATA_LOADING ===
+Chargement des données GT depuis PMC1215484___1471-2350-6-26-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC1215484___1471-2350-6-26-5.json
+  - Series Count: 2
+  - Series Names: ['[unnamed data series #0]', '[unnamed data series #1]']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 26
+--------------------------------------------------
+
+[13:06:29.934] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1215484___1471-2350-6-26-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC1215484___1471-2350-6-26-5\PMC1215484___1471-2350-6-26-5.json
+  - Series Count: 4
+  - Series Names: ['Disease-free controls', 'BRCA1 carrier cancer patient', 'New control', 'Sporadic breast cancer patient']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 14
+--------------------------------------------------
+
+[13:06:29.937] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.6951
+  - Y Min-Max: [0.4549, 2.1500]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:06:29.939] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:06:29.948] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['[unnamed data series #0] <-> Sporadic breast cancer patient (method=fuzzy_match, score=0.300)', '[unnamed data series #1] <-> Disease-free controls (method=position_match, score=0.100)']
+--------------------------------------------------
+
+[13:06:29.962] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison [unnamed data series #0] vs Sporadic breast cancer patient
+==================================================
+
+
+[13:06:30.869] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #1] vs Disease-free controls avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.882692
+  - MAE Relative: 0.520724
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.060000
+  - GT Points: 3
+  - Extracted Points: 10
+  - Points Ratio: 3.33
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:06:30
+Total Duration: 1.02 seconds
+Total Series Processed: 2
+Successful Comparisons: 1
+Errors: 1
+Success Rate: 50.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1215484_1471-2350-6-26-5.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1215484_1471-2350-6-26-5
+================================================================================
+Timestamp: 2025-08-07 16:40:07
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC1215484___1471-2350-6-26-5
+================================================================================
+
+
+
+[16:40:07.387] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:40:07.389] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:40:07.467] === DATA_LOADING ===
+Chargement des données GT depuis PMC1215484___1471-2350-6-26-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC1215484___1471-2350-6-26-5.json
+  - Series Count: 2
+  - Series Names: ['[unnamed data series #0]', '[unnamed data series #1]']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 26
+--------------------------------------------------
+
+[16:40:07.471] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1215484___1471-2350-6-26-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC1215484___1471-2350-6-26-5\PMC1215484___1471-2350-6-26-5.json
+  - Series Count: 4
+  - Series Names: ['Disease-free controls', 'BRCA1 carrier cancer patient', 'New control', 'Sporadic breast cancer patient']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 14
+--------------------------------------------------
+
+[16:40:07.475] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.6951
+  - Y Min-Max: [0.4549, 2.1500]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:40:07.477] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:40:07.484] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['[unnamed data series #0] <-> Sporadic breast cancer patient (method=fuzzy_match, score=0.300)', '[unnamed data series #1] <-> Disease-free controls (method=position_match, score=0.100)']
+--------------------------------------------------
+
+[16:40:07.489] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison [unnamed data series #0] vs Sporadic breast cancer patient
+==================================================
+
+
+[16:40:08.220] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #1] vs Disease-free controls avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.882692
+  - MAE Relative: 0.520724
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.060000
+  - GT Points: 3
+  - Extracted Points: 10
+  - Points Ratio: 3.33
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:40:08
+Total Duration: 0.90 seconds
+Total Series Processed: 2
+Successful Comparisons: 1
+Errors: 1
+Success Rate: 50.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1215484_1471-2350-6-26-5.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1215484_1471-2350-6-26-5
+================================================================================
+Timestamp: 2025-08-07 16:59:23
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC1215484___1471-2350-6-26-5
+================================================================================
+
+
+
+[16:59:23.711] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:59:23.730] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:59:23.784] === DATA_LOADING ===
+Chargement des données GT depuis PMC1215484___1471-2350-6-26-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC1215484___1471-2350-6-26-5.json
+  - Series Count: 2
+  - Series Names: ['[unnamed data series #0]', '[unnamed data series #1]']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 26
+--------------------------------------------------
+
+[16:59:23.793] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1215484___1471-2350-6-26-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC1215484___1471-2350-6-26-5\PMC1215484___1471-2350-6-26-5.json
+  - Series Count: 5
+  - Series Names: ['Disease-free controls', 'BRCA1 carrier cancer patient', 'New control', 'Sporadic breast cancer patient', 'Disease-free controls']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[16:59:23.812] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.6951
+  - Y Min-Max: [0.4549, 2.1500]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:59:23.831] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:59:23.838] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['[unnamed data series #0] <-> Sporadic breast cancer patient (method=fuzzy_match, score=0.300)', '[unnamed data series #1] <-> Disease-free controls (method=position_match, score=0.100)']
+--------------------------------------------------
+
+[16:59:23.850] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison [unnamed data series #0] vs Sporadic breast cancer patient
+==================================================
+
+
+[16:59:24.427] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #1] vs Disease-free controls avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.717308
+  - MAE Relative: 0.423159
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.060000
+  - GT Points: 3
+  - Extracted Points: 10
+  - Points Ratio: 3.33
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:59:24
+Total Duration: 0.75 seconds
+Total Series Processed: 2
+Successful Comparisons: 1
+Errors: 1
+Success Rate: 50.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1215484_1471-2350-6-26-5.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

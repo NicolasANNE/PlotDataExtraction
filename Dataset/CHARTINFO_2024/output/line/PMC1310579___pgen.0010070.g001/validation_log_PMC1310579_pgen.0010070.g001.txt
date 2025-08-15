@@ -1,0 +1,827 @@
+
+================================================================================
+VALIDATION LOG - PMC1310579_pgen.0010070.g001
+================================================================================
+Timestamp: 2025-08-06 20:15:23
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1310579___pgen.0010070.g001
+================================================================================
+
+
+
+[20:15:23.143] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:23.185] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:23.193] === DATA_LOADING ===
+Chargement des données GT depuis PMC1310579___pgen.0010070.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1310579___pgen.0010070.g001.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:23.196] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1310579___pgen.0010070.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1310579___pgen.0010070.g001\PMC1310579___pgen.0010070.g001.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:23.199] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1310579_pgen.0010070.g001
+================================================================================
+Timestamp: 2025-08-06 21:30:59
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1310579___pgen.0010070.g001
+================================================================================
+
+
+
+[21:30:59.153] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:30:59.155] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:30:59.194] === DATA_LOADING ===
+Chargement des données GT depuis PMC1310579___pgen.0010070.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1310579___pgen.0010070.g001.json
+  - Series Count: 3
+  - Series Names: ['Random points on a sphere', 'Random points on land', 'Random points in the sample']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 62
+--------------------------------------------------
+
+[21:30:59.222] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1310579___pgen.0010070.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1310579___pgen.0010070.g001\PMC1310579___pgen.0010070.g001.json
+  - Series Count: 3
+  - Series Names: ['Random points on a sphere', 'Random points on land', 'Random points in the sample']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[21:30:59.238] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.1363
+  - Y Min-Max: [-0.0010, 0.1353]
+  - X Range: 49.775784753363226
+--------------------------------------------------
+
+[21:30:59.247] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:30:59.249] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Random points on a sphere <-> Random points on a sphere (method=exact_match, score=1.000)', 'Random points on land <-> Random points on land (method=exact_match, score=1.000)', 'Random points in the sample <-> Random points in the sample (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:31:00.457] === SERIES_COMPARISON ===
+Comparaison Random points on a sphere vs Random points on a sphere avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.016378
+  - MAE Relative: 0.120196
+  - Left Miss (rel): -0.001802
+  - Right Miss (rel): 0.045495
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 11
+  - Points Ratio: 1.57
+--------------------------------------------------
+
+[21:31:01.019] === SERIES_COMPARISON ===
+Comparaison Random points on land vs Random points on land avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.016227
+  - MAE Relative: 0.119087
+  - Left Miss (rel): 0.000090
+  - Right Miss (rel): 0.000631
+  - X Cutoff: N/A
+  - GT Points: 23
+  - Extracted Points: 13
+  - Points Ratio: 0.57
+--------------------------------------------------
+
+[21:31:01.563] === SERIES_COMPARISON ===
+Comparaison Random points in the sample vs Random points in the sample avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.004015
+  - MAE Relative: 0.029466
+  - Left Miss (rel): 0.162252
+  - Right Miss (rel): 0.015586
+  - X Cutoff: N/A
+  - GT Points: 32
+  - Extracted Points: 12
+  - Points Ratio: 0.38
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:31:01
+Total Duration: 2.41 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1310579_pgen.0010070.g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1310579_pgen.0010070.g001
+================================================================================
+Timestamp: 2025-08-07 12:46:52
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1310579___pgen.0010070.g001
+================================================================================
+
+
+
+[12:46:53.001] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:46:53.003] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:46:53.063] === DATA_LOADING ===
+Chargement des données GT depuis PMC1310579___pgen.0010070.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1310579___pgen.0010070.g001.json
+  - Series Count: 3
+  - Series Names: ['Random points on a sphere', 'Random points on land', 'Random points in the sample']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 62
+--------------------------------------------------
+
+[12:46:53.100] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1310579___pgen.0010070.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1310579___pgen.0010070.g001\PMC1310579___pgen.0010070.g001.json
+  - Series Count: 3
+  - Series Names: ['Random points on a sphere', 'Random points on land', 'Random points in the sample']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[12:46:53.133] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.1363
+  - Y Min-Max: [-0.0010, 0.1353]
+  - X Range: 49.775784753363226
+--------------------------------------------------
+
+[12:46:53.136] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:46:53.142] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Random points on a sphere <-> Random points on a sphere (method=exact_match, score=1.000)', 'Random points on land <-> Random points on land (method=exact_match, score=1.000)', 'Random points in the sample <-> Random points in the sample (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:46:55.108] === SERIES_COMPARISON ===
+Comparaison Random points on a sphere vs Random points on a sphere avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.024797
+  - MAE Relative: 0.181983
+  - Left Miss (rel): -0.001802
+  - Right Miss (rel): 0.085676
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 5
+  - Points Ratio: 0.71
+--------------------------------------------------
+
+[12:46:57.303] === SERIES_COMPARISON ===
+Comparaison Random points on land vs Random points on land avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.020747
+  - MAE Relative: 0.152261
+  - Left Miss (rel): 0.020180
+  - Right Miss (rel): 0.121171
+  - X Cutoff: N/A
+  - GT Points: 23
+  - Extracted Points: 8
+  - Points Ratio: 0.35
+--------------------------------------------------
+
+[12:46:58.908] === SERIES_COMPARISON ===
+Comparaison Random points in the sample vs Random points in the sample avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.002878
+  - MAE Relative: 0.021125
+  - Left Miss (rel): 0.122072
+  - Right Miss (rel): 0.095946
+  - X Cutoff: N/A
+  - GT Points: 32
+  - Extracted Points: 9
+  - Points Ratio: 0.28
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:46:58
+Total Duration: 5.92 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1310579_pgen.0010070.g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1310579_pgen.0010070.g001
+================================================================================
+Timestamp: 2025-08-07 13:03:51
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1310579___pgen.0010070.g001
+================================================================================
+
+
+
+[13:03:51.035] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:03:51.040] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:03:51.099] === DATA_LOADING ===
+Chargement des données GT depuis PMC1310579___pgen.0010070.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1310579___pgen.0010070.g001.json
+  - Series Count: 3
+  - Series Names: ['Random points on a sphere', 'Random points on land', 'Random points in the sample']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 62
+--------------------------------------------------
+
+[13:03:51.116] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1310579___pgen.0010070.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1310579___pgen.0010070.g001\PMC1310579___pgen.0010070.g001.json
+  - Series Count: 3
+  - Series Names: ['Random points on a sphere', 'Random points on land', 'Random points in the sample']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[13:03:51.141] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.1363
+  - Y Min-Max: [-0.0010, 0.1353]
+  - X Range: 49.775784753363226
+--------------------------------------------------
+
+[13:03:51.146] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:03:51.153] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Random points on a sphere <-> Random points on a sphere (method=exact_match, score=1.000)', 'Random points on land <-> Random points on land (method=exact_match, score=1.000)', 'Random points in the sample <-> Random points in the sample (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:03:52.779] === SERIES_COMPARISON ===
+Comparaison Random points on a sphere vs Random points on a sphere avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.024797
+  - MAE Relative: 0.181983
+  - Left Miss (rel): -0.001802
+  - Right Miss (rel): 0.085676
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 5
+  - Points Ratio: 0.71
+--------------------------------------------------
+
+[13:03:54.251] === SERIES_COMPARISON ===
+Comparaison Random points on land vs Random points on land avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.020747
+  - MAE Relative: 0.152261
+  - Left Miss (rel): 0.020180
+  - Right Miss (rel): 0.121171
+  - X Cutoff: N/A
+  - GT Points: 23
+  - Extracted Points: 8
+  - Points Ratio: 0.35
+--------------------------------------------------
+
+[13:03:55.374] === SERIES_COMPARISON ===
+Comparaison Random points in the sample vs Random points in the sample avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.002878
+  - MAE Relative: 0.021125
+  - Left Miss (rel): 0.122072
+  - Right Miss (rel): 0.095946
+  - X Cutoff: N/A
+  - GT Points: 32
+  - Extracted Points: 9
+  - Points Ratio: 0.28
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:03:55
+Total Duration: 4.37 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1310579_pgen.0010070.g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1310579_pgen.0010070.g001
+================================================================================
+Timestamp: 2025-08-07 16:37:26
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1310579___pgen.0010070.g001
+================================================================================
+
+
+
+[16:37:26.601] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:37:26.605] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:37:26.688] === DATA_LOADING ===
+Chargement des données GT depuis PMC1310579___pgen.0010070.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1310579___pgen.0010070.g001.json
+  - Series Count: 3
+  - Series Names: ['Random points on a sphere', 'Random points on land', 'Random points in the sample']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 62
+--------------------------------------------------
+
+[16:37:26.695] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1310579___pgen.0010070.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1310579___pgen.0010070.g001\PMC1310579___pgen.0010070.g001.json
+  - Series Count: 3
+  - Series Names: ['Random points on a sphere', 'Random points on land', 'Random points in the sample']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[16:37:26.730] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.1363
+  - Y Min-Max: [-0.0010, 0.1353]
+  - X Range: 49.775784753363226
+--------------------------------------------------
+
+[16:37:26.741] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:37:26.764] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Random points on a sphere <-> Random points on a sphere (method=exact_match, score=1.000)', 'Random points on land <-> Random points on land (method=exact_match, score=1.000)', 'Random points in the sample <-> Random points in the sample (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:37:28.125] === SERIES_COMPARISON ===
+Comparaison Random points on a sphere vs Random points on a sphere avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.024797
+  - MAE Relative: 0.181983
+  - Left Miss (rel): -0.001802
+  - Right Miss (rel): 0.085676
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 5
+  - Points Ratio: 0.71
+--------------------------------------------------
+
+[16:37:29.768] === SERIES_COMPARISON ===
+Comparaison Random points on land vs Random points on land avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.020747
+  - MAE Relative: 0.152261
+  - Left Miss (rel): 0.020180
+  - Right Miss (rel): 0.121171
+  - X Cutoff: N/A
+  - GT Points: 23
+  - Extracted Points: 8
+  - Points Ratio: 0.35
+--------------------------------------------------
+
+[16:37:30.947] === SERIES_COMPARISON ===
+Comparaison Random points in the sample vs Random points in the sample avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.002878
+  - MAE Relative: 0.021125
+  - Left Miss (rel): 0.122072
+  - Right Miss (rel): 0.095946
+  - X Cutoff: N/A
+  - GT Points: 32
+  - Extracted Points: 9
+  - Points Ratio: 0.28
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:37:30
+Total Duration: 4.35 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1310579_pgen.0010070.g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1310579_pgen.0010070.g001
+================================================================================
+Timestamp: 2025-08-07 16:56:42
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1310579___pgen.0010070.g001
+================================================================================
+
+
+
+[16:56:42.472] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:56:42.495] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:56:42.592] === DATA_LOADING ===
+Chargement des données GT depuis PMC1310579___pgen.0010070.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1310579___pgen.0010070.g001.json
+  - Series Count: 3
+  - Series Names: ['Random points on a sphere', 'Random points on land', 'Random points in the sample']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 62
+--------------------------------------------------
+
+[16:56:42.597] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1310579___pgen.0010070.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1310579___pgen.0010070.g001\PMC1310579___pgen.0010070.g001.json
+  - Series Count: 3
+  - Series Names: ['Random points on a sphere', 'Random points on land', 'Random points in the sample']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[16:56:42.600] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.1363
+  - Y Min-Max: [-0.0010, 0.1353]
+  - X Range: 49.775784753363226
+--------------------------------------------------
+
+[16:56:42.644] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:56:42.679] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Random points on a sphere <-> Random points on a sphere (method=exact_match, score=1.000)', 'Random points on land <-> Random points on land (method=exact_match, score=1.000)', 'Random points in the sample <-> Random points in the sample (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:56:44.157] === SERIES_COMPARISON ===
+Comparaison Random points on a sphere vs Random points on a sphere avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.016378
+  - MAE Relative: 0.120196
+  - Left Miss (rel): -0.001802
+  - Right Miss (rel): 0.045495
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 11
+  - Points Ratio: 1.57
+--------------------------------------------------
+
+[16:56:45.344] === SERIES_COMPARISON ===
+Comparaison Random points on land vs Random points on land avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.016227
+  - MAE Relative: 0.119087
+  - Left Miss (rel): 0.000090
+  - Right Miss (rel): 0.000631
+  - X Cutoff: N/A
+  - GT Points: 23
+  - Extracted Points: 13
+  - Points Ratio: 0.57
+--------------------------------------------------
+
+[16:56:45.889] === SERIES_COMPARISON ===
+Comparaison Random points in the sample vs Random points in the sample avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.004015
+  - MAE Relative: 0.029466
+  - Left Miss (rel): 0.162252
+  - Right Miss (rel): 0.015586
+  - X Cutoff: N/A
+  - GT Points: 32
+  - Extracted Points: 12
+  - Points Ratio: 0.38
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:56:45
+Total Duration: 3.46 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1310579_pgen.0010070.g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1310579_pgen.0010070.g001
+================================================================================
+Timestamp: 2025-08-11 13:45:43
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1310579___pgen.0010070.g001
+================================================================================
+
+
+
+[13:45:43.271] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:45:43.317] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:45:43.889] === DATA_LOADING ===
+Chargement des données GT depuis PMC1310579___pgen.0010070.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1310579___pgen.0010070.g001.json
+  - Series Count: 3
+  - Series Names: ['Random points on a sphere', 'Random points on land', 'Random points in the sample']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 62
+--------------------------------------------------
+
+[13:45:43.894] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1310579___pgen.0010070.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1310579___pgen.0010070.g001\PMC1310579___pgen.0010070.g001.json
+  - Series Count: 3
+  - Series Names: ['Random points on a sphere', 'Random points on land', 'Random points in the sample']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[13:45:43.924] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.1363
+  - Y Min-Max: [-0.0010, 0.1353]
+  - X Range: 49.775784753363226
+--------------------------------------------------
+
+[13:45:43.962] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:45:43.972] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Random points on a sphere <-> Random points on a sphere (method=exact_match, score=1.000)', 'Random points on land <-> Random points on land (method=exact_match, score=1.000)', 'Random points in the sample <-> Random points in the sample (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:45:45.113] === SERIES_COMPARISON ===
+Comparaison Random points on a sphere vs Random points on a sphere avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.016607
+  - MAE Relative: 0.121880
+  - Left Miss (rel): -0.001802
+  - Right Miss (rel): 0.045495
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:45:47.899] === SERIES_COMPARISON ===
+Comparaison Random points on land vs Random points on land avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.013740
+  - MAE Relative: 0.100840
+  - Left Miss (rel): 0.000090
+  - Right Miss (rel): 0.060901
+  - X Cutoff: N/A
+  - GT Points: 23
+  - Extracted Points: 8
+  - Points Ratio: 0.35
+--------------------------------------------------
+
+[13:45:49.045] === SERIES_COMPARISON ===
+Comparaison Random points in the sample vs Random points in the sample avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.003319
+  - MAE Relative: 0.024355
+  - Left Miss (rel): 0.122072
+  - Right Miss (rel): 0.015586
+  - X Cutoff: N/A
+  - GT Points: 32
+  - Extracted Points: 9
+  - Points Ratio: 0.28
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-11 13:45:49
+Total Duration: 5.79 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1310579_pgen.0010070.g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

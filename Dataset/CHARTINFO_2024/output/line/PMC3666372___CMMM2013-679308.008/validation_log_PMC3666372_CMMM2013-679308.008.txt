@@ -1,0 +1,115 @@
+
+================================================================================
+VALIDATION LOG - PMC3666372_CMMM2013-679308.008
+================================================================================
+Timestamp: 2025-08-07 12:58:12
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3666372___CMMM2013-679308.008
+================================================================================
+
+
+
+[12:58:12.437] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:58:12.439] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:58:12.494] === DATA_LOADING ===
+Chargement des données GT depuis PMC3666372___CMMM2013-679308.008.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3666372___CMMM2013-679308.008.json
+  - Series Count: 2
+  - Series Names: ['With energy limiter', 'Without energy limiter']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 16
+--------------------------------------------------
+
+[12:58:12.505] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3666372___CMMM2013-679308.008.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3666372___CMMM2013-679308.008\PMC3666372___CMMM2013-679308.008.json
+  - Series Count: 2
+  - Series Names: ['With energy limiter', 'Without energy limiter']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 16
+--------------------------------------------------
+
+[12:58:12.525] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.0438
+  - Y Min-Max: [1.0800, 2.1238]
+  - X Range: 7.010924882947682
+--------------------------------------------------
+
+[12:58:12.528] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:58:12.530] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['With energy limiter <-> With energy limiter (method=exact_match, score=1.000)', 'Without energy limiter <-> Without energy limiter (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:58:13.623] === SERIES_COMPARISON ===
+Comparaison With energy limiter vs With energy limiter avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.007570
+  - MAE Relative: 0.007252
+  - Left Miss (rel): -0.002033
+  - Right Miss (rel): 0.001558
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 8
+  - Points Ratio: 0.80
+--------------------------------------------------
+
+[12:58:15.225] === SERIES_COMPARISON ===
+Comparaison Without energy limiter vs Without energy limiter avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.029774
+  - MAE Relative: 0.028525
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.000474
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 8
+  - Points Ratio: 1.33
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:58:15
+Total Duration: 2.82 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3666372_CMMM2013-679308.008.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

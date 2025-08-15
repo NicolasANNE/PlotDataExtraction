@@ -1,0 +1,202 @@
+
+================================================================================
+VALIDATION LOG - PMC3199252_1471-2156-12-78-1
+================================================================================
+Timestamp: 2025-08-06 21:37:32
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3199252___1471-2156-12-78-1
+================================================================================
+
+
+
+[21:37:32.596] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:37:32.615] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:37:32.749] === DATA_LOADING ===
+Chargement des données GT depuis PMC3199252___1471-2156-12-78-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3199252___1471-2156-12-78-1.json
+  - Series Count: 1
+  - Series Names: ['Theta']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 14
+--------------------------------------------------
+
+[21:37:32.753] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3199252___1471-2156-12-78-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3199252___1471-2156-12-78-1\PMC3199252___1471-2156-12-78-1.json
+  - Series Count: 1
+  - Series Names: ['Theta']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 19
+--------------------------------------------------
+
+[21:37:32.789] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.9480
+  - Y Min-Max: [0.0620, 1.0100]
+  - X Range: 180.0
+--------------------------------------------------
+
+[21:37:32.804] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:37:32.807] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['Theta <-> Theta (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:37:36.917] === SERIES_COMPARISON ===
+Comparaison Theta vs Theta avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.055879
+  - MAE Relative: 0.058945
+  - Left Miss (rel): -0.002888
+  - Right Miss (rel): -0.049434
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 19
+  - Points Ratio: 1.36
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:37:36
+Total Duration: 4.34 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3199252_1471-2156-12-78-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3199252_1471-2156-12-78-1
+================================================================================
+Timestamp: 2025-08-07 12:53:22
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3199252___1471-2156-12-78-1
+================================================================================
+
+
+
+[12:53:22.859] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:53:22.876] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:53:22.938] === DATA_LOADING ===
+Chargement des données GT depuis PMC3199252___1471-2156-12-78-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3199252___1471-2156-12-78-1.json
+  - Series Count: 1
+  - Series Names: ['Theta']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 14
+--------------------------------------------------
+
+[12:53:22.951] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3199252___1471-2156-12-78-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3199252___1471-2156-12-78-1\PMC3199252___1471-2156-12-78-1.json
+  - Series Count: 1
+  - Series Names: ['Theta']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 18
+--------------------------------------------------
+
+[12:53:22.955] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0555
+  - Y Min-Max: [0.0620, 0.1175]
+  - X Range: 179.48024948024948
+--------------------------------------------------
+
+[12:53:22.961] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:53:22.996] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['Theta <-> Theta (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:53:24.813] === SERIES_COMPARISON ===
+Comparaison Theta vs Theta avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.003786
+  - MAE Relative: 0.068160
+  - Left Miss (rel): 0.052821
+  - Right Miss (rel): -0.049577
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 18
+  - Points Ratio: 1.29
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:53:24
+Total Duration: 1.99 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3199252_1471-2156-12-78-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

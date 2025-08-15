@@ -1,0 +1,555 @@
+
+================================================================================
+VALIDATION LOG - PMC2265487_pgen.1000033.g002
+================================================================================
+Timestamp: 2025-08-07 13:14:19
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2265487___pgen.1000033.g002
+================================================================================
+
+
+
+[13:14:19.257] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:14:19.260] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:14:19.313] === DATA_LOADING ===
+Chargement des données GT depuis PMC2265487___pgen.1000033.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC2265487___pgen.1000033.g002.json
+  - Series Count: 7
+  - Series Names: ['Mitotic', 'Paternal', 'MII: other', 'MII: E1 int 1', 'MI: other', 'MI: E1 int 6', 'MI : E0']
+  - X Data Types: {'categorical': 7}
+  - Total Data Points: 21
+--------------------------------------------------
+
+[13:14:19.321] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2265487___pgen.1000033.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2265487___pgen.1000033.g002\PMC2265487___pgen.1000033.g002.json
+  - Series Count: 7
+  - Series Names: ['MI: E0', 'MI: E1 int 6', 'MI: other', 'MI: E1 int 1', 'MII: other', 'Paternal', 'Mitotic']
+  - X Data Types: {'categorical': 7}
+  - Total Data Points: 21
+--------------------------------------------------
+
+[13:14:19.331] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0034
+  - Y Min-Max: [0.0000, 0.0034]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:14:19.334] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:14:19.337] === MATCHING_RESULTS ===
+7 appariements trouvés
+
+Data:
+  - Total Matches: 7
+  - Match Details: ['Mitotic <-> Mitotic (method=exact_match, score=1.000)', 'Paternal <-> Paternal (method=exact_match, score=1.000)', 'MII: other <-> MII: other (method=exact_match, score=1.000)', 'MI: other <-> MI: other (method=exact_match, score=1.000)', 'MI: E1 int 6 <-> MI: E1 int 6 (method=exact_match, score=1.000)', 'MII: E1 int 1 <-> MI: E1 int 1 (method=fuzzy_match, score=0.950)', 'MI : E0 <-> MI: E0 (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[13:14:20.177] === SERIES_COMPARISON ===
+Comparaison Mitotic vs Mitotic avec BarComparator
+
+Data:
+  - MAE Absolute: 0.000031
+  - MAE Relative: 0.009050
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:14:20.996] === SERIES_COMPARISON ===
+Comparaison Paternal vs Paternal avec BarComparator
+
+Data:
+  - MAE Absolute: 0.000033
+  - MAE Relative: 0.009880
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:14:21.637] === SERIES_COMPARISON ===
+Comparaison MII: other vs MII: other avec BarComparator
+
+Data:
+  - MAE Absolute: 0.000133
+  - MAE Relative: 0.039522
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:14:22.742] === SERIES_COMPARISON ===
+Comparaison MI: other vs MI: other avec BarComparator
+
+Data:
+  - MAE Absolute: 0.000183
+  - MAE Relative: 0.054285
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:14:23.608] === SERIES_COMPARISON ===
+Comparaison MI: E1 int 6 vs MI: E1 int 6 avec BarComparator
+
+Data:
+  - MAE Absolute: 0.000025
+  - MAE Relative: 0.007415
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:14:24.504] === SERIES_COMPARISON ===
+Comparaison MII: E1 int 1 vs MI: E1 int 1 avec BarComparator
+
+Data:
+  - MAE Absolute: 0.000183
+  - MAE Relative: 0.054306
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:14:25.311] === SERIES_COMPARISON ===
+Comparaison MI : E0 vs MI: E0 avec BarComparator
+
+Data:
+  - MAE Absolute: 0.000050
+  - MAE Relative: 0.014796
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:14:25
+Total Duration: 6.07 seconds
+Total Series Processed: 7
+Successful Comparisons: 7
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2265487_pgen.1000033.g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2265487_pgen.1000033.g002
+================================================================================
+Timestamp: 2025-08-07 16:48:28
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2265487___pgen.1000033.g002
+================================================================================
+
+
+
+[16:48:28.141] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:48:28.143] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:48:28.181] === DATA_LOADING ===
+Chargement des données GT depuis PMC2265487___pgen.1000033.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC2265487___pgen.1000033.g002.json
+  - Series Count: 7
+  - Series Names: ['Mitotic', 'Paternal', 'MII: other', 'MII: E1 int 1', 'MI: other', 'MI: E1 int 6', 'MI : E0']
+  - X Data Types: {'categorical': 7}
+  - Total Data Points: 21
+--------------------------------------------------
+
+[16:48:28.208] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2265487___pgen.1000033.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2265487___pgen.1000033.g002\PMC2265487___pgen.1000033.g002.json
+  - Series Count: 7
+  - Series Names: ['MI: E0', 'MI: E1 int 6', 'MI: other', 'MI: E1 int 1', 'MII: other', 'Paternal', 'Mitotic']
+  - X Data Types: {'categorical': 7}
+  - Total Data Points: 21
+--------------------------------------------------
+
+[16:48:28.211] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0034
+  - Y Min-Max: [0.0000, 0.0034]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:48:28.213] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:48:28.215] === MATCHING_RESULTS ===
+7 appariements trouvés
+
+Data:
+  - Total Matches: 7
+  - Match Details: ['Mitotic <-> Mitotic (method=exact_match, score=1.000)', 'Paternal <-> Paternal (method=exact_match, score=1.000)', 'MII: other <-> MII: other (method=exact_match, score=1.000)', 'MI: other <-> MI: other (method=exact_match, score=1.000)', 'MI: E1 int 6 <-> MI: E1 int 6 (method=exact_match, score=1.000)', 'MII: E1 int 1 <-> MI: E1 int 1 (method=fuzzy_match, score=0.950)', 'MI : E0 <-> MI: E0 (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[16:48:28.888] === SERIES_COMPARISON ===
+Comparaison Mitotic vs Mitotic avec BarComparator
+
+Data:
+  - MAE Absolute: 0.000031
+  - MAE Relative: 0.008984
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:48:29.747] === SERIES_COMPARISON ===
+Comparaison Paternal vs Paternal avec BarComparator
+
+Data:
+  - MAE Absolute: 0.000033
+  - MAE Relative: 0.009807
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:48:31.992] === SERIES_COMPARISON ===
+Comparaison MII: other vs MII: other avec BarComparator
+
+Data:
+  - MAE Absolute: 0.000167
+  - MAE Relative: 0.049035
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:48:32.577] === SERIES_COMPARISON ===
+Comparaison MI: other vs MI: other avec BarComparator
+
+Data:
+  - MAE Absolute: 0.000183
+  - MAE Relative: 0.053886
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:48:33.684] === SERIES_COMPARISON ===
+Comparaison MI: E1 int 6 vs MI: E1 int 6 avec BarComparator
+
+Data:
+  - MAE Absolute: 0.000025
+  - MAE Relative: 0.007360
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:48:35.641] === SERIES_COMPARISON ===
+Comparaison MII: E1 int 1 vs MI: E1 int 1 avec BarComparator
+
+Data:
+  - MAE Absolute: 0.000200
+  - MAE Relative: 0.058810
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:48:37.008] === SERIES_COMPARISON ===
+Comparaison MI : E0 vs MI: E0 avec BarComparator
+
+Data:
+  - MAE Absolute: 0.000050
+  - MAE Relative: 0.014687
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:48:37
+Total Duration: 8.91 seconds
+Total Series Processed: 7
+Successful Comparisons: 7
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2265487_pgen.1000033.g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2265487_pgen.1000033.g002
+================================================================================
+Timestamp: 2025-08-07 17:06:55
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2265487___pgen.1000033.g002
+================================================================================
+
+
+
+[17:06:55.377] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:06:55.380] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[17:06:55.420] === DATA_LOADING ===
+Chargement des données GT depuis PMC2265487___pgen.1000033.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC2265487___pgen.1000033.g002.json
+  - Series Count: 7
+  - Series Names: ['Mitotic', 'Paternal', 'MII: other', 'MII: E1 int 1', 'MI: other', 'MI: E1 int 6', 'MI : E0']
+  - X Data Types: {'categorical': 7}
+  - Total Data Points: 21
+--------------------------------------------------
+
+[17:06:55.424] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2265487___pgen.1000033.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2265487___pgen.1000033.g002\PMC2265487___pgen.1000033.g002.json
+  - Series Count: 7
+  - Series Names: ['MI: E0', 'MI: E1 int 6', 'MI: other', 'MI: E1 int 1', 'MII: other', 'Paternal', 'Mitotic']
+  - X Data Types: {'categorical': 7}
+  - Total Data Points: 21
+--------------------------------------------------
+
+[17:06:55.427] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0034
+  - Y Min-Max: [0.0000, 0.0034]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[17:06:55.429] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:06:55.431] === MATCHING_RESULTS ===
+7 appariements trouvés
+
+Data:
+  - Total Matches: 7
+  - Match Details: ['Mitotic <-> Mitotic (method=exact_match, score=1.000)', 'Paternal <-> Paternal (method=exact_match, score=1.000)', 'MII: other <-> MII: other (method=exact_match, score=1.000)', 'MI: other <-> MI: other (method=exact_match, score=1.000)', 'MI: E1 int 6 <-> MI: E1 int 6 (method=exact_match, score=1.000)', 'MII: E1 int 1 <-> MI: E1 int 1 (method=fuzzy_match, score=0.950)', 'MI : E0 <-> MI: E0 (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[17:06:56.002] === SERIES_COMPARISON ===
+Comparaison Mitotic vs Mitotic avec BarComparator
+
+Data:
+  - MAE Absolute: 0.000031
+  - MAE Relative: 0.008984
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:06:56.876] === SERIES_COMPARISON ===
+Comparaison Paternal vs Paternal avec BarComparator
+
+Data:
+  - MAE Absolute: 0.000117
+  - MAE Relative: 0.034319
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:06:57.486] === SERIES_COMPARISON ===
+Comparaison MII: other vs MII: other avec BarComparator
+
+Data:
+  - MAE Absolute: 0.000100
+  - MAE Relative: 0.029427
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:06:58.121] === SERIES_COMPARISON ===
+Comparaison MI: other vs MI: other avec BarComparator
+
+Data:
+  - MAE Absolute: 0.000217
+  - MAE Relative: 0.063689
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:06:58.751] === SERIES_COMPARISON ===
+Comparaison MI: E1 int 6 vs MI: E1 int 6 avec BarComparator
+
+Data:
+  - MAE Absolute: 0.000025
+  - MAE Relative: 0.007360
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:06:59.719] === SERIES_COMPARISON ===
+Comparaison MII: E1 int 1 vs MI: E1 int 1 avec BarComparator
+
+Data:
+  - MAE Absolute: 0.000100
+  - MAE Relative: 0.029398
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:07:00.479] === SERIES_COMPARISON ===
+Comparaison MI : E0 vs MI: E0 avec BarComparator
+
+Data:
+  - MAE Absolute: 0.000083
+  - MAE Relative: 0.024485
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:07:00
+Total Duration: 5.12 seconds
+Total Series Processed: 7
+Successful Comparisons: 7
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2265487_pgen.1000033.g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

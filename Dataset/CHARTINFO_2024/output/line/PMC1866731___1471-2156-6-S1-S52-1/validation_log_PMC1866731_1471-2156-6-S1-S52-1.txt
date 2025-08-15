@@ -1,0 +1,698 @@
+
+================================================================================
+VALIDATION LOG - PMC1866731_1471-2156-6-S1-S52-1
+================================================================================
+Timestamp: 2025-08-06 20:15:44
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866731___1471-2156-6-S1-S52-1
+================================================================================
+
+
+
+[20:15:44.343] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:44.376] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:44.383] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866731___1471-2156-6-S1-S52-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866731___1471-2156-6-S1-S52-1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:44.407] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866731___1471-2156-6-S1-S52-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866731___1471-2156-6-S1-S52-1\PMC1866731___1471-2156-6-S1-S52-1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:44.410] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866731_1471-2156-6-S1-S52-1
+================================================================================
+Timestamp: 2025-08-06 21:31:47
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866731___1471-2156-6-S1-S52-1
+================================================================================
+
+
+
+[21:31:47.958] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:31:47.960] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:31:47.982] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866731___1471-2156-6-S1-S52-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866731___1471-2156-6-S1-S52-1.json
+  - Series Count: 3
+  - Series Names: ['Boxcox (ttth1)', 'ln(ttth1)', 'ttth1']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 102
+--------------------------------------------------
+
+[21:31:47.987] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866731___1471-2156-6-S1-S52-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866731___1471-2156-6-S1-S52-1\PMC1866731___1471-2156-6-S1-S52-1.json
+  - Series Count: 3
+  - Series Names: ['Boxcox(ttth1)', 'ln(ttth1)', 'ttth1']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 44
+--------------------------------------------------
+
+[21:31:47.989] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 3.5012
+  - Y Min-Max: [0.0000, 3.5012]
+  - X Range: 190.66496163682865
+--------------------------------------------------
+
+[21:31:47.991] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:31:47.994] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['ln(ttth1) <-> ln(ttth1) (method=exact_match, score=1.000)', 'ttth1 <-> ttth1 (method=exact_match, score=1.000)', 'Boxcox (ttth1) <-> Boxcox(ttth1) (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[21:31:48.784] === SERIES_COMPARISON ===
+Comparaison ln(ttth1) vs ln(ttth1) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.298192
+  - MAE Relative: 0.085169
+  - Left Miss (rel): 0.264252
+  - Right Miss (rel): 0.096311
+  - X Cutoff: N/A
+  - GT Points: 38
+  - Extracted Points: 13
+  - Points Ratio: 0.34
+--------------------------------------------------
+
+[21:31:50.364] === SERIES_COMPARISON ===
+Comparaison ttth1 vs ttth1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.361048
+  - MAE Relative: 0.103121
+  - Left Miss (rel): 0.262240
+  - Right Miss (rel): 0.106372
+  - X Cutoff: N/A
+  - GT Points: 43
+  - Extracted Points: 13
+  - Points Ratio: 0.30
+--------------------------------------------------
+
+[21:31:52.419] === SERIES_COMPARISON ===
+Comparaison Boxcox (ttth1) vs Boxcox(ttth1) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.098242
+  - MAE Relative: 0.028059
+  - Left Miss (rel): -0.004024
+  - Right Miss (rel): 0.102347
+  - X Cutoff: N/A
+  - GT Points: 21
+  - Extracted Points: 18
+  - Points Ratio: 0.86
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:31:52
+Total Duration: 4.48 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866731_1471-2156-6-S1-S52-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866731_1471-2156-6-S1-S52-1
+================================================================================
+Timestamp: 2025-08-07 12:47:50
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866731___1471-2156-6-S1-S52-1
+================================================================================
+
+
+
+[12:47:50.438] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:47:50.460] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:47:50.549] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866731___1471-2156-6-S1-S52-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866731___1471-2156-6-S1-S52-1.json
+  - Series Count: 3
+  - Series Names: ['Boxcox (ttth1)', 'ln(ttth1)', 'ttth1']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 102
+--------------------------------------------------
+
+[12:47:50.586] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866731___1471-2156-6-S1-S52-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866731___1471-2156-6-S1-S52-1\PMC1866731___1471-2156-6-S1-S52-1.json
+  - Series Count: 3
+  - Series Names: ['Boxcox(ttth1)', 'ln(ttth1)', 'ttth1']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 44
+--------------------------------------------------
+
+[12:47:50.590] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 3.5012
+  - Y Min-Max: [0.0000, 3.5012]
+  - X Range: 190.66496163682865
+--------------------------------------------------
+
+[12:47:50.593] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:47:50.597] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['ln(ttth1) <-> ln(ttth1) (method=exact_match, score=1.000)', 'ttth1 <-> ttth1 (method=exact_match, score=1.000)', 'Boxcox (ttth1) <-> Boxcox(ttth1) (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[12:47:51.997] === SERIES_COMPARISON ===
+Comparaison ln(ttth1) vs ln(ttth1) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.298192
+  - MAE Relative: 0.085169
+  - Left Miss (rel): 0.264252
+  - Right Miss (rel): 0.096311
+  - X Cutoff: N/A
+  - GT Points: 38
+  - Extracted Points: 13
+  - Points Ratio: 0.34
+--------------------------------------------------
+
+[12:47:53.683] === SERIES_COMPARISON ===
+Comparaison ttth1 vs ttth1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.361048
+  - MAE Relative: 0.103121
+  - Left Miss (rel): 0.262240
+  - Right Miss (rel): 0.106372
+  - X Cutoff: N/A
+  - GT Points: 43
+  - Extracted Points: 13
+  - Points Ratio: 0.30
+--------------------------------------------------
+
+[12:47:55.169] === SERIES_COMPARISON ===
+Comparaison Boxcox (ttth1) vs Boxcox(ttth1) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.098242
+  - MAE Relative: 0.028059
+  - Left Miss (rel): -0.004024
+  - Right Miss (rel): 0.102347
+  - X Cutoff: N/A
+  - GT Points: 21
+  - Extracted Points: 18
+  - Points Ratio: 0.86
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:47:55
+Total Duration: 4.77 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866731_1471-2156-6-S1-S52-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866731_1471-2156-6-S1-S52-1
+================================================================================
+Timestamp: 2025-08-07 13:04:49
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866731___1471-2156-6-S1-S52-1
+================================================================================
+
+
+
+[13:04:49.507] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:04:49.530] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:04:49.595] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866731___1471-2156-6-S1-S52-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866731___1471-2156-6-S1-S52-1.json
+  - Series Count: 3
+  - Series Names: ['Boxcox (ttth1)', 'ln(ttth1)', 'ttth1']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 102
+--------------------------------------------------
+
+[13:04:49.600] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866731___1471-2156-6-S1-S52-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866731___1471-2156-6-S1-S52-1\PMC1866731___1471-2156-6-S1-S52-1.json
+  - Series Count: 3
+  - Series Names: ['Boxcox(ttth1)', 'ln(ttth1)', 'ttth1']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 54
+--------------------------------------------------
+
+[13:04:49.605] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 3.5012
+  - Y Min-Max: [0.0000, 3.5012]
+  - X Range: 190.66496163682865
+--------------------------------------------------
+
+[13:04:49.613] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:04:49.631] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['ln(ttth1) <-> ln(ttth1) (method=exact_match, score=1.000)', 'ttth1 <-> ttth1 (method=exact_match, score=1.000)', 'Boxcox (ttth1) <-> Boxcox(ttth1) (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[13:04:50.788] === SERIES_COMPARISON ===
+Comparaison ln(ttth1) vs ln(ttth1) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.209915
+  - MAE Relative: 0.059955
+  - Left Miss (rel): 0.002012
+  - Right Miss (rel): 0.096311
+  - X Cutoff: N/A
+  - GT Points: 38
+  - Extracted Points: 18
+  - Points Ratio: 0.47
+--------------------------------------------------
+
+[13:04:51.766] === SERIES_COMPARISON ===
+Comparaison ttth1 vs ttth1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.234095
+  - MAE Relative: 0.066861
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.106372
+  - X Cutoff: N/A
+  - GT Points: 43
+  - Extracted Points: 18
+  - Points Ratio: 0.42
+--------------------------------------------------
+
+[13:04:52.574] === SERIES_COMPARISON ===
+Comparaison Boxcox (ttth1) vs Boxcox(ttth1) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.047358
+  - MAE Relative: 0.013526
+  - Left Miss (rel): -0.004024
+  - Right Miss (rel): 0.102347
+  - X Cutoff: N/A
+  - GT Points: 21
+  - Extracted Points: 18
+  - Points Ratio: 0.86
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:04:52
+Total Duration: 3.12 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866731_1471-2156-6-S1-S52-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866731_1471-2156-6-S1-S52-1
+================================================================================
+Timestamp: 2025-08-07 16:38:20
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866731___1471-2156-6-S1-S52-1
+================================================================================
+
+
+
+[16:38:20.887] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:38:20.905] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:38:20.966] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866731___1471-2156-6-S1-S52-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866731___1471-2156-6-S1-S52-1.json
+  - Series Count: 3
+  - Series Names: ['Boxcox (ttth1)', 'ln(ttth1)', 'ttth1']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 102
+--------------------------------------------------
+
+[16:38:20.976] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866731___1471-2156-6-S1-S52-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866731___1471-2156-6-S1-S52-1\PMC1866731___1471-2156-6-S1-S52-1.json
+  - Series Count: 3
+  - Series Names: ['Boxcox(ttth1)', 'ln(ttth1)', 'ttth1']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 44
+--------------------------------------------------
+
+[16:38:20.980] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 3.5012
+  - Y Min-Max: [0.0000, 3.5012]
+  - X Range: 190.66496163682865
+--------------------------------------------------
+
+[16:38:20.983] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:38:20.986] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['ln(ttth1) <-> ln(ttth1) (method=exact_match, score=1.000)', 'ttth1 <-> ttth1 (method=exact_match, score=1.000)', 'Boxcox (ttth1) <-> Boxcox(ttth1) (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[16:38:21.669] === SERIES_COMPARISON ===
+Comparaison ln(ttth1) vs ln(ttth1) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.298192
+  - MAE Relative: 0.085169
+  - Left Miss (rel): 0.264252
+  - Right Miss (rel): 0.096311
+  - X Cutoff: N/A
+  - GT Points: 38
+  - Extracted Points: 13
+  - Points Ratio: 0.34
+--------------------------------------------------
+
+[16:38:22.563] === SERIES_COMPARISON ===
+Comparaison ttth1 vs ttth1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.361048
+  - MAE Relative: 0.103121
+  - Left Miss (rel): 0.262240
+  - Right Miss (rel): 0.106372
+  - X Cutoff: N/A
+  - GT Points: 43
+  - Extracted Points: 13
+  - Points Ratio: 0.30
+--------------------------------------------------
+
+[16:38:23.282] === SERIES_COMPARISON ===
+Comparaison Boxcox (ttth1) vs Boxcox(ttth1) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.098242
+  - MAE Relative: 0.028059
+  - Left Miss (rel): -0.004024
+  - Right Miss (rel): 0.102347
+  - X Cutoff: N/A
+  - GT Points: 21
+  - Extracted Points: 18
+  - Points Ratio: 0.86
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:38:23
+Total Duration: 2.46 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866731_1471-2156-6-S1-S52-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866731_1471-2156-6-S1-S52-1
+================================================================================
+Timestamp: 2025-08-07 16:57:33
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866731___1471-2156-6-S1-S52-1
+================================================================================
+
+
+
+[16:57:33.878] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:57:33.881] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:57:33.960] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866731___1471-2156-6-S1-S52-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866731___1471-2156-6-S1-S52-1.json
+  - Series Count: 3
+  - Series Names: ['Boxcox (ttth1)', 'ln(ttth1)', 'ttth1']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 102
+--------------------------------------------------
+
+[16:57:33.963] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866731___1471-2156-6-S1-S52-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866731___1471-2156-6-S1-S52-1\PMC1866731___1471-2156-6-S1-S52-1.json
+  - Series Count: 3
+  - Series Names: ['Boxcox(ttth1)', 'ln(ttth1)', 'ttth1']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 44
+--------------------------------------------------
+
+[16:57:33.969] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 3.5012
+  - Y Min-Max: [0.0000, 3.5012]
+  - X Range: 190.66496163682865
+--------------------------------------------------
+
+[16:57:33.971] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:57:33.973] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['ln(ttth1) <-> ln(ttth1) (method=exact_match, score=1.000)', 'ttth1 <-> ttth1 (method=exact_match, score=1.000)', 'Boxcox (ttth1) <-> Boxcox(ttth1) (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[16:57:34.627] === SERIES_COMPARISON ===
+Comparaison ln(ttth1) vs ln(ttth1) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.298192
+  - MAE Relative: 0.085169
+  - Left Miss (rel): 0.264252
+  - Right Miss (rel): 0.096311
+  - X Cutoff: N/A
+  - GT Points: 38
+  - Extracted Points: 13
+  - Points Ratio: 0.34
+--------------------------------------------------
+
+[16:57:35.140] === SERIES_COMPARISON ===
+Comparaison ttth1 vs ttth1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.361048
+  - MAE Relative: 0.103121
+  - Left Miss (rel): 0.262240
+  - Right Miss (rel): 0.106372
+  - X Cutoff: N/A
+  - GT Points: 43
+  - Extracted Points: 13
+  - Points Ratio: 0.30
+--------------------------------------------------
+
+[16:57:35.687] === SERIES_COMPARISON ===
+Comparaison Boxcox (ttth1) vs Boxcox(ttth1) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.098242
+  - MAE Relative: 0.028059
+  - Left Miss (rel): -0.004024
+  - Right Miss (rel): 0.102347
+  - X Cutoff: N/A
+  - GT Points: 21
+  - Extracted Points: 18
+  - Points Ratio: 0.86
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:57:35
+Total Duration: 1.82 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866731_1471-2156-6-S1-S52-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

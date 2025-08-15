@@ -1,0 +1,555 @@
+
+================================================================================
+VALIDATION LOG - PMC2279396_g002
+================================================================================
+Timestamp: 2025-08-07 13:07:16
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2279396___g002
+================================================================================
+
+
+
+[13:07:16.051] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:07:16.078] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:07:16.191] === DATA_LOADING ===
+Chargement des données GT depuis PMC2279396___g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC2279396___g002.json
+  - Series Count: 9
+  - Series Names: ['3', '4', '6', '9', '11', '14', '19', '23', 'NA']
+  - X Data Types: {'categorical': 9}
+  - Total Data Points: 70
+--------------------------------------------------
+
+[13:07:16.199] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2279396___g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2279396___g002\PMC2279396___g002.json
+  - Series Count: 15
+  - Series Names: ['BS71', 'TIGR4', 'BS73', 'BS74', 'BS68A', 'BS68B', 'BS290', 'BS291', 'BS436', 'BS437', 'BS70', 'BS69', 'BS75', 'BS72', 'BS293']
+  - X Data Types: {'numeric': 15}
+  - Total Data Points: 63
+--------------------------------------------------
+
+[13:07:16.219] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 6.0122
+  - Y Min-Max: [0.9878, 7.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:07:16.237] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:07:16.272] === MATCHING_RESULTS ===
+9 appariements trouvés
+
+Data:
+  - Total Matches: 9
+  - Match Details: ['3 <-> BS73 (method=fuzzy_match, score=0.400)', '4 <-> BS74 (method=fuzzy_match, score=0.400)', '6 <-> BS69 (method=fuzzy_match, score=0.400)', '9 <-> BS293 (method=fuzzy_match, score=0.300)', '11 <-> BS71 (method=fuzzy_match, score=0.300)', '23 <-> BS72 (method=fuzzy_match, score=0.300)', '14 <-> TIGR4 (method=position_match, score=0.100)', '19 <-> BS68A (method=position_match, score=0.100)', 'NA <-> BS68B (method=position_match, score=0.100)']
+--------------------------------------------------
+
+[13:07:17.218] === SERIES_COMPARISON ===
+Comparaison 3 vs BS73 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.001902
+  - MAE Relative: 0.000316
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.150000
+  - GT Points: 1
+  - Extracted Points: 6
+  - Points Ratio: 6.00
+--------------------------------------------------
+
+[13:07:18.028] === SERIES_COMPARISON ===
+Comparaison 4 vs BS74 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 4.748020
+  - MAE Relative: 0.789732
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.140000
+  - GT Points: 18
+  - Extracted Points: 4
+  - Points Ratio: 0.22
+--------------------------------------------------
+
+[13:07:18.033] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison 6 vs BS69
+==================================================
+
+
+[13:07:18.803] === SERIES_COMPARISON ===
+Comparaison 9 vs BS293 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 4.486374
+  - MAE Relative: 0.746213
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.130000
+  - GT Points: 23
+  - Extracted Points: 2
+  - Points Ratio: 0.09
+--------------------------------------------------
+
+[13:07:19.435] === SERIES_COMPARISON ===
+Comparaison 11 vs BS71 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 1.008967
+  - MAE Relative: 0.167820
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.140000
+  - GT Points: 2
+  - Extracted Points: 1
+  - Points Ratio: 0.50
+--------------------------------------------------
+
+[13:07:19.440] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison 23 vs BS72
+==================================================
+
+
+[13:07:19.446] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison 14 vs TIGR4
+==================================================
+
+
+[13:07:20.058] === SERIES_COMPARISON ===
+Comparaison 19 vs BS68A avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.999728
+  - MAE Relative: 0.166284
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.140000
+  - GT Points: 6
+  - Extracted Points: 5
+  - Points Ratio: 0.83
+--------------------------------------------------
+
+[13:07:20.065] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison NA vs BS68B
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:07:20
+Total Duration: 4.05 seconds
+Total Series Processed: 9
+Successful Comparisons: 5
+Errors: 4
+Success Rate: 55.6%
+
+Generated Files:
+- Validation Log: validation_log_PMC2279396_g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2279396_g002
+================================================================================
+Timestamp: 2025-08-07 16:40:53
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2279396___g002
+================================================================================
+
+
+
+[16:40:53.274] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:40:53.299] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:40:53.341] === DATA_LOADING ===
+Chargement des données GT depuis PMC2279396___g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC2279396___g002.json
+  - Series Count: 9
+  - Series Names: ['3', '4', '6', '9', '11', '14', '19', '23', 'NA']
+  - X Data Types: {'categorical': 9}
+  - Total Data Points: 70
+--------------------------------------------------
+
+[16:40:53.369] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2279396___g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2279396___g002\PMC2279396___g002.json
+  - Series Count: 15
+  - Series Names: ['BS71', 'TIGR4', 'BS73', 'BS74', 'BS68A', 'BS68B', 'BS290', 'BS291', 'BS436', 'BS437', 'BS70', 'BS69', 'BS75', 'BS72', 'BS293']
+  - X Data Types: {'numeric': 15}
+  - Total Data Points: 63
+--------------------------------------------------
+
+[16:40:53.405] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 6.0122
+  - Y Min-Max: [0.9878, 7.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:40:53.410] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:40:53.416] === MATCHING_RESULTS ===
+9 appariements trouvés
+
+Data:
+  - Total Matches: 9
+  - Match Details: ['3 <-> BS73 (method=fuzzy_match, score=0.400)', '4 <-> BS74 (method=fuzzy_match, score=0.400)', '6 <-> BS69 (method=fuzzy_match, score=0.400)', '9 <-> BS293 (method=fuzzy_match, score=0.300)', '11 <-> BS71 (method=fuzzy_match, score=0.300)', '23 <-> BS72 (method=fuzzy_match, score=0.300)', '14 <-> TIGR4 (method=position_match, score=0.100)', '19 <-> BS68A (method=position_match, score=0.100)', 'NA <-> BS68B (method=position_match, score=0.100)']
+--------------------------------------------------
+
+[16:40:54.394] === SERIES_COMPARISON ===
+Comparaison 3 vs BS73 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.001902
+  - MAE Relative: 0.000316
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.150000
+  - GT Points: 1
+  - Extracted Points: 6
+  - Points Ratio: 6.00
+--------------------------------------------------
+
+[16:40:55.572] === SERIES_COMPARISON ===
+Comparaison 4 vs BS74 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 4.748020
+  - MAE Relative: 0.789732
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.140000
+  - GT Points: 18
+  - Extracted Points: 4
+  - Points Ratio: 0.22
+--------------------------------------------------
+
+[16:40:55.580] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison 6 vs BS69
+==================================================
+
+
+[16:40:56.479] === SERIES_COMPARISON ===
+Comparaison 9 vs BS293 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 4.486374
+  - MAE Relative: 0.746213
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.130000
+  - GT Points: 23
+  - Extracted Points: 2
+  - Points Ratio: 0.09
+--------------------------------------------------
+
+[16:40:57.693] === SERIES_COMPARISON ===
+Comparaison 11 vs BS71 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 1.008967
+  - MAE Relative: 0.167820
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.140000
+  - GT Points: 2
+  - Extracted Points: 1
+  - Points Ratio: 0.50
+--------------------------------------------------
+
+[16:40:57.702] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison 23 vs BS72
+==================================================
+
+
+[16:40:57.712] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison 14 vs TIGR4
+==================================================
+
+
+[16:40:58.515] === SERIES_COMPARISON ===
+Comparaison 19 vs BS68A avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.999728
+  - MAE Relative: 0.166284
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.140000
+  - GT Points: 6
+  - Extracted Points: 5
+  - Points Ratio: 0.83
+--------------------------------------------------
+
+[16:40:58.520] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison NA vs BS68B
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:40:58
+Total Duration: 5.28 seconds
+Total Series Processed: 9
+Successful Comparisons: 5
+Errors: 4
+Success Rate: 55.6%
+
+Generated Files:
+- Validation Log: validation_log_PMC2279396_g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2279396_g002
+================================================================================
+Timestamp: 2025-08-07 17:00:05
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2279396___g002
+================================================================================
+
+
+
+[17:00:05.633] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:00:05.635] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[17:00:05.669] === DATA_LOADING ===
+Chargement des données GT depuis PMC2279396___g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC2279396___g002.json
+  - Series Count: 9
+  - Series Names: ['3', '4', '6', '9', '11', '14', '19', '23', 'NA']
+  - X Data Types: {'categorical': 9}
+  - Total Data Points: 70
+--------------------------------------------------
+
+[17:00:05.702] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2279396___g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2279396___g002\PMC2279396___g002.json
+  - Series Count: 15
+  - Series Names: ['BS71', 'TIGR4', 'BS73', 'BS74', 'BS68A', 'BS68B', 'BS290', 'BS291', 'BS436', 'BS437', 'BS70', 'BS69', 'BS75', 'BS72', 'BS293']
+  - X Data Types: {'numeric': 15}
+  - Total Data Points: 55
+--------------------------------------------------
+
+[17:00:05.723] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 6.0122
+  - Y Min-Max: [0.9878, 7.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[17:00:05.726] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:00:05.734] === MATCHING_RESULTS ===
+9 appariements trouvés
+
+Data:
+  - Total Matches: 9
+  - Match Details: ['3 <-> BS73 (method=fuzzy_match, score=0.400)', '4 <-> BS74 (method=fuzzy_match, score=0.400)', '6 <-> BS69 (method=fuzzy_match, score=0.400)', '9 <-> BS293 (method=fuzzy_match, score=0.300)', '11 <-> BS71 (method=fuzzy_match, score=0.300)', '23 <-> BS72 (method=fuzzy_match, score=0.300)', '14 <-> TIGR4 (method=position_match, score=0.100)', '19 <-> BS68A (method=position_match, score=0.100)', 'NA <-> BS68B (method=position_match, score=0.100)']
+--------------------------------------------------
+
+[17:00:06.738] === SERIES_COMPARISON ===
+Comparaison 3 vs BS73 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.001902
+  - MAE Relative: 0.000316
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.150000
+  - GT Points: 1
+  - Extracted Points: 4
+  - Points Ratio: 4.00
+--------------------------------------------------
+
+[17:00:08.281] === SERIES_COMPARISON ===
+Comparaison 4 vs BS74 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 4.748020
+  - MAE Relative: 0.789732
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.140000
+  - GT Points: 18
+  - Extracted Points: 4
+  - Points Ratio: 0.22
+--------------------------------------------------
+
+[17:00:08.297] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison 6 vs BS69
+==================================================
+
+
+[17:00:09.474] === SERIES_COMPARISON ===
+Comparaison 9 vs BS293 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 4.486374
+  - MAE Relative: 0.746213
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.130000
+  - GT Points: 23
+  - Extracted Points: 2
+  - Points Ratio: 0.09
+--------------------------------------------------
+
+[17:00:10.664] === SERIES_COMPARISON ===
+Comparaison 11 vs BS71 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 1.008967
+  - MAE Relative: 0.167820
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.140000
+  - GT Points: 2
+  - Extracted Points: 1
+  - Points Ratio: 0.50
+--------------------------------------------------
+
+[17:00:10.669] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison 23 vs BS72
+==================================================
+
+
+[17:00:10.675] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison 14 vs TIGR4
+==================================================
+
+
+[17:00:11.506] === SERIES_COMPARISON ===
+Comparaison 19 vs BS68A avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.999728
+  - MAE Relative: 0.166284
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.140000
+  - GT Points: 6
+  - Extracted Points: 4
+  - Points Ratio: 0.67
+--------------------------------------------------
+
+[17:00:11.511] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison NA vs BS68B
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:00:11
+Total Duration: 5.89 seconds
+Total Series Processed: 9
+Successful Comparisons: 5
+Errors: 4
+Success Rate: 55.6%
+
+Generated Files:
+- Validation Log: validation_log_PMC2279396_g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

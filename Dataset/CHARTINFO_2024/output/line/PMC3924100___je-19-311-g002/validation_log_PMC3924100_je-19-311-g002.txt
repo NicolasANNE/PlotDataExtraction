@@ -1,0 +1,131 @@
+
+================================================================================
+VALIDATION LOG - PMC3924100_je-19-311-g002
+================================================================================
+Timestamp: 2025-08-06 17:21:00
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3924100___je-19-311-g002
+================================================================================
+
+
+
+[17:21:00.850] === VALIDATION_START ===
+Début de la validation pour l'image PMC3924100___je-19-311-g002
+--------------------------------------------------
+
+[17:21:00.889] === DATA_LOADING ===
+Chargement des données Ground Truth depuis PMC3924100___je-19-311-g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3924100___je-19-311-g002.json
+  - Series Count: 4
+  - Series Names: ['Male e+ HCC', 'Male e+ CLD', 'Male e- HCC', 'Male e- CLD']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[17:21:00.898] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3924100___je-19-311-g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3924100___je-19-311-g002\PMC3924100___je-19-311-g002.json
+  - Series Count: 4
+  - Series Names: ['Male e+ HCC', 'Male e+ CLD', 'Male e- HCC', 'Male e- CLD']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 80
+--------------------------------------------------
+
+[17:21:00.900] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line
+  - Extractor Plot Type: line plot
+  - Final Plot Type: line
+  - Categorical X Detected: False
+  - Comparator Used: Standard comparator
+--------------------------------------------------
+
+[17:21:00.902] === BOUNDS_CALCULATION ===
+Bornes global calculées pour normalisation MAE relative
+
+Data:
+  - X Range: 95.0000
+  - Y Range: 7111.8003
+  - X Min-Max: [0.0, 95.0]
+  - Y Min-Max: [-18.6075, 7093.1927]
+--------------------------------------------------
+
+[17:21:00.903] === SERIES_MATCHING ===
+Appariement des séries utilisant: Exact -> Fuzzy -> Similarity
+
+Data:
+  - GT Series: 4 séries: ['Male e+ HCC', 'Male e+ CLD', 'Male e- HCC', 'Male e- CLD']
+  - Extracted Series: 4 séries: ['Male e+ HCC', 'Male e+ CLD', 'Male e- HCC', 'Male e- CLD']
+  - Matches Found: 4 appariements
+  - Match Details: ['Male e+ HCC <-> Male e+ HCC (method=exact_match, score=1.000)', 'Male e+ CLD <-> Male e+ CLD (method=exact_match, score=1.000)', 'Male e- HCC <-> Male e- HCC (method=exact_match, score=1.000)', 'Male e- CLD <-> Male e- CLD (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[17:21:01.363] === SERIES_COMPARISON ===
+Comparaison Male e+ HCC vs Male e+ HCC avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 383.884640
+  - MAE Relative: 0.053979
+  - Left Miss (rel): -0.021074
+  - Right Miss (rel): -0.030585
+  - X Cutoff: N/A
+--------------------------------------------------
+
+[17:21:01.917] === SERIES_COMPARISON ===
+Comparaison Male e+ CLD vs Male e+ CLD avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 118.501844
+  - MAE Relative: 0.016663
+  - Left Miss (rel): -0.022695
+  - Right Miss (rel): -0.032206
+  - X Cutoff: N/A
+--------------------------------------------------
+
+[17:21:02.629] === SERIES_COMPARISON ===
+Comparaison Male e- HCC vs Male e- HCC avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 79.770527
+  - MAE Relative: 0.011217
+  - Left Miss (rel): -0.022695
+  - Right Miss (rel): -0.032206
+  - X Cutoff: N/A
+--------------------------------------------------
+
+[17:21:03.133] === SERIES_COMPARISON ===
+Comparaison Male e- CLD vs Male e- CLD avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 94.803649
+  - MAE Relative: 0.013330
+  - Left Miss (rel): -0.021074
+  - Right Miss (rel): -0.032206
+  - X Cutoff: N/A
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 17:21:03
+Total Duration: 2.29 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0% if total_results > 0 else "N/A"
+
+Generated Files:
+- Validation Log: validation_log_PMC3924100_je-19-311-g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

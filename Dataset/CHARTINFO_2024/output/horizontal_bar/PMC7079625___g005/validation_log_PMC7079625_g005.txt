@@ -1,0 +1,129 @@
+
+================================================================================
+VALIDATION LOG - PMC7079625_g005
+================================================================================
+Timestamp: 2025-08-06 20:49:35
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC7079625___g005
+================================================================================
+
+
+
+[20:49:35.536] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:49:35.538] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[20:49:35.572] === DATA_LOADING ===
+Chargement des données GT depuis PMC7079625___g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\horizontal_bar\PMC7079625___g005.json
+  - Series Count: 3
+  - Series Names: ['AA', 'MCA', 'DCA']
+  - X Data Types: {'categorical': 3}
+  - Total Data Points: 21
+--------------------------------------------------
+
+[20:49:35.575] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC7079625___g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC7079625___g005\PMC7079625___g005.json
+  - Series Count: 3
+  - Series Names: ['AA', 'MCA', 'DCA']
+  - X Data Types: {'categorical': 3}
+  - Total Data Points: 21
+--------------------------------------------------
+
+[20:49:35.579] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 80.0000
+  - Y Min-Max: [0.0000, 80.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[20:49:35.581] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[20:49:35.583] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['AA <-> AA (method=exact_match, score=1.000)', 'MCA <-> MCA (method=exact_match, score=1.000)', 'DCA <-> DCA (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[20:49:36.206] === SERIES_COMPARISON ===
+Comparaison AA vs AA avec BarComparator
+
+Data:
+  - MAE Absolute: 21.171399
+  - MAE Relative: 0.264642
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.992857
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[20:49:36.863] === SERIES_COMPARISON ===
+Comparaison MCA vs MCA avec BarComparator
+
+Data:
+  - MAE Absolute: 62.267628
+  - MAE Relative: 0.778345
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.992857
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[20:49:37.469] === SERIES_COMPARISON ===
+Comparaison DCA vs DCA avec BarComparator
+
+Data:
+  - MAE Absolute: 15.611098
+  - MAE Relative: 0.195139
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.992857
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 20:49:37
+Total Duration: 1.94 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC7079625_g005.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

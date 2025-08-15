@@ -1,0 +1,129 @@
+
+================================================================================
+VALIDATION LOG - PMC3823307_ijerph-10-05221-g009
+================================================================================
+Timestamp: 2025-08-07 13:00:28
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3823307___ijerph-10-05221-g009
+================================================================================
+
+
+
+[13:00:28.461] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:00:28.463] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:00:28.512] === DATA_LOADING ===
+Chargement des données GT depuis PMC3823307___ijerph-10-05221-g009.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3823307___ijerph-10-05221-g009.json
+  - Series Count: 3
+  - Series Names: ['Staph A', 'AgAIJStA', 'Ag Al Ext StA']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 42
+--------------------------------------------------
+
+[13:00:28.515] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3823307___ijerph-10-05221-g009.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3823307___ijerph-10-05221-g009\PMC3823307___ijerph-10-05221-g009.json
+  - Series Count: 3
+  - Series Names: ['Staph A', 'Ag Al J St A', 'Ag Al Ext St A']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 46
+--------------------------------------------------
+
+[13:00:28.517] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.1613
+  - Y Min-Max: [0.1550, 0.3163]
+  - X Range: 1455.2572706935123
+--------------------------------------------------
+
+[13:00:28.520] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:00:28.522] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Staph A <-> Staph A (method=exact_match, score=1.000)', 'AgAIJStA <-> Ag Al J St A (method=fuzzy_match, score=0.700)', 'Ag Al Ext StA <-> Ag Al Ext St A (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[13:00:29.390] === SERIES_COMPARISON ===
+Comparaison Staph A vs Staph A avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001940
+  - MAE Relative: 0.012029
+  - Left Miss (rel): 0.001153
+  - Right Miss (rel): -0.035204
+  - X Cutoff: N/A
+  - GT Points: 17
+  - Extracted Points: 16
+  - Points Ratio: 0.94
+--------------------------------------------------
+
+[13:00:31.448] === SERIES_COMPARISON ===
+Comparaison AgAIJStA vs Ag Al J St A avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.006324
+  - MAE Relative: 0.039206
+  - Left Miss (rel): 0.001153
+  - Right Miss (rel): 0.034743
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 15
+  - Points Ratio: 1.25
+--------------------------------------------------
+
+[13:00:33.673] === SERIES_COMPARISON ===
+Comparaison Ag Al Ext StA vs Ag Al Ext St A avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.013258
+  - MAE Relative: 0.082197
+  - Left Miss (rel): 0.003613
+  - Right Miss (rel): 0.037202
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 15
+  - Points Ratio: 1.15
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:00:33
+Total Duration: 5.23 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3823307_ijerph-10-05221-g009.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,768 @@
+
+================================================================================
+VALIDATION LOG - PMC2672334_ijerph-06-00108f1
+================================================================================
+Timestamp: 2025-08-06 20:16:15
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672334___ijerph-06-00108f1
+================================================================================
+
+
+
+[20:16:15.589] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:15.619] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:15.647] === DATA_LOADING ===
+Chargement des données GT depuis PMC2672334___ijerph-06-00108f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2672334___ijerph-06-00108f1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:15.663] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2672334___ijerph-06-00108f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672334___ijerph-06-00108f1\PMC2672334___ijerph-06-00108f1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:15.664] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2672334_ijerph-06-00108f1
+================================================================================
+Timestamp: 2025-08-06 21:33:09
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672334___ijerph-06-00108f1
+================================================================================
+
+
+
+[21:33:09.261] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:33:09.263] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:33:09.294] === DATA_LOADING ===
+Chargement des données GT depuis PMC2672334___ijerph-06-00108f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2672334___ijerph-06-00108f1.json
+  - Series Count: 4
+  - Series Names: ['Mental disorders', 'Diseases of the circulatory system', 'Mailgnant neoplasms', 'Accidents, injury and poisoning']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 52
+--------------------------------------------------
+
+[21:33:09.297] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2672334___ijerph-06-00108f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672334___ijerph-06-00108f1\PMC2672334___ijerph-06-00108f1.json
+  - Series Count: 4
+  - Series Names: ['Mental disorders', 'Diseases of the circulatory system', 'Malignant neoplasms', 'Accidents, injury and poisoning']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 52
+--------------------------------------------------
+
+[21:33:09.299] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 111.3155
+  - Y Min-Max: [4.2694, 115.5849]
+  - X Range: 12.093513513513471
+--------------------------------------------------
+
+[21:33:09.301] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:33:09.303] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Mental disorders <-> Mental disorders (method=exact_match, score=1.000)', 'Diseases of the circulatory system <-> Diseases of the circulatory system (method=exact_match, score=1.000)', 'Accidents, injury and poisoning <-> Accidents, injury and poisoning (method=exact_match, score=1.000)', 'Mailgnant neoplasms <-> Malignant neoplasms (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[21:33:09.855] === SERIES_COMPARISON ===
+Comparaison Mental disorders vs Mental disorders avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.426984
+  - MAE Relative: 0.030786
+  - Left Miss (rel): 0.001117
+  - Right Miss (rel): 0.002205
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 13
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:33:10.395] === SERIES_COMPARISON ===
+Comparaison Diseases of the circulatory system vs Diseases of the circulatory system avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.835575
+  - MAE Relative: 0.007506
+  - Left Miss (rel): -0.001117
+  - Right Miss (rel): 0.001103
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 13
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:33:10.976] === SERIES_COMPARISON ===
+Comparaison Accidents, injury and poisoning vs Accidents, injury and poisoning avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.233485
+  - MAE Relative: 0.020064
+  - Left Miss (rel): 0.001117
+  - Right Miss (rel): 0.006615
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 13
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:33:11.511] === SERIES_COMPARISON ===
+Comparaison Mailgnant neoplasms vs Malignant neoplasms avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.947167
+  - MAE Relative: 0.026476
+  - Left Miss (rel): 0.001117
+  - Right Miss (rel): 0.002205
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 13
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:33:11
+Total Duration: 2.25 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2672334_ijerph-06-00108f1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2672334_ijerph-06-00108f1
+================================================================================
+Timestamp: 2025-08-07 12:49:23
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672334___ijerph-06-00108f1
+================================================================================
+
+
+
+[12:49:23.344] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:49:23.347] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:49:23.395] === DATA_LOADING ===
+Chargement des données GT depuis PMC2672334___ijerph-06-00108f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2672334___ijerph-06-00108f1.json
+  - Series Count: 4
+  - Series Names: ['Mental disorders', 'Diseases of the circulatory system', 'Mailgnant neoplasms', 'Accidents, injury and poisoning']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 52
+--------------------------------------------------
+
+[12:49:23.400] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2672334___ijerph-06-00108f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672334___ijerph-06-00108f1\PMC2672334___ijerph-06-00108f1.json
+  - Series Count: 4
+  - Series Names: ['Mental disorders', 'Diseases of the circulatory system', 'Malignant neoplasms', 'Accidents, injury and poisoning']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 52
+--------------------------------------------------
+
+[12:49:23.405] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 111.3155
+  - Y Min-Max: [4.2694, 115.5849]
+  - X Range: 12.093513513513471
+--------------------------------------------------
+
+[12:49:23.408] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:49:23.410] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Mental disorders <-> Mental disorders (method=exact_match, score=1.000)', 'Diseases of the circulatory system <-> Diseases of the circulatory system (method=exact_match, score=1.000)', 'Accidents, injury and poisoning <-> Accidents, injury and poisoning (method=exact_match, score=1.000)', 'Mailgnant neoplasms <-> Malignant neoplasms (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[12:49:24.074] === SERIES_COMPARISON ===
+Comparaison Mental disorders vs Mental disorders avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.236874
+  - MAE Relative: 0.029078
+  - Left Miss (rel): 0.001117
+  - Right Miss (rel): 0.002205
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 13
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:49:24.818] === SERIES_COMPARISON ===
+Comparaison Diseases of the circulatory system vs Diseases of the circulatory system avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.540018
+  - MAE Relative: 0.004851
+  - Left Miss (rel): -0.001117
+  - Right Miss (rel): 0.001103
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 13
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:49:25.793] === SERIES_COMPARISON ===
+Comparaison Accidents, injury and poisoning vs Accidents, injury and poisoning avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.098340
+  - MAE Relative: 0.018850
+  - Left Miss (rel): 0.001117
+  - Right Miss (rel): 0.006615
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 13
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:49:27.500] === SERIES_COMPARISON ===
+Comparaison Mailgnant neoplasms vs Malignant neoplasms avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.384057
+  - MAE Relative: 0.030401
+  - Left Miss (rel): 0.001117
+  - Right Miss (rel): 0.002205
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 13
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:49:27
+Total Duration: 4.17 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2672334_ijerph-06-00108f1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2672334_ijerph-06-00108f1
+================================================================================
+Timestamp: 2025-08-07 13:06:14
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672334___ijerph-06-00108f1
+================================================================================
+
+
+
+[13:06:14.610] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:06:14.613] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:06:14.655] === DATA_LOADING ===
+Chargement des données GT depuis PMC2672334___ijerph-06-00108f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2672334___ijerph-06-00108f1.json
+  - Series Count: 4
+  - Series Names: ['Mental disorders', 'Diseases of the circulatory system', 'Mailgnant neoplasms', 'Accidents, injury and poisoning']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 52
+--------------------------------------------------
+
+[13:06:14.679] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2672334___ijerph-06-00108f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672334___ijerph-06-00108f1\PMC2672334___ijerph-06-00108f1.json
+  - Series Count: 4
+  - Series Names: ['Mental disorders', 'Diseases of the circulatory system', 'Malignant neoplasms', 'Accidents, injury and poisoning']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 52
+--------------------------------------------------
+
+[13:06:14.699] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 111.3155
+  - Y Min-Max: [4.2694, 115.5849]
+  - X Range: 12.093513513513471
+--------------------------------------------------
+
+[13:06:14.701] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:06:14.703] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Mental disorders <-> Mental disorders (method=exact_match, score=1.000)', 'Diseases of the circulatory system <-> Diseases of the circulatory system (method=exact_match, score=1.000)', 'Accidents, injury and poisoning <-> Accidents, injury and poisoning (method=exact_match, score=1.000)', 'Mailgnant neoplasms <-> Malignant neoplasms (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[13:06:15.405] === SERIES_COMPARISON ===
+Comparaison Mental disorders vs Mental disorders avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.236874
+  - MAE Relative: 0.029078
+  - Left Miss (rel): 0.001117
+  - Right Miss (rel): 0.002205
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 13
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:06:16.690] === SERIES_COMPARISON ===
+Comparaison Diseases of the circulatory system vs Diseases of the circulatory system avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.540018
+  - MAE Relative: 0.004851
+  - Left Miss (rel): -0.001117
+  - Right Miss (rel): 0.001103
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 13
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:06:17.968] === SERIES_COMPARISON ===
+Comparaison Accidents, injury and poisoning vs Accidents, injury and poisoning avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.098340
+  - MAE Relative: 0.018850
+  - Left Miss (rel): 0.001117
+  - Right Miss (rel): 0.006615
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 13
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:06:19.434] === SERIES_COMPARISON ===
+Comparaison Mailgnant neoplasms vs Malignant neoplasms avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.384057
+  - MAE Relative: 0.030401
+  - Left Miss (rel): 0.001117
+  - Right Miss (rel): 0.002205
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 13
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:06:19
+Total Duration: 4.88 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2672334_ijerph-06-00108f1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2672334_ijerph-06-00108f1
+================================================================================
+Timestamp: 2025-08-07 16:39:53
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672334___ijerph-06-00108f1
+================================================================================
+
+
+
+[16:39:53.085] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:39:53.086] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:39:53.119] === DATA_LOADING ===
+Chargement des données GT depuis PMC2672334___ijerph-06-00108f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2672334___ijerph-06-00108f1.json
+  - Series Count: 4
+  - Series Names: ['Mental disorders', 'Diseases of the circulatory system', 'Mailgnant neoplasms', 'Accidents, injury and poisoning']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 52
+--------------------------------------------------
+
+[16:39:53.131] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2672334___ijerph-06-00108f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672334___ijerph-06-00108f1\PMC2672334___ijerph-06-00108f1.json
+  - Series Count: 4
+  - Series Names: ['Mental disorders', 'Diseases of the circulatory system', 'Malignant neoplasms', 'Accidents, injury and poisoning']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 52
+--------------------------------------------------
+
+[16:39:53.134] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 111.3155
+  - Y Min-Max: [4.2694, 115.5849]
+  - X Range: 12.093513513513471
+--------------------------------------------------
+
+[16:39:53.135] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:39:53.137] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Mental disorders <-> Mental disorders (method=exact_match, score=1.000)', 'Diseases of the circulatory system <-> Diseases of the circulatory system (method=exact_match, score=1.000)', 'Accidents, injury and poisoning <-> Accidents, injury and poisoning (method=exact_match, score=1.000)', 'Mailgnant neoplasms <-> Malignant neoplasms (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[16:39:53.666] === SERIES_COMPARISON ===
+Comparaison Mental disorders vs Mental disorders avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.328677
+  - MAE Relative: 0.029903
+  - Left Miss (rel): 0.001117
+  - Right Miss (rel): 0.002205
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 13
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:39:54.326] === SERIES_COMPARISON ===
+Comparaison Diseases of the circulatory system vs Diseases of the circulatory system avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.918918
+  - MAE Relative: 0.008255
+  - Left Miss (rel): -0.001117
+  - Right Miss (rel): 0.001103
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 13
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:39:55.596] === SERIES_COMPARISON ===
+Comparaison Accidents, injury and poisoning vs Accidents, injury and poisoning avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.611677
+  - MAE Relative: 0.023462
+  - Left Miss (rel): 0.001117
+  - Right Miss (rel): 0.006615
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 13
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:39:56.644] === SERIES_COMPARISON ===
+Comparaison Mailgnant neoplasms vs Malignant neoplasms avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.006640
+  - MAE Relative: 0.027010
+  - Left Miss (rel): 0.001117
+  - Right Miss (rel): 0.002205
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 13
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:39:56
+Total Duration: 3.58 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2672334_ijerph-06-00108f1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2672334_ijerph-06-00108f1
+================================================================================
+Timestamp: 2025-08-07 16:59:09
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672334___ijerph-06-00108f1
+================================================================================
+
+
+
+[16:59:09.363] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:59:09.365] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:59:09.405] === DATA_LOADING ===
+Chargement des données GT depuis PMC2672334___ijerph-06-00108f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2672334___ijerph-06-00108f1.json
+  - Series Count: 4
+  - Series Names: ['Mental disorders', 'Diseases of the circulatory system', 'Mailgnant neoplasms', 'Accidents, injury and poisoning']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 52
+--------------------------------------------------
+
+[16:59:09.431] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2672334___ijerph-06-00108f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2672334___ijerph-06-00108f1\PMC2672334___ijerph-06-00108f1.json
+  - Series Count: 4
+  - Series Names: ['Mental disorders', 'Diseases of the circulatory system', 'Malignant neoplasms', 'Accidents, injury and poisoning']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 52
+--------------------------------------------------
+
+[16:59:09.435] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 111.3155
+  - Y Min-Max: [4.2694, 115.5849]
+  - X Range: 12.093513513513471
+--------------------------------------------------
+
+[16:59:09.437] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:59:09.440] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Mental disorders <-> Mental disorders (method=exact_match, score=1.000)', 'Diseases of the circulatory system <-> Diseases of the circulatory system (method=exact_match, score=1.000)', 'Accidents, injury and poisoning <-> Accidents, injury and poisoning (method=exact_match, score=1.000)', 'Mailgnant neoplasms <-> Malignant neoplasms (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[16:59:10.108] === SERIES_COMPARISON ===
+Comparaison Mental disorders vs Mental disorders avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.256661
+  - MAE Relative: 0.029256
+  - Left Miss (rel): 0.001117
+  - Right Miss (rel): 0.002205
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 13
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:59:10.621] === SERIES_COMPARISON ===
+Comparaison Diseases of the circulatory system vs Diseases of the circulatory system avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.918918
+  - MAE Relative: 0.008255
+  - Left Miss (rel): -0.001117
+  - Right Miss (rel): 0.001103
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 13
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:59:11.180] === SERIES_COMPARISON ===
+Comparaison Accidents, injury and poisoning vs Accidents, injury and poisoning avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.747281
+  - MAE Relative: 0.024680
+  - Left Miss (rel): 0.001117
+  - Right Miss (rel): 0.006615
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 13
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:59:11.913] === SERIES_COMPARISON ===
+Comparaison Mailgnant neoplasms vs Malignant neoplasms avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.465018
+  - MAE Relative: 0.031128
+  - Left Miss (rel): 0.001117
+  - Right Miss (rel): 0.002205
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 13
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:59:11
+Total Duration: 2.57 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2672334_ijerph-06-00108f1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

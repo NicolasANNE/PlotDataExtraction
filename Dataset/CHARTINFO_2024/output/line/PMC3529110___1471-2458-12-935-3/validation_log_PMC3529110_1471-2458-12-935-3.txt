@@ -1,0 +1,143 @@
+
+================================================================================
+VALIDATION LOG - PMC3529110_1471-2458-12-935-3
+================================================================================
+Timestamp: 2025-08-07 12:56:28
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3529110___1471-2458-12-935-3
+================================================================================
+
+
+
+[12:56:28.142] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:56:28.145] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:56:28.200] === DATA_LOADING ===
+Chargement des données GT depuis PMC3529110___1471-2458-12-935-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3529110___1471-2458-12-935-3.json
+  - Series Count: 4
+  - Series Names: ['Baseline Screening 20%', 'Baseline Screening 50%', 'Baseline Screening 70%', 'Baseline Screening 90%']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 28
+--------------------------------------------------
+
+[12:56:28.221] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3529110___1471-2458-12-935-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3529110___1471-2458-12-935-3\PMC3529110___1471-2458-12-935-3.json
+  - Series Count: 4
+  - Series Names: ['Baseline Screening 20%', 'Baseline Screening 50%', 'Baseline Screening 70%', 'Baseline Screening 90%']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 28
+--------------------------------------------------
+
+[12:56:28.225] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 49.1057
+  - Y Min-Max: [-0.1057, 49.0000]
+  - X Range: 120.62365591397847
+--------------------------------------------------
+
+[12:56:28.228] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:56:28.230] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Baseline Screening 20% <-> Baseline Screening 20% (method=exact_match, score=1.000)', 'Baseline Screening 50% <-> Baseline Screening 50% (method=exact_match, score=1.000)', 'Baseline Screening 70% <-> Baseline Screening 70% (method=exact_match, score=1.000)', 'Baseline Screening 90% <-> Baseline Screening 90% (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:56:29.313] === SERIES_COMPARISON ===
+Comparaison Baseline Screening 20% vs Baseline Screening 20% avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.166876
+  - MAE Relative: 0.003398
+  - Left Miss (rel): -0.004457
+  - Right Miss (rel): 0.003566
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:56:30.133] === SERIES_COMPARISON ===
+Comparaison Baseline Screening 50% vs Baseline Screening 50% avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.570778
+  - MAE Relative: 0.031988
+  - Left Miss (rel): 0.000891
+  - Right Miss (rel): -0.000000
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:56:30.781] === SERIES_COMPARISON ===
+Comparaison Baseline Screening 70% vs Baseline Screening 70% avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.110588
+  - MAE Relative: 0.002252
+  - Left Miss (rel): -0.002674
+  - Right Miss (rel): 0.003209
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:56:31.337] === SERIES_COMPARISON ===
+Comparaison Baseline Screening 90% vs Baseline Screening 90% avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.238875
+  - MAE Relative: 0.004865
+  - Left Miss (rel): -0.002674
+  - Right Miss (rel): 0.004279
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:56:31
+Total Duration: 3.20 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3529110_1471-2458-12-935-3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

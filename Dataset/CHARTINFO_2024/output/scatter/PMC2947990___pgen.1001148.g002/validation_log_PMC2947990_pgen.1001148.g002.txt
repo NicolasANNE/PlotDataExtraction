@@ -1,0 +1,289 @@
+
+================================================================================
+VALIDATION LOG - PMC2947990_pgen.1001148.g002
+================================================================================
+Timestamp: 2025-08-07 13:08:10
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2947990___pgen.1001148.g002
+================================================================================
+
+
+
+[13:08:10.020] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:08:10.024] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:08:10.118] === DATA_LOADING ===
+Chargement des données GT depuis PMC2947990___pgen.1001148.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC2947990___pgen.1001148.g002.json
+  - Series Count: 20
+  - Series Names: ['14', '11', '18', '15', '10', '17', '12', '13', '19', '16', '6', '3', '8', '7', '4', '5', '9', '2', '1', 'X']
+  - X Data Types: {'numeric': 20}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[13:08:10.123] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2947990___pgen.1001148.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2947990___pgen.1001148.g002\PMC2947990___pgen.1001148.g002.json
+  - Series Count: 1
+  - Series Names: ['Series 1']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[13:08:10.137] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 82.3249
+  - Y Min-Max: [40.0000, 122.3249]
+  - X Range: 105.0958904109589
+--------------------------------------------------
+
+[13:08:10.146] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:08:10.176] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['6 <-> Series 1 (method=similarity_match_generic, score=0.203)']
+--------------------------------------------------
+
+[13:08:11.024] === SERIES_COMPARISON ===
+Comparaison 6 vs Series 1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: NaN
+  - MAE Relative: NaN
+  - Left Miss (rel): -0.504171
+  - Right Miss (rel): -0.399765
+  - X Cutoff: N/A
+  - GT Points: 1
+  - Extracted Points: 20
+  - Points Ratio: 20.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:08:11
+Total Duration: 1.02 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2947990_pgen.1001148.g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2947990_pgen.1001148.g002
+================================================================================
+Timestamp: 2025-08-07 16:41:51
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2947990___pgen.1001148.g002
+================================================================================
+
+
+
+[16:41:51.289] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:41:51.293] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:41:51.366] === DATA_LOADING ===
+Chargement des données GT depuis PMC2947990___pgen.1001148.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC2947990___pgen.1001148.g002.json
+  - Series Count: 20
+  - Series Names: ['14', '11', '18', '15', '10', '17', '12', '13', '19', '16', '6', '3', '8', '7', '4', '5', '9', '2', '1', 'X']
+  - X Data Types: {'numeric': 20}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[16:41:51.374] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2947990___pgen.1001148.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2947990___pgen.1001148.g002\PMC2947990___pgen.1001148.g002.json
+  - Series Count: 1
+  - Series Names: ['Series 1']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[16:41:51.378] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 84.3249
+  - Y Min-Max: [38.0000, 122.3249]
+  - X Range: 105.0958904109589
+--------------------------------------------------
+
+[16:41:51.382] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:41:51.411] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['6 <-> Series 1 (method=similarity_match_generic, score=0.202)']
+--------------------------------------------------
+
+[16:41:51.421] === ERROR IN SERIES_COMPARISON ===
+Error: index -1 is out of bounds for axis 0 with size 0
+Type: IndexError
+Details: Comparaison 6 vs Series 1
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:41:51
+Total Duration: 0.21 seconds
+Total Series Processed: 1
+Successful Comparisons: 0
+Errors: 1
+Success Rate: 0.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2947990_pgen.1001148.g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2947990_pgen.1001148.g002
+================================================================================
+Timestamp: 2025-08-07 17:01:04
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2947990___pgen.1001148.g002
+================================================================================
+
+
+
+[17:01:04.429] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:01:04.452] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[17:01:04.503] === DATA_LOADING ===
+Chargement des données GT depuis PMC2947990___pgen.1001148.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC2947990___pgen.1001148.g002.json
+  - Series Count: 20
+  - Series Names: ['14', '11', '18', '15', '10', '17', '12', '13', '19', '16', '6', '3', '8', '7', '4', '5', '9', '2', '1', 'X']
+  - X Data Types: {'numeric': 20}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[17:01:04.511] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2947990___pgen.1001148.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2947990___pgen.1001148.g002\PMC2947990___pgen.1001148.g002.json
+  - Series Count: 1
+  - Series Names: ['Series 1']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[17:01:04.535] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 82.3249
+  - Y Min-Max: [40.0000, 122.3249]
+  - X Range: 105.0958904109589
+--------------------------------------------------
+
+[17:01:04.556] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:01:04.577] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['6 <-> Series 1 (method=similarity_match_generic, score=0.203)']
+--------------------------------------------------
+
+[17:01:04.596] === ERROR IN SERIES_COMPARISON ===
+Error: index -1 is out of bounds for axis 0 with size 0
+Type: IndexError
+Details: Comparaison 6 vs Series 1
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:01:04
+Total Duration: 0.24 seconds
+Total Series Processed: 1
+Successful Comparisons: 0
+Errors: 1
+Success Rate: 0.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2947990_pgen.1001148.g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

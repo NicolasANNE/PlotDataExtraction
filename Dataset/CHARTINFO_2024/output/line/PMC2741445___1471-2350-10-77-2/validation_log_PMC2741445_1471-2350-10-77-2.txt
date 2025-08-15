@@ -1,0 +1,619 @@
+
+================================================================================
+VALIDATION LOG - PMC2741445_1471-2350-10-77-2
+================================================================================
+Timestamp: 2025-08-06 20:16:39
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2741445___1471-2350-10-77-2
+================================================================================
+
+
+
+[20:16:39.385] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:39.440] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:39.449] === DATA_LOADING ===
+Chargement des données GT depuis PMC2741445___1471-2350-10-77-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2741445___1471-2350-10-77-2.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:39.451] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2741445___1471-2350-10-77-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2741445___1471-2350-10-77-2\PMC2741445___1471-2350-10-77-2.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:39.453] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2741445_1471-2350-10-77-2
+================================================================================
+Timestamp: 2025-08-06 21:34:10
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2741445___1471-2350-10-77-2
+================================================================================
+
+
+
+[21:34:10.264] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:34:10.284] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:34:10.341] === DATA_LOADING ===
+Chargement des données GT depuis PMC2741445___1471-2350-10-77-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2741445___1471-2350-10-77-2.json
+  - Series Count: 14
+  - Series Names: ['Isleti-RPS13', 'Islet2-RPS13', 'Islet3-RPS13', 'Islet4-RPS13', 'Islet1-IRS2', 'Islet2-IRS2', 'Islet3-IRS2', 'Islet4-IRS2', 'Islet1-NR4A3', 'Islet2-NR4A3', 'Islet3-NR4A3', 'Islet4-NR4A3', 'Fat1-NR4A3', 'Fat2-NR4A3']
+  - X Data Types: {'numeric': 14}
+  - Total Data Points: 51
+--------------------------------------------------
+
+[21:34:10.345] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2741445___1471-2350-10-77-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2741445___1471-2350-10-77-2\PMC2741445___1471-2350-10-77-2.json
+  - Series Count: 14
+  - Series Names: ['Islet1-RPS13', 'Islet2-RPS13', 'Islet3-RPS13', 'Islet4-RPS13', 'Islet1-IRS2', 'Islet2-IRS2', 'Islet3-IRS2', 'Islet4-IRS2', 'Islet1-NR4A3', 'Islet2-NR4A3', 'Islet3-NR4A3', 'Islet4-NR4A3', 'Fat1-NR4A3', 'Fat2-NR4A3']
+  - X Data Types: {'numeric': 14}
+  - Total Data Points: 98
+--------------------------------------------------
+
+[21:34:10.350] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 18.3022
+  - Y Min-Max: [-0.3022, 18.0000]
+  - X Range: 45.0
+--------------------------------------------------
+
+[21:34:10.352] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:34:10.355] === MATCHING_RESULTS ===
+14 appariements trouvés
+
+Data:
+  - Total Matches: 14
+  - Match Details: ['Islet2-RPS13 <-> Islet2-RPS13 (method=exact_match, score=1.000)', 'Islet3-RPS13 <-> Islet3-RPS13 (method=exact_match, score=1.000)', 'Islet4-RPS13 <-> Islet4-RPS13 (method=exact_match, score=1.000)', 'Islet1-IRS2 <-> Islet1-IRS2 (method=exact_match, score=1.000)', 'Islet2-IRS2 <-> Islet2-IRS2 (method=exact_match, score=1.000)', 'Islet3-IRS2 <-> Islet3-IRS2 (method=exact_match, score=1.000)', 'Islet4-IRS2 <-> Islet4-IRS2 (method=exact_match, score=1.000)', 'Islet1-NR4A3 <-> Islet1-NR4A3 (method=exact_match, score=1.000)', 'Islet2-NR4A3 <-> Islet2-NR4A3 (method=exact_match, score=1.000)', 'Islet3-NR4A3 <-> Islet3-NR4A3 (method=exact_match, score=1.000)', 'Islet4-NR4A3 <-> Islet4-NR4A3 (method=exact_match, score=1.000)', 'Fat1-NR4A3 <-> Fat1-NR4A3 (method=exact_match, score=1.000)', 'Fat2-NR4A3 <-> Fat2-NR4A3 (method=exact_match, score=1.000)', 'Isleti-RPS13 <-> Islet1-RPS13 (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[21:34:11.223] === SERIES_COMPARISON ===
+Comparaison Islet2-RPS13 vs Islet2-RPS13 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.868727
+  - MAE Relative: 0.047466
+  - Left Miss (rel): -0.111111
+  - Right Miss (rel): -0.111111
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 7
+  - Points Ratio: 2.33
+--------------------------------------------------
+
+[21:34:11.765] === SERIES_COMPARISON ===
+Comparaison Islet3-RPS13 vs Islet3-RPS13 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.018695
+  - MAE Relative: 0.055660
+  - Left Miss (rel): 0.333333
+  - Right Miss (rel): -0.111111
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 7
+  - Points Ratio: 1.75
+--------------------------------------------------
+
+[21:34:12.317] === SERIES_COMPARISON ===
+Comparaison Islet4-RPS13 vs Islet4-RPS13 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.087504
+  - MAE Relative: 0.059419
+  - Left Miss (rel): 0.333333
+  - Right Miss (rel): -0.111111
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 7
+  - Points Ratio: 1.75
+--------------------------------------------------
+
+[21:34:12.849] === SERIES_COMPARISON ===
+Comparaison Islet1-IRS2 vs Islet1-IRS2 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.215748
+  - MAE Relative: 0.066426
+  - Left Miss (rel): -0.111111
+  - Right Miss (rel): -0.111111
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 7
+  - Points Ratio: 2.33
+--------------------------------------------------
+
+[21:34:13.503] === SERIES_COMPARISON ===
+Comparaison Islet2-IRS2 vs Islet2-IRS2 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.619439
+  - MAE Relative: 0.033845
+  - Left Miss (rel): 0.333333
+  - Right Miss (rel): -0.111111
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 7
+  - Points Ratio: 1.75
+--------------------------------------------------
+
+[21:34:14.135] === SERIES_COMPARISON ===
+Comparaison Islet3-IRS2 vs Islet3-IRS2 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.558195
+  - MAE Relative: 0.030499
+  - Left Miss (rel): 0.333333
+  - Right Miss (rel): -0.111111
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 7
+  - Points Ratio: 1.75
+--------------------------------------------------
+
+[21:34:14.886] === SERIES_COMPARISON ===
+Comparaison Islet4-IRS2 vs Islet4-IRS2 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.617453
+  - MAE Relative: 0.033737
+  - Left Miss (rel): 0.333333
+  - Right Miss (rel): -0.111111
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 7
+  - Points Ratio: 1.75
+--------------------------------------------------
+
+[21:34:15.677] === SERIES_COMPARISON ===
+Comparaison Islet1-NR4A3 vs Islet1-NR4A3 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.648015
+  - MAE Relative: 0.090045
+  - Left Miss (rel): -0.111111
+  - Right Miss (rel): -0.111111
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 7
+  - Points Ratio: 2.33
+--------------------------------------------------
+
+[21:34:16.496] === SERIES_COMPARISON ===
+Comparaison Islet2-NR4A3 vs Islet2-NR4A3 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.176051
+  - MAE Relative: 0.064257
+  - Left Miss (rel): 0.333333
+  - Right Miss (rel): -0.111111
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 7
+  - Points Ratio: 1.75
+--------------------------------------------------
+
+[21:34:18.098] === SERIES_COMPARISON ===
+Comparaison Islet3-NR4A3 vs Islet3-NR4A3 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.362920
+  - MAE Relative: 0.074468
+  - Left Miss (rel): 0.333333
+  - Right Miss (rel): -0.111111
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 7
+  - Points Ratio: 1.75
+--------------------------------------------------
+
+[21:34:19.147] === SERIES_COMPARISON ===
+Comparaison Islet4-NR4A3 vs Islet4-NR4A3 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.812606
+  - MAE Relative: 0.099038
+  - Left Miss (rel): -0.111111
+  - Right Miss (rel): -0.111111
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 7
+  - Points Ratio: 2.33
+--------------------------------------------------
+
+[21:34:19.812] === SERIES_COMPARISON ===
+Comparaison Fat1-NR4A3 vs Fat1-NR4A3 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.602446
+  - MAE Relative: 0.032917
+  - Left Miss (rel): 0.333333
+  - Right Miss (rel): -0.111111
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 7
+  - Points Ratio: 1.75
+--------------------------------------------------
+
+[21:34:20.470] === SERIES_COMPARISON ===
+Comparaison Fat2-NR4A3 vs Fat2-NR4A3 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.855233
+  - MAE Relative: 0.046729
+  - Left Miss (rel): -0.111111
+  - Right Miss (rel): -0.111111
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 7
+  - Points Ratio: 2.33
+--------------------------------------------------
+
+[21:34:21.157] === SERIES_COMPARISON ===
+Comparaison Isleti-RPS13 vs Islet1-RPS13 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.266273
+  - MAE Relative: 0.069187
+  - Left Miss (rel): 0.333333
+  - Right Miss (rel): -0.111111
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 7
+  - Points Ratio: 1.75
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:34:21
+Total Duration: 10.92 seconds
+Total Series Processed: 14
+Successful Comparisons: 14
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2741445_1471-2350-10-77-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2741445_1471-2350-10-77-2
+================================================================================
+Timestamp: 2025-08-07 12:50:18
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2741445___1471-2350-10-77-2
+================================================================================
+
+
+
+[12:50:19.022] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:50:19.024] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:50:19.078] === DATA_LOADING ===
+Chargement des données GT depuis PMC2741445___1471-2350-10-77-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2741445___1471-2350-10-77-2.json
+  - Series Count: 14
+  - Series Names: ['Isleti-RPS13', 'Islet2-RPS13', 'Islet3-RPS13', 'Islet4-RPS13', 'Islet1-IRS2', 'Islet2-IRS2', 'Islet3-IRS2', 'Islet4-IRS2', 'Islet1-NR4A3', 'Islet2-NR4A3', 'Islet3-NR4A3', 'Islet4-NR4A3', 'Fat1-NR4A3', 'Fat2-NR4A3']
+  - X Data Types: {'numeric': 14}
+  - Total Data Points: 51
+--------------------------------------------------
+
+[12:50:19.083] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2741445___1471-2350-10-77-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2741445___1471-2350-10-77-2\PMC2741445___1471-2350-10-77-2.json
+  - Series Count: 14
+  - Series Names: ['Islet1-RPS13', 'Islet2-RPS13', 'Islet3-RPS13', 'Islet4-RPS13', 'Islet1-IRS2', 'Islet2-IRS2', 'Islet3-IRS2', 'Islet4-IRS2', 'Islet1-NR4A3', 'Islet2-NR4A3', 'Islet3-NR4A3', 'Islet4-NR4A3', 'Fat1-NR4A3', 'Fat2-NR4A3']
+  - X Data Types: {'numeric': 14}
+  - Total Data Points: 98
+--------------------------------------------------
+
+[12:50:19.087] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 18.3022
+  - Y Min-Max: [-0.3022, 18.0000]
+  - X Range: 45.0
+--------------------------------------------------
+
+[12:50:19.089] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:50:19.091] === MATCHING_RESULTS ===
+14 appariements trouvés
+
+Data:
+  - Total Matches: 14
+  - Match Details: ['Islet2-RPS13 <-> Islet2-RPS13 (method=exact_match, score=1.000)', 'Islet3-RPS13 <-> Islet3-RPS13 (method=exact_match, score=1.000)', 'Islet4-RPS13 <-> Islet4-RPS13 (method=exact_match, score=1.000)', 'Islet1-IRS2 <-> Islet1-IRS2 (method=exact_match, score=1.000)', 'Islet2-IRS2 <-> Islet2-IRS2 (method=exact_match, score=1.000)', 'Islet3-IRS2 <-> Islet3-IRS2 (method=exact_match, score=1.000)', 'Islet4-IRS2 <-> Islet4-IRS2 (method=exact_match, score=1.000)', 'Islet1-NR4A3 <-> Islet1-NR4A3 (method=exact_match, score=1.000)', 'Islet2-NR4A3 <-> Islet2-NR4A3 (method=exact_match, score=1.000)', 'Islet3-NR4A3 <-> Islet3-NR4A3 (method=exact_match, score=1.000)', 'Islet4-NR4A3 <-> Islet4-NR4A3 (method=exact_match, score=1.000)', 'Fat1-NR4A3 <-> Fat1-NR4A3 (method=exact_match, score=1.000)', 'Fat2-NR4A3 <-> Fat2-NR4A3 (method=exact_match, score=1.000)', 'Isleti-RPS13 <-> Islet1-RPS13 (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[12:50:19.773] === SERIES_COMPARISON ===
+Comparaison Islet2-RPS13 vs Islet2-RPS13 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.868727
+  - MAE Relative: 0.047466
+  - Left Miss (rel): -0.111111
+  - Right Miss (rel): -0.111111
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 7
+  - Points Ratio: 2.33
+--------------------------------------------------
+
+[12:50:20.462] === SERIES_COMPARISON ===
+Comparaison Islet3-RPS13 vs Islet3-RPS13 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.018695
+  - MAE Relative: 0.055660
+  - Left Miss (rel): 0.333333
+  - Right Miss (rel): -0.111111
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 7
+  - Points Ratio: 1.75
+--------------------------------------------------
+
+[12:50:21.114] === SERIES_COMPARISON ===
+Comparaison Islet4-RPS13 vs Islet4-RPS13 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.087504
+  - MAE Relative: 0.059419
+  - Left Miss (rel): 0.333333
+  - Right Miss (rel): -0.111111
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 7
+  - Points Ratio: 1.75
+--------------------------------------------------
+
+[12:50:22.259] === SERIES_COMPARISON ===
+Comparaison Islet1-IRS2 vs Islet1-IRS2 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.215748
+  - MAE Relative: 0.066426
+  - Left Miss (rel): -0.111111
+  - Right Miss (rel): -0.111111
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 7
+  - Points Ratio: 2.33
+--------------------------------------------------
+
+[12:50:23.456] === SERIES_COMPARISON ===
+Comparaison Islet2-IRS2 vs Islet2-IRS2 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.619439
+  - MAE Relative: 0.033845
+  - Left Miss (rel): 0.333333
+  - Right Miss (rel): -0.111111
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 7
+  - Points Ratio: 1.75
+--------------------------------------------------
+
+[12:50:24.524] === SERIES_COMPARISON ===
+Comparaison Islet3-IRS2 vs Islet3-IRS2 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.558195
+  - MAE Relative: 0.030499
+  - Left Miss (rel): 0.333333
+  - Right Miss (rel): -0.111111
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 7
+  - Points Ratio: 1.75
+--------------------------------------------------
+
+[12:50:25.630] === SERIES_COMPARISON ===
+Comparaison Islet4-IRS2 vs Islet4-IRS2 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.617453
+  - MAE Relative: 0.033737
+  - Left Miss (rel): 0.333333
+  - Right Miss (rel): -0.111111
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 7
+  - Points Ratio: 1.75
+--------------------------------------------------
+
+[12:50:27.176] === SERIES_COMPARISON ===
+Comparaison Islet1-NR4A3 vs Islet1-NR4A3 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.648015
+  - MAE Relative: 0.090045
+  - Left Miss (rel): -0.111111
+  - Right Miss (rel): -0.111111
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 7
+  - Points Ratio: 2.33
+--------------------------------------------------
+
+[12:50:28.039] === SERIES_COMPARISON ===
+Comparaison Islet2-NR4A3 vs Islet2-NR4A3 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.176051
+  - MAE Relative: 0.064257
+  - Left Miss (rel): 0.333333
+  - Right Miss (rel): -0.111111
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 7
+  - Points Ratio: 1.75
+--------------------------------------------------
+
+[12:50:28.595] === SERIES_COMPARISON ===
+Comparaison Islet3-NR4A3 vs Islet3-NR4A3 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.362920
+  - MAE Relative: 0.074468
+  - Left Miss (rel): 0.333333
+  - Right Miss (rel): -0.111111
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 7
+  - Points Ratio: 1.75
+--------------------------------------------------
+
+[12:50:29.170] === SERIES_COMPARISON ===
+Comparaison Islet4-NR4A3 vs Islet4-NR4A3 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.812606
+  - MAE Relative: 0.099038
+  - Left Miss (rel): -0.111111
+  - Right Miss (rel): -0.111111
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 7
+  - Points Ratio: 2.33
+--------------------------------------------------
+
+[12:50:29.657] === SERIES_COMPARISON ===
+Comparaison Fat1-NR4A3 vs Fat1-NR4A3 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.602446
+  - MAE Relative: 0.032917
+  - Left Miss (rel): 0.333333
+  - Right Miss (rel): -0.111111
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 7
+  - Points Ratio: 1.75
+--------------------------------------------------
+
+[12:50:30.219] === SERIES_COMPARISON ===
+Comparaison Fat2-NR4A3 vs Fat2-NR4A3 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.855233
+  - MAE Relative: 0.046729
+  - Left Miss (rel): -0.111111
+  - Right Miss (rel): -0.111111
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 7
+  - Points Ratio: 2.33
+--------------------------------------------------
+
+[12:50:30.761] === SERIES_COMPARISON ===
+Comparaison Isleti-RPS13 vs Islet1-RPS13 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.266273
+  - MAE Relative: 0.069187
+  - Left Miss (rel): 0.333333
+  - Right Miss (rel): -0.111111
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 7
+  - Points Ratio: 1.75
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:50:30
+Total Duration: 11.78 seconds
+Total Series Processed: 14
+Successful Comparisons: 14
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2741445_1471-2350-10-77-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

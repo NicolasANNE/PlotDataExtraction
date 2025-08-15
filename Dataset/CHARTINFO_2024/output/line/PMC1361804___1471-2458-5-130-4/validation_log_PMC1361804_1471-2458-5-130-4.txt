@@ -1,0 +1,1247 @@
+
+================================================================================
+VALIDATION LOG - PMC1361804_1471-2458-5-130-4
+================================================================================
+Timestamp: 2025-08-06 20:15:29
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1361804___1471-2458-5-130-4
+================================================================================
+
+
+
+[20:15:29.798] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:29.845] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:29.859] === DATA_LOADING ===
+Chargement des données GT depuis PMC1361804___1471-2458-5-130-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1361804___1471-2458-5-130-4.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:29.866] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1361804___1471-2458-5-130-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1361804___1471-2458-5-130-4\PMC1361804___1471-2458-5-130-4.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:29.868] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1361804_1471-2458-5-130-4
+================================================================================
+Timestamp: 2025-08-06 21:31:16
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1361804___1471-2458-5-130-4
+================================================================================
+
+
+
+[21:31:16.497] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:31:16.503] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:31:16.567] === DATA_LOADING ===
+Chargement des données GT depuis PMC1361804___1471-2458-5-130-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1361804___1471-2458-5-130-4.json
+  - Series Count: 9
+  - Series Names: ['ART 5%', 'ART 20%', 'ART 50%', 'ART TB', 'TLTI Life/6m', 'Govt. health\nexpend. 2000', 'CDR', 'CR', 'CR&CDR']
+  - X Data Types: {'numeric': 9}
+  - Total Data Points: 96
+--------------------------------------------------
+
+[21:31:16.571] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1361804___1471-2458-5-130-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1361804___1471-2458-5-130-4\PMC1361804___1471-2458-5-130-4.json
+  - Series Count: 8
+  - Series Names: ['ART 5%', 'ART 20%', 'ART 50%', 'ART TB', 'CDR', 'TLTI Life/6m', 'CR', 'CR&CDR']
+  - X Data Types: {'numeric': 8}
+  - Total Data Points: 144
+--------------------------------------------------
+
+[21:31:16.576] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1176.7649
+  - Y Min-Max: [-2.5140, 1174.2509]
+  - X Range: 19.00795909761746
+--------------------------------------------------
+
+[21:31:16.579] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:31:16.587] === MATCHING_RESULTS ===
+8 appariements trouvés
+
+Data:
+  - Total Matches: 8
+  - Match Details: ['ART 5% <-> ART 5% (method=exact_match, score=1.000)', 'ART 20% <-> ART 20% (method=exact_match, score=1.000)', 'ART 50% <-> ART 50% (method=exact_match, score=1.000)', 'ART TB <-> ART TB (method=exact_match, score=1.000)', 'TLTI Life/6m <-> TLTI Life/6m (method=exact_match, score=1.000)', 'CDR <-> CDR (method=exact_match, score=1.000)', 'CR <-> CR (method=exact_match, score=1.000)', 'CR&CDR <-> CR&CDR (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:31:17.424] === SERIES_COMPARISON ===
+Comparaison ART 5% vs ART 5% avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 62.754377
+  - MAE Relative: 0.053328
+  - Left Miss (rel): -0.004243
+  - Right Miss (rel): 0.100663
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 18
+  - Points Ratio: 1.29
+--------------------------------------------------
+
+[21:31:18.749] === SERIES_COMPARISON ===
+Comparaison ART 20% vs ART 20% avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 14.761933
+  - MAE Relative: 0.012545
+  - Left Miss (rel): -0.006788
+  - Right Miss (rel): 0.100663
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 18
+  - Points Ratio: 1.12
+--------------------------------------------------
+
+[21:31:19.792] === SERIES_COMPARISON ===
+Comparaison ART 50% vs ART 50% avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 25.535335
+  - MAE Relative: 0.021700
+  - Left Miss (rel): -0.009334
+  - Right Miss (rel): 0.101523
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 18
+  - Points Ratio: 1.20
+--------------------------------------------------
+
+[21:31:21.319] === SERIES_COMPARISON ===
+Comparaison ART TB vs ART TB avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 9.605730
+  - MAE Relative: 0.008163
+  - Left Miss (rel): -0.001697
+  - Right Miss (rel): 0.101523
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 18
+  - Points Ratio: 1.20
+--------------------------------------------------
+
+[21:31:22.062] === SERIES_COMPARISON ===
+Comparaison TLTI Life/6m vs TLTI Life/6m avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 11.318686
+  - MAE Relative: 0.009618
+  - Left Miss (rel): -0.005006
+  - Right Miss (rel): 0.099631
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 18
+  - Points Ratio: 2.25
+--------------------------------------------------
+
+[21:31:22.923] === SERIES_COMPARISON ===
+Comparaison CDR vs CDR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 39.696814
+  - MAE Relative: 0.033734
+  - Left Miss (rel): -0.002970
+  - Right Miss (rel): 0.104789
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 18
+  - Points Ratio: 1.80
+--------------------------------------------------
+
+[21:31:23.908] === SERIES_COMPARISON ===
+Comparaison CR vs CR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 7.428859
+  - MAE Relative: 0.006313
+  - Left Miss (rel): -0.001697
+  - Right Miss (rel): 0.095505
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 18
+  - Points Ratio: 2.25
+--------------------------------------------------
+
+[21:31:24.879] === SERIES_COMPARISON ===
+Comparaison CR&CDR vs CR&CDR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 7.848513
+  - MAE Relative: 0.006670
+  - Left Miss (rel): -0.006788
+  - Right Miss (rel): 0.101093
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 18
+  - Points Ratio: 4.50
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:31:24
+Total Duration: 8.40 seconds
+Total Series Processed: 8
+Successful Comparisons: 8
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1361804_1471-2458-5-130-4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1361804_1471-2458-5-130-4
+================================================================================
+Timestamp: 2025-08-07 12:47:02
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1361804___1471-2458-5-130-4
+================================================================================
+
+
+
+[12:47:02.878] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:47:02.883] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:47:02.965] === DATA_LOADING ===
+Chargement des données GT depuis PMC1361804___1471-2458-5-130-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1361804___1471-2458-5-130-4.json
+  - Series Count: 9
+  - Series Names: ['ART 5%', 'ART 20%', 'ART 50%', 'ART TB', 'TLTI Life/6m', 'Govt. health\nexpend. 2000', 'CDR', 'CR', 'CR&CDR']
+  - X Data Types: {'numeric': 9}
+  - Total Data Points: 96
+--------------------------------------------------
+
+[12:47:02.969] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1361804___1471-2458-5-130-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1361804___1471-2458-5-130-4\PMC1361804___1471-2458-5-130-4.json
+  - Series Count: 8
+  - Series Names: ['ART 5%', 'ART 20%', 'ART 50%', 'ART TB', 'CDR', 'TLTI Life/6m', 'CR', 'CR&CDR']
+  - X Data Types: {'numeric': 8}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[12:47:02.974] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1176.7649
+  - Y Min-Max: [-2.5140, 1174.2509]
+  - X Range: 20.01612903225805
+--------------------------------------------------
+
+[12:47:02.977] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:47:02.988] === MATCHING_RESULTS ===
+8 appariements trouvés
+
+Data:
+  - Total Matches: 8
+  - Match Details: ['ART 5% <-> ART 5% (method=exact_match, score=1.000)', 'ART 20% <-> ART 20% (method=exact_match, score=1.000)', 'ART 50% <-> ART 50% (method=exact_match, score=1.000)', 'ART TB <-> ART TB (method=exact_match, score=1.000)', 'TLTI Life/6m <-> TLTI Life/6m (method=exact_match, score=1.000)', 'CDR <-> CDR (method=exact_match, score=1.000)', 'CR <-> CR (method=exact_match, score=1.000)', 'CR&CDR <-> CR&CDR (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:47:04.625] === SERIES_COMPARISON ===
+Comparaison ART 5% vs ART 5% avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 58.129260
+  - MAE Relative: 0.049398
+  - Left Miss (rel): -0.004029
+  - Right Miss (rel): -0.054286
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 5
+  - Points Ratio: 0.36
+--------------------------------------------------
+
+[12:47:05.938] === SERIES_COMPARISON ===
+Comparaison ART 20% vs ART 20% avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 26.768951
+  - MAE Relative: 0.022748
+  - Left Miss (rel): -0.006446
+  - Right Miss (rel): -0.054286
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 5
+  - Points Ratio: 0.31
+--------------------------------------------------
+
+[12:47:06.821] === SERIES_COMPARISON ===
+Comparaison ART 50% vs ART 50% avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 36.321701
+  - MAE Relative: 0.030866
+  - Left Miss (rel): -0.008864
+  - Right Miss (rel): -0.053470
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 5
+  - Points Ratio: 0.33
+--------------------------------------------------
+
+[12:47:07.942] === SERIES_COMPARISON ===
+Comparaison ART TB vs ART TB avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 86.524710
+  - MAE Relative: 0.073528
+  - Left Miss (rel): -0.001612
+  - Right Miss (rel): -0.053470
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 5
+  - Points Ratio: 0.33
+--------------------------------------------------
+
+[12:47:08.936] === SERIES_COMPARISON ===
+Comparaison TLTI Life/6m vs TLTI Life/6m avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 29.593410
+  - MAE Relative: 0.025148
+  - Left Miss (rel): -0.004754
+  - Right Miss (rel): -0.055266
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 5
+  - Points Ratio: 0.62
+--------------------------------------------------
+
+[12:47:09.601] === SERIES_COMPARISON ===
+Comparaison CDR vs CDR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 74.368647
+  - MAE Relative: 0.063198
+  - Left Miss (rel): -0.002820
+  - Right Miss (rel): -0.050368
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 5
+  - Points Ratio: 0.50
+--------------------------------------------------
+
+[12:47:10.343] === SERIES_COMPARISON ===
+Comparaison CR vs CR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 4.502177
+  - MAE Relative: 0.003826
+  - Left Miss (rel): -0.001612
+  - Right Miss (rel): -0.059184
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 5
+  - Points Ratio: 0.62
+--------------------------------------------------
+
+[12:47:10.995] === SERIES_COMPARISON ===
+Comparaison CR&CDR vs CR&CDR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 4.670464
+  - MAE Relative: 0.003969
+  - Left Miss (rel): -0.006446
+  - Right Miss (rel): -0.053878
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 5
+  - Points Ratio: 1.25
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:47:10
+Total Duration: 8.18 seconds
+Total Series Processed: 8
+Successful Comparisons: 8
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1361804_1471-2458-5-130-4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1361804_1471-2458-5-130-4
+================================================================================
+Timestamp: 2025-08-07 13:04:10
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1361804___1471-2458-5-130-4
+================================================================================
+
+
+
+[13:04:10.064] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:04:10.067] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:04:10.119] === DATA_LOADING ===
+Chargement des données GT depuis PMC1361804___1471-2458-5-130-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1361804___1471-2458-5-130-4.json
+  - Series Count: 9
+  - Series Names: ['ART 5%', 'ART 20%', 'ART 50%', 'ART TB', 'TLTI Life/6m', 'Govt. health\nexpend. 2000', 'CDR', 'CR', 'CR&CDR']
+  - X Data Types: {'numeric': 9}
+  - Total Data Points: 96
+--------------------------------------------------
+
+[13:04:10.123] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1361804___1471-2458-5-130-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1361804___1471-2458-5-130-4\PMC1361804___1471-2458-5-130-4.json
+  - Series Count: 8
+  - Series Names: ['ART 5%', 'ART 20%', 'ART 50%', 'ART TB', 'CDR', 'TLTI Life/6m', 'CR', 'CR&CDR']
+  - X Data Types: {'numeric': 8}
+  - Total Data Points: 144
+--------------------------------------------------
+
+[13:04:10.126] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1176.7649
+  - Y Min-Max: [-2.5140, 1174.2509]
+  - X Range: 19.00795909761746
+--------------------------------------------------
+
+[13:04:10.128] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:04:10.130] === MATCHING_RESULTS ===
+8 appariements trouvés
+
+Data:
+  - Total Matches: 8
+  - Match Details: ['ART 5% <-> ART 5% (method=exact_match, score=1.000)', 'ART 20% <-> ART 20% (method=exact_match, score=1.000)', 'ART 50% <-> ART 50% (method=exact_match, score=1.000)', 'ART TB <-> ART TB (method=exact_match, score=1.000)', 'TLTI Life/6m <-> TLTI Life/6m (method=exact_match, score=1.000)', 'CDR <-> CDR (method=exact_match, score=1.000)', 'CR <-> CR (method=exact_match, score=1.000)', 'CR&CDR <-> CR&CDR (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:04:10.764] === SERIES_COMPARISON ===
+Comparaison ART 5% vs ART 5% avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 62.754377
+  - MAE Relative: 0.053328
+  - Left Miss (rel): -0.004243
+  - Right Miss (rel): 0.100663
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 18
+  - Points Ratio: 1.29
+--------------------------------------------------
+
+[13:04:11.359] === SERIES_COMPARISON ===
+Comparaison ART 20% vs ART 20% avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 14.761933
+  - MAE Relative: 0.012545
+  - Left Miss (rel): -0.006788
+  - Right Miss (rel): 0.100663
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 18
+  - Points Ratio: 1.12
+--------------------------------------------------
+
+[13:04:11.986] === SERIES_COMPARISON ===
+Comparaison ART 50% vs ART 50% avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 25.535335
+  - MAE Relative: 0.021700
+  - Left Miss (rel): -0.009334
+  - Right Miss (rel): 0.101523
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 18
+  - Points Ratio: 1.20
+--------------------------------------------------
+
+[13:04:12.895] === SERIES_COMPARISON ===
+Comparaison ART TB vs ART TB avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 9.605730
+  - MAE Relative: 0.008163
+  - Left Miss (rel): -0.001697
+  - Right Miss (rel): 0.101523
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 18
+  - Points Ratio: 1.20
+--------------------------------------------------
+
+[13:04:14.734] === SERIES_COMPARISON ===
+Comparaison TLTI Life/6m vs TLTI Life/6m avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 11.318686
+  - MAE Relative: 0.009618
+  - Left Miss (rel): -0.005006
+  - Right Miss (rel): 0.099631
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 18
+  - Points Ratio: 2.25
+--------------------------------------------------
+
+[13:04:15.950] === SERIES_COMPARISON ===
+Comparaison CDR vs CDR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 39.696814
+  - MAE Relative: 0.033734
+  - Left Miss (rel): -0.002970
+  - Right Miss (rel): 0.104789
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 18
+  - Points Ratio: 1.80
+--------------------------------------------------
+
+[13:04:17.584] === SERIES_COMPARISON ===
+Comparaison CR vs CR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 7.428859
+  - MAE Relative: 0.006313
+  - Left Miss (rel): -0.001697
+  - Right Miss (rel): 0.095505
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 18
+  - Points Ratio: 2.25
+--------------------------------------------------
+
+[13:04:19.438] === SERIES_COMPARISON ===
+Comparaison CR&CDR vs CR&CDR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 7.848513
+  - MAE Relative: 0.006670
+  - Left Miss (rel): -0.006788
+  - Right Miss (rel): 0.101093
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 18
+  - Points Ratio: 4.50
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:04:19
+Total Duration: 9.39 seconds
+Total Series Processed: 8
+Successful Comparisons: 8
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1361804_1471-2458-5-130-4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1361804_1471-2458-5-130-4
+================================================================================
+Timestamp: 2025-08-07 16:37:46
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1361804___1471-2458-5-130-4
+================================================================================
+
+
+
+[16:37:46.388] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:37:46.390] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:37:46.436] === DATA_LOADING ===
+Chargement des données GT depuis PMC1361804___1471-2458-5-130-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1361804___1471-2458-5-130-4.json
+  - Series Count: 9
+  - Series Names: ['ART 5%', 'ART 20%', 'ART 50%', 'ART TB', 'TLTI Life/6m', 'Govt. health\nexpend. 2000', 'CDR', 'CR', 'CR&CDR']
+  - X Data Types: {'numeric': 9}
+  - Total Data Points: 96
+--------------------------------------------------
+
+[16:37:46.459] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1361804___1471-2458-5-130-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1361804___1471-2458-5-130-4\PMC1361804___1471-2458-5-130-4.json
+  - Series Count: 8
+  - Series Names: ['ART 5%', 'ART 20%', 'ART 50%', 'ART TB', 'CDR', 'TLTI Life/6m', 'CR', 'CR&CDR']
+  - X Data Types: {'numeric': 8}
+  - Total Data Points: 144
+--------------------------------------------------
+
+[16:37:46.480] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1176.7649
+  - Y Min-Max: [-2.5140, 1174.2509]
+  - X Range: 19.00795909761746
+--------------------------------------------------
+
+[16:37:46.518] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:37:46.522] === MATCHING_RESULTS ===
+8 appariements trouvés
+
+Data:
+  - Total Matches: 8
+  - Match Details: ['ART 5% <-> ART 5% (method=exact_match, score=1.000)', 'ART 20% <-> ART 20% (method=exact_match, score=1.000)', 'ART 50% <-> ART 50% (method=exact_match, score=1.000)', 'ART TB <-> ART TB (method=exact_match, score=1.000)', 'TLTI Life/6m <-> TLTI Life/6m (method=exact_match, score=1.000)', 'CDR <-> CDR (method=exact_match, score=1.000)', 'CR <-> CR (method=exact_match, score=1.000)', 'CR&CDR <-> CR&CDR (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:37:47.193] === SERIES_COMPARISON ===
+Comparaison ART 5% vs ART 5% avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 62.754377
+  - MAE Relative: 0.053328
+  - Left Miss (rel): -0.004243
+  - Right Miss (rel): 0.100663
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 18
+  - Points Ratio: 1.29
+--------------------------------------------------
+
+[16:37:47.828] === SERIES_COMPARISON ===
+Comparaison ART 20% vs ART 20% avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 14.761933
+  - MAE Relative: 0.012545
+  - Left Miss (rel): -0.006788
+  - Right Miss (rel): 0.100663
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 18
+  - Points Ratio: 1.12
+--------------------------------------------------
+
+[16:37:49.190] === SERIES_COMPARISON ===
+Comparaison ART 50% vs ART 50% avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 25.535335
+  - MAE Relative: 0.021700
+  - Left Miss (rel): -0.009334
+  - Right Miss (rel): 0.101523
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 18
+  - Points Ratio: 1.20
+--------------------------------------------------
+
+[16:37:51.310] === SERIES_COMPARISON ===
+Comparaison ART TB vs ART TB avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 9.605730
+  - MAE Relative: 0.008163
+  - Left Miss (rel): -0.001697
+  - Right Miss (rel): 0.101523
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 18
+  - Points Ratio: 1.20
+--------------------------------------------------
+
+[16:37:53.029] === SERIES_COMPARISON ===
+Comparaison TLTI Life/6m vs TLTI Life/6m avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 11.318686
+  - MAE Relative: 0.009618
+  - Left Miss (rel): -0.005006
+  - Right Miss (rel): 0.099631
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 18
+  - Points Ratio: 2.25
+--------------------------------------------------
+
+[16:37:54.641] === SERIES_COMPARISON ===
+Comparaison CDR vs CDR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 39.696814
+  - MAE Relative: 0.033734
+  - Left Miss (rel): -0.002970
+  - Right Miss (rel): 0.104789
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 18
+  - Points Ratio: 1.80
+--------------------------------------------------
+
+[16:37:55.310] === SERIES_COMPARISON ===
+Comparaison CR vs CR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 7.428859
+  - MAE Relative: 0.006313
+  - Left Miss (rel): -0.001697
+  - Right Miss (rel): 0.095505
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 18
+  - Points Ratio: 2.25
+--------------------------------------------------
+
+[16:37:55.838] === SERIES_COMPARISON ===
+Comparaison CR&CDR vs CR&CDR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 7.848513
+  - MAE Relative: 0.006670
+  - Left Miss (rel): -0.006788
+  - Right Miss (rel): 0.101093
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 18
+  - Points Ratio: 4.50
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:37:55
+Total Duration: 9.49 seconds
+Total Series Processed: 8
+Successful Comparisons: 8
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1361804_1471-2458-5-130-4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1361804_1471-2458-5-130-4
+================================================================================
+Timestamp: 2025-08-07 16:56:49
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1361804___1471-2458-5-130-4
+================================================================================
+
+
+
+[16:56:49.661] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:56:49.663] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:56:49.699] === DATA_LOADING ===
+Chargement des données GT depuis PMC1361804___1471-2458-5-130-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1361804___1471-2458-5-130-4.json
+  - Series Count: 9
+  - Series Names: ['ART 5%', 'ART 20%', 'ART 50%', 'ART TB', 'TLTI Life/6m', 'Govt. health\nexpend. 2000', 'CDR', 'CR', 'CR&CDR']
+  - X Data Types: {'numeric': 9}
+  - Total Data Points: 96
+--------------------------------------------------
+
+[16:56:49.707] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1361804___1471-2458-5-130-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1361804___1471-2458-5-130-4\PMC1361804___1471-2458-5-130-4.json
+  - Series Count: 8
+  - Series Names: ['ART 5%', 'ART 20%', 'ART 50%', 'ART TB', 'CDR', 'TLTI Life/6m', 'CR', 'CR&CDR']
+  - X Data Types: {'numeric': 8}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[16:56:49.710] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1176.7649
+  - Y Min-Max: [-2.5140, 1174.2509]
+  - X Range: 20.01612903225805
+--------------------------------------------------
+
+[16:56:49.711] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:56:49.713] === MATCHING_RESULTS ===
+8 appariements trouvés
+
+Data:
+  - Total Matches: 8
+  - Match Details: ['ART 5% <-> ART 5% (method=exact_match, score=1.000)', 'ART 20% <-> ART 20% (method=exact_match, score=1.000)', 'ART 50% <-> ART 50% (method=exact_match, score=1.000)', 'ART TB <-> ART TB (method=exact_match, score=1.000)', 'TLTI Life/6m <-> TLTI Life/6m (method=exact_match, score=1.000)', 'CDR <-> CDR (method=exact_match, score=1.000)', 'CR <-> CR (method=exact_match, score=1.000)', 'CR&CDR <-> CR&CDR (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:56:50.247] === SERIES_COMPARISON ===
+Comparaison ART 5% vs ART 5% avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 58.129260
+  - MAE Relative: 0.049398
+  - Left Miss (rel): -0.004029
+  - Right Miss (rel): -0.054286
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 5
+  - Points Ratio: 0.36
+--------------------------------------------------
+
+[16:56:50.828] === SERIES_COMPARISON ===
+Comparaison ART 20% vs ART 20% avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 26.768951
+  - MAE Relative: 0.022748
+  - Left Miss (rel): -0.006446
+  - Right Miss (rel): -0.054286
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 5
+  - Points Ratio: 0.31
+--------------------------------------------------
+
+[16:56:51.599] === SERIES_COMPARISON ===
+Comparaison ART 50% vs ART 50% avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 36.321701
+  - MAE Relative: 0.030866
+  - Left Miss (rel): -0.008864
+  - Right Miss (rel): -0.053470
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 5
+  - Points Ratio: 0.33
+--------------------------------------------------
+
+[16:56:52.603] === SERIES_COMPARISON ===
+Comparaison ART TB vs ART TB avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 86.524710
+  - MAE Relative: 0.073528
+  - Left Miss (rel): -0.001612
+  - Right Miss (rel): -0.053470
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 5
+  - Points Ratio: 0.33
+--------------------------------------------------
+
+[16:56:54.184] === SERIES_COMPARISON ===
+Comparaison TLTI Life/6m vs TLTI Life/6m avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 29.593410
+  - MAE Relative: 0.025148
+  - Left Miss (rel): -0.004754
+  - Right Miss (rel): -0.055266
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 5
+  - Points Ratio: 0.62
+--------------------------------------------------
+
+[16:56:55.852] === SERIES_COMPARISON ===
+Comparaison CDR vs CDR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 74.368647
+  - MAE Relative: 0.063198
+  - Left Miss (rel): -0.002820
+  - Right Miss (rel): -0.050368
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 5
+  - Points Ratio: 0.50
+--------------------------------------------------
+
+[16:56:56.682] === SERIES_COMPARISON ===
+Comparaison CR vs CR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 4.502177
+  - MAE Relative: 0.003826
+  - Left Miss (rel): -0.001612
+  - Right Miss (rel): -0.059184
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 5
+  - Points Ratio: 0.62
+--------------------------------------------------
+
+[16:56:57.301] === SERIES_COMPARISON ===
+Comparaison CR&CDR vs CR&CDR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 4.670464
+  - MAE Relative: 0.003969
+  - Left Miss (rel): -0.006446
+  - Right Miss (rel): -0.053878
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 5
+  - Points Ratio: 1.25
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:56:57
+Total Duration: 7.66 seconds
+Total Series Processed: 8
+Successful Comparisons: 8
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1361804_1471-2458-5-130-4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1361804_1471-2458-5-130-4
+================================================================================
+Timestamp: 2025-08-11 13:45:52
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1361804___1471-2458-5-130-4
+================================================================================
+
+
+
+[13:45:52.686] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:45:52.715] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:45:52.822] === DATA_LOADING ===
+Chargement des données GT depuis PMC1361804___1471-2458-5-130-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1361804___1471-2458-5-130-4.json
+  - Series Count: 9
+  - Series Names: ['ART 5%', 'ART 20%', 'ART 50%', 'ART TB', 'TLTI Life/6m', 'Govt. health\nexpend. 2000', 'CDR', 'CR', 'CR&CDR']
+  - X Data Types: {'numeric': 9}
+  - Total Data Points: 96
+--------------------------------------------------
+
+[13:45:52.828] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1361804___1471-2458-5-130-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1361804___1471-2458-5-130-4\PMC1361804___1471-2458-5-130-4.json
+  - Series Count: 8
+  - Series Names: ['ART 5%', 'ART 20%', 'ART 50%', 'ART TB', 'CDR', 'TLTI Life/6m', 'CR', 'CR&CDR']
+  - X Data Types: {'numeric': 8}
+  - Total Data Points: 144
+--------------------------------------------------
+
+[13:45:52.854] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1176.7649
+  - Y Min-Max: [-2.5140, 1174.2509]
+  - X Range: 19.00795909761746
+--------------------------------------------------
+
+[13:45:52.868] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:45:52.872] === MATCHING_RESULTS ===
+8 appariements trouvés
+
+Data:
+  - Total Matches: 8
+  - Match Details: ['ART 5% <-> ART 5% (method=exact_match, score=1.000)', 'ART 20% <-> ART 20% (method=exact_match, score=1.000)', 'ART 50% <-> ART 50% (method=exact_match, score=1.000)', 'ART TB <-> ART TB (method=exact_match, score=1.000)', 'TLTI Life/6m <-> TLTI Life/6m (method=exact_match, score=1.000)', 'CDR <-> CDR (method=exact_match, score=1.000)', 'CR <-> CR (method=exact_match, score=1.000)', 'CR&CDR <-> CR&CDR (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:45:53.712] === SERIES_COMPARISON ===
+Comparaison ART 5% vs ART 5% avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 62.754377
+  - MAE Relative: 0.053328
+  - Left Miss (rel): -0.004243
+  - Right Miss (rel): 0.100663
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 18
+  - Points Ratio: 1.29
+--------------------------------------------------
+
+[13:45:54.542] === SERIES_COMPARISON ===
+Comparaison ART 20% vs ART 20% avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 13.812819
+  - MAE Relative: 0.011738
+  - Left Miss (rel): -0.006788
+  - Right Miss (rel): 0.100663
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 18
+  - Points Ratio: 1.12
+--------------------------------------------------
+
+[13:45:55.472] === SERIES_COMPARISON ===
+Comparaison ART 50% vs ART 50% avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 24.050721
+  - MAE Relative: 0.020438
+  - Left Miss (rel): -0.009334
+  - Right Miss (rel): 0.101523
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 18
+  - Points Ratio: 1.20
+--------------------------------------------------
+
+[13:45:56.471] === SERIES_COMPARISON ===
+Comparaison ART TB vs ART TB avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 106.532086
+  - MAE Relative: 0.090530
+  - Left Miss (rel): -0.001697
+  - Right Miss (rel): 0.101523
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 18
+  - Points Ratio: 1.20
+--------------------------------------------------
+
+[13:45:57.634] === SERIES_COMPARISON ===
+Comparaison TLTI Life/6m vs TLTI Life/6m avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 23.841017
+  - MAE Relative: 0.020260
+  - Left Miss (rel): -0.005006
+  - Right Miss (rel): 0.099631
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 18
+  - Points Ratio: 2.25
+--------------------------------------------------
+
+[13:45:58.563] === SERIES_COMPARISON ===
+Comparaison CDR vs CDR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 81.661995
+  - MAE Relative: 0.069395
+  - Left Miss (rel): -0.002970
+  - Right Miss (rel): 0.104789
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 18
+  - Points Ratio: 1.80
+--------------------------------------------------
+
+[13:45:59.542] === SERIES_COMPARISON ===
+Comparaison CR vs CR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 4.840229
+  - MAE Relative: 0.004113
+  - Left Miss (rel): -0.001697
+  - Right Miss (rel): 0.095505
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 18
+  - Points Ratio: 2.25
+--------------------------------------------------
+
+[13:46:00.869] === SERIES_COMPARISON ===
+Comparaison CR&CDR vs CR&CDR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 4.030921
+  - MAE Relative: 0.003425
+  - Left Miss (rel): -0.006788
+  - Right Miss (rel): 0.101093
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 18
+  - Points Ratio: 4.50
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-11 13:46:00
+Total Duration: 8.22 seconds
+Total Series Processed: 8
+Successful Comparisons: 8
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1361804_1471-2458-5-130-4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

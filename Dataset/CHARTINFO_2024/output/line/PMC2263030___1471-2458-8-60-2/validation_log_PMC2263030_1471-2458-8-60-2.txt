@@ -1,0 +1,768 @@
+
+================================================================================
+VALIDATION LOG - PMC2263030_1471-2458-8-60-2
+================================================================================
+Timestamp: 2025-08-06 20:15:58
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2263030___1471-2458-8-60-2
+================================================================================
+
+
+
+[20:15:58.963] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:58.997] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:59.004] === DATA_LOADING ===
+Chargement des données GT depuis PMC2263030___1471-2458-8-60-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2263030___1471-2458-8-60-2.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:59.006] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2263030___1471-2458-8-60-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2263030___1471-2458-8-60-2\PMC2263030___1471-2458-8-60-2.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:59.008] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2263030_1471-2458-8-60-2
+================================================================================
+Timestamp: 2025-08-06 21:32:24
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2263030___1471-2458-8-60-2
+================================================================================
+
+
+
+[21:32:24.180] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:32:24.182] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:32:24.224] === DATA_LOADING ===
+Chargement des données GT depuis PMC2263030___1471-2458-8-60-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2263030___1471-2458-8-60-2.json
+  - Series Count: 4
+  - Series Names: ['Army', 'Navy', 'Marine Corps', 'Air Force']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 78
+--------------------------------------------------
+
+[21:32:24.228] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2263030___1471-2458-8-60-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2263030___1471-2458-8-60-2\PMC2263030___1471-2458-8-60-2.json
+  - Series Count: 4
+  - Series Names: ['Army', 'Navy', 'Air Force', 'Marine Corps']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 80
+--------------------------------------------------
+
+[21:32:24.230] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.3116
+  - Y Min-Max: [-0.0016, 0.3100]
+  - X Range: 117.55509355509355
+--------------------------------------------------
+
+[21:32:24.232] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:32:24.235] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Army <-> Army (method=exact_match, score=1.000)', 'Navy <-> Navy (method=exact_match, score=1.000)', 'Marine Corps <-> Marine Corps (method=exact_match, score=1.000)', 'Air Force <-> Air Force (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:32:24.756] === SERIES_COMPARISON ===
+Comparaison Army vs Army avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.019272
+  - MAE Relative: 0.061847
+  - Left Miss (rel): -0.006048
+  - Right Miss (rel): 0.030242
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 20
+  - Points Ratio: 1.25
+--------------------------------------------------
+
+[21:32:25.269] === SERIES_COMPARISON ===
+Comparaison Navy vs Navy avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.010154
+  - MAE Relative: 0.032585
+  - Left Miss (rel): -0.008065
+  - Right Miss (rel): 0.024194
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 20
+  - Points Ratio: 1.33
+--------------------------------------------------
+
+[21:32:25.840] === SERIES_COMPARISON ===
+Comparaison Marine Corps vs Marine Corps avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.007765
+  - MAE Relative: 0.024921
+  - Left Miss (rel): -0.002016
+  - Right Miss (rel): 0.022177
+  - X Cutoff: N/A
+  - GT Points: 21
+  - Extracted Points: 20
+  - Points Ratio: 0.95
+--------------------------------------------------
+
+[21:32:26.498] === SERIES_COMPARISON ===
+Comparaison Air Force vs Air Force avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.021523
+  - MAE Relative: 0.069071
+  - Left Miss (rel): -0.008065
+  - Right Miss (rel): 0.026714
+  - X Cutoff: N/A
+  - GT Points: 26
+  - Extracted Points: 20
+  - Points Ratio: 0.77
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:32:26
+Total Duration: 2.33 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2263030_1471-2458-8-60-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2263030_1471-2458-8-60-2
+================================================================================
+Timestamp: 2025-08-07 12:48:29
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2263030___1471-2458-8-60-2
+================================================================================
+
+
+
+[12:48:29.551] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:48:29.553] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:48:29.608] === DATA_LOADING ===
+Chargement des données GT depuis PMC2263030___1471-2458-8-60-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2263030___1471-2458-8-60-2.json
+  - Series Count: 4
+  - Series Names: ['Army', 'Navy', 'Marine Corps', 'Air Force']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 78
+--------------------------------------------------
+
+[12:48:29.626] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2263030___1471-2458-8-60-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2263030___1471-2458-8-60-2\PMC2263030___1471-2458-8-60-2.json
+  - Series Count: 4
+  - Series Names: ['Army', 'Navy', 'Air Force', 'Marine Corps']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 80
+--------------------------------------------------
+
+[12:48:29.629] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.3116
+  - Y Min-Max: [-0.0016, 0.3100]
+  - X Range: 117.55509355509355
+--------------------------------------------------
+
+[12:48:29.630] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:48:29.632] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Army <-> Army (method=exact_match, score=1.000)', 'Navy <-> Navy (method=exact_match, score=1.000)', 'Marine Corps <-> Marine Corps (method=exact_match, score=1.000)', 'Air Force <-> Air Force (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:48:30.287] === SERIES_COMPARISON ===
+Comparaison Army vs Army avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.019272
+  - MAE Relative: 0.061847
+  - Left Miss (rel): -0.006048
+  - Right Miss (rel): 0.030242
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 20
+  - Points Ratio: 1.25
+--------------------------------------------------
+
+[12:48:30.851] === SERIES_COMPARISON ===
+Comparaison Navy vs Navy avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.010154
+  - MAE Relative: 0.032585
+  - Left Miss (rel): -0.008065
+  - Right Miss (rel): 0.024194
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 20
+  - Points Ratio: 1.33
+--------------------------------------------------
+
+[12:48:31.633] === SERIES_COMPARISON ===
+Comparaison Marine Corps vs Marine Corps avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.007765
+  - MAE Relative: 0.024921
+  - Left Miss (rel): -0.002016
+  - Right Miss (rel): 0.022177
+  - X Cutoff: N/A
+  - GT Points: 21
+  - Extracted Points: 20
+  - Points Ratio: 0.95
+--------------------------------------------------
+
+[12:48:32.493] === SERIES_COMPARISON ===
+Comparaison Air Force vs Air Force avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.021523
+  - MAE Relative: 0.069071
+  - Left Miss (rel): -0.008065
+  - Right Miss (rel): 0.026714
+  - X Cutoff: N/A
+  - GT Points: 26
+  - Extracted Points: 20
+  - Points Ratio: 0.77
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:48:32
+Total Duration: 2.96 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2263030_1471-2458-8-60-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2263030_1471-2458-8-60-2
+================================================================================
+Timestamp: 2025-08-07 13:05:24
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2263030___1471-2458-8-60-2
+================================================================================
+
+
+
+[13:05:24.041] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:05:24.044] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:05:24.108] === DATA_LOADING ===
+Chargement des données GT depuis PMC2263030___1471-2458-8-60-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2263030___1471-2458-8-60-2.json
+  - Series Count: 4
+  - Series Names: ['Army', 'Navy', 'Marine Corps', 'Air Force']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 78
+--------------------------------------------------
+
+[13:05:24.111] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2263030___1471-2458-8-60-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2263030___1471-2458-8-60-2\PMC2263030___1471-2458-8-60-2.json
+  - Series Count: 4
+  - Series Names: ['Army', 'Navy', 'Air Force', 'Marine Corps']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 80
+--------------------------------------------------
+
+[13:05:24.123] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.3116
+  - Y Min-Max: [-0.0016, 0.3100]
+  - X Range: 117.55509355509355
+--------------------------------------------------
+
+[13:05:24.125] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:05:24.127] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Army <-> Army (method=exact_match, score=1.000)', 'Navy <-> Navy (method=exact_match, score=1.000)', 'Marine Corps <-> Marine Corps (method=exact_match, score=1.000)', 'Air Force <-> Air Force (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:05:24.869] === SERIES_COMPARISON ===
+Comparaison Army vs Army avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.019272
+  - MAE Relative: 0.061847
+  - Left Miss (rel): -0.006048
+  - Right Miss (rel): 0.030242
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 20
+  - Points Ratio: 1.25
+--------------------------------------------------
+
+[13:05:25.485] === SERIES_COMPARISON ===
+Comparaison Navy vs Navy avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.010154
+  - MAE Relative: 0.032585
+  - Left Miss (rel): -0.008065
+  - Right Miss (rel): 0.024194
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 20
+  - Points Ratio: 1.33
+--------------------------------------------------
+
+[13:05:26.185] === SERIES_COMPARISON ===
+Comparaison Marine Corps vs Marine Corps avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.007765
+  - MAE Relative: 0.024921
+  - Left Miss (rel): -0.002016
+  - Right Miss (rel): 0.022177
+  - X Cutoff: N/A
+  - GT Points: 21
+  - Extracted Points: 20
+  - Points Ratio: 0.95
+--------------------------------------------------
+
+[13:05:26.858] === SERIES_COMPARISON ===
+Comparaison Air Force vs Air Force avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.021523
+  - MAE Relative: 0.069071
+  - Left Miss (rel): -0.008065
+  - Right Miss (rel): 0.026714
+  - X Cutoff: N/A
+  - GT Points: 26
+  - Extracted Points: 20
+  - Points Ratio: 0.77
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:05:26
+Total Duration: 2.84 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2263030_1471-2458-8-60-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2263030_1471-2458-8-60-2
+================================================================================
+Timestamp: 2025-08-07 16:39:01
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2263030___1471-2458-8-60-2
+================================================================================
+
+
+
+[16:39:01.250] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:39:01.251] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:39:01.296] === DATA_LOADING ===
+Chargement des données GT depuis PMC2263030___1471-2458-8-60-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2263030___1471-2458-8-60-2.json
+  - Series Count: 4
+  - Series Names: ['Army', 'Navy', 'Marine Corps', 'Air Force']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 78
+--------------------------------------------------
+
+[16:39:01.299] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2263030___1471-2458-8-60-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2263030___1471-2458-8-60-2\PMC2263030___1471-2458-8-60-2.json
+  - Series Count: 4
+  - Series Names: ['Army', 'Navy', 'Air Force', 'Marine Corps']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 80
+--------------------------------------------------
+
+[16:39:01.302] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.3098
+  - Y Min-Max: [-0.0016, 0.3082]
+  - X Range: 117.55509355509355
+--------------------------------------------------
+
+[16:39:01.304] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:39:01.306] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Army <-> Army (method=exact_match, score=1.000)', 'Navy <-> Navy (method=exact_match, score=1.000)', 'Marine Corps <-> Marine Corps (method=exact_match, score=1.000)', 'Air Force <-> Air Force (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:39:01.803] === SERIES_COMPARISON ===
+Comparaison Army vs Army avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.013297
+  - MAE Relative: 0.042924
+  - Left Miss (rel): -0.006048
+  - Right Miss (rel): 0.030242
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 20
+  - Points Ratio: 1.25
+--------------------------------------------------
+
+[16:39:02.324] === SERIES_COMPARISON ===
+Comparaison Navy vs Navy avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.004979
+  - MAE Relative: 0.016074
+  - Left Miss (rel): -0.008065
+  - Right Miss (rel): 0.024194
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 20
+  - Points Ratio: 1.33
+--------------------------------------------------
+
+[16:39:02.808] === SERIES_COMPARISON ===
+Comparaison Marine Corps vs Marine Corps avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.006020
+  - MAE Relative: 0.019434
+  - Left Miss (rel): -0.002016
+  - Right Miss (rel): 0.022177
+  - X Cutoff: N/A
+  - GT Points: 21
+  - Extracted Points: 20
+  - Points Ratio: 0.95
+--------------------------------------------------
+
+[16:39:03.317] === SERIES_COMPARISON ===
+Comparaison Air Force vs Air Force avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.015387
+  - MAE Relative: 0.049669
+  - Left Miss (rel): -0.008065
+  - Right Miss (rel): 0.026714
+  - X Cutoff: N/A
+  - GT Points: 26
+  - Extracted Points: 20
+  - Points Ratio: 0.77
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:39:03
+Total Duration: 2.07 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2263030_1471-2458-8-60-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2263030_1471-2458-8-60-2
+================================================================================
+Timestamp: 2025-08-07 16:58:12
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2263030___1471-2458-8-60-2
+================================================================================
+
+
+
+[16:58:12.425] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:58:12.453] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:58:12.517] === DATA_LOADING ===
+Chargement des données GT depuis PMC2263030___1471-2458-8-60-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2263030___1471-2458-8-60-2.json
+  - Series Count: 4
+  - Series Names: ['Army', 'Navy', 'Marine Corps', 'Air Force']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 78
+--------------------------------------------------
+
+[16:58:12.521] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2263030___1471-2458-8-60-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2263030___1471-2458-8-60-2\PMC2263030___1471-2458-8-60-2.json
+  - Series Count: 4
+  - Series Names: ['Army', 'Navy', 'Air Force', 'Marine Corps']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 80
+--------------------------------------------------
+
+[16:58:12.525] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.3098
+  - Y Min-Max: [-0.0016, 0.3082]
+  - X Range: 117.55509355509355
+--------------------------------------------------
+
+[16:58:12.527] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:58:12.532] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Army <-> Army (method=exact_match, score=1.000)', 'Navy <-> Navy (method=exact_match, score=1.000)', 'Marine Corps <-> Marine Corps (method=exact_match, score=1.000)', 'Air Force <-> Air Force (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:58:13.415] === SERIES_COMPARISON ===
+Comparaison Army vs Army avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.013297
+  - MAE Relative: 0.042924
+  - Left Miss (rel): -0.006048
+  - Right Miss (rel): 0.030242
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 20
+  - Points Ratio: 1.25
+--------------------------------------------------
+
+[16:58:13.970] === SERIES_COMPARISON ===
+Comparaison Navy vs Navy avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.004979
+  - MAE Relative: 0.016074
+  - Left Miss (rel): -0.008065
+  - Right Miss (rel): 0.024194
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 20
+  - Points Ratio: 1.33
+--------------------------------------------------
+
+[16:58:14.489] === SERIES_COMPARISON ===
+Comparaison Marine Corps vs Marine Corps avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.006020
+  - MAE Relative: 0.019434
+  - Left Miss (rel): -0.002016
+  - Right Miss (rel): 0.022177
+  - X Cutoff: N/A
+  - GT Points: 21
+  - Extracted Points: 20
+  - Points Ratio: 0.95
+--------------------------------------------------
+
+[16:58:14.977] === SERIES_COMPARISON ===
+Comparaison Air Force vs Air Force avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.015387
+  - MAE Relative: 0.049669
+  - Left Miss (rel): -0.008065
+  - Right Miss (rel): 0.026714
+  - X Cutoff: N/A
+  - GT Points: 26
+  - Extracted Points: 20
+  - Points Ratio: 0.77
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:58:14
+Total Duration: 2.57 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2263030_1471-2458-8-60-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

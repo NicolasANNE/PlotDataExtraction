@@ -1,0 +1,115 @@
+
+================================================================================
+VALIDATION LOG - PMC3543353_1471-2458-12-644-4
+================================================================================
+Timestamp: 2025-08-07 12:56:42
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3543353___1471-2458-12-644-4
+================================================================================
+
+
+
+[12:56:42.656] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:56:42.692] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:56:42.772] === DATA_LOADING ===
+Chargement des données GT depuis PMC3543353___1471-2458-12-644-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3543353___1471-2458-12-644-4.json
+  - Series Count: 2
+  - Series Names: ['Senility (797 ,R54)', 'Other unknown causes (799, R99)']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 49
+--------------------------------------------------
+
+[12:56:42.792] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3543353___1471-2458-12-644-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3543353___1471-2458-12-644-4\PMC3543353___1471-2458-12-644-4.json
+  - Series Count: 2
+  - Series Names: ['Senility (797, R54)', 'Other unknown causes (799, R99)']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 60
+--------------------------------------------------
+
+[12:56:42.817] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 12.8533
+  - Y Min-Max: [1.6822, 14.5355]
+  - X Range: 29.14814814814804
+--------------------------------------------------
+
+[12:56:42.824] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:56:42.838] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Other unknown causes (799, R99) <-> Other unknown causes (799, R99) (method=exact_match, score=1.000)', 'Senility (797 ,R54) <-> Senility (797, R54) (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[12:56:45.444] === SERIES_COMPARISON ===
+Comparaison Other unknown causes (799, R99) vs Other unknown causes (799, R99) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.479513
+  - MAE Relative: 0.037306
+  - Left Miss (rel): -0.002018
+  - Right Miss (rel): 0.005083
+  - X Cutoff: N/A
+  - GT Points: 27
+  - Extracted Points: 30
+  - Points Ratio: 1.11
+--------------------------------------------------
+
+[12:56:48.677] === SERIES_COMPARISON ===
+Comparaison Senility (797 ,R54) vs Senility (797, R54) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.113357
+  - MAE Relative: 0.008819
+  - Left Miss (rel): -0.002018
+  - Right Miss (rel): 0.003812
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 30
+  - Points Ratio: 1.36
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:56:48
+Total Duration: 6.04 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3543353_1471-2458-12-644-4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

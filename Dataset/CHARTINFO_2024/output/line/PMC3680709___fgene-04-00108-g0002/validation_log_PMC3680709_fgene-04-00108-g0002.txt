@@ -1,0 +1,129 @@
+
+================================================================================
+VALIDATION LOG - PMC3680709_fgene-04-00108-g0002
+================================================================================
+Timestamp: 2025-08-07 12:58:31
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3680709___fgene-04-00108-g0002
+================================================================================
+
+
+
+[12:58:31.573] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:58:31.581] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:58:31.598] === DATA_LOADING ===
+Chargement des données GT depuis PMC3680709___fgene-04-00108-g0002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3680709___fgene-04-00108-g0002.json
+  - Series Count: 3
+  - Series Names: ['steady state', 'DPS', 'DTT']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 84
+--------------------------------------------------
+
+[12:58:31.618] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3680709___fgene-04-00108-g0002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3680709___fgene-04-00108-g0002\PMC3680709___fgene-04-00108-g0002.json
+  - Series Count: 3
+  - Series Names: ['steady state', 'DPS', 'DTT']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 48
+--------------------------------------------------
+
+[12:58:31.639] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 11.1459
+  - Y Min-Max: [-0.0522, 11.0937]
+  - X Range: 152.47408105560794
+--------------------------------------------------
+
+[12:58:31.715] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:58:31.721] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['steady state <-> steady state (method=exact_match, score=1.000)', 'DPS <-> DPS (method=exact_match, score=1.000)', 'DTT <-> DTT (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:58:34.008] === SERIES_COMPARISON ===
+Comparaison steady state vs steady state avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.332035
+  - MAE Relative: 0.029790
+  - Left Miss (rel): 0.013908
+  - Right Miss (rel): -0.003245
+  - X Cutoff: N/A
+  - GT Points: 23
+  - Extracted Points: 16
+  - Points Ratio: 0.70
+--------------------------------------------------
+
+[12:58:35.736] === SERIES_COMPARISON ===
+Comparaison DPS vs DPS avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.404345
+  - MAE Relative: 0.036277
+  - Left Miss (rel): 0.016226
+  - Right Miss (rel): -0.005563
+  - X Cutoff: N/A
+  - GT Points: 29
+  - Extracted Points: 16
+  - Points Ratio: 0.55
+--------------------------------------------------
+
+[12:58:37.183] === SERIES_COMPARISON ===
+Comparaison DTT vs DTT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.278977
+  - MAE Relative: 0.025030
+  - Left Miss (rel): 0.014571
+  - Right Miss (rel): -0.005563
+  - X Cutoff: N/A
+  - GT Points: 32
+  - Extracted Points: 16
+  - Points Ratio: 0.50
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:58:37
+Total Duration: 5.64 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3680709_fgene-04-00108-g0002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,1019 @@
+
+================================================================================
+VALIDATION LOG - PMC1183521_pgen.0010002.g005
+================================================================================
+Timestamp: 2025-08-06 20:15:12
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1183521___pgen.0010002.g005
+================================================================================
+
+
+
+[20:15:12.139] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:12.174] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:12.180] === DATA_LOADING ===
+Chargement des données GT depuis PMC1183521___pgen.0010002.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1183521___pgen.0010002.g005.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:12.183] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1183521___pgen.0010002.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1183521___pgen.0010002.g005\PMC1183521___pgen.0010002.g005.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:12.186] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1183521_pgen.0010002.g005
+================================================================================
+Timestamp: 2025-08-06 21:06:10
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1183521___pgen.0010002.g005
+================================================================================
+
+
+
+[21:06:10.501] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:06:10.504] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:06:10.566] === DATA_LOADING ===
+Chargement des données GT depuis PMC1183521___pgen.0010002.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1183521___pgen.0010002.g005.json
+  - Series Count: 4
+  - Series Names: ['Wild-type', 'tom-1(nu468)', 'tom-1(ok285)', 'Rescue of tom-7']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[21:06:10.570] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1183521___pgen.0010002.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1183521___pgen.0010002.g005\PMC1183521___pgen.0010002.g005.json
+  - Series Count: 4
+  - Series Names: ['Wild-type', 'tom-1(nu468)', 'tom-1(ok285)', 'Rescue of tom-1']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 30
+--------------------------------------------------
+
+[21:06:10.575] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 100.6410
+  - Y Min-Max: [-0.1068, 100.5342]
+  - X Range: 80.6361829025845
+--------------------------------------------------
+
+[21:06:10.606] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:06:10.626] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Wild-type <-> Wild-type (method=exact_match, score=1.000)', 'tom-1(nu468) <-> tom-1(nu468) (method=exact_match, score=1.000)', 'tom-1(ok285) <-> tom-1(ok285) (method=exact_match, score=1.000)', 'Rescue of tom-7 <-> Rescue of tom-1 (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[21:06:14.377] === SERIES_COMPARISON ===
+Comparaison Wild-type vs Wild-type avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.788186
+  - MAE Relative: 0.037641
+  - Left Miss (rel): 0.004931
+  - Right Miss (rel): 0.002959
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:06:29.293] === SERIES_COMPARISON ===
+Comparaison tom-1(nu468) vs tom-1(nu468) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.210853
+  - MAE Relative: 0.002095
+  - Left Miss (rel): 0.128945
+  - Right Miss (rel): 0.121055
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 7
+  - Points Ratio: 0.78
+--------------------------------------------------
+
+[21:06:32.641] === SERIES_COMPARISON ===
+Comparaison tom-1(ok285) vs tom-1(ok285) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.443836
+  - MAE Relative: 0.004410
+  - Left Miss (rel): 0.128945
+  - Right Miss (rel): 0.369083
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 5
+  - Points Ratio: 0.56
+--------------------------------------------------
+
+================================================================================
+VALIDATION LOG - PMC1183521_pgen.0010002.g005
+================================================================================
+Timestamp: 2025-08-06 21:30:36
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1183521___pgen.0010002.g005
+================================================================================
+
+
+
+[21:30:36.875] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:30:36.877] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:30:36.901] === DATA_LOADING ===
+Chargement des données GT depuis PMC1183521___pgen.0010002.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1183521___pgen.0010002.g005.json
+  - Series Count: 4
+  - Series Names: ['Wild-type', 'tom-1(nu468)', 'tom-1(ok285)', 'Rescue of tom-7']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[21:30:36.919] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1183521___pgen.0010002.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1183521___pgen.0010002.g005\PMC1183521___pgen.0010002.g005.json
+  - Series Count: 4
+  - Series Names: ['Wild-type', 'tom-1(nu468)', 'tom-1(ok285)', 'Rescue of tom-1']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 30
+--------------------------------------------------
+
+[21:30:36.922] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 100.6410
+  - Y Min-Max: [-0.1068, 100.5342]
+  - X Range: 80.6361829025845
+--------------------------------------------------
+
+[21:30:36.924] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:30:36.927] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Wild-type <-> Wild-type (method=exact_match, score=1.000)', 'tom-1(nu468) <-> tom-1(nu468) (method=exact_match, score=1.000)', 'tom-1(ok285) <-> tom-1(ok285) (method=exact_match, score=1.000)', 'Rescue of tom-7 <-> Rescue of tom-1 (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[21:30:37.554] === SERIES_COMPARISON ===
+Comparaison Wild-type vs Wild-type avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.788186
+  - MAE Relative: 0.037641
+  - Left Miss (rel): 0.004931
+  - Right Miss (rel): 0.002959
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:30:38.381] === SERIES_COMPARISON ===
+Comparaison tom-1(nu468) vs tom-1(nu468) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.210853
+  - MAE Relative: 0.002095
+  - Left Miss (rel): 0.128945
+  - Right Miss (rel): 0.121055
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 7
+  - Points Ratio: 0.78
+--------------------------------------------------
+
+[21:30:39.470] === SERIES_COMPARISON ===
+Comparaison tom-1(ok285) vs tom-1(ok285) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.443836
+  - MAE Relative: 0.004410
+  - Left Miss (rel): 0.128945
+  - Right Miss (rel): 0.369083
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 5
+  - Points Ratio: 0.56
+--------------------------------------------------
+
+[21:30:40.918] === SERIES_COMPARISON ===
+Comparaison Rescue of tom-7 vs Rescue of tom-1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.060001
+  - MAE Relative: 0.010532
+  - Left Miss (rel): 0.001972
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:30:40
+Total Duration: 4.07 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1183521_pgen.0010002.g005.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1183521_pgen.0010002.g005
+================================================================================
+Timestamp: 2025-08-07 12:46:31
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1183521___pgen.0010002.g005
+================================================================================
+
+
+
+[12:46:31.140] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:46:31.143] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:46:31.514] === DATA_LOADING ===
+Chargement des données GT depuis PMC1183521___pgen.0010002.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1183521___pgen.0010002.g005.json
+  - Series Count: 4
+  - Series Names: ['Wild-type', 'tom-1(nu468)', 'tom-1(ok285)', 'Rescue of tom-7']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[12:46:31.518] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1183521___pgen.0010002.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1183521___pgen.0010002.g005\PMC1183521___pgen.0010002.g005.json
+  - Series Count: 4
+  - Series Names: ['Wild-type', 'tom-1(nu468)', 'tom-1(ok285)', 'Rescue of tom-1']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 30
+--------------------------------------------------
+
+[12:46:31.523] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 100.6410
+  - Y Min-Max: [-0.1068, 100.5342]
+  - X Range: 80.6361829025845
+--------------------------------------------------
+
+[12:46:31.525] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:46:31.529] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Wild-type <-> Wild-type (method=exact_match, score=1.000)', 'tom-1(nu468) <-> tom-1(nu468) (method=exact_match, score=1.000)', 'tom-1(ok285) <-> tom-1(ok285) (method=exact_match, score=1.000)', 'Rescue of tom-7 <-> Rescue of tom-1 (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[12:46:32.598] === SERIES_COMPARISON ===
+Comparaison Wild-type vs Wild-type avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.914061
+  - MAE Relative: 0.028955
+  - Left Miss (rel): 0.004931
+  - Right Miss (rel): 0.002959
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:46:33.413] === SERIES_COMPARISON ===
+Comparaison tom-1(nu468) vs tom-1(nu468) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.503415
+  - MAE Relative: 0.005002
+  - Left Miss (rel): 0.128945
+  - Right Miss (rel): 0.121055
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 7
+  - Points Ratio: 0.78
+--------------------------------------------------
+
+[12:46:33.999] === SERIES_COMPARISON ===
+Comparaison tom-1(ok285) vs tom-1(ok285) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.595956
+  - MAE Relative: 0.005922
+  - Left Miss (rel): 0.128945
+  - Right Miss (rel): 0.369083
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 5
+  - Points Ratio: 0.56
+--------------------------------------------------
+
+[12:46:34.597] === SERIES_COMPARISON ===
+Comparaison Rescue of tom-7 vs Rescue of tom-1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.060001
+  - MAE Relative: 0.010532
+  - Left Miss (rel): 0.001972
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:46:34
+Total Duration: 3.48 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1183521_pgen.0010002.g005.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1183521_pgen.0010002.g005
+================================================================================
+Timestamp: 2025-08-07 13:03:30
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1183521___pgen.0010002.g005
+================================================================================
+
+
+
+[13:03:30.126] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:03:30.130] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:03:30.182] === DATA_LOADING ===
+Chargement des données GT depuis PMC1183521___pgen.0010002.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1183521___pgen.0010002.g005.json
+  - Series Count: 4
+  - Series Names: ['Wild-type', 'tom-1(nu468)', 'tom-1(ok285)', 'Rescue of tom-7']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[13:03:30.197] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1183521___pgen.0010002.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1183521___pgen.0010002.g005\PMC1183521___pgen.0010002.g005.json
+  - Series Count: 4
+  - Series Names: ['Wild-type', 'tom-1(nu468)', 'tom-1(ok285)', 'Rescue of tom-1']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 30
+--------------------------------------------------
+
+[13:03:30.206] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 100.6410
+  - Y Min-Max: [-0.1068, 100.5342]
+  - X Range: 80.6361829025845
+--------------------------------------------------
+
+[13:03:30.215] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:03:30.218] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Wild-type <-> Wild-type (method=exact_match, score=1.000)', 'tom-1(nu468) <-> tom-1(nu468) (method=exact_match, score=1.000)', 'tom-1(ok285) <-> tom-1(ok285) (method=exact_match, score=1.000)', 'Rescue of tom-7 <-> Rescue of tom-1 (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[13:03:31.231] === SERIES_COMPARISON ===
+Comparaison Wild-type vs Wild-type avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.788186
+  - MAE Relative: 0.037641
+  - Left Miss (rel): 0.004931
+  - Right Miss (rel): 0.002959
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:03:31.961] === SERIES_COMPARISON ===
+Comparaison tom-1(nu468) vs tom-1(nu468) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.210853
+  - MAE Relative: 0.002095
+  - Left Miss (rel): 0.128945
+  - Right Miss (rel): 0.121055
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 7
+  - Points Ratio: 0.78
+--------------------------------------------------
+
+[13:03:32.693] === SERIES_COMPARISON ===
+Comparaison tom-1(ok285) vs tom-1(ok285) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.443836
+  - MAE Relative: 0.004410
+  - Left Miss (rel): 0.128945
+  - Right Miss (rel): 0.369083
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 5
+  - Points Ratio: 0.56
+--------------------------------------------------
+
+[13:03:33.406] === SERIES_COMPARISON ===
+Comparaison Rescue of tom-7 vs Rescue of tom-1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.060001
+  - MAE Relative: 0.010532
+  - Left Miss (rel): 0.001972
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:03:33
+Total Duration: 3.30 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1183521_pgen.0010002.g005.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1183521_pgen.0010002.g005
+================================================================================
+Timestamp: 2025-08-07 16:37:05
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1183521___pgen.0010002.g005
+================================================================================
+
+
+
+[16:37:05.950] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:37:05.952] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:37:05.994] === DATA_LOADING ===
+Chargement des données GT depuis PMC1183521___pgen.0010002.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1183521___pgen.0010002.g005.json
+  - Series Count: 4
+  - Series Names: ['Wild-type', 'tom-1(nu468)', 'tom-1(ok285)', 'Rescue of tom-7']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[16:37:05.997] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1183521___pgen.0010002.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1183521___pgen.0010002.g005\PMC1183521___pgen.0010002.g005.json
+  - Series Count: 4
+  - Series Names: ['Wild-type', 'tom-1(nu468)', 'tom-1(ok285)', 'Rescue of tom-1']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 30
+--------------------------------------------------
+
+[16:37:05.999] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 100.6410
+  - Y Min-Max: [-0.1068, 100.5342]
+  - X Range: 80.6361829025845
+--------------------------------------------------
+
+[16:37:06.001] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:37:06.002] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Wild-type <-> Wild-type (method=exact_match, score=1.000)', 'tom-1(nu468) <-> tom-1(nu468) (method=exact_match, score=1.000)', 'tom-1(ok285) <-> tom-1(ok285) (method=exact_match, score=1.000)', 'Rescue of tom-7 <-> Rescue of tom-1 (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[16:37:06.511] === SERIES_COMPARISON ===
+Comparaison Wild-type vs Wild-type avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.914061
+  - MAE Relative: 0.028955
+  - Left Miss (rel): 0.004931
+  - Right Miss (rel): 0.002959
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:37:07.001] === SERIES_COMPARISON ===
+Comparaison tom-1(nu468) vs tom-1(nu468) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.503415
+  - MAE Relative: 0.005002
+  - Left Miss (rel): 0.128945
+  - Right Miss (rel): 0.121055
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 7
+  - Points Ratio: 0.78
+--------------------------------------------------
+
+[16:37:07.533] === SERIES_COMPARISON ===
+Comparaison tom-1(ok285) vs tom-1(ok285) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.595956
+  - MAE Relative: 0.005922
+  - Left Miss (rel): 0.128945
+  - Right Miss (rel): 0.369083
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 5
+  - Points Ratio: 0.56
+--------------------------------------------------
+
+[16:37:08.414] === SERIES_COMPARISON ===
+Comparaison Rescue of tom-7 vs Rescue of tom-1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.060001
+  - MAE Relative: 0.010532
+  - Left Miss (rel): 0.001972
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:37:08
+Total Duration: 2.48 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1183521_pgen.0010002.g005.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1183521_pgen.0010002.g005
+================================================================================
+Timestamp: 2025-08-07 16:56:20
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1183521___pgen.0010002.g005
+================================================================================
+
+
+
+[16:56:20.878] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:56:20.881] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:56:20.978] === DATA_LOADING ===
+Chargement des données GT depuis PMC1183521___pgen.0010002.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1183521___pgen.0010002.g005.json
+  - Series Count: 4
+  - Series Names: ['Wild-type', 'tom-1(nu468)', 'tom-1(ok285)', 'Rescue of tom-7']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[16:56:20.986] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1183521___pgen.0010002.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1183521___pgen.0010002.g005\PMC1183521___pgen.0010002.g005.json
+  - Series Count: 4
+  - Series Names: ['Wild-type', 'tom-1(nu468)', 'tom-1(ok285)', 'Rescue of tom-1']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 30
+--------------------------------------------------
+
+[16:56:20.996] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 100.6410
+  - Y Min-Max: [-0.1068, 100.5342]
+  - X Range: 80.6361829025845
+--------------------------------------------------
+
+[16:56:21.007] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:56:21.016] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Wild-type <-> Wild-type (method=exact_match, score=1.000)', 'tom-1(nu468) <-> tom-1(nu468) (method=exact_match, score=1.000)', 'tom-1(ok285) <-> tom-1(ok285) (method=exact_match, score=1.000)', 'Rescue of tom-7 <-> Rescue of tom-1 (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[16:56:21.907] === SERIES_COMPARISON ===
+Comparaison Wild-type vs Wild-type avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.914061
+  - MAE Relative: 0.028955
+  - Left Miss (rel): 0.004931
+  - Right Miss (rel): 0.002959
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:56:22.801] === SERIES_COMPARISON ===
+Comparaison tom-1(nu468) vs tom-1(nu468) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.503415
+  - MAE Relative: 0.005002
+  - Left Miss (rel): 0.128945
+  - Right Miss (rel): 0.121055
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 7
+  - Points Ratio: 0.78
+--------------------------------------------------
+
+[16:56:23.790] === SERIES_COMPARISON ===
+Comparaison tom-1(ok285) vs tom-1(ok285) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.595956
+  - MAE Relative: 0.005922
+  - Left Miss (rel): 0.128945
+  - Right Miss (rel): 0.369083
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 5
+  - Points Ratio: 0.56
+--------------------------------------------------
+
+[16:56:24.315] === SERIES_COMPARISON ===
+Comparaison Rescue of tom-7 vs Rescue of tom-1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.060001
+  - MAE Relative: 0.010532
+  - Left Miss (rel): 0.001972
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:56:24
+Total Duration: 3.48 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1183521_pgen.0010002.g005.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1183521_pgen.0010002.g005
+================================================================================
+Timestamp: 2025-08-11 13:44:58
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1183521___pgen.0010002.g005
+================================================================================
+
+
+
+[13:44:58.929] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:44:58.953] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:44:59.067] === DATA_LOADING ===
+Chargement des données GT depuis PMC1183521___pgen.0010002.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1183521___pgen.0010002.g005.json
+  - Series Count: 4
+  - Series Names: ['Wild-type', 'tom-1(nu468)', 'tom-1(ok285)', 'Rescue of tom-7']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[13:44:59.080] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1183521___pgen.0010002.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1183521___pgen.0010002.g005\PMC1183521___pgen.0010002.g005.json
+  - Series Count: 4
+  - Series Names: ['Wild-type', 'tom-1(nu468)', 'tom-1(ok285)', 'Rescue of tom-1']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[13:44:59.088] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 100.6410
+  - Y Min-Max: [-0.1068, 100.5342]
+  - X Range: 80.6361829025845
+--------------------------------------------------
+
+[13:44:59.099] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:44:59.127] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Wild-type <-> Wild-type (method=exact_match, score=1.000)', 'tom-1(nu468) <-> tom-1(nu468) (method=exact_match, score=1.000)', 'tom-1(ok285) <-> tom-1(ok285) (method=exact_match, score=1.000)', 'Rescue of tom-7 <-> Rescue of tom-1 (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[13:45:01.404] === SERIES_COMPARISON ===
+Comparaison Wild-type vs Wild-type avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.788186
+  - MAE Relative: 0.037641
+  - Left Miss (rel): 0.004931
+  - Right Miss (rel): 0.002959
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:45:03.644] === SERIES_COMPARISON ===
+Comparaison tom-1(nu468) vs tom-1(nu468) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.210853
+  - MAE Relative: 0.002095
+  - Left Miss (rel): 0.128945
+  - Right Miss (rel): 0.121055
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 7
+  - Points Ratio: 0.78
+--------------------------------------------------
+
+[13:45:05.271] === SERIES_COMPARISON ===
+Comparaison tom-1(ok285) vs tom-1(ok285) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.661832
+  - MAE Relative: 0.006576
+  - Left Miss (rel): 0.128945
+  - Right Miss (rel): 0.121055
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 7
+  - Points Ratio: 0.78
+--------------------------------------------------
+
+[13:45:06.468] === SERIES_COMPARISON ===
+Comparaison Rescue of tom-7 vs Rescue of tom-1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.745062
+  - MAE Relative: 0.007403
+  - Left Miss (rel): 0.001972
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-11 13:45:06
+Total Duration: 7.57 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1183521_pgen.0010002.g005.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

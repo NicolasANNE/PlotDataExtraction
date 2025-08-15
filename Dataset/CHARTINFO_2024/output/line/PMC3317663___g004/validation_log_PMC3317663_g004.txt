@@ -1,0 +1,202 @@
+
+================================================================================
+VALIDATION LOG - PMC3317663_g004
+================================================================================
+Timestamp: 2025-08-06 21:38:27
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3317663___g004
+================================================================================
+
+
+
+[21:38:27.190] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:38:27.195] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:38:27.422] === DATA_LOADING ===
+Chargement des données GT depuis PMC3317663___g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3317663___g004.json
+  - Series Count: 2
+  - Series Names: ['Leptin', 'Insulin']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[21:38:27.428] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3317663___g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3317663___g004\PMC3317663___g004.json
+  - Series Count: 2
+  - Series Names: ['Leptin', 'Insulin']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[21:38:27.432] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 61.6011
+  - Y Min-Max: [2.0000, 63.6011]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[21:38:27.435] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:38:27.442] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Leptin <-> Leptin (method=exact_match, score=1.000)', 'Insulin <-> Insulin (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:38:27.504] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Leptin vs Leptin
+==================================================
+
+
+[21:38:27.528] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Insulin vs Insulin
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:38:27
+Total Duration: 0.37 seconds
+Total Series Processed: 2
+Successful Comparisons: 0
+Errors: 2
+Success Rate: 0.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3317663_g004.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3317663_g004
+================================================================================
+Timestamp: 2025-08-07 12:54:12
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3317663___g004
+================================================================================
+
+
+
+[12:54:12.628] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:54:12.666] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:54:12.735] === DATA_LOADING ===
+Chargement des données GT depuis PMC3317663___g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3317663___g004.json
+  - Series Count: 2
+  - Series Names: ['Leptin', 'Insulin']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[12:54:12.743] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3317663___g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3317663___g004\PMC3317663___g004.json
+  - Series Count: 2
+  - Series Names: ['Leptin', 'Insulin']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[12:54:12.769] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 60.7063
+  - Y Min-Max: [2.8949, 63.6011]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:54:12.790] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:54:12.792] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Leptin <-> Leptin (method=exact_match, score=1.000)', 'Insulin <-> Insulin (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:54:12.807] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Leptin vs Leptin
+==================================================
+
+
+[12:54:12.835] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Insulin vs Insulin
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:54:12
+Total Duration: 0.28 seconds
+Total Series Processed: 2
+Successful Comparisons: 0
+Errors: 2
+Success Rate: 0.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3317663_g004.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

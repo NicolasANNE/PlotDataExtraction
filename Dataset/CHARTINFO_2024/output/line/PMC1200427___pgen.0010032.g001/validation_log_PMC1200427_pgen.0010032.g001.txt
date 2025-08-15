@@ -1,0 +1,858 @@
+
+================================================================================
+VALIDATION LOG - PMC1200427_pgen.0010032.g001
+================================================================================
+Timestamp: 2025-08-06 20:15:20
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1200427___pgen.0010032.g001
+================================================================================
+
+
+
+[20:15:20.959] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:21.030] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:21.060] === DATA_LOADING ===
+Chargement des données GT depuis PMC1200427___pgen.0010032.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1200427___pgen.0010032.g001.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:21.066] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1200427___pgen.0010032.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1200427___pgen.0010032.g001\PMC1200427___pgen.0010032.g001.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:21.068] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1200427_pgen.0010032.g001
+================================================================================
+Timestamp: 2025-08-06 21:06:33
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1200427___pgen.0010032.g001
+================================================================================
+
+
+
+[21:06:33.931] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:06:33.938] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:06:34.073] === DATA_LOADING ===
+Chargement des données GT depuis PMC1200427___pgen.0010032.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1200427___pgen.0010032.g001.json
+  - Series Count: 2
+  - Series Names: ["\\phi_{i} and \\phi_{i'} = Randoms", "\\phi_{i} and \\phi_{i'} = Affected"]
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 7
+--------------------------------------------------
+
+[21:06:34.105] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1200427___pgen.0010032.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1200427___pgen.0010032.g001\PMC1200427___pgen.0010032.g001.json
+  - Series Count: 2
+  - Series Names: ['φᵢ and φᵣ = Randoms', 'φᵢ and φᵣ = Affected']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[21:06:34.122] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0002
+  - Y Min-Max: [0.0002, 0.0004]
+  - X Range: 250.46377887023468
+--------------------------------------------------
+
+[21:06:34.169] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:06:34.192] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ["\\phi_{i} and \\phi_{i'} = Randoms <-> φᵢ and φᵣ = Randoms (method=fuzzy_match, score=0.550)", "\\phi_{i} and \\phi_{i'} = Affected <-> φᵢ and φᵣ = Affected (method=fuzzy_match, score=0.600)"]
+--------------------------------------------------
+
+[21:06:36.570] === SERIES_COMPARISON ===
+Comparaison \phi_{i} and \phi_{i'} = Randoms vs φᵢ and φᵣ = Randoms avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000006
+  - MAE Relative: 0.033845
+  - Left Miss (rel): 0.001852
+  - Right Miss (rel): -0.001944
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 11
+  - Points Ratio: 5.50
+--------------------------------------------------
+
+[21:06:52.129] === SERIES_COMPARISON ===
+Comparaison \phi_{i} and \phi_{i'} = Affected vs φᵢ and φᵣ = Affected avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000010
+  - MAE Relative: 0.059027
+  - Left Miss (rel): -0.014813
+  - Right Miss (rel): -0.001944
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 11
+  - Points Ratio: 2.20
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:06:52
+Total Duration: 18.25 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1200427_pgen.0010032.g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1200427_pgen.0010032.g001
+================================================================================
+Timestamp: 2025-08-06 21:30:48
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1200427___pgen.0010032.g001
+================================================================================
+
+
+
+[21:30:48.224] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:30:48.227] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:30:48.288] === DATA_LOADING ===
+Chargement des données GT depuis PMC1200427___pgen.0010032.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1200427___pgen.0010032.g001.json
+  - Series Count: 2
+  - Series Names: ["\\phi_{i} and \\phi_{i'} = Randoms", "\\phi_{i} and \\phi_{i'} = Affected"]
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 7
+--------------------------------------------------
+
+[21:30:48.291] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1200427___pgen.0010032.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1200427___pgen.0010032.g001\PMC1200427___pgen.0010032.g001.json
+  - Series Count: 2
+  - Series Names: ['φᵢ and φᵣ = Randoms', 'φᵢ and φᵣ = Affected']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[21:30:48.306] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0002
+  - Y Min-Max: [0.0002, 0.0004]
+  - X Range: 250.46377887023468
+--------------------------------------------------
+
+[21:30:48.314] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:30:48.326] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ["\\phi_{i} and \\phi_{i'} = Randoms <-> φᵢ and φᵣ = Randoms (method=fuzzy_match, score=0.550)", "\\phi_{i} and \\phi_{i'} = Affected <-> φᵢ and φᵣ = Affected (method=fuzzy_match, score=0.600)"]
+--------------------------------------------------
+
+[21:30:49.044] === SERIES_COMPARISON ===
+Comparaison \phi_{i} and \phi_{i'} = Randoms vs φᵢ and φᵣ = Randoms avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000006
+  - MAE Relative: 0.033845
+  - Left Miss (rel): 0.001852
+  - Right Miss (rel): -0.001944
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 11
+  - Points Ratio: 5.50
+--------------------------------------------------
+
+[21:30:49.828] === SERIES_COMPARISON ===
+Comparaison \phi_{i} and \phi_{i'} = Affected vs φᵢ and φᵣ = Affected avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000010
+  - MAE Relative: 0.059027
+  - Left Miss (rel): -0.014813
+  - Right Miss (rel): -0.001944
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 11
+  - Points Ratio: 2.20
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:30:49
+Total Duration: 1.63 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1200427_pgen.0010032.g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1200427_pgen.0010032.g001
+================================================================================
+Timestamp: 2025-08-07 12:46:43
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1200427___pgen.0010032.g001
+================================================================================
+
+
+
+[12:46:43.734] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:46:43.737] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:46:43.789] === DATA_LOADING ===
+Chargement des données GT depuis PMC1200427___pgen.0010032.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1200427___pgen.0010032.g001.json
+  - Series Count: 2
+  - Series Names: ["\\phi_{i} and \\phi_{i'} = Randoms", "\\phi_{i} and \\phi_{i'} = Affected"]
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 7
+--------------------------------------------------
+
+[12:46:43.817] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1200427___pgen.0010032.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1200427___pgen.0010032.g001\PMC1200427___pgen.0010032.g001.json
+  - Series Count: 2
+  - Series Names: ['φᵢ and φᵣ = Randoms', 'φᵢ and φᵣ = Affected']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 28
+--------------------------------------------------
+
+[12:46:43.838] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0002
+  - Y Min-Max: [0.0002, 0.0004]
+  - X Range: 250.46377887023468
+--------------------------------------------------
+
+[12:46:43.847] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:46:43.872] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ["\\phi_{i} and \\phi_{i'} = Randoms <-> φᵢ and φᵣ = Randoms (method=fuzzy_match, score=0.550)", "\\phi_{i} and \\phi_{i'} = Affected <-> φᵢ and φᵣ = Affected (method=fuzzy_match, score=0.600)"]
+--------------------------------------------------
+
+[12:46:44.594] === SERIES_COMPARISON ===
+Comparaison \phi_{i} and \phi_{i'} = Randoms vs φᵢ and φᵣ = Randoms avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000007
+  - MAE Relative: 0.038534
+  - Left Miss (rel): 0.001852
+  - Right Miss (rel): -0.001944
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 11
+  - Points Ratio: 5.50
+--------------------------------------------------
+
+[12:46:45.238] === SERIES_COMPARISON ===
+Comparaison \phi_{i} and \phi_{i'} = Affected vs φᵢ and φᵣ = Affected avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000006
+  - MAE Relative: 0.035246
+  - Left Miss (rel): -0.014813
+  - Right Miss (rel): -0.001944
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 17
+  - Points Ratio: 3.40
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:46:45
+Total Duration: 1.51 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1200427_pgen.0010032.g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1200427_pgen.0010032.g001
+================================================================================
+Timestamp: 2025-08-07 13:03:41
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1200427___pgen.0010032.g001
+================================================================================
+
+
+
+[13:03:41.165] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:03:41.167] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:03:41.220] === DATA_LOADING ===
+Chargement des données GT depuis PMC1200427___pgen.0010032.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1200427___pgen.0010032.g001.json
+  - Series Count: 2
+  - Series Names: ["\\phi_{i} and \\phi_{i'} = Randoms", "\\phi_{i} and \\phi_{i'} = Affected"]
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 7
+--------------------------------------------------
+
+[13:03:41.253] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1200427___pgen.0010032.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1200427___pgen.0010032.g001\PMC1200427___pgen.0010032.g001.json
+  - Series Count: 2
+  - Series Names: ['φᵢ and φᵣ = Randoms', 'φᵢ and φᵣ = Affected']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[13:03:41.268] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0002
+  - Y Min-Max: [0.0002, 0.0004]
+  - X Range: 250.46377887023468
+--------------------------------------------------
+
+[13:03:41.285] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:03:41.292] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ["\\phi_{i} and \\phi_{i'} = Randoms <-> φᵢ and φᵣ = Randoms (method=fuzzy_match, score=0.550)", "\\phi_{i} and \\phi_{i'} = Affected <-> φᵢ and φᵣ = Affected (method=fuzzy_match, score=0.600)"]
+--------------------------------------------------
+
+[13:03:42.465] === SERIES_COMPARISON ===
+Comparaison \phi_{i} and \phi_{i'} = Randoms vs φᵢ and φᵣ = Randoms avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000006
+  - MAE Relative: 0.033845
+  - Left Miss (rel): 0.001852
+  - Right Miss (rel): -0.001944
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 11
+  - Points Ratio: 5.50
+--------------------------------------------------
+
+[13:03:43.660] === SERIES_COMPARISON ===
+Comparaison \phi_{i} and \phi_{i'} = Affected vs φᵢ and φᵣ = Affected avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000010
+  - MAE Relative: 0.059027
+  - Left Miss (rel): -0.014813
+  - Right Miss (rel): -0.001944
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 11
+  - Points Ratio: 2.20
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:03:43
+Total Duration: 2.54 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1200427_pgen.0010032.g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1200427_pgen.0010032.g001
+================================================================================
+Timestamp: 2025-08-07 16:37:17
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1200427___pgen.0010032.g001
+================================================================================
+
+
+
+[16:37:17.426] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:37:17.428] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:37:17.460] === DATA_LOADING ===
+Chargement des données GT depuis PMC1200427___pgen.0010032.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1200427___pgen.0010032.g001.json
+  - Series Count: 2
+  - Series Names: ["\\phi_{i} and \\phi_{i'} = Randoms", "\\phi_{i} and \\phi_{i'} = Affected"]
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 7
+--------------------------------------------------
+
+[16:37:17.476] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1200427___pgen.0010032.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1200427___pgen.0010032.g001\PMC1200427___pgen.0010032.g001.json
+  - Series Count: 2
+  - Series Names: ['φᵢ and φᵣ = Randoms', 'φᵢ and φᵣ = Affected']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 28
+--------------------------------------------------
+
+[16:37:17.478] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0002
+  - Y Min-Max: [0.0002, 0.0004]
+  - X Range: 250.46377887023468
+--------------------------------------------------
+
+[16:37:17.480] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:37:17.482] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ["\\phi_{i} and \\phi_{i'} = Randoms <-> φᵢ and φᵣ = Randoms (method=fuzzy_match, score=0.550)", "\\phi_{i} and \\phi_{i'} = Affected <-> φᵢ and φᵣ = Affected (method=fuzzy_match, score=0.600)"]
+--------------------------------------------------
+
+[16:37:18.049] === SERIES_COMPARISON ===
+Comparaison \phi_{i} and \phi_{i'} = Randoms vs φᵢ and φᵣ = Randoms avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000007
+  - MAE Relative: 0.038534
+  - Left Miss (rel): 0.001852
+  - Right Miss (rel): -0.001944
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 11
+  - Points Ratio: 5.50
+--------------------------------------------------
+
+[16:37:18.574] === SERIES_COMPARISON ===
+Comparaison \phi_{i} and \phi_{i'} = Affected vs φᵢ and φᵣ = Affected avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000006
+  - MAE Relative: 0.035246
+  - Left Miss (rel): -0.014813
+  - Right Miss (rel): -0.001944
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 17
+  - Points Ratio: 3.40
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:37:18
+Total Duration: 1.15 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1200427_pgen.0010032.g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1200427_pgen.0010032.g001
+================================================================================
+Timestamp: 2025-08-07 16:56:32
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1200427___pgen.0010032.g001
+================================================================================
+
+
+
+[16:56:32.025] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:56:32.028] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:56:32.069] === DATA_LOADING ===
+Chargement des données GT depuis PMC1200427___pgen.0010032.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1200427___pgen.0010032.g001.json
+  - Series Count: 2
+  - Series Names: ["\\phi_{i} and \\phi_{i'} = Randoms", "\\phi_{i} and \\phi_{i'} = Affected"]
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 7
+--------------------------------------------------
+
+[16:56:32.074] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1200427___pgen.0010032.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1200427___pgen.0010032.g001\PMC1200427___pgen.0010032.g001.json
+  - Series Count: 2
+  - Series Names: ['φᵢ and φᵣ = Randoms', 'φᵢ and φᵣ = Affected']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[16:56:32.077] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0002
+  - Y Min-Max: [0.0002, 0.0004]
+  - X Range: 250.46377887023468
+--------------------------------------------------
+
+[16:56:32.079] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:56:32.081] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ["\\phi_{i} and \\phi_{i'} = Randoms <-> φᵢ and φᵣ = Randoms (method=fuzzy_match, score=0.550)", "\\phi_{i} and \\phi_{i'} = Affected <-> φᵢ and φᵣ = Affected (method=fuzzy_match, score=0.600)"]
+--------------------------------------------------
+
+[16:56:32.631] === SERIES_COMPARISON ===
+Comparaison \phi_{i} and \phi_{i'} = Randoms vs φᵢ and φᵣ = Randoms avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000006
+  - MAE Relative: 0.033845
+  - Left Miss (rel): 0.001852
+  - Right Miss (rel): -0.001944
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 11
+  - Points Ratio: 5.50
+--------------------------------------------------
+
+[16:56:33.175] === SERIES_COMPARISON ===
+Comparaison \phi_{i} and \phi_{i'} = Affected vs φᵢ and φᵣ = Affected avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000010
+  - MAE Relative: 0.059027
+  - Left Miss (rel): -0.014813
+  - Right Miss (rel): -0.001944
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 11
+  - Points Ratio: 2.20
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:56:33
+Total Duration: 1.16 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1200427_pgen.0010032.g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1200427_pgen.0010032.g001
+================================================================================
+Timestamp: 2025-08-11 13:45:16
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1200427___pgen.0010032.g001
+================================================================================
+
+
+
+[13:45:16.411] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:45:16.417] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:45:16.472] === DATA_LOADING ===
+Chargement des données GT depuis PMC1200427___pgen.0010032.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1200427___pgen.0010032.g001.json
+  - Series Count: 2
+  - Series Names: ["\\phi_{i} and \\phi_{i'} = Randoms", "\\phi_{i} and \\phi_{i'} = Affected"]
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 7
+--------------------------------------------------
+
+[13:45:16.497] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1200427___pgen.0010032.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1200427___pgen.0010032.g001\PMC1200427___pgen.0010032.g001.json
+  - Series Count: 2
+  - Series Names: ['phi_i and phi_r = Randoms', 'phi_i and phi_r = Affected']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[13:45:16.526] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0002
+  - Y Min-Max: [0.0002, 0.0004]
+  - X Range: 250.46377887023468
+--------------------------------------------------
+
+[13:45:16.529] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:45:16.535] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ["\\phi_{i} and \\phi_{i'} = Randoms <-> phi_i and phi_r = Randoms (method=fuzzy_match, score=0.800)", "\\phi_{i} and \\phi_{i'} = Affected <-> phi_i and phi_r = Affected (method=fuzzy_match, score=0.800)"]
+--------------------------------------------------
+
+[13:45:18.319] === SERIES_COMPARISON ===
+Comparaison \phi_{i} and \phi_{i'} = Randoms vs phi_i and phi_r = Randoms avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000007
+  - MAE Relative: 0.038534
+  - Left Miss (rel): 0.001852
+  - Right Miss (rel): -0.001944
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 11
+  - Points Ratio: 5.50
+--------------------------------------------------
+
+[13:45:19.990] === SERIES_COMPARISON ===
+Comparaison \phi_{i} and \phi_{i'} = Affected vs phi_i and phi_r = Affected avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000009
+  - MAE Relative: 0.050351
+  - Left Miss (rel): -0.014813
+  - Right Miss (rel): -0.001944
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 11
+  - Points Ratio: 2.20
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-11 13:45:19
+Total Duration: 3.60 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1200427_pgen.0010032.g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

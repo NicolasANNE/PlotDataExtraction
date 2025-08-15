@@ -1,0 +1,768 @@
+
+================================================================================
+VALIDATION LOG - PMC1866528_1471-2156-4-S1-S88-3
+================================================================================
+Timestamp: 2025-08-06 20:15:40
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866528___1471-2156-4-S1-S88-3
+================================================================================
+
+
+
+[20:15:40.034] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:40.105] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:40.114] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866528___1471-2156-4-S1-S88-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866528___1471-2156-4-S1-S88-3.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:40.141] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866528___1471-2156-4-S1-S88-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866528___1471-2156-4-S1-S88-3\PMC1866528___1471-2156-4-S1-S88-3.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:40.144] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866528_1471-2156-4-S1-S88-3
+================================================================================
+Timestamp: 2025-08-06 21:31:41
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866528___1471-2156-4-S1-S88-3
+================================================================================
+
+
+
+[21:31:41.082] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:31:41.117] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:31:41.217] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866528___1471-2156-4-S1-S88-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866528___1471-2156-4-S1-S88-3.json
+  - Series Count: 4
+  - Series Names: ['intercept-imputation', 'intercept-complete case', 'slope-imputation', 'slope-complete case']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 272
+--------------------------------------------------
+
+[21:31:41.222] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866528___1471-2156-4-S1-S88-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866528___1471-2156-4-S1-S88-3\PMC1866528___1471-2156-4-S1-S88-3.json
+  - Series Count: 4
+  - Series Names: ['intercept-imputation', 'intercept-complete case', 'slope-imputation', 'slope-complete case']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 52
+--------------------------------------------------
+
+[21:31:41.226] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 4.3581
+  - Y Min-Max: [-0.0151, 4.3430]
+  - X Range: 301.7786561264822
+--------------------------------------------------
+
+[21:31:41.230] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:31:41.234] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['intercept-imputation <-> intercept-imputation (method=exact_match, score=1.000)', 'intercept-complete case <-> intercept-complete case (method=exact_match, score=1.000)', 'slope-imputation <-> slope-imputation (method=exact_match, score=1.000)', 'slope-complete case <-> slope-complete case (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:31:42.149] === SERIES_COMPARISON ===
+Comparaison intercept-imputation vs intercept-imputation avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.476511
+  - MAE Relative: 0.109340
+  - Left Miss (rel): 0.004584
+  - Right Miss (rel): 0.001310
+  - X Cutoff: N/A
+  - GT Points: 61
+  - Extracted Points: 13
+  - Points Ratio: 0.21
+--------------------------------------------------
+
+[21:31:43.248] === SERIES_COMPARISON ===
+Comparaison intercept-complete case vs intercept-complete case avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.346442
+  - MAE Relative: 0.079495
+  - Left Miss (rel): 0.000327
+  - Right Miss (rel): -0.003274
+  - X Cutoff: N/A
+  - GT Points: 86
+  - Extracted Points: 13
+  - Points Ratio: 0.15
+--------------------------------------------------
+
+[21:31:44.042] === SERIES_COMPARISON ===
+Comparaison slope-imputation vs slope-imputation avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.228890
+  - MAE Relative: 0.052521
+  - Left Miss (rel): 0.004584
+  - Right Miss (rel): 0.001310
+  - X Cutoff: N/A
+  - GT Points: 76
+  - Extracted Points: 13
+  - Points Ratio: 0.17
+--------------------------------------------------
+
+[21:31:44.598] === SERIES_COMPARISON ===
+Comparaison slope-complete case vs slope-complete case avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.257417
+  - MAE Relative: 0.059067
+  - Left Miss (rel): -0.001637
+  - Right Miss (rel): 0.000164
+  - X Cutoff: N/A
+  - GT Points: 49
+  - Extracted Points: 13
+  - Points Ratio: 0.27
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:31:44
+Total Duration: 3.55 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866528_1471-2156-4-S1-S88-3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866528_1471-2156-4-S1-S88-3
+================================================================================
+Timestamp: 2025-08-07 12:47:42
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866528___1471-2156-4-S1-S88-3
+================================================================================
+
+
+
+[12:47:42.374] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:47:42.379] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:47:42.439] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866528___1471-2156-4-S1-S88-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866528___1471-2156-4-S1-S88-3.json
+  - Series Count: 4
+  - Series Names: ['intercept-imputation', 'intercept-complete case', 'slope-imputation', 'slope-complete case']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 272
+--------------------------------------------------
+
+[12:47:42.443] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866528___1471-2156-4-S1-S88-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866528___1471-2156-4-S1-S88-3\PMC1866528___1471-2156-4-S1-S88-3.json
+  - Series Count: 4
+  - Series Names: ['intercept-imputation', 'intercept-complete case', 'slope-imputation', 'slope-complete case']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 52
+--------------------------------------------------
+
+[12:47:42.476] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 4.3581
+  - Y Min-Max: [-0.0151, 4.3430]
+  - X Range: 301.7786561264822
+--------------------------------------------------
+
+[12:47:42.496] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:47:42.502] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['intercept-imputation <-> intercept-imputation (method=exact_match, score=1.000)', 'intercept-complete case <-> intercept-complete case (method=exact_match, score=1.000)', 'slope-imputation <-> slope-imputation (method=exact_match, score=1.000)', 'slope-complete case <-> slope-complete case (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:47:43.663] === SERIES_COMPARISON ===
+Comparaison intercept-imputation vs intercept-imputation avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.476511
+  - MAE Relative: 0.109340
+  - Left Miss (rel): 0.004584
+  - Right Miss (rel): 0.001310
+  - X Cutoff: N/A
+  - GT Points: 61
+  - Extracted Points: 13
+  - Points Ratio: 0.21
+--------------------------------------------------
+
+[12:47:44.460] === SERIES_COMPARISON ===
+Comparaison intercept-complete case vs intercept-complete case avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.346442
+  - MAE Relative: 0.079495
+  - Left Miss (rel): 0.000327
+  - Right Miss (rel): -0.003274
+  - X Cutoff: N/A
+  - GT Points: 86
+  - Extracted Points: 13
+  - Points Ratio: 0.15
+--------------------------------------------------
+
+[12:47:45.152] === SERIES_COMPARISON ===
+Comparaison slope-imputation vs slope-imputation avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.228890
+  - MAE Relative: 0.052521
+  - Left Miss (rel): 0.004584
+  - Right Miss (rel): 0.001310
+  - X Cutoff: N/A
+  - GT Points: 76
+  - Extracted Points: 13
+  - Points Ratio: 0.17
+--------------------------------------------------
+
+[12:47:45.971] === SERIES_COMPARISON ===
+Comparaison slope-complete case vs slope-complete case avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.257417
+  - MAE Relative: 0.059067
+  - Left Miss (rel): -0.001637
+  - Right Miss (rel): 0.000164
+  - X Cutoff: N/A
+  - GT Points: 49
+  - Extracted Points: 13
+  - Points Ratio: 0.27
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:47:45
+Total Duration: 3.60 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866528_1471-2156-4-S1-S88-3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866528_1471-2156-4-S1-S88-3
+================================================================================
+Timestamp: 2025-08-07 13:04:42
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866528___1471-2156-4-S1-S88-3
+================================================================================
+
+
+
+[13:04:42.675] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:04:42.677] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:04:42.733] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866528___1471-2156-4-S1-S88-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866528___1471-2156-4-S1-S88-3.json
+  - Series Count: 4
+  - Series Names: ['intercept-imputation', 'intercept-complete case', 'slope-imputation', 'slope-complete case']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 272
+--------------------------------------------------
+
+[13:04:42.760] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866528___1471-2156-4-S1-S88-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866528___1471-2156-4-S1-S88-3\PMC1866528___1471-2156-4-S1-S88-3.json
+  - Series Count: 4
+  - Series Names: ['intercept-imputation', 'intercept-complete case', 'slope-imputation', 'slope-complete case']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 52
+--------------------------------------------------
+
+[13:04:42.765] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 4.4151
+  - Y Min-Max: [-0.0151, 4.4000]
+  - X Range: 301.7786561264822
+--------------------------------------------------
+
+[13:04:42.808] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:04:42.817] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['intercept-imputation <-> intercept-imputation (method=exact_match, score=1.000)', 'intercept-complete case <-> intercept-complete case (method=exact_match, score=1.000)', 'slope-imputation <-> slope-imputation (method=exact_match, score=1.000)', 'slope-complete case <-> slope-complete case (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:04:43.814] === SERIES_COMPARISON ===
+Comparaison intercept-imputation vs intercept-imputation avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.487789
+  - MAE Relative: 0.110482
+  - Left Miss (rel): 0.004584
+  - Right Miss (rel): 0.001310
+  - X Cutoff: N/A
+  - GT Points: 61
+  - Extracted Points: 13
+  - Points Ratio: 0.21
+--------------------------------------------------
+
+[13:04:44.447] === SERIES_COMPARISON ===
+Comparaison intercept-complete case vs intercept-complete case avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.371518
+  - MAE Relative: 0.084147
+  - Left Miss (rel): 0.000327
+  - Right Miss (rel): -0.003274
+  - X Cutoff: N/A
+  - GT Points: 86
+  - Extracted Points: 13
+  - Points Ratio: 0.15
+--------------------------------------------------
+
+[13:04:45.117] === SERIES_COMPARISON ===
+Comparaison slope-imputation vs slope-imputation avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.309445
+  - MAE Relative: 0.070088
+  - Left Miss (rel): 0.004584
+  - Right Miss (rel): 0.001310
+  - X Cutoff: N/A
+  - GT Points: 76
+  - Extracted Points: 13
+  - Points Ratio: 0.17
+--------------------------------------------------
+
+[13:04:45.893] === SERIES_COMPARISON ===
+Comparaison slope-complete case vs slope-complete case avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.278734
+  - MAE Relative: 0.063132
+  - Left Miss (rel): -0.001637
+  - Right Miss (rel): 0.000164
+  - X Cutoff: N/A
+  - GT Points: 49
+  - Extracted Points: 13
+  - Points Ratio: 0.27
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:04:45
+Total Duration: 3.26 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866528_1471-2156-4-S1-S88-3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866528_1471-2156-4-S1-S88-3
+================================================================================
+Timestamp: 2025-08-07 16:38:19
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866528___1471-2156-4-S1-S88-3
+================================================================================
+
+
+
+[16:38:19.100] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:38:19.102] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:38:19.162] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866528___1471-2156-4-S1-S88-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866528___1471-2156-4-S1-S88-3.json
+  - Series Count: 4
+  - Series Names: ['intercept-imputation', 'intercept-complete case', 'slope-imputation', 'slope-complete case']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 272
+--------------------------------------------------
+
+[16:38:19.170] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866528___1471-2156-4-S1-S88-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866528___1471-2156-4-S1-S88-3\PMC1866528___1471-2156-4-S1-S88-3.json
+  - Series Count: 4
+  - Series Names: ['intercept-imputation', 'intercept-complete case', 'slope-imputation', 'slope-complete case']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 52
+--------------------------------------------------
+
+[16:38:19.174] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 4.4151
+  - Y Min-Max: [-0.0151, 4.4000]
+  - X Range: 301.7786561264822
+--------------------------------------------------
+
+[16:38:19.176] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:38:19.178] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['intercept-imputation <-> intercept-imputation (method=exact_match, score=1.000)', 'intercept-complete case <-> intercept-complete case (method=exact_match, score=1.000)', 'slope-imputation <-> slope-imputation (method=exact_match, score=1.000)', 'slope-complete case <-> slope-complete case (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:38:19.711] === SERIES_COMPARISON ===
+Comparaison intercept-imputation vs intercept-imputation avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.487789
+  - MAE Relative: 0.110482
+  - Left Miss (rel): 0.004584
+  - Right Miss (rel): 0.001310
+  - X Cutoff: N/A
+  - GT Points: 61
+  - Extracted Points: 13
+  - Points Ratio: 0.21
+--------------------------------------------------
+
+[16:38:20.222] === SERIES_COMPARISON ===
+Comparaison intercept-complete case vs intercept-complete case avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.371518
+  - MAE Relative: 0.084147
+  - Left Miss (rel): 0.000327
+  - Right Miss (rel): -0.003274
+  - X Cutoff: N/A
+  - GT Points: 86
+  - Extracted Points: 13
+  - Points Ratio: 0.15
+--------------------------------------------------
+
+[16:38:20.697] === SERIES_COMPARISON ===
+Comparaison slope-imputation vs slope-imputation avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.309445
+  - MAE Relative: 0.070088
+  - Left Miss (rel): 0.004584
+  - Right Miss (rel): 0.001310
+  - X Cutoff: N/A
+  - GT Points: 76
+  - Extracted Points: 13
+  - Points Ratio: 0.17
+--------------------------------------------------
+
+[16:38:21.474] === SERIES_COMPARISON ===
+Comparaison slope-complete case vs slope-complete case avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.278734
+  - MAE Relative: 0.063132
+  - Left Miss (rel): -0.001637
+  - Right Miss (rel): 0.000164
+  - X Cutoff: N/A
+  - GT Points: 49
+  - Extracted Points: 13
+  - Points Ratio: 0.27
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:38:21
+Total Duration: 2.39 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866528_1471-2156-4-S1-S88-3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866528_1471-2156-4-S1-S88-3
+================================================================================
+Timestamp: 2025-08-07 16:57:28
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866528___1471-2156-4-S1-S88-3
+================================================================================
+
+
+
+[16:57:28.659] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:57:28.661] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:57:28.685] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866528___1471-2156-4-S1-S88-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866528___1471-2156-4-S1-S88-3.json
+  - Series Count: 4
+  - Series Names: ['intercept-imputation', 'intercept-complete case', 'slope-imputation', 'slope-complete case']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 272
+--------------------------------------------------
+
+[16:57:28.691] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866528___1471-2156-4-S1-S88-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866528___1471-2156-4-S1-S88-3\PMC1866528___1471-2156-4-S1-S88-3.json
+  - Series Count: 4
+  - Series Names: ['intercept-imputation', 'intercept-complete case', 'slope-imputation', 'slope-complete case']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 52
+--------------------------------------------------
+
+[16:57:28.696] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 4.4151
+  - Y Min-Max: [-0.0151, 4.4000]
+  - X Range: 301.7786561264822
+--------------------------------------------------
+
+[16:57:28.698] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:57:28.702] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['intercept-imputation <-> intercept-imputation (method=exact_match, score=1.000)', 'intercept-complete case <-> intercept-complete case (method=exact_match, score=1.000)', 'slope-imputation <-> slope-imputation (method=exact_match, score=1.000)', 'slope-complete case <-> slope-complete case (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:57:29.380] === SERIES_COMPARISON ===
+Comparaison intercept-imputation vs intercept-imputation avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.487789
+  - MAE Relative: 0.110482
+  - Left Miss (rel): 0.004584
+  - Right Miss (rel): 0.001310
+  - X Cutoff: N/A
+  - GT Points: 61
+  - Extracted Points: 13
+  - Points Ratio: 0.21
+--------------------------------------------------
+
+[16:57:30.109] === SERIES_COMPARISON ===
+Comparaison intercept-complete case vs intercept-complete case avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.371518
+  - MAE Relative: 0.084147
+  - Left Miss (rel): 0.000327
+  - Right Miss (rel): -0.003274
+  - X Cutoff: N/A
+  - GT Points: 86
+  - Extracted Points: 13
+  - Points Ratio: 0.15
+--------------------------------------------------
+
+[16:57:30.779] === SERIES_COMPARISON ===
+Comparaison slope-imputation vs slope-imputation avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.309445
+  - MAE Relative: 0.070088
+  - Left Miss (rel): 0.004584
+  - Right Miss (rel): 0.001310
+  - X Cutoff: N/A
+  - GT Points: 76
+  - Extracted Points: 13
+  - Points Ratio: 0.17
+--------------------------------------------------
+
+[16:57:31.515] === SERIES_COMPARISON ===
+Comparaison slope-complete case vs slope-complete case avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.278734
+  - MAE Relative: 0.063132
+  - Left Miss (rel): -0.001637
+  - Right Miss (rel): 0.000164
+  - X Cutoff: N/A
+  - GT Points: 49
+  - Extracted Points: 13
+  - Points Ratio: 0.27
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:57:31
+Total Duration: 2.87 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866528_1471-2156-4-S1-S88-3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,115 @@
+
+================================================================================
+VALIDATION LOG - PMC3608991_1471-2458-12-933-2
+================================================================================
+Timestamp: 2025-08-07 12:57:52
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3608991___1471-2458-12-933-2
+================================================================================
+
+
+
+[12:57:52.097] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:57:52.134] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:57:52.284] === DATA_LOADING ===
+Chargement des données GT depuis PMC3608991___1471-2458-12-933-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3608991___1471-2458-12-933-2.json
+  - Series Count: 2
+  - Series Names: ['WL (n=28)', 'Active (n=26)']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 6
+--------------------------------------------------
+
+[12:57:52.298] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3608991___1471-2458-12-933-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3608991___1471-2458-12-933-2\PMC3608991___1471-2458-12-933-2.json
+  - Series Count: 2
+  - Series Names: ['WL (n=28)', 'Active (n=26)']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 6
+--------------------------------------------------
+
+[12:57:52.340] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 15.0000
+  - Y Min-Max: [80.2000, 95.2000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:57:52.358] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:57:52.387] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['WL (n=28) <-> WL (n=28) (method=exact_match, score=1.000)', 'Active (n=26) <-> Active (n=26) (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:57:54.045] === SERIES_COMPARISON ===
+Comparaison WL (n=28) vs WL (n=28) avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.062157
+  - MAE Relative: 0.004144
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.400000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:57:56.402] === SERIES_COMPARISON ===
+Comparaison Active (n=26) vs Active (n=26) avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.093953
+  - MAE Relative: 0.006264
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.400000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:57:56
+Total Duration: 4.36 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3608991_1471-2458-12-933-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

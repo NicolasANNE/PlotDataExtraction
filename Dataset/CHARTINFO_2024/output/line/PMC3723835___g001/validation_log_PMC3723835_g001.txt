@@ -1,0 +1,286 @@
+
+================================================================================
+VALIDATION LOG - PMC3723835_g001
+================================================================================
+Timestamp: 2025-08-06 20:38:08
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3723835___g001
+================================================================================
+
+
+
+[20:38:08.493] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:38:08.496] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[20:38:08.556] === DATA_LOADING ===
+Chargement des données GT depuis PMC3723835___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3723835___g001.json
+  - Series Count: 4
+  - Series Names: ['Disease step 0', 'Neutral step 0', 'Disease step 4', 'Neutral step 4']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 106
+--------------------------------------------------
+
+[20:38:08.561] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3723835___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3723835___g001\PMC3723835___g001.json
+  - Series Count: 4
+  - Series Names: ['Disease step 0', 'Neutral step 0', 'Disease step 4', 'Neutral step 4']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 44
+--------------------------------------------------
+
+[20:38:08.565] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 3.7000
+  - Y Min-Max: [0.0000, 3.7000]
+  - X Range: 1.0031152647975077
+--------------------------------------------------
+
+[20:38:08.567] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[20:38:08.570] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Disease step 0 <-> Disease step 0 (method=exact_match, score=1.000)', 'Neutral step 0 <-> Neutral step 0 (method=exact_match, score=1.000)', 'Disease step 4 <-> Disease step 4 (method=exact_match, score=1.000)', 'Neutral step 4 <-> Neutral step 4 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[20:38:09.244] === SERIES_COMPARISON ===
+Comparaison Disease step 0 vs Disease step 0 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.588644
+  - MAE Relative: 0.159093
+  - Left Miss (rel): -0.002884
+  - Right Miss (rel): 0.002218
+  - X Cutoff: N/A
+  - GT Points: 36
+  - Extracted Points: 11
+  - Points Ratio: 0.31
+--------------------------------------------------
+
+[20:38:09.850] === SERIES_COMPARISON ===
+Comparaison Neutral step 0 vs Neutral step 0 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.200109
+  - MAE Relative: 0.054084
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.012422
+  - X Cutoff: N/A
+  - GT Points: 29
+  - Extracted Points: 11
+  - Points Ratio: 0.38
+--------------------------------------------------
+
+[20:38:10.530] === SERIES_COMPARISON ===
+Comparaison Disease step 4 vs Disease step 4 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.148162
+  - MAE Relative: 0.310314
+  - Left Miss (rel): -0.001553
+  - Right Miss (rel): 0.001035
+  - X Cutoff: N/A
+  - GT Points: 18
+  - Extracted Points: 11
+  - Points Ratio: 0.61
+--------------------------------------------------
+
+[20:38:11.202] === SERIES_COMPARISON ===
+Comparaison Neutral step 4 vs Neutral step 4 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.053846
+  - MAE Relative: 0.284823
+  - Left Miss (rel): -0.004658
+  - Right Miss (rel): 0.003106
+  - X Cutoff: N/A
+  - GT Points: 23
+  - Extracted Points: 11
+  - Points Ratio: 0.48
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 20:38:11
+Total Duration: 2.72 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3723835_g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3723835_g001
+================================================================================
+Timestamp: 2025-08-07 12:59:19
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3723835___g001
+================================================================================
+
+
+
+[12:59:19.156] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:59:19.160] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:59:19.221] === DATA_LOADING ===
+Chargement des données GT depuis PMC3723835___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3723835___g001.json
+  - Series Count: 4
+  - Series Names: ['Disease step 0', 'Neutral step 0', 'Disease step 4', 'Neutral step 4']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 106
+--------------------------------------------------
+
+[12:59:19.251] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3723835___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3723835___g001\PMC3723835___g001.json
+  - Series Count: 4
+  - Series Names: ['Disease step 0', 'Neutral step 0', 'Disease step 4', 'Neutral step 4']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 44
+--------------------------------------------------
+
+[12:59:19.256] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 3.7000
+  - Y Min-Max: [0.0000, 3.7000]
+  - X Range: 1.0031152647975077
+--------------------------------------------------
+
+[12:59:19.259] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:59:19.262] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Disease step 0 <-> Disease step 0 (method=exact_match, score=1.000)', 'Neutral step 0 <-> Neutral step 0 (method=exact_match, score=1.000)', 'Disease step 4 <-> Disease step 4 (method=exact_match, score=1.000)', 'Neutral step 4 <-> Neutral step 4 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:59:20.184] === SERIES_COMPARISON ===
+Comparaison Disease step 0 vs Disease step 0 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.766744
+  - MAE Relative: 0.207228
+  - Left Miss (rel): -0.002884
+  - Right Miss (rel): 0.002218
+  - X Cutoff: N/A
+  - GT Points: 36
+  - Extracted Points: 11
+  - Points Ratio: 0.31
+--------------------------------------------------
+
+[12:59:21.210] === SERIES_COMPARISON ===
+Comparaison Neutral step 0 vs Neutral step 0 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.373252
+  - MAE Relative: 0.100879
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.012422
+  - X Cutoff: N/A
+  - GT Points: 29
+  - Extracted Points: 11
+  - Points Ratio: 0.38
+--------------------------------------------------
+
+[12:59:22.487] === SERIES_COMPARISON ===
+Comparaison Disease step 4 vs Disease step 4 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.073120
+  - MAE Relative: 0.290032
+  - Left Miss (rel): -0.001553
+  - Right Miss (rel): 0.001035
+  - X Cutoff: N/A
+  - GT Points: 18
+  - Extracted Points: 11
+  - Points Ratio: 0.61
+--------------------------------------------------
+
+[12:59:24.018] === SERIES_COMPARISON ===
+Comparaison Neutral step 4 vs Neutral step 4 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.058865
+  - MAE Relative: 0.286180
+  - Left Miss (rel): -0.004658
+  - Right Miss (rel): 0.003106
+  - X Cutoff: N/A
+  - GT Points: 23
+  - Extracted Points: 11
+  - Points Ratio: 0.48
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:59:24
+Total Duration: 4.90 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3723835_g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

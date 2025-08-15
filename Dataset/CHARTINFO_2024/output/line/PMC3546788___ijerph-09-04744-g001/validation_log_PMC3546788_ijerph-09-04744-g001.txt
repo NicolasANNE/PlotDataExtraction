@@ -1,0 +1,129 @@
+
+================================================================================
+VALIDATION LOG - PMC3546788_ijerph-09-04744-g001
+================================================================================
+Timestamp: 2025-08-07 12:57:00
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3546788___ijerph-09-04744-g001
+================================================================================
+
+
+
+[12:57:00.928] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:57:00.938] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:57:01.004] === DATA_LOADING ===
+Chargement des données GT depuis PMC3546788___ijerph-09-04744-g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3546788___ijerph-09-04744-g001.json
+  - Series Count: 3
+  - Series Names: ['Solid cancer', 'Noncancer', 'Leukemia']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[12:57:01.015] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3546788___ijerph-09-04744-g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3546788___ijerph-09-04744-g001\PMC3546788___ijerph-09-04744-g001.json
+  - Series Count: 3
+  - Series Names: ['Leukemia', 'Solid cancer', 'Noncancer']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 31
+--------------------------------------------------
+
+[12:57:01.028] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 23.9608
+  - Y Min-Max: [0.1000, 24.0608]
+  - X Range: 61.88271604938268
+--------------------------------------------------
+
+[12:57:01.033] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:57:01.103] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Solid cancer <-> Solid cancer (method=exact_match, score=1.000)', 'Noncancer <-> Noncancer (method=exact_match, score=1.000)', 'Leukemia <-> Leukemia (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:57:04.088] === SERIES_COMPARISON ===
+Comparaison Solid cancer vs Solid cancer avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.310020
+  - MAE Relative: 0.054674
+  - Left Miss (rel): -0.124190
+  - Right Miss (rel): 0.030424
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 13
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:57:06.293] === SERIES_COMPARISON ===
+Comparaison Noncancer vs Noncancer avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.294931
+  - MAE Relative: 0.012309
+  - Left Miss (rel): -0.010474
+  - Right Miss (rel): 0.029426
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:57:08.504] === SERIES_COMPARISON ===
+Comparaison Leukemia vs Leukemia avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.695633
+  - MAE Relative: 0.029032
+  - Left Miss (rel): -0.033416
+  - Right Miss (rel): 0.023441
+  - X Cutoff: N/A
+  - GT Points: 18
+  - Extracted Points: 13
+  - Points Ratio: 0.72
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:57:08
+Total Duration: 7.61 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3546788_ijerph-09-04744-g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

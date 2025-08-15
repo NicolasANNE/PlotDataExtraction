@@ -1,0 +1,283 @@
+
+================================================================================
+VALIDATION LOG - PMC2744016_3
+================================================================================
+Timestamp: 2025-08-06 20:16:31
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2744016___3
+================================================================================
+
+
+
+[20:16:31.032] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:31.060] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:31.080] === DATA_LOADING ===
+Chargement des données GT depuis PMC2744016___3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2744016___3.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:31.083] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2744016___3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2744016___3\PMC2744016___3.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:31.085] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2744016_3
+================================================================================
+Timestamp: 2025-08-06 21:34:02
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2744016___3
+================================================================================
+
+
+
+[21:34:02.915] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:34:02.917] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:34:02.943] === DATA_LOADING ===
+Chargement des données GT depuis PMC2744016___3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2744016___3.json
+  - Series Count: 2
+  - Series Names: ['ATP', 'No ATP']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[21:34:02.946] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2744016___3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2744016___3\PMC2744016___3.json
+  - Series Count: 2
+  - Series Names: ['ATP', 'No ATP']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[21:34:02.948] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 48.0839
+  - Y Min-Max: [7.2902, 55.3741]
+  - X Range: 9.53968253968254
+--------------------------------------------------
+
+[21:34:02.950] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:34:02.952] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['ATP <-> ATP (method=exact_match, score=1.000)', 'No ATP <-> No ATP (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:34:03.446] === SERIES_COMPARISON ===
+Comparaison ATP vs ATP avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.136276
+  - MAE Relative: 0.044428
+  - Left Miss (rel): 0.000832
+  - Right Miss (rel): 0.003328
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:34:03.995] === SERIES_COMPARISON ===
+Comparaison No ATP vs No ATP avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.448000
+  - MAE Relative: 0.030114
+  - Left Miss (rel): -0.000832
+  - Right Miss (rel): 0.002995
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:34:03
+Total Duration: 1.09 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2744016_3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2744016_3
+================================================================================
+Timestamp: 2025-08-07 12:50:10
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2744016___3
+================================================================================
+
+
+
+[12:50:10.799] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:50:10.802] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:50:10.858] === DATA_LOADING ===
+Chargement des données GT depuis PMC2744016___3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2744016___3.json
+  - Series Count: 2
+  - Series Names: ['ATP', 'No ATP']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[12:50:10.862] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2744016___3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2744016___3\PMC2744016___3.json
+  - Series Count: 2
+  - Series Names: ['ATP', 'No ATP']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[12:50:10.865] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 48.0839
+  - Y Min-Max: [7.2902, 55.3741]
+  - X Range: 9.53968253968254
+--------------------------------------------------
+
+[12:50:10.868] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:50:10.870] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['ATP <-> ATP (method=exact_match, score=1.000)', 'No ATP <-> No ATP (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:50:11.493] === SERIES_COMPARISON ===
+Comparaison ATP vs ATP avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.136276
+  - MAE Relative: 0.044428
+  - Left Miss (rel): 0.000832
+  - Right Miss (rel): 0.003328
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:50:12.102] === SERIES_COMPARISON ===
+Comparaison No ATP vs No ATP avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.448000
+  - MAE Relative: 0.030114
+  - Left Miss (rel): -0.000832
+  - Right Miss (rel): 0.002995
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:50:12
+Total Duration: 1.31 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2744016_3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

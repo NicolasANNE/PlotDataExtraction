@@ -1,0 +1,143 @@
+
+================================================================================
+VALIDATION LOG - PMC3812171_g002
+================================================================================
+Timestamp: 2025-08-07 13:00:09
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3812171___g002
+================================================================================
+
+
+
+[13:00:09.262] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:00:09.267] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:00:09.332] === DATA_LOADING ===
+Chargement des données GT depuis PMC3812171___g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3812171___g002.json
+  - Series Count: 4
+  - Series Names: ['C07D', 'C07D academic', 'WO all', 'WO pharma']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 55
+--------------------------------------------------
+
+[13:00:09.337] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3812171___g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3812171___g002\PMC3812171___g002.json
+  - Series Count: 4
+  - Series Names: ['C07D', 'C07D academic', 'WO all', 'WO pharma']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 80
+--------------------------------------------------
+
+[13:00:09.356] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 65307.6762
+  - Y Min-Max: [4000.0000, 69307.6762]
+  - X Range: 19.220563847429503
+--------------------------------------------------
+
+[13:00:09.358] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:00:09.362] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['C07D <-> C07D (method=exact_match, score=1.000)', 'C07D academic <-> C07D academic (method=exact_match, score=1.000)', 'WO all <-> WO all (method=exact_match, score=1.000)', 'WO pharma <-> WO pharma (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:00:11.043] === SERIES_COMPARISON ===
+Comparaison C07D vs C07D avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1316.771435
+  - MAE Relative: 0.020163
+  - Left Miss (rel): -0.006557
+  - Right Miss (rel): 0.011475
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 20
+  - Points Ratio: 1.33
+--------------------------------------------------
+
+[13:00:17.746] === SERIES_COMPARISON ===
+Comparaison C07D academic vs C07D academic avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1168.563734
+  - MAE Relative: 0.017893
+  - Left Miss (rel): -0.006557
+  - Right Miss (rel): 0.006557
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 20
+  - Points Ratio: 1.43
+--------------------------------------------------
+
+[13:00:18.808] === SERIES_COMPARISON ===
+Comparaison WO all vs WO all avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 771.488756
+  - MAE Relative: 0.011813
+  - Left Miss (rel): -0.008197
+  - Right Miss (rel): -0.001639
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 20
+  - Points Ratio: 1.54
+--------------------------------------------------
+
+[13:00:19.700] === SERIES_COMPARISON ===
+Comparaison WO pharma vs WO pharma avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1073.264086
+  - MAE Relative: 0.016434
+  - Left Miss (rel): -0.003279
+  - Right Miss (rel): 0.009836
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 20
+  - Points Ratio: 1.54
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:00:19
+Total Duration: 10.47 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3812171_g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,202 @@
+
+================================================================================
+VALIDATION LOG - PMC2565692_pgen.1000166.g002
+================================================================================
+Timestamp: 2025-08-07 13:15:34
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_box\PMC2565692___pgen.1000166.g002
+================================================================================
+
+
+
+[13:15:34.531] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:15:34.535] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: boxplot -> vertical_box
+
+Data:
+  - Original Type: boxplot
+  - Enum Type: vertical_box
+  - Final Type: boxplot
+  - Loader Used: BoxPlotDataLoader
+--------------------------------------------------
+
+[13:15:34.609] === DATA_LOADING ===
+Chargement des données GT depuis PMC2565692___pgen.1000166.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_box\PMC2565692___pgen.1000166.g002.json
+  - Series Count: 1
+  - Series Names: ['[unnamed data series #0]']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 3
+--------------------------------------------------
+
+[13:15:34.613] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2565692___pgen.1000166.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_box\PMC2565692___pgen.1000166.g002\PMC2565692___pgen.1000166.g002.json
+  - Series Count: 1
+  - Series Names: ['Reconstructed BoxPlot Series']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 3
+--------------------------------------------------
+
+[13:15:34.656] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 72.2500
+  - Y Min-Max: [68.0000, 140.2500]
+  - X Range: nan
+--------------------------------------------------
+
+[13:15:34.661] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:15:34.668] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['[unnamed data series #0] <-> Reconstructed BoxPlot Series (method=fuzzy_match, score=0.400)']
+--------------------------------------------------
+
+[13:15:35.618] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs Reconstructed BoxPlot Series avec BoxPlotComparator
+
+Data:
+  - MAE Absolute: 1.750000
+  - MAE Relative: 0.024221
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:15:35
+Total Duration: 1.09 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2565692_pgen.1000166.g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2565692_pgen.1000166.g002
+================================================================================
+Timestamp: 2025-08-07 17:08:07
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_box\PMC2565692___pgen.1000166.g002
+================================================================================
+
+
+
+[17:08:07.609] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:08:07.612] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: boxplot -> vertical_box
+
+Data:
+  - Original Type: boxplot
+  - Enum Type: vertical_box
+  - Final Type: boxplot
+  - Loader Used: BoxPlotDataLoader
+--------------------------------------------------
+
+[17:08:07.648] === DATA_LOADING ===
+Chargement des données GT depuis PMC2565692___pgen.1000166.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_box\PMC2565692___pgen.1000166.g002.json
+  - Series Count: 1
+  - Series Names: ['[unnamed data series #0]']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 3
+--------------------------------------------------
+
+[17:08:07.651] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2565692___pgen.1000166.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_box\PMC2565692___pgen.1000166.g002\PMC2565692___pgen.1000166.g002.json
+  - Series Count: 1
+  - Series Names: ['genotype']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 3
+--------------------------------------------------
+
+[17:08:07.653] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 72.2500
+  - Y Min-Max: [68.0000, 140.2500]
+  - X Range: nan
+--------------------------------------------------
+
+[17:08:07.655] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:08:07.660] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['[unnamed data series #0] <-> genotype (method=similarity_match, score=0.992)']
+--------------------------------------------------
+
+[17:08:08.524] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs genotype avec BoxPlotComparator
+
+Data:
+  - MAE Absolute: 1.633333
+  - MAE Relative: 0.022607
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:08:08
+Total Duration: 0.93 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2565692_pgen.1000166.g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

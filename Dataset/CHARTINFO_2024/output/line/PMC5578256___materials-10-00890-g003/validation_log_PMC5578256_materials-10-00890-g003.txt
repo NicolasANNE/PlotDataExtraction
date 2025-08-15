@@ -1,0 +1,129 @@
+
+================================================================================
+VALIDATION LOG - PMC5578256_materials-10-00890-g003
+================================================================================
+Timestamp: 2025-08-06 18:27:59
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC5578256___materials-10-00890-g003
+================================================================================
+
+
+
+[18:27:59.385] === VALIDATION_START ===
+Début de la validation pour l'image PMC5578256___materials-10-00890-g003
+--------------------------------------------------
+
+[18:27:59.507] === DATA_LOADING ===
+Chargement des données Ground Truth depuis PMC5578256___materials-10-00890-g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC5578256___materials-10-00890-g003.json
+  - Series Count: 3
+  - Series Names: ['CEM I SR', 'SF5', 'SF10']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 73
+--------------------------------------------------
+
+[18:27:59.509] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC5578256___materials-10-00890-g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC5578256___materials-10-00890-g003\PMC5578256___materials-10-00890-g003.json
+  - Series Count: 3
+  - Series Names: ['CEM I SR', 'SF5', 'SF10']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 90
+--------------------------------------------------
+
+[18:27:59.516] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line
+  - Extractor Plot Type: line plot
+  - Final Plot Type: line
+  - Categorical X Detected: False
+  - Comparator Used: Standard comparator
+--------------------------------------------------
+
+[18:27:59.520] === BOUNDS_CALCULATION ===
+Bornes global calculées pour normalisation MAE relative
+
+Data:
+  - X Range: 600.0000
+  - Y Range: 2.2225
+  - X Min-Max: [2.006688963210702, 602.0066889632108]
+  - Y Min-Max: [0.0200, 2.2425]
+--------------------------------------------------
+
+[18:27:59.523] === SERIES_MATCHING ===
+Appariement des séries utilisant: Exact -> Fuzzy -> Similarity
+
+Data:
+  - GT Series: 3 séries: ['CEM I SR', 'SF5', 'SF10']
+  - Extracted Series: 3 séries: ['CEM I SR', 'SF5', 'SF10']
+  - Matches Found: 3 appariements
+  - Match Details: ['CEM I SR <-> CEM I SR (method=exact_match, score=1.000)', 'SF5 <-> SF5 (method=exact_match, score=1.000)', 'SF10 <-> SF10 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[18:28:00.236] === SERIES_COMPARISON ===
+Comparaison CEM I SR vs CEM I SR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.032348
+  - MAE Relative: 0.014555
+  - Left Miss (rel): 0.013322
+  - Right Miss (rel): 0.018339
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 30
+  - Points Ratio: 1.36
+--------------------------------------------------
+
+[18:28:00.788] === SERIES_COMPARISON ===
+Comparaison SF5 vs SF5 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.080391
+  - MAE Relative: 0.036172
+  - Left Miss (rel): 0.004961
+  - Right Miss (rel): 0.019454
+  - X Cutoff: N/A
+  - GT Points: 25
+  - Extracted Points: 30
+  - Points Ratio: 1.20
+--------------------------------------------------
+
+[18:28:01.364] === SERIES_COMPARISON ===
+Comparaison SF10 vs SF10 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.079898
+  - MAE Relative: 0.035950
+  - Left Miss (rel): 0.006633
+  - Right Miss (rel): 0.020011
+  - X Cutoff: N/A
+  - GT Points: 26
+  - Extracted Points: 30
+  - Points Ratio: 1.15
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 18:28:01
+Total Duration: 1.99 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0% if total_results > 0 else "N/A"
+
+Generated Files:
+- Validation Log: validation_log_PMC5578256_materials-10-00890-g003.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

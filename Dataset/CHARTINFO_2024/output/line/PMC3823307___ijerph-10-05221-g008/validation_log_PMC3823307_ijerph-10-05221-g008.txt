@@ -1,0 +1,157 @@
+
+================================================================================
+VALIDATION LOG - PMC3823307_ijerph-10-05221-g008
+================================================================================
+Timestamp: 2025-08-07 13:00:28
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3823307___ijerph-10-05221-g008
+================================================================================
+
+
+
+[13:00:28.934] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:00:28.938] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:00:28.981] === DATA_LOADING ===
+Chargement des données GT depuis PMC3823307___ijerph-10-05221-g008.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3823307___ijerph-10-05221-g008.json
+  - Series Count: 5
+  - Series Names: ['Salm', 'AgAI ext', 'AgGer', 'AgML', 'AgEuc']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 59
+--------------------------------------------------
+
+[13:00:28.990] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3823307___ijerph-10-05221-g008.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3823307___ijerph-10-05221-g008\PMC3823307___ijerph-10-05221-g008.json
+  - Series Count: 5
+  - Series Names: ['Salm', 'AgAl ext', 'AgGer', 'AgML', 'AgEuc']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 50
+--------------------------------------------------
+
+[13:00:28.996] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.4143
+  - Y Min-Max: [0.1400, 0.5543]
+  - X Range: 1772.983114446529
+--------------------------------------------------
+
+[13:00:28.998] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:00:29.002] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['Salm <-> Salm (method=exact_match, score=1.000)', 'AgGer <-> AgGer (method=exact_match, score=1.000)', 'AgML <-> AgML (method=exact_match, score=1.000)', 'AgEuc <-> AgEuc (method=exact_match, score=1.000)', 'AgAI ext <-> AgAl ext (method=fuzzy_match, score=0.850)']
+--------------------------------------------------
+
+[13:00:30.732] === SERIES_COMPARISON ===
+Comparaison Salm vs Salm avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.008046
+  - MAE Relative: 0.019421
+  - Left Miss (rel): 0.001158
+  - Right Miss (rel): 0.005926
+  - X Cutoff: N/A
+  - GT Points: 18
+  - Extracted Points: 10
+  - Points Ratio: 0.56
+--------------------------------------------------
+
+[13:00:32.653] === SERIES_COMPARISON ===
+Comparaison AgGer vs AgGer avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.002835
+  - MAE Relative: 0.006844
+  - Left Miss (rel): 0.003510
+  - Right Miss (rel): 0.007690
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 10
+  - Points Ratio: 1.25
+--------------------------------------------------
+
+[13:00:34.266] === SERIES_COMPARISON ===
+Comparaison AgML vs AgML avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.005994
+  - MAE Relative: 0.014469
+  - Left Miss (rel): -0.000018
+  - Right Miss (rel): -0.001129
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 10
+  - Points Ratio: 0.91
+--------------------------------------------------
+
+[13:00:35.251] === SERIES_COMPARISON ===
+Comparaison AgEuc vs AgEuc avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.008086
+  - MAE Relative: 0.019518
+  - Left Miss (rel): 0.001746
+  - Right Miss (rel): 0.004162
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 10
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:00:36.197] === SERIES_COMPARISON ===
+Comparaison AgAI ext vs AgAl ext avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.007990
+  - MAE Relative: 0.019286
+  - Left Miss (rel): 0.005273
+  - Right Miss (rel): 0.004162
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 10
+  - Points Ratio: 0.83
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:00:36
+Total Duration: 7.27 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3823307_ijerph-10-05221-g008.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

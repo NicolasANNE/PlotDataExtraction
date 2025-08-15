@@ -1,0 +1,157 @@
+
+================================================================================
+VALIDATION LOG - PMC4997432_ijerph-13-00746-g004
+================================================================================
+Timestamp: 2025-08-06 20:41:54
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC4997432___ijerph-13-00746-g004
+================================================================================
+
+
+
+[20:41:54.419] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:41:54.422] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[20:41:54.485] === DATA_LOADING ===
+Chargement des données GT depuis PMC4997432___ijerph-13-00746-g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\horizontal_bar\PMC4997432___ijerph-13-00746-g004.json
+  - Series Count: 5
+  - Series Names: ['Totally disagree', 'Partly disagree', 'Neither', 'Partly agree', 'Totally agree']
+  - X Data Types: {'categorical': 5}
+  - Total Data Points: 45
+--------------------------------------------------
+
+[20:41:54.488] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC4997432___ijerph-13-00746-g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC4997432___ijerph-13-00746-g004\PMC4997432___ijerph-13-00746-g004.json
+  - Series Count: 5
+  - Series Names: ['Totally disagree', 'Partly disagree', 'Neither', 'Partly agree', 'Totally agree']
+  - X Data Types: {'categorical': 5}
+  - Total Data Points: 45
+--------------------------------------------------
+
+[20:41:54.491] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 52.0000
+  - Y Min-Max: [0.0000, 52.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[20:41:54.493] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[20:41:54.495] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['Totally disagree <-> Totally disagree (method=exact_match, score=1.000)', 'Partly disagree <-> Partly disagree (method=exact_match, score=1.000)', 'Neither <-> Neither (method=exact_match, score=1.000)', 'Partly agree <-> Partly agree (method=exact_match, score=1.000)', 'Totally agree <-> Totally agree (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[20:41:55.504] === SERIES_COMPARISON ===
+Comparaison Totally disagree vs Totally disagree avec BarComparator
+
+Data:
+  - MAE Absolute: 15.954097
+  - MAE Relative: 0.306810
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.995556
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[20:41:56.521] === SERIES_COMPARISON ===
+Comparaison Partly disagree vs Partly disagree avec BarComparator
+
+Data:
+  - MAE Absolute: 11.785357
+  - MAE Relative: 0.226641
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.995556
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[20:41:57.456] === SERIES_COMPARISON ===
+Comparaison Neither vs Neither avec BarComparator
+
+Data:
+  - MAE Absolute: 20.026455
+  - MAE Relative: 0.385124
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.995556
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[20:41:58.401] === SERIES_COMPARISON ===
+Comparaison Partly agree vs Partly agree avec BarComparator
+
+Data:
+  - MAE Absolute: 19.170528
+  - MAE Relative: 0.368664
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.995556
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[20:41:59.357] === SERIES_COMPARISON ===
+Comparaison Totally agree vs Totally agree avec BarComparator
+
+Data:
+  - MAE Absolute: 32.014479
+  - MAE Relative: 0.615663
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.995556
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 20:41:59
+Total Duration: 4.94 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC4997432_ijerph-13-00746-g004.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

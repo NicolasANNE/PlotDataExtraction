@@ -1,0 +1,129 @@
+
+================================================================================
+VALIDATION LOG - PMC3441884_1471-2458-12-390-4
+================================================================================
+Timestamp: 2025-08-07 12:55:36
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3441884___1471-2458-12-390-4
+================================================================================
+
+
+
+[12:55:36.123] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:55:36.126] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:55:36.193] === DATA_LOADING ===
+Chargement des données GT depuis PMC3441884___1471-2458-12-390-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3441884___1471-2458-12-390-4.json
+  - Series Count: 6
+  - Series Names: ['Underweight-APL', 'Underweight-BPL', 'Hypertension-APL', 'Hypertension-BPL', 'Anaemia-APL', 'Anaemia-BPL']
+  - X Data Types: {'categorical': 6}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[12:55:36.198] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3441884___1471-2458-12-390-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3441884___1471-2458-12-390-4\PMC3441884___1471-2458-12-390-4.json
+  - Series Count: 6
+  - Series Names: ['Underweight-APL', 'Underweight-BPL', 'Hypertension-APL', 'Hypertension-BPL', 'Anaemia-APL', 'Anaemia-BPL']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[12:55:36.201] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 55.4597
+  - Y Min-Max: [1.5403, 57.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:55:36.204] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:55:36.206] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['Underweight-APL <-> Underweight-APL (method=exact_match, score=1.000)', 'Underweight-BPL <-> Underweight-BPL (method=exact_match, score=1.000)', 'Hypertension-APL <-> Hypertension-APL (method=exact_match, score=1.000)', 'Hypertension-BPL <-> Hypertension-BPL (method=exact_match, score=1.000)', 'Anaemia-APL <-> Anaemia-APL (method=exact_match, score=1.000)', 'Anaemia-BPL <-> Anaemia-BPL (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:55:36.214] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Underweight-APL vs Underweight-APL
+==================================================
+
+
+[12:55:36.225] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Underweight-BPL vs Underweight-BPL
+==================================================
+
+
+[12:55:36.233] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Hypertension-APL vs Hypertension-APL
+==================================================
+
+
+[12:55:36.242] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Hypertension-BPL vs Hypertension-BPL
+==================================================
+
+
+[12:55:36.262] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Anaemia-APL vs Anaemia-APL
+==================================================
+
+
+[12:55:36.274] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Anaemia-BPL vs Anaemia-BPL
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:55:36
+Total Duration: 0.16 seconds
+Total Series Processed: 6
+Successful Comparisons: 0
+Errors: 6
+Success Rate: 0.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3441884_1471-2458-12-390-4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

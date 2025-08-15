@@ -1,0 +1,342 @@
+
+================================================================================
+VALIDATION LOG - PMC3138020_ijerph-08-02181f5
+================================================================================
+Timestamp: 2025-08-06 21:36:38
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3138020___ijerph-08-02181f5
+================================================================================
+
+
+
+[21:36:38.943] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:36:38.960] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:36:39.075] === DATA_LOADING ===
+Chargement des données GT depuis PMC3138020___ijerph-08-02181f5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3138020___ijerph-08-02181f5.json
+  - Series Count: 6
+  - Series Names: ['Cell23', 'Cell53', 'Cell82', 'Cell92', 'Cell102', 'Cell372']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 205
+--------------------------------------------------
+
+[21:36:39.081] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3138020___ijerph-08-02181f5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3138020___ijerph-08-02181f5\PMC3138020___ijerph-08-02181f5.json
+  - Series Count: 6
+  - Series Names: ['Cell23', 'Cell53', 'Cell82', 'Cell92', 'Cell102', 'Cell372']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 150
+--------------------------------------------------
+
+[21:36:39.086] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 625.0000
+  - Y Min-Max: [270.0000, 895.0000]
+  - X Range: 99.22014882655982
+--------------------------------------------------
+
+[21:36:39.095] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:36:39.122] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['Cell23 <-> Cell23 (method=exact_match, score=1.000)', 'Cell53 <-> Cell53 (method=exact_match, score=1.000)', 'Cell82 <-> Cell82 (method=exact_match, score=1.000)', 'Cell92 <-> Cell92 (method=exact_match, score=1.000)', 'Cell102 <-> Cell102 (method=exact_match, score=1.000)', 'Cell372 <-> Cell372 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:36:42.913] === SERIES_COMPARISON ===
+Comparaison Cell23 vs Cell23 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 16.694752
+  - MAE Relative: 0.026712
+  - Left Miss (rel): -0.002769
+  - Right Miss (rel): 0.029907
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 25
+  - Points Ratio: 1.56
+--------------------------------------------------
+
+[21:36:46.523] === SERIES_COMPARISON ===
+Comparaison Cell53 vs Cell53 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 54.944792
+  - MAE Relative: 0.087912
+  - Left Miss (rel): 0.001661
+  - Right Miss (rel): 0.028245
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 25
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+[21:36:48.232] === SERIES_COMPARISON ===
+Comparaison Cell82 vs Cell82 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 26.427679
+  - MAE Relative: 0.042284
+  - Left Miss (rel): -0.000111
+  - Right Miss (rel): 0.030793
+  - X Cutoff: N/A
+  - GT Points: 39
+  - Extracted Points: 25
+  - Points Ratio: 0.64
+--------------------------------------------------
+
+[21:36:49.316] === SERIES_COMPARISON ===
+Comparaison Cell92 vs Cell92 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 13.024034
+  - MAE Relative: 0.020838
+  - Left Miss (rel): -0.001661
+  - Right Miss (rel): 0.027692
+  - X Cutoff: N/A
+  - GT Points: 37
+  - Extracted Points: 25
+  - Points Ratio: 0.68
+--------------------------------------------------
+
+[21:36:51.128] === SERIES_COMPARISON ===
+Comparaison Cell102 vs Cell102 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 21.319776
+  - MAE Relative: 0.034112
+  - Left Miss (rel): -0.001661
+  - Right Miss (rel): 0.028245
+  - X Cutoff: N/A
+  - GT Points: 32
+  - Extracted Points: 25
+  - Points Ratio: 0.78
+--------------------------------------------------
+
+[21:36:52.720] === SERIES_COMPARISON ===
+Comparaison Cell372 vs Cell372 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 11.376804
+  - MAE Relative: 0.018203
+  - Left Miss (rel): 0.000554
+  - Right Miss (rel): 0.029353
+  - X Cutoff: N/A
+  - GT Points: 59
+  - Extracted Points: 25
+  - Points Ratio: 0.42
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:36:52
+Total Duration: 13.80 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3138020_ijerph-08-02181f5.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3138020_ijerph-08-02181f5
+================================================================================
+Timestamp: 2025-08-07 12:52:40
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3138020___ijerph-08-02181f5
+================================================================================
+
+
+
+[12:52:40.629] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:52:40.632] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:52:40.722] === DATA_LOADING ===
+Chargement des données GT depuis PMC3138020___ijerph-08-02181f5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3138020___ijerph-08-02181f5.json
+  - Series Count: 6
+  - Series Names: ['Cell23', 'Cell53', 'Cell82', 'Cell92', 'Cell102', 'Cell372']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 205
+--------------------------------------------------
+
+[12:52:40.728] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3138020___ijerph-08-02181f5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3138020___ijerph-08-02181f5\PMC3138020___ijerph-08-02181f5.json
+  - Series Count: 6
+  - Series Names: ['Cell23', 'Cell53', 'Cell82', 'Cell92', 'Cell102', 'Cell372']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 150
+--------------------------------------------------
+
+[12:52:40.732] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 620.0000
+  - Y Min-Max: [270.0000, 890.0000]
+  - X Range: 99.22014882655982
+--------------------------------------------------
+
+[12:52:40.739] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:52:40.744] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['Cell23 <-> Cell23 (method=exact_match, score=1.000)', 'Cell53 <-> Cell53 (method=exact_match, score=1.000)', 'Cell82 <-> Cell82 (method=exact_match, score=1.000)', 'Cell92 <-> Cell92 (method=exact_match, score=1.000)', 'Cell102 <-> Cell102 (method=exact_match, score=1.000)', 'Cell372 <-> Cell372 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:52:42.427] === SERIES_COMPARISON ===
+Comparaison Cell23 vs Cell23 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.421141
+  - MAE Relative: 0.005518
+  - Left Miss (rel): -0.002769
+  - Right Miss (rel): 0.029907
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 25
+  - Points Ratio: 1.56
+--------------------------------------------------
+
+[12:52:43.876] === SERIES_COMPARISON ===
+Comparaison Cell53 vs Cell53 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 101.041879
+  - MAE Relative: 0.162971
+  - Left Miss (rel): 0.001661
+  - Right Miss (rel): 0.028245
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 25
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+[12:52:45.526] === SERIES_COMPARISON ===
+Comparaison Cell82 vs Cell82 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 19.024653
+  - MAE Relative: 0.030685
+  - Left Miss (rel): -0.000111
+  - Right Miss (rel): 0.030793
+  - X Cutoff: N/A
+  - GT Points: 39
+  - Extracted Points: 25
+  - Points Ratio: 0.64
+--------------------------------------------------
+
+[12:52:46.770] === SERIES_COMPARISON ===
+Comparaison Cell92 vs Cell92 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 12.032850
+  - MAE Relative: 0.019408
+  - Left Miss (rel): -0.001661
+  - Right Miss (rel): 0.027692
+  - X Cutoff: N/A
+  - GT Points: 37
+  - Extracted Points: 25
+  - Points Ratio: 0.68
+--------------------------------------------------
+
+[12:52:47.726] === SERIES_COMPARISON ===
+Comparaison Cell102 vs Cell102 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 14.535097
+  - MAE Relative: 0.023444
+  - Left Miss (rel): -0.001661
+  - Right Miss (rel): 0.028245
+  - X Cutoff: N/A
+  - GT Points: 32
+  - Extracted Points: 25
+  - Points Ratio: 0.78
+--------------------------------------------------
+
+[12:52:48.480] === SERIES_COMPARISON ===
+Comparaison Cell372 vs Cell372 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 13.775566
+  - MAE Relative: 0.022219
+  - Left Miss (rel): 0.000554
+  - Right Miss (rel): 0.029353
+  - X Cutoff: N/A
+  - GT Points: 59
+  - Extracted Points: 25
+  - Points Ratio: 0.42
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:52:48
+Total Duration: 7.87 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3138020_ijerph-08-02181f5.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

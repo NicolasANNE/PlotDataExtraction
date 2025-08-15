@@ -1,0 +1,698 @@
+
+================================================================================
+VALIDATION LOG - PMC2265478_pgen.1000020.g005
+================================================================================
+Timestamp: 2025-08-06 20:15:53
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2265478___pgen.1000020.g005
+================================================================================
+
+
+
+[20:15:53.531] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:53.570] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:53.578] === DATA_LOADING ===
+Chargement des données GT depuis PMC2265478___pgen.1000020.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2265478___pgen.1000020.g005.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:53.580] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2265478___pgen.1000020.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2265478___pgen.1000020.g005\PMC2265478___pgen.1000020.g005.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:53.582] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2265478_pgen.1000020.g005
+================================================================================
+Timestamp: 2025-08-06 21:32:18
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2265478___pgen.1000020.g005
+================================================================================
+
+
+
+[21:32:18.889] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:32:18.892] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:32:18.961] === DATA_LOADING ===
+Chargement des données GT depuis PMC2265478___pgen.1000020.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2265478___pgen.1000020.g005.json
+  - Series Count: 3
+  - Series Names: ['*AB wildtype', 'sentinel wildtype body', 'sentinel sinusoidal body']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[21:32:18.966] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2265478___pgen.1000020.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2265478___pgen.1000020.g005\PMC2265478___pgen.1000020.g005.json
+  - Series Count: 3
+  - Series Names: ['*AB wildtype', 'sentinel wildtype body', 'sentinel sinusoidal body']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[21:32:18.970] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 113.8776
+  - Y Min-Max: [1.1224, 115.0000]
+  - X Range: 401.93548387096774
+--------------------------------------------------
+
+[21:32:18.984] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:32:18.987] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['*AB wildtype <-> *AB wildtype (method=exact_match, score=1.000)', 'sentinel wildtype body <-> sentinel wildtype body (method=exact_match, score=1.000)', 'sentinel sinusoidal body <-> sentinel sinusoidal body (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:32:19.982] === SERIES_COMPARISON ===
+Comparaison *AB wildtype vs *AB wildtype avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.427951
+  - MAE Relative: 0.021321
+  - Left Miss (rel): -0.003210
+  - Right Miss (rel): 0.003210
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 4
+  - Points Ratio: 0.80
+--------------------------------------------------
+
+[21:32:20.868] === SERIES_COMPARISON ===
+Comparaison sentinel wildtype body vs sentinel wildtype body avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.286580
+  - MAE Relative: 0.028861
+  - Left Miss (rel): -0.004815
+  - Right Miss (rel): 0.004815
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 4
+  - Points Ratio: 0.80
+--------------------------------------------------
+
+[21:32:21.925] === SERIES_COMPARISON ===
+Comparaison sentinel sinusoidal body vs sentinel sinusoidal body avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.251776
+  - MAE Relative: 0.028555
+  - Left Miss (rel): -0.004815
+  - Right Miss (rel): 0.003210
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 4
+  - Points Ratio: 0.80
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:32:21
+Total Duration: 3.05 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2265478_pgen.1000020.g005.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2265478_pgen.1000020.g005
+================================================================================
+Timestamp: 2025-08-07 12:48:24
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2265478___pgen.1000020.g005
+================================================================================
+
+
+
+[12:48:24.330] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:48:24.334] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:48:24.395] === DATA_LOADING ===
+Chargement des données GT depuis PMC2265478___pgen.1000020.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2265478___pgen.1000020.g005.json
+  - Series Count: 3
+  - Series Names: ['*AB wildtype', 'sentinel wildtype body', 'sentinel sinusoidal body']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[12:48:24.399] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2265478___pgen.1000020.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2265478___pgen.1000020.g005\PMC2265478___pgen.1000020.g005.json
+  - Series Count: 3
+  - Series Names: ['*AB wildtype', 'sentinel wildtype body', 'sentinel sinusoidal body']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[12:48:24.403] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 113.8776
+  - Y Min-Max: [1.1224, 115.0000]
+  - X Range: 401.93548387096774
+--------------------------------------------------
+
+[12:48:24.405] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:48:24.407] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['*AB wildtype <-> *AB wildtype (method=exact_match, score=1.000)', 'sentinel wildtype body <-> sentinel wildtype body (method=exact_match, score=1.000)', 'sentinel sinusoidal body <-> sentinel sinusoidal body (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:48:25.109] === SERIES_COMPARISON ===
+Comparaison *AB wildtype vs *AB wildtype avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.427951
+  - MAE Relative: 0.021321
+  - Left Miss (rel): -0.003210
+  - Right Miss (rel): 0.003210
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 4
+  - Points Ratio: 0.80
+--------------------------------------------------
+
+[12:48:26.003] === SERIES_COMPARISON ===
+Comparaison sentinel wildtype body vs sentinel wildtype body avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.538044
+  - MAE Relative: 0.031069
+  - Left Miss (rel): -0.004815
+  - Right Miss (rel): 0.004815
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 4
+  - Points Ratio: 0.80
+--------------------------------------------------
+
+[12:48:27.383] === SERIES_COMPARISON ===
+Comparaison sentinel sinusoidal body vs sentinel sinusoidal body avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.251776
+  - MAE Relative: 0.028555
+  - Left Miss (rel): -0.004815
+  - Right Miss (rel): 0.003210
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 4
+  - Points Ratio: 0.80
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:48:27
+Total Duration: 3.07 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2265478_pgen.1000020.g005.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2265478_pgen.1000020.g005
+================================================================================
+Timestamp: 2025-08-07 13:05:19
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2265478___pgen.1000020.g005
+================================================================================
+
+
+
+[13:05:19.428] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:05:19.434] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:05:19.499] === DATA_LOADING ===
+Chargement des données GT depuis PMC2265478___pgen.1000020.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2265478___pgen.1000020.g005.json
+  - Series Count: 3
+  - Series Names: ['*AB wildtype', 'sentinel wildtype body', 'sentinel sinusoidal body']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[13:05:19.503] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2265478___pgen.1000020.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2265478___pgen.1000020.g005\PMC2265478___pgen.1000020.g005.json
+  - Series Count: 3
+  - Series Names: ['*AB wildtype', 'sentinel wildtype body', 'sentinel sinusoidal body']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[13:05:19.506] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 113.8776
+  - Y Min-Max: [1.1224, 115.0000]
+  - X Range: 401.93548387096774
+--------------------------------------------------
+
+[13:05:19.511] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:05:19.516] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['*AB wildtype <-> *AB wildtype (method=exact_match, score=1.000)', 'sentinel wildtype body <-> sentinel wildtype body (method=exact_match, score=1.000)', 'sentinel sinusoidal body <-> sentinel sinusoidal body (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:05:20.236] === SERIES_COMPARISON ===
+Comparaison *AB wildtype vs *AB wildtype avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.427951
+  - MAE Relative: 0.021321
+  - Left Miss (rel): -0.003210
+  - Right Miss (rel): 0.003210
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 4
+  - Points Ratio: 0.80
+--------------------------------------------------
+
+[13:05:20.842] === SERIES_COMPARISON ===
+Comparaison sentinel wildtype body vs sentinel wildtype body avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.286580
+  - MAE Relative: 0.028861
+  - Left Miss (rel): -0.004815
+  - Right Miss (rel): 0.004815
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 4
+  - Points Ratio: 0.80
+--------------------------------------------------
+
+[13:05:21.845] === SERIES_COMPARISON ===
+Comparaison sentinel sinusoidal body vs sentinel sinusoidal body avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.251776
+  - MAE Relative: 0.028555
+  - Left Miss (rel): -0.004815
+  - Right Miss (rel): 0.003210
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 4
+  - Points Ratio: 0.80
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:05:21
+Total Duration: 2.43 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2265478_pgen.1000020.g005.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2265478_pgen.1000020.g005
+================================================================================
+Timestamp: 2025-08-07 16:38:55
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2265478___pgen.1000020.g005
+================================================================================
+
+
+
+[16:38:55.492] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:38:55.494] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:38:55.529] === DATA_LOADING ===
+Chargement des données GT depuis PMC2265478___pgen.1000020.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2265478___pgen.1000020.g005.json
+  - Series Count: 3
+  - Series Names: ['*AB wildtype', 'sentinel wildtype body', 'sentinel sinusoidal body']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[16:38:55.548] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2265478___pgen.1000020.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2265478___pgen.1000020.g005\PMC2265478___pgen.1000020.g005.json
+  - Series Count: 3
+  - Series Names: ['*AB wildtype', 'sentinel wildtype body', 'sentinel sinusoidal body']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[16:38:55.551] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 113.8776
+  - Y Min-Max: [1.1224, 115.0000]
+  - X Range: 401.93548387096774
+--------------------------------------------------
+
+[16:38:55.554] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:38:55.555] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['*AB wildtype <-> *AB wildtype (method=exact_match, score=1.000)', 'sentinel wildtype body <-> sentinel wildtype body (method=exact_match, score=1.000)', 'sentinel sinusoidal body <-> sentinel sinusoidal body (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:38:56.148] === SERIES_COMPARISON ===
+Comparaison *AB wildtype vs *AB wildtype avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.427951
+  - MAE Relative: 0.021321
+  - Left Miss (rel): -0.003210
+  - Right Miss (rel): 0.003210
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:38:56.672] === SERIES_COMPARISON ===
+Comparaison sentinel wildtype body vs sentinel wildtype body avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.992687
+  - MAE Relative: 0.026280
+  - Left Miss (rel): -0.004815
+  - Right Miss (rel): 0.004815
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:38:57.192] === SERIES_COMPARISON ===
+Comparaison sentinel sinusoidal body vs sentinel sinusoidal body avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.370686
+  - MAE Relative: 0.012036
+  - Left Miss (rel): -0.004815
+  - Right Miss (rel): 0.003210
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:38:57
+Total Duration: 1.70 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2265478_pgen.1000020.g005.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2265478_pgen.1000020.g005
+================================================================================
+Timestamp: 2025-08-07 16:58:10
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2265478___pgen.1000020.g005
+================================================================================
+
+
+
+[16:58:10.431] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:58:10.432] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:58:10.454] === DATA_LOADING ===
+Chargement des données GT depuis PMC2265478___pgen.1000020.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2265478___pgen.1000020.g005.json
+  - Series Count: 3
+  - Series Names: ['*AB wildtype', 'sentinel wildtype body', 'sentinel sinusoidal body']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[16:58:10.456] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2265478___pgen.1000020.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2265478___pgen.1000020.g005\PMC2265478___pgen.1000020.g005.json
+  - Series Count: 3
+  - Series Names: ['*AB wildtype', 'sentinel wildtype body', 'sentinel sinusoidal body']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[16:58:10.459] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 113.8776
+  - Y Min-Max: [1.1224, 115.0000]
+  - X Range: 401.93548387096774
+--------------------------------------------------
+
+[16:58:10.460] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:58:10.463] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['*AB wildtype <-> *AB wildtype (method=exact_match, score=1.000)', 'sentinel wildtype body <-> sentinel wildtype body (method=exact_match, score=1.000)', 'sentinel sinusoidal body <-> sentinel sinusoidal body (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:58:10.934] === SERIES_COMPARISON ===
+Comparaison *AB wildtype vs *AB wildtype avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.427951
+  - MAE Relative: 0.021321
+  - Left Miss (rel): -0.003210
+  - Right Miss (rel): 0.003210
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:58:11.547] === SERIES_COMPARISON ===
+Comparaison sentinel wildtype body vs sentinel wildtype body avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.992687
+  - MAE Relative: 0.026280
+  - Left Miss (rel): -0.004815
+  - Right Miss (rel): 0.004815
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:58:12.468] === SERIES_COMPARISON ===
+Comparaison sentinel sinusoidal body vs sentinel sinusoidal body avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.370686
+  - MAE Relative: 0.012036
+  - Left Miss (rel): -0.004815
+  - Right Miss (rel): 0.003210
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:58:12
+Total Duration: 2.06 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2265478_pgen.1000020.g005.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

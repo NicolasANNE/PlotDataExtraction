@@ -1,0 +1,202 @@
+
+================================================================================
+VALIDATION LOG - PMC3293872_g003
+================================================================================
+Timestamp: 2025-08-07 13:17:00
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_box\PMC3293872___g003
+================================================================================
+
+
+
+[13:17:00.439] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:17:00.441] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: boxplot -> vertical_box
+
+Data:
+  - Original Type: boxplot
+  - Enum Type: vertical_box
+  - Final Type: boxplot
+  - Loader Used: BoxPlotDataLoader
+--------------------------------------------------
+
+[13:17:00.501] === DATA_LOADING ===
+Chargement des données GT depuis PMC3293872___g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_box\PMC3293872___g003.json
+  - Series Count: 1
+  - Series Names: ['[unnamed data series #0]']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[13:17:00.505] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3293872___g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_box\PMC3293872___g003\PMC3293872___g003.json
+  - Series Count: 1
+  - Series Names: ['HBsAg/HBV DNA ratio']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[13:17:00.508] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 2.0519
+  - Y Min-Max: [0.4994, 2.5514]
+  - X Range: nan
+--------------------------------------------------
+
+[13:17:00.532] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:17:00.536] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['[unnamed data series #0] <-> HBsAg/HBV DNA ratio (method=similarity_match, score=0.998)']
+--------------------------------------------------
+
+[13:17:01.696] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs HBsAg/HBV DNA ratio avec BoxPlotComparator
+
+Data:
+  - MAE Absolute: 0.019086
+  - MAE Relative: 0.009301
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:17:01
+Total Duration: 1.37 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3293872_g003.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3293872_g003
+================================================================================
+Timestamp: 2025-08-07 17:09:35
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_box\PMC3293872___g003
+================================================================================
+
+
+
+[17:09:35.370] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:09:35.372] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: boxplot -> vertical_box
+
+Data:
+  - Original Type: boxplot
+  - Enum Type: vertical_box
+  - Final Type: boxplot
+  - Loader Used: BoxPlotDataLoader
+--------------------------------------------------
+
+[17:09:35.409] === DATA_LOADING ===
+Chargement des données GT depuis PMC3293872___g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_box\PMC3293872___g003.json
+  - Series Count: 1
+  - Series Names: ['[unnamed data series #0]']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[17:09:35.415] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3293872___g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_box\PMC3293872___g003\PMC3293872___g003.json
+  - Series Count: 1
+  - Series Names: ['HBsAg/HBV DNA ratio']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[17:09:35.418] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 2.0519
+  - Y Min-Max: [0.4994, 2.5514]
+  - X Range: nan
+--------------------------------------------------
+
+[17:09:35.421] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:09:35.424] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['[unnamed data series #0] <-> HBsAg/HBV DNA ratio (method=similarity_match, score=0.998)']
+--------------------------------------------------
+
+[17:09:36.362] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs HBsAg/HBV DNA ratio avec BoxPlotComparator
+
+Data:
+  - MAE Absolute: 0.019086
+  - MAE Relative: 0.009301
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:09:36
+Total Duration: 1.01 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3293872_g003.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

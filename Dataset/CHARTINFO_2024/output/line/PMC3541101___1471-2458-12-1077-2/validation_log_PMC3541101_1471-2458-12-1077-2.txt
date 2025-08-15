@@ -1,0 +1,269 @@
+
+================================================================================
+VALIDATION LOG - PMC3541101_1471-2458-12-1077-2
+================================================================================
+Timestamp: 2025-08-07 12:56:33
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3541101___1471-2458-12-1077-2
+================================================================================
+
+
+
+[12:56:33.585] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:56:33.589] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:56:33.659] === DATA_LOADING ===
+Chargement des données GT depuis PMC3541101___1471-2458-12-1077-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3541101___1471-2458-12-1077-2.json
+  - Series Count: 13
+  - Series Names: ['+12', '+11', '+10', '+9', '+8', '+7', '+6', '+5', '+4', '+3', '+2', '+1', 'Total']
+  - X Data Types: {'numeric': 13}
+  - Total Data Points: 107
+--------------------------------------------------
+
+[12:56:33.662] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3541101___1471-2458-12-1077-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3541101___1471-2458-12-1077-2\PMC3541101___1471-2458-12-1077-2.json
+  - Series Count: 13
+  - Series Names: ['+12', '+11', '+10', '+9', '+8', '+7', '+6', '+5', '+4', '+3', '+2', '+1', 'Total']
+  - X Data Types: {'numeric': 13}
+  - Total Data Points: 66
+--------------------------------------------------
+
+[12:56:33.666] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 37.1928
+  - Y Min-Max: [52.9612, 90.1540]
+  - X Range: 550.0
+--------------------------------------------------
+
+[12:56:33.668] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:56:33.670] === MATCHING_RESULTS ===
+13 appariements trouvés
+
+Data:
+  - Total Matches: 13
+  - Match Details: ['+12 <-> +12 (method=exact_match, score=1.000)', '+11 <-> +11 (method=exact_match, score=1.000)', '+10 <-> +10 (method=exact_match, score=1.000)', '+9 <-> +9 (method=exact_match, score=1.000)', '+8 <-> +8 (method=exact_match, score=1.000)', '+7 <-> +7 (method=exact_match, score=1.000)', '+6 <-> +6 (method=exact_match, score=1.000)', '+5 <-> +5 (method=exact_match, score=1.000)', '+4 <-> +4 (method=exact_match, score=1.000)', '+3 <-> +3 (method=exact_match, score=1.000)', '+2 <-> +2 (method=exact_match, score=1.000)', '+1 <-> +1 (method=exact_match, score=1.000)', 'Total <-> Total (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:56:34.405] === SERIES_COMPARISON ===
+Comparaison +12 vs +12 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.352250
+  - MAE Relative: 0.063245
+  - Left Miss (rel): -0.013122
+  - Right Miss (rel): -0.011716
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 5
+  - Points Ratio: 0.62
+--------------------------------------------------
+
+[12:56:35.028] === SERIES_COMPARISON ===
+Comparaison +11 vs +11 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.557239
+  - MAE Relative: 0.068756
+  - Left Miss (rel): -0.016681
+  - Right Miss (rel): -0.011843
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 5
+  - Points Ratio: 0.83
+--------------------------------------------------
+
+[12:56:35.849] === SERIES_COMPARISON ===
+Comparaison +10 vs +10 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.329973
+  - MAE Relative: 0.035759
+  - Left Miss (rel): -0.014901
+  - Right Miss (rel): -0.012733
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:56:36.612] === SERIES_COMPARISON ===
+Comparaison +9 vs +9 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.667212
+  - MAE Relative: 0.017939
+  - Left Miss (rel): -0.012232
+  - Right Miss (rel): -0.013218
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 5
+  - Points Ratio: 0.56
+--------------------------------------------------
+
+[12:56:37.976] === SERIES_COMPARISON ===
+Comparaison +8 vs +8 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.600781
+  - MAE Relative: 0.016153
+  - Left Miss (rel): -0.013850
+  - Right Miss (rel): -0.008366
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 5
+  - Points Ratio: 0.62
+--------------------------------------------------
+
+[12:56:39.601] === SERIES_COMPARISON ===
+Comparaison +7 vs +7 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.291241
+  - MAE Relative: 0.061604
+  - Left Miss (rel): -0.014659
+  - Right Miss (rel): -0.010792
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 5
+  - Points Ratio: 0.56
+--------------------------------------------------
+
+[12:56:40.762] === SERIES_COMPARISON ===
+Comparaison +6 vs +6 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.025642
+  - MAE Relative: 0.054463
+  - Left Miss (rel): -0.014659
+  - Right Miss (rel): -0.010792
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 5
+  - Points Ratio: 0.62
+--------------------------------------------------
+
+[12:56:42.062] === SERIES_COMPARISON ===
+Comparaison +5 vs +5 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 28.443474
+  - MAE Relative: 0.764758
+  - Left Miss (rel): -0.014659
+  - Right Miss (rel): -0.013218
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 6
+  - Points Ratio: 0.86
+--------------------------------------------------
+
+[12:56:43.787] === SERIES_COMPARISON ===
+Comparaison +4 vs +4 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.995914
+  - MAE Relative: 0.053664
+  - Left Miss (rel): -0.013850
+  - Right Miss (rel): -0.012409
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 5
+  - Points Ratio: 0.56
+--------------------------------------------------
+
+[12:56:46.333] === SERIES_COMPARISON ===
+Comparaison +3 vs +3 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.825194
+  - MAE Relative: 0.075961
+  - Left Miss (rel): -0.013850
+  - Right Miss (rel): -0.011601
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 5
+  - Points Ratio: 0.50
+--------------------------------------------------
+
+[12:56:49.291] === SERIES_COMPARISON ===
+Comparaison +2 vs +2 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.156744
+  - MAE Relative: 0.084875
+  - Left Miss (rel): -0.015467
+  - Right Miss (rel): -0.010792
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 5
+  - Points Ratio: 0.56
+--------------------------------------------------
+
+[12:56:51.127] === SERIES_COMPARISON ===
+Comparaison +1 vs +1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 31.066895
+  - MAE Relative: 0.835294
+  - Left Miss (rel): -0.013041
+  - Right Miss (rel): -0.012409
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 5
+  - Points Ratio: 0.50
+--------------------------------------------------
+
+[12:56:52.179] === SERIES_COMPARISON ===
+Comparaison Total vs Total avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.912797
+  - MAE Relative: 0.024542
+  - Left Miss (rel): -0.016276
+  - Right Miss (rel): -0.010792
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 5
+  - Points Ratio: 0.56
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:56:52
+Total Duration: 18.60 seconds
+Total Series Processed: 13
+Successful Comparisons: 13
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3541101_1471-2458-12-1077-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,555 @@
+
+================================================================================
+VALIDATION LOG - PMC3194104_ijerph-08-03562f2
+================================================================================
+Timestamp: 2025-08-07 13:08:45
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC3194104___ijerph-08-03562f2
+================================================================================
+
+
+
+[13:08:45.232] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:08:45.235] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:08:45.288] === DATA_LOADING ===
+Chargement des données GT depuis PMC3194104___ijerph-08-03562f2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC3194104___ijerph-08-03562f2.json
+  - Series Count: 7
+  - Series Names: ['% FeOH2+', '% FeOH2Cl', '% FeOCO3', 'Psi(dif)', '% FeOH', '% FeOCa', '% FeOSO4']
+  - X Data Types: {'numeric': 7}
+  - Total Data Points: 53
+--------------------------------------------------
+
+[13:08:45.294] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3194104___ijerph-08-03562f2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC3194104___ijerph-08-03562f2\PMC3194104___ijerph-08-03562f2.json
+  - Series Count: 7
+  - Series Names: ['Psi(dif)', '% FeOH2+', '% FeOH', '% FeOH2Cl', '% FeOCO3', '% FeOSO4', '% FeOCa']
+  - X Data Types: {'numeric': 7}
+  - Total Data Points: 62
+--------------------------------------------------
+
+[13:08:45.300] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 161.0238
+  - Y Min-Max: [-68.0238, 93.0000]
+  - X Range: 6.019833178869323
+--------------------------------------------------
+
+[13:08:45.317] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:08:45.322] === MATCHING_RESULTS ===
+7 appariements trouvés
+
+Data:
+  - Total Matches: 7
+  - Match Details: ['% FeOH2+ <-> % FeOH2+ (method=exact_match, score=1.000)', '% FeOH2Cl <-> % FeOH2Cl (method=exact_match, score=1.000)', '% FeOCO3 <-> % FeOCO3 (method=exact_match, score=1.000)', 'Psi(dif) <-> Psi(dif) (method=exact_match, score=1.000)', '% FeOH <-> % FeOH (method=exact_match, score=1.000)', '% FeOCa <-> % FeOCa (method=exact_match, score=1.000)', '% FeOSO4 <-> % FeOSO4 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:08:46.207] === SERIES_COMPARISON ===
+Comparaison % FeOH2+ vs % FeOH2+ avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 4.724097
+  - MAE Relative: 0.029338
+  - Left Miss (rel): -0.002406
+  - Right Miss (rel): 0.082935
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:08:46.786] === SERIES_COMPARISON ===
+Comparaison % FeOH2Cl vs % FeOH2Cl avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.342705
+  - MAE Relative: 0.002128
+  - Left Miss (rel): -0.003895
+  - Right Miss (rel): -0.246868
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 7
+  - Points Ratio: 1.75
+--------------------------------------------------
+
+[13:08:47.343] === SERIES_COMPARISON ===
+Comparaison % FeOCO3 vs % FeOCO3 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 4.770416
+  - MAE Relative: 0.029626
+  - Left Miss (rel): -0.334251
+  - Right Miss (rel): 0.000195
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 13
+  - Points Ratio: 1.44
+--------------------------------------------------
+
+[13:08:48.092] === SERIES_COMPARISON ===
+Comparaison Psi(dif) vs Psi(dif) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.991015
+  - MAE Relative: 0.006154
+  - Left Miss (rel): -0.003110
+  - Right Miss (rel): 0.003295
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 13
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:08:49.137] === SERIES_COMPARISON ===
+Comparaison % FeOH vs % FeOH avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 7.838890
+  - MAE Relative: 0.048682
+  - Left Miss (rel): -0.003110
+  - Right Miss (rel): 0.085307
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:08:50.367] === SERIES_COMPARISON ===
+Comparaison % FeOCa vs % FeOCa avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.743818
+  - MAE Relative: 0.023250
+  - Left Miss (rel): -0.002016
+  - Right Miss (rel): 0.000195
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 9
+  - Points Ratio: 1.50
+--------------------------------------------------
+
+[13:08:51.775] === SERIES_COMPARISON ===
+Comparaison % FeOSO4 vs % FeOSO4 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 7.688316
+  - MAE Relative: 0.047746
+  - Left Miss (rel): 0.165436
+  - Right Miss (rel): -0.080672
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 5
+  - Points Ratio: 0.83
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:08:51
+Total Duration: 6.56 seconds
+Total Series Processed: 7
+Successful Comparisons: 7
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3194104_ijerph-08-03562f2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3194104_ijerph-08-03562f2
+================================================================================
+Timestamp: 2025-08-07 16:42:25
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC3194104___ijerph-08-03562f2
+================================================================================
+
+
+
+[16:42:25.924] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:42:25.926] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:42:25.963] === DATA_LOADING ===
+Chargement des données GT depuis PMC3194104___ijerph-08-03562f2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC3194104___ijerph-08-03562f2.json
+  - Series Count: 7
+  - Series Names: ['% FeOH2+', '% FeOH2Cl', '% FeOCO3', 'Psi(dif)', '% FeOH', '% FeOCa', '% FeOSO4']
+  - X Data Types: {'numeric': 7}
+  - Total Data Points: 53
+--------------------------------------------------
+
+[16:42:25.982] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3194104___ijerph-08-03562f2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC3194104___ijerph-08-03562f2\PMC3194104___ijerph-08-03562f2.json
+  - Series Count: 7
+  - Series Names: ['Psi(dif)', '% FeOH2+', '% FeOH2Cl', '% FeOCO3', '% FeOH', '% FeOSO4', '% FeOCa']
+  - X Data Types: {'numeric': 7}
+  - Total Data Points: 76
+--------------------------------------------------
+
+[16:42:25.986] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 162.0238
+  - Y Min-Max: [-68.0238, 94.0000]
+  - X Range: 6.019833178869323
+--------------------------------------------------
+
+[16:42:25.988] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:42:25.990] === MATCHING_RESULTS ===
+7 appariements trouvés
+
+Data:
+  - Total Matches: 7
+  - Match Details: ['% FeOH2+ <-> % FeOH2+ (method=exact_match, score=1.000)', '% FeOH2Cl <-> % FeOH2Cl (method=exact_match, score=1.000)', '% FeOCO3 <-> % FeOCO3 (method=exact_match, score=1.000)', 'Psi(dif) <-> Psi(dif) (method=exact_match, score=1.000)', '% FeOH <-> % FeOH (method=exact_match, score=1.000)', '% FeOCa <-> % FeOCa (method=exact_match, score=1.000)', '% FeOSO4 <-> % FeOSO4 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:42:26.484] === SERIES_COMPARISON ===
+Comparaison % FeOH2+ vs % FeOH2+ avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 6.592029
+  - MAE Relative: 0.040686
+  - Left Miss (rel): -0.002406
+  - Right Miss (rel): -0.000124
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 8
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+[16:42:27.047] === SERIES_COMPARISON ===
+Comparaison % FeOH2Cl vs % FeOH2Cl avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.520731
+  - MAE Relative: 0.003214
+  - Left Miss (rel): -0.003895
+  - Right Miss (rel): -0.329927
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 8
+  - Points Ratio: 2.00
+--------------------------------------------------
+
+[16:42:27.609] === SERIES_COMPARISON ===
+Comparaison % FeOCO3 vs % FeOCO3 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 6.413507
+  - MAE Relative: 0.039584
+  - Left Miss (rel): -0.334251
+  - Right Miss (rel): 0.000195
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 13
+  - Points Ratio: 1.44
+--------------------------------------------------
+
+[16:42:28.298] === SERIES_COMPARISON ===
+Comparaison Psi(dif) vs Psi(dif) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.364048
+  - MAE Relative: 0.008419
+  - Left Miss (rel): -0.003110
+  - Right Miss (rel): 0.003295
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 13
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:42:29.004] === SERIES_COMPARISON ===
+Comparaison % FeOH vs % FeOH avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 10.064113
+  - MAE Relative: 0.062115
+  - Left Miss (rel): -0.003110
+  - Right Miss (rel): 0.085307
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:42:29.540] === SERIES_COMPARISON ===
+Comparaison % FeOCa vs % FeOCa avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 12.064092
+  - MAE Relative: 0.074459
+  - Left Miss (rel): -0.334251
+  - Right Miss (rel): 0.000195
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 13
+  - Points Ratio: 2.17
+--------------------------------------------------
+
+[16:42:30.058] === SERIES_COMPARISON ===
+Comparaison % FeOSO4 vs % FeOSO4 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 22.356831
+  - MAE Relative: 0.137985
+  - Left Miss (rel): -0.000682
+  - Right Miss (rel): -0.579025
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 13
+  - Points Ratio: 2.17
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:42:30
+Total Duration: 4.15 seconds
+Total Series Processed: 7
+Successful Comparisons: 7
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3194104_ijerph-08-03562f2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3194104_ijerph-08-03562f2
+================================================================================
+Timestamp: 2025-08-07 17:01:38
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC3194104___ijerph-08-03562f2
+================================================================================
+
+
+
+[17:01:38.517] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:01:38.538] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[17:01:38.586] === DATA_LOADING ===
+Chargement des données GT depuis PMC3194104___ijerph-08-03562f2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC3194104___ijerph-08-03562f2.json
+  - Series Count: 7
+  - Series Names: ['% FeOH2+', '% FeOH2Cl', '% FeOCO3', 'Psi(dif)', '% FeOH', '% FeOCa', '% FeOSO4']
+  - X Data Types: {'numeric': 7}
+  - Total Data Points: 53
+--------------------------------------------------
+
+[17:01:38.589] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3194104___ijerph-08-03562f2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC3194104___ijerph-08-03562f2\PMC3194104___ijerph-08-03562f2.json
+  - Series Count: 7
+  - Series Names: ['Psi(dif)', '% FeOH2+', '% FeOH2Cl', '% FeOCO3', '% FeOH', '% FeOSO4', '% FeOCa']
+  - X Data Types: {'numeric': 7}
+  - Total Data Points: 76
+--------------------------------------------------
+
+[17:01:38.593] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 162.0238
+  - Y Min-Max: [-68.0238, 94.0000]
+  - X Range: 6.019833178869323
+--------------------------------------------------
+
+[17:01:38.595] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:01:38.598] === MATCHING_RESULTS ===
+7 appariements trouvés
+
+Data:
+  - Total Matches: 7
+  - Match Details: ['% FeOH2+ <-> % FeOH2+ (method=exact_match, score=1.000)', '% FeOH2Cl <-> % FeOH2Cl (method=exact_match, score=1.000)', '% FeOCO3 <-> % FeOCO3 (method=exact_match, score=1.000)', 'Psi(dif) <-> Psi(dif) (method=exact_match, score=1.000)', '% FeOH <-> % FeOH (method=exact_match, score=1.000)', '% FeOCa <-> % FeOCa (method=exact_match, score=1.000)', '% FeOSO4 <-> % FeOSO4 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[17:01:39.154] === SERIES_COMPARISON ===
+Comparaison % FeOH2+ vs % FeOH2+ avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 6.592029
+  - MAE Relative: 0.040686
+  - Left Miss (rel): -0.002406
+  - Right Miss (rel): -0.000124
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 8
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+[17:01:39.651] === SERIES_COMPARISON ===
+Comparaison % FeOH2Cl vs % FeOH2Cl avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.520731
+  - MAE Relative: 0.003214
+  - Left Miss (rel): -0.003895
+  - Right Miss (rel): -0.329927
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 8
+  - Points Ratio: 2.00
+--------------------------------------------------
+
+[17:01:40.192] === SERIES_COMPARISON ===
+Comparaison % FeOCO3 vs % FeOCO3 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 6.413507
+  - MAE Relative: 0.039584
+  - Left Miss (rel): -0.334251
+  - Right Miss (rel): 0.000195
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 13
+  - Points Ratio: 1.44
+--------------------------------------------------
+
+[17:01:40.780] === SERIES_COMPARISON ===
+Comparaison Psi(dif) vs Psi(dif) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.364048
+  - MAE Relative: 0.008419
+  - Left Miss (rel): -0.003110
+  - Right Miss (rel): 0.003295
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 13
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:01:41.316] === SERIES_COMPARISON ===
+Comparaison % FeOH vs % FeOH avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 10.064113
+  - MAE Relative: 0.062115
+  - Left Miss (rel): -0.003110
+  - Right Miss (rel): 0.085307
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:01:41.826] === SERIES_COMPARISON ===
+Comparaison % FeOCa vs % FeOCa avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 12.064092
+  - MAE Relative: 0.074459
+  - Left Miss (rel): -0.334251
+  - Right Miss (rel): 0.000195
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 13
+  - Points Ratio: 2.17
+--------------------------------------------------
+
+[17:01:42.335] === SERIES_COMPARISON ===
+Comparaison % FeOSO4 vs % FeOSO4 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 22.356831
+  - MAE Relative: 0.137985
+  - Left Miss (rel): -0.000682
+  - Right Miss (rel): -0.579025
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 13
+  - Points Ratio: 2.17
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:01:42
+Total Duration: 3.86 seconds
+Total Series Processed: 7
+Successful Comparisons: 7
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3194104_ijerph-08-03562f2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,115 @@
+
+================================================================================
+VALIDATION LOG - PMC3526493_1471-2458-12-1067-1
+================================================================================
+Timestamp: 2025-08-07 12:56:14
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3526493___1471-2458-12-1067-1
+================================================================================
+
+
+
+[12:56:14.790] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:56:14.792] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:56:14.871] === DATA_LOADING ===
+Chargement des données GT depuis PMC3526493___1471-2458-12-1067-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3526493___1471-2458-12-1067-1.json
+  - Series Count: 2
+  - Series Names: ['2002', '2011']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[12:56:14.874] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3526493___1471-2458-12-1067-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3526493___1471-2458-12-1067-1\PMC3526493___1471-2458-12-1067-1.json
+  - Series Count: 2
+  - Series Names: ['2002', '2011']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[12:56:14.877] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 84.0000
+  - Y Min-Max: [13.0000, 97.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:56:14.880] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:56:14.884] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['2002 <-> 2002 (method=exact_match, score=1.000)', '2011 <-> 2011 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:56:16.573] === SERIES_COMPARISON ===
+Comparaison 2002 vs 2002 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 4.502968
+  - MAE Relative: 0.053607
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.334000
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:56:18.394] === SERIES_COMPARISON ===
+Comparaison 2011 vs 2011 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 7.619793
+  - MAE Relative: 0.090712
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.334000
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:56:18
+Total Duration: 3.62 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3526493_1471-2458-12-1067-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

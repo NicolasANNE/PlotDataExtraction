@@ -1,0 +1,131 @@
+
+================================================================================
+VALIDATION LOG - PMC4881082_ijerph-13-00457-g002
+================================================================================
+Timestamp: 2025-08-06 17:29:28
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC4881082___ijerph-13-00457-g002
+================================================================================
+
+
+
+[17:29:28.786] === VALIDATION_START ===
+Début de la validation pour l'image PMC4881082___ijerph-13-00457-g002
+--------------------------------------------------
+
+[17:29:28.830] === DATA_LOADING ===
+Chargement des données Ground Truth depuis PMC4881082___ijerph-13-00457-g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC4881082___ijerph-13-00457-g002.json
+  - Series Count: 4
+  - Series Names: ['Fe/C', 'Fe/C/Al', 'Fe/C/Cu', 'Fe/C/Ni']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 161
+--------------------------------------------------
+
+[17:29:28.834] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC4881082___ijerph-13-00457-g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC4881082___ijerph-13-00457-g002\PMC4881082___ijerph-13-00457-g002.json
+  - Series Count: 4
+  - Series Names: ['Fe/C', 'Fe/C/Al', 'Fe/C/Cu', 'Fe/C/Ni']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[17:29:28.836] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line
+  - Extractor Plot Type: line plot
+  - Final Plot Type: line
+  - Categorical X Detected: False
+  - Comparator Used: Standard comparator
+--------------------------------------------------
+
+[17:29:28.840] === BOUNDS_CALCULATION ===
+Bornes global calculées pour normalisation MAE relative
+
+Data:
+  - X Range: 10.0327
+  - Y Range: 22.6139
+  - X Min-Max: [0.9887665137740668, 11.0214507402016]
+  - Y Min-Max: [19.6000, 42.2139]
+--------------------------------------------------
+
+[17:29:28.841] === SERIES_MATCHING ===
+Appariement des séries utilisant: Exact -> Fuzzy -> Similarity
+
+Data:
+  - GT Series: 4 séries: ['Fe/C', 'Fe/C/Al', 'Fe/C/Cu', 'Fe/C/Ni']
+  - Extracted Series: 4 séries: ['Fe/C', 'Fe/C/Al', 'Fe/C/Cu', 'Fe/C/Ni']
+  - Matches Found: 4 appariements
+  - Match Details: ['Fe/C <-> Fe/C (method=exact_match, score=1.000)', 'Fe/C/Al <-> Fe/C/Al (method=exact_match, score=1.000)', 'Fe/C/Cu <-> Fe/C/Cu (method=exact_match, score=1.000)', 'Fe/C/Ni <-> Fe/C/Ni (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[17:29:29.298] === SERIES_COMPARISON ===
+Comparaison Fe/C vs Fe/C avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.310387
+  - MAE Relative: 0.013725
+  - Left Miss (rel): -0.000851
+  - Right Miss (rel): -0.000490
+  - X Cutoff: N/A
+--------------------------------------------------
+
+[17:29:29.774] === SERIES_COMPARISON ===
+Comparaison Fe/C/Al vs Fe/C/Al avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.328736
+  - MAE Relative: 0.014537
+  - Left Miss (rel): -0.001508
+  - Right Miss (rel): 0.002138
+  - X Cutoff: N/A
+--------------------------------------------------
+
+[17:29:30.233] === SERIES_COMPARISON ===
+Comparaison Fe/C/Cu vs Fe/C/Cu avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.456015
+  - MAE Relative: 0.020165
+  - Left Miss (rel): 0.001120
+  - Right Miss (rel): -0.000490
+  - X Cutoff: N/A
+--------------------------------------------------
+
+[17:29:30.689] === SERIES_COMPARISON ===
+Comparaison Fe/C/Ni vs Fe/C/Ni avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.471414
+  - MAE Relative: 0.020846
+  - Left Miss (rel): -0.001508
+  - Right Miss (rel): 0.002138
+  - X Cutoff: N/A
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 17:29:30
+Total Duration: 1.91 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0% if total_results > 0 else "N/A"
+
+Generated Files:
+- Validation Log: validation_log_PMC4881082_ijerph-13-00457-g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

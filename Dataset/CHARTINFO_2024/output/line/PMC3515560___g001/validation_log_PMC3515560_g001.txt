@@ -1,0 +1,115 @@
+
+================================================================================
+VALIDATION LOG - PMC3515560_g001
+================================================================================
+Timestamp: 2025-08-07 12:56:00
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3515560___g001
+================================================================================
+
+
+
+[12:56:00.928] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:56:00.934] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:56:01.021] === DATA_LOADING ===
+Chargement des données GT depuis PMC3515560___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3515560___g001.json
+  - Series Count: 2
+  - Series Names: ['Historical group', 'Intervention group']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 23
+--------------------------------------------------
+
+[12:56:01.062] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3515560___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3515560___g001\PMC3515560___g001.json
+  - Series Count: 2
+  - Series Names: ['Historical group', 'Intervention group']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[12:56:01.068] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 14.6417
+  - Y Min-Max: [9.1753, 23.8170]
+  - X Range: 10.027473042662916
+--------------------------------------------------
+
+[12:56:01.076] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:56:01.079] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Historical group <-> Historical group (method=exact_match, score=1.000)', 'Intervention group <-> Intervention group (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:56:02.146] === SERIES_COMPARISON ===
+Comparaison Historical group vs Historical group avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.183673
+  - MAE Relative: 0.012544
+  - Left Miss (rel): -0.000821
+  - Right Miss (rel): 0.001262
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 11
+  - Points Ratio: 1.10
+--------------------------------------------------
+
+[12:56:02.798] === SERIES_COMPARISON ===
+Comparaison Intervention group vs Intervention group avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.174795
+  - MAE Relative: 0.011938
+  - Left Miss (rel): 0.001477
+  - Right Miss (rel): 0.001262
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 11
+  - Points Ratio: 0.85
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:56:02
+Total Duration: 1.89 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3515560_g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

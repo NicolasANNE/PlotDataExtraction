@@ -1,0 +1,143 @@
+
+================================================================================
+VALIDATION LOG - PMC3444443_4
+================================================================================
+Timestamp: 2025-08-07 12:55:36
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3444443___4
+================================================================================
+
+
+
+[12:55:36.641] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:55:36.644] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:55:36.682] === DATA_LOADING ===
+Chargement des données GT depuis PMC3444443___4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3444443___4.json
+  - Series Count: 4
+  - Series Names: ['control B6', 'MUC1 B6', 'control MUC1.Tg', 'MUC1 MUC1.Tg']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[12:55:36.686] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3444443___4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3444443___4\PMC3444443___4.json
+  - Series Count: 4
+  - Series Names: ['control B6', 'MUC1 B6', 'control MUC1.Tg', 'MUC1 MUC1.Tg']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 30
+--------------------------------------------------
+
+[12:55:36.689] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 101.0991
+  - Y Min-Max: [-0.8966, 100.2025]
+  - X Range: 90.19736842105264
+--------------------------------------------------
+
+[12:55:36.692] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:55:36.694] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['control B6 <-> control B6 (method=exact_match, score=1.000)', 'MUC1 B6 <-> MUC1 B6 (method=exact_match, score=1.000)', 'control MUC1.Tg <-> control MUC1.Tg (method=exact_match, score=1.000)', 'MUC1 MUC1.Tg <-> MUC1 MUC1.Tg (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:55:37.298] === SERIES_COMPARISON ===
+Comparaison control B6 vs control B6 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 10.613283
+  - MAE Relative: 0.104979
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.025706
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 7
+  - Points Ratio: 1.17
+--------------------------------------------------
+
+[12:55:37.874] === SERIES_COMPARISON ===
+Comparaison MUC1 B6 vs MUC1 B6 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.283185
+  - MAE Relative: 0.002801
+  - Left Miss (rel): 0.002188
+  - Right Miss (rel): 0.332604
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 3
+  - Points Ratio: 1.50
+--------------------------------------------------
+
+[12:55:38.665] === SERIES_COMPARISON ===
+Comparaison control MUC1.Tg vs control MUC1.Tg avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 12.241834
+  - MAE Relative: 0.121087
+  - Left Miss (rel): -0.001094
+  - Right Miss (rel): -0.245421
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 11
+  - Points Ratio: 1.38
+--------------------------------------------------
+
+[12:55:39.778] === SERIES_COMPARISON ===
+Comparaison MUC1 MUC1.Tg vs MUC1 MUC1.Tg avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 9.885380
+  - MAE Relative: 0.097779
+  - Left Miss (rel): -0.001459
+  - Right Miss (rel): 0.021039
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 9
+  - Points Ratio: 1.12
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:55:39
+Total Duration: 3.14 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3444443_4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,129 @@
+
+================================================================================
+VALIDATION LOG - PMC3543353_1471-2458-12-644-1
+================================================================================
+Timestamp: 2025-08-07 12:56:42
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3543353___1471-2458-12-644-1
+================================================================================
+
+
+
+[12:56:42.704] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:56:42.711] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:56:42.816] === DATA_LOADING ===
+Chargement des données GT depuis PMC3543353___1471-2458-12-644-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3543353___1471-2458-12-644-1.json
+  - Series Count: 3
+  - Series Names: ['total undetermined rate', 'total suicide rate', 'total unknown cause rate']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 78
+--------------------------------------------------
+
+[12:56:42.826] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3543353___1471-2458-12-644-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3543353___1471-2458-12-644-1\PMC3543353___1471-2458-12-644-1.json
+  - Series Count: 3
+  - Series Names: ['total undetermined rate', 'total suicide rate', 'total unknown cause rate']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 120
+--------------------------------------------------
+
+[12:56:42.839] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 59.8224
+  - Y Min-Max: [3.0000, 62.8224]
+  - X Range: 39.16666666666674
+--------------------------------------------------
+
+[12:56:42.851] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:56:42.858] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['total undetermined rate <-> total undetermined rate (method=exact_match, score=1.000)', 'total suicide rate <-> total suicide rate (method=exact_match, score=1.000)', 'total unknown cause rate <-> total unknown cause rate (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:56:44.685] === SERIES_COMPARISON ===
+Comparaison total undetermined rate vs total undetermined rate avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.384341
+  - MAE Relative: 0.006425
+  - Left Miss (rel): -0.001891
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 27
+  - Extracted Points: 40
+  - Points Ratio: 1.48
+--------------------------------------------------
+
+[12:56:47.823] === SERIES_COMPARISON ===
+Comparaison total suicide rate vs total suicide rate avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.452190
+  - MAE Relative: 0.007559
+  - Left Miss (rel): -0.000630
+  - Right Miss (rel): 0.004255
+  - X Cutoff: N/A
+  - GT Points: 27
+  - Extracted Points: 40
+  - Points Ratio: 1.48
+--------------------------------------------------
+
+[12:56:50.421] === SERIES_COMPARISON ===
+Comparaison total unknown cause rate vs total unknown cause rate avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 29.961846
+  - MAE Relative: 0.500847
+  - Left Miss (rel): -0.257143
+  - Right Miss (rel): 0.004255
+  - X Cutoff: N/A
+  - GT Points: 24
+  - Extracted Points: 40
+  - Points Ratio: 1.67
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:56:50
+Total Duration: 7.77 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3543353_1471-2458-12-644-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

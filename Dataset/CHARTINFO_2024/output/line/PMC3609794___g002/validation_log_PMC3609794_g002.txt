@@ -1,0 +1,157 @@
+
+================================================================================
+VALIDATION LOG - PMC3609794_g002
+================================================================================
+Timestamp: 2025-08-07 12:57:59
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3609794___g002
+================================================================================
+
+
+
+[12:57:59.723] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:57:59.728] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:57:59.888] === DATA_LOADING ===
+Chargement des données GT depuis PMC3609794___g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3609794___g002.json
+  - Series Count: 5
+  - Series Names: ['Yeast', 'Nematode', 'Fruit fly', 'Zebrafish', 'Human']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 56
+--------------------------------------------------
+
+[12:57:59.895] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3609794___g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3609794___g002\PMC3609794___g002.json
+  - Series Count: 5
+  - Series Names: ['Yeast', 'Nematode', 'Fruit fly', 'Zebrafish', 'Human']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 55
+--------------------------------------------------
+
+[12:57:59.913] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 7.3000
+  - Y Min-Max: [0.2000, 7.5000]
+  - X Range: 100.0
+--------------------------------------------------
+
+[12:57:59.934] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:57:59.966] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['Yeast <-> Yeast (method=exact_match, score=1.000)', 'Nematode <-> Nematode (method=exact_match, score=1.000)', 'Fruit fly <-> Fruit fly (method=exact_match, score=1.000)', 'Zebrafish <-> Zebrafish (method=exact_match, score=1.000)', 'Human <-> Human (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:58:01.633] === SERIES_COMPARISON ===
+Comparaison Yeast vs Yeast avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.126097
+  - MAE Relative: 0.017274
+  - Left Miss (rel): -0.003514
+  - Right Miss (rel): -0.016163
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 11
+  - Points Ratio: 1.10
+--------------------------------------------------
+
+[12:58:03.062] === SERIES_COMPARISON ===
+Comparaison Nematode vs Nematode avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.088105
+  - MAE Relative: 0.012069
+  - Left Miss (rel): -0.003514
+  - Right Miss (rel): -0.024947
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 11
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:58:04.148] === SERIES_COMPARISON ===
+Comparaison Fruit fly vs Fruit fly avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.082064
+  - MAE Relative: 0.011242
+  - Left Miss (rel): -0.005271
+  - Right Miss (rel): -0.021434
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 11
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:58:05.546] === SERIES_COMPARISON ===
+Comparaison Zebrafish vs Zebrafish avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.144235
+  - MAE Relative: 0.019758
+  - Left Miss (rel): -0.001757
+  - Right Miss (rel): -0.023190
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 11
+  - Points Ratio: 0.85
+--------------------------------------------------
+
+[12:58:07.355] === SERIES_COMPARISON ===
+Comparaison Human vs Human avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.060488
+  - MAE Relative: 0.008286
+  - Left Miss (rel): -0.003514
+  - Right Miss (rel): -0.017920
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 11
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:58:07
+Total Duration: 7.67 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3609794_g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

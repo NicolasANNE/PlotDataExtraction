@@ -1,0 +1,115 @@
+
+================================================================================
+VALIDATION LOG - PMC3718798_g004
+================================================================================
+Timestamp: 2025-08-07 12:59:15
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3718798___g004
+================================================================================
+
+
+
+[12:59:15.859] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:59:15.863] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:59:15.914] === DATA_LOADING ===
+Chargement des données GT depuis PMC3718798___g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3718798___g004.json
+  - Series Count: 2
+  - Series Names: ['Linear', 'RBF']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[12:59:15.918] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3718798___g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3718798___g004\PMC3718798___g004.json
+  - Series Count: 2
+  - Series Names: ['Linear', 'RBF']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[12:59:15.923] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.4965
+  - Y Min-Max: [0.5035, 1.0000]
+  - X Range: 0.14
+--------------------------------------------------
+
+[12:59:15.925] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:59:15.927] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Linear <-> Linear (method=exact_match, score=1.000)', 'RBF <-> RBF (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:59:16.919] === SERIES_COMPARISON ===
+Comparaison Linear vs Linear avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.002639
+  - MAE Relative: 0.005316
+  - Left Miss (rel): -0.042112
+  - Right Miss (rel): -0.009517
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 10
+  - Points Ratio: 0.83
+--------------------------------------------------
+
+[12:59:17.920] === SERIES_COMPARISON ===
+Comparaison RBF vs RBF avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.013158
+  - MAE Relative: 0.026503
+  - Left Miss (rel): -0.045481
+  - Right Miss (rel): -0.006148
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 10
+  - Points Ratio: 0.83
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:59:17
+Total Duration: 2.07 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3718798_g004.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

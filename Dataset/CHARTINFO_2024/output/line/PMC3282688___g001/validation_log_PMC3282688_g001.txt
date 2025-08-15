@@ -1,0 +1,370 @@
+
+================================================================================
+VALIDATION LOG - PMC3282688_g001
+================================================================================
+Timestamp: 2025-08-06 21:37:53
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3282688___g001
+================================================================================
+
+
+
+[21:37:53.573] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:37:53.586] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:37:53.702] === DATA_LOADING ===
+Chargement des données GT depuis PMC3282688___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3282688___g001.json
+  - Series Count: 7
+  - Series Names: ['CCDN', 'CCW', 'GGCC3', 'GGCC1', 'GGCC2', 'GGCM', 'HMC']
+  - X Data Types: {'numeric': 7}
+  - Total Data Points: 87
+--------------------------------------------------
+
+[21:37:53.706] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3282688___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3282688___g001\PMC3282688___g001.json
+  - Series Count: 7
+  - Series Names: ['CCDN', 'CCW', 'GGCC3', 'GGCC1', 'GGCC2', 'GGCM', 'HMC']
+  - X Data Types: {'numeric': 7}
+  - Total Data Points: 103
+--------------------------------------------------
+
+[21:37:53.711] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 2783.2579
+  - Y Min-Max: [9.7285, 2792.9864]
+  - X Range: 19069.9881797224
+--------------------------------------------------
+
+[21:37:53.718] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:37:53.744] === MATCHING_RESULTS ===
+7 appariements trouvés
+
+Data:
+  - Total Matches: 7
+  - Match Details: ['CCDN <-> CCDN (method=exact_match, score=1.000)', 'CCW <-> CCW (method=exact_match, score=1.000)', 'GGCC3 <-> GGCC3 (method=exact_match, score=1.000)', 'GGCC1 <-> GGCC1 (method=exact_match, score=1.000)', 'GGCC2 <-> GGCC2 (method=exact_match, score=1.000)', 'GGCM <-> GGCM (method=exact_match, score=1.000)', 'HMC <-> HMC (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:37:55.397] === SERIES_COMPARISON ===
+Comparaison CCDN vs CCDN avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 178.636730
+  - MAE Relative: 0.064183
+  - Left Miss (rel): 0.000870
+  - Right Miss (rel): -0.184339
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 16
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+[21:37:57.168] === SERIES_COMPARISON ===
+Comparaison CCW vs CCW avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 44.611246
+  - MAE Relative: 0.016028
+  - Left Miss (rel): -0.000580
+  - Right Miss (rel): -0.047330
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 15
+  - Points Ratio: 1.15
+--------------------------------------------------
+
+[21:37:58.763] === SERIES_COMPARISON ===
+Comparaison GGCC3 vs GGCC3 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 119.975351
+  - MAE Relative: 0.043106
+  - Left Miss (rel): 0.001740
+  - Right Miss (rel): 0.019166
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 15
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:37:59.976] === SERIES_COMPARISON ===
+Comparaison GGCC1 vs GGCC1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 154.982055
+  - MAE Relative: 0.055684
+  - Left Miss (rel): -0.000580
+  - Right Miss (rel): -0.022588
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 15
+  - Points Ratio: 1.07
+--------------------------------------------------
+
+[21:38:00.824] === SERIES_COMPARISON ===
+Comparaison GGCC2 vs GGCC2 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 83.035318
+  - MAE Relative: 0.029834
+  - Left Miss (rel): -0.000580
+  - Right Miss (rel): 0.071379
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 15
+  - Points Ratio: 1.36
+--------------------------------------------------
+
+[21:38:01.597] === SERIES_COMPARISON ===
+Comparaison GGCM vs GGCM avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 32.426056
+  - MAE Relative: 0.011650
+  - Left Miss (rel): 0.000580
+  - Right Miss (rel): 0.050133
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 7
+  - Points Ratio: 0.78
+--------------------------------------------------
+
+[21:38:02.423] === SERIES_COMPARISON ===
+Comparaison HMC vs HMC avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 23.584663
+  - MAE Relative: 0.008474
+  - Left Miss (rel): -0.000580
+  - Right Miss (rel): 0.001930
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 20
+  - Points Ratio: 1.82
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:38:02
+Total Duration: 8.86 seconds
+Total Series Processed: 7
+Successful Comparisons: 7
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3282688_g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3282688_g001
+================================================================================
+Timestamp: 2025-08-07 12:53:42
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3282688___g001
+================================================================================
+
+
+
+[12:53:42.413] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:53:42.415] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:53:42.466] === DATA_LOADING ===
+Chargement des données GT depuis PMC3282688___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3282688___g001.json
+  - Series Count: 7
+  - Series Names: ['CCDN', 'CCW', 'GGCC3', 'GGCC1', 'GGCC2', 'GGCM', 'HMC']
+  - X Data Types: {'numeric': 7}
+  - Total Data Points: 87
+--------------------------------------------------
+
+[12:53:42.471] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3282688___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3282688___g001\PMC3282688___g001.json
+  - Series Count: 7
+  - Series Names: ['CCDN', 'CCW', 'GGCC3', 'GGCC1', 'GGCC2', 'GGCM', 'HMC']
+  - X Data Types: {'numeric': 7}
+  - Total Data Points: 102
+--------------------------------------------------
+
+[12:53:42.475] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 2783.2579
+  - Y Min-Max: [9.7285, 2792.9864]
+  - X Range: 19069.9881797224
+--------------------------------------------------
+
+[12:53:42.481] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:53:42.486] === MATCHING_RESULTS ===
+7 appariements trouvés
+
+Data:
+  - Total Matches: 7
+  - Match Details: ['CCDN <-> CCDN (method=exact_match, score=1.000)', 'CCW <-> CCW (method=exact_match, score=1.000)', 'GGCC3 <-> GGCC3 (method=exact_match, score=1.000)', 'GGCC1 <-> GGCC1 (method=exact_match, score=1.000)', 'GGCC2 <-> GGCC2 (method=exact_match, score=1.000)', 'GGCM <-> GGCM (method=exact_match, score=1.000)', 'HMC <-> HMC (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:53:43.466] === SERIES_COMPARISON ===
+Comparaison CCDN vs CCDN avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 100.474884
+  - MAE Relative: 0.036100
+  - Left Miss (rel): 0.000870
+  - Right Miss (rel): -0.131901
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 15
+  - Points Ratio: 1.07
+--------------------------------------------------
+
+[12:53:44.342] === SERIES_COMPARISON ===
+Comparaison CCW vs CCW avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 29.123978
+  - MAE Relative: 0.010464
+  - Left Miss (rel): -0.000580
+  - Right Miss (rel): -0.047330
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 15
+  - Points Ratio: 1.15
+--------------------------------------------------
+
+[12:53:45.230] === SERIES_COMPARISON ===
+Comparaison GGCC3 vs GGCC3 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 64.648624
+  - MAE Relative: 0.023228
+  - Left Miss (rel): 0.001740
+  - Right Miss (rel): 0.019166
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 15
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:53:46.122] === SERIES_COMPARISON ===
+Comparaison GGCC1 vs GGCC1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 85.314930
+  - MAE Relative: 0.030653
+  - Left Miss (rel): -0.000580
+  - Right Miss (rel): -0.022588
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 15
+  - Points Ratio: 1.07
+--------------------------------------------------
+
+[12:53:46.837] === SERIES_COMPARISON ===
+Comparaison GGCC2 vs GGCC2 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 81.957412
+  - MAE Relative: 0.029447
+  - Left Miss (rel): -0.000580
+  - Right Miss (rel): 0.071379
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 15
+  - Points Ratio: 1.36
+--------------------------------------------------
+
+[12:53:47.433] === SERIES_COMPARISON ===
+Comparaison GGCM vs GGCM avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 11.547368
+  - MAE Relative: 0.004149
+  - Left Miss (rel): 0.000580
+  - Right Miss (rel): 0.050133
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 7
+  - Points Ratio: 0.78
+--------------------------------------------------
+
+[12:53:48.048] === SERIES_COMPARISON ===
+Comparaison HMC vs HMC avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 63.191594
+  - MAE Relative: 0.022704
+  - Left Miss (rel): -0.000580
+  - Right Miss (rel): 0.001930
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 20
+  - Points Ratio: 1.82
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:53:48
+Total Duration: 5.67 seconds
+Total Series Processed: 7
+Successful Comparisons: 7
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3282688_g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

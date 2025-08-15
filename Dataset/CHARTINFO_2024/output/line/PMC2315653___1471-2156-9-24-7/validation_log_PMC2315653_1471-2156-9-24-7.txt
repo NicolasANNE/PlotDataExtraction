@@ -1,0 +1,698 @@
+
+================================================================================
+VALIDATION LOG - PMC2315653_1471-2156-9-24-7
+================================================================================
+Timestamp: 2025-08-06 20:16:00
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2315653___1471-2156-9-24-7
+================================================================================
+
+
+
+[20:16:00.924] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:00.977] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:00.984] === DATA_LOADING ===
+Chargement des données GT depuis PMC2315653___1471-2156-9-24-7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2315653___1471-2156-9-24-7.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:00.987] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2315653___1471-2156-9-24-7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2315653___1471-2156-9-24-7\PMC2315653___1471-2156-9-24-7.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:00.989] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2315653_1471-2156-9-24-7
+================================================================================
+Timestamp: 2025-08-06 21:32:30
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2315653___1471-2156-9-24-7
+================================================================================
+
+
+
+[21:32:30.760] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:32:30.781] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:32:30.827] === DATA_LOADING ===
+Chargement des données GT depuis PMC2315653___1471-2156-9-24-7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2315653___1471-2156-9-24-7.json
+  - Series Count: 4
+  - Series Names: ['Bm-ASH1', 'Bm-ASH2', 'Bm-ASH3', 'Bm-ase']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[21:32:30.830] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2315653___1471-2156-9-24-7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2315653___1471-2156-9-24-7\PMC2315653___1471-2156-9-24-7.json
+  - Series Count: 4
+  - Series Names: ['Bm-ASH1', 'Bm-ASH2', 'Bm-ASH3', 'Bm-ase']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[21:32:30.833] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 427.6924
+  - Y Min-Max: [2.3076, 430.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[21:32:30.835] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:32:30.838] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Bm-ASH1 <-> Bm-ASH1 (method=exact_match, score=1.000)', 'Bm-ASH2 <-> Bm-ASH2 (method=exact_match, score=1.000)', 'Bm-ASH3 <-> Bm-ASH3 (method=exact_match, score=1.000)', 'Bm-ase <-> Bm-ase (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:32:32.720] === SERIES_COMPARISON ===
+Comparaison Bm-ASH1 vs Bm-ASH1 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 2.634708
+  - MAE Relative: 0.006160
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.400000
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:32:33.529] === SERIES_COMPARISON ===
+Comparaison Bm-ASH2 vs Bm-ASH2 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 8.125534
+  - MAE Relative: 0.018999
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.400000
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:32:34.480] === SERIES_COMPARISON ===
+Comparaison Bm-ASH3 vs Bm-ASH3 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 4.772900
+  - MAE Relative: 0.011160
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.400000
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:32:35.418] === SERIES_COMPARISON ===
+Comparaison Bm-ase vs Bm-ase avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 12.018629
+  - MAE Relative: 0.028101
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.400000
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:32:35
+Total Duration: 4.71 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2315653_1471-2156-9-24-7.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2315653_1471-2156-9-24-7
+================================================================================
+Timestamp: 2025-08-07 12:48:36
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2315653___1471-2156-9-24-7
+================================================================================
+
+
+
+[12:48:36.760] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:48:36.765] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:48:36.812] === DATA_LOADING ===
+Chargement des données GT depuis PMC2315653___1471-2156-9-24-7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2315653___1471-2156-9-24-7.json
+  - Series Count: 4
+  - Series Names: ['Bm-ASH1', 'Bm-ASH2', 'Bm-ASH3', 'Bm-ase']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[12:48:36.817] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2315653___1471-2156-9-24-7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2315653___1471-2156-9-24-7\PMC2315653___1471-2156-9-24-7.json
+  - Series Count: 4
+  - Series Names: ['Bm-ASH1', 'Bm-ASH2', 'Bm-ASH3', 'Bm-ase']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[12:48:36.833] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 427.6924
+  - Y Min-Max: [2.3076, 430.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:48:36.845] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:48:36.849] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Pre-Op <-> Pre-Op (method=exact_match, score=1.000)', 'Unilateral FL <-> Unilateral FL (method=exact_match, score=1.000)', 'FLxIT <-> FLxIT (method=exact_match, score=1.000)', 'FLXIT + Fx <-> FLxIT + Fx (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[12:48:36.852] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison Pre-Op vs Pre-Op
+==================================================
+
+
+[12:48:36.858] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison Unilateral FL vs Unilateral FL
+==================================================
+
+
+[12:48:36.881] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison FLxIT vs FLxIT
+==================================================
+
+
+[12:48:36.897] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison FLXIT + Fx vs FLxIT + Fx
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:48:36
+Total Duration: 0.15 seconds
+Total Series Processed: 4
+Successful Comparisons: 0
+Errors: 4
+Success Rate: 0.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2315653_1471-2156-9-24-7.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2315653_1471-2156-9-24-7
+================================================================================
+Timestamp: 2025-08-07 13:05:30
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2315653___1471-2156-9-24-7
+================================================================================
+
+
+
+[13:05:30.341] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:05:30.344] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:05:30.401] === DATA_LOADING ===
+Chargement des données GT depuis PMC2315653___1471-2156-9-24-7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2315653___1471-2156-9-24-7.json
+  - Series Count: 4
+  - Series Names: ['Bm-ASH1', 'Bm-ASH2', 'Bm-ASH3', 'Bm-ase']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[13:05:30.408] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2315653___1471-2156-9-24-7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2315653___1471-2156-9-24-7\PMC2315653___1471-2156-9-24-7.json
+  - Series Count: 4
+  - Series Names: ['Bm-ASH1', 'Bm-ASH2', 'Bm-ASH3', 'Bm-ase']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[13:05:30.412] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 427.6924
+  - Y Min-Max: [2.3076, 430.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:05:30.415] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:05:30.416] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Males <-> Males (method=exact_match, score=1.000)', 'Females <-> Females (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:05:30.419] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison Males vs Males
+==================================================
+
+
+[13:05:30.422] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison Females vs Females
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:05:30
+Total Duration: 0.10 seconds
+Total Series Processed: 2
+Successful Comparisons: 0
+Errors: 2
+Success Rate: 0.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2315653_1471-2156-9-24-7.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2315653_1471-2156-9-24-7
+================================================================================
+Timestamp: 2025-08-07 16:39:06
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2315653___1471-2156-9-24-7
+================================================================================
+
+
+
+[16:39:06.257] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:39:06.259] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:39:06.299] === DATA_LOADING ===
+Chargement des données GT depuis PMC2315653___1471-2156-9-24-7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2315653___1471-2156-9-24-7.json
+  - Series Count: 4
+  - Series Names: ['Bm-ASH1', 'Bm-ASH2', 'Bm-ASH3', 'Bm-ase']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[16:39:06.306] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2315653___1471-2156-9-24-7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2315653___1471-2156-9-24-7\PMC2315653___1471-2156-9-24-7.json
+  - Series Count: 4
+  - Series Names: ['Bm-ASH1', 'Bm-ASH2', 'Bm-ASH3', 'Bm-ase']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[16:39:06.310] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 427.6924
+  - Y Min-Max: [2.3076, 430.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:39:06.312] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:39:06.314] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Bm-ASH1 <-> Bm-ASH1 (method=exact_match, score=1.000)', 'Bm-ASH2 <-> Bm-ASH2 (method=exact_match, score=1.000)', 'Bm-ASH3 <-> Bm-ASH3 (method=exact_match, score=1.000)', 'Bm-ase <-> Bm-ase (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:39:07.539] === SERIES_COMPARISON ===
+Comparaison Bm-ASH1 vs Bm-ASH1 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 2.634708
+  - MAE Relative: 0.006160
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.400000
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:39:08.553] === SERIES_COMPARISON ===
+Comparaison Bm-ASH2 vs Bm-ASH2 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 3.681089
+  - MAE Relative: 0.008607
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.400000
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:39:10.524] === SERIES_COMPARISON ===
+Comparaison Bm-ASH3 vs Bm-ASH3 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 4.772900
+  - MAE Relative: 0.011160
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.400000
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:39:11.634] === SERIES_COMPARISON ===
+Comparaison Bm-ase vs Bm-ase avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 10.907518
+  - MAE Relative: 0.025503
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.400000
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:39:11
+Total Duration: 5.39 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2315653_1471-2156-9-24-7.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2315653_1471-2156-9-24-7
+================================================================================
+Timestamp: 2025-08-07 16:58:21
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2315653___1471-2156-9-24-7
+================================================================================
+
+
+
+[16:58:21.362] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:58:21.364] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:58:21.401] === DATA_LOADING ===
+Chargement des données GT depuis PMC2315653___1471-2156-9-24-7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2315653___1471-2156-9-24-7.json
+  - Series Count: 4
+  - Series Names: ['Bm-ASH1', 'Bm-ASH2', 'Bm-ASH3', 'Bm-ase']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[16:58:21.408] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2315653___1471-2156-9-24-7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2315653___1471-2156-9-24-7\PMC2315653___1471-2156-9-24-7.json
+  - Series Count: 4
+  - Series Names: ['Bm-ASH1', 'Bm-ASH2', 'Bm-ASH3', 'Bm-ase']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[16:58:21.428] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 427.6924
+  - Y Min-Max: [2.3076, 430.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:58:21.461] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:58:21.465] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Bm-ASH1 <-> Bm-ASH1 (method=exact_match, score=1.000)', 'Bm-ASH2 <-> Bm-ASH2 (method=exact_match, score=1.000)', 'Bm-ASH3 <-> Bm-ASH3 (method=exact_match, score=1.000)', 'Bm-ase <-> Bm-ase (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:58:23.030] === SERIES_COMPARISON ===
+Comparaison Bm-ASH1 vs Bm-ASH1 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 2.634708
+  - MAE Relative: 0.006160
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.400000
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:58:24.076] === SERIES_COMPARISON ===
+Comparaison Bm-ASH2 vs Bm-ASH2 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 3.681089
+  - MAE Relative: 0.008607
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.400000
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:58:25.214] === SERIES_COMPARISON ===
+Comparaison Bm-ASH3 vs Bm-ASH3 avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 4.772900
+  - MAE Relative: 0.011160
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.400000
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:58:26.458] === SERIES_COMPARISON ===
+Comparaison Bm-ase vs Bm-ase avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 10.907518
+  - MAE Relative: 0.025503
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.400000
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:58:26
+Total Duration: 5.12 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2315653_1471-2156-9-24-7.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

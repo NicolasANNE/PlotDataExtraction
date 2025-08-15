@@ -1,0 +1,258 @@
+
+================================================================================
+VALIDATION LOG - PMC3000337_g008
+================================================================================
+Timestamp: 2025-08-06 21:35:17
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3000337___g008
+================================================================================
+
+
+
+[21:35:17.882] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:35:17.884] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:35:17.955] === DATA_LOADING ===
+Chargement des données GT depuis PMC3000337___g008.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3000337___g008.json
+  - Series Count: 3
+  - Series Names: ['k=2', 'k=4', 'k=8']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 63
+--------------------------------------------------
+
+[21:35:17.966] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3000337___g008.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3000337___g008\PMC3000337___g008.json
+  - Series Count: 3
+  - Series Names: ['k=2', 'k=4', 'k=8']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 57
+--------------------------------------------------
+
+[21:35:18.008] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.0050
+  - Y Min-Max: [-0.0023, 1.0027]
+  - X Range: 1.0005262518722422
+--------------------------------------------------
+
+[21:35:18.037] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:35:18.050] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['k=2 <-> k=2 (method=exact_match, score=1.000)', 'k=4 <-> k=4 (method=exact_match, score=1.000)', 'k=8 <-> k=8 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:35:19.782] === SERIES_COMPARISON ===
+Comparaison k=2 vs k=2 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.013631
+  - MAE Relative: 0.013563
+  - Left Miss (rel): 0.098167
+  - Right Miss (rel): 0.000850
+  - X Cutoff: N/A
+  - GT Points: 21
+  - Extracted Points: 19
+  - Points Ratio: 0.90
+--------------------------------------------------
+
+[21:35:20.907] === SERIES_COMPARISON ===
+Comparaison k=4 vs k=4 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.058656
+  - MAE Relative: 0.058362
+  - Left Miss (rel): 0.099624
+  - Right Miss (rel): -0.000283
+  - X Cutoff: N/A
+  - GT Points: 21
+  - Extracted Points: 19
+  - Points Ratio: 0.90
+--------------------------------------------------
+
+[21:35:22.202] === SERIES_COMPARISON ===
+Comparaison k=8 vs k=8 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.045541
+  - MAE Relative: 0.045312
+  - Left Miss (rel): 0.097682
+  - Right Miss (rel): 0.000850
+  - X Cutoff: N/A
+  - GT Points: 21
+  - Extracted Points: 19
+  - Points Ratio: 0.90
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:35:22
+Total Duration: 4.34 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3000337_g008.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3000337_g008
+================================================================================
+Timestamp: 2025-08-07 12:51:24
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3000337___g008
+================================================================================
+
+
+
+[12:51:24.434] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:51:24.459] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:51:24.514] === DATA_LOADING ===
+Chargement des données GT depuis PMC3000337___g008.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3000337___g008.json
+  - Series Count: 3
+  - Series Names: ['k=2', 'k=4', 'k=8']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 63
+--------------------------------------------------
+
+[12:51:24.521] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3000337___g008.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3000337___g008\PMC3000337___g008.json
+  - Series Count: 3
+  - Series Names: ['k=2', 'k=4', 'k=8']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 57
+--------------------------------------------------
+
+[12:51:24.531] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.0050
+  - Y Min-Max: [-0.0023, 1.0027]
+  - X Range: 1.0005262518722422
+--------------------------------------------------
+
+[12:51:24.559] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:51:24.573] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['k=2 <-> k=2 (method=exact_match, score=1.000)', 'k=4 <-> k=4 (method=exact_match, score=1.000)', 'k=8 <-> k=8 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:51:27.372] === SERIES_COMPARISON ===
+Comparaison k=2 vs k=2 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.013631
+  - MAE Relative: 0.013563
+  - Left Miss (rel): 0.098167
+  - Right Miss (rel): 0.000850
+  - X Cutoff: N/A
+  - GT Points: 21
+  - Extracted Points: 19
+  - Points Ratio: 0.90
+--------------------------------------------------
+
+[12:51:30.084] === SERIES_COMPARISON ===
+Comparaison k=4 vs k=4 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.058656
+  - MAE Relative: 0.058362
+  - Left Miss (rel): 0.099624
+  - Right Miss (rel): -0.000283
+  - X Cutoff: N/A
+  - GT Points: 21
+  - Extracted Points: 19
+  - Points Ratio: 0.90
+--------------------------------------------------
+
+[12:51:31.116] === SERIES_COMPARISON ===
+Comparaison k=8 vs k=8 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.045541
+  - MAE Relative: 0.045312
+  - Left Miss (rel): 0.097682
+  - Right Miss (rel): 0.000850
+  - X Cutoff: N/A
+  - GT Points: 21
+  - Extracted Points: 19
+  - Points Ratio: 0.90
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:51:31
+Total Duration: 6.74 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3000337_g008.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

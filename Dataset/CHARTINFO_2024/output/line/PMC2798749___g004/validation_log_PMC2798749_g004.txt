@@ -1,0 +1,283 @@
+
+================================================================================
+VALIDATION LOG - PMC2798749_g004
+================================================================================
+Timestamp: 2025-08-06 20:16:33
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2798749___g004
+================================================================================
+
+
+
+[20:16:33.889] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:33.927] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:33.953] === DATA_LOADING ===
+Chargement des données GT depuis PMC2798749___g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2798749___g004.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:33.955] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2798749___g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2798749___g004\PMC2798749___g004.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:33.957] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2798749_g004
+================================================================================
+Timestamp: 2025-08-06 21:34:14
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2798749___g004
+================================================================================
+
+
+
+[21:34:14.272] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:34:14.276] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:34:14.381] === DATA_LOADING ===
+Chargement des données GT depuis PMC2798749___g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2798749___g004.json
+  - Series Count: 2
+  - Series Names: ['T. brucei specific', 'T. brucei ITS']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[21:34:14.384] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2798749___g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2798749___g004\PMC2798749___g004.json
+  - Series Count: 2
+  - Series Names: ['T. brucei specific', 'T. brucei ITS']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 52
+--------------------------------------------------
+
+[21:34:14.388] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 828.7179
+  - Y Min-Max: [6.2745, 834.9925]
+  - X Range: 0.5227777777777778
+--------------------------------------------------
+
+[21:34:14.393] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:34:14.398] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['T. brucei specific <-> T. brucei specific (method=exact_match, score=1.000)', 'T. brucei ITS <-> T. brucei ITS (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:34:15.174] === SERIES_COMPARISON ===
+Comparaison T. brucei specific vs T. brucei specific avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 43.490480
+  - MAE Relative: 0.052479
+  - Left Miss (rel): 0.000531
+  - Right Miss (rel): 0.041977
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 26
+  - Points Ratio: 2.36
+--------------------------------------------------
+
+[21:34:15.986] === SERIES_COMPARISON ===
+Comparaison T. brucei ITS vs T. brucei ITS avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 102.983986
+  - MAE Relative: 0.124269
+  - Left Miss (rel): 0.001594
+  - Right Miss (rel): 0.012221
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 26
+  - Points Ratio: 2.89
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:34:15
+Total Duration: 1.75 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2798749_g004.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2798749_g004
+================================================================================
+Timestamp: 2025-08-07 12:50:21
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2798749___g004
+================================================================================
+
+
+
+[12:50:21.305] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:50:21.309] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:50:21.407] === DATA_LOADING ===
+Chargement des données GT depuis PMC2798749___g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2798749___g004.json
+  - Series Count: 2
+  - Series Names: ['T. brucei specific', 'T. brucei ITS']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[12:50:21.436] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2798749___g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2798749___g004\PMC2798749___g004.json
+  - Series Count: 2
+  - Series Names: ['T. brucei specific', 'T. brucei ITS']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 52
+--------------------------------------------------
+
+[12:50:21.459] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 828.7179
+  - Y Min-Max: [6.2745, 834.9925]
+  - X Range: 0.5227777777777778
+--------------------------------------------------
+
+[12:50:21.462] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:50:21.466] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['T. brucei specific <-> T. brucei specific (method=exact_match, score=1.000)', 'T. brucei ITS <-> T. brucei ITS (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:50:22.664] === SERIES_COMPARISON ===
+Comparaison T. brucei specific vs T. brucei specific avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 43.490480
+  - MAE Relative: 0.052479
+  - Left Miss (rel): 0.000531
+  - Right Miss (rel): 0.041977
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 26
+  - Points Ratio: 2.36
+--------------------------------------------------
+
+[12:50:23.802] === SERIES_COMPARISON ===
+Comparaison T. brucei ITS vs T. brucei ITS avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 102.983986
+  - MAE Relative: 0.124269
+  - Left Miss (rel): 0.001594
+  - Right Miss (rel): 0.012221
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 26
+  - Points Ratio: 2.89
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:50:23
+Total Duration: 2.51 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2798749_g004.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

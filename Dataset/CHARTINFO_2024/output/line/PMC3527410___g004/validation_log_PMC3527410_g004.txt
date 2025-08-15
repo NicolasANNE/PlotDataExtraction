@@ -1,0 +1,129 @@
+
+================================================================================
+VALIDATION LOG - PMC3527410_g004
+================================================================================
+Timestamp: 2025-08-07 12:56:27
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3527410___g004
+================================================================================
+
+
+
+[12:56:27.383] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:56:27.386] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:56:27.441] === DATA_LOADING ===
+Chargement des données GT depuis PMC3527410___g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3527410___g004.json
+  - Series Count: 3
+  - Series Names: ['Number of cluster', 'Number of increased cluster', 'Trend']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 44
+--------------------------------------------------
+
+[12:56:27.445] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3527410___g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3527410___g004\PMC3527410___g004.json
+  - Series Count: 3
+  - Series Names: ['Number of cluster', 'Number of increased cluster', 'Trend']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[12:56:27.450] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 9221.7635
+  - Y Min-Max: [400.0000, 9621.7635]
+  - X Range: 371305.05709624797
+--------------------------------------------------
+
+[12:56:27.452] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:56:27.456] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Number of cluster <-> Number of cluster (method=exact_match, score=1.000)', 'Number of increased cluster <-> Number of increased cluster (method=exact_match, score=1.000)', 'Trend <-> Trend (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:56:28.307] === SERIES_COMPARISON ===
+Comparaison Number of cluster vs Number of cluster avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 315.320754
+  - MAE Relative: 0.034193
+  - Left Miss (rel): 0.003515
+  - Right Miss (rel): -0.039805
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 8
+  - Points Ratio: 0.80
+--------------------------------------------------
+
+[12:56:29.130] === SERIES_COMPARISON ===
+Comparaison Number of increased cluster vs Number of increased cluster avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 4007.260929
+  - MAE Relative: 0.434544
+  - Left Miss (rel): 0.000879
+  - Right Miss (rel): -0.042441
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 8
+  - Points Ratio: 0.53
+--------------------------------------------------
+
+[12:56:30.043] === SERIES_COMPARISON ===
+Comparaison Trend vs Trend avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 173.085600
+  - MAE Relative: 0.018769
+  - Left Miss (rel): -0.000439
+  - Right Miss (rel): -0.046395
+  - X Cutoff: N/A
+  - GT Points: 19
+  - Extracted Points: 8
+  - Points Ratio: 0.42
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:56:30
+Total Duration: 2.68 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3527410_g004.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,143 @@
+
+================================================================================
+VALIDATION LOG - PMC3779856_fgene-04-00185-g0003
+================================================================================
+Timestamp: 2025-08-07 12:59:39
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3779856___fgene-04-00185-g0003
+================================================================================
+
+
+
+[12:59:39.874] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:59:39.876] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:59:39.923] === DATA_LOADING ===
+Chargement des données GT depuis PMC3779856___fgene-04-00185-g0003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3779856___fgene-04-00185-g0003.json
+  - Series Count: 4
+  - Series Names: ['CNV1', 'CNV2', 'CNV3', 'Collapsing']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 131
+--------------------------------------------------
+
+[12:59:39.935] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3779856___fgene-04-00185-g0003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3779856___fgene-04-00185-g0003\PMC3779856___fgene-04-00185-g0003.json
+  - Series Count: 4
+  - Series Names: ['CNV1', 'CNV2', 'CNV3', 'Collapsing']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[12:59:39.939] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.7104
+  - Y Min-Max: [-0.0001, 0.7102]
+  - X Range: 8.666666666666668
+--------------------------------------------------
+
+[12:59:39.942] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:59:39.945] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['CNV1 <-> CNV1 (method=exact_match, score=1.000)', 'CNV2 <-> CNV2 (method=exact_match, score=1.000)', 'CNV3 <-> CNV3 (method=exact_match, score=1.000)', 'Collapsing <-> Collapsing (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:59:41.006] === SERIES_COMPARISON ===
+Comparaison CNV1 vs CNV1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.059183
+  - MAE Relative: 0.083314
+  - Left Miss (rel): -0.204123
+  - Right Miss (rel): -0.042333
+  - X Cutoff: N/A
+  - GT Points: 28
+  - Extracted Points: 9
+  - Points Ratio: 0.32
+--------------------------------------------------
+
+[12:59:42.168] === SERIES_COMPARISON ===
+Comparaison CNV2 vs CNV2 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.085741
+  - MAE Relative: 0.120700
+  - Left Miss (rel): 0.040221
+  - Right Miss (rel): -0.114128
+  - X Cutoff: N/A
+  - GT Points: 30
+  - Extracted Points: 9
+  - Points Ratio: 0.30
+--------------------------------------------------
+
+[12:59:43.719] === SERIES_COMPARISON ===
+Comparaison CNV3 vs CNV3 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.035529
+  - MAE Relative: 0.050016
+  - Left Miss (rel): -0.084967
+  - Right Miss (rel): 0.036702
+  - X Cutoff: N/A
+  - GT Points: 31
+  - Extracted Points: 9
+  - Points Ratio: 0.29
+--------------------------------------------------
+
+[12:59:45.768] === SERIES_COMPARISON ===
+Comparaison Collapsing vs Collapsing avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.076502
+  - MAE Relative: 0.107695
+  - Left Miss (rel): -0.268979
+  - Right Miss (rel): -0.028155
+  - X Cutoff: N/A
+  - GT Points: 42
+  - Extracted Points: 9
+  - Points Ratio: 0.21
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:59:45
+Total Duration: 5.90 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3779856_fgene-04-00185-g0003.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

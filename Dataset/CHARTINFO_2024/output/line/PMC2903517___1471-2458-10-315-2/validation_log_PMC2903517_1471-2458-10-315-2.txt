@@ -1,0 +1,339 @@
+
+================================================================================
+VALIDATION LOG - PMC2903517_1471-2458-10-315-2
+================================================================================
+Timestamp: 2025-08-06 20:16:56
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2903517___1471-2458-10-315-2
+================================================================================
+
+
+
+[20:16:56.576] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:56.616] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:56.624] === DATA_LOADING ===
+Chargement des données GT depuis PMC2903517___1471-2458-10-315-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2903517___1471-2458-10-315-2.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:56.628] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2903517___1471-2458-10-315-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2903517___1471-2458-10-315-2\PMC2903517___1471-2458-10-315-2.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:56.630] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2903517_1471-2458-10-315-2
+================================================================================
+Timestamp: 2025-08-06 21:35:00
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2903517___1471-2458-10-315-2
+================================================================================
+
+
+
+[21:35:00.961] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:35:01.000] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:35:01.048] === DATA_LOADING ===
+Chargement des données GT depuis PMC2903517___1471-2458-10-315-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2903517___1471-2458-10-315-2.json
+  - Series Count: 4
+  - Series Names: ['Asian/Pacific Islander', 'Black', 'Hispanic', 'White']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 43
+--------------------------------------------------
+
+[21:35:01.056] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2903517___1471-2458-10-315-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2903517___1471-2458-10-315-2\PMC2903517___1471-2458-10-315-2.json
+  - Series Count: 4
+  - Series Names: ['White', 'Asian/Pacific Islander', 'Black', 'Hispanic']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[21:35:01.063] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 15.9254
+  - Y Min-Max: [0.4000, 16.3254]
+  - X Range: 9.12162162162167
+--------------------------------------------------
+
+[21:35:01.069] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:35:01.072] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Asian/Pacific Islander <-> Asian/Pacific Islander (method=exact_match, score=1.000)', 'Black <-> Black (method=exact_match, score=1.000)', 'Hispanic <-> Hispanic (method=exact_match, score=1.000)', 'White <-> White (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:35:01.898] === SERIES_COMPARISON ===
+Comparaison Asian/Pacific Islander vs Asian/Pacific Islander avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.115649
+  - MAE Relative: 0.007262
+  - Left Miss (rel): 0.006667
+  - Right Miss (rel): 0.004444
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 10
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:35:03.052] === SERIES_COMPARISON ===
+Comparaison Black vs Black avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.217324
+  - MAE Relative: 0.013646
+  - Left Miss (rel): 0.002222
+  - Right Miss (rel): 0.002222
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 10
+  - Points Ratio: 0.71
+--------------------------------------------------
+
+[21:35:03.895] === SERIES_COMPARISON ===
+Comparaison Hispanic vs Hispanic avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.345663
+  - MAE Relative: 0.021705
+  - Left Miss (rel): -0.002222
+  - Right Miss (rel): 0.006667
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 10
+  - Points Ratio: 1.11
+--------------------------------------------------
+
+[21:35:05.375] === SERIES_COMPARISON ===
+Comparaison White vs White avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.190504
+  - MAE Relative: 0.011962
+  - Left Miss (rel): -0.002222
+  - Right Miss (rel): 0.004444
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 10
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:35:05
+Total Duration: 4.43 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2903517_1471-2458-10-315-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2903517_1471-2458-10-315-2
+================================================================================
+Timestamp: 2025-08-07 12:51:08
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2903517___1471-2458-10-315-2
+================================================================================
+
+
+
+[12:51:08.636] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:51:08.639] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:51:08.726] === DATA_LOADING ===
+Chargement des données GT depuis PMC2903517___1471-2458-10-315-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2903517___1471-2458-10-315-2.json
+  - Series Count: 4
+  - Series Names: ['Asian/Pacific Islander', 'Black', 'Hispanic', 'White']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 43
+--------------------------------------------------
+
+[12:51:08.730] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2903517___1471-2458-10-315-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2903517___1471-2458-10-315-2\PMC2903517___1471-2458-10-315-2.json
+  - Series Count: 4
+  - Series Names: ['White', 'Asian/Pacific Islander', 'Black', 'Hispanic']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[12:51:08.734] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 15.9254
+  - Y Min-Max: [0.4000, 16.3254]
+  - X Range: 9.12162162162167
+--------------------------------------------------
+
+[12:51:08.737] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:51:08.740] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Asian/Pacific Islander <-> Asian/Pacific Islander (method=exact_match, score=1.000)', 'Black <-> Black (method=exact_match, score=1.000)', 'Hispanic <-> Hispanic (method=exact_match, score=1.000)', 'White <-> White (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:51:09.634] === SERIES_COMPARISON ===
+Comparaison Asian/Pacific Islander vs Asian/Pacific Islander avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.105798
+  - MAE Relative: 0.006643
+  - Left Miss (rel): 0.006667
+  - Right Miss (rel): 0.004444
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 10
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:51:10.721] === SERIES_COMPARISON ===
+Comparaison Black vs Black avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.897752
+  - MAE Relative: 0.119165
+  - Left Miss (rel): 0.002222
+  - Right Miss (rel): 0.002222
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 10
+  - Points Ratio: 0.71
+--------------------------------------------------
+
+[12:51:11.728] === SERIES_COMPARISON ===
+Comparaison Hispanic vs Hispanic avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.450035
+  - MAE Relative: 0.091052
+  - Left Miss (rel): -0.002222
+  - Right Miss (rel): 0.006667
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 10
+  - Points Ratio: 1.11
+--------------------------------------------------
+
+[12:51:12.883] === SERIES_COMPARISON ===
+Comparaison White vs White avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.221958
+  - MAE Relative: 0.013937
+  - Left Miss (rel): -0.002222
+  - Right Miss (rel): 0.004444
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 10
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:51:12
+Total Duration: 4.28 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2903517_1471-2458-10-315-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

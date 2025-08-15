@@ -1,0 +1,108 @@
+
+================================================================================
+VALIDATION LOG - PMC3508974_1471-2458-12-947-1
+================================================================================
+Timestamp: 2025-08-07 12:56:00
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3508974___1471-2458-12-947-1
+================================================================================
+
+
+
+[12:56:00.763] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:56:00.765] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:56:00.900] === DATA_LOADING ===
+Chargement des données GT depuis PMC3508974___1471-2458-12-947-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3508974___1471-2458-12-947-1.json
+  - Series Count: 3
+  - Series Names: ['Incidence of self-defined influenza', '|ncidence of consultations for influenza-likeillness (Sentinel network)', 'Incidence of consultations for self defined influenza']
+  - X Data Types: {'categorical': 3}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[12:56:00.906] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3508974___1471-2458-12-947-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3508974___1471-2458-12-947-1\PMC3508974___1471-2458-12-947-1.json
+  - Series Count: 3
+  - Series Names: ['Incidence of self-defined influenza', 'Incidence of consultations for influenza-like illness (Sentinel network)', 'Incidence of consultations for self-defined influenza']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 33
+--------------------------------------------------
+
+[12:56:00.922] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 3700.0000
+  - Y Min-Max: [0.0000, 3700.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:56:00.929] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:56:00.934] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Incidence of self-defined influenza <-> Incidence of self-defined influenza (method=exact_match, score=1.000)', '|ncidence of consultations for influenza-likeillness (Sentinel network) <-> Incidence of consultations for influenza-like illness (Sentinel network) (method=fuzzy_match, score=0.950)', 'Incidence of consultations for self defined influenza <-> Incidence of consultations for self-defined influenza (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[12:56:00.969] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Incidence of self-defined influenza vs Incidence of self-defined influenza
+==================================================
+
+
+[12:56:01.018] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison |ncidence of consultations for influenza-likeillness (Sentinel network) vs Incidence of consultations for influenza-like illness (Sentinel network)
+==================================================
+
+
+[12:56:01.058] === ERROR IN SERIES_COMPARISON ===
+Error: No matched x values between GT and EX.
+Type: ValueError
+Details: Comparaison Incidence of consultations for self defined influenza vs Incidence of consultations for self-defined influenza
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:56:01
+Total Duration: 0.30 seconds
+Total Series Processed: 3
+Successful Comparisons: 0
+Errors: 3
+Success Rate: 0.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3508974_1471-2458-12-947-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

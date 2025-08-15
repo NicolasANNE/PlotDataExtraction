@@ -1,0 +1,185 @@
+
+================================================================================
+VALIDATION LOG - PMC5304691_nanomaterials-04-00700-g007
+================================================================================
+Timestamp: 2025-08-07 16:55:53
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC5304691___nanomaterials-04-00700-g007
+================================================================================
+
+
+
+[16:55:53.561] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:55:53.563] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:55:53.605] === DATA_LOADING ===
+Chargement des données GT depuis PMC5304691___nanomaterials-04-00700-g007.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC5304691___nanomaterials-04-00700-g007.json
+  - Series Count: 8
+  - Series Names: ['[unnamed data series #0]', '[unnamed data series #1]', '[unnamed data series #2]', '[unnamed data series #3]', '[unnamed data series #4]', '[unnamed data series #5]', '[unnamed data series #6]', '[unnamed data series #7]']
+  - X Data Types: {'numeric': 8}
+  - Total Data Points: 52
+--------------------------------------------------
+
+[16:55:53.608] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC5304691___nanomaterials-04-00700-g007.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC5304691___nanomaterials-04-00700-g007\PMC5304691___nanomaterials-04-00700-g007.json
+  - Series Count: 7
+  - Series Names: ['black diamond', 'black triangle', 'white diamond', 'white triangle', 'asterisk', 'cross', 'white square']
+  - X Data Types: {'numeric': 7}
+  - Total Data Points: 42
+--------------------------------------------------
+
+[16:55:53.611] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.2570
+  - Y Min-Max: [0.6530, 0.9100]
+  - X Range: 0.037000000000000005
+--------------------------------------------------
+
+[16:55:53.613] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:55:53.640] === MATCHING_RESULTS ===
+7 appariements trouvés
+
+Data:
+  - Total Matches: 7
+  - Match Details: ['[unnamed data series #0] <-> asterisk (method=fuzzy_match, score=0.350)', '[unnamed data series #1] <-> black triangle (method=fuzzy_match, score=0.300)', '[unnamed data series #2] <-> black diamond (method=similarity_match, score=0.806)', '[unnamed data series #3] <-> white triangle (method=similarity_match, score=0.809)', '[unnamed data series #4] <-> white diamond (method=similarity_match, score=0.893)', '[unnamed data series #6] <-> cross (method=similarity_match, score=0.806)', '[unnamed data series #7] <-> white square (method=similarity_match, score=0.848)']
+--------------------------------------------------
+
+[16:55:54.160] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs asterisk avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.145284
+  - MAE Relative: 0.565302
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.056334
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 6
+  - Points Ratio: 0.86
+--------------------------------------------------
+
+[16:55:54.849] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #1] vs black triangle avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.005895
+  - MAE Relative: 0.022939
+  - Left Miss (rel): -0.002121
+  - Right Miss (rel): -0.056334
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:55:55.400] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #2] vs black diamond avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.094166
+  - MAE Relative: 0.366402
+  - Left Miss (rel): -0.002121
+  - Right Miss (rel): -0.056334
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 6
+  - Points Ratio: 0.86
+--------------------------------------------------
+
+[16:55:55.910] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #3] vs white triangle avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.015533
+  - MAE Relative: 0.060439
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.054213
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:55:56.444] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #4] vs white diamond avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.048584
+  - MAE Relative: 0.189041
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.054213
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:55:57.045] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #6] vs cross avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.017894
+  - MAE Relative: 0.069627
+  - Left Miss (rel): -0.002121
+  - Right Miss (rel): -0.056334
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 6
+  - Points Ratio: 0.86
+--------------------------------------------------
+
+[16:55:57.565] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #7] vs white square avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.005342
+  - MAE Relative: 0.020787
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.056334
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 6
+  - Points Ratio: 0.86
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:55:57
+Total Duration: 4.01 seconds
+Total Series Processed: 7
+Successful Comparisons: 7
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC5304691_nanomaterials-04-00700-g007.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,597 @@
+
+================================================================================
+VALIDATION LOG - PMC3142514_1471-2458-11-531-1
+================================================================================
+Timestamp: 2025-08-07 13:11:45
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC3142514___1471-2458-11-531-1
+================================================================================
+
+
+
+[13:11:45.865] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:11:45.867] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:11:45.912] === DATA_LOADING ===
+Chargement des données GT depuis PMC3142514___1471-2458-11-531-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\horizontal_bar\PMC3142514___1471-2458-11-531-1.json
+  - Series Count: 8
+  - Series Names: ['Falls', 'Traffic injuries', 'Animal/insect bites', 'Cuts', 'Burns', 'Poisoning', 'Choking', 'Others']
+  - X Data Types: {'categorical': 8}
+  - Total Data Points: 16
+--------------------------------------------------
+
+[13:11:45.917] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3142514___1471-2458-11-531-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC3142514___1471-2458-11-531-1\PMC3142514___1471-2458-11-531-1.json
+  - Series Count: 8
+  - Series Names: ['Falls', 'Traffic injuries', 'Animal/insect bites', 'Cuts', 'Burns', 'Poisoning', 'Choking', 'Others']
+  - X Data Types: {'categorical': 8}
+  - Total Data Points: 16
+--------------------------------------------------
+
+[13:11:45.920] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 59.9967
+  - Y Min-Max: [0.0033, 60.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:11:45.922] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:11:45.925] === MATCHING_RESULTS ===
+8 appariements trouvés
+
+Data:
+  - Total Matches: 8
+  - Match Details: ['Falls <-> Falls (method=exact_match, score=1.000)', 'Traffic injuries <-> Traffic injuries (method=exact_match, score=1.000)', 'Animal/insect bites <-> Animal/insect bites (method=exact_match, score=1.000)', 'Cuts <-> Cuts (method=exact_match, score=1.000)', 'Burns <-> Burns (method=exact_match, score=1.000)', 'Poisoning <-> Poisoning (method=exact_match, score=1.000)', 'Choking <-> Choking (method=exact_match, score=1.000)', 'Others <-> Others (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:11:46.834] === SERIES_COMPARISON ===
+Comparaison Falls vs Falls avec BarComparator
+
+Data:
+  - MAE Absolute: 56.882125
+  - MAE Relative: 0.948088
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:11:47.859] === SERIES_COMPARISON ===
+Comparaison Traffic injuries vs Traffic injuries avec BarComparator
+
+Data:
+  - MAE Absolute: 9.877747
+  - MAE Relative: 0.164638
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:11:48.938] === SERIES_COMPARISON ===
+Comparaison Animal/insect bites vs Animal/insect bites avec BarComparator
+
+Data:
+  - MAE Absolute: 4.930613
+  - MAE Relative: 0.082181
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:11:50.958] === SERIES_COMPARISON ===
+Comparaison Cuts vs Cuts avec BarComparator
+
+Data:
+  - MAE Absolute: 3.460350
+  - MAE Relative: 0.057676
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:11:52.770] === SERIES_COMPARISON ===
+Comparaison Burns vs Burns avec BarComparator
+
+Data:
+  - MAE Absolute: 4.932265
+  - MAE Relative: 0.082209
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:11:54.142] === SERIES_COMPARISON ===
+Comparaison Poisoning vs Poisoning avec BarComparator
+
+Data:
+  - MAE Absolute: 2.957046
+  - MAE Relative: 0.049287
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:11:55.798] === SERIES_COMPARISON ===
+Comparaison Choking vs Choking avec BarComparator
+
+Data:
+  - MAE Absolute: 3.495044
+  - MAE Relative: 0.058254
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:11:57.579] === SERIES_COMPARISON ===
+Comparaison Others vs Others avec BarComparator
+
+Data:
+  - MAE Absolute: 12.470263
+  - MAE Relative: 0.207849
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:11:57
+Total Duration: 11.72 seconds
+Total Series Processed: 8
+Successful Comparisons: 8
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3142514_1471-2458-11-531-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3142514_1471-2458-11-531-1
+================================================================================
+Timestamp: 2025-08-07 16:45:19
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC3142514___1471-2458-11-531-1
+================================================================================
+
+
+
+[16:45:19.100] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:45:19.102] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:45:19.131] === DATA_LOADING ===
+Chargement des données GT depuis PMC3142514___1471-2458-11-531-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\horizontal_bar\PMC3142514___1471-2458-11-531-1.json
+  - Series Count: 8
+  - Series Names: ['Falls', 'Traffic injuries', 'Animal/insect bites', 'Cuts', 'Burns', 'Poisoning', 'Choking', 'Others']
+  - X Data Types: {'categorical': 8}
+  - Total Data Points: 16
+--------------------------------------------------
+
+[16:45:19.147] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3142514___1471-2458-11-531-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC3142514___1471-2458-11-531-1\PMC3142514___1471-2458-11-531-1.json
+  - Series Count: 8
+  - Series Names: ['Falls', 'Traffic injuries', 'Animal/insect bites', 'Cuts', 'Burns', 'Poisoning', 'Choking', 'Others']
+  - X Data Types: {'categorical': 8}
+  - Total Data Points: 16
+--------------------------------------------------
+
+[16:45:19.151] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 59.9967
+  - Y Min-Max: [0.0033, 60.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:45:19.154] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:45:19.157] === MATCHING_RESULTS ===
+8 appariements trouvés
+
+Data:
+  - Total Matches: 8
+  - Match Details: ['Falls <-> Falls (method=exact_match, score=1.000)', 'Traffic injuries <-> Traffic injuries (method=exact_match, score=1.000)', 'Animal/insect bites <-> Animal/insect bites (method=exact_match, score=1.000)', 'Cuts <-> Cuts (method=exact_match, score=1.000)', 'Burns <-> Burns (method=exact_match, score=1.000)', 'Poisoning <-> Poisoning (method=exact_match, score=1.000)', 'Choking <-> Choking (method=exact_match, score=1.000)', 'Others <-> Others (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:45:19.978] === SERIES_COMPARISON ===
+Comparaison Falls vs Falls avec BarComparator
+
+Data:
+  - MAE Absolute: 56.882125
+  - MAE Relative: 0.948088
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:45:21.670] === SERIES_COMPARISON ===
+Comparaison Traffic injuries vs Traffic injuries avec BarComparator
+
+Data:
+  - MAE Absolute: 9.877747
+  - MAE Relative: 0.164638
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:45:25.594] === SERIES_COMPARISON ===
+Comparaison Animal/insect bites vs Animal/insect bites avec BarComparator
+
+Data:
+  - MAE Absolute: 4.930613
+  - MAE Relative: 0.082181
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:45:27.178] === SERIES_COMPARISON ===
+Comparaison Cuts vs Cuts avec BarComparator
+
+Data:
+  - MAE Absolute: 3.460350
+  - MAE Relative: 0.057676
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:45:28.236] === SERIES_COMPARISON ===
+Comparaison Burns vs Burns avec BarComparator
+
+Data:
+  - MAE Absolute: 4.932265
+  - MAE Relative: 0.082209
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:45:29.404] === SERIES_COMPARISON ===
+Comparaison Poisoning vs Poisoning avec BarComparator
+
+Data:
+  - MAE Absolute: 2.957046
+  - MAE Relative: 0.049287
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:45:30.788] === SERIES_COMPARISON ===
+Comparaison Choking vs Choking avec BarComparator
+
+Data:
+  - MAE Absolute: 3.495044
+  - MAE Relative: 0.058254
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:45:32.056] === SERIES_COMPARISON ===
+Comparaison Others vs Others avec BarComparator
+
+Data:
+  - MAE Absolute: 12.470263
+  - MAE Relative: 0.207849
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:45:32
+Total Duration: 12.98 seconds
+Total Series Processed: 8
+Successful Comparisons: 8
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3142514_1471-2458-11-531-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3142514_1471-2458-11-531-1
+================================================================================
+Timestamp: 2025-08-07 17:04:35
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC3142514___1471-2458-11-531-1
+================================================================================
+
+
+
+[17:04:35.223] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:04:35.226] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[17:04:35.275] === DATA_LOADING ===
+Chargement des données GT depuis PMC3142514___1471-2458-11-531-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\horizontal_bar\PMC3142514___1471-2458-11-531-1.json
+  - Series Count: 8
+  - Series Names: ['Falls', 'Traffic injuries', 'Animal/insect bites', 'Cuts', 'Burns', 'Poisoning', 'Choking', 'Others']
+  - X Data Types: {'categorical': 8}
+  - Total Data Points: 16
+--------------------------------------------------
+
+[17:04:35.280] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3142514___1471-2458-11-531-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC3142514___1471-2458-11-531-1\PMC3142514___1471-2458-11-531-1.json
+  - Series Count: 8
+  - Series Names: ['Falls', 'Traffic injuries', 'Animal/insect bites', 'Cuts', 'Burns', 'Poisoning', 'Choking', 'Others']
+  - X Data Types: {'categorical': 8}
+  - Total Data Points: 16
+--------------------------------------------------
+
+[17:04:35.288] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 59.9967
+  - Y Min-Max: [0.0033, 60.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[17:04:35.294] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:04:35.319] === MATCHING_RESULTS ===
+8 appariements trouvés
+
+Data:
+  - Total Matches: 8
+  - Match Details: ['Falls <-> Falls (method=exact_match, score=1.000)', 'Traffic injuries <-> Traffic injuries (method=exact_match, score=1.000)', 'Animal/insect bites <-> Animal/insect bites (method=exact_match, score=1.000)', 'Cuts <-> Cuts (method=exact_match, score=1.000)', 'Burns <-> Burns (method=exact_match, score=1.000)', 'Poisoning <-> Poisoning (method=exact_match, score=1.000)', 'Choking <-> Choking (method=exact_match, score=1.000)', 'Others <-> Others (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[17:04:36.267] === SERIES_COMPARISON ===
+Comparaison Falls vs Falls avec BarComparator
+
+Data:
+  - MAE Absolute: 56.882125
+  - MAE Relative: 0.948088
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:04:38.471] === SERIES_COMPARISON ===
+Comparaison Traffic injuries vs Traffic injuries avec BarComparator
+
+Data:
+  - MAE Absolute: 9.877747
+  - MAE Relative: 0.164638
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:04:40.508] === SERIES_COMPARISON ===
+Comparaison Animal/insect bites vs Animal/insect bites avec BarComparator
+
+Data:
+  - MAE Absolute: 4.930613
+  - MAE Relative: 0.082181
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:04:42.682] === SERIES_COMPARISON ===
+Comparaison Cuts vs Cuts avec BarComparator
+
+Data:
+  - MAE Absolute: 3.460350
+  - MAE Relative: 0.057676
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:04:44.046] === SERIES_COMPARISON ===
+Comparaison Burns vs Burns avec BarComparator
+
+Data:
+  - MAE Absolute: 5.432265
+  - MAE Relative: 0.090543
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:04:45.176] === SERIES_COMPARISON ===
+Comparaison Poisoning vs Poisoning avec BarComparator
+
+Data:
+  - MAE Absolute: 2.957046
+  - MAE Relative: 0.049287
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:04:46.033] === SERIES_COMPARISON ===
+Comparaison Choking vs Choking avec BarComparator
+
+Data:
+  - MAE Absolute: 2.995044
+  - MAE Relative: 0.049920
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:04:47.002] === SERIES_COMPARISON ===
+Comparaison Others vs Others avec BarComparator
+
+Data:
+  - MAE Absolute: 7.470263
+  - MAE Relative: 0.124511
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:04:47
+Total Duration: 11.87 seconds
+Total Series Processed: 8
+Successful Comparisons: 8
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3142514_1471-2458-11-531-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,768 @@
+
+================================================================================
+VALIDATION LOG - PMC1976617_1471-2458-7-201-1
+================================================================================
+Timestamp: 2025-08-06 20:15:50
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1976617___1471-2458-7-201-1
+================================================================================
+
+
+
+[20:15:50.913] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:50.987] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:50.999] === DATA_LOADING ===
+Chargement des données GT depuis PMC1976617___1471-2458-7-201-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1976617___1471-2458-7-201-1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:51.004] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1976617___1471-2458-7-201-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1976617___1471-2458-7-201-1\PMC1976617___1471-2458-7-201-1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:51.007] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1976617_1471-2458-7-201-1
+================================================================================
+Timestamp: 2025-08-06 21:32:09
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1976617___1471-2458-7-201-1
+================================================================================
+
+
+
+[21:32:09.043] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:32:09.045] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:32:09.082] === DATA_LOADING ===
+Chargement des données GT depuis PMC1976617___1471-2458-7-201-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1976617___1471-2458-7-201-1.json
+  - Series Count: 4
+  - Series Names: ['Not drinking', 'Less than monthly', 'Monthly', 'Weekly']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[21:32:09.112] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1976617___1471-2458-7-201-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1976617___1471-2458-7-201-1\PMC1976617___1471-2458-7-201-1.json
+  - Series Count: 4
+  - Series Names: ['Not drinking', 'Less than monthly', 'Monthly', 'Weekly']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[21:32:09.116] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 57.3443
+  - Y Min-Max: [-0.0094, 57.3349]
+  - X Range: 4.039603960396038
+--------------------------------------------------
+
+[21:32:09.118] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:32:09.120] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Not drinking <-> Not drinking (method=exact_match, score=1.000)', 'Less than monthly <-> Less than monthly (method=exact_match, score=1.000)', 'Monthly <-> Monthly (method=exact_match, score=1.000)', 'Weekly <-> Weekly (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:32:09.759] === SERIES_COMPARISON ===
+Comparaison Not drinking vs Not drinking avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.289607
+  - MAE Relative: 0.022489
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:32:10.294] === SERIES_COMPARISON ===
+Comparaison Less than monthly vs Less than monthly avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.626998
+  - MAE Relative: 0.063249
+  - Left Miss (rel): 0.004902
+  - Right Miss (rel): 0.004902
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:32:11.095] === SERIES_COMPARISON ===
+Comparaison Monthly vs Monthly avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 12.578020
+  - MAE Relative: 0.219342
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.004902
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:32:11.871] === SERIES_COMPARISON ===
+Comparaison Weekly vs Weekly avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 23.198008
+  - MAE Relative: 0.404539
+  - Left Miss (rel): -0.004902
+  - Right Miss (rel): 0.004902
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:32:11
+Total Duration: 2.83 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1976617_1471-2458-7-201-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1976617_1471-2458-7-201-1
+================================================================================
+Timestamp: 2025-08-07 12:48:10
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1976617___1471-2458-7-201-1
+================================================================================
+
+
+
+[12:48:10.846] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:48:10.847] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:48:10.914] === DATA_LOADING ===
+Chargement des données GT depuis PMC1976617___1471-2458-7-201-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1976617___1471-2458-7-201-1.json
+  - Series Count: 4
+  - Series Names: ['Not drinking', 'Less than monthly', 'Monthly', 'Weekly']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[12:48:10.935] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1976617___1471-2458-7-201-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1976617___1471-2458-7-201-1\PMC1976617___1471-2458-7-201-1.json
+  - Series Count: 4
+  - Series Names: ['Not drinking', 'Less than monthly', 'Monthly', 'Weekly']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[12:48:10.945] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 57.3443
+  - Y Min-Max: [-0.0094, 57.3349]
+  - X Range: 4.039603960396038
+--------------------------------------------------
+
+[12:48:10.949] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:48:10.954] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Not drinking <-> Not drinking (method=exact_match, score=1.000)', 'Less than monthly <-> Less than monthly (method=exact_match, score=1.000)', 'Monthly <-> Monthly (method=exact_match, score=1.000)', 'Weekly <-> Weekly (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:48:12.079] === SERIES_COMPARISON ===
+Comparaison Not drinking vs Not drinking avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.289607
+  - MAE Relative: 0.022489
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:48:13.542] === SERIES_COMPARISON ===
+Comparaison Less than monthly vs Less than monthly avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.609369
+  - MAE Relative: 0.062942
+  - Left Miss (rel): 0.004902
+  - Right Miss (rel): 0.004902
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:48:14.933] === SERIES_COMPARISON ===
+Comparaison Monthly vs Monthly avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 12.578020
+  - MAE Relative: 0.219342
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.004902
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:48:16.463] === SERIES_COMPARISON ===
+Comparaison Weekly vs Weekly avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 22.443530
+  - MAE Relative: 0.391382
+  - Left Miss (rel): -0.004902
+  - Right Miss (rel): 0.004902
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:48:16
+Total Duration: 5.63 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1976617_1471-2458-7-201-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1976617_1471-2458-7-201-1
+================================================================================
+Timestamp: 2025-08-07 13:05:09
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1976617___1471-2458-7-201-1
+================================================================================
+
+
+
+[13:05:09.448] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:05:09.451] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:05:09.493] === DATA_LOADING ===
+Chargement des données GT depuis PMC1976617___1471-2458-7-201-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1976617___1471-2458-7-201-1.json
+  - Series Count: 4
+  - Series Names: ['Not drinking', 'Less than monthly', 'Monthly', 'Weekly']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[13:05:09.506] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1976617___1471-2458-7-201-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1976617___1471-2458-7-201-1\PMC1976617___1471-2458-7-201-1.json
+  - Series Count: 4
+  - Series Names: ['Not drinking', 'Less than monthly', 'Monthly', 'Weekly']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[13:05:09.510] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 57.3443
+  - Y Min-Max: [-0.0094, 57.3349]
+  - X Range: 4.039603960396038
+--------------------------------------------------
+
+[13:05:09.512] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:05:09.523] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Not drinking <-> Not drinking (method=exact_match, score=1.000)', 'Less than monthly <-> Less than monthly (method=exact_match, score=1.000)', 'Monthly <-> Monthly (method=exact_match, score=1.000)', 'Weekly <-> Weekly (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:05:10.728] === SERIES_COMPARISON ===
+Comparaison Not drinking vs Not drinking avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.289607
+  - MAE Relative: 0.022489
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:05:11.841] === SERIES_COMPARISON ===
+Comparaison Less than monthly vs Less than monthly avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.609369
+  - MAE Relative: 0.062942
+  - Left Miss (rel): 0.004902
+  - Right Miss (rel): 0.004902
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:05:12.732] === SERIES_COMPARISON ===
+Comparaison Monthly vs Monthly avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 12.578020
+  - MAE Relative: 0.219342
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.004902
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:05:13.619] === SERIES_COMPARISON ===
+Comparaison Weekly vs Weekly avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 22.443530
+  - MAE Relative: 0.391382
+  - Left Miss (rel): -0.004902
+  - Right Miss (rel): 0.004902
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:05:13
+Total Duration: 4.18 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1976617_1471-2458-7-201-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1976617_1471-2458-7-201-1
+================================================================================
+Timestamp: 2025-08-07 16:38:42
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1976617___1471-2458-7-201-1
+================================================================================
+
+
+
+[16:38:42.183] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:38:42.223] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:38:42.265] === DATA_LOADING ===
+Chargement des données GT depuis PMC1976617___1471-2458-7-201-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1976617___1471-2458-7-201-1.json
+  - Series Count: 4
+  - Series Names: ['Not drinking', 'Less than monthly', 'Monthly', 'Weekly']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[16:38:42.270] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1976617___1471-2458-7-201-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1976617___1471-2458-7-201-1\PMC1976617___1471-2458-7-201-1.json
+  - Series Count: 4
+  - Series Names: ['Not drinking', 'Less than monthly', 'Monthly', 'Weekly']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[16:38:42.281] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 57.3443
+  - Y Min-Max: [-0.0094, 57.3349]
+  - X Range: 4.039603960396038
+--------------------------------------------------
+
+[16:38:42.284] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:38:42.286] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Not drinking <-> Not drinking (method=exact_match, score=1.000)', 'Less than monthly <-> Less than monthly (method=exact_match, score=1.000)', 'Monthly <-> Monthly (method=exact_match, score=1.000)', 'Weekly <-> Weekly (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:38:43.322] === SERIES_COMPARISON ===
+Comparaison Not drinking vs Not drinking avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.289607
+  - MAE Relative: 0.022489
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:38:44.983] === SERIES_COMPARISON ===
+Comparaison Less than monthly vs Less than monthly avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.626998
+  - MAE Relative: 0.063249
+  - Left Miss (rel): 0.004902
+  - Right Miss (rel): 0.004902
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:38:46.572] === SERIES_COMPARISON ===
+Comparaison Monthly vs Monthly avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 12.578020
+  - MAE Relative: 0.219342
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.004902
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:38:47.553] === SERIES_COMPARISON ===
+Comparaison Weekly vs Weekly avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 23.198008
+  - MAE Relative: 0.404539
+  - Left Miss (rel): -0.004902
+  - Right Miss (rel): 0.004902
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:38:47
+Total Duration: 5.38 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1976617_1471-2458-7-201-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1976617_1471-2458-7-201-1
+================================================================================
+Timestamp: 2025-08-07 16:57:53
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1976617___1471-2458-7-201-1
+================================================================================
+
+
+
+[16:57:53.175] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:57:53.177] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:57:53.210] === DATA_LOADING ===
+Chargement des données GT depuis PMC1976617___1471-2458-7-201-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1976617___1471-2458-7-201-1.json
+  - Series Count: 4
+  - Series Names: ['Not drinking', 'Less than monthly', 'Monthly', 'Weekly']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[16:57:53.213] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1976617___1471-2458-7-201-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1976617___1471-2458-7-201-1\PMC1976617___1471-2458-7-201-1.json
+  - Series Count: 4
+  - Series Names: ['Not drinking', 'Less than monthly', 'Monthly', 'Weekly']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[16:57:53.216] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 57.3443
+  - Y Min-Max: [-0.0094, 57.3349]
+  - X Range: 4.039603960396038
+--------------------------------------------------
+
+[16:57:53.217] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:57:53.219] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Not drinking <-> Not drinking (method=exact_match, score=1.000)', 'Less than monthly <-> Less than monthly (method=exact_match, score=1.000)', 'Monthly <-> Monthly (method=exact_match, score=1.000)', 'Weekly <-> Weekly (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:57:53.851] === SERIES_COMPARISON ===
+Comparaison Not drinking vs Not drinking avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.289607
+  - MAE Relative: 0.022489
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:57:54.960] === SERIES_COMPARISON ===
+Comparaison Less than monthly vs Less than monthly avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.609369
+  - MAE Relative: 0.062942
+  - Left Miss (rel): 0.004902
+  - Right Miss (rel): 0.004902
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:57:56.194] === SERIES_COMPARISON ===
+Comparaison Monthly vs Monthly avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 12.578020
+  - MAE Relative: 0.219342
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.004902
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:57:57.622] === SERIES_COMPARISON ===
+Comparaison Weekly vs Weekly avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 22.443530
+  - MAE Relative: 0.391382
+  - Left Miss (rel): -0.004902
+  - Right Miss (rel): 0.004902
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:57:57
+Total Duration: 4.47 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1976617_1471-2458-7-201-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

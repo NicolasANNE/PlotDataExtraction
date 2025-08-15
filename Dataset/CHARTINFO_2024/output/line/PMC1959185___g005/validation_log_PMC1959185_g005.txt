@@ -1,0 +1,628 @@
+
+================================================================================
+VALIDATION LOG - PMC1959185_g005
+================================================================================
+Timestamp: 2025-08-06 20:15:52
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1959185___g005
+================================================================================
+
+
+
+[20:15:52.332] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:52.385] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:52.398] === DATA_LOADING ===
+Chargement des données GT depuis PMC1959185___g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1959185___g005.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:52.411] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1959185___g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1959185___g005\PMC1959185___g005.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:52.414] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1959185_g005
+================================================================================
+Timestamp: 2025-08-06 21:32:05
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1959185___g005
+================================================================================
+
+
+
+[21:32:05.258] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:32:05.284] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:32:05.328] === DATA_LOADING ===
+Chargement des données GT depuis PMC1959185___g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1959185___g005.json
+  - Series Count: 2
+  - Series Names: ['Scalp', 'Hippocampus']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 60
+--------------------------------------------------
+
+[21:32:05.330] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1959185___g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1959185___g005\PMC1959185___g005.json
+  - Series Count: 2
+  - Series Names: ['Scalp', 'Hippocampus']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 60
+--------------------------------------------------
+
+[21:32:05.333] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 10.0125
+  - Y Min-Max: [0.5000, 10.5125]
+  - X Range: 29.51084394153701
+--------------------------------------------------
+
+[21:32:05.335] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:32:05.338] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Scalp <-> Scalp (method=exact_match, score=1.000)', 'Hippocampus <-> Hippocampus (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:32:06.112] === SERIES_COMPARISON ===
+Comparaison Scalp vs Scalp avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.208514
+  - MAE Relative: 0.020825
+  - Left Miss (rel): 0.017310
+  - Right Miss (rel): -0.032312
+  - X Cutoff: N/A
+  - GT Points: 30
+  - Extracted Points: 30
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:32:06.860] === SERIES_COMPARISON ===
+Comparaison Hippocampus vs Hippocampus avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.114348
+  - MAE Relative: 0.011421
+  - Left Miss (rel): 0.016472
+  - Right Miss (rel): -0.032911
+  - X Cutoff: N/A
+  - GT Points: 30
+  - Extracted Points: 30
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:32:06
+Total Duration: 1.66 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1959185_g005.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1959185_g005
+================================================================================
+Timestamp: 2025-08-07 12:48:10
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1959185___g005
+================================================================================
+
+
+
+[12:48:10.058] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:48:10.060] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:48:10.111] === DATA_LOADING ===
+Chargement des données GT depuis PMC1959185___g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1959185___g005.json
+  - Series Count: 2
+  - Series Names: ['Scalp', 'Hippocampus']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 60
+--------------------------------------------------
+
+[12:48:10.114] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1959185___g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1959185___g005\PMC1959185___g005.json
+  - Series Count: 2
+  - Series Names: ['Scalp', 'Hippocampus']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 60
+--------------------------------------------------
+
+[12:48:10.117] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 10.0125
+  - Y Min-Max: [0.5000, 10.5125]
+  - X Range: 29.51084394153701
+--------------------------------------------------
+
+[12:48:10.119] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:48:10.122] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Scalp <-> Scalp (method=exact_match, score=1.000)', 'Hippocampus <-> Hippocampus (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:48:11.078] === SERIES_COMPARISON ===
+Comparaison Scalp vs Scalp avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.226207
+  - MAE Relative: 0.022592
+  - Left Miss (rel): 0.017310
+  - Right Miss (rel): -0.032312
+  - X Cutoff: N/A
+  - GT Points: 30
+  - Extracted Points: 30
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:48:12.589] === SERIES_COMPARISON ===
+Comparaison Hippocampus vs Hippocampus avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.096180
+  - MAE Relative: 0.009606
+  - Left Miss (rel): 0.016472
+  - Right Miss (rel): -0.032911
+  - X Cutoff: N/A
+  - GT Points: 30
+  - Extracted Points: 30
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:48:12
+Total Duration: 2.55 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1959185_g005.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1959185_g005
+================================================================================
+Timestamp: 2025-08-07 13:05:07
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1959185___g005
+================================================================================
+
+
+
+[13:05:07.596] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:05:07.599] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:05:07.644] === DATA_LOADING ===
+Chargement des données GT depuis PMC1959185___g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1959185___g005.json
+  - Series Count: 2
+  - Series Names: ['Scalp', 'Hippocampus']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 60
+--------------------------------------------------
+
+[13:05:07.647] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1959185___g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1959185___g005\PMC1959185___g005.json
+  - Series Count: 2
+  - Series Names: ['Scalp', 'Hippocampus']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 60
+--------------------------------------------------
+
+[13:05:07.649] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 10.0125
+  - Y Min-Max: [0.5000, 10.5125]
+  - X Range: 29.51084394153701
+--------------------------------------------------
+
+[13:05:07.651] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:05:07.652] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Scalp <-> Scalp (method=exact_match, score=1.000)', 'Hippocampus <-> Hippocampus (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:05:08.376] === SERIES_COMPARISON ===
+Comparaison Scalp vs Scalp avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.208514
+  - MAE Relative: 0.020825
+  - Left Miss (rel): 0.017310
+  - Right Miss (rel): -0.032312
+  - X Cutoff: N/A
+  - GT Points: 30
+  - Extracted Points: 30
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:05:09.183] === SERIES_COMPARISON ===
+Comparaison Hippocampus vs Hippocampus avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.114348
+  - MAE Relative: 0.011421
+  - Left Miss (rel): 0.016472
+  - Right Miss (rel): -0.032911
+  - X Cutoff: N/A
+  - GT Points: 30
+  - Extracted Points: 30
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:05:09
+Total Duration: 1.65 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1959185_g005.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1959185_g005
+================================================================================
+Timestamp: 2025-08-07 16:38:42
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1959185___g005
+================================================================================
+
+
+
+[16:38:42.555] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:38:42.567] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:38:42.620] === DATA_LOADING ===
+Chargement des données GT depuis PMC1959185___g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1959185___g005.json
+  - Series Count: 2
+  - Series Names: ['Scalp', 'Hippocampus']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 60
+--------------------------------------------------
+
+[16:38:42.624] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1959185___g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1959185___g005\PMC1959185___g005.json
+  - Series Count: 2
+  - Series Names: ['Scalp', 'Hippocampus']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 60
+--------------------------------------------------
+
+[16:38:42.628] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 10.0125
+  - Y Min-Max: [0.5000, 10.5125]
+  - X Range: 29.51084394153701
+--------------------------------------------------
+
+[16:38:42.631] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:38:42.633] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Scalp <-> Scalp (method=exact_match, score=1.000)', 'Hippocampus <-> Hippocampus (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:38:44.489] === SERIES_COMPARISON ===
+Comparaison Scalp vs Scalp avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.226207
+  - MAE Relative: 0.022592
+  - Left Miss (rel): 0.017310
+  - Right Miss (rel): -0.032312
+  - X Cutoff: N/A
+  - GT Points: 30
+  - Extracted Points: 30
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:38:46.283] === SERIES_COMPARISON ===
+Comparaison Hippocampus vs Hippocampus avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.096180
+  - MAE Relative: 0.009606
+  - Left Miss (rel): 0.016472
+  - Right Miss (rel): -0.032911
+  - X Cutoff: N/A
+  - GT Points: 30
+  - Extracted Points: 30
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:38:46
+Total Duration: 3.76 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1959185_g005.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1959185_g005
+================================================================================
+Timestamp: 2025-08-07 16:57:56
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1959185___g005
+================================================================================
+
+
+
+[16:57:56.124] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:57:56.128] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:57:56.189] === DATA_LOADING ===
+Chargement des données GT depuis PMC1959185___g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1959185___g005.json
+  - Series Count: 2
+  - Series Names: ['Scalp', 'Hippocampus']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 60
+--------------------------------------------------
+
+[16:57:56.193] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1959185___g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1959185___g005\PMC1959185___g005.json
+  - Series Count: 2
+  - Series Names: ['Scalp', 'Hippocampus']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 60
+--------------------------------------------------
+
+[16:57:56.197] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 10.0125
+  - Y Min-Max: [0.5000, 10.5125]
+  - X Range: 29.51084394153701
+--------------------------------------------------
+
+[16:57:56.201] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:57:56.247] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Scalp <-> Scalp (method=exact_match, score=1.000)', 'Hippocampus <-> Hippocampus (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:57:57.774] === SERIES_COMPARISON ===
+Comparaison Scalp vs Scalp avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.226207
+  - MAE Relative: 0.022592
+  - Left Miss (rel): 0.017310
+  - Right Miss (rel): -0.032312
+  - X Cutoff: N/A
+  - GT Points: 30
+  - Extracted Points: 30
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:57:58.850] === SERIES_COMPARISON ===
+Comparaison Hippocampus vs Hippocampus avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.096180
+  - MAE Relative: 0.009606
+  - Left Miss (rel): 0.016472
+  - Right Miss (rel): -0.032911
+  - X Cutoff: N/A
+  - GT Points: 30
+  - Extracted Points: 30
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:57:58
+Total Duration: 2.78 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1959185_g005.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

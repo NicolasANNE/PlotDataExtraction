@@ -1,0 +1,115 @@
+
+================================================================================
+VALIDATION LOG - PMC3684457_ijph-42-489f1
+================================================================================
+Timestamp: 2025-08-07 12:58:48
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3684457___ijph-42-489f1
+================================================================================
+
+
+
+[12:58:48.795] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:58:48.798] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:58:48.870] === DATA_LOADING ===
+Chargement des données GT depuis PMC3684457___ijph-42-489f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3684457___ijph-42-489f1.json
+  - Series Count: 2
+  - Series Names: ['Boys', 'Girls']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 17
+--------------------------------------------------
+
+[12:58:48.875] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3684457___ijph-42-489f1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3684457___ijph-42-489f1\PMC3684457___ijph-42-489f1.json
+  - Series Count: 2
+  - Series Names: ['Boys', 'Girls']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 14
+--------------------------------------------------
+
+[12:58:48.881] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 22.3464
+  - Y Min-Max: [84.8324, 107.1788]
+  - X Range: 6.039790575916231
+--------------------------------------------------
+
+[12:58:48.890] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:58:48.895] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Boys <-> Boys (method=exact_match, score=1.000)', 'Girls <-> Girls (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:58:50.137] === SERIES_COMPARISON ===
+Comparaison Boys vs Boys avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.297909
+  - MAE Relative: 0.058081
+  - Left Miss (rel): -0.004334
+  - Right Miss (rel): 0.000867
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 7
+  - Points Ratio: 0.78
+--------------------------------------------------
+
+[12:58:51.211] === SERIES_COMPARISON ===
+Comparaison Girls vs Girls avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.616904
+  - MAE Relative: 0.027606
+  - Left Miss (rel): 0.005721
+  - Right Miss (rel): -0.004334
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 7
+  - Points Ratio: 0.88
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:58:51
+Total Duration: 2.43 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3684457_ijph-42-489f1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

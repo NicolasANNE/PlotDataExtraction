@@ -1,0 +1,474 @@
+
+================================================================================
+VALIDATION LOG - PMC1087839_1471-2156-6-19-3
+================================================================================
+Timestamp: 2025-08-07 13:12:15
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC1087839___1471-2156-6-19-3
+================================================================================
+
+
+
+[13:12:15.684] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:12:15.687] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:12:15.777] === DATA_LOADING ===
+Chargement des données GT depuis PMC1087839___1471-2156-6-19-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC1087839___1471-2156-6-19-3.json
+  - Series Count: 5
+  - Series Names: ['French controls', 'French controls from general population', 'French moderate obese\nsubjects', 'French morbid obese subjects pooled', 'Swiss morbid obese subjects']
+  - X Data Types: {'categorical': 5}
+  - Total Data Points: 5
+--------------------------------------------------
+
+[13:12:15.781] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1087839___1471-2156-6-19-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC1087839___1471-2156-6-19-3\PMC1087839___1471-2156-6-19-3.json
+  - Series Count: 5
+  - Series Names: ['French controls', 'French controls from general population', 'French moderate obese subjects', 'French morbid obese subjects pooled', 'Swiss morbid obese subjects']
+  - X Data Types: {'categorical': 5}
+  - Total Data Points: 5
+--------------------------------------------------
+
+[13:12:15.785] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 7.0970
+  - Y Min-Max: [42.3000, 49.3970]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:12:15.788] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:12:15.791] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['French controls <-> French controls (method=exact_match, score=1.000)', 'French controls from general population <-> French controls from general population (method=exact_match, score=1.000)', 'French morbid obese subjects pooled <-> French morbid obese subjects pooled (method=exact_match, score=1.000)', 'Swiss morbid obese subjects <-> Swiss morbid obese subjects (method=exact_match, score=1.000)', 'French moderate obese\nsubjects <-> French moderate obese subjects (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[13:12:16.993] === SERIES_COMPARISON ===
+Comparaison French controls vs French controls avec BarComparator
+
+Data:
+  - MAE Absolute: 0.070432
+  - MAE Relative: 0.009924
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.060000
+  - GT Points: 1
+  - Extracted Points: 1
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:12:18.123] === SERIES_COMPARISON ===
+Comparaison French controls from general population vs French controls from general population avec BarComparator
+
+Data:
+  - MAE Absolute: 0.010963
+  - MAE Relative: 0.001545
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.060000
+  - GT Points: 1
+  - Extracted Points: 1
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:12:18.888] === SERIES_COMPARISON ===
+Comparaison French morbid obese subjects pooled vs French morbid obese subjects pooled avec BarComparator
+
+Data:
+  - MAE Absolute: 0.097010
+  - MAE Relative: 0.013669
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.060000
+  - GT Points: 1
+  - Extracted Points: 1
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:12:19.710] === SERIES_COMPARISON ===
+Comparaison Swiss morbid obese subjects vs Swiss morbid obese subjects avec BarComparator
+
+Data:
+  - MAE Absolute: 0.037209
+  - MAE Relative: 0.005243
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.060000
+  - GT Points: 1
+  - Extracted Points: 1
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:12:21.260] === SERIES_COMPARISON ===
+Comparaison French moderate obese
+subjects vs French moderate obese subjects avec BarComparator
+
+Data:
+  - MAE Absolute: 0.085050
+  - MAE Relative: 0.011984
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.060000
+  - GT Points: 1
+  - Extracted Points: 1
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:12:21
+Total Duration: 5.63 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1087839_1471-2156-6-19-3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1087839_1471-2156-6-19-3
+================================================================================
+Timestamp: 2025-08-07 16:46:06
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC1087839___1471-2156-6-19-3
+================================================================================
+
+
+
+[16:46:06.490] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:46:06.493] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:46:06.610] === DATA_LOADING ===
+Chargement des données GT depuis PMC1087839___1471-2156-6-19-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC1087839___1471-2156-6-19-3.json
+  - Series Count: 5
+  - Series Names: ['French controls', 'French controls from general population', 'French moderate obese\nsubjects', 'French morbid obese subjects pooled', 'Swiss morbid obese subjects']
+  - X Data Types: {'categorical': 5}
+  - Total Data Points: 5
+--------------------------------------------------
+
+[16:46:06.615] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1087839___1471-2156-6-19-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC1087839___1471-2156-6-19-3\PMC1087839___1471-2156-6-19-3.json
+  - Series Count: 5
+  - Series Names: ['French controls', 'French controls from general population', 'French moderate obese subjects', 'French morbid obese subjects pooled', 'Swiss morbid obese subjects']
+  - X Data Types: {'categorical': 5}
+  - Total Data Points: 5
+--------------------------------------------------
+
+[16:46:06.619] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 7.0970
+  - Y Min-Max: [42.3000, 49.3970]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:46:06.622] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:46:06.625] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['French controls <-> French controls (method=exact_match, score=1.000)', 'French controls from general population <-> French controls from general population (method=exact_match, score=1.000)', 'French morbid obese subjects pooled <-> French morbid obese subjects pooled (method=exact_match, score=1.000)', 'Swiss morbid obese subjects <-> Swiss morbid obese subjects (method=exact_match, score=1.000)', 'French moderate obese\nsubjects <-> French moderate obese subjects (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[16:46:10.574] === SERIES_COMPARISON ===
+Comparaison French controls vs French controls avec BarComparator
+
+Data:
+  - MAE Absolute: 0.070432
+  - MAE Relative: 0.009924
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.060000
+  - GT Points: 1
+  - Extracted Points: 1
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:46:15.510] === SERIES_COMPARISON ===
+Comparaison French controls from general population vs French controls from general population avec BarComparator
+
+Data:
+  - MAE Absolute: 0.010963
+  - MAE Relative: 0.001545
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.060000
+  - GT Points: 1
+  - Extracted Points: 1
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:46:17.603] === SERIES_COMPARISON ===
+Comparaison French morbid obese subjects pooled vs French morbid obese subjects pooled avec BarComparator
+
+Data:
+  - MAE Absolute: 0.097010
+  - MAE Relative: 0.013669
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.060000
+  - GT Points: 1
+  - Extracted Points: 1
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:46:23.720] === SERIES_COMPARISON ===
+Comparaison Swiss morbid obese subjects vs Swiss morbid obese subjects avec BarComparator
+
+Data:
+  - MAE Absolute: 0.037209
+  - MAE Relative: 0.005243
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.060000
+  - GT Points: 1
+  - Extracted Points: 1
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:46:30.672] === SERIES_COMPARISON ===
+Comparaison French moderate obese
+subjects vs French moderate obese subjects avec BarComparator
+
+Data:
+  - MAE Absolute: 0.085050
+  - MAE Relative: 0.011984
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.060000
+  - GT Points: 1
+  - Extracted Points: 1
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:46:30
+Total Duration: 24.33 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1087839_1471-2156-6-19-3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1087839_1471-2156-6-19-3
+================================================================================
+Timestamp: 2025-08-07 17:05:00
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC1087839___1471-2156-6-19-3
+================================================================================
+
+
+
+[17:05:00.307] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:05:00.309] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[17:05:00.405] === DATA_LOADING ===
+Chargement des données GT depuis PMC1087839___1471-2156-6-19-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC1087839___1471-2156-6-19-3.json
+  - Series Count: 5
+  - Series Names: ['French controls', 'French controls from general population', 'French moderate obese\nsubjects', 'French morbid obese subjects pooled', 'Swiss morbid obese subjects']
+  - X Data Types: {'categorical': 5}
+  - Total Data Points: 5
+--------------------------------------------------
+
+[17:05:00.418] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1087839___1471-2156-6-19-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC1087839___1471-2156-6-19-3\PMC1087839___1471-2156-6-19-3.json
+  - Series Count: 5
+  - Series Names: ['French controls', 'French controls from general population', 'French moderate obese subjects', 'French morbid obese subjects pooled', 'Swiss morbid obese subjects']
+  - X Data Types: {'categorical': 5}
+  - Total Data Points: 5
+--------------------------------------------------
+
+[17:05:00.439] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 7.0970
+  - Y Min-Max: [42.3000, 49.3970]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[17:05:00.448] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:05:00.486] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['French controls <-> French controls (method=exact_match, score=1.000)', 'French controls from general population <-> French controls from general population (method=exact_match, score=1.000)', 'French morbid obese subjects pooled <-> French morbid obese subjects pooled (method=exact_match, score=1.000)', 'Swiss morbid obese subjects <-> Swiss morbid obese subjects (method=exact_match, score=1.000)', 'French moderate obese\nsubjects <-> French moderate obese subjects (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[17:05:01.668] === SERIES_COMPARISON ===
+Comparaison French controls vs French controls avec BarComparator
+
+Data:
+  - MAE Absolute: 0.070432
+  - MAE Relative: 0.009924
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.060000
+  - GT Points: 1
+  - Extracted Points: 1
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:05:03.367] === SERIES_COMPARISON ===
+Comparaison French controls from general population vs French controls from general population avec BarComparator
+
+Data:
+  - MAE Absolute: 0.010963
+  - MAE Relative: 0.001545
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.060000
+  - GT Points: 1
+  - Extracted Points: 1
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:05:05.135] === SERIES_COMPARISON ===
+Comparaison French morbid obese subjects pooled vs French morbid obese subjects pooled avec BarComparator
+
+Data:
+  - MAE Absolute: 0.097010
+  - MAE Relative: 0.013669
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.060000
+  - GT Points: 1
+  - Extracted Points: 1
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:05:05.915] === SERIES_COMPARISON ===
+Comparaison Swiss morbid obese subjects vs Swiss morbid obese subjects avec BarComparator
+
+Data:
+  - MAE Absolute: 0.037209
+  - MAE Relative: 0.005243
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.060000
+  - GT Points: 1
+  - Extracted Points: 1
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:05:06.915] === SERIES_COMPARISON ===
+Comparaison French moderate obese
+subjects vs French moderate obese subjects avec BarComparator
+
+Data:
+  - MAE Absolute: 0.085050
+  - MAE Relative: 0.011984
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.060000
+  - GT Points: 1
+  - Extracted Points: 1
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:05:06
+Total Duration: 6.65 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1087839_1471-2156-6-19-3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

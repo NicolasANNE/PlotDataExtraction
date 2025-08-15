@@ -1,0 +1,698 @@
+
+================================================================================
+VALIDATION LOG - PMC1948890_1471-2458-7-160-2
+================================================================================
+Timestamp: 2025-08-06 20:15:45
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1948890___1471-2458-7-160-2
+================================================================================
+
+
+
+[20:15:45.186] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:45.223] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:45.230] === DATA_LOADING ===
+Chargement des données GT depuis PMC1948890___1471-2458-7-160-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1948890___1471-2458-7-160-2.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:45.255] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1948890___1471-2458-7-160-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1948890___1471-2458-7-160-2\PMC1948890___1471-2458-7-160-2.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:45.257] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1948890_1471-2458-7-160-2
+================================================================================
+Timestamp: 2025-08-06 21:31:59
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1948890___1471-2458-7-160-2
+================================================================================
+
+
+
+[21:31:59.146] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:31:59.149] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:31:59.182] === DATA_LOADING ===
+Chargement des données GT depuis PMC1948890___1471-2458-7-160-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1948890___1471-2458-7-160-2.json
+  - Series Count: 3
+  - Series Names: ['ANC', 'Pop - female testers', 'Pop - female testers pregnant']
+  - X Data Types: {'categorical': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[21:31:59.191] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1948890___1471-2458-7-160-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1948890___1471-2458-7-160-2\PMC1948890___1471-2458-7-160-2.json
+  - Series Count: 3
+  - Series Names: ['ANC', 'Pop - female testers', 'Pop - female testers pregnant']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[21:31:59.196] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 48.5794
+  - Y Min-Max: [6.4206, 55.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[21:31:59.222] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:31:59.245] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['ANC <-> ANC (method=exact_match, score=1.000)', 'Pop - female testers <-> Pop - female testers (method=exact_match, score=1.000)', 'Pop - female testers pregnant <-> Pop - female testers pregnant (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:32:01.543] === SERIES_COMPARISON ===
+Comparaison ANC vs ANC avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 9.509000
+  - MAE Relative: 0.195741
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.408000
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:32:02.869] === SERIES_COMPARISON ===
+Comparaison Pop - female testers vs Pop - female testers avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 11.795843
+  - MAE Relative: 0.242816
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.408000
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:32:03.613] === SERIES_COMPARISON ===
+Comparaison Pop - female testers pregnant vs Pop - female testers pregnant avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 6.698524
+  - MAE Relative: 0.137888
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.408000
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:32:03
+Total Duration: 4.49 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1948890_1471-2458-7-160-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1948890_1471-2458-7-160-2
+================================================================================
+Timestamp: 2025-08-07 12:47:59
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1948890___1471-2458-7-160-2
+================================================================================
+
+
+
+[12:47:59.753] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:47:59.755] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:47:59.798] === DATA_LOADING ===
+Chargement des données GT depuis PMC1948890___1471-2458-7-160-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1948890___1471-2458-7-160-2.json
+  - Series Count: 3
+  - Series Names: ['ANC', 'Pop - female testers', 'Pop - female testers pregnant']
+  - X Data Types: {'categorical': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[12:47:59.804] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1948890___1471-2458-7-160-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1948890___1471-2458-7-160-2\PMC1948890___1471-2458-7-160-2.json
+  - Series Count: 3
+  - Series Names: ['ANC', 'Pop - female testers', 'Pop - female testers pregnant']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[12:47:59.808] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 48.5794
+  - Y Min-Max: [6.4206, 55.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:47:59.810] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:47:59.813] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['ANC <-> ANC (method=exact_match, score=1.000)', 'Pop - female testers <-> Pop - female testers (method=exact_match, score=1.000)', 'Pop - female testers pregnant <-> Pop - female testers pregnant (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:48:00.782] === SERIES_COMPARISON ===
+Comparaison ANC vs ANC avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 9.509000
+  - MAE Relative: 0.195741
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.408000
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:48:01.840] === SERIES_COMPARISON ===
+Comparaison Pop - female testers vs Pop - female testers avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 11.795843
+  - MAE Relative: 0.242816
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.408000
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:48:03.640] === SERIES_COMPARISON ===
+Comparaison Pop - female testers pregnant vs Pop - female testers pregnant avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 6.698524
+  - MAE Relative: 0.137888
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.408000
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:48:03
+Total Duration: 3.91 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1948890_1471-2458-7-160-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1948890_1471-2458-7-160-2
+================================================================================
+Timestamp: 2025-08-07 13:04:56
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1948890___1471-2458-7-160-2
+================================================================================
+
+
+
+[13:04:56.544] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:04:56.546] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:04:56.595] === DATA_LOADING ===
+Chargement des données GT depuis PMC1948890___1471-2458-7-160-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1948890___1471-2458-7-160-2.json
+  - Series Count: 3
+  - Series Names: ['ANC', 'Pop - female testers', 'Pop - female testers pregnant']
+  - X Data Types: {'categorical': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[13:04:56.613] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1948890___1471-2458-7-160-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1948890___1471-2458-7-160-2\PMC1948890___1471-2458-7-160-2.json
+  - Series Count: 3
+  - Series Names: ['ANC', 'Pop - female testers', 'Pop - female testers pregnant']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[13:04:56.625] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 48.5794
+  - Y Min-Max: [6.4206, 55.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:04:56.639] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:04:56.642] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['ANC <-> ANC (method=exact_match, score=1.000)', 'Pop - female testers <-> Pop - female testers (method=exact_match, score=1.000)', 'Pop - female testers pregnant <-> Pop - female testers pregnant (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:04:58.348] === SERIES_COMPARISON ===
+Comparaison ANC vs ANC avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 9.509000
+  - MAE Relative: 0.195741
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.408000
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:05:00.833] === SERIES_COMPARISON ===
+Comparaison Pop - female testers vs Pop - female testers avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 11.795843
+  - MAE Relative: 0.242816
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.408000
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:05:02.644] === SERIES_COMPARISON ===
+Comparaison Pop - female testers pregnant vs Pop - female testers pregnant avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 6.498524
+  - MAE Relative: 0.133771
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.408000
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:05:02
+Total Duration: 6.11 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1948890_1471-2458-7-160-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1948890_1471-2458-7-160-2
+================================================================================
+Timestamp: 2025-08-07 16:38:30
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1948890___1471-2458-7-160-2
+================================================================================
+
+
+
+[16:38:30.182] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:38:30.184] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:38:30.205] === DATA_LOADING ===
+Chargement des données GT depuis PMC1948890___1471-2458-7-160-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1948890___1471-2458-7-160-2.json
+  - Series Count: 3
+  - Series Names: ['ANC', 'Pop - female testers', 'Pop - female testers pregnant']
+  - X Data Types: {'categorical': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[16:38:30.207] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1948890___1471-2458-7-160-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1948890___1471-2458-7-160-2\PMC1948890___1471-2458-7-160-2.json
+  - Series Count: 3
+  - Series Names: ['ANC', 'Pop - female testers', 'Pop - female testers pregnant']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[16:38:30.210] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 48.5794
+  - Y Min-Max: [6.4206, 55.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:38:30.212] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:38:30.214] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['ANC <-> ANC (method=exact_match, score=1.000)', 'Pop - female testers <-> Pop - female testers (method=exact_match, score=1.000)', 'Pop - female testers pregnant <-> Pop - female testers pregnant (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:38:30.911] === SERIES_COMPARISON ===
+Comparaison ANC vs ANC avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 9.509000
+  - MAE Relative: 0.195741
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.408000
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:38:32.334] === SERIES_COMPARISON ===
+Comparaison Pop - female testers vs Pop - female testers avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 11.795843
+  - MAE Relative: 0.242816
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.408000
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:38:34.272] === SERIES_COMPARISON ===
+Comparaison Pop - female testers pregnant vs Pop - female testers pregnant avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 6.498524
+  - MAE Relative: 0.133771
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.408000
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:38:34
+Total Duration: 4.11 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1948890_1471-2458-7-160-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1948890_1471-2458-7-160-2
+================================================================================
+Timestamp: 2025-08-07 16:57:42
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1948890___1471-2458-7-160-2
+================================================================================
+
+
+
+[16:57:42.550] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:57:42.566] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:57:42.605] === DATA_LOADING ===
+Chargement des données GT depuis PMC1948890___1471-2458-7-160-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1948890___1471-2458-7-160-2.json
+  - Series Count: 3
+  - Series Names: ['ANC', 'Pop - female testers', 'Pop - female testers pregnant']
+  - X Data Types: {'categorical': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[16:57:42.607] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1948890___1471-2458-7-160-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1948890___1471-2458-7-160-2\PMC1948890___1471-2458-7-160-2.json
+  - Series Count: 3
+  - Series Names: ['ANC', 'Pop - female testers', 'Pop - female testers pregnant']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[16:57:42.611] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 48.5794
+  - Y Min-Max: [6.4206, 55.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:57:42.626] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:57:42.659] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['ANC <-> ANC (method=exact_match, score=1.000)', 'Pop - female testers <-> Pop - female testers (method=exact_match, score=1.000)', 'Pop - female testers pregnant <-> Pop - female testers pregnant (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:57:43.682] === SERIES_COMPARISON ===
+Comparaison ANC vs ANC avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 9.509000
+  - MAE Relative: 0.195741
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.408000
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:57:44.981] === SERIES_COMPARISON ===
+Comparaison Pop - female testers vs Pop - female testers avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 11.795843
+  - MAE Relative: 0.242816
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.408000
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:57:45.997] === SERIES_COMPARISON ===
+Comparaison Pop - female testers pregnant vs Pop - female testers pregnant avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 6.498524
+  - MAE Relative: 0.133771
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.408000
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:57:46
+Total Duration: 3.46 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1948890_1471-2458-7-160-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

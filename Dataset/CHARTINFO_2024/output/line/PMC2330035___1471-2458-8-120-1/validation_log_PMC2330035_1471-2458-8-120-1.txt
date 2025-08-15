@@ -1,0 +1,628 @@
+
+================================================================================
+VALIDATION LOG - PMC2330035_1471-2458-8-120-1
+================================================================================
+Timestamp: 2025-08-06 20:15:57
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2330035___1471-2458-8-120-1
+================================================================================
+
+
+
+[20:15:57.463] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:57.495] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:57.501] === DATA_LOADING ===
+Chargement des données GT depuis PMC2330035___1471-2458-8-120-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2330035___1471-2458-8-120-1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:57.526] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2330035___1471-2458-8-120-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2330035___1471-2458-8-120-1\PMC2330035___1471-2458-8-120-1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:57.529] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2330035_1471-2458-8-120-1
+================================================================================
+Timestamp: 2025-08-06 21:32:28
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2330035___1471-2458-8-120-1
+================================================================================
+
+
+
+[21:32:28.822] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:32:28.824] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:32:28.855] === DATA_LOADING ===
+Chargement des données GT depuis PMC2330035___1471-2458-8-120-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2330035___1471-2458-8-120-1.json
+  - Series Count: 2
+  - Series Names: ['Yorkhill', 'Kingston']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[21:32:28.858] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2330035___1471-2458-8-120-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2330035___1471-2458-8-120-1\PMC2330035___1471-2458-8-120-1.json
+  - Series Count: 2
+  - Series Names: ['Yorkhill', 'Kingston']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[21:32:28.860] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 122.4286
+  - Y Min-Max: [61.8480, 184.2766]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[21:32:28.862] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:32:28.863] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Yorkhill <-> Yorkhill (method=exact_match, score=1.000)', 'Kingston <-> Kingston (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:32:29.781] === SERIES_COMPARISON ===
+Comparaison Yorkhill vs Yorkhill avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 33.390363
+  - MAE Relative: 0.272733
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.392500
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:32:32.015] === SERIES_COMPARISON ===
+Comparaison Kingston vs Kingston avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 34.912724
+  - MAE Relative: 0.285168
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.392500
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:32:32
+Total Duration: 3.21 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2330035_1471-2458-8-120-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2330035_1471-2458-8-120-1
+================================================================================
+Timestamp: 2025-08-07 12:48:35
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2330035___1471-2458-8-120-1
+================================================================================
+
+
+
+[12:48:35.554] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:48:35.556] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:48:35.627] === DATA_LOADING ===
+Chargement des données GT depuis PMC2330035___1471-2458-8-120-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2330035___1471-2458-8-120-1.json
+  - Series Count: 2
+  - Series Names: ['Yorkhill', 'Kingston']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[12:48:35.634] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2330035___1471-2458-8-120-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2330035___1471-2458-8-120-1\PMC2330035___1471-2458-8-120-1.json
+  - Series Count: 2
+  - Series Names: ['Yorkhill', 'Kingston']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[12:48:35.640] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 122.4286
+  - Y Min-Max: [61.8480, 184.2766]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:48:35.649] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:48:35.652] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Yorkhill <-> Yorkhill (method=exact_match, score=1.000)', 'Kingston <-> Kingston (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:48:36.392] === SERIES_COMPARISON ===
+Comparaison Yorkhill vs Yorkhill avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 33.390363
+  - MAE Relative: 0.272733
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.392500
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:48:37.388] === SERIES_COMPARISON ===
+Comparaison Kingston vs Kingston avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 34.912724
+  - MAE Relative: 0.285168
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.392500
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:48:37
+Total Duration: 1.84 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2330035_1471-2458-8-120-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2330035_1471-2458-8-120-1
+================================================================================
+Timestamp: 2025-08-07 13:05:29
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2330035___1471-2458-8-120-1
+================================================================================
+
+
+
+[13:05:29.811] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:05:29.814] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:05:29.874] === DATA_LOADING ===
+Chargement des données GT depuis PMC2330035___1471-2458-8-120-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2330035___1471-2458-8-120-1.json
+  - Series Count: 2
+  - Series Names: ['Yorkhill', 'Kingston']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[13:05:29.889] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2330035___1471-2458-8-120-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2330035___1471-2458-8-120-1\PMC2330035___1471-2458-8-120-1.json
+  - Series Count: 2
+  - Series Names: ['Yorkhill', 'Kingston']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[13:05:29.910] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 122.4286
+  - Y Min-Max: [61.8480, 184.2766]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:05:29.934] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:05:29.953] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Yorkhill <-> Yorkhill (method=exact_match, score=1.000)', 'Kingston <-> Kingston (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:05:30.936] === SERIES_COMPARISON ===
+Comparaison Yorkhill vs Yorkhill avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 33.390363
+  - MAE Relative: 0.272733
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.392500
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:05:32.139] === SERIES_COMPARISON ===
+Comparaison Kingston vs Kingston avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 34.912724
+  - MAE Relative: 0.285168
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.392500
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:05:32
+Total Duration: 2.35 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2330035_1471-2458-8-120-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2330035_1471-2458-8-120-1
+================================================================================
+Timestamp: 2025-08-07 16:39:07
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2330035___1471-2458-8-120-1
+================================================================================
+
+
+
+[16:39:07.731] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:39:07.734] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:39:07.779] === DATA_LOADING ===
+Chargement des données GT depuis PMC2330035___1471-2458-8-120-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2330035___1471-2458-8-120-1.json
+  - Series Count: 2
+  - Series Names: ['Yorkhill', 'Kingston']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[16:39:07.800] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2330035___1471-2458-8-120-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2330035___1471-2458-8-120-1\PMC2330035___1471-2458-8-120-1.json
+  - Series Count: 2
+  - Series Names: ['Yorkhill', 'Kingston']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[16:39:07.848] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 122.4286
+  - Y Min-Max: [61.8480, 184.2766]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:39:07.853] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:39:07.859] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Yorkhill <-> Yorkhill (method=exact_match, score=1.000)', 'Kingston <-> Kingston (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:39:08.805] === SERIES_COMPARISON ===
+Comparaison Yorkhill vs Yorkhill avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 33.390363
+  - MAE Relative: 0.272733
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.392500
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:39:10.976] === SERIES_COMPARISON ===
+Comparaison Kingston vs Kingston avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 34.912724
+  - MAE Relative: 0.285168
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.392500
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:39:10
+Total Duration: 3.26 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2330035_1471-2458-8-120-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2330035_1471-2458-8-120-1
+================================================================================
+Timestamp: 2025-08-07 16:58:20
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2330035___1471-2458-8-120-1
+================================================================================
+
+
+
+[16:58:20.421] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:58:20.423] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:58:20.450] === DATA_LOADING ===
+Chargement des données GT depuis PMC2330035___1471-2458-8-120-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2330035___1471-2458-8-120-1.json
+  - Series Count: 2
+  - Series Names: ['Yorkhill', 'Kingston']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[16:58:20.453] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2330035___1471-2458-8-120-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2330035___1471-2458-8-120-1\PMC2330035___1471-2458-8-120-1.json
+  - Series Count: 2
+  - Series Names: ['Yorkhill', 'Kingston']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[16:58:20.455] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 122.4286
+  - Y Min-Max: [61.8480, 184.2766]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:58:20.457] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:58:20.461] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Yorkhill <-> Yorkhill (method=exact_match, score=1.000)', 'Kingston <-> Kingston (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:58:21.102] === SERIES_COMPARISON ===
+Comparaison Yorkhill vs Yorkhill avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 33.390363
+  - MAE Relative: 0.272733
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.392500
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:58:22.861] === SERIES_COMPARISON ===
+Comparaison Kingston vs Kingston avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 34.912724
+  - MAE Relative: 0.285168
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.392500
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:58:22
+Total Duration: 2.46 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2330035_1471-2458-8-120-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

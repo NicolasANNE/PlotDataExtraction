@@ -1,0 +1,1019 @@
+
+================================================================================
+VALIDATION LOG - PMC1097739_1471-2458-5-41-2
+================================================================================
+Timestamp: 2025-08-06 20:15:12
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1097739___1471-2458-5-41-2
+================================================================================
+
+
+
+[20:15:12.542] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:12.576] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:12.582] === DATA_LOADING ===
+Chargement des données GT depuis PMC1097739___1471-2458-5-41-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1097739___1471-2458-5-41-2.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:12.604] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1097739___1471-2458-5-41-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1097739___1471-2458-5-41-2\PMC1097739___1471-2458-5-41-2.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:12.606] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1097739_1471-2458-5-41-2
+================================================================================
+Timestamp: 2025-08-06 21:06:12
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1097739___1471-2458-5-41-2
+================================================================================
+
+
+
+[21:06:12.541] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:06:12.550] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:06:12.681] === DATA_LOADING ===
+Chargement des données GT depuis PMC1097739___1471-2458-5-41-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1097739___1471-2458-5-41-2.json
+  - Series Count: 4
+  - Series Names: ['White men', 'Black men', 'White women', 'Black women']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[21:06:12.688] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1097739___1471-2458-5-41-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1097739___1471-2458-5-41-2\PMC1097739___1471-2458-5-41-2.json
+  - Series Count: 4
+  - Series Names: ['White men', 'Black men', 'White women', 'Black women']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 33
+--------------------------------------------------
+
+[21:06:12.759] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.7940
+  - Y Min-Max: [-1.0447, 0.7493]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[21:06:12.781] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:06:12.810] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['White men <-> White men (method=exact_match, score=1.000)', 'Black men <-> Black men (method=exact_match, score=1.000)', 'White women <-> White women (method=exact_match, score=1.000)', 'Black women <-> Black women (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:06:27.477] === SERIES_COMPARISON ===
+Comparaison White men vs White men avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.224596
+  - MAE Relative: 0.125192
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.278750
+  - GT Points: 8
+  - Extracted Points: 9
+  - Points Ratio: 1.12
+--------------------------------------------------
+
+[21:06:31.974] === SERIES_COMPARISON ===
+Comparaison Black men vs Black men avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.475091
+  - MAE Relative: 0.264820
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.278750
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:06:54.373] === SERIES_COMPARISON ===
+Comparaison White women vs White women avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.312199
+  - MAE Relative: 0.174022
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.278750
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+================================================================================
+VALIDATION LOG - PMC1097739_1471-2458-5-41-2
+================================================================================
+Timestamp: 2025-08-06 21:30:24
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1097739___1471-2458-5-41-2
+================================================================================
+
+
+
+[21:30:24.316] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:30:24.324] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:30:24.376] === DATA_LOADING ===
+Chargement des données GT depuis PMC1097739___1471-2458-5-41-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1097739___1471-2458-5-41-2.json
+  - Series Count: 4
+  - Series Names: ['White men', 'Black men', 'White women', 'Black women']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[21:30:24.381] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1097739___1471-2458-5-41-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1097739___1471-2458-5-41-2\PMC1097739___1471-2458-5-41-2.json
+  - Series Count: 4
+  - Series Names: ['White men', 'Black men', 'White women', 'Black women']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[21:30:24.411] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.7940
+  - Y Min-Max: [-1.0447, 0.7493]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[21:30:24.425] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:30:24.435] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['White men <-> White men (method=exact_match, score=1.000)', 'Black men <-> Black men (method=exact_match, score=1.000)', 'White women <-> White women (method=exact_match, score=1.000)', 'Black women <-> Black women (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:30:25.861] === SERIES_COMPARISON ===
+Comparaison White men vs White men avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.211717
+  - MAE Relative: 0.118013
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.303750
+  - GT Points: 8
+  - Extracted Points: 9
+  - Points Ratio: 1.12
+--------------------------------------------------
+
+[21:30:27.075] === SERIES_COMPARISON ===
+Comparaison Black men vs Black men avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.238153
+  - MAE Relative: 0.132749
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.303750
+  - GT Points: 8
+  - Extracted Points: 9
+  - Points Ratio: 1.12
+--------------------------------------------------
+
+[21:30:28.550] === SERIES_COMPARISON ===
+Comparaison White women vs White women avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.219371
+  - MAE Relative: 0.122279
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.303750
+  - GT Points: 8
+  - Extracted Points: 9
+  - Points Ratio: 1.12
+--------------------------------------------------
+
+[21:30:29.721] === SERIES_COMPARISON ===
+Comparaison Black women vs Black women avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.277568
+  - MAE Relative: 0.154719
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.303750
+  - GT Points: 8
+  - Extracted Points: 9
+  - Points Ratio: 1.12
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:30:29
+Total Duration: 5.47 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1097739_1471-2458-5-41-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1097739_1471-2458-5-41-2
+================================================================================
+Timestamp: 2025-08-07 12:46:19
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1097739___1471-2458-5-41-2
+================================================================================
+
+
+
+[12:46:19.679] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:46:19.687] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:46:19.766] === DATA_LOADING ===
+Chargement des données GT depuis PMC1097739___1471-2458-5-41-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1097739___1471-2458-5-41-2.json
+  - Series Count: 4
+  - Series Names: ['White men', 'Black men', 'White women', 'Black women']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[12:46:19.772] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1097739___1471-2458-5-41-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1097739___1471-2458-5-41-2\PMC1097739___1471-2458-5-41-2.json
+  - Series Count: 4
+  - Series Names: ['White men', 'Black men', 'White women', 'Black women']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 33
+--------------------------------------------------
+
+[12:46:19.781] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.7940
+  - Y Min-Max: [-1.0447, 0.7493]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:46:19.795] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:46:19.801] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['White men <-> White men (method=exact_match, score=1.000)', 'Black men <-> Black men (method=exact_match, score=1.000)', 'White women <-> White women (method=exact_match, score=1.000)', 'Black women <-> Black women (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:46:20.890] === SERIES_COMPARISON ===
+Comparaison White men vs White men avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.224596
+  - MAE Relative: 0.125192
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.278750
+  - GT Points: 8
+  - Extracted Points: 9
+  - Points Ratio: 1.12
+--------------------------------------------------
+
+[12:46:22.112] === SERIES_COMPARISON ===
+Comparaison Black men vs Black men avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.475091
+  - MAE Relative: 0.264820
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.278750
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:46:23.094] === SERIES_COMPARISON ===
+Comparaison White women vs White women avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.312199
+  - MAE Relative: 0.174022
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.278750
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:46:24.090] === SERIES_COMPARISON ===
+Comparaison Black women vs Black women avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.386565
+  - MAE Relative: 0.215475
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.278750
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:46:24
+Total Duration: 4.43 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1097739_1471-2458-5-41-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1097739_1471-2458-5-41-2
+================================================================================
+Timestamp: 2025-08-07 13:03:18
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1097739___1471-2458-5-41-2
+================================================================================
+
+
+
+[13:03:18.291] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:03:18.294] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:03:18.394] === DATA_LOADING ===
+Chargement des données GT depuis PMC1097739___1471-2458-5-41-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1097739___1471-2458-5-41-2.json
+  - Series Count: 4
+  - Series Names: ['White men', 'Black men', 'White women', 'Black women']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[13:03:18.400] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1097739___1471-2458-5-41-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1097739___1471-2458-5-41-2\PMC1097739___1471-2458-5-41-2.json
+  - Series Count: 4
+  - Series Names: ['White men', 'Black men', 'White women', 'Black women']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 33
+--------------------------------------------------
+
+[13:03:18.411] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.7940
+  - Y Min-Max: [-1.0447, 0.7493]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:03:18.420] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:03:18.423] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['White men <-> White men (method=exact_match, score=1.000)', 'Black men <-> Black men (method=exact_match, score=1.000)', 'White women <-> White women (method=exact_match, score=1.000)', 'Black women <-> Black women (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:03:20.222] === SERIES_COMPARISON ===
+Comparaison White men vs White men avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.224596
+  - MAE Relative: 0.125192
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.278750
+  - GT Points: 8
+  - Extracted Points: 9
+  - Points Ratio: 1.12
+--------------------------------------------------
+
+[13:03:21.511] === SERIES_COMPARISON ===
+Comparaison Black men vs Black men avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.475091
+  - MAE Relative: 0.264820
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.278750
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:03:22.576] === SERIES_COMPARISON ===
+Comparaison White women vs White women avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.312199
+  - MAE Relative: 0.174022
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.278750
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:03:23.547] === SERIES_COMPARISON ===
+Comparaison Black women vs Black women avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.386565
+  - MAE Relative: 0.215475
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.278750
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:03:23
+Total Duration: 5.27 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1097739_1471-2458-5-41-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1097739_1471-2458-5-41-2
+================================================================================
+Timestamp: 2025-08-07 16:36:51
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1097739___1471-2458-5-41-2
+================================================================================
+
+
+
+[16:36:51.585] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:36:51.615] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:36:51.723] === DATA_LOADING ===
+Chargement des données GT depuis PMC1097739___1471-2458-5-41-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1097739___1471-2458-5-41-2.json
+  - Series Count: 4
+  - Series Names: ['White men', 'Black men', 'White women', 'Black women']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[16:36:51.749] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1097739___1471-2458-5-41-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1097739___1471-2458-5-41-2\PMC1097739___1471-2458-5-41-2.json
+  - Series Count: 4
+  - Series Names: ['White men', 'Black men', 'White women', 'Black women']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[16:36:51.772] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.7940
+  - Y Min-Max: [-1.0447, 0.7493]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:36:51.775] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:36:51.781] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['White men <-> White men (method=exact_match, score=1.000)', 'Black men <-> Black men (method=exact_match, score=1.000)', 'White women <-> White women (method=exact_match, score=1.000)', 'Black women <-> Black women (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:36:53.159] === SERIES_COMPARISON ===
+Comparaison White men vs White men avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.152778
+  - MAE Relative: 0.085160
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.303750
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:36:54.721] === SERIES_COMPARISON ===
+Comparaison Black men vs Black men avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.288153
+  - MAE Relative: 0.160619
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.303750
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:36:55.570] === SERIES_COMPARISON ===
+Comparaison White women vs White women avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.206871
+  - MAE Relative: 0.115311
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.303750
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:36:56.821] === SERIES_COMPARISON ===
+Comparaison Black women vs Black women avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.109057
+  - MAE Relative: 0.060789
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.303750
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:36:56
+Total Duration: 5.26 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1097739_1471-2458-5-41-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1097739_1471-2458-5-41-2
+================================================================================
+Timestamp: 2025-08-07 16:56:06
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1097739___1471-2458-5-41-2
+================================================================================
+
+
+
+[16:56:06.172] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:56:06.199] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:56:06.255] === DATA_LOADING ===
+Chargement des données GT depuis PMC1097739___1471-2458-5-41-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1097739___1471-2458-5-41-2.json
+  - Series Count: 4
+  - Series Names: ['White men', 'Black men', 'White women', 'Black women']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[16:56:06.262] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1097739___1471-2458-5-41-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1097739___1471-2458-5-41-2\PMC1097739___1471-2458-5-41-2.json
+  - Series Count: 4
+  - Series Names: ['White men', 'Black men', 'White women', 'Black women']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[16:56:06.267] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.7940
+  - Y Min-Max: [-1.0447, 0.7493]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:56:06.270] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:56:06.272] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['White men <-> White men (method=exact_match, score=1.000)', 'Black men <-> Black men (method=exact_match, score=1.000)', 'White women <-> White women (method=exact_match, score=1.000)', 'Black women <-> Black women (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:56:07.395] === SERIES_COMPARISON ===
+Comparaison White men vs White men avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.211717
+  - MAE Relative: 0.118013
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.303750
+  - GT Points: 8
+  - Extracted Points: 9
+  - Points Ratio: 1.12
+--------------------------------------------------
+
+[16:56:09.006] === SERIES_COMPARISON ===
+Comparaison Black men vs Black men avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.238153
+  - MAE Relative: 0.132749
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.303750
+  - GT Points: 8
+  - Extracted Points: 9
+  - Points Ratio: 1.12
+--------------------------------------------------
+
+[16:56:10.478] === SERIES_COMPARISON ===
+Comparaison White women vs White women avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.219371
+  - MAE Relative: 0.122279
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.303750
+  - GT Points: 8
+  - Extracted Points: 9
+  - Points Ratio: 1.12
+--------------------------------------------------
+
+[16:56:11.514] === SERIES_COMPARISON ===
+Comparaison Black women vs Black women avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.277568
+  - MAE Relative: 0.154719
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.303750
+  - GT Points: 8
+  - Extracted Points: 9
+  - Points Ratio: 1.12
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:56:11
+Total Duration: 5.38 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1097739_1471-2458-5-41-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1097739_1471-2458-5-41-2
+================================================================================
+Timestamp: 2025-08-11 13:44:42
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1097739___1471-2458-5-41-2
+================================================================================
+
+
+
+[13:44:42.297] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:44:42.300] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:44:42.368] === DATA_LOADING ===
+Chargement des données GT depuis PMC1097739___1471-2458-5-41-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1097739___1471-2458-5-41-2.json
+  - Series Count: 4
+  - Series Names: ['White men', 'Black men', 'White women', 'Black women']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[13:44:42.378] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1097739___1471-2458-5-41-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1097739___1471-2458-5-41-2\PMC1097739___1471-2458-5-41-2.json
+  - Series Count: 4
+  - Series Names: ['White men', 'Black men', 'White women', 'Black women']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[13:44:42.400] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.7940
+  - Y Min-Max: [-1.0447, 0.7493]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:44:42.412] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:44:42.415] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['White men <-> White men (method=exact_match, score=1.000)', 'Black men <-> Black men (method=exact_match, score=1.000)', 'White women <-> White women (method=exact_match, score=1.000)', 'Black women <-> Black women (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:44:45.622] === SERIES_COMPARISON ===
+Comparaison White men vs White men avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.152778
+  - MAE Relative: 0.085160
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.303750
+  - GT Points: 8
+  - Extracted Points: 9
+  - Points Ratio: 1.12
+--------------------------------------------------
+
+[13:44:48.515] === SERIES_COMPARISON ===
+Comparaison Black men vs Black men avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.259822
+  - MAE Relative: 0.144827
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.303750
+  - GT Points: 8
+  - Extracted Points: 9
+  - Points Ratio: 1.12
+--------------------------------------------------
+
+[13:44:49.974] === SERIES_COMPARISON ===
+Comparaison White women vs White women avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.206871
+  - MAE Relative: 0.115311
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.303750
+  - GT Points: 8
+  - Extracted Points: 9
+  - Points Ratio: 1.12
+--------------------------------------------------
+
+[13:44:51.326] === SERIES_COMPARISON ===
+Comparaison Black women vs Black women avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.109104
+  - MAE Relative: 0.060816
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.303750
+  - GT Points: 8
+  - Extracted Points: 9
+  - Points Ratio: 1.12
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-11 13:44:51
+Total Duration: 9.09 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1097739_1471-2458-5-41-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

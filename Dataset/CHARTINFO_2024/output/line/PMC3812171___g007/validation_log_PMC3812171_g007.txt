@@ -1,0 +1,115 @@
+
+================================================================================
+VALIDATION LOG - PMC3812171_g007
+================================================================================
+Timestamp: 2025-08-07 13:00:09
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3812171___g007
+================================================================================
+
+
+
+[13:00:09.026] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:00:09.028] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:00:09.178] === DATA_LOADING ===
+Chargement des données GT depuis PMC3812171___g007.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3812171___g007.json
+  - Series Count: 2
+  - Series Names: ['Patents', 'Journals']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 38
+--------------------------------------------------
+
+[13:00:09.213] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3812171___g007.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3812171___g007\PMC3812171___g007.json
+  - Series Count: 2
+  - Series Names: ['Patents', 'Journals']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[13:00:09.246] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 164.2867
+  - Y Min-Max: [7.7133, 172.0000]
+  - X Range: 19.0
+--------------------------------------------------
+
+[13:00:09.262] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:00:09.266] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Patents <-> Patents (method=exact_match, score=1.000)', 'Journals <-> Journals (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:00:11.224] === SERIES_COMPARISON ===
+Comparaison Patents vs Patents avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.735404
+  - MAE Relative: 0.016650
+  - Left Miss (rel): -0.003040
+  - Right Miss (rel): -0.009957
+  - X Cutoff: N/A
+  - GT Points: 20
+  - Extracted Points: 20
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:00:17.990] === SERIES_COMPARISON ===
+Comparaison Journals vs Journals avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 5.045412
+  - MAE Relative: 0.030711
+  - Left Miss (rel): -0.004054
+  - Right Miss (rel): -0.008817
+  - X Cutoff: N/A
+  - GT Points: 18
+  - Extracted Points: 20
+  - Points Ratio: 1.11
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:00:17
+Total Duration: 8.98 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3812171_g007.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

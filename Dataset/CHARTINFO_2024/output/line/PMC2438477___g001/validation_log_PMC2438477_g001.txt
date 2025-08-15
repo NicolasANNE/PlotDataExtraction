@@ -1,0 +1,768 @@
+
+================================================================================
+VALIDATION LOG - PMC2438477_g001
+================================================================================
+Timestamp: 2025-08-06 20:16:02
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2438477___g001
+================================================================================
+
+
+
+[20:16:02.626] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:02.660] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:02.667] === DATA_LOADING ===
+Chargement des données GT depuis PMC2438477___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2438477___g001.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:02.670] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2438477___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2438477___g001\PMC2438477___g001.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:02.672] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2438477_g001
+================================================================================
+Timestamp: 2025-08-06 21:32:36
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2438477___g001
+================================================================================
+
+
+
+[21:32:36.589] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:32:36.622] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:32:36.666] === DATA_LOADING ===
+Chargement des données GT depuis PMC2438477___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2438477___g001.json
+  - Series Count: 4
+  - Series Names: ['Replication Experiment, Bases Called', 'Accuracy Experiment, Bases Called', 'Replication Experiment, Phred Score', 'Accuracy Experiment, Phred Score']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 44
+--------------------------------------------------
+
+[21:32:36.683] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2438477___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2438477___g001\PMC2438477___g001.json
+  - Series Count: 4
+  - Series Names: ['Replication Experiment, Bases Called', 'Accuracy Experiment, Bases Called', 'Replication Experiment, Phred Score', 'Accuracy Experiment, Phred Score']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 44
+--------------------------------------------------
+
+[21:32:36.686] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 95.2492
+  - Y Min-Max: [0.7508, 96.0000]
+  - X Range: 50.09434154616556
+--------------------------------------------------
+
+[21:32:36.688] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:32:36.690] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Replication Experiment, Bases Called <-> Replication Experiment, Bases Called (method=exact_match, score=1.000)', 'Accuracy Experiment, Bases Called <-> Accuracy Experiment, Bases Called (method=exact_match, score=1.000)', 'Replication Experiment, Phred Score <-> Replication Experiment, Phred Score (method=exact_match, score=1.000)', 'Accuracy Experiment, Phred Score <-> Accuracy Experiment, Phred Score (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:32:37.545] === SERIES_COMPARISON ===
+Comparaison Replication Experiment, Bases Called vs Replication Experiment, Bases Called avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 92.084266
+  - MAE Relative: 0.966772
+  - Left Miss (rel): -0.001493
+  - Right Miss (rel): 0.000943
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 11
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:32:38.442] === SERIES_COMPARISON ===
+Comparaison Accuracy Experiment, Bases Called vs Accuracy Experiment, Bases Called avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 91.258110
+  - MAE Relative: 0.958098
+  - Left Miss (rel): -0.001649
+  - Right Miss (rel): 0.001727
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 11
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:32:39.818] === SERIES_COMPARISON ===
+Comparaison Replication Experiment, Phred Score vs Replication Experiment, Phred Score avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 47.626115
+  - MAE Relative: 0.500016
+  - Left Miss (rel): -0.001493
+  - Right Miss (rel): 0.001883
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 11
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:32:41.453] === SERIES_COMPARISON ===
+Comparaison Accuracy Experiment, Phred Score vs Accuracy Experiment, Phred Score avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 29.769504
+  - MAE Relative: 0.312543
+  - Left Miss (rel): -0.001336
+  - Right Miss (rel): 0.000473
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 11
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:32:41
+Total Duration: 4.89 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2438477_g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2438477_g001
+================================================================================
+Timestamp: 2025-08-07 12:48:44
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2438477___g001
+================================================================================
+
+
+
+[12:48:44.591] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:48:44.596] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:48:44.661] === DATA_LOADING ===
+Chargement des données GT depuis PMC2438477___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2438477___g001.json
+  - Series Count: 4
+  - Series Names: ['Replication Experiment, Bases Called', 'Accuracy Experiment, Bases Called', 'Replication Experiment, Phred Score', 'Accuracy Experiment, Phred Score']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 44
+--------------------------------------------------
+
+[12:48:44.687] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2438477___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2438477___g001\PMC2438477___g001.json
+  - Series Count: 4
+  - Series Names: ['Replication Experiment, Bases Called', 'Accuracy Experiment, Bases Called', 'Replication Experiment, Phred Score', 'Accuracy Experiment, Phred Score']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 44
+--------------------------------------------------
+
+[12:48:44.698] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 95.2492
+  - Y Min-Max: [0.7508, 96.0000]
+  - X Range: 50.09434154616556
+--------------------------------------------------
+
+[12:48:44.707] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:48:44.710] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Replication Experiment, Bases Called <-> Replication Experiment, Bases Called (method=exact_match, score=1.000)', 'Accuracy Experiment, Bases Called <-> Accuracy Experiment, Bases Called (method=exact_match, score=1.000)', 'Replication Experiment, Phred Score <-> Replication Experiment, Phred Score (method=exact_match, score=1.000)', 'Accuracy Experiment, Phred Score <-> Accuracy Experiment, Phred Score (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:48:46.182] === SERIES_COMPARISON ===
+Comparaison Replication Experiment, Bases Called vs Replication Experiment, Bases Called avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 92.084266
+  - MAE Relative: 0.966772
+  - Left Miss (rel): -0.001493
+  - Right Miss (rel): 0.000943
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 11
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:48:47.214] === SERIES_COMPARISON ===
+Comparaison Accuracy Experiment, Bases Called vs Accuracy Experiment, Bases Called avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 91.258110
+  - MAE Relative: 0.958098
+  - Left Miss (rel): -0.001649
+  - Right Miss (rel): 0.001727
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 11
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:48:47.970] === SERIES_COMPARISON ===
+Comparaison Replication Experiment, Phred Score vs Replication Experiment, Phred Score avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 47.626115
+  - MAE Relative: 0.500016
+  - Left Miss (rel): -0.001493
+  - Right Miss (rel): 0.001883
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 11
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:48:48.833] === SERIES_COMPARISON ===
+Comparaison Accuracy Experiment, Phred Score vs Accuracy Experiment, Phred Score avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 29.769504
+  - MAE Relative: 0.312543
+  - Left Miss (rel): -0.001336
+  - Right Miss (rel): 0.000473
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 11
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:48:48
+Total Duration: 4.25 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2438477_g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2438477_g001
+================================================================================
+Timestamp: 2025-08-07 13:05:38
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2438477___g001
+================================================================================
+
+
+
+[13:05:38.486] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:05:38.493] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:05:38.610] === DATA_LOADING ===
+Chargement des données GT depuis PMC2438477___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2438477___g001.json
+  - Series Count: 4
+  - Series Names: ['Replication Experiment, Bases Called', 'Accuracy Experiment, Bases Called', 'Replication Experiment, Phred Score', 'Accuracy Experiment, Phred Score']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 44
+--------------------------------------------------
+
+[13:05:38.631] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2438477___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2438477___g001\PMC2438477___g001.json
+  - Series Count: 4
+  - Series Names: ['Replication Experiment, Bases Called', 'Accuracy Experiment, Bases Called', 'Replication Experiment, Phred Score', 'Accuracy Experiment, Phred Score']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 44
+--------------------------------------------------
+
+[13:05:38.667] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 95.2492
+  - Y Min-Max: [0.7508, 96.0000]
+  - X Range: 50.09434154616556
+--------------------------------------------------
+
+[13:05:38.680] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:05:38.699] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Replication Experiment, Bases Called <-> Replication Experiment, Bases Called (method=exact_match, score=1.000)', 'Accuracy Experiment, Bases Called <-> Accuracy Experiment, Bases Called (method=exact_match, score=1.000)', 'Replication Experiment, Phred Score <-> Replication Experiment, Phred Score (method=exact_match, score=1.000)', 'Accuracy Experiment, Phred Score <-> Accuracy Experiment, Phred Score (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:05:40.450] === SERIES_COMPARISON ===
+Comparaison Replication Experiment, Bases Called vs Replication Experiment, Bases Called avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 92.084266
+  - MAE Relative: 0.966772
+  - Left Miss (rel): -0.001493
+  - Right Miss (rel): 0.000943
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 11
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:05:42.171] === SERIES_COMPARISON ===
+Comparaison Accuracy Experiment, Bases Called vs Accuracy Experiment, Bases Called avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 91.258110
+  - MAE Relative: 0.958098
+  - Left Miss (rel): -0.001649
+  - Right Miss (rel): 0.001727
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 11
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:05:43.752] === SERIES_COMPARISON ===
+Comparaison Replication Experiment, Phred Score vs Replication Experiment, Phred Score avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 47.626115
+  - MAE Relative: 0.500016
+  - Left Miss (rel): -0.001493
+  - Right Miss (rel): 0.001883
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 11
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:05:44.593] === SERIES_COMPARISON ===
+Comparaison Accuracy Experiment, Phred Score vs Accuracy Experiment, Phred Score avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 29.769504
+  - MAE Relative: 0.312543
+  - Left Miss (rel): -0.001336
+  - Right Miss (rel): 0.000473
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 11
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:05:44
+Total Duration: 6.13 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2438477_g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2438477_g001
+================================================================================
+Timestamp: 2025-08-07 16:39:16
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2438477___g001
+================================================================================
+
+
+
+[16:39:16.480] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:39:16.482] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:39:16.529] === DATA_LOADING ===
+Chargement des données GT depuis PMC2438477___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2438477___g001.json
+  - Series Count: 4
+  - Series Names: ['Replication Experiment, Bases Called', 'Accuracy Experiment, Bases Called', 'Replication Experiment, Phred Score', 'Accuracy Experiment, Phred Score']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 44
+--------------------------------------------------
+
+[16:39:16.541] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2438477___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2438477___g001\PMC2438477___g001.json
+  - Series Count: 4
+  - Series Names: ['Replication Experiment, Bases Called', 'Accuracy Experiment, Bases Called', 'Replication Experiment, Phred Score', 'Accuracy Experiment, Phred Score']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 44
+--------------------------------------------------
+
+[16:39:16.544] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 95.2492
+  - Y Min-Max: [0.7508, 96.0000]
+  - X Range: 50.09434154616556
+--------------------------------------------------
+
+[16:39:16.547] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:39:16.549] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Replication Experiment, Bases Called <-> Replication Experiment, Bases Called (method=exact_match, score=1.000)', 'Accuracy Experiment, Bases Called <-> Accuracy Experiment, Bases Called (method=exact_match, score=1.000)', 'Replication Experiment, Phred Score <-> Replication Experiment, Phred Score (method=exact_match, score=1.000)', 'Accuracy Experiment, Phred Score <-> Accuracy Experiment, Phred Score (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:39:17.225] === SERIES_COMPARISON ===
+Comparaison Replication Experiment, Bases Called vs Replication Experiment, Bases Called avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 92.084266
+  - MAE Relative: 0.966772
+  - Left Miss (rel): -0.001493
+  - Right Miss (rel): 0.000943
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 11
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:39:18.803] === SERIES_COMPARISON ===
+Comparaison Accuracy Experiment, Bases Called vs Accuracy Experiment, Bases Called avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 91.258110
+  - MAE Relative: 0.958098
+  - Left Miss (rel): -0.001649
+  - Right Miss (rel): 0.001727
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 11
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:39:20.112] === SERIES_COMPARISON ===
+Comparaison Replication Experiment, Phred Score vs Replication Experiment, Phred Score avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 47.626115
+  - MAE Relative: 0.500016
+  - Left Miss (rel): -0.001493
+  - Right Miss (rel): 0.001883
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 11
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:39:21.273] === SERIES_COMPARISON ===
+Comparaison Accuracy Experiment, Phred Score vs Accuracy Experiment, Phred Score avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 29.769504
+  - MAE Relative: 0.312543
+  - Left Miss (rel): -0.001336
+  - Right Miss (rel): 0.000473
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 11
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:39:21
+Total Duration: 4.83 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2438477_g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2438477_g001
+================================================================================
+Timestamp: 2025-08-07 16:58:30
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2438477___g001
+================================================================================
+
+
+
+[16:58:30.388] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:58:30.391] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:58:30.422] === DATA_LOADING ===
+Chargement des données GT depuis PMC2438477___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2438477___g001.json
+  - Series Count: 4
+  - Series Names: ['Replication Experiment, Bases Called', 'Accuracy Experiment, Bases Called', 'Replication Experiment, Phred Score', 'Accuracy Experiment, Phred Score']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 44
+--------------------------------------------------
+
+[16:58:30.430] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2438477___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2438477___g001\PMC2438477___g001.json
+  - Series Count: 4
+  - Series Names: ['Replication Experiment, Bases Called', 'Accuracy Experiment, Bases Called', 'Replication Experiment, Phred Score', 'Accuracy Experiment, Phred Score']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 44
+--------------------------------------------------
+
+[16:58:30.434] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 95.2492
+  - Y Min-Max: [0.7508, 96.0000]
+  - X Range: 50.09434154616556
+--------------------------------------------------
+
+[16:58:30.437] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:58:30.441] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Replication Experiment, Bases Called <-> Replication Experiment, Bases Called (method=exact_match, score=1.000)', 'Accuracy Experiment, Bases Called <-> Accuracy Experiment, Bases Called (method=exact_match, score=1.000)', 'Replication Experiment, Phred Score <-> Replication Experiment, Phred Score (method=exact_match, score=1.000)', 'Accuracy Experiment, Phred Score <-> Accuracy Experiment, Phred Score (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:58:31.302] === SERIES_COMPARISON ===
+Comparaison Replication Experiment, Bases Called vs Replication Experiment, Bases Called avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 92.084266
+  - MAE Relative: 0.966772
+  - Left Miss (rel): -0.001493
+  - Right Miss (rel): 0.000943
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 11
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:58:32.196] === SERIES_COMPARISON ===
+Comparaison Accuracy Experiment, Bases Called vs Accuracy Experiment, Bases Called avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 91.258110
+  - MAE Relative: 0.958098
+  - Left Miss (rel): -0.001649
+  - Right Miss (rel): 0.001727
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 11
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:58:33.210] === SERIES_COMPARISON ===
+Comparaison Replication Experiment, Phred Score vs Replication Experiment, Phred Score avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 47.626115
+  - MAE Relative: 0.500016
+  - Left Miss (rel): -0.001493
+  - Right Miss (rel): 0.001883
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 11
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:58:34.098] === SERIES_COMPARISON ===
+Comparaison Accuracy Experiment, Phred Score vs Accuracy Experiment, Phred Score avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 29.769504
+  - MAE Relative: 0.312543
+  - Left Miss (rel): -0.001336
+  - Right Miss (rel): 0.000473
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 11
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:58:34
+Total Duration: 3.72 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2438477_g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,115 @@
+
+================================================================================
+VALIDATION LOG - PMC3438796_CMMM2012-198145.002
+================================================================================
+Timestamp: 2025-08-07 12:55:12
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3438796___CMMM2012-198145.002
+================================================================================
+
+
+
+[12:55:12.946] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:55:12.953] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:55:13.030] === DATA_LOADING ===
+Chargement des données GT depuis PMC3438796___CMMM2012-198145.002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3438796___CMMM2012-198145.002.json
+  - Series Count: 2
+  - Series Names: ['Simulated tumor growth (A = 18h^{-1})', 'Experiment']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 9
+--------------------------------------------------
+
+[12:55:13.035] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3438796___CMMM2012-198145.002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3438796___CMMM2012-198145.002\PMC3438796___CMMM2012-198145.002.json
+  - Series Count: 2
+  - Series Names: ['Simulated tumor growth (A = 18 h⁻¹)', 'Experiment']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 14
+--------------------------------------------------
+
+[12:55:13.048] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 4.9089
+  - Y Min-Max: [0.6000, 5.5089]
+  - X Range: 30.25352112676056
+--------------------------------------------------
+
+[12:55:13.052] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:55:13.055] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Experiment <-> Experiment (method=exact_match, score=1.000)', 'Simulated tumor growth (A = 18h^{-1}) <-> Simulated tumor growth (A = 18 h⁻¹) (method=fuzzy_match, score=0.850)']
+--------------------------------------------------
+
+[12:55:15.019] === SERIES_COMPARISON ===
+Comparaison Experiment vs Experiment avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.083869
+  - MAE Relative: 0.017085
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.064246
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 7
+  - Points Ratio: 1.17
+--------------------------------------------------
+
+[12:55:16.827] === SERIES_COMPARISON ===
+Comparaison Simulated tumor growth (A = 18h^{-1}) vs Simulated tumor growth (A = 18 h⁻¹) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.059239
+  - MAE Relative: 0.012068
+  - Left Miss (rel): 0.001397
+  - Right Miss (rel): 0.006983
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 7
+  - Points Ratio: 2.33
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:55:16
+Total Duration: 3.93 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3438796_CMMM2012-198145.002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

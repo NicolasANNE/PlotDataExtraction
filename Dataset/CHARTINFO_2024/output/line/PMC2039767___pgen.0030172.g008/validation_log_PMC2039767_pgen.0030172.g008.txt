@@ -1,0 +1,628 @@
+
+================================================================================
+VALIDATION LOG - PMC2039767_pgen.0030172.g008
+================================================================================
+Timestamp: 2025-08-06 20:15:54
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2039767___pgen.0030172.g008
+================================================================================
+
+
+
+[20:15:54.674] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:54.745] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:54.782] === DATA_LOADING ===
+Chargement des données GT depuis PMC2039767___pgen.0030172.g008.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2039767___pgen.0030172.g008.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:54.797] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2039767___pgen.0030172.g008.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2039767___pgen.0030172.g008\PMC2039767___pgen.0030172.g008.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:54.815] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2039767_pgen.0030172.g008
+================================================================================
+Timestamp: 2025-08-06 21:32:13
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2039767___pgen.0030172.g008
+================================================================================
+
+
+
+[21:32:13.182] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:32:13.184] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:32:13.234] === DATA_LOADING ===
+Chargement des données GT depuis PMC2039767___pgen.0030172.g008.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2039767___pgen.0030172.g008.json
+  - Series Count: 2
+  - Series Names: ['4xRSRE', '4xmtRSRE']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 29
+--------------------------------------------------
+
+[21:32:13.238] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2039767___pgen.0030172.g008.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2039767___pgen.0030172.g008\PMC2039767___pgen.0030172.g008.json
+  - Series Count: 2
+  - Series Names: ['Vector control', '4xmtRSRE']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 70
+--------------------------------------------------
+
+[21:32:13.242] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 960.0000
+  - Y Min-Max: [420.0000, 1380.0000]
+  - X Range: 324.91978609625676
+--------------------------------------------------
+
+[21:32:13.247] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:32:13.258] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['4xmtRSRE <-> 4xmtRSRE (method=exact_match, score=1.000)', '4xRSRE <-> Vector control (method=similarity_match, score=0.855)']
+--------------------------------------------------
+
+[21:32:14.286] === SERIES_COMPARISON ===
+Comparaison 4xmtRSRE vs 4xmtRSRE avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 22.392250
+  - MAE Relative: 0.023325
+  - Left Miss (rel): 0.071840
+  - Right Miss (rel): 0.004855
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 32
+  - Points Ratio: 16.00
+--------------------------------------------------
+
+[21:32:15.048] === SERIES_COMPARISON ===
+Comparaison 4xRSRE vs Vector control avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 67.324419
+  - MAE Relative: 0.070130
+  - Left Miss (rel): 0.071840
+  - Right Miss (rel): 0.002222
+  - X Cutoff: N/A
+  - GT Points: 27
+  - Extracted Points: 38
+  - Points Ratio: 1.41
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:32:15
+Total Duration: 1.89 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2039767_pgen.0030172.g008.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2039767_pgen.0030172.g008
+================================================================================
+Timestamp: 2025-08-07 12:48:16
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2039767___pgen.0030172.g008
+================================================================================
+
+
+
+[12:48:16.114] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:48:16.117] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:48:16.168] === DATA_LOADING ===
+Chargement des données GT depuis PMC2039767___pgen.0030172.g008.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2039767___pgen.0030172.g008.json
+  - Series Count: 2
+  - Series Names: ['4xRSRE', '4xmtRSRE']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 29
+--------------------------------------------------
+
+[12:48:16.172] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2039767___pgen.0030172.g008.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2039767___pgen.0030172.g008\PMC2039767___pgen.0030172.g008.json
+  - Series Count: 2
+  - Series Names: ['Vector control', '4xmtRSRE']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 68
+--------------------------------------------------
+
+[12:48:16.176] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 940.0000
+  - Y Min-Max: [380.0000, 1320.0000]
+  - X Range: 328.34224598930484
+--------------------------------------------------
+
+[12:48:16.181] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:48:16.188] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['4xmtRSRE <-> 4xmtRSRE (method=exact_match, score=1.000)', '4xRSRE <-> Vector control (method=similarity_match, score=0.742)']
+--------------------------------------------------
+
+[12:48:17.270] === SERIES_COMPARISON ===
+Comparaison 4xmtRSRE vs 4xmtRSRE avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 22.403487
+  - MAE Relative: 0.023833
+  - Left Miss (rel): 0.071091
+  - Right Miss (rel): -0.010423
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 3
+  - Points Ratio: 1.50
+--------------------------------------------------
+
+[12:48:18.306] === SERIES_COMPARISON ===
+Comparaison 4xRSRE vs Vector control avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 181.400019
+  - MAE Relative: 0.192979
+  - Left Miss (rel): 0.071091
+  - Right Miss (rel): 0.002199
+  - X Cutoff: N/A
+  - GT Points: 27
+  - Extracted Points: 65
+  - Points Ratio: 2.41
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:48:18
+Total Duration: 2.23 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2039767_pgen.0030172.g008.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2039767_pgen.0030172.g008
+================================================================================
+Timestamp: 2025-08-07 13:05:09
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2039767___pgen.0030172.g008
+================================================================================
+
+
+
+[13:05:09.532] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:05:09.547] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:05:09.644] === DATA_LOADING ===
+Chargement des données GT depuis PMC2039767___pgen.0030172.g008.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2039767___pgen.0030172.g008.json
+  - Series Count: 2
+  - Series Names: ['4xRSRE', '4xmtRSRE']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 29
+--------------------------------------------------
+
+[13:05:09.648] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2039767___pgen.0030172.g008.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2039767___pgen.0030172.g008\PMC2039767___pgen.0030172.g008.json
+  - Series Count: 2
+  - Series Names: ['Vector control', '4xmtRSRE']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[13:05:09.652] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 930.0000
+  - Y Min-Max: [420.0000, 1350.0000]
+  - X Range: 324.91978609625676
+--------------------------------------------------
+
+[13:05:09.655] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:05:09.661] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['4xmtRSRE <-> 4xmtRSRE (method=exact_match, score=1.000)', '4xRSRE <-> Vector control (method=similarity_match, score=0.816)']
+--------------------------------------------------
+
+[13:05:10.579] === SERIES_COMPARISON ===
+Comparaison 4xmtRSRE vs 4xmtRSRE avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 22.392250
+  - MAE Relative: 0.024078
+  - Left Miss (rel): 0.071840
+  - Right Miss (rel): 0.004855
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:05:11.751] === SERIES_COMPARISON ===
+Comparaison 4xRSRE vs Vector control avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 47.359724
+  - MAE Relative: 0.050924
+  - Left Miss (rel): 0.071840
+  - Right Miss (rel): 0.002222
+  - X Cutoff: N/A
+  - GT Points: 27
+  - Extracted Points: 13
+  - Points Ratio: 0.48
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:05:11
+Total Duration: 2.24 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2039767_pgen.0030172.g008.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2039767_pgen.0030172.g008
+================================================================================
+Timestamp: 2025-08-07 16:38:47
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2039767___pgen.0030172.g008
+================================================================================
+
+
+
+[16:38:47.526] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:38:47.530] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:38:47.586] === DATA_LOADING ===
+Chargement des données GT depuis PMC2039767___pgen.0030172.g008.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2039767___pgen.0030172.g008.json
+  - Series Count: 2
+  - Series Names: ['4xRSRE', '4xmtRSRE']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 29
+--------------------------------------------------
+
+[16:38:47.599] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2039767___pgen.0030172.g008.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2039767___pgen.0030172.g008\PMC2039767___pgen.0030172.g008.json
+  - Series Count: 2
+  - Series Names: ['Vector control', '4xmtRSRE']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 68
+--------------------------------------------------
+
+[16:38:47.623] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 940.0000
+  - Y Min-Max: [380.0000, 1320.0000]
+  - X Range: 328.34224598930484
+--------------------------------------------------
+
+[16:38:47.626] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:38:47.632] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['4xmtRSRE <-> 4xmtRSRE (method=exact_match, score=1.000)', '4xRSRE <-> Vector control (method=similarity_match, score=0.742)']
+--------------------------------------------------
+
+[16:38:48.402] === SERIES_COMPARISON ===
+Comparaison 4xmtRSRE vs 4xmtRSRE avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 22.403487
+  - MAE Relative: 0.023833
+  - Left Miss (rel): 0.071091
+  - Right Miss (rel): -0.010423
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 3
+  - Points Ratio: 1.50
+--------------------------------------------------
+
+[16:38:49.022] === SERIES_COMPARISON ===
+Comparaison 4xRSRE vs Vector control avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 181.400019
+  - MAE Relative: 0.192979
+  - Left Miss (rel): 0.071091
+  - Right Miss (rel): 0.002199
+  - X Cutoff: N/A
+  - GT Points: 27
+  - Extracted Points: 65
+  - Points Ratio: 2.41
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:38:49
+Total Duration: 1.50 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2039767_pgen.0030172.g008.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2039767_pgen.0030172.g008
+================================================================================
+Timestamp: 2025-08-07 16:58:44
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2039767___pgen.0030172.g008
+================================================================================
+
+
+
+[16:58:44.077] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:58:44.090] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:58:44.160] === DATA_LOADING ===
+Chargement des données GT depuis PMC2039767___pgen.0030172.g008.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2039767___pgen.0030172.g008.json
+  - Series Count: 2
+  - Series Names: ['4xRSRE', '4xmtRSRE']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 29
+--------------------------------------------------
+
+[16:58:44.167] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2039767___pgen.0030172.g008.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2039767___pgen.0030172.g008\PMC2039767___pgen.0030172.g008.json
+  - Series Count: 2
+  - Series Names: ['Vector control', '4xmtRSRE']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 68
+--------------------------------------------------
+
+[16:58:44.171] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 940.0000
+  - Y Min-Max: [380.0000, 1320.0000]
+  - X Range: 328.34224598930484
+--------------------------------------------------
+
+[16:58:44.174] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:58:44.177] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['4xmtRSRE <-> 4xmtRSRE (method=exact_match, score=1.000)', '4xRSRE <-> Vector control (method=similarity_match, score=0.742)']
+--------------------------------------------------
+
+[16:58:45.120] === SERIES_COMPARISON ===
+Comparaison 4xmtRSRE vs 4xmtRSRE avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 22.403487
+  - MAE Relative: 0.023833
+  - Left Miss (rel): 0.071091
+  - Right Miss (rel): -0.010423
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 3
+  - Points Ratio: 1.50
+--------------------------------------------------
+
+[16:58:45.947] === SERIES_COMPARISON ===
+Comparaison 4xRSRE vs Vector control avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 181.400019
+  - MAE Relative: 0.192979
+  - Left Miss (rel): 0.071091
+  - Right Miss (rel): 0.002199
+  - X Cutoff: N/A
+  - GT Points: 27
+  - Extracted Points: 65
+  - Points Ratio: 2.41
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:58:45
+Total Duration: 1.89 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2039767_pgen.0030172.g008.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

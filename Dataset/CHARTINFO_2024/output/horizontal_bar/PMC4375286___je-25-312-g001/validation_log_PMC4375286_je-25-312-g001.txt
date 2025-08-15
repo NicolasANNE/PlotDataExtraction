@@ -1,0 +1,115 @@
+
+================================================================================
+VALIDATION LOG - PMC4375286_je-25-312-g001
+================================================================================
+Timestamp: 2025-08-06 18:29:41
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC4375286___je-25-312-g001
+================================================================================
+
+
+
+[18:29:41.962] === VALIDATION_START ===
+Début de la validation pour l'image PMC4375286___je-25-312-g001
+--------------------------------------------------
+
+[18:29:42.003] === DATA_LOADING ===
+Chargement des données Ground Truth depuis PMC4375286___je-25-312-g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\horizontal_bar\PMC4375286___je-25-312-g001.json
+  - Series Count: 2
+  - Series Names: ['Han', 'Mongolian & others']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 14
+--------------------------------------------------
+
+[18:29:42.006] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC4375286___je-25-312-g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC4375286___je-25-312-g001\PMC4375286___je-25-312-g001.json
+  - Series Count: 2
+  - Series Names: ['Han', 'Mongolian & others']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 14
+--------------------------------------------------
+
+[18:29:42.009] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: horizontal bar
+  - Extractor Plot Type: bar
+  - Final Plot Type: bar
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[18:29:42.012] === BOUNDS_CALCULATION ===
+Bornes global calculées pour normalisation MAE relative
+
+Data:
+  - X Range: N/A (categorical X)
+  - Y Range: 70.0000
+  - X Min-Max: [N/A, N/A]
+  - Y Min-Max: [22.0000, 92.0000]
+--------------------------------------------------
+
+[18:29:42.013] === SERIES_MATCHING ===
+Appariement des séries utilisant: Exact -> Fuzzy -> Similarity
+
+Data:
+  - GT Series: 2 séries: ['Han', 'Mongolian & others']
+  - Extracted Series: 2 séries: ['Han', 'Mongolian & others']
+  - Matches Found: 2 appariements
+  - Match Details: ['Han <-> Han (method=exact_match, score=1.000)', 'Mongolian & others <-> Mongolian & others (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[18:29:42.873] === SERIES_COMPARISON ===
+Comparaison Han vs Han avec BarComparator
+
+Data:
+  - MAE Absolute: 2.613316
+  - MAE Relative: 0.037333
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.988571
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[18:29:43.646] === SERIES_COMPARISON ===
+Comparaison Mongolian & others vs Mongolian & others avec BarComparator
+
+Data:
+  - MAE Absolute: 3.461242
+  - MAE Relative: 0.049446
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.988571
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 18:29:43
+Total Duration: 1.69 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0% if total_results > 0 else "N/A"
+
+Generated Files:
+- Validation Log: validation_log_PMC4375286_je-25-312-g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,303 @@
+
+================================================================================
+VALIDATION LOG - PMC1168903_1471-2458-5-48-1
+================================================================================
+Timestamp: 2025-08-07 13:12:21
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC1168903___1471-2458-5-48-1
+================================================================================
+
+
+
+[13:12:22.031] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:12:22.060] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:12:22.112] === DATA_LOADING ===
+Chargement des données GT depuis PMC1168903___1471-2458-5-48-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC1168903___1471-2458-5-48-1.json
+  - Series Count: 1
+  - Series Names: ['[unnamed data series #0]']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[13:12:22.117] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1168903___1471-2458-5-48-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC1168903___1471-2458-5-48-1\PMC1168903___1471-2458-5-48-1.json
+  - Series Count: 1
+  - Series Names: ['Series 1']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[13:12:22.121] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 36.0000
+  - Y Min-Max: [11.0000, 47.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:12:22.124] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:12:22.128] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['[unnamed data series #0] <-> Series 1 (method=position_match_generic, score=0.100)']
+--------------------------------------------------
+
+[13:12:24.525] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs Series 1 avec BarComparator
+
+Data:
+  - MAE Absolute: 0.311277
+  - MAE Relative: 0.008647
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.992500
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:12:24
+Total Duration: 2.55 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1168903_1471-2458-5-48-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1168903_1471-2458-5-48-1
+================================================================================
+Timestamp: 2025-08-07 16:46:20
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC1168903___1471-2458-5-48-1
+================================================================================
+
+
+
+[16:46:20.230] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:46:20.236] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:46:20.289] === DATA_LOADING ===
+Chargement des données GT depuis PMC1168903___1471-2458-5-48-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC1168903___1471-2458-5-48-1.json
+  - Series Count: 1
+  - Series Names: ['[unnamed data series #0]']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[16:46:20.293] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1168903___1471-2458-5-48-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC1168903___1471-2458-5-48-1\PMC1168903___1471-2458-5-48-1.json
+  - Series Count: 1
+  - Series Names: ['series1']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[16:46:20.297] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 36.0000
+  - Y Min-Max: [11.0000, 47.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:46:20.301] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:46:21.308] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['[unnamed data series #0] <-> series1 (method=position_match_generic, score=0.100)']
+--------------------------------------------------
+
+[16:46:32.827] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs series1 avec BarComparator
+
+Data:
+  - MAE Absolute: 0.311277
+  - MAE Relative: 0.008647
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.992500
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:46:32
+Total Duration: 12.67 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1168903_1471-2458-5-48-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1168903_1471-2458-5-48-1
+================================================================================
+Timestamp: 2025-08-07 17:05:10
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC1168903___1471-2458-5-48-1
+================================================================================
+
+
+
+[17:05:10.515] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:05:10.518] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[17:05:10.553] === DATA_LOADING ===
+Chargement des données GT depuis PMC1168903___1471-2458-5-48-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC1168903___1471-2458-5-48-1.json
+  - Series Count: 1
+  - Series Names: ['[unnamed data series #0]']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[17:05:10.557] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1168903___1471-2458-5-48-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC1168903___1471-2458-5-48-1\PMC1168903___1471-2458-5-48-1.json
+  - Series Count: 1
+  - Series Names: ['series1']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[17:05:10.564] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 36.0000
+  - Y Min-Max: [11.0000, 47.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[17:05:10.566] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:05:10.570] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['[unnamed data series #0] <-> series1 (method=position_match_generic, score=0.100)']
+--------------------------------------------------
+
+[17:05:12.088] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs series1 avec BarComparator
+
+Data:
+  - MAE Absolute: 0.311277
+  - MAE Relative: 0.008647
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.992500
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:05:12
+Total Duration: 1.63 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1168903_1471-2458-5-48-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

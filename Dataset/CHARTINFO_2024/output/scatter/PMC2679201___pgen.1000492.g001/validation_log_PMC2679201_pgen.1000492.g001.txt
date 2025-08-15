@@ -1,0 +1,387 @@
+
+================================================================================
+VALIDATION LOG - PMC2679201_pgen.1000492.g001
+================================================================================
+Timestamp: 2025-08-07 13:07:37
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2679201___pgen.1000492.g001
+================================================================================
+
+
+
+[13:07:37.622] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:07:37.624] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:07:37.702] === DATA_LOADING ===
+Chargement des données GT depuis PMC2679201___pgen.1000492.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC2679201___pgen.1000492.g001.json
+  - Series Count: 3
+  - Series Names: ['[unnamed data series #0]', '[unnamed data series #1]', '[unnamed data series #2]']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 182
+--------------------------------------------------
+
+[13:07:37.719] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2679201___pgen.1000492.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2679201___pgen.1000492.g001\PMC2679201___pgen.1000492.g001.json
+  - Series Count: 3
+  - Series Names: ['circle', 'square', 'diamond']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 175
+--------------------------------------------------
+
+[13:07:37.734] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 168.2331
+  - Y Min-Max: [-108.2331, 60.0000]
+  - X Range: 144.31243680485343
+--------------------------------------------------
+
+[13:07:37.736] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:07:37.743] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['[unnamed data series #0] <-> circle (method=similarity_match, score=0.563)', '[unnamed data series #1] <-> diamond (method=similarity_match, score=0.702)', '[unnamed data series #2] <-> square (method=similarity_match, score=0.861)']
+--------------------------------------------------
+
+[13:07:38.516] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs circle avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 22.792375
+  - MAE Relative: 0.135481
+  - Left Miss (rel): -0.011000
+  - Right Miss (rel): 0.088737
+  - X Cutoff: N/A
+  - GT Points: 39
+  - Extracted Points: 53
+  - Points Ratio: 1.36
+--------------------------------------------------
+
+[13:07:39.268] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #1] vs diamond avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 10.868352
+  - MAE Relative: 0.064603
+  - Left Miss (rel): 0.139919
+  - Right Miss (rel): 0.011140
+  - X Cutoff: N/A
+  - GT Points: 36
+  - Extracted Points: 37
+  - Points Ratio: 1.03
+--------------------------------------------------
+
+[13:07:40.106] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #2] vs square avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 27.868587
+  - MAE Relative: 0.165655
+  - Left Miss (rel): 0.000245
+  - Right Miss (rel): 0.029637
+  - X Cutoff: N/A
+  - GT Points: 107
+  - Extracted Points: 85
+  - Points Ratio: 0.79
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:07:40
+Total Duration: 2.49 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2679201_pgen.1000492.g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2679201_pgen.1000492.g001
+================================================================================
+Timestamp: 2025-08-07 16:41:03
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2679201___pgen.1000492.g001
+================================================================================
+
+
+
+[16:41:03.300] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:41:03.302] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:41:03.339] === DATA_LOADING ===
+Chargement des données GT depuis PMC2679201___pgen.1000492.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC2679201___pgen.1000492.g001.json
+  - Series Count: 3
+  - Series Names: ['[unnamed data series #0]', '[unnamed data series #1]', '[unnamed data series #2]']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 182
+--------------------------------------------------
+
+[16:41:03.342] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2679201___pgen.1000492.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2679201___pgen.1000492.g001\PMC2679201___pgen.1000492.g001.json
+  - Series Count: 3
+  - Series Names: ['white', 'black', 'grey']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[16:41:03.345] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 168.2331
+  - Y Min-Max: [-108.2331, 60.0000]
+  - X Range: 144.31243680485343
+--------------------------------------------------
+
+[16:41:03.347] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:41:03.354] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['[unnamed data series #0] <-> white (method=similarity_match, score=0.590)', '[unnamed data series #1] <-> grey (method=similarity_match, score=0.463)', '[unnamed data series #2] <-> black (method=similarity_match, score=0.619)']
+--------------------------------------------------
+
+[16:41:03.929] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs white avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 23.754591
+  - MAE Relative: 0.141200
+  - Left Miss (rel): 0.023647
+  - Right Miss (rel): 0.054090
+  - X Cutoff: N/A
+  - GT Points: 39
+  - Extracted Points: 13
+  - Points Ratio: 0.33
+--------------------------------------------------
+
+[16:41:04.470] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #1] vs grey avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 8.927206
+  - MAE Relative: 0.053065
+  - Left Miss (rel): 0.174566
+  - Right Miss (rel): 0.011140
+  - X Cutoff: N/A
+  - GT Points: 36
+  - Extracted Points: 4
+  - Points Ratio: 0.11
+--------------------------------------------------
+
+[16:41:05.030] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #2] vs black avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 33.557080
+  - MAE Relative: 0.199468
+  - Left Miss (rel): 0.000245
+  - Right Miss (rel): 0.029637
+  - X Cutoff: N/A
+  - GT Points: 107
+  - Extracted Points: 15
+  - Points Ratio: 0.14
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:41:05
+Total Duration: 1.74 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2679201_pgen.1000492.g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2679201_pgen.1000492.g001
+================================================================================
+Timestamp: 2025-08-07 17:00:28
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2679201___pgen.1000492.g001
+================================================================================
+
+
+
+[17:00:28.668] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:00:28.670] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[17:00:28.715] === DATA_LOADING ===
+Chargement des données GT depuis PMC2679201___pgen.1000492.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC2679201___pgen.1000492.g001.json
+  - Series Count: 3
+  - Series Names: ['[unnamed data series #0]', '[unnamed data series #1]', '[unnamed data series #2]']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 182
+--------------------------------------------------
+
+[17:00:28.719] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2679201___pgen.1000492.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2679201___pgen.1000492.g001\PMC2679201___pgen.1000492.g001.json
+  - Series Count: 3
+  - Series Names: ['circle', 'square', 'diamond']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 175
+--------------------------------------------------
+
+[17:00:28.723] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 168.2331
+  - Y Min-Max: [-108.2331, 60.0000]
+  - X Range: 144.31243680485343
+--------------------------------------------------
+
+[17:00:28.725] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:00:28.733] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['[unnamed data series #0] <-> circle (method=similarity_match, score=0.563)', '[unnamed data series #1] <-> diamond (method=similarity_match, score=0.702)', '[unnamed data series #2] <-> square (method=similarity_match, score=0.861)']
+--------------------------------------------------
+
+[17:00:29.491] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs circle avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 22.792375
+  - MAE Relative: 0.135481
+  - Left Miss (rel): -0.011000
+  - Right Miss (rel): 0.088737
+  - X Cutoff: N/A
+  - GT Points: 39
+  - Extracted Points: 53
+  - Points Ratio: 1.36
+--------------------------------------------------
+
+[17:00:30.300] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #1] vs diamond avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 10.868352
+  - MAE Relative: 0.064603
+  - Left Miss (rel): 0.139919
+  - Right Miss (rel): 0.011140
+  - X Cutoff: N/A
+  - GT Points: 36
+  - Extracted Points: 37
+  - Points Ratio: 1.03
+--------------------------------------------------
+
+[17:00:31.860] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #2] vs square avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 27.868587
+  - MAE Relative: 0.165655
+  - Left Miss (rel): 0.000245
+  - Right Miss (rel): 0.029637
+  - X Cutoff: N/A
+  - GT Points: 107
+  - Extracted Points: 85
+  - Points Ratio: 0.79
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:00:31
+Total Duration: 3.21 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2679201_pgen.1000492.g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

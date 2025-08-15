@@ -1,0 +1,129 @@
+
+================================================================================
+VALIDATION LOG - PMC3438796_CMMM2012-198145.006
+================================================================================
+Timestamp: 2025-08-07 12:55:24
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3438796___CMMM2012-198145.006
+================================================================================
+
+
+
+[12:55:24.898] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:55:24.904] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:55:24.952] === DATA_LOADING ===
+Chargement des données GT depuis PMC3438796___CMMM2012-198145.006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3438796___CMMM2012-198145.006.json
+  - Series Count: 3
+  - Series Names: ['Q', '1.1Q', '0.9Q']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[12:55:24.956] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3438796___CMMM2012-198145.006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3438796___CMMM2012-198145.006\PMC3438796___CMMM2012-198145.006.json
+  - Series Count: 3
+  - Series Names: ['Q', '1.1Q', '0.9Q']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 27
+--------------------------------------------------
+
+[12:55:24.962] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 5.5297
+  - Y Min-Max: [0.0000, 5.5297]
+  - X Range: 43.288490284005974
+--------------------------------------------------
+
+[12:55:24.966] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:55:24.968] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Q <-> Q (method=exact_match, score=1.000)', '1.1Q <-> 1.1Q (method=exact_match, score=1.000)', '0.9Q <-> 0.9Q (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:55:25.821] === SERIES_COMPARISON ===
+Comparaison Q vs Q avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.069051
+  - MAE Relative: 0.012487
+  - Left Miss (rel): -0.002762
+  - Right Miss (rel): 0.040746
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 9
+  - Points Ratio: 0.90
+--------------------------------------------------
+
+[12:55:27.138] === SERIES_COMPARISON ===
+Comparaison 1.1Q vs 1.1Q avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.186147
+  - MAE Relative: 0.033663
+  - Left Miss (rel): -0.001381
+  - Right Miss (rel): 0.075967
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 9
+  - Points Ratio: 0.69
+--------------------------------------------------
+
+[12:55:29.373] === SERIES_COMPARISON ===
+Comparaison 0.9Q vs 0.9Q avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.106662
+  - MAE Relative: 0.019289
+  - Left Miss (rel): -0.001381
+  - Right Miss (rel): 0.004144
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 9
+  - Points Ratio: 0.69
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:55:29
+Total Duration: 4.50 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3438796_CMMM2012-198145.006.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

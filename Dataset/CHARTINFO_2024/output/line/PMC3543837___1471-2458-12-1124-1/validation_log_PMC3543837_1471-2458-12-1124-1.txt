@@ -1,0 +1,115 @@
+
+================================================================================
+VALIDATION LOG - PMC3543837_1471-2458-12-1124-1
+================================================================================
+Timestamp: 2025-08-07 12:56:37
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3543837___1471-2458-12-1124-1
+================================================================================
+
+
+
+[12:56:37.041] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:56:37.043] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:56:37.105] === DATA_LOADING ===
+Chargement des données GT depuis PMC3543837___1471-2458-12-1124-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3543837___1471-2458-12-1124-1.json
+  - Series Count: 2
+  - Series Names: ['OEF/OIF Clinical', 'OEF/OIF Community']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 7
+--------------------------------------------------
+
+[12:56:37.123] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3543837___1471-2458-12-1124-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3543837___1471-2458-12-1124-1\PMC3543837___1471-2458-12-1124-1.json
+  - Series Count: 2
+  - Series Names: ['OEF/OIF Clinical', 'OEF/OIF Community']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 7
+--------------------------------------------------
+
+[12:56:37.126] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 13.2662
+  - Y Min-Max: [42.3000, 55.5662]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:56:37.129] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:56:37.132] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['OEF/OIF Clinical <-> OEF/OIF Clinical (method=exact_match, score=1.000)', 'OEF/OIF Community <-> OEF/OIF Community (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:56:38.797] === SERIES_COMPARISON ===
+Comparaison OEF/OIF Clinical vs OEF/OIF Clinical avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 1.394235
+  - MAE Relative: 0.105097
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.270000
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:56:40.565] === SERIES_COMPARISON ===
+Comparaison OEF/OIF Community vs OEF/OIF Community avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.333161
+  - MAE Relative: 0.025114
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.223333
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:56:40
+Total Duration: 3.54 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3543837_1471-2458-12-1124-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

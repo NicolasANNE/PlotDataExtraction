@@ -1,0 +1,258 @@
+
+================================================================================
+VALIDATION LOG - PMC3001736_1471-2458-10-734-2
+================================================================================
+Timestamp: 2025-08-06 21:35:17
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3001736___1471-2458-10-734-2
+================================================================================
+
+
+
+[21:35:17.654] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:35:17.695] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:35:17.767] === DATA_LOADING ===
+Chargement des données GT depuis PMC3001736___1471-2458-10-734-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3001736___1471-2458-10-734-2.json
+  - Series Count: 3
+  - Series Names: ['Victoria, Australia (age 20-69)', 'UK (Oxfordshire)', 'NZ (age 20-69)']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 55
+--------------------------------------------------
+
+[21:35:17.833] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3001736___1471-2458-10-734-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3001736___1471-2458-10-734-2\PMC3001736___1471-2458-10-734-2.json
+  - Series Count: 3
+  - Series Names: ['Victoria, Australia (ages 20-69)', 'UK (Oxfordshire)', 'NZ (age 20-69)']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 57
+--------------------------------------------------
+
+[21:35:17.866] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 97.0000
+  - Y Min-Max: [0.0000, 97.0000]
+  - X Range: 10.05411954765751
+--------------------------------------------------
+
+[21:35:17.872] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:35:17.882] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['UK (Oxfordshire) <-> UK (Oxfordshire) (method=exact_match, score=1.000)', 'NZ (age 20-69) <-> NZ (age 20-69) (method=exact_match, score=1.000)', 'Victoria, Australia (age 20-69) <-> Victoria, Australia (ages 20-69) (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[21:35:19.465] === SERIES_COMPARISON ===
+Comparaison UK (Oxfordshire) vs UK (Oxfordshire) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 56.536873
+  - MAE Relative: 0.582854
+  - Left Miss (rel): 0.000723
+  - Right Miss (rel): 0.002169
+  - X Cutoff: N/A
+  - GT Points: 19
+  - Extracted Points: 19
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:35:20.724] === SERIES_COMPARISON ===
+Comparaison NZ (age 20-69) vs NZ (age 20-69) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 61.740258
+  - MAE Relative: 0.636498
+  - Left Miss (rel): 0.000723
+  - Right Miss (rel): 0.103037
+  - X Cutoff: N/A
+  - GT Points: 19
+  - Extracted Points: 19
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:35:21.987] === SERIES_COMPARISON ===
+Comparaison Victoria, Australia (age 20-69) vs Victoria, Australia (ages 20-69) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 65.222637
+  - MAE Relative: 0.672398
+  - Left Miss (rel): 0.001808
+  - Right Miss (rel): 0.049892
+  - X Cutoff: N/A
+  - GT Points: 17
+  - Extracted Points: 19
+  - Points Ratio: 1.12
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:35:21
+Total Duration: 4.36 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3001736_1471-2458-10-734-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3001736_1471-2458-10-734-2
+================================================================================
+Timestamp: 2025-08-07 12:51:24
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3001736___1471-2458-10-734-2
+================================================================================
+
+
+
+[12:51:24.916] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:51:24.931] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:51:25.021] === DATA_LOADING ===
+Chargement des données GT depuis PMC3001736___1471-2458-10-734-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3001736___1471-2458-10-734-2.json
+  - Series Count: 3
+  - Series Names: ['Victoria, Australia (age 20-69)', 'UK (Oxfordshire)', 'NZ (age 20-69)']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 55
+--------------------------------------------------
+
+[12:51:25.025] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3001736___1471-2458-10-734-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3001736___1471-2458-10-734-2\PMC3001736___1471-2458-10-734-2.json
+  - Series Count: 3
+  - Series Names: ['Victoria, Australia (ages 20-69)', 'UK (Oxfordshire)', 'NZ (age 20-69)']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 57
+--------------------------------------------------
+
+[12:51:25.029] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 97.0000
+  - Y Min-Max: [0.0000, 97.0000]
+  - X Range: 10.05411954765751
+--------------------------------------------------
+
+[12:51:25.032] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:51:25.077] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['UK (Oxfordshire) <-> UK (Oxfordshire) (method=exact_match, score=1.000)', 'NZ (age 20-69) <-> NZ (age 20-69) (method=exact_match, score=1.000)', 'Victoria, Australia (age 20-69) <-> Victoria, Australia (ages 20-69) (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[12:51:26.964] === SERIES_COMPARISON ===
+Comparaison UK (Oxfordshire) vs UK (Oxfordshire) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 61.311029
+  - MAE Relative: 0.632072
+  - Left Miss (rel): 0.000723
+  - Right Miss (rel): 0.002169
+  - X Cutoff: N/A
+  - GT Points: 19
+  - Extracted Points: 19
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:51:28.871] === SERIES_COMPARISON ===
+Comparaison NZ (age 20-69) vs NZ (age 20-69) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 62.905718
+  - MAE Relative: 0.648513
+  - Left Miss (rel): 0.000723
+  - Right Miss (rel): 0.103037
+  - X Cutoff: N/A
+  - GT Points: 19
+  - Extracted Points: 19
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:51:30.998] === SERIES_COMPARISON ===
+Comparaison Victoria, Australia (age 20-69) vs Victoria, Australia (ages 20-69) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 65.333646
+  - MAE Relative: 0.673543
+  - Left Miss (rel): 0.001808
+  - Right Miss (rel): 0.049892
+  - X Cutoff: N/A
+  - GT Points: 17
+  - Extracted Points: 19
+  - Points Ratio: 1.12
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:51:31
+Total Duration: 6.13 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3001736_1471-2458-10-734-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

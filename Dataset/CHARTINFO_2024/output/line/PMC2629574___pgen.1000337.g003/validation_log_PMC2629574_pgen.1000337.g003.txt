@@ -1,0 +1,908 @@
+
+================================================================================
+VALIDATION LOG - PMC2629574_pgen.1000337.g003
+================================================================================
+Timestamp: 2025-08-06 20:16:13
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2629574___pgen.1000337.g003
+================================================================================
+
+
+
+[20:16:13.414] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:13.479] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:13.487] === DATA_LOADING ===
+Chargement des données GT depuis PMC2629574___pgen.1000337.g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2629574___pgen.1000337.g003.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:13.512] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2629574___pgen.1000337.g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2629574___pgen.1000337.g003\PMC2629574___pgen.1000337.g003.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:13.514] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2629574_pgen.1000337.g003
+================================================================================
+Timestamp: 2025-08-06 21:32:59
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2629574___pgen.1000337.g003
+================================================================================
+
+
+
+[21:32:59.013] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:32:59.025] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:32:59.088] === DATA_LOADING ===
+Chargement des données GT depuis PMC2629574___pgen.1000337.g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2629574___pgen.1000337.g003.json
+  - Series Count: 6
+  - Series Names: ['Three gene model', 'CFH+LOC model', 'CFH model', 'LOC model', 'C2 model', 'Null model']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 72
+--------------------------------------------------
+
+[21:32:59.097] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2629574___pgen.1000337.g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2629574___pgen.1000337.g003\PMC2629574___pgen.1000337.g003.json
+  - Series Count: 6
+  - Series Names: ['Three gene model', 'CFH+LOC model', 'CFH model', 'LOC model', 'C2 model', 'Null model']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[21:32:59.126] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.0052
+  - Y Min-Max: [-0.0025, 1.0027]
+  - X Range: 1.0009615384615385
+--------------------------------------------------
+
+[21:32:59.129] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:32:59.132] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['Three gene model <-> Three gene model (method=exact_match, score=1.000)', 'CFH+LOC model <-> CFH+LOC model (method=exact_match, score=1.000)', 'CFH model <-> CFH model (method=exact_match, score=1.000)', 'LOC model <-> LOC model (method=exact_match, score=1.000)', 'C2 model <-> C2 model (method=exact_match, score=1.000)', 'Null model <-> Null model (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:33:00.270] === SERIES_COMPARISON ===
+Comparaison Three gene model vs Three gene model avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.032936
+  - MAE Relative: 0.032765
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.002882
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 7
+  - Points Ratio: 0.50
+--------------------------------------------------
+
+[21:33:01.006] === SERIES_COMPARISON ===
+Comparaison CFH+LOC model vs CFH+LOC model avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.022074
+  - MAE Relative: 0.021960
+  - Left Miss (rel): -0.000640
+  - Right Miss (rel): -0.001921
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 7
+  - Points Ratio: 0.54
+--------------------------------------------------
+
+[21:33:01.558] === SERIES_COMPARISON ===
+Comparaison CFH model vs CFH model avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.046417
+  - MAE Relative: 0.046176
+  - Left Miss (rel): -0.003705
+  - Right Miss (rel): -0.000549
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 7
+  - Points Ratio: 1.17
+--------------------------------------------------
+
+[21:33:02.286] === SERIES_COMPARISON ===
+Comparaison LOC model vs LOC model avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.018175
+  - MAE Relative: 0.018081
+  - Left Miss (rel): -0.000961
+  - Right Miss (rel): -0.000961
+  - X Cutoff: N/A
+  - GT Points: 17
+  - Extracted Points: 7
+  - Points Ratio: 0.41
+--------------------------------------------------
+
+[21:33:03.144] === SERIES_COMPARISON ===
+Comparaison C2 model vs C2 model avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.059712
+  - MAE Relative: 0.059402
+  - Left Miss (rel): -0.001921
+  - Right Miss (rel): -0.003842
+  - X Cutoff: N/A
+  - GT Points: 18
+  - Extracted Points: 6
+  - Points Ratio: 0.33
+--------------------------------------------------
+
+[21:33:04.482] === SERIES_COMPARISON ===
+Comparaison Null model vs Null model avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.002232
+  - MAE Relative: 0.002220
+  - Left Miss (rel): -0.001921
+  - Right Miss (rel): 0.000961
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 6
+  - Points Ratio: 1.50
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:33:04
+Total Duration: 5.49 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2629574_pgen.1000337.g003.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2629574_pgen.1000337.g003
+================================================================================
+Timestamp: 2025-08-07 12:49:05
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2629574___pgen.1000337.g003
+================================================================================
+
+
+
+[12:49:05.558] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:49:05.560] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:49:05.599] === DATA_LOADING ===
+Chargement des données GT depuis PMC2629574___pgen.1000337.g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2629574___pgen.1000337.g003.json
+  - Series Count: 6
+  - Series Names: ['Three gene model', 'CFH+LOC model', 'CFH model', 'LOC model', 'C2 model', 'Null model']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 72
+--------------------------------------------------
+
+[12:49:05.615] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2629574___pgen.1000337.g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2629574___pgen.1000337.g003\PMC2629574___pgen.1000337.g003.json
+  - Series Count: 6
+  - Series Names: ['Three gene model', 'CFH+LOC model', 'CFH model', 'LOC model', 'C2 model', 'Null model']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[12:49:05.624] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.0052
+  - Y Min-Max: [-0.0025, 1.0027]
+  - X Range: 1.0009615384615385
+--------------------------------------------------
+
+[12:49:05.627] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:49:05.629] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['Three gene model <-> Three gene model (method=exact_match, score=1.000)', 'CFH+LOC model <-> CFH+LOC model (method=exact_match, score=1.000)', 'CFH model <-> CFH model (method=exact_match, score=1.000)', 'LOC model <-> LOC model (method=exact_match, score=1.000)', 'C2 model <-> C2 model (method=exact_match, score=1.000)', 'Null model <-> Null model (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:49:07.214] === SERIES_COMPARISON ===
+Comparaison Three gene model vs Three gene model avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.032936
+  - MAE Relative: 0.032765
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.002882
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 7
+  - Points Ratio: 0.50
+--------------------------------------------------
+
+[12:49:08.999] === SERIES_COMPARISON ===
+Comparaison CFH+LOC model vs CFH+LOC model avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.022074
+  - MAE Relative: 0.021960
+  - Left Miss (rel): -0.000640
+  - Right Miss (rel): -0.001921
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 7
+  - Points Ratio: 0.54
+--------------------------------------------------
+
+[12:49:10.633] === SERIES_COMPARISON ===
+Comparaison CFH model vs CFH model avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.046417
+  - MAE Relative: 0.046176
+  - Left Miss (rel): -0.003705
+  - Right Miss (rel): -0.000549
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 7
+  - Points Ratio: 1.17
+--------------------------------------------------
+
+[12:49:12.951] === SERIES_COMPARISON ===
+Comparaison LOC model vs LOC model avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.018175
+  - MAE Relative: 0.018081
+  - Left Miss (rel): -0.000961
+  - Right Miss (rel): -0.000961
+  - X Cutoff: N/A
+  - GT Points: 17
+  - Extracted Points: 7
+  - Points Ratio: 0.41
+--------------------------------------------------
+
+[12:49:14.511] === SERIES_COMPARISON ===
+Comparaison C2 model vs C2 model avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.059712
+  - MAE Relative: 0.059402
+  - Left Miss (rel): -0.001921
+  - Right Miss (rel): -0.003842
+  - X Cutoff: N/A
+  - GT Points: 18
+  - Extracted Points: 6
+  - Points Ratio: 0.33
+--------------------------------------------------
+
+[12:49:15.997] === SERIES_COMPARISON ===
+Comparaison Null model vs Null model avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.002232
+  - MAE Relative: 0.002220
+  - Left Miss (rel): -0.001921
+  - Right Miss (rel): 0.000961
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 6
+  - Points Ratio: 1.50
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:49:16
+Total Duration: 10.46 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2629574_pgen.1000337.g003.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2629574_pgen.1000337.g003
+================================================================================
+Timestamp: 2025-08-07 13:06:01
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2629574___pgen.1000337.g003
+================================================================================
+
+
+
+[13:06:01.842] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:06:01.847] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:06:01.904] === DATA_LOADING ===
+Chargement des données GT depuis PMC2629574___pgen.1000337.g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2629574___pgen.1000337.g003.json
+  - Series Count: 6
+  - Series Names: ['Three gene model', 'CFH+LOC model', 'CFH model', 'LOC model', 'C2 model', 'Null model']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 72
+--------------------------------------------------
+
+[13:06:01.919] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2629574___pgen.1000337.g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2629574___pgen.1000337.g003\PMC2629574___pgen.1000337.g003.json
+  - Series Count: 6
+  - Series Names: ['Three gene model', 'CFH+LOC model', 'CFH model', 'LOC model', 'C2 model', 'Null model']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[13:06:01.925] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.0052
+  - Y Min-Max: [-0.0025, 1.0027]
+  - X Range: 1.0009615384615385
+--------------------------------------------------
+
+[13:06:01.928] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:06:01.934] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['Three gene model <-> Three gene model (method=exact_match, score=1.000)', 'CFH+LOC model <-> CFH+LOC model (method=exact_match, score=1.000)', 'CFH model <-> CFH model (method=exact_match, score=1.000)', 'LOC model <-> LOC model (method=exact_match, score=1.000)', 'C2 model <-> C2 model (method=exact_match, score=1.000)', 'Null model <-> Null model (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:06:02.787] === SERIES_COMPARISON ===
+Comparaison Three gene model vs Three gene model avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.032936
+  - MAE Relative: 0.032765
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.002882
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 7
+  - Points Ratio: 0.50
+--------------------------------------------------
+
+[13:06:03.622] === SERIES_COMPARISON ===
+Comparaison CFH+LOC model vs CFH+LOC model avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.022074
+  - MAE Relative: 0.021960
+  - Left Miss (rel): -0.000640
+  - Right Miss (rel): -0.001921
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 7
+  - Points Ratio: 0.54
+--------------------------------------------------
+
+[13:06:04.322] === SERIES_COMPARISON ===
+Comparaison CFH model vs CFH model avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.046417
+  - MAE Relative: 0.046176
+  - Left Miss (rel): -0.003705
+  - Right Miss (rel): -0.000549
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 7
+  - Points Ratio: 1.17
+--------------------------------------------------
+
+[13:06:04.932] === SERIES_COMPARISON ===
+Comparaison LOC model vs LOC model avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.018175
+  - MAE Relative: 0.018081
+  - Left Miss (rel): -0.000961
+  - Right Miss (rel): -0.000961
+  - X Cutoff: N/A
+  - GT Points: 17
+  - Extracted Points: 7
+  - Points Ratio: 0.41
+--------------------------------------------------
+
+[13:06:05.473] === SERIES_COMPARISON ===
+Comparaison C2 model vs C2 model avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.059712
+  - MAE Relative: 0.059402
+  - Left Miss (rel): -0.001921
+  - Right Miss (rel): -0.003842
+  - X Cutoff: N/A
+  - GT Points: 18
+  - Extracted Points: 6
+  - Points Ratio: 0.33
+--------------------------------------------------
+
+[13:06:06.136] === SERIES_COMPARISON ===
+Comparaison Null model vs Null model avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.002232
+  - MAE Relative: 0.002220
+  - Left Miss (rel): -0.001921
+  - Right Miss (rel): 0.000961
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 6
+  - Points Ratio: 1.50
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:06:06
+Total Duration: 4.32 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2629574_pgen.1000337.g003.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2629574_pgen.1000337.g003
+================================================================================
+Timestamp: 2025-08-07 16:39:40
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2629574___pgen.1000337.g003
+================================================================================
+
+
+
+[16:39:40.276] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:39:40.294] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:39:40.350] === DATA_LOADING ===
+Chargement des données GT depuis PMC2629574___pgen.1000337.g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2629574___pgen.1000337.g003.json
+  - Series Count: 6
+  - Series Names: ['Three gene model', 'CFH+LOC model', 'CFH model', 'LOC model', 'C2 model', 'Null model']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 72
+--------------------------------------------------
+
+[16:39:40.355] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2629574___pgen.1000337.g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2629574___pgen.1000337.g003\PMC2629574___pgen.1000337.g003.json
+  - Series Count: 6
+  - Series Names: ['Three gene model', 'CFH+LOC model', 'CFH model', 'LOC model', 'C2 model', 'Null model']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 44
+--------------------------------------------------
+
+[16:39:40.360] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.0052
+  - Y Min-Max: [-0.0025, 1.0027]
+  - X Range: 1.0009615384615385
+--------------------------------------------------
+
+[16:39:40.363] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:39:40.365] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['Three gene model <-> Three gene model (method=exact_match, score=1.000)', 'CFH+LOC model <-> CFH+LOC model (method=exact_match, score=1.000)', 'CFH model <-> CFH model (method=exact_match, score=1.000)', 'LOC model <-> LOC model (method=exact_match, score=1.000)', 'C2 model <-> C2 model (method=exact_match, score=1.000)', 'Null model <-> Null model (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:39:41.134] === SERIES_COMPARISON ===
+Comparaison Three gene model vs Three gene model avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.031772
+  - MAE Relative: 0.031607
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.002882
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 8
+  - Points Ratio: 0.57
+--------------------------------------------------
+
+[16:39:41.829] === SERIES_COMPARISON ===
+Comparaison CFH+LOC model vs CFH+LOC model avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.028584
+  - MAE Relative: 0.028436
+  - Left Miss (rel): -0.000640
+  - Right Miss (rel): -0.001921
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 8
+  - Points Ratio: 0.62
+--------------------------------------------------
+
+[16:39:42.355] === SERIES_COMPARISON ===
+Comparaison CFH model vs CFH model avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.041905
+  - MAE Relative: 0.041688
+  - Left Miss (rel): -0.003705
+  - Right Miss (rel): -0.000549
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 8
+  - Points Ratio: 1.33
+--------------------------------------------------
+
+[16:39:42.878] === SERIES_COMPARISON ===
+Comparaison LOC model vs LOC model avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.013534
+  - MAE Relative: 0.013464
+  - Left Miss (rel): -0.000961
+  - Right Miss (rel): -0.000961
+  - X Cutoff: N/A
+  - GT Points: 17
+  - Extracted Points: 8
+  - Points Ratio: 0.47
+--------------------------------------------------
+
+[16:39:43.382] === SERIES_COMPARISON ===
+Comparaison C2 model vs C2 model avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.059712
+  - MAE Relative: 0.059402
+  - Left Miss (rel): -0.001921
+  - Right Miss (rel): -0.003842
+  - X Cutoff: N/A
+  - GT Points: 18
+  - Extracted Points: 6
+  - Points Ratio: 0.33
+--------------------------------------------------
+
+[16:39:43.951] === SERIES_COMPARISON ===
+Comparaison Null model vs Null model avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.002232
+  - MAE Relative: 0.002220
+  - Left Miss (rel): -0.001921
+  - Right Miss (rel): 0.000961
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 6
+  - Points Ratio: 1.50
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:39:43
+Total Duration: 3.74 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2629574_pgen.1000337.g003.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2629574_pgen.1000337.g003
+================================================================================
+Timestamp: 2025-08-07 16:58:56
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2629574___pgen.1000337.g003
+================================================================================
+
+
+
+[16:58:56.521] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:58:56.524] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:58:56.557] === DATA_LOADING ===
+Chargement des données GT depuis PMC2629574___pgen.1000337.g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2629574___pgen.1000337.g003.json
+  - Series Count: 6
+  - Series Names: ['Three gene model', 'CFH+LOC model', 'CFH model', 'LOC model', 'C2 model', 'Null model']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 72
+--------------------------------------------------
+
+[16:58:56.568] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2629574___pgen.1000337.g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2629574___pgen.1000337.g003\PMC2629574___pgen.1000337.g003.json
+  - Series Count: 6
+  - Series Names: ['Three gene model', 'CFH+LOC model', 'CFH model', 'LOC model', 'C2 model', 'Null model']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 44
+--------------------------------------------------
+
+[16:58:56.590] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.0052
+  - Y Min-Max: [-0.0025, 1.0027]
+  - X Range: 1.0009615384615385
+--------------------------------------------------
+
+[16:58:56.594] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:58:56.596] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['Three gene model <-> Three gene model (method=exact_match, score=1.000)', 'CFH+LOC model <-> CFH+LOC model (method=exact_match, score=1.000)', 'CFH model <-> CFH model (method=exact_match, score=1.000)', 'LOC model <-> LOC model (method=exact_match, score=1.000)', 'C2 model <-> C2 model (method=exact_match, score=1.000)', 'Null model <-> Null model (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:58:57.313] === SERIES_COMPARISON ===
+Comparaison Three gene model vs Three gene model avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.031772
+  - MAE Relative: 0.031607
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.002882
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 8
+  - Points Ratio: 0.57
+--------------------------------------------------
+
+[16:58:57.950] === SERIES_COMPARISON ===
+Comparaison CFH+LOC model vs CFH+LOC model avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.028584
+  - MAE Relative: 0.028436
+  - Left Miss (rel): -0.000640
+  - Right Miss (rel): -0.001921
+  - X Cutoff: N/A
+  - GT Points: 13
+  - Extracted Points: 8
+  - Points Ratio: 0.62
+--------------------------------------------------
+
+[16:58:58.823] === SERIES_COMPARISON ===
+Comparaison CFH model vs CFH model avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.041905
+  - MAE Relative: 0.041688
+  - Left Miss (rel): -0.003705
+  - Right Miss (rel): -0.000549
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 8
+  - Points Ratio: 1.33
+--------------------------------------------------
+
+[16:59:00.224] === SERIES_COMPARISON ===
+Comparaison LOC model vs LOC model avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.013534
+  - MAE Relative: 0.013464
+  - Left Miss (rel): -0.000961
+  - Right Miss (rel): -0.000961
+  - X Cutoff: N/A
+  - GT Points: 17
+  - Extracted Points: 8
+  - Points Ratio: 0.47
+--------------------------------------------------
+
+[16:59:01.843] === SERIES_COMPARISON ===
+Comparaison C2 model vs C2 model avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.059712
+  - MAE Relative: 0.059402
+  - Left Miss (rel): -0.001921
+  - Right Miss (rel): -0.003842
+  - X Cutoff: N/A
+  - GT Points: 18
+  - Extracted Points: 6
+  - Points Ratio: 0.33
+--------------------------------------------------
+
+[16:59:03.477] === SERIES_COMPARISON ===
+Comparaison Null model vs Null model avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.002232
+  - MAE Relative: 0.002220
+  - Left Miss (rel): -0.001921
+  - Right Miss (rel): 0.000961
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 6
+  - Points Ratio: 1.50
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:59:03
+Total Duration: 6.98 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2629574_pgen.1000337.g003.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

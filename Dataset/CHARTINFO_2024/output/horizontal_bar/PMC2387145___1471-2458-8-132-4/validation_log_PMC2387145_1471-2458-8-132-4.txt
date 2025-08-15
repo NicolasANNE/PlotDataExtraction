@@ -1,0 +1,387 @@
+
+================================================================================
+VALIDATION LOG - PMC2387145_1471-2458-8-132-4
+================================================================================
+Timestamp: 2025-08-07 13:09:40
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC2387145___1471-2458-8-132-4
+================================================================================
+
+
+
+[13:09:40.503] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:09:40.506] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:09:40.583] === DATA_LOADING ===
+Chargement des données GT depuis PMC2387145___1471-2458-8-132-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\horizontal_bar\PMC2387145___1471-2458-8-132-4.json
+  - Series Count: 3
+  - Series Names: ['Target groups for hospitals B vaccine', 'Non-target groups', 'Overall']
+  - X Data Types: {'categorical': 3}
+  - Total Data Points: 9
+--------------------------------------------------
+
+[13:09:40.587] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2387145___1471-2458-8-132-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC2387145___1471-2458-8-132-4\PMC2387145___1471-2458-8-132-4.json
+  - Series Count: 3
+  - Series Names: ['Target groups for hepatitis B vaccine', 'Non-target groups', 'Overall']
+  - X Data Types: {'categorical': 3}
+  - Total Data Points: 9
+--------------------------------------------------
+
+[13:09:40.593] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 27.7900
+  - Y Min-Max: [70.0000, 97.7900]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:09:40.595] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:09:40.598] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Non-target groups <-> Non-target groups (method=exact_match, score=1.000)', 'Overall <-> Overall (method=exact_match, score=1.000)', 'Target groups for hospitals B vaccine <-> Target groups for hepatitis B vaccine (method=fuzzy_match, score=0.850)']
+--------------------------------------------------
+
+[13:09:42.414] === SERIES_COMPARISON ===
+Comparaison Non-target groups vs Non-target groups avec BarComparator
+
+Data:
+  - MAE Absolute: 5.823449
+  - MAE Relative: 0.209552
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.986667
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:09:44.221] === SERIES_COMPARISON ===
+Comparaison Overall vs Overall avec BarComparator
+
+Data:
+  - MAE Absolute: 9.733968
+  - MAE Relative: 0.350269
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.986667
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:09:45.315] === SERIES_COMPARISON ===
+Comparaison Target groups for hospitals B vaccine vs Target groups for hepatitis B vaccine avec BarComparator
+
+Data:
+  - MAE Absolute: 1.516409
+  - MAE Relative: 0.054567
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.986667
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:09:45
+Total Duration: 4.84 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2387145_1471-2458-8-132-4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2387145_1471-2458-8-132-4
+================================================================================
+Timestamp: 2025-08-07 16:43:22
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC2387145___1471-2458-8-132-4
+================================================================================
+
+
+
+[16:43:22.187] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:43:22.189] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:43:22.225] === DATA_LOADING ===
+Chargement des données GT depuis PMC2387145___1471-2458-8-132-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\horizontal_bar\PMC2387145___1471-2458-8-132-4.json
+  - Series Count: 3
+  - Series Names: ['Target groups for hospitals B vaccine', 'Non-target groups', 'Overall']
+  - X Data Types: {'categorical': 3}
+  - Total Data Points: 9
+--------------------------------------------------
+
+[16:43:22.230] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2387145___1471-2458-8-132-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC2387145___1471-2458-8-132-4\PMC2387145___1471-2458-8-132-4.json
+  - Series Count: 3
+  - Series Names: ['Target groups for hepatitis B vaccine', 'Non-target groups', 'Overall']
+  - X Data Types: {'categorical': 3}
+  - Total Data Points: 9
+--------------------------------------------------
+
+[16:43:22.234] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 27.7900
+  - Y Min-Max: [70.0000, 97.7900]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:43:22.236] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:43:22.238] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Non-target groups <-> Non-target groups (method=exact_match, score=1.000)', 'Overall <-> Overall (method=exact_match, score=1.000)', 'Target groups for hospitals B vaccine <-> Target groups for hepatitis B vaccine (method=fuzzy_match, score=0.850)']
+--------------------------------------------------
+
+[16:43:23.304] === SERIES_COMPARISON ===
+Comparaison Non-target groups vs Non-target groups avec BarComparator
+
+Data:
+  - MAE Absolute: 5.823449
+  - MAE Relative: 0.209552
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.986667
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:43:24.170] === SERIES_COMPARISON ===
+Comparaison Overall vs Overall avec BarComparator
+
+Data:
+  - MAE Absolute: 9.733968
+  - MAE Relative: 0.350269
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.986667
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:43:25.194] === SERIES_COMPARISON ===
+Comparaison Target groups for hospitals B vaccine vs Target groups for hepatitis B vaccine avec BarComparator
+
+Data:
+  - MAE Absolute: 1.516409
+  - MAE Relative: 0.054567
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.986667
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:43:25
+Total Duration: 3.02 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2387145_1471-2458-8-132-4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2387145_1471-2458-8-132-4
+================================================================================
+Timestamp: 2025-08-07 17:02:37
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC2387145___1471-2458-8-132-4
+================================================================================
+
+
+
+[17:02:37.239] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:02:37.259] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[17:02:37.299] === DATA_LOADING ===
+Chargement des données GT depuis PMC2387145___1471-2458-8-132-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\horizontal_bar\PMC2387145___1471-2458-8-132-4.json
+  - Series Count: 3
+  - Series Names: ['Target groups for hospitals B vaccine', 'Non-target groups', 'Overall']
+  - X Data Types: {'categorical': 3}
+  - Total Data Points: 9
+--------------------------------------------------
+
+[17:02:37.308] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2387145___1471-2458-8-132-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC2387145___1471-2458-8-132-4\PMC2387145___1471-2458-8-132-4.json
+  - Series Count: 3
+  - Series Names: ['Target groups for hepatitis B vaccine', 'Non-target groups', 'Overall']
+  - X Data Types: {'categorical': 3}
+  - Total Data Points: 9
+--------------------------------------------------
+
+[17:02:37.313] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 27.7900
+  - Y Min-Max: [70.0000, 97.7900]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[17:02:37.319] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:02:37.358] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Non-target groups <-> Non-target groups (method=exact_match, score=1.000)', 'Overall <-> Overall (method=exact_match, score=1.000)', 'Target groups for hospitals B vaccine <-> Target groups for hepatitis B vaccine (method=fuzzy_match, score=0.850)']
+--------------------------------------------------
+
+[17:02:38.950] === SERIES_COMPARISON ===
+Comparaison Non-target groups vs Non-target groups avec BarComparator
+
+Data:
+  - MAE Absolute: 5.823449
+  - MAE Relative: 0.209552
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.986667
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:02:40.495] === SERIES_COMPARISON ===
+Comparaison Overall vs Overall avec BarComparator
+
+Data:
+  - MAE Absolute: 9.733968
+  - MAE Relative: 0.350269
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.986667
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:02:42.541] === SERIES_COMPARISON ===
+Comparaison Target groups for hospitals B vaccine vs Target groups for hepatitis B vaccine avec BarComparator
+
+Data:
+  - MAE Absolute: 1.516409
+  - MAE Relative: 0.054567
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.986667
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:02:42
+Total Duration: 5.36 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2387145_1471-2458-8-132-4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

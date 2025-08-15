@@ -1,0 +1,628 @@
+
+================================================================================
+VALIDATION LOG - PMC1965476_1471-2458-7-165-2
+================================================================================
+Timestamp: 2025-08-06 20:15:50
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1965476___1471-2458-7-165-2
+================================================================================
+
+
+
+[20:15:50.849] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:50.908] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:50.916] === DATA_LOADING ===
+Chargement des données GT depuis PMC1965476___1471-2458-7-165-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1965476___1471-2458-7-165-2.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:50.920] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1965476___1471-2458-7-165-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1965476___1471-2458-7-165-2\PMC1965476___1471-2458-7-165-2.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:50.923] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1965476_1471-2458-7-165-2
+================================================================================
+Timestamp: 2025-08-06 21:32:08
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1965476___1471-2458-7-165-2
+================================================================================
+
+
+
+[21:32:08.112] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:32:08.113] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:32:08.150] === DATA_LOADING ===
+Chargement des données GT depuis PMC1965476___1471-2458-7-165-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1965476___1471-2458-7-165-2.json
+  - Series Count: 2
+  - Series Names: ['UK', 'China']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 23
+--------------------------------------------------
+
+[21:32:08.153] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1965476___1471-2458-7-165-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1965476___1471-2458-7-165-2\PMC1965476___1471-2458-7-165-2.json
+  - Series Count: 2
+  - Series Names: ['UK', 'China']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[21:32:08.156] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 20.1692
+  - Y Min-Max: [4.0000, 24.1692]
+  - X Range: 155.40722082283787
+--------------------------------------------------
+
+[21:32:08.158] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:32:08.159] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['UK <-> UK (method=exact_match, score=1.000)', 'China <-> China (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:32:08.663] === SERIES_COMPARISON ===
+Comparaison UK vs UK avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.555368
+  - MAE Relative: 0.027535
+  - Left Miss (rel): 0.034794
+  - Right Miss (rel): -0.031217
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 16
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:32:09.307] === SERIES_COMPARISON ===
+Comparaison China vs China avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.368398
+  - MAE Relative: 0.067846
+  - Left Miss (rel): -0.025285
+  - Right Miss (rel): -0.032579
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 8
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:32:09
+Total Duration: 1.20 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1965476_1471-2458-7-165-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1965476_1471-2458-7-165-2
+================================================================================
+Timestamp: 2025-08-07 12:48:08
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1965476___1471-2458-7-165-2
+================================================================================
+
+
+
+[12:48:08.434] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:48:08.437] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:48:08.495] === DATA_LOADING ===
+Chargement des données GT depuis PMC1965476___1471-2458-7-165-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1965476___1471-2458-7-165-2.json
+  - Series Count: 2
+  - Series Names: ['UK', 'China']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 23
+--------------------------------------------------
+
+[12:48:08.523] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1965476___1471-2458-7-165-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1965476___1471-2458-7-165-2\PMC1965476___1471-2458-7-165-2.json
+  - Series Count: 2
+  - Series Names: ['UK', 'China']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 23
+--------------------------------------------------
+
+[12:48:08.527] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 20.1692
+  - Y Min-Max: [4.0000, 24.1692]
+  - X Range: 155.40722082283787
+--------------------------------------------------
+
+[12:48:08.529] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:48:08.532] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['UK <-> UK (method=exact_match, score=1.000)', 'China <-> China (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:48:09.413] === SERIES_COMPARISON ===
+Comparaison UK vs UK avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.555368
+  - MAE Relative: 0.027535
+  - Left Miss (rel): 0.034794
+  - Right Miss (rel): -0.031217
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 16
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:48:10.387] === SERIES_COMPARISON ===
+Comparaison China vs China avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.567755
+  - MAE Relative: 0.077730
+  - Left Miss (rel): -0.025285
+  - Right Miss (rel): 0.031768
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:48:10
+Total Duration: 1.96 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1965476_1471-2458-7-165-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1965476_1471-2458-7-165-2
+================================================================================
+Timestamp: 2025-08-07 13:05:07
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1965476___1471-2458-7-165-2
+================================================================================
+
+
+
+[13:05:07.908] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:05:07.913] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:05:07.975] === DATA_LOADING ===
+Chargement des données GT depuis PMC1965476___1471-2458-7-165-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1965476___1471-2458-7-165-2.json
+  - Series Count: 2
+  - Series Names: ['UK', 'China']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 23
+--------------------------------------------------
+
+[13:05:07.978] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1965476___1471-2458-7-165-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1965476___1471-2458-7-165-2\PMC1965476___1471-2458-7-165-2.json
+  - Series Count: 2
+  - Series Names: ['UK', 'China']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[13:05:07.981] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 20.1692
+  - Y Min-Max: [4.0000, 24.1692]
+  - X Range: 155.40722082283787
+--------------------------------------------------
+
+[13:05:07.985] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:05:07.990] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['UK <-> UK (method=exact_match, score=1.000)', 'China <-> China (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:05:08.900] === SERIES_COMPARISON ===
+Comparaison UK vs UK avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.555368
+  - MAE Relative: 0.027535
+  - Left Miss (rel): 0.034794
+  - Right Miss (rel): -0.031217
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 16
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:05:09.882] === SERIES_COMPARISON ===
+Comparaison China vs China avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.368398
+  - MAE Relative: 0.067846
+  - Left Miss (rel): -0.025285
+  - Right Miss (rel): -0.032579
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 8
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:05:09
+Total Duration: 1.99 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1965476_1471-2458-7-165-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1965476_1471-2458-7-165-2
+================================================================================
+Timestamp: 2025-08-07 16:38:42
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1965476___1471-2458-7-165-2
+================================================================================
+
+
+
+[16:38:42.263] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:38:42.267] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:38:42.329] === DATA_LOADING ===
+Chargement des données GT depuis PMC1965476___1471-2458-7-165-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1965476___1471-2458-7-165-2.json
+  - Series Count: 2
+  - Series Names: ['UK', 'China']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 23
+--------------------------------------------------
+
+[16:38:42.340] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1965476___1471-2458-7-165-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1965476___1471-2458-7-165-2\PMC1965476___1471-2458-7-165-2.json
+  - Series Count: 2
+  - Series Names: ['UK', 'China']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[16:38:42.356] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 20.1692
+  - Y Min-Max: [4.0000, 24.1692]
+  - X Range: 155.40722082283787
+--------------------------------------------------
+
+[16:38:42.390] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:38:42.394] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['UK <-> UK (method=exact_match, score=1.000)', 'China <-> China (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:38:43.513] === SERIES_COMPARISON ===
+Comparaison UK vs UK avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.555368
+  - MAE Relative: 0.027535
+  - Left Miss (rel): 0.034794
+  - Right Miss (rel): -0.031217
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 16
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:38:45.385] === SERIES_COMPARISON ===
+Comparaison China vs China avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.368398
+  - MAE Relative: 0.067846
+  - Left Miss (rel): -0.025285
+  - Right Miss (rel): -0.032579
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 8
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:38:45
+Total Duration: 3.13 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1965476_1471-2458-7-165-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1965476_1471-2458-7-165-2
+================================================================================
+Timestamp: 2025-08-07 16:57:53
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1965476___1471-2458-7-165-2
+================================================================================
+
+
+
+[16:57:53.948] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:57:53.970] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:57:54.003] === DATA_LOADING ===
+Chargement des données GT depuis PMC1965476___1471-2458-7-165-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1965476___1471-2458-7-165-2.json
+  - Series Count: 2
+  - Series Names: ['UK', 'China']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 23
+--------------------------------------------------
+
+[16:57:54.019] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1965476___1471-2458-7-165-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1965476___1471-2458-7-165-2\PMC1965476___1471-2458-7-165-2.json
+  - Series Count: 2
+  - Series Names: ['UK', 'China']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[16:57:54.056] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 20.1692
+  - Y Min-Max: [4.0000, 24.1692]
+  - X Range: 155.40722082283787
+--------------------------------------------------
+
+[16:57:54.075] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:57:54.084] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['UK <-> UK (method=exact_match, score=1.000)', 'China <-> China (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:57:55.278] === SERIES_COMPARISON ===
+Comparaison UK vs UK avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.555368
+  - MAE Relative: 0.027535
+  - Left Miss (rel): 0.034794
+  - Right Miss (rel): -0.031217
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 16
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:57:56.653] === SERIES_COMPARISON ===
+Comparaison China vs China avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.368398
+  - MAE Relative: 0.067846
+  - Left Miss (rel): -0.025285
+  - Right Miss (rel): -0.032579
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 8
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:57:56
+Total Duration: 2.73 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1965476_1471-2458-7-165-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

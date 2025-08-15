@@ -1,0 +1,129 @@
+
+================================================================================
+VALIDATION LOG - PMC3677614_CMMM2013-482941.009
+================================================================================
+Timestamp: 2025-08-07 12:58:27
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3677614___CMMM2013-482941.009
+================================================================================
+
+
+
+[12:58:27.040] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:58:27.042] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:58:27.061] === DATA_LOADING ===
+Chargement des données GT depuis PMC3677614___CMMM2013-482941.009.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3677614___CMMM2013-482941.009.json
+  - Series Count: 3
+  - Series Names: ['PCA123', 'PCA1', 'PCA12']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 60
+--------------------------------------------------
+
+[12:58:27.100] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3677614___CMMM2013-482941.009.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3677614___CMMM2013-482941.009\PMC3677614___CMMM2013-482941.009.json
+  - Series Count: 3
+  - Series Names: ['PCA1', 'PCA12', 'PCA123']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 57
+--------------------------------------------------
+
+[12:58:27.103] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 9.5000
+  - Y Min-Max: [3.5000, 13.0000]
+  - X Range: 18.097122302158272
+--------------------------------------------------
+
+[12:58:27.106] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:58:27.108] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['PCA123 <-> PCA123 (method=exact_match, score=1.000)', 'PCA1 <-> PCA1 (method=exact_match, score=1.000)', 'PCA12 <-> PCA12 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:58:28.063] === SERIES_COMPARISON ===
+Comparaison PCA123 vs PCA123 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.291621
+  - MAE Relative: 0.030697
+  - Left Miss (rel): -0.003578
+  - Right Miss (rel): 0.005367
+  - X Cutoff: N/A
+  - GT Points: 20
+  - Extracted Points: 19
+  - Points Ratio: 0.95
+--------------------------------------------------
+
+[12:58:30.023] === SERIES_COMPARISON ===
+Comparaison PCA1 vs PCA1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.476831
+  - MAE Relative: 0.050193
+  - Left Miss (rel): -0.003578
+  - Right Miss (rel): 0.002147
+  - X Cutoff: N/A
+  - GT Points: 20
+  - Extracted Points: 19
+  - Points Ratio: 0.95
+--------------------------------------------------
+
+[12:58:32.425] === SERIES_COMPARISON ===
+Comparaison PCA12 vs PCA12 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.213632
+  - MAE Relative: 0.022488
+  - Left Miss (rel): -0.002147
+  - Right Miss (rel): 0.005009
+  - X Cutoff: N/A
+  - GT Points: 20
+  - Extracted Points: 19
+  - Points Ratio: 0.95
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:58:32
+Total Duration: 5.40 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3677614_CMMM2013-482941.009.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,311 @@
+
+================================================================================
+VALIDATION LOG - PMC2679057_1471-2156-10-16-2
+================================================================================
+Timestamp: 2025-08-06 20:16:26
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2679057___1471-2156-10-16-2
+================================================================================
+
+
+
+[20:16:26.860] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:26.919] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:26.928] === DATA_LOADING ===
+Chargement des données GT depuis PMC2679057___1471-2156-10-16-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2679057___1471-2156-10-16-2.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:26.951] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2679057___1471-2156-10-16-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2679057___1471-2156-10-16-2\PMC2679057___1471-2156-10-16-2.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:26.953] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2679057_1471-2156-10-16-2
+================================================================================
+Timestamp: 2025-08-06 21:33:40
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2679057___1471-2156-10-16-2
+================================================================================
+
+
+
+[21:33:40.238] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:33:40.240] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:33:40.281] === DATA_LOADING ===
+Chargement des données GT depuis PMC2679057___1471-2156-10-16-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2679057___1471-2156-10-16-2.json
+  - Series Count: 3
+  - Series Names: ['IBD-2 / non-identical', 'IBD-1 / non-identical', 'IBD-2 / IBD-1']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 44
+--------------------------------------------------
+
+[21:33:40.284] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2679057___1471-2156-10-16-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2679057___1471-2156-10-16-2\PMC2679057___1471-2156-10-16-2.json
+  - Series Count: 3
+  - Series Names: ['IBD-2 / non-identical', 'IBD-1 / non-identical', 'IBD-2 / IBD-1']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 44
+--------------------------------------------------
+
+[21:33:40.287] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 8.7463
+  - Y Min-Max: [1.1500, 9.8963]
+  - X Range: 29.799999999999997
+--------------------------------------------------
+
+[21:33:40.289] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:33:40.290] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['IBD-2 / non-identical <-> IBD-2 / non-identical (method=exact_match, score=1.000)', 'IBD-1 / non-identical <-> IBD-1 / non-identical (method=exact_match, score=1.000)', 'IBD-2 / IBD-1 <-> IBD-2 / IBD-1 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:33:40.824] === SERIES_COMPARISON ===
+Comparaison IBD-2 / non-identical vs IBD-2 / non-identical avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.162881
+  - MAE Relative: 0.132957
+  - Left Miss (rel): -0.004307
+  - Right Miss (rel): -0.084808
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 18
+  - Points Ratio: 0.82
+--------------------------------------------------
+
+[21:33:41.343] === SERIES_COMPARISON ===
+Comparaison IBD-1 / non-identical vs IBD-1 / non-identical avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.532662
+  - MAE Relative: 0.060901
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.043893
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 18
+  - Points Ratio: 1.12
+--------------------------------------------------
+
+[21:33:41.879] === SERIES_COMPARISON ===
+Comparaison IBD-2 / IBD-1 vs IBD-2 / IBD-1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.057572
+  - MAE Relative: 0.006582
+  - Left Miss (rel): -0.002153
+  - Right Miss (rel): 0.008793
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 8
+  - Points Ratio: 1.33
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:33:41
+Total Duration: 1.66 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2679057_1471-2156-10-16-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2679057_1471-2156-10-16-2
+================================================================================
+Timestamp: 2025-08-07 12:49:53
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2679057___1471-2156-10-16-2
+================================================================================
+
+
+
+[12:49:53.444] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:49:53.449] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:49:53.534] === DATA_LOADING ===
+Chargement des données GT depuis PMC2679057___1471-2156-10-16-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2679057___1471-2156-10-16-2.json
+  - Series Count: 3
+  - Series Names: ['IBD-2 / non-identical', 'IBD-1 / non-identical', 'IBD-2 / IBD-1']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 44
+--------------------------------------------------
+
+[12:49:53.537] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2679057___1471-2156-10-16-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2679057___1471-2156-10-16-2\PMC2679057___1471-2156-10-16-2.json
+  - Series Count: 3
+  - Series Names: ['IBD-2 / non-identical', 'IBD-1 / non-identical', 'IBD-2 / IBD-1']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 47
+--------------------------------------------------
+
+[12:49:53.540] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 8.7463
+  - Y Min-Max: [1.1500, 9.8963]
+  - X Range: 29.950000000000003
+--------------------------------------------------
+
+[12:49:53.549] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:49:53.552] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['IBD-2 / non-identical <-> IBD-2 / non-identical (method=exact_match, score=1.000)', 'IBD-1 / non-identical <-> IBD-1 / non-identical (method=exact_match, score=1.000)', 'IBD-2 / IBD-1 <-> IBD-2 / IBD-1 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:49:54.510] === SERIES_COMPARISON ===
+Comparaison IBD-2 / non-identical vs IBD-2 / non-identical avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.225932
+  - MAE Relative: 0.140166
+  - Left Miss (rel): -0.004285
+  - Right Miss (rel): -0.087722
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 19
+  - Points Ratio: 0.86
+--------------------------------------------------
+
+[12:49:55.287] === SERIES_COMPARISON ===
+Comparaison IBD-1 / non-identical vs IBD-1 / non-identical avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.534805
+  - MAE Relative: 0.061146
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.048682
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 20
+  - Points Ratio: 1.25
+--------------------------------------------------
+
+[12:49:55.983] === SERIES_COMPARISON ===
+Comparaison IBD-2 / IBD-1 vs IBD-2 / IBD-1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.057572
+  - MAE Relative: 0.006582
+  - Left Miss (rel): -0.002143
+  - Right Miss (rel): 0.008749
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 8
+  - Points Ratio: 1.33
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:49:55
+Total Duration: 2.55 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2679057_1471-2156-10-16-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

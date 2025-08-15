@@ -1,0 +1,115 @@
+
+================================================================================
+VALIDATION LOG - PMC3831057_1471-2156-14-108-2
+================================================================================
+Timestamp: 2025-08-07 13:00:37
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3831057___1471-2156-14-108-2
+================================================================================
+
+
+
+[13:00:37.666] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:00:37.669] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:00:37.714] === DATA_LOADING ===
+Chargement des données GT depuis PMC3831057___1471-2156-14-108-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3831057___1471-2156-14-108-2.json
+  - Series Count: 2
+  - Series Names: ['[unnamed data series #0]', '[unnamed data series #1]']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 48
+--------------------------------------------------
+
+[13:00:37.717] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3831057___1471-2156-14-108-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3831057___1471-2156-14-108-2\PMC3831057___1471-2156-14-108-2.json
+  - Series Count: 2
+  - Series Names: ['unnamed data series #0', 'unnamed data series #1']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 26
+--------------------------------------------------
+
+[13:00:37.720] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.9521
+  - Y Min-Max: [0.0479, 1.0000]
+  - X Range: 1.2016666666666667
+--------------------------------------------------
+
+[13:00:37.722] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:00:37.730] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['[unnamed data series #0] <-> unnamed data series #0 (method=similarity_match_generic, score=0.879)', '[unnamed data series #1] <-> unnamed data series #1 (method=similarity_match_generic, score=0.864)']
+--------------------------------------------------
+
+[13:00:38.434] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs unnamed data series #0 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.047165
+  - MAE Relative: 0.049535
+  - Left Miss (rel): 0.001387
+  - Right Miss (rel): -0.056865
+  - X Cutoff: N/A
+  - GT Points: 19
+  - Extracted Points: 13
+  - Points Ratio: 0.68
+--------------------------------------------------
+
+[13:00:39.416] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #1] vs unnamed data series #1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.012572
+  - MAE Relative: 0.013204
+  - Left Miss (rel): -0.001387
+  - Right Miss (rel): -0.061670
+  - X Cutoff: N/A
+  - GT Points: 29
+  - Extracted Points: 13
+  - Points Ratio: 0.45
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:00:39
+Total Duration: 1.76 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3831057_1471-2156-14-108-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

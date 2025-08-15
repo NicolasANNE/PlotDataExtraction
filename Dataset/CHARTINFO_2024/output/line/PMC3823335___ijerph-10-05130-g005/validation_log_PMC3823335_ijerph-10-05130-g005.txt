@@ -1,0 +1,129 @@
+
+================================================================================
+VALIDATION LOG - PMC3823335_ijerph-10-05130-g005
+================================================================================
+Timestamp: 2025-08-07 13:00:29
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3823335___ijerph-10-05130-g005
+================================================================================
+
+
+
+[13:00:29.158] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:00:29.162] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:00:29.227] === DATA_LOADING ===
+Chargement des données GT depuis PMC3823335___ijerph-10-05130-g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3823335___ijerph-10-05130-g005.json
+  - Series Count: 3
+  - Series Names: ['RoadA', 'Road B', 'Road C']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 21
+--------------------------------------------------
+
+[13:00:29.231] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3823335___ijerph-10-05130-g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3823335___ijerph-10-05130-g005\PMC3823335___ijerph-10-05130-g005.json
+  - Series Count: 3
+  - Series Names: ['Road A', 'Road B', 'Road C']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 21
+--------------------------------------------------
+
+[13:00:29.235] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 29.7981
+  - Y Min-Max: [3.7212, 33.5193]
+  - X Range: 6.016656435440966
+--------------------------------------------------
+
+[13:00:29.244] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:00:29.254] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Road B <-> Road B (method=exact_match, score=1.000)', 'Road C <-> Road C (method=exact_match, score=1.000)', 'RoadA <-> Road A (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[13:00:30.421] === SERIES_COMPARISON ===
+Comparaison Road B vs Road B avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.153152
+  - MAE Relative: 0.005140
+  - Left Miss (rel): 0.000306
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:00:32.399] === SERIES_COMPARISON ===
+Comparaison Road C vs Road C avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.119757
+  - MAE Relative: 0.004019
+  - Left Miss (rel): 0.000306
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:00:34.158] === SERIES_COMPARISON ===
+Comparaison RoadA vs Road A avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.120422
+  - MAE Relative: 0.004041
+  - Left Miss (rel): -0.002143
+  - Right Miss (rel): 0.002462
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:00:34
+Total Duration: 5.01 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3823335_ijerph-10-05130-g005.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,129 @@
+
+================================================================================
+VALIDATION LOG - PMC5615688_materials-10-01033-g010
+================================================================================
+Timestamp: 2025-08-11 13:21:22
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC5615688___materials-10-01033-g010
+================================================================================
+
+
+
+[13:21:22.031] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:21:22.036] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:21:22.182] === DATA_LOADING ===
+Chargement des données GT depuis PMC5615688___materials-10-01033-g010.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC5615688___materials-10-01033-g010.json
+  - Series Count: 3
+  - Series Names: ['v=1.5 mm/min', 'v=2.0 mm/min', 'v=2.5 mm/min']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 9
+--------------------------------------------------
+
+[13:21:22.188] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC5615688___materials-10-01033-g010.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC5615688___materials-10-01033-g010\PMC5615688___materials-10-01033-g010.json
+  - Series Count: 3
+  - Series Names: ['v=1.5 mm/min', 'v=2.0 mm/min', 'v=2.5 mm/min']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 9
+--------------------------------------------------
+
+[13:21:22.194] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 82.2305
+  - Y Min-Max: [518.7695, 601.0000]
+  - X Range: 0.11000000000000004
+--------------------------------------------------
+
+[13:21:22.206] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:21:22.218] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['v=1.5 mm/min <-> v=1.5 mm/min (method=exact_match, score=1.000)', 'v=2.0 mm/min <-> v=2.0 mm/min (method=exact_match, score=1.000)', 'v=2.5 mm/min <-> v=2.5 mm/min (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:21:23.272] === SERIES_COMPARISON ===
+Comparaison v=1.5 mm/min vs v=1.5 mm/min avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.456827
+  - MAE Relative: 0.029877
+  - Left Miss (rel): 0.000594
+  - Right Miss (rel): -0.092692
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:21:24.106] === SERIES_COMPARISON ===
+Comparaison v=2.0 mm/min vs v=2.0 mm/min avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.758893
+  - MAE Relative: 0.021390
+  - Left Miss (rel): 0.001783
+  - Right Miss (rel): -0.003565
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:21:24.948] === SERIES_COMPARISON ===
+Comparaison v=2.5 mm/min vs v=2.5 mm/min avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.759219
+  - MAE Relative: 0.009233
+  - Left Miss (rel): -0.001783
+  - Right Miss (rel): -0.090909
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-11 13:21:24
+Total Duration: 2.93 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC5615688_materials-10-01033-g010.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

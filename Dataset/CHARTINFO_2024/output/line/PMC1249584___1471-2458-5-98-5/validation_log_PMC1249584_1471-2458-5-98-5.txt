@@ -1,0 +1,858 @@
+
+================================================================================
+VALIDATION LOG - PMC1249584_1471-2458-5-98-5
+================================================================================
+Timestamp: 2025-08-06 20:15:18
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1249584___1471-2458-5-98-5
+================================================================================
+
+
+
+[20:15:18.587] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:18.654] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:18.673] === DATA_LOADING ===
+Chargement des données GT depuis PMC1249584___1471-2458-5-98-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1249584___1471-2458-5-98-5.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:18.677] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1249584___1471-2458-5-98-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1249584___1471-2458-5-98-5\PMC1249584___1471-2458-5-98-5.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:18.679] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1249584_1471-2458-5-98-5
+================================================================================
+Timestamp: 2025-08-06 21:06:36
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1249584___1471-2458-5-98-5
+================================================================================
+
+
+
+[21:06:36.625] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:06:36.645] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:06:36.847] === DATA_LOADING ===
+Chargement des données GT depuis PMC1249584___1471-2458-5-98-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1249584___1471-2458-5-98-5.json
+  - Series Count: 2
+  - Series Names: ['First batch programmes', 'Second batch programmes']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[21:06:36.851] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1249584___1471-2458-5-98-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1249584___1471-2458-5-98-5\PMC1249584___1471-2458-5-98-5.json
+  - Series Count: 2
+  - Series Names: ['First batch programmes', 'Second batch programmes']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[21:06:36.854] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 3280.0000
+  - Y Min-Max: [420.0000, 3700.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[21:06:36.867] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:06:37.886] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['First batch programmes <-> First batch programmes (method=exact_match, score=1.000)', 'Second batch programmes <-> Second batch programmes (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:06:39.359] === SERIES_COMPARISON ===
+Comparaison First batch programmes vs First batch programmes avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 754.163807
+  - MAE Relative: 0.229928
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.551667
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:06:40.446] === SERIES_COMPARISON ===
+Comparaison Second batch programmes vs Second batch programmes avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 308.334933
+  - MAE Relative: 0.094005
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.562500
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:06:41
+Total Duration: 4.90 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1249584_1471-2458-5-98-5.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1249584_1471-2458-5-98-5
+================================================================================
+Timestamp: 2025-08-06 21:30:52
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1249584___1471-2458-5-98-5
+================================================================================
+
+
+
+[21:30:52.146] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:30:52.148] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:30:52.212] === DATA_LOADING ===
+Chargement des données GT depuis PMC1249584___1471-2458-5-98-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1249584___1471-2458-5-98-5.json
+  - Series Count: 2
+  - Series Names: ['First batch programmes', 'Second batch programmes']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[21:30:52.233] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1249584___1471-2458-5-98-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1249584___1471-2458-5-98-5\PMC1249584___1471-2458-5-98-5.json
+  - Series Count: 2
+  - Series Names: ['First batch programmes', 'Second batch programmes']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[21:30:52.236] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 3280.0000
+  - Y Min-Max: [420.0000, 3700.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[21:30:52.238] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:30:52.240] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['First batch programmes <-> First batch programmes (method=exact_match, score=1.000)', 'Second batch programmes <-> Second batch programmes (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:30:53.245] === SERIES_COMPARISON ===
+Comparaison First batch programmes vs First batch programmes avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 754.163807
+  - MAE Relative: 0.229928
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.551667
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:30:54.299] === SERIES_COMPARISON ===
+Comparaison Second batch programmes vs Second batch programmes avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 308.334933
+  - MAE Relative: 0.094005
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.562500
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:30:54
+Total Duration: 2.17 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1249584_1471-2458-5-98-5.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1249584_1471-2458-5-98-5
+================================================================================
+Timestamp: 2025-08-07 12:46:47
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1249584___1471-2458-5-98-5
+================================================================================
+
+
+
+[12:46:47.147] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:46:47.149] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:46:47.199] === DATA_LOADING ===
+Chargement des données GT depuis PMC1249584___1471-2458-5-98-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1249584___1471-2458-5-98-5.json
+  - Series Count: 2
+  - Series Names: ['First batch programmes', 'Second batch programmes']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[12:46:47.206] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1249584___1471-2458-5-98-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1249584___1471-2458-5-98-5\PMC1249584___1471-2458-5-98-5.json
+  - Series Count: 2
+  - Series Names: ['First batch programmes', 'Second batch programmes']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[12:46:47.208] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 3280.0000
+  - Y Min-Max: [420.0000, 3700.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:46:47.211] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:46:47.212] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['First batch programmes <-> First batch programmes (method=exact_match, score=1.000)', 'Second batch programmes <-> Second batch programmes (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:46:48.407] === SERIES_COMPARISON ===
+Comparaison First batch programmes vs First batch programmes avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 754.163807
+  - MAE Relative: 0.229928
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.551667
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:46:49.298] === SERIES_COMPARISON ===
+Comparaison Second batch programmes vs Second batch programmes avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 295.834933
+  - MAE Relative: 0.090194
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.562500
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:46:49
+Total Duration: 2.16 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1249584_1471-2458-5-98-5.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1249584_1471-2458-5-98-5
+================================================================================
+Timestamp: 2025-08-07 13:03:46
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1249584___1471-2458-5-98-5
+================================================================================
+
+
+
+[13:03:46.929] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:03:46.950] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:03:47.016] === DATA_LOADING ===
+Chargement des données GT depuis PMC1249584___1471-2458-5-98-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1249584___1471-2458-5-98-5.json
+  - Series Count: 2
+  - Series Names: ['First batch programmes', 'Second batch programmes']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[13:03:47.021] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1249584___1471-2458-5-98-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1249584___1471-2458-5-98-5\PMC1249584___1471-2458-5-98-5.json
+  - Series Count: 2
+  - Series Names: ['First batch programmes', 'Second batch programmes']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[13:03:47.054] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 3280.0000
+  - Y Min-Max: [420.0000, 3700.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:03:47.087] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:03:47.090] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['First batch programmes <-> First batch programmes (method=exact_match, score=1.000)', 'Second batch programmes <-> Second batch programmes (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:03:47.792] === SERIES_COMPARISON ===
+Comparaison First batch programmes vs First batch programmes avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 754.163807
+  - MAE Relative: 0.229928
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.551667
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:03:48.887] === SERIES_COMPARISON ===
+Comparaison Second batch programmes vs Second batch programmes avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 308.334933
+  - MAE Relative: 0.094005
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.562500
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:03:48
+Total Duration: 2.00 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1249584_1471-2458-5-98-5.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1249584_1471-2458-5-98-5
+================================================================================
+Timestamp: 2025-08-07 16:37:19
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1249584___1471-2458-5-98-5
+================================================================================
+
+
+
+[16:37:19.752] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:37:19.753] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:37:19.793] === DATA_LOADING ===
+Chargement des données GT depuis PMC1249584___1471-2458-5-98-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1249584___1471-2458-5-98-5.json
+  - Series Count: 2
+  - Series Names: ['First batch programmes', 'Second batch programmes']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[16:37:19.815] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1249584___1471-2458-5-98-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1249584___1471-2458-5-98-5\PMC1249584___1471-2458-5-98-5.json
+  - Series Count: 2
+  - Series Names: ['First batch programmes', 'Second batch programmes']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[16:37:19.817] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 3280.0000
+  - Y Min-Max: [420.0000, 3700.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:37:19.819] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:37:19.821] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['First batch programmes <-> First batch programmes (method=exact_match, score=1.000)', 'Second batch programmes <-> Second batch programmes (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:37:20.569] === SERIES_COMPARISON ===
+Comparaison First batch programmes vs First batch programmes avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 754.163807
+  - MAE Relative: 0.229928
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.551667
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:37:21.292] === SERIES_COMPARISON ===
+Comparaison Second batch programmes vs Second batch programmes avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 295.834933
+  - MAE Relative: 0.090194
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.562500
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:37:21
+Total Duration: 1.54 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1249584_1471-2458-5-98-5.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1249584_1471-2458-5-98-5
+================================================================================
+Timestamp: 2025-08-07 16:56:35
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1249584___1471-2458-5-98-5
+================================================================================
+
+
+
+[16:56:35.040] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:56:35.042] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:56:35.078] === DATA_LOADING ===
+Chargement des données GT depuis PMC1249584___1471-2458-5-98-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1249584___1471-2458-5-98-5.json
+  - Series Count: 2
+  - Series Names: ['First batch programmes', 'Second batch programmes']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[16:56:35.085] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1249584___1471-2458-5-98-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1249584___1471-2458-5-98-5\PMC1249584___1471-2458-5-98-5.json
+  - Series Count: 2
+  - Series Names: ['First batch programmes', 'Second batch programmes']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[16:56:35.088] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 3280.0000
+  - Y Min-Max: [420.0000, 3700.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:56:35.090] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:56:35.092] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['First batch programmes <-> First batch programmes (method=exact_match, score=1.000)', 'Second batch programmes <-> Second batch programmes (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:56:35.839] === SERIES_COMPARISON ===
+Comparaison First batch programmes vs First batch programmes avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 754.163807
+  - MAE Relative: 0.229928
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.551667
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:56:36.648] === SERIES_COMPARISON ===
+Comparaison Second batch programmes vs Second batch programmes avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 308.334933
+  - MAE Relative: 0.094005
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.562500
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:56:36
+Total Duration: 1.65 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1249584_1471-2458-5-98-5.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1249584_1471-2458-5-98-5
+================================================================================
+Timestamp: 2025-08-11 13:45:21
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1249584___1471-2458-5-98-5
+================================================================================
+
+
+
+[13:45:21.070] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:45:21.079] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:45:21.192] === DATA_LOADING ===
+Chargement des données GT depuis PMC1249584___1471-2458-5-98-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1249584___1471-2458-5-98-5.json
+  - Series Count: 2
+  - Series Names: ['First batch programmes', 'Second batch programmes']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[13:45:21.195] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1249584___1471-2458-5-98-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1249584___1471-2458-5-98-5\PMC1249584___1471-2458-5-98-5.json
+  - Series Count: 2
+  - Series Names: ['First batch programmes', 'Second batch programmes']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[13:45:21.198] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 3280.0000
+  - Y Min-Max: [420.0000, 3700.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:45:21.201] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:45:21.204] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['First batch programmes <-> First batch programmes (method=exact_match, score=1.000)', 'Second batch programmes <-> Second batch programmes (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:45:22.577] === SERIES_COMPARISON ===
+Comparaison First batch programmes vs First batch programmes avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 754.163807
+  - MAE Relative: 0.229928
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.551667
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:45:24.589] === SERIES_COMPARISON ===
+Comparaison Second batch programmes vs Second batch programmes avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 298.334933
+  - MAE Relative: 0.090956
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.562500
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-11 13:45:24
+Total Duration: 3.55 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1249584_1471-2458-5-98-5.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,129 @@
+
+================================================================================
+VALIDATION LOG - PMC3531486_pgen.1003138.g002
+================================================================================
+Timestamp: 2025-08-07 12:56:35
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3531486___pgen.1003138.g002
+================================================================================
+
+
+
+[12:56:35.464] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:56:35.467] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:56:35.530] === DATA_LOADING ===
+Chargement des données GT depuis PMC3531486___pgen.1003138.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3531486___pgen.1003138.g002.json
+  - Series Count: 3
+  - Series Names: ['Wildtype (n=63)', 'BubR1^{+/GTTA} (n=55)', 'BubR1^{H/H} (n=35)']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 153
+--------------------------------------------------
+
+[12:56:35.533] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3531486___pgen.1003138.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3531486___pgen.1003138.g002\PMC3531486___pgen.1003138.g002.json
+  - Series Count: 3
+  - Series Names: ['Wildtype (n=63)', 'BubR1+/GTTA (n=55)', 'BubR1H/H (n=35)']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 150
+--------------------------------------------------
+
+[12:56:35.537] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 100.2770
+  - Y Min-Max: [-0.2316, 100.0454]
+  - X Range: 150.0
+--------------------------------------------------
+
+[12:56:35.539] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:56:35.542] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Wildtype (n=63) <-> Wildtype (n=63) (method=exact_match, score=1.000)', 'BubR1^{+/GTTA} (n=55) <-> BubR1+/GTTA (n=55) (method=fuzzy_match, score=0.900)', 'BubR1^{H/H} (n=35) <-> BubR1H/H (n=35) (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[12:56:36.392] === SERIES_COMPARISON ===
+Comparaison Wildtype (n=63) vs Wildtype (n=63) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 19.300494
+  - MAE Relative: 0.192472
+  - Left Miss (rel): -0.222739
+  - Right Miss (rel): -0.073678
+  - X Cutoff: N/A
+  - GT Points: 66
+  - Extracted Points: 50
+  - Points Ratio: 0.76
+--------------------------------------------------
+
+[12:56:37.634] === SERIES_COMPARISON ===
+Comparaison BubR1^{+/GTTA} (n=55) vs BubR1+/GTTA (n=55) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 11.997509
+  - MAE Relative: 0.119644
+  - Left Miss (rel): -0.034435
+  - Right Miss (rel): -0.193578
+  - X Cutoff: N/A
+  - GT Points: 47
+  - Extracted Points: 50
+  - Points Ratio: 1.06
+--------------------------------------------------
+
+[12:56:39.253] === SERIES_COMPARISON ===
+Comparaison BubR1^{H/H} (n=35) vs BubR1H/H (n=35) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 7.193720
+  - MAE Relative: 0.071739
+  - Left Miss (rel): -0.003723
+  - Right Miss (rel): -0.493718
+  - X Cutoff: N/A
+  - GT Points: 40
+  - Extracted Points: 50
+  - Points Ratio: 1.25
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:56:39
+Total Duration: 3.81 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3531486_pgen.1003138.g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

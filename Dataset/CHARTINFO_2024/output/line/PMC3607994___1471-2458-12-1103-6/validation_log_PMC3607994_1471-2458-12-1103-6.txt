@@ -1,0 +1,129 @@
+
+================================================================================
+VALIDATION LOG - PMC3607994_1471-2458-12-1103-6
+================================================================================
+Timestamp: 2025-08-07 12:57:45
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3607994___1471-2458-12-1103-6
+================================================================================
+
+
+
+[12:57:45.872] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:57:45.876] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:57:45.936] === DATA_LOADING ===
+Chargement des données GT depuis PMC3607994___1471-2458-12-1103-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3607994___1471-2458-12-1103-6.json
+  - Series Count: 3
+  - Series Names: ['Self-rated health score 1-3', 'Self-rated health score 4-5', 'Self-rated health score 6-7']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 39
+--------------------------------------------------
+
+[12:57:45.942] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3607994___1471-2458-12-1103-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3607994___1471-2458-12-1103-6\PMC3607994___1471-2458-12-1103-6.json
+  - Series Count: 3
+  - Series Names: ['Self-rated health score 1-3', 'Self-rated health score 4-5', 'Self-rated health score 6-7']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 42
+--------------------------------------------------
+
+[12:57:45.949] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 12.4177
+  - Y Min-Max: [0.0000, 12.4177]
+  - X Range: 325.0
+--------------------------------------------------
+
+[12:57:45.976] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:57:45.994] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['Men SRH score 1-3 <-> Men SRH score 1-3 (method=exact_match, score=1.000)', 'Women SRH score 1-3 <-> Women SRH score 1-3 (method=exact_match, score=1.000)', 'Men SRH score 4-5 <-> Men SRH score 4-5 (method=exact_match, score=1.000)', 'Women SRH score 4-5 <-> Women SRH score 4-5 (method=exact_match, score=1.000)', 'Men SRH score 6-7 <-> Men SRH score 6-7 (method=exact_match, score=1.000)', 'Women SRH score 6-7 <-> Women SRH score 6-7 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:57:46.002] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison Men SRH score 1-3 vs Men SRH score 1-3
+==================================================
+
+
+[12:57:46.009] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison Women SRH score 1-3 vs Women SRH score 1-3
+==================================================
+
+
+[12:57:46.035] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison Men SRH score 4-5 vs Men SRH score 4-5
+==================================================
+
+
+[12:57:46.048] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison Women SRH score 4-5 vs Women SRH score 4-5
+==================================================
+
+
+[12:57:46.126] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison Men SRH score 6-7 vs Men SRH score 6-7
+==================================================
+
+
+[12:57:46.158] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison Women SRH score 6-7 vs Women SRH score 6-7
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:57:46
+Total Duration: 0.37 seconds
+Total Series Processed: 6
+Successful Comparisons: 0
+Errors: 6
+Success Rate: 0.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3607994_1471-2458-12-1103-6.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

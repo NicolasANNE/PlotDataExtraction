@@ -1,0 +1,115 @@
+
+================================================================================
+VALIDATION LOG - PMC3562317_g006
+================================================================================
+Timestamp: 2025-08-07 12:57:12
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3562317___g006
+================================================================================
+
+
+
+[12:57:12.852] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:57:12.855] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:57:12.908] === DATA_LOADING ===
+Chargement des données GT depuis PMC3562317___g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3562317___g006.json
+  - Series Count: 2
+  - Series Names: ['Rv1430 full-length', 'PE-PPE domain']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[12:57:12.920] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3562317___g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3562317___g006\PMC3562317___g006.json
+  - Series Count: 2
+  - Series Names: ['PE-PPE domain', 'Rv1430 full-length']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[12:57:12.923] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 34.1283
+  - Y Min-Max: [23.8717, 58.0000]
+  - X Range: 1.0392339121552605
+--------------------------------------------------
+
+[12:57:12.926] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:57:12.934] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Rv1430 full-length <-> Rv1430 full-length (method=exact_match, score=1.000)', 'PE-PPE domain <-> PE-PPE domain (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:57:14.446] === SERIES_COMPARISON ===
+Comparaison Rv1430 full-length vs Rv1430 full-length avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.831564
+  - MAE Relative: 0.024366
+  - Left Miss (rel): 0.037753
+  - Right Miss (rel): -0.035787
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 11
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:57:16.092] === SERIES_COMPARISON ===
+Comparaison PE-PPE domain vs PE-PPE domain avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.782385
+  - MAE Relative: 0.052226
+  - Left Miss (rel): 0.036278
+  - Right Miss (rel): -0.035787
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 11
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:57:16
+Total Duration: 3.27 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3562317_g006.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

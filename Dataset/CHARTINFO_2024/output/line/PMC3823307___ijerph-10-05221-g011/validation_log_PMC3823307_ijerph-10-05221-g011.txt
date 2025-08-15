@@ -1,0 +1,122 @@
+
+================================================================================
+VALIDATION LOG - PMC3823307_ijerph-10-05221-g011
+================================================================================
+Timestamp: 2025-08-07 13:00:28
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3823307___ijerph-10-05221-g011
+================================================================================
+
+
+
+[13:00:28.931] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:00:28.935] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:00:28.979] === DATA_LOADING ===
+Chargement des données GT depuis PMC3823307___ijerph-10-05221-g011.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3823307___ijerph-10-05221-g011.json
+  - Series Count: 4
+  - Series Names: ['KR', 'KR AgEuc br', 'KR AgEuc br 4074ppm', 'KR Ag Euc ext 4ppm']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 41
+--------------------------------------------------
+
+[13:00:28.989] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3823307___ijerph-10-05221-g011.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3823307___ijerph-10-05221-g011\PMC3823307___ijerph-10-05221-g011.json
+  - Series Count: 4
+  - Series Names: ['KR', 'KR AgEuc br', 'KR AgEuc br 4074ppm', 'KR Ag Euc ext 4ppm']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 48
+--------------------------------------------------
+
+[13:00:28.994] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.1460
+  - Y Min-Max: [0.2080, 0.3540]
+  - X Range: 1107.6923076923076
+--------------------------------------------------
+
+[13:00:28.998] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:00:29.001] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['Salm <-> Salm (method=exact_match, score=1.000)', 'AgGer <-> AgGer (method=exact_match, score=1.000)', 'AgML <-> AgML (method=exact_match, score=1.000)', 'AgEuc <-> AgEuc (method=exact_match, score=1.000)', 'AgAI ext <-> AgAl ext (method=fuzzy_match, score=0.850)']
+--------------------------------------------------
+
+[13:00:29.005] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison Salm vs Salm
+==================================================
+
+
+[13:00:29.010] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison AgGer vs AgGer
+==================================================
+
+
+[13:00:29.023] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison AgML vs AgML
+==================================================
+
+
+[13:00:29.082] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison AgEuc vs AgEuc
+==================================================
+
+
+[13:00:29.104] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison AgAI ext vs AgAl ext
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:00:29
+Total Duration: 0.20 seconds
+Total Series Processed: 5
+Successful Comparisons: 0
+Errors: 5
+Success Rate: 0.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3823307_ijerph-10-05221-g011.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

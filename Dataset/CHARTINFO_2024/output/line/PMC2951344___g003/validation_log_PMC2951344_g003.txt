@@ -1,0 +1,367 @@
+
+================================================================================
+VALIDATION LOG - PMC2951344_g003
+================================================================================
+Timestamp: 2025-08-06 20:16:57
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2951344___g003
+================================================================================
+
+
+
+[20:16:57.474] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:57.508] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:57.535] === DATA_LOADING ===
+Chargement des données GT depuis PMC2951344___g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2951344___g003.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:57.561] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2951344___g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2951344___g003\PMC2951344___g003.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:57.563] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2951344_g003
+================================================================================
+Timestamp: 2025-08-06 21:35:13
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2951344___g003
+================================================================================
+
+
+
+[21:35:13.383] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:35:13.385] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:35:13.424] === DATA_LOADING ===
+Chargement des données GT depuis PMC2951344___g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2951344___g003.json
+  - Series Count: 5
+  - Series Names: ['MER', 'MWER', 'MWER-RK', 'ER-HR', 'WER-HR']
+  - X Data Types: {'categorical': 5}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[21:35:13.428] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2951344___g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2951344___g003\PMC2951344___g003.json
+  - Series Count: 5
+  - Series Names: ['MER', 'MWER', 'MWER-RK', 'ER-HR', 'WER-HR']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[21:35:13.432] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.4600
+  - Y Min-Max: [0.1900, 0.6500]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[21:35:13.434] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:35:13.436] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['MER <-> MER (method=exact_match, score=1.000)', 'MWER <-> MWER (method=exact_match, score=1.000)', 'MWER-RK <-> MWER-RK (method=exact_match, score=1.000)', 'ER-HR <-> ER-HR (method=exact_match, score=1.000)', 'WER-HR <-> WER-HR (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:35:14.871] === SERIES_COMPARISON ===
+Comparaison MER vs MER avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.001670
+  - MAE Relative: 0.003631
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:35:16.779] === SERIES_COMPARISON ===
+Comparaison MWER vs MWER avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.003971
+  - MAE Relative: 0.008633
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:35:18.607] === SERIES_COMPARISON ===
+Comparaison MWER-RK vs MWER-RK avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.008433
+  - MAE Relative: 0.018333
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:35:20.475] === SERIES_COMPARISON ===
+Comparaison ER-HR vs ER-HR avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.002805
+  - MAE Relative: 0.006097
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:35:22.114] === SERIES_COMPARISON ===
+Comparaison WER-HR vs WER-HR avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.004828
+  - MAE Relative: 0.010496
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:35:22
+Total Duration: 8.74 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2951344_g003.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2951344_g003
+================================================================================
+Timestamp: 2025-08-07 12:51:18
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2951344___g003
+================================================================================
+
+
+
+[12:51:18.585] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:51:18.588] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:51:18.643] === DATA_LOADING ===
+Chargement des données GT depuis PMC2951344___g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2951344___g003.json
+  - Series Count: 5
+  - Series Names: ['MER', 'MWER', 'MWER-RK', 'ER-HR', 'WER-HR']
+  - X Data Types: {'categorical': 5}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[12:51:18.676] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2951344___g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2951344___g003\PMC2951344___g003.json
+  - Series Count: 5
+  - Series Names: ['MER', 'MWER', 'MWER-RK', 'ER-HR', 'WER-HR']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[12:51:18.687] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.4550
+  - Y Min-Max: [0.1950, 0.6500]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:51:18.707] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:51:18.709] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['MER <-> MER (method=exact_match, score=1.000)', 'MWER <-> MWER (method=exact_match, score=1.000)', 'MWER-RK <-> MWER-RK (method=exact_match, score=1.000)', 'ER-HR <-> ER-HR (method=exact_match, score=1.000)', 'WER-HR <-> WER-HR (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:51:19.585] === SERIES_COMPARISON ===
+Comparaison MER vs MER avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.000941
+  - MAE Relative: 0.002069
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:51:20.406] === SERIES_COMPARISON ===
+Comparaison MWER vs MWER avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.005638
+  - MAE Relative: 0.012391
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:51:21.469] === SERIES_COMPARISON ===
+Comparaison MWER-RK vs MWER-RK avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.007600
+  - MAE Relative: 0.016703
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:51:23.881] === SERIES_COMPARISON ===
+Comparaison ER-HR vs ER-HR avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.002805
+  - MAE Relative: 0.006164
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:51:26.827] === SERIES_COMPARISON ===
+Comparaison WER-HR vs WER-HR avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.004828
+  - MAE Relative: 0.010611
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:51:26
+Total Duration: 8.25 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2951344_g003.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

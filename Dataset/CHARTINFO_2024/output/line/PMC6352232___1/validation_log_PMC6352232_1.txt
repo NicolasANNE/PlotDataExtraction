@@ -1,0 +1,143 @@
+
+================================================================================
+VALIDATION LOG - PMC6352232_1
+================================================================================
+Timestamp: 2025-08-06 17:45:13
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC6352232___1
+================================================================================
+
+
+
+[17:45:13.942] === VALIDATION_START ===
+Début de la validation pour l'image PMC6352232___1
+--------------------------------------------------
+
+[17:45:13.993] === DATA_LOADING ===
+Chargement des données Ground Truth depuis PMC6352232___1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC6352232___1.json
+  - Series Count: 4
+  - Series Names: ['A', 'B', 'C', 'D']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 256
+--------------------------------------------------
+
+[17:45:13.996] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC6352232___1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC6352232___1\PMC6352232___1.json
+  - Series Count: 4
+  - Series Names: ['unnamed data series #0', 'unnamed data series #1', 'unnamed data series #2', 'unnamed data series #3']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 104
+--------------------------------------------------
+
+[17:45:13.998] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line
+  - Extractor Plot Type: line plot
+  - Final Plot Type: line
+  - Categorical X Detected: False
+  - Comparator Used: Standard comparator
+--------------------------------------------------
+
+[17:45:14.001] === BOUNDS_CALCULATION ===
+Bornes global calculées pour normalisation MAE relative
+
+Data:
+  - X Range: 26.0888
+  - Y Range: 220.2266
+  - X Min-Max: [2.0, 28.088815789473685]
+  - Y Min-Max: [1.9470, 222.1736]
+--------------------------------------------------
+
+[17:45:14.009] === SERIES_MATCHING ===
+Appariement des séries utilisant: Similarity-only (generic names)
+
+Data:
+  - GT Series: 4 séries: ['A', 'B', 'C', 'D']
+  - Extracted Series: 4 séries: ['unnamed data series #0', 'unnamed data series #1', 'unnamed data series #2', 'unnamed data series #3']
+  - Matches Found: 4 appariements
+  - Match Details: ['A <-> unnamed data series #0 (method=similarity_match_generic, score=0.602)', 'B <-> unnamed data series #1 (method=similarity_match_generic, score=0.562)', 'C <-> unnamed data series #2 (method=similarity_match_generic, score=0.585)', 'D <-> unnamed data series #3 (method=similarity_match_generic, score=0.580)']
+--------------------------------------------------
+
+[17:45:14.519] === SERIES_COMPARISON ===
+Comparaison A vs unnamed data series #0 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 4.406571
+  - MAE Relative: 0.020009
+  - Left Miss (rel): -0.018031
+  - Right Miss (rel): 0.040600
+  - X Cutoff: N/A
+  - GT Points: 55
+  - Extracted Points: 26
+  - Points Ratio: 0.47
+--------------------------------------------------
+
+[17:45:15.107] === SERIES_COMPARISON ===
+Comparaison B vs unnamed data series #1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 4.446780
+  - MAE Relative: 0.020192
+  - Left Miss (rel): -0.018409
+  - Right Miss (rel): 0.039339
+  - X Cutoff: N/A
+  - GT Points: 78
+  - Extracted Points: 26
+  - Points Ratio: 0.33
+--------------------------------------------------
+
+[17:45:15.605] === SERIES_COMPARISON ===
+Comparaison C vs unnamed data series #2 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 10.117372
+  - MAE Relative: 0.045941
+  - Left Miss (rel): -0.018409
+  - Right Miss (rel): 0.041735
+  - X Cutoff: N/A
+  - GT Points: 59
+  - Extracted Points: 26
+  - Points Ratio: 0.44
+--------------------------------------------------
+
+[17:45:16.080] === SERIES_COMPARISON ===
+Comparaison D vs unnamed data series #3 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 4.426714
+  - MAE Relative: 0.020101
+  - Left Miss (rel): -0.020300
+  - Right Miss (rel): 0.039465
+  - X Cutoff: N/A
+  - GT Points: 64
+  - Extracted Points: 26
+  - Points Ratio: 0.41
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 17:45:16
+Total Duration: 2.14 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0% if total_results > 0 else "N/A"
+
+Generated Files:
+- Validation Log: validation_log_PMC6352232_1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

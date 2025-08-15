@@ -1,0 +1,956 @@
+
+================================================================================
+VALIDATION LOG - PMC1177964_1471-2458-5-61-2
+================================================================================
+Timestamp: 2025-08-06 20:15:11
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1177964___1471-2458-5-61-2
+================================================================================
+
+
+
+[20:15:11.977] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:12.014] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:12.023] === DATA_LOADING ===
+Chargement des données GT depuis PMC1177964___1471-2458-5-61-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1177964___1471-2458-5-61-2.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:12.026] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1177964___1471-2458-5-61-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1177964___1471-2458-5-61-2\PMC1177964___1471-2458-5-61-2.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:12.030] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1177964_1471-2458-5-61-2
+================================================================================
+Timestamp: 2025-08-06 21:06:10
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1177964___1471-2458-5-61-2
+================================================================================
+
+
+
+[21:06:10.946] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:06:10.951] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:06:10.996] === DATA_LOADING ===
+Chargement des données GT depuis PMC1177964___1471-2458-5-61-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1177964___1471-2458-5-61-2.json
+  - Series Count: 3
+  - Series Names: ['SR', 'UDR', 'SR+UDR']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[21:06:11.000] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1177964___1471-2458-5-61-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1177964___1471-2458-5-61-2\PMC1177964___1471-2458-5-61-2.json
+  - Series Count: 3
+  - Series Names: ['SR', 'UDR', 'SR+UDR']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[21:06:11.006] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 13.2000
+  - Y Min-Max: [1.2000, 14.4000]
+  - X Range: 11.501519756838888
+--------------------------------------------------
+
+[21:06:11.022] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:06:11.026] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['SR <-> SR (method=exact_match, score=1.000)', 'UDR <-> UDR (method=exact_match, score=1.000)', 'SR+UDR <-> SR+UDR (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:06:13.499] === SERIES_COMPARISON ===
+Comparaison SR vs SR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.119389
+  - MAE Relative: 0.009045
+  - Left Miss (rel): -0.043605
+  - Right Miss (rel): 0.042151
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:06:27.758] === SERIES_COMPARISON ===
+Comparaison UDR vs UDR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.235906
+  - MAE Relative: 0.017872
+  - Left Miss (rel): -0.040698
+  - Right Miss (rel): 0.043605
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:06:29.014] === SERIES_COMPARISON ===
+Comparaison SR+UDR vs SR+UDR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.196155
+  - MAE Relative: 0.014860
+  - Left Miss (rel): -0.040698
+  - Right Miss (rel): 0.043605
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:06:29
+Total Duration: 18.09 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1177964_1471-2458-5-61-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1177964_1471-2458-5-61-2
+================================================================================
+Timestamp: 2025-08-06 21:30:34
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1177964___1471-2458-5-61-2
+================================================================================
+
+
+
+[21:30:34.211] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:30:34.214] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:30:34.272] === DATA_LOADING ===
+Chargement des données GT depuis PMC1177964___1471-2458-5-61-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1177964___1471-2458-5-61-2.json
+  - Series Count: 3
+  - Series Names: ['SR', 'UDR', 'SR+UDR']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[21:30:34.291] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1177964___1471-2458-5-61-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1177964___1471-2458-5-61-2\PMC1177964___1471-2458-5-61-2.json
+  - Series Count: 3
+  - Series Names: ['SR', 'UDR', 'SR+UDR']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[21:30:34.309] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 13.2000
+  - Y Min-Max: [1.2000, 14.4000]
+  - X Range: 11.501519756838888
+--------------------------------------------------
+
+[21:30:34.319] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:30:34.322] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['SR <-> SR (method=exact_match, score=1.000)', 'UDR <-> UDR (method=exact_match, score=1.000)', 'SR+UDR <-> SR+UDR (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:30:35.292] === SERIES_COMPARISON ===
+Comparaison SR vs SR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.119389
+  - MAE Relative: 0.009045
+  - Left Miss (rel): -0.043605
+  - Right Miss (rel): 0.042151
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:30:36.002] === SERIES_COMPARISON ===
+Comparaison UDR vs UDR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.230996
+  - MAE Relative: 0.017500
+  - Left Miss (rel): -0.040698
+  - Right Miss (rel): 0.043605
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:30:36.503] === SERIES_COMPARISON ===
+Comparaison SR+UDR vs SR+UDR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.175163
+  - MAE Relative: 0.013270
+  - Left Miss (rel): -0.040698
+  - Right Miss (rel): 0.043605
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:30:36
+Total Duration: 2.31 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1177964_1471-2458-5-61-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1177964_1471-2458-5-61-2
+================================================================================
+Timestamp: 2025-08-07 12:46:28
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1177964___1471-2458-5-61-2
+================================================================================
+
+
+
+[12:46:28.456] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:46:28.458] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:46:28.507] === DATA_LOADING ===
+Chargement des données GT depuis PMC1177964___1471-2458-5-61-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1177964___1471-2458-5-61-2.json
+  - Series Count: 3
+  - Series Names: ['SR', 'UDR', 'SR+UDR']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[12:46:28.513] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1177964___1471-2458-5-61-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1177964___1471-2458-5-61-2\PMC1177964___1471-2458-5-61-2.json
+  - Series Count: 3
+  - Series Names: ['SR', 'UDR', 'SR+UDR']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[12:46:28.549] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 13.2000
+  - Y Min-Max: [1.2000, 14.4000]
+  - X Range: 11.501519756838888
+--------------------------------------------------
+
+[12:46:28.557] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:46:28.560] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['SR <-> SR (method=exact_match, score=1.000)', 'UDR <-> UDR (method=exact_match, score=1.000)', 'SR+UDR <-> SR+UDR (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:46:29.681] === SERIES_COMPARISON ===
+Comparaison SR vs SR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.119389
+  - MAE Relative: 0.009045
+  - Left Miss (rel): -0.043605
+  - Right Miss (rel): 0.042151
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:46:31.548] === SERIES_COMPARISON ===
+Comparaison UDR vs UDR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.230996
+  - MAE Relative: 0.017500
+  - Left Miss (rel): -0.040698
+  - Right Miss (rel): 0.043605
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:46:32.532] === SERIES_COMPARISON ===
+Comparaison SR+UDR vs SR+UDR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.175163
+  - MAE Relative: 0.013270
+  - Left Miss (rel): -0.040698
+  - Right Miss (rel): 0.043605
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:46:32
+Total Duration: 4.10 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1177964_1471-2458-5-61-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1177964_1471-2458-5-61-2
+================================================================================
+Timestamp: 2025-08-07 13:03:28
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1177964___1471-2458-5-61-2
+================================================================================
+
+
+
+[13:03:28.110] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:03:28.128] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:03:28.183] === DATA_LOADING ===
+Chargement des données GT depuis PMC1177964___1471-2458-5-61-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1177964___1471-2458-5-61-2.json
+  - Series Count: 3
+  - Series Names: ['SR', 'UDR', 'SR+UDR']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[13:03:28.192] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1177964___1471-2458-5-61-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1177964___1471-2458-5-61-2\PMC1177964___1471-2458-5-61-2.json
+  - Series Count: 3
+  - Series Names: ['SR', 'UDR', 'SR+UDR']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[13:03:28.205] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 13.2000
+  - Y Min-Max: [1.2000, 14.4000]
+  - X Range: 11.501519756838888
+--------------------------------------------------
+
+[13:03:28.208] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:03:28.217] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['SR <-> SR (method=exact_match, score=1.000)', 'UDR <-> UDR (method=exact_match, score=1.000)', 'SR+UDR <-> SR+UDR (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:03:29.024] === SERIES_COMPARISON ===
+Comparaison SR vs SR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.119389
+  - MAE Relative: 0.009045
+  - Left Miss (rel): -0.043605
+  - Right Miss (rel): 0.042151
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:03:29.723] === SERIES_COMPARISON ===
+Comparaison UDR vs UDR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.230996
+  - MAE Relative: 0.017500
+  - Left Miss (rel): -0.040698
+  - Right Miss (rel): 0.043605
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:03:30.747] === SERIES_COMPARISON ===
+Comparaison SR+UDR vs SR+UDR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.175163
+  - MAE Relative: 0.013270
+  - Left Miss (rel): -0.040698
+  - Right Miss (rel): 0.043605
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:03:30
+Total Duration: 2.70 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1177964_1471-2458-5-61-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1177964_1471-2458-5-61-2
+================================================================================
+Timestamp: 2025-08-07 16:37:03
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1177964___1471-2458-5-61-2
+================================================================================
+
+
+
+[16:37:03.052] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:37:03.055] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:37:03.108] === DATA_LOADING ===
+Chargement des données GT depuis PMC1177964___1471-2458-5-61-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1177964___1471-2458-5-61-2.json
+  - Series Count: 3
+  - Series Names: ['SR', 'UDR', 'SR+UDR']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[16:37:03.111] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1177964___1471-2458-5-61-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1177964___1471-2458-5-61-2\PMC1177964___1471-2458-5-61-2.json
+  - Series Count: 3
+  - Series Names: ['SR', 'UDR', 'SR+UDR']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[16:37:03.116] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 13.2000
+  - Y Min-Max: [1.2000, 14.4000]
+  - X Range: 11.501519756838888
+--------------------------------------------------
+
+[16:37:03.120] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:37:03.137] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['SR <-> SR (method=exact_match, score=1.000)', 'UDR <-> UDR (method=exact_match, score=1.000)', 'SR+UDR <-> SR+UDR (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:37:04.030] === SERIES_COMPARISON ===
+Comparaison SR vs SR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.119389
+  - MAE Relative: 0.009045
+  - Left Miss (rel): -0.043605
+  - Right Miss (rel): 0.042151
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:37:04.907] === SERIES_COMPARISON ===
+Comparaison UDR vs UDR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.230996
+  - MAE Relative: 0.017500
+  - Left Miss (rel): -0.040698
+  - Right Miss (rel): 0.043605
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:37:05.597] === SERIES_COMPARISON ===
+Comparaison SR+UDR vs SR+UDR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.175163
+  - MAE Relative: 0.013270
+  - Left Miss (rel): -0.040698
+  - Right Miss (rel): 0.043605
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:37:05
+Total Duration: 2.56 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1177964_1471-2458-5-61-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1177964_1471-2458-5-61-2
+================================================================================
+Timestamp: 2025-08-07 16:56:17
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1177964___1471-2458-5-61-2
+================================================================================
+
+
+
+[16:56:17.408] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:56:17.431] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:56:17.492] === DATA_LOADING ===
+Chargement des données GT depuis PMC1177964___1471-2458-5-61-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1177964___1471-2458-5-61-2.json
+  - Series Count: 3
+  - Series Names: ['SR', 'UDR', 'SR+UDR']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[16:56:17.505] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1177964___1471-2458-5-61-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1177964___1471-2458-5-61-2\PMC1177964___1471-2458-5-61-2.json
+  - Series Count: 3
+  - Series Names: ['SR', 'UDR', 'SR+UDR']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[16:56:17.509] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 13.2000
+  - Y Min-Max: [1.2000, 14.4000]
+  - X Range: 11.501519756838888
+--------------------------------------------------
+
+[16:56:17.513] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:56:17.515] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['SR <-> SR (method=exact_match, score=1.000)', 'UDR <-> UDR (method=exact_match, score=1.000)', 'SR+UDR <-> SR+UDR (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:56:18.248] === SERIES_COMPARISON ===
+Comparaison SR vs SR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.119389
+  - MAE Relative: 0.009045
+  - Left Miss (rel): -0.043605
+  - Right Miss (rel): 0.042151
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:56:19.012] === SERIES_COMPARISON ===
+Comparaison UDR vs UDR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.230996
+  - MAE Relative: 0.017500
+  - Left Miss (rel): -0.040698
+  - Right Miss (rel): 0.043605
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:56:19.883] === SERIES_COMPARISON ===
+Comparaison SR+UDR vs SR+UDR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.175163
+  - MAE Relative: 0.013270
+  - Left Miss (rel): -0.040698
+  - Right Miss (rel): 0.043605
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:56:19
+Total Duration: 2.53 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1177964_1471-2458-5-61-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1177964_1471-2458-5-61-2
+================================================================================
+Timestamp: 2025-08-11 13:44:57
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1177964___1471-2458-5-61-2
+================================================================================
+
+
+
+[13:44:58.046] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:44:58.051] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:44:58.162] === DATA_LOADING ===
+Chargement des données GT depuis PMC1177964___1471-2458-5-61-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1177964___1471-2458-5-61-2.json
+  - Series Count: 3
+  - Series Names: ['SR', 'UDR', 'SR+UDR']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[13:44:58.179] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1177964___1471-2458-5-61-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1177964___1471-2458-5-61-2\PMC1177964___1471-2458-5-61-2.json
+  - Series Count: 3
+  - Series Names: ['SR', 'UDR', 'SR+UDR']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[13:44:58.194] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 13.2000
+  - Y Min-Max: [1.2000, 14.4000]
+  - X Range: 11.501519756838888
+--------------------------------------------------
+
+[13:44:58.222] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:44:58.235] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['SR <-> SR (method=exact_match, score=1.000)', 'UDR <-> UDR (method=exact_match, score=1.000)', 'SR+UDR <-> SR+UDR (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:44:59.866] === SERIES_COMPARISON ===
+Comparaison SR vs SR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.132584
+  - MAE Relative: 0.010044
+  - Left Miss (rel): -0.043605
+  - Right Miss (rel): 0.042151
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:45:01.604] === SERIES_COMPARISON ===
+Comparaison UDR vs UDR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.245391
+  - MAE Relative: 0.018590
+  - Left Miss (rel): -0.040698
+  - Right Miss (rel): 0.043605
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:45:03.327] === SERIES_COMPARISON ===
+Comparaison SR+UDR vs SR+UDR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.181137
+  - MAE Relative: 0.013723
+  - Left Miss (rel): -0.040698
+  - Right Miss (rel): 0.043605
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 12
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-11 13:45:03
+Total Duration: 5.37 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1177964_1471-2458-5-61-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

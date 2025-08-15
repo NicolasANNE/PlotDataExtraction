@@ -1,0 +1,102 @@
+
+================================================================================
+VALIDATION LOG - PMC3718715_1471-2458-13-627-2
+================================================================================
+Timestamp: 2025-08-07 12:59:11
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3718715___1471-2458-13-627-2
+================================================================================
+
+
+
+[12:59:11.703] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:59:11.705] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:59:11.749] === DATA_LOADING ===
+Chargement des données GT depuis PMC3718715___1471-2458-13-627-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3718715___1471-2458-13-627-2.json
+  - Series Count: 1
+  - Series Names: ['limitation of activities of\ndaily living (%)']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 9
+--------------------------------------------------
+
+[12:59:11.755] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3718715___1471-2458-13-627-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3718715___1471-2458-13-627-2\PMC3718715___1471-2458-13-627-2.json
+  - Series Count: 1
+  - Series Names: ['limitation of activities of daily living (%)']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[12:59:11.758] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 99.2691
+  - Y Min-Max: [0.7309, 100.0000]
+  - X Range: 9.043168669336893
+--------------------------------------------------
+
+[12:59:11.761] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:59:11.765] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['limitation of activities of\ndaily living (%) <-> limitation of activities of daily living (%) (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[12:59:12.783] === SERIES_COMPARISON ===
+Comparaison limitation of activities of
+daily living (%) vs limitation of activities of daily living (%) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.963089
+  - MAE Relative: 0.009702
+  - Left Miss (rel): 0.004774
+  - Right Miss (rel): -0.109662
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 10
+  - Points Ratio: 1.11
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:59:12
+Total Duration: 1.09 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3718715_1471-2458-13-627-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

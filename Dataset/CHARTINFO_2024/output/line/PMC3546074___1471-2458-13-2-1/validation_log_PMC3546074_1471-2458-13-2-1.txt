@@ -1,0 +1,115 @@
+
+================================================================================
+VALIDATION LOG - PMC3546074_1471-2458-13-2-1
+================================================================================
+Timestamp: 2025-08-07 12:56:57
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3546074___1471-2458-13-2-1
+================================================================================
+
+
+
+[12:56:57.750] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:56:57.753] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:56:57.809] === DATA_LOADING ===
+Chargement des données GT depuis PMC3546074___1471-2458-13-2-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3546074___1471-2458-13-2-1.json
+  - Series Count: 2
+  - Series Names: ['Total no. of visits', 'Absolute Unique visitors']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[12:56:57.822] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3546074___1471-2458-13-2-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3546074___1471-2458-13-2-1\PMC3546074___1471-2458-13-2-1.json
+  - Series Count: 2
+  - Series Names: ['Total no. of visits', 'Absolute Unique visitors']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[12:56:57.832] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 4235.9792
+  - Y Min-Max: [332.0208, 4568.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:56:57.834] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:56:57.837] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Total no. of visits <-> Total no. of visits (method=exact_match, score=1.000)', 'Absolute Unique visitors <-> Absolute Unique visitors (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:56:59.565] === SERIES_COMPARISON ===
+Comparaison Total no. of visits vs Total no. of visits avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 1696.948666
+  - MAE Relative: 0.400604
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.366667
+  - GT Points: 18
+  - Extracted Points: 18
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:57:03.789] === SERIES_COMPARISON ===
+Comparaison Absolute Unique visitors vs Absolute Unique visitors avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 1427.347510
+  - MAE Relative: 0.336958
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.366667
+  - GT Points: 18
+  - Extracted Points: 18
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:57:03
+Total Duration: 6.09 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3546074_1471-2458-13-2-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

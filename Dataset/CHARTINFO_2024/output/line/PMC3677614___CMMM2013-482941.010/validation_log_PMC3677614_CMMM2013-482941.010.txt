@@ -1,0 +1,129 @@
+
+================================================================================
+VALIDATION LOG - PMC3677614_CMMM2013-482941.010
+================================================================================
+Timestamp: 2025-08-07 12:58:29
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3677614___CMMM2013-482941.010
+================================================================================
+
+
+
+[12:58:29.020] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:58:29.022] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:58:29.046] === DATA_LOADING ===
+Chargement des données GT depuis PMC3677614___CMMM2013-482941.010.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3677614___CMMM2013-482941.010.json
+  - Series Count: 3
+  - Series Names: ['16x8x4', '4x2x1', '8x4x2']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 60
+--------------------------------------------------
+
+[12:58:29.069] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3677614___CMMM2013-482941.010.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3677614___CMMM2013-482941.010\PMC3677614___CMMM2013-482941.010.json
+  - Series Count: 3
+  - Series Names: ['4 x 2 x 1', '8 x 4 x 2', '16 x 8 x 4']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 60
+--------------------------------------------------
+
+[12:58:29.090] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 7.5000
+  - Y Min-Max: [1.0000, 8.5000]
+  - X Range: 19.0
+--------------------------------------------------
+
+[12:58:29.093] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:58:29.102] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['16x8x4 <-> 16 x 8 x 4 (method=fuzzy_match, score=0.750)', '4x2x1 <-> 4 x 2 x 1 (method=fuzzy_match, score=0.700)', '8x4x2 <-> 8 x 4 x 2 (method=fuzzy_match, score=0.700)']
+--------------------------------------------------
+
+[12:58:31.561] === SERIES_COMPARISON ===
+Comparaison 16x8x4 vs 16 x 8 x 4 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.223904
+  - MAE Relative: 0.029854
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 20
+  - Extracted Points: 20
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:58:34.263] === SERIES_COMPARISON ===
+Comparaison 4x2x1 vs 4 x 2 x 1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.155169
+  - MAE Relative: 0.020689
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 20
+  - Extracted Points: 20
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:58:36.222] === SERIES_COMPARISON ===
+Comparaison 8x4x2 vs 8 x 4 x 2 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.156773
+  - MAE Relative: 0.020903
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 20
+  - Extracted Points: 20
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:58:36
+Total Duration: 7.22 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3677614_CMMM2013-482941.010.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

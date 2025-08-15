@@ -1,0 +1,768 @@
+
+================================================================================
+VALIDATION LOG - PMC2327205_3
+================================================================================
+Timestamp: 2025-08-06 20:15:58
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2327205___3
+================================================================================
+
+
+
+[20:15:58.687] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:58.739] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:58.746] === DATA_LOADING ===
+Chargement des données GT depuis PMC2327205___3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2327205___3.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:58.750] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2327205___3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2327205___3\PMC2327205___3.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:58.752] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2327205_3
+================================================================================
+Timestamp: 2025-08-06 21:32:29
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2327205___3
+================================================================================
+
+
+
+[21:32:29.547] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:32:29.557] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:32:29.608] === DATA_LOADING ===
+Chargement des données GT depuis PMC2327205___3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2327205___3.json
+  - Series Count: 4
+  - Series Names: ['Pre-Op', 'Unilateral FL', 'FLxIT', 'FLXIT + Fx']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 31
+--------------------------------------------------
+
+[21:32:29.613] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2327205___3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2327205___3\PMC2327205___3.json
+  - Series Count: 4
+  - Series Names: ['Pre-Op', 'Unilateral FL', 'FLxIT', 'FLxIT + Fx']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[21:32:29.621] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 49.3282
+  - Y Min-Max: [1.2366, 50.5649]
+  - X Range: 7.016557161629434
+--------------------------------------------------
+
+[21:32:29.626] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:32:29.629] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Pre-Op <-> Pre-Op (method=exact_match, score=1.000)', 'Unilateral FL <-> Unilateral FL (method=exact_match, score=1.000)', 'FLxIT <-> FLxIT (method=exact_match, score=1.000)', 'FLXIT + Fx <-> FLxIT + Fx (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[21:32:31.408] === SERIES_COMPARISON ===
+Comparaison Pre-Op vs Pre-Op avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.372160
+  - MAE Relative: 0.007545
+  - Left Miss (rel): -0.001573
+  - Right Miss (rel): 0.002360
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 8
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+[21:32:32.900] === SERIES_COMPARISON ===
+Comparaison Unilateral FL vs Unilateral FL avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.652759
+  - MAE Relative: 0.013233
+  - Left Miss (rel): -0.002622
+  - Right Miss (rel): 0.002360
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:32:33.776] === SERIES_COMPARISON ===
+Comparaison FLxIT vs FLxIT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.180314
+  - MAE Relative: 0.003655
+  - Left Miss (rel): -0.001573
+  - Right Miss (rel): 0.002360
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:32:34.397] === SERIES_COMPARISON ===
+Comparaison FLXIT + Fx vs FLxIT + Fx avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.464762
+  - MAE Relative: 0.009422
+  - Left Miss (rel): -0.001573
+  - Right Miss (rel): 0.001311
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:32:34
+Total Duration: 4.87 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2327205_3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2327205_3
+================================================================================
+Timestamp: 2025-08-07 12:48:36
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2327205___3
+================================================================================
+
+
+
+[12:48:36.737] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:48:36.752] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:48:36.810] === DATA_LOADING ===
+Chargement des données GT depuis PMC2327205___3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2327205___3.json
+  - Series Count: 4
+  - Series Names: ['Pre-Op', 'Unilateral FL', 'FLxIT', 'FLXIT + Fx']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 31
+--------------------------------------------------
+
+[12:48:36.819] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2327205___3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2327205___3\PMC2327205___3.json
+  - Series Count: 4
+  - Series Names: ['Pre-Op', 'Unilateral FL', 'FLxIT', 'FLxIT + Fx']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[12:48:36.835] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 49.3282
+  - Y Min-Max: [1.2366, 50.5649]
+  - X Range: 7.016557161629434
+--------------------------------------------------
+
+[12:48:36.847] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:48:36.852] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Pre-Op <-> Pre-Op (method=exact_match, score=1.000)', 'Unilateral FL <-> Unilateral FL (method=exact_match, score=1.000)', 'FLxIT <-> FLxIT (method=exact_match, score=1.000)', 'FLXIT + Fx <-> FLxIT + Fx (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[12:48:37.535] === SERIES_COMPARISON ===
+Comparaison Pre-Op vs Pre-Op avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.372160
+  - MAE Relative: 0.007545
+  - Left Miss (rel): -0.001573
+  - Right Miss (rel): 0.002360
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 8
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+[12:48:38.168] === SERIES_COMPARISON ===
+Comparaison Unilateral FL vs Unilateral FL avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.652759
+  - MAE Relative: 0.013233
+  - Left Miss (rel): -0.002622
+  - Right Miss (rel): 0.002360
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:48:38.796] === SERIES_COMPARISON ===
+Comparaison FLxIT vs FLxIT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.145864
+  - MAE Relative: 0.002957
+  - Left Miss (rel): -0.001573
+  - Right Miss (rel): 0.002360
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:48:39.464] === SERIES_COMPARISON ===
+Comparaison FLXIT + Fx vs FLxIT + Fx avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.394366
+  - MAE Relative: 0.007995
+  - Left Miss (rel): -0.001573
+  - Right Miss (rel): 0.001311
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:48:39
+Total Duration: 2.74 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2327205_3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2327205_3
+================================================================================
+Timestamp: 2025-08-07 13:05:31
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2327205___3
+================================================================================
+
+
+
+[13:05:31.582] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:05:31.607] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:05:31.701] === DATA_LOADING ===
+Chargement des données GT depuis PMC2327205___3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2327205___3.json
+  - Series Count: 4
+  - Series Names: ['Pre-Op', 'Unilateral FL', 'FLxIT', 'FLXIT + Fx']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 31
+--------------------------------------------------
+
+[13:05:31.708] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2327205___3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2327205___3\PMC2327205___3.json
+  - Series Count: 4
+  - Series Names: ['Pre-Op', 'Unilateral FL', 'FLxIT', 'FLxIT + Fx']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[13:05:31.729] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 49.3282
+  - Y Min-Max: [1.2366, 50.5649]
+  - X Range: 7.016557161629434
+--------------------------------------------------
+
+[13:05:31.731] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:05:31.736] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Pre-Op <-> Pre-Op (method=exact_match, score=1.000)', 'Unilateral FL <-> Unilateral FL (method=exact_match, score=1.000)', 'FLxIT <-> FLxIT (method=exact_match, score=1.000)', 'FLXIT + Fx <-> FLxIT + Fx (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[13:05:32.574] === SERIES_COMPARISON ===
+Comparaison Pre-Op vs Pre-Op avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.372160
+  - MAE Relative: 0.007545
+  - Left Miss (rel): -0.001573
+  - Right Miss (rel): 0.002360
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 8
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+[13:05:33.257] === SERIES_COMPARISON ===
+Comparaison Unilateral FL vs Unilateral FL avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.652759
+  - MAE Relative: 0.013233
+  - Left Miss (rel): -0.002622
+  - Right Miss (rel): 0.002360
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:05:33.850] === SERIES_COMPARISON ===
+Comparaison FLxIT vs FLxIT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.145864
+  - MAE Relative: 0.002957
+  - Left Miss (rel): -0.001573
+  - Right Miss (rel): 0.002360
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:05:34.505] === SERIES_COMPARISON ===
+Comparaison FLXIT + Fx vs FLxIT + Fx avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.394366
+  - MAE Relative: 0.007995
+  - Left Miss (rel): -0.001573
+  - Right Miss (rel): 0.001311
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:05:34
+Total Duration: 2.93 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2327205_3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2327205_3
+================================================================================
+Timestamp: 2025-08-07 16:39:09
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2327205___3
+================================================================================
+
+
+
+[16:39:09.074] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:39:09.076] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:39:09.129] === DATA_LOADING ===
+Chargement des données GT depuis PMC2327205___3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2327205___3.json
+  - Series Count: 4
+  - Series Names: ['Pre-Op', 'Unilateral FL', 'FLxIT', 'FLXIT + Fx']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 31
+--------------------------------------------------
+
+[16:39:09.135] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2327205___3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2327205___3\PMC2327205___3.json
+  - Series Count: 4
+  - Series Names: ['Pre-Op', 'Unilateral FL', 'FLxIT', 'FLxIT + Fx']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[16:39:09.180] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 49.3282
+  - Y Min-Max: [1.2366, 50.5649]
+  - X Range: 7.016557161629434
+--------------------------------------------------
+
+[16:39:09.203] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:39:09.228] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Pre-Op <-> Pre-Op (method=exact_match, score=1.000)', 'Unilateral FL <-> Unilateral FL (method=exact_match, score=1.000)', 'FLxIT <-> FLxIT (method=exact_match, score=1.000)', 'FLXIT + Fx <-> FLxIT + Fx (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[16:39:10.755] === SERIES_COMPARISON ===
+Comparaison Pre-Op vs Pre-Op avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.372160
+  - MAE Relative: 0.007545
+  - Left Miss (rel): -0.001573
+  - Right Miss (rel): 0.002360
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 8
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+[16:39:11.830] === SERIES_COMPARISON ===
+Comparaison Unilateral FL vs Unilateral FL avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.652759
+  - MAE Relative: 0.013233
+  - Left Miss (rel): -0.002622
+  - Right Miss (rel): 0.002360
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:39:12.368] === SERIES_COMPARISON ===
+Comparaison FLxIT vs FLxIT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.180314
+  - MAE Relative: 0.003655
+  - Left Miss (rel): -0.001573
+  - Right Miss (rel): 0.002360
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:39:12.887] === SERIES_COMPARISON ===
+Comparaison FLXIT + Fx vs FLxIT + Fx avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.464762
+  - MAE Relative: 0.009422
+  - Left Miss (rel): -0.001573
+  - Right Miss (rel): 0.001311
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:39:12
+Total Duration: 3.86 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2327205_3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2327205_3
+================================================================================
+Timestamp: 2025-08-07 16:58:21
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2327205___3
+================================================================================
+
+
+
+[16:58:21.268] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:58:21.307] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:58:21.371] === DATA_LOADING ===
+Chargement des données GT depuis PMC2327205___3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2327205___3.json
+  - Series Count: 4
+  - Series Names: ['Pre-Op', 'Unilateral FL', 'FLxIT', 'FLXIT + Fx']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 31
+--------------------------------------------------
+
+[16:58:21.374] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2327205___3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2327205___3\PMC2327205___3.json
+  - Series Count: 4
+  - Series Names: ['Pre-Op', 'Unilateral FL', 'FLxIT', 'FLxIT + Fx']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[16:58:21.378] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 49.3282
+  - Y Min-Max: [1.2366, 50.5649]
+  - X Range: 7.016557161629434
+--------------------------------------------------
+
+[16:58:21.386] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:58:21.388] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Pre-Op <-> Pre-Op (method=exact_match, score=1.000)', 'Unilateral FL <-> Unilateral FL (method=exact_match, score=1.000)', 'FLxIT <-> FLxIT (method=exact_match, score=1.000)', 'FLXIT + Fx <-> FLxIT + Fx (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[16:58:23.266] === SERIES_COMPARISON ===
+Comparaison Pre-Op vs Pre-Op avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.372160
+  - MAE Relative: 0.007545
+  - Left Miss (rel): -0.001573
+  - Right Miss (rel): 0.002360
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 8
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+[16:58:24.237] === SERIES_COMPARISON ===
+Comparaison Unilateral FL vs Unilateral FL avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.652759
+  - MAE Relative: 0.013233
+  - Left Miss (rel): -0.002622
+  - Right Miss (rel): 0.002360
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:58:25.023] === SERIES_COMPARISON ===
+Comparaison FLxIT vs FLxIT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.180314
+  - MAE Relative: 0.003655
+  - Left Miss (rel): -0.001573
+  - Right Miss (rel): 0.002360
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:58:26.088] === SERIES_COMPARISON ===
+Comparaison FLXIT + Fx vs FLxIT + Fx avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.464762
+  - MAE Relative: 0.009422
+  - Left Miss (rel): -0.001573
+  - Right Miss (rel): 0.001311
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:58:26
+Total Duration: 4.85 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2327205_3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

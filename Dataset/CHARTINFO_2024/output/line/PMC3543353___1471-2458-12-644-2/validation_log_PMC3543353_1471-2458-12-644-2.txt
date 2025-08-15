@@ -1,0 +1,129 @@
+
+================================================================================
+VALIDATION LOG - PMC3543353_1471-2458-12-644-2
+================================================================================
+Timestamp: 2025-08-07 12:56:45
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3543353___1471-2458-12-644-2
+================================================================================
+
+
+
+[12:56:45.563] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:56:45.571] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:56:45.653] === DATA_LOADING ===
+Chargement des données GT depuis PMC3543353___1471-2458-12-644-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3543353___1471-2458-12-644-2.json
+  - Series Count: 3
+  - Series Names: ['male suicide rate', 'female suicide rate', 'total suicide rate']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 112
+--------------------------------------------------
+
+[12:56:45.662] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3543353___1471-2458-12-644-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3543353___1471-2458-12-644-2\PMC3543353___1471-2458-12-644-2.json
+  - Series Count: 3
+  - Series Names: ['male suicide rate', 'female suicide rate', 'total suicide rate']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 120
+--------------------------------------------------
+
+[12:56:45.720] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 26.3073
+  - Y Min-Max: [3.6812, 29.9885]
+  - X Range: 39.123456790123555
+--------------------------------------------------
+
+[12:56:45.725] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:56:45.742] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['male suicide rate <-> male suicide rate (method=exact_match, score=1.000)', 'female suicide rate <-> female suicide rate (method=exact_match, score=1.000)', 'total suicide rate <-> total suicide rate (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:56:47.821] === SERIES_COMPARISON ===
+Comparaison male suicide rate vs male suicide rate avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.646749
+  - MAE Relative: 0.024584
+  - Left Miss (rel): -0.000655
+  - Right Miss (rel): 0.001893
+  - X Cutoff: N/A
+  - GT Points: 41
+  - Extracted Points: 40
+  - Points Ratio: 0.98
+--------------------------------------------------
+
+[12:56:49.942] === SERIES_COMPARISON ===
+Comparaison female suicide rate vs female suicide rate avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.137670
+  - MAE Relative: 0.005233
+  - Left Miss (rel): -0.000655
+  - Right Miss (rel): 0.003156
+  - X Cutoff: N/A
+  - GT Points: 36
+  - Extracted Points: 40
+  - Points Ratio: 1.11
+--------------------------------------------------
+
+[12:56:51.592] === SERIES_COMPARISON ===
+Comparaison total suicide rate vs total suicide rate avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.311477
+  - MAE Relative: 0.011840
+  - Left Miss (rel): -0.001966
+  - Right Miss (rel): 0.001893
+  - X Cutoff: N/A
+  - GT Points: 35
+  - Extracted Points: 40
+  - Points Ratio: 1.14
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:56:51
+Total Duration: 6.11 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3543353_1471-2458-12-644-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

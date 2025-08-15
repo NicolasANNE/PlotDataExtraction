@@ -1,0 +1,628 @@
+
+================================================================================
+VALIDATION LOG - PMC2292166_1471-2458-8-80-1
+================================================================================
+Timestamp: 2025-08-06 20:16:01
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2292166___1471-2458-8-80-1
+================================================================================
+
+
+
+[20:16:01.538] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:01.573] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:01.608] === DATA_LOADING ===
+Chargement des données GT depuis PMC2292166___1471-2458-8-80-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2292166___1471-2458-8-80-1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:01.615] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2292166___1471-2458-8-80-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2292166___1471-2458-8-80-1\PMC2292166___1471-2458-8-80-1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:01.618] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2292166_1471-2458-8-80-1
+================================================================================
+Timestamp: 2025-08-06 21:32:29
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2292166___1471-2458-8-80-1
+================================================================================
+
+
+
+[21:32:29.177] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:32:29.180] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:32:29.223] === DATA_LOADING ===
+Chargement des données GT depuis PMC2292166___1471-2458-8-80-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2292166___1471-2458-8-80-1.json
+  - Series Count: 2
+  - Series Names: ['Males', 'Females']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 47
+--------------------------------------------------
+
+[21:32:29.226] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2292166___1471-2458-8-80-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2292166___1471-2458-8-80-1\PMC2292166___1471-2458-8-80-1.json
+  - Series Count: 2
+  - Series Names: ['Males', 'Females']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 52
+--------------------------------------------------
+
+[21:32:29.229] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 25.9725
+  - Y Min-Max: [8.5000, 34.4725]
+  - X Range: 25.0
+--------------------------------------------------
+
+[21:32:29.231] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:32:29.233] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Males <-> Males (method=exact_match, score=1.000)', 'Females <-> Females (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:32:30.587] === SERIES_COMPARISON ===
+Comparaison Males vs Males avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.759917
+  - MAE Relative: 0.029258
+  - Left Miss (rel): -0.023590
+  - Right Miss (rel): -0.019031
+  - X Cutoff: N/A
+  - GT Points: 23
+  - Extracted Points: 26
+  - Points Ratio: 1.13
+--------------------------------------------------
+
+[21:32:32.345] === SERIES_COMPARISON ===
+Comparaison Females vs Females avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.335402
+  - MAE Relative: 0.012914
+  - Left Miss (rel): -0.018348
+  - Right Miss (rel): -0.019031
+  - X Cutoff: N/A
+  - GT Points: 24
+  - Extracted Points: 26
+  - Points Ratio: 1.08
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:32:32
+Total Duration: 3.22 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2292166_1471-2458-8-80-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2292166_1471-2458-8-80-1
+================================================================================
+Timestamp: 2025-08-07 12:48:34
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2292166___1471-2458-8-80-1
+================================================================================
+
+
+
+[12:48:34.279] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:48:34.281] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:48:34.332] === DATA_LOADING ===
+Chargement des données GT depuis PMC2292166___1471-2458-8-80-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2292166___1471-2458-8-80-1.json
+  - Series Count: 2
+  - Series Names: ['Males', 'Females']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 47
+--------------------------------------------------
+
+[12:48:34.335] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2292166___1471-2458-8-80-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2292166___1471-2458-8-80-1\PMC2292166___1471-2458-8-80-1.json
+  - Series Count: 2
+  - Series Names: ['Males', 'Females']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 52
+--------------------------------------------------
+
+[12:48:34.337] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 25.9725
+  - Y Min-Max: [8.5000, 34.4725]
+  - X Range: 25.0
+--------------------------------------------------
+
+[12:48:34.339] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:48:34.341] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Males <-> Males (method=exact_match, score=1.000)', 'Females <-> Females (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:48:35.012] === SERIES_COMPARISON ===
+Comparaison Males vs Males avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.759917
+  - MAE Relative: 0.029258
+  - Left Miss (rel): -0.023590
+  - Right Miss (rel): -0.019031
+  - X Cutoff: N/A
+  - GT Points: 23
+  - Extracted Points: 26
+  - Points Ratio: 1.13
+--------------------------------------------------
+
+[12:48:35.783] === SERIES_COMPARISON ===
+Comparaison Females vs Females avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.335402
+  - MAE Relative: 0.012914
+  - Left Miss (rel): -0.018348
+  - Right Miss (rel): -0.019031
+  - X Cutoff: N/A
+  - GT Points: 24
+  - Extracted Points: 26
+  - Points Ratio: 1.08
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:48:35
+Total Duration: 1.55 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2292166_1471-2458-8-80-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2292166_1471-2458-8-80-1
+================================================================================
+Timestamp: 2025-08-07 13:05:30
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2292166___1471-2458-8-80-1
+================================================================================
+
+
+
+[13:05:30.306] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:05:30.329] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:05:30.404] === DATA_LOADING ===
+Chargement des données GT depuis PMC2292166___1471-2458-8-80-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2292166___1471-2458-8-80-1.json
+  - Series Count: 2
+  - Series Names: ['Males', 'Females']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 47
+--------------------------------------------------
+
+[13:05:30.409] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2292166___1471-2458-8-80-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2292166___1471-2458-8-80-1\PMC2292166___1471-2458-8-80-1.json
+  - Series Count: 2
+  - Series Names: ['Males', 'Females']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 51
+--------------------------------------------------
+
+[13:05:30.413] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 25.9725
+  - Y Min-Max: [8.5000, 34.4725]
+  - X Range: 25.0
+--------------------------------------------------
+
+[13:05:30.415] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:05:30.418] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Males <-> Males (method=exact_match, score=1.000)', 'Females <-> Females (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:05:31.292] === SERIES_COMPARISON ===
+Comparaison Males vs Males avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.757115
+  - MAE Relative: 0.029151
+  - Left Miss (rel): -0.023590
+  - Right Miss (rel): -0.019031
+  - X Cutoff: N/A
+  - GT Points: 23
+  - Extracted Points: 26
+  - Points Ratio: 1.13
+--------------------------------------------------
+
+[13:05:32.370] === SERIES_COMPARISON ===
+Comparaison Females vs Females avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.353903
+  - MAE Relative: 0.013626
+  - Left Miss (rel): -0.018348
+  - Right Miss (rel): 0.020969
+  - X Cutoff: N/A
+  - GT Points: 24
+  - Extracted Points: 25
+  - Points Ratio: 1.04
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:05:32
+Total Duration: 2.16 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2292166_1471-2458-8-80-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2292166_1471-2458-8-80-1
+================================================================================
+Timestamp: 2025-08-07 16:39:05
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2292166___1471-2458-8-80-1
+================================================================================
+
+
+
+[16:39:05.891] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:39:05.893] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:39:05.932] === DATA_LOADING ===
+Chargement des données GT depuis PMC2292166___1471-2458-8-80-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2292166___1471-2458-8-80-1.json
+  - Series Count: 2
+  - Series Names: ['Males', 'Females']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 47
+--------------------------------------------------
+
+[16:39:05.934] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2292166___1471-2458-8-80-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2292166___1471-2458-8-80-1\PMC2292166___1471-2458-8-80-1.json
+  - Series Count: 2
+  - Series Names: ['Males', 'Females']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 51
+--------------------------------------------------
+
+[16:39:05.936] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 25.9725
+  - Y Min-Max: [8.5000, 34.4725]
+  - X Range: 25.0
+--------------------------------------------------
+
+[16:39:05.938] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:39:05.939] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Males <-> Males (method=exact_match, score=1.000)', 'Females <-> Females (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:39:06.543] === SERIES_COMPARISON ===
+Comparaison Males vs Males avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.757115
+  - MAE Relative: 0.029151
+  - Left Miss (rel): -0.023590
+  - Right Miss (rel): -0.019031
+  - X Cutoff: N/A
+  - GT Points: 23
+  - Extracted Points: 26
+  - Points Ratio: 1.13
+--------------------------------------------------
+
+[16:39:07.413] === SERIES_COMPARISON ===
+Comparaison Females vs Females avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.353903
+  - MAE Relative: 0.013626
+  - Left Miss (rel): -0.018348
+  - Right Miss (rel): 0.020969
+  - X Cutoff: N/A
+  - GT Points: 24
+  - Extracted Points: 25
+  - Points Ratio: 1.04
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:39:07
+Total Duration: 1.54 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2292166_1471-2458-8-80-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2292166_1471-2458-8-80-1
+================================================================================
+Timestamp: 2025-08-07 16:58:18
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2292166___1471-2458-8-80-1
+================================================================================
+
+
+
+[16:58:18.483] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:58:18.486] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:58:18.591] === DATA_LOADING ===
+Chargement des données GT depuis PMC2292166___1471-2458-8-80-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2292166___1471-2458-8-80-1.json
+  - Series Count: 2
+  - Series Names: ['Males', 'Females']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 47
+--------------------------------------------------
+
+[16:58:18.594] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2292166___1471-2458-8-80-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2292166___1471-2458-8-80-1\PMC2292166___1471-2458-8-80-1.json
+  - Series Count: 2
+  - Series Names: ['Males', 'Females']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 52
+--------------------------------------------------
+
+[16:58:18.597] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 25.9725
+  - Y Min-Max: [8.5000, 34.4725]
+  - X Range: 25.0
+--------------------------------------------------
+
+[16:58:18.599] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:58:18.604] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Males <-> Males (method=exact_match, score=1.000)', 'Females <-> Females (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:58:19.229] === SERIES_COMPARISON ===
+Comparaison Males vs Males avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.759917
+  - MAE Relative: 0.029258
+  - Left Miss (rel): -0.023590
+  - Right Miss (rel): -0.019031
+  - X Cutoff: N/A
+  - GT Points: 23
+  - Extracted Points: 26
+  - Points Ratio: 1.13
+--------------------------------------------------
+
+[16:58:19.778] === SERIES_COMPARISON ===
+Comparaison Females vs Females avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.335402
+  - MAE Relative: 0.012914
+  - Left Miss (rel): -0.018348
+  - Right Miss (rel): -0.019031
+  - X Cutoff: N/A
+  - GT Points: 24
+  - Extracted Points: 26
+  - Points Ratio: 1.08
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:58:19
+Total Duration: 1.35 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2292166_1471-2458-8-80-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

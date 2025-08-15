@@ -1,0 +1,541 @@
+
+================================================================================
+VALIDATION LOG - PMC3019196_1471-2458-10-783-3
+================================================================================
+Timestamp: 2025-08-07 13:08:14
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC3019196___1471-2458-10-783-3
+================================================================================
+
+
+
+[13:08:14.748] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:08:14.751] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:08:14.809] === DATA_LOADING ===
+Chargement des données GT depuis PMC3019196___1471-2458-10-783-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC3019196___1471-2458-10-783-3.json
+  - Series Count: 7
+  - Series Names: ['Meerding et al., 2007', 'Polinder et al., 2005', 'Sutherland et al., 2005', 'Watson et al.', 'Gabbe et al., 2008', 'Holbrook et al, 1998', 'Soberg et al., 2007']
+  - X Data Types: {'numeric': 7}
+  - Total Data Points: 16
+--------------------------------------------------
+
+[13:08:14.814] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3019196___1471-2458-10-783-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC3019196___1471-2458-10-783-3\PMC3019196___1471-2458-10-783-3.json
+  - Series Count: 7
+  - Series Names: ['Meerding et al., 2007', 'Polinder et al. 2005', 'Sutherland et al., 2005', 'Watson et al.', 'Gabbe et al., 2008', 'Holbrook et al., 1998', 'Soberg et al., 2007']
+  - X Data Types: {'numeric': 7}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[13:08:14.817] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.3702
+  - Y Min-Max: [0.3998, 0.7700]
+  - X Range: 12.021608040201002
+--------------------------------------------------
+
+[13:08:14.819] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:08:14.821] === MATCHING_RESULTS ===
+7 appariements trouvés
+
+Data:
+  - Total Matches: 7
+  - Match Details: ['Meerding et al., 2007 <-> Meerding et al., 2007 (method=exact_match, score=1.000)', 'Sutherland et al., 2005 <-> Sutherland et al., 2005 (method=exact_match, score=1.000)', 'Watson et al. <-> Watson et al. (method=exact_match, score=1.000)', 'Gabbe et al., 2008 <-> Gabbe et al., 2008 (method=exact_match, score=1.000)', 'Soberg et al., 2007 <-> Soberg et al., 2007 (method=exact_match, score=1.000)', 'Polinder et al., 2005 <-> Polinder et al. 2005 (method=fuzzy_match, score=0.950)', 'Holbrook et al, 1998 <-> Holbrook et al., 1998 (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[13:08:15.539] === SERIES_COMPARISON ===
+Comparaison Meerding et al., 2007 vs Meerding et al., 2007 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.009439
+  - MAE Relative: 0.025494
+  - Left Miss (rel): -0.168248
+  - Right Miss (rel): -0.040756
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 4
+  - Points Ratio: 1.33
+--------------------------------------------------
+
+[13:08:16.165] === SERIES_COMPARISON ===
+Comparaison Sutherland et al., 2005 vs Sutherland et al., 2005 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.042933
+  - MAE Relative: 0.115964
+  - Left Miss (rel): -0.169204
+  - Right Miss (rel): -0.455121
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 4
+  - Points Ratio: 2.00
+--------------------------------------------------
+
+[13:08:16.716] === SERIES_COMPARISON ===
+Comparaison Watson et al. vs Watson et al. avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.032716
+  - MAE Relative: 0.088367
+  - Left Miss (rel): -0.001702
+  - Right Miss (rel): 0.042488
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 4
+  - Points Ratio: 2.00
+--------------------------------------------------
+
+[13:08:17.293] === SERIES_COMPARISON ===
+Comparaison Gabbe et al., 2008 vs Gabbe et al., 2008 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.052024
+  - MAE Relative: 0.140517
+  - Left Miss (rel): -0.084020
+  - Right Miss (rel): 0.500899
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:08:17.968] === SERIES_COMPARISON ===
+Comparaison Soberg et al., 2007 vs Soberg et al., 2007 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: NaN
+  - MAE Relative: NaN
+  - Left Miss (rel): -0.998370
+  - Right Miss (rel): 0.041759
+  - X Cutoff: N/A
+  - GT Points: 1
+  - Extracted Points: 4
+  - Points Ratio: 4.00
+--------------------------------------------------
+
+[13:08:18.685] === SERIES_COMPARISON ===
+Comparaison Polinder et al., 2005 vs Polinder et al. 2005 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.037110
+  - MAE Relative: 0.100234
+  - Left Miss (rel): -0.168039
+  - Right Miss (rel): -0.207899
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 4
+  - Points Ratio: 1.33
+--------------------------------------------------
+
+[13:08:19.835] === SERIES_COMPARISON ===
+Comparaison Holbrook et al, 1998 vs Holbrook et al., 1998 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: NaN
+  - MAE Relative: NaN
+  - Left Miss (rel): 0.498116
+  - Right Miss (rel): 0.002209
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 1
+  - Points Ratio: 0.50
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:08:19
+Total Duration: 5.10 seconds
+Total Series Processed: 7
+Successful Comparisons: 7
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3019196_1471-2458-10-783-3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3019196_1471-2458-10-783-3
+================================================================================
+Timestamp: 2025-08-07 16:41:53
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC3019196___1471-2458-10-783-3
+================================================================================
+
+
+
+[16:41:53.335] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:41:53.337] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:41:53.375] === DATA_LOADING ===
+Chargement des données GT depuis PMC3019196___1471-2458-10-783-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC3019196___1471-2458-10-783-3.json
+  - Series Count: 7
+  - Series Names: ['Meerding et al., 2007', 'Polinder et al., 2005', 'Sutherland et al., 2005', 'Watson et al.', 'Gabbe et al., 2008', 'Holbrook et al, 1998', 'Soberg et al., 2007']
+  - X Data Types: {'numeric': 7}
+  - Total Data Points: 16
+--------------------------------------------------
+
+[16:41:53.378] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3019196___1471-2458-10-783-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC3019196___1471-2458-10-783-3\PMC3019196___1471-2458-10-783-3.json
+  - Series Count: 7
+  - Series Names: ['Meerding et al., 2007', 'Polinder et al. 2005', 'Sutherland et al., 2005', 'Watson et al.', 'Gabbe et al., 2008', 'Holbrook et al., 1998', 'Soberg et al., 2007']
+  - X Data Types: {'numeric': 7}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[16:41:53.381] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.3702
+  - Y Min-Max: [0.3998, 0.7700]
+  - X Range: 12.021608040201002
+--------------------------------------------------
+
+[16:41:53.383] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:41:53.385] === MATCHING_RESULTS ===
+7 appariements trouvés
+
+Data:
+  - Total Matches: 7
+  - Match Details: ['Meerding et al., 2007 <-> Meerding et al., 2007 (method=exact_match, score=1.000)', 'Sutherland et al., 2005 <-> Sutherland et al., 2005 (method=exact_match, score=1.000)', 'Watson et al. <-> Watson et al. (method=exact_match, score=1.000)', 'Gabbe et al., 2008 <-> Gabbe et al., 2008 (method=exact_match, score=1.000)', 'Soberg et al., 2007 <-> Soberg et al., 2007 (method=exact_match, score=1.000)', 'Polinder et al., 2005 <-> Polinder et al. 2005 (method=fuzzy_match, score=0.950)', 'Holbrook et al, 1998 <-> Holbrook et al., 1998 (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[16:41:53.934] === SERIES_COMPARISON ===
+Comparaison Meerding et al., 2007 vs Meerding et al., 2007 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.009439
+  - MAE Relative: 0.025494
+  - Left Miss (rel): -0.168248
+  - Right Miss (rel): -0.040756
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 4
+  - Points Ratio: 1.33
+--------------------------------------------------
+
+[16:41:54.471] === SERIES_COMPARISON ===
+Comparaison Sutherland et al., 2005 vs Sutherland et al., 2005 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.042933
+  - MAE Relative: 0.115964
+  - Left Miss (rel): -0.169204
+  - Right Miss (rel): -0.455121
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 4
+  - Points Ratio: 2.00
+--------------------------------------------------
+
+[16:41:55.004] === SERIES_COMPARISON ===
+Comparaison Watson et al. vs Watson et al. avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.032716
+  - MAE Relative: 0.088367
+  - Left Miss (rel): -0.001702
+  - Right Miss (rel): 0.042488
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 4
+  - Points Ratio: 2.00
+--------------------------------------------------
+
+[16:41:55.556] === SERIES_COMPARISON ===
+Comparaison Gabbe et al., 2008 vs Gabbe et al., 2008 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.052024
+  - MAE Relative: 0.140517
+  - Left Miss (rel): -0.084020
+  - Right Miss (rel): 0.500899
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:41:55.571] === ERROR IN SERIES_COMPARISON ===
+Error: index -1 is out of bounds for axis 0 with size 0
+Type: IndexError
+Details: Comparaison Soberg et al., 2007 vs Soberg et al., 2007
+==================================================
+
+
+[16:41:56.154] === SERIES_COMPARISON ===
+Comparaison Polinder et al., 2005 vs Polinder et al. 2005 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.037110
+  - MAE Relative: 0.100234
+  - Left Miss (rel): -0.168039
+  - Right Miss (rel): -0.207899
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 4
+  - Points Ratio: 1.33
+--------------------------------------------------
+
+[16:41:56.690] === SERIES_COMPARISON ===
+Comparaison Holbrook et al, 1998 vs Holbrook et al., 1998 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: NaN
+  - MAE Relative: NaN
+  - Left Miss (rel): 0.498116
+  - Right Miss (rel): 0.002209
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 1
+  - Points Ratio: 0.50
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:41:56
+Total Duration: 3.39 seconds
+Total Series Processed: 7
+Successful Comparisons: 6
+Errors: 1
+Success Rate: 85.7%
+
+Generated Files:
+- Validation Log: validation_log_PMC3019196_1471-2458-10-783-3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3019196_1471-2458-10-783-3
+================================================================================
+Timestamp: 2025-08-07 17:01:07
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC3019196___1471-2458-10-783-3
+================================================================================
+
+
+
+[17:01:07.609] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:01:07.610] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[17:01:07.646] === DATA_LOADING ===
+Chargement des données GT depuis PMC3019196___1471-2458-10-783-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC3019196___1471-2458-10-783-3.json
+  - Series Count: 7
+  - Series Names: ['Meerding et al., 2007', 'Polinder et al., 2005', 'Sutherland et al., 2005', 'Watson et al.', 'Gabbe et al., 2008', 'Holbrook et al, 1998', 'Soberg et al., 2007']
+  - X Data Types: {'numeric': 7}
+  - Total Data Points: 16
+--------------------------------------------------
+
+[17:01:07.648] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3019196___1471-2458-10-783-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC3019196___1471-2458-10-783-3\PMC3019196___1471-2458-10-783-3.json
+  - Series Count: 7
+  - Series Names: ['Meerding et al., 2007', 'Polinder et al. 2005', 'Sutherland et al., 2005', 'Watson et al.', 'Gabbe et al., 2008', 'Holbrook et al., 1998', 'Soberg et al., 2007']
+  - X Data Types: {'numeric': 7}
+  - Total Data Points: 19
+--------------------------------------------------
+
+[17:01:07.652] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.3702
+  - Y Min-Max: [0.3998, 0.7700]
+  - X Range: 12.021608040201002
+--------------------------------------------------
+
+[17:01:07.654] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:01:07.657] === MATCHING_RESULTS ===
+7 appariements trouvés
+
+Data:
+  - Total Matches: 7
+  - Match Details: ['Meerding et al., 2007 <-> Meerding et al., 2007 (method=exact_match, score=1.000)', 'Sutherland et al., 2005 <-> Sutherland et al., 2005 (method=exact_match, score=1.000)', 'Watson et al. <-> Watson et al. (method=exact_match, score=1.000)', 'Gabbe et al., 2008 <-> Gabbe et al., 2008 (method=exact_match, score=1.000)', 'Soberg et al., 2007 <-> Soberg et al., 2007 (method=exact_match, score=1.000)', 'Polinder et al., 2005 <-> Polinder et al. 2005 (method=fuzzy_match, score=0.950)', 'Holbrook et al, 1998 <-> Holbrook et al., 1998 (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[17:01:08.170] === SERIES_COMPARISON ===
+Comparaison Meerding et al., 2007 vs Meerding et al., 2007 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.009439
+  - MAE Relative: 0.025494
+  - Left Miss (rel): -0.168248
+  - Right Miss (rel): -0.040756
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 4
+  - Points Ratio: 1.33
+--------------------------------------------------
+
+[17:01:08.722] === SERIES_COMPARISON ===
+Comparaison Sutherland et al., 2005 vs Sutherland et al., 2005 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.023193
+  - MAE Relative: 0.062644
+  - Left Miss (rel): -0.002836
+  - Right Miss (rel): -0.455121
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:01:09.264] === SERIES_COMPARISON ===
+Comparaison Watson et al. vs Watson et al. avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.055020
+  - MAE Relative: 0.148610
+  - Left Miss (rel): -0.001702
+  - Right Miss (rel): 0.042488
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 3
+  - Points Ratio: 1.50
+--------------------------------------------------
+
+[17:01:09.868] === SERIES_COMPARISON ===
+Comparaison Gabbe et al., 2008 vs Gabbe et al., 2008 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.013339
+  - MAE Relative: 0.036029
+  - Left Miss (rel): -0.084020
+  - Right Miss (rel): 0.500899
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:01:09.880] === ERROR IN SERIES_COMPARISON ===
+Error: index -1 is out of bounds for axis 0 with size 0
+Type: IndexError
+Details: Comparaison Soberg et al., 2007 vs Soberg et al., 2007
+==================================================
+
+
+[17:01:10.378] === SERIES_COMPARISON ===
+Comparaison Polinder et al., 2005 vs Polinder et al. 2005 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.037110
+  - MAE Relative: 0.100234
+  - Left Miss (rel): -0.168039
+  - Right Miss (rel): -0.041532
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:01:10.892] === SERIES_COMPARISON ===
+Comparaison Holbrook et al, 1998 vs Holbrook et al., 1998 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: NaN
+  - MAE Relative: NaN
+  - Left Miss (rel): 0.498116
+  - Right Miss (rel): 0.002209
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 1
+  - Points Ratio: 0.50
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:01:10
+Total Duration: 3.30 seconds
+Total Series Processed: 7
+Successful Comparisons: 6
+Errors: 1
+Success Rate: 85.7%
+
+Generated Files:
+- Validation Log: validation_log_PMC3019196_1471-2458-10-783-3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,513 @@
+
+================================================================================
+VALIDATION LOG - PMC1905911_1471-2458-7-105-2
+================================================================================
+Timestamp: 2025-08-07 13:13:41
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC1905911___1471-2458-7-105-2
+================================================================================
+
+
+
+[13:13:41.146] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:13:41.148] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:13:41.193] === DATA_LOADING ===
+Chargement des données GT depuis PMC1905911___1471-2458-7-105-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC1905911___1471-2458-7-105-2.json
+  - Series Count: 6
+  - Series Names: ['2 min - 5 min per day', '> 5 min - 15 min per day', '<2 min per day', '>60 min per day', '> 15 min - 30 min per day', '> 30 min - 60 min per day']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 48
+--------------------------------------------------
+
+[13:13:41.199] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1905911___1471-2458-7-105-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC1905911___1471-2458-7-105-2\PMC1905911___1471-2458-7-105-2.json
+  - Series Count: 6
+  - Series Names: ['< 2 min per day', '2 min - 5 min per day', '> 5 min - 15 min per day', '> 15 min - 30 min per day', '> 30 min - 60 min per day', '> 60 min per day']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 48
+--------------------------------------------------
+
+[13:13:41.202] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 92.1000
+  - Y Min-Max: [0.0000, 92.1000]
+  - X Range: 7.0
+--------------------------------------------------
+
+[13:13:41.204] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:13:41.205] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['2 min - 5 min per day <-> 2 min - 5 min per day (method=exact_match, score=1.000)', '> 5 min - 15 min per day <-> > 5 min - 15 min per day (method=exact_match, score=1.000)', '> 15 min - 30 min per day <-> > 15 min - 30 min per day (method=exact_match, score=1.000)', '> 30 min - 60 min per day <-> > 30 min - 60 min per day (method=exact_match, score=1.000)', '<2 min per day <-> < 2 min per day (method=fuzzy_match, score=0.950)', '>60 min per day <-> > 60 min per day (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[13:13:42.119] === SERIES_COMPARISON ===
+Comparaison 2 min - 5 min per day vs 2 min - 5 min per day avec BarComparator
+
+Data:
+  - MAE Absolute: 16.211225
+  - MAE Relative: 0.176018
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:13:43.078] === SERIES_COMPARISON ===
+Comparaison > 5 min - 15 min per day vs > 5 min - 15 min per day avec BarComparator
+
+Data:
+  - MAE Absolute: 4.372542
+  - MAE Relative: 0.047476
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:13:43.895] === SERIES_COMPARISON ===
+Comparaison > 15 min - 30 min per day vs > 15 min - 30 min per day avec BarComparator
+
+Data:
+  - MAE Absolute: 1.536856
+  - MAE Relative: 0.016687
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:13:44.914] === SERIES_COMPARISON ===
+Comparaison > 30 min - 60 min per day vs > 30 min - 60 min per day avec BarComparator
+
+Data:
+  - MAE Absolute: 0.870531
+  - MAE Relative: 0.009452
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:13:46.015] === SERIES_COMPARISON ===
+Comparaison <2 min per day vs < 2 min per day avec BarComparator
+
+Data:
+  - MAE Absolute: 75.714748
+  - MAE Relative: 0.822093
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:13:47.272] === SERIES_COMPARISON ===
+Comparaison >60 min per day vs > 60 min per day avec BarComparator
+
+Data:
+  - MAE Absolute: 0.222371
+  - MAE Relative: 0.002414
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:13:47
+Total Duration: 6.14 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1905911_1471-2458-7-105-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1905911_1471-2458-7-105-2
+================================================================================
+Timestamp: 2025-08-07 16:47:49
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC1905911___1471-2458-7-105-2
+================================================================================
+
+
+
+[16:47:49.418] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:47:49.420] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:47:49.475] === DATA_LOADING ===
+Chargement des données GT depuis PMC1905911___1471-2458-7-105-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC1905911___1471-2458-7-105-2.json
+  - Series Count: 6
+  - Series Names: ['2 min - 5 min per day', '> 5 min - 15 min per day', '<2 min per day', '>60 min per day', '> 15 min - 30 min per day', '> 30 min - 60 min per day']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 48
+--------------------------------------------------
+
+[16:47:49.480] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1905911___1471-2458-7-105-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC1905911___1471-2458-7-105-2\PMC1905911___1471-2458-7-105-2.json
+  - Series Count: 6
+  - Series Names: ['< 2 min per day', '2 min - 5 min per day', '> 5 min - 15 min per day', '> 15 min - 30 min per day', '> 30 min - 60 min per day', '> 60 min per day']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 48
+--------------------------------------------------
+
+[16:47:49.486] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 92.1000
+  - Y Min-Max: [0.0000, 92.1000]
+  - X Range: 7.0
+--------------------------------------------------
+
+[16:47:49.489] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:47:49.496] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['2 min - 5 min per day <-> 2 min - 5 min per day (method=exact_match, score=1.000)', '> 5 min - 15 min per day <-> > 5 min - 15 min per day (method=exact_match, score=1.000)', '> 15 min - 30 min per day <-> > 15 min - 30 min per day (method=exact_match, score=1.000)', '> 30 min - 60 min per day <-> > 30 min - 60 min per day (method=exact_match, score=1.000)', '<2 min per day <-> < 2 min per day (method=fuzzy_match, score=0.950)', '>60 min per day <-> > 60 min per day (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[16:47:50.235] === SERIES_COMPARISON ===
+Comparaison 2 min - 5 min per day vs 2 min - 5 min per day avec BarComparator
+
+Data:
+  - MAE Absolute: 16.211225
+  - MAE Relative: 0.176018
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:47:51.234] === SERIES_COMPARISON ===
+Comparaison > 5 min - 15 min per day vs > 5 min - 15 min per day avec BarComparator
+
+Data:
+  - MAE Absolute: 4.372542
+  - MAE Relative: 0.047476
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:47:52.186] === SERIES_COMPARISON ===
+Comparaison > 15 min - 30 min per day vs > 15 min - 30 min per day avec BarComparator
+
+Data:
+  - MAE Absolute: 1.536856
+  - MAE Relative: 0.016687
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:47:52.945] === SERIES_COMPARISON ===
+Comparaison > 30 min - 60 min per day vs > 30 min - 60 min per day avec BarComparator
+
+Data:
+  - MAE Absolute: 0.870531
+  - MAE Relative: 0.009452
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:47:53.666] === SERIES_COMPARISON ===
+Comparaison <2 min per day vs < 2 min per day avec BarComparator
+
+Data:
+  - MAE Absolute: 75.714748
+  - MAE Relative: 0.822093
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:47:54.334] === SERIES_COMPARISON ===
+Comparaison >60 min per day vs > 60 min per day avec BarComparator
+
+Data:
+  - MAE Absolute: 0.222371
+  - MAE Relative: 0.002414
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:47:54
+Total Duration: 4.94 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1905911_1471-2458-7-105-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1905911_1471-2458-7-105-2
+================================================================================
+Timestamp: 2025-08-07 17:06:19
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC1905911___1471-2458-7-105-2
+================================================================================
+
+
+
+[17:06:19.384] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:06:19.401] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[17:06:19.498] === DATA_LOADING ===
+Chargement des données GT depuis PMC1905911___1471-2458-7-105-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC1905911___1471-2458-7-105-2.json
+  - Series Count: 6
+  - Series Names: ['2 min - 5 min per day', '> 5 min - 15 min per day', '<2 min per day', '>60 min per day', '> 15 min - 30 min per day', '> 30 min - 60 min per day']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 48
+--------------------------------------------------
+
+[17:06:19.502] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1905911___1471-2458-7-105-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC1905911___1471-2458-7-105-2\PMC1905911___1471-2458-7-105-2.json
+  - Series Count: 6
+  - Series Names: ['< 2 min per day', '2 min - 5 min per day', '> 5 min - 15 min per day', '> 15 min - 30 min per day', '> 30 min - 60 min per day', '> 60 min per day']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 48
+--------------------------------------------------
+
+[17:06:19.505] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 92.1000
+  - Y Min-Max: [0.0000, 92.1000]
+  - X Range: 7.0
+--------------------------------------------------
+
+[17:06:19.523] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:06:19.547] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['2 min - 5 min per day <-> 2 min - 5 min per day (method=exact_match, score=1.000)', '> 5 min - 15 min per day <-> > 5 min - 15 min per day (method=exact_match, score=1.000)', '> 15 min - 30 min per day <-> > 15 min - 30 min per day (method=exact_match, score=1.000)', '> 30 min - 60 min per day <-> > 30 min - 60 min per day (method=exact_match, score=1.000)', '<2 min per day <-> < 2 min per day (method=fuzzy_match, score=0.950)', '>60 min per day <-> > 60 min per day (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[17:06:20.488] === SERIES_COMPARISON ===
+Comparaison 2 min - 5 min per day vs 2 min - 5 min per day avec BarComparator
+
+Data:
+  - MAE Absolute: 16.211225
+  - MAE Relative: 0.176018
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:06:21.396] === SERIES_COMPARISON ===
+Comparaison > 5 min - 15 min per day vs > 5 min - 15 min per day avec BarComparator
+
+Data:
+  - MAE Absolute: 3.526866
+  - MAE Relative: 0.038294
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:06:22.092] === SERIES_COMPARISON ===
+Comparaison > 15 min - 30 min per day vs > 15 min - 30 min per day avec BarComparator
+
+Data:
+  - MAE Absolute: 2.261856
+  - MAE Relative: 0.024559
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:06:22.748] === SERIES_COMPARISON ===
+Comparaison > 30 min - 60 min per day vs > 30 min - 60 min per day avec BarComparator
+
+Data:
+  - MAE Absolute: 0.008149
+  - MAE Relative: 0.000088
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:06:23.397] === SERIES_COMPARISON ===
+Comparaison <2 min per day vs < 2 min per day avec BarComparator
+
+Data:
+  - MAE Absolute: 75.714748
+  - MAE Relative: 0.822093
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:06:24.060] === SERIES_COMPARISON ===
+Comparaison >60 min per day vs > 60 min per day avec BarComparator
+
+Data:
+  - MAE Absolute: 0.733820
+  - MAE Relative: 0.007968
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:06:24
+Total Duration: 4.72 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1905911_1471-2458-7-105-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

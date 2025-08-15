@@ -1,0 +1,185 @@
+
+================================================================================
+VALIDATION LOG - PMC3546065_1471-2458-12-1082-1
+================================================================================
+Timestamp: 2025-08-07 12:57:01
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3546065___1471-2458-12-1082-1
+================================================================================
+
+
+
+[12:57:01.731] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:57:01.761] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:57:01.841] === DATA_LOADING ===
+Chargement des données GT depuis PMC3546065___1471-2458-12-1082-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3546065___1471-2458-12-1082-1.json
+  - Series Count: 8
+  - Series Names: ['Anal cancer', 'Penile cancer', 'Vaginal cancer', 'Vulva cancer', 'Precancerous lesions, anal cancer', 'Precancerous lesions, penile cancer', 'Precancerous lesions, vaginal cancer', 'Precancerous lesions, vulva cancer']
+  - X Data Types: {'categorical': 8}
+  - Total Data Points: 56
+--------------------------------------------------
+
+[12:57:01.849] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3546065___1471-2458-12-1082-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3546065___1471-2458-12-1082-1\PMC3546065___1471-2458-12-1082-1.json
+  - Series Count: 7
+  - Series Names: ['Anal cancer', 'Penile cancer', 'Vaginal cancer', 'Vulva cancer', 'Precancerous lesions, anal cancer', 'Precancerous lesions, vaginal cancer', 'Precancerous lesions, penile cancer']
+  - X Data Types: {'numeric': 7}
+  - Total Data Points: 49
+--------------------------------------------------
+
+[12:57:01.860] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 158.4724
+  - Y Min-Max: [-0.4724, 158.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:57:01.878] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:57:01.882] === MATCHING_RESULTS ===
+7 appariements trouvés
+
+Data:
+  - Total Matches: 7
+  - Match Details: ['Anal cancer <-> Anal cancer (method=exact_match, score=1.000)', 'Penile cancer <-> Penile cancer (method=exact_match, score=1.000)', 'Vaginal cancer <-> Vaginal cancer (method=exact_match, score=1.000)', 'Vulva cancer <-> Vulva cancer (method=exact_match, score=1.000)', 'Precancerous lesions, anal cancer <-> Precancerous lesions, anal cancer (method=exact_match, score=1.000)', 'Precancerous lesions, penile cancer <-> Precancerous lesions, penile cancer (method=exact_match, score=1.000)', 'Precancerous lesions, vaginal cancer <-> Precancerous lesions, vaginal cancer (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:57:05.113] === SERIES_COMPARISON ===
+Comparaison Anal cancer vs Anal cancer avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 6.741307
+  - MAE Relative: 0.042539
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.502857
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:57:07.607] === SERIES_COMPARISON ===
+Comparaison Penile cancer vs Penile cancer avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 32.731411
+  - MAE Relative: 0.206543
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.502857
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:57:09.565] === SERIES_COMPARISON ===
+Comparaison Vaginal cancer vs Vaginal cancer avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 8.320862
+  - MAE Relative: 0.052507
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.502857
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:57:10.623] === SERIES_COMPARISON ===
+Comparaison Vulva cancer vs Vulva cancer avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 8.991969
+  - MAE Relative: 0.056742
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.502857
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:57:14.225] === SERIES_COMPARISON ===
+Comparaison Precancerous lesions, anal cancer vs Precancerous lesions, anal cancer avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 41.885785
+  - MAE Relative: 0.264310
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.502857
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:57:16.181] === SERIES_COMPARISON ===
+Comparaison Precancerous lesions, penile cancer vs Precancerous lesions, penile cancer avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 4.983338
+  - MAE Relative: 0.031446
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.502857
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:57:18.488] === SERIES_COMPARISON ===
+Comparaison Precancerous lesions, vaginal cancer vs Precancerous lesions, vaginal cancer avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 4.050043
+  - MAE Relative: 0.025557
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.502857
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:57:18
+Total Duration: 16.77 seconds
+Total Series Processed: 7
+Successful Comparisons: 7
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3546065_1471-2458-12-1082-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

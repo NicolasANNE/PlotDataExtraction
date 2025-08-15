@@ -1,0 +1,935 @@
+
+================================================================================
+VALIDATION LOG - PMC1166548_1471-2156-6-29-4
+================================================================================
+Timestamp: 2025-08-06 20:15:13
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1166548___1471-2156-6-29-4
+================================================================================
+
+
+
+[20:15:13.284] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:13.327] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:13.355] === DATA_LOADING ===
+Chargement des données GT depuis PMC1166548___1471-2156-6-29-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1166548___1471-2156-6-29-4.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:13.372] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1166548___1471-2156-6-29-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1166548___1471-2156-6-29-4\PMC1166548___1471-2156-6-29-4.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:13.374] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1166548_1471-2156-6-29-4
+================================================================================
+Timestamp: 2025-08-06 21:06:12
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1166548___1471-2156-6-29-4
+================================================================================
+
+
+
+[21:06:12.456] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:06:12.463] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:06:12.533] === DATA_LOADING ===
+Chargement des données GT depuis PMC1166548___1471-2156-6-29-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1166548___1471-2156-6-29-4.json
+  - Series Count: 3
+  - Series Names: ['WT on Mixed Background (n=10)', 'CF on Mixed Background (n=18)', 'CF on B6 Background (n=16)']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[21:06:12.540] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1166548___1471-2156-6-29-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1166548___1471-2156-6-29-4\PMC1166548___1471-2156-6-29-4.json
+  - Series Count: 3
+  - Series Names: ['WT on Mixed Background (n=10)', 'CF on Mixed Background (n=18)', 'CF on B6 Background (n=16)']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 45
+--------------------------------------------------
+
+[21:06:12.551] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 62.7508
+  - Y Min-Max: [38.0000, 100.7508]
+  - X Range: 60.0
+--------------------------------------------------
+
+[21:06:12.569] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:06:12.583] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['1 <-> unnamed data series #0 (method=position_match_generic, score=0.100)', '0 <-> unnamed data series #1 (method=position_match_generic, score=0.100)', '12 <-> unnamed data series #2 (method=position_match_generic, score=0.100)']
+--------------------------------------------------
+
+[21:06:12.636] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison 1 vs unnamed data series #0
+==================================================
+
+
+[21:06:12.678] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison 0 vs unnamed data series #1
+==================================================
+
+
+[21:06:12.711] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison 12 vs unnamed data series #2
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:06:12
+Total Duration: 0.35 seconds
+Total Series Processed: 3
+Successful Comparisons: 0
+Errors: 3
+Success Rate: 0.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1166548_1471-2156-6-29-4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1166548_1471-2156-6-29-4
+================================================================================
+Timestamp: 2025-08-06 21:30:24
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1166548___1471-2156-6-29-4
+================================================================================
+
+
+
+[21:30:25.004] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:30:25.009] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:30:25.134] === DATA_LOADING ===
+Chargement des données GT depuis PMC1166548___1471-2156-6-29-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1166548___1471-2156-6-29-4.json
+  - Series Count: 3
+  - Series Names: ['WT on Mixed Background (n=10)', 'CF on Mixed Background (n=18)', 'CF on B6 Background (n=16)']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[21:30:25.140] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1166548___1471-2156-6-29-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1166548___1471-2156-6-29-4\PMC1166548___1471-2156-6-29-4.json
+  - Series Count: 3
+  - Series Names: ['WT on Mixed Background (n=10)', 'CF on Mixed Background (n=18)', 'CF on B6 Background (n=16)']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 45
+--------------------------------------------------
+
+[21:30:25.175] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 62.7508
+  - Y Min-Max: [38.0000, 100.7508]
+  - X Range: 60.0
+--------------------------------------------------
+
+[21:30:25.177] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:30:25.182] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['WT on Mixed Background (n=10) <-> WT on Mixed Background (n=10) (method=exact_match, score=1.000)', 'CF on Mixed Background (n=18) <-> CF on Mixed Background (n=18) (method=exact_match, score=1.000)', 'CF on B6 Background (n=16) <-> CF on B6 Background (n=16) (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:30:26.980] === SERIES_COMPARISON ===
+Comparaison WT on Mixed Background (n=10) vs WT on Mixed Background (n=10) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.750751
+  - MAE Relative: 0.011964
+  - Left Miss (rel): -0.018787
+  - Right Miss (rel): -0.064816
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 13
+  - Points Ratio: 6.50
+--------------------------------------------------
+
+[21:30:28.294] === SERIES_COMPARISON ===
+Comparaison CF on Mixed Background (n=18) vs CF on Mixed Background (n=18) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.467879
+  - MAE Relative: 0.023392
+  - Left Miss (rel): -0.014612
+  - Right Miss (rel): -0.068991
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 14
+  - Points Ratio: 2.80
+--------------------------------------------------
+
+[21:30:29.368] === SERIES_COMPARISON ===
+Comparaison CF on B6 Background (n=16) vs CF on B6 Background (n=16) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.853892
+  - MAE Relative: 0.029544
+  - Left Miss (rel): -0.016700
+  - Right Miss (rel): -0.058553
+  - X Cutoff: N/A
+  - GT Points: 17
+  - Extracted Points: 18
+  - Points Ratio: 1.06
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:30:29
+Total Duration: 4.41 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1166548_1471-2156-6-29-4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1166548_1471-2156-6-29-4
+================================================================================
+Timestamp: 2025-08-07 12:46:18
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1166548___1471-2156-6-29-4
+================================================================================
+
+
+
+[12:46:18.972] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:46:18.997] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:46:19.064] === DATA_LOADING ===
+Chargement des données GT depuis PMC1166548___1471-2156-6-29-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1166548___1471-2156-6-29-4.json
+  - Series Count: 3
+  - Series Names: ['WT on Mixed Background (n=10)', 'CF on Mixed Background (n=18)', 'CF on B6 Background (n=16)']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[12:46:19.071] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1166548___1471-2156-6-29-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1166548___1471-2156-6-29-4\PMC1166548___1471-2156-6-29-4.json
+  - Series Count: 3
+  - Series Names: ['WT on Mixed Background (n=10)', 'CF on Mixed Background (n=18)', 'CF on B6 Background (n=16)']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 45
+--------------------------------------------------
+
+[12:46:19.074] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 62.1622
+  - Y Min-Max: [38.5886, 100.7508]
+  - X Range: 60.0
+--------------------------------------------------
+
+[12:46:19.079] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:46:19.095] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['WT on Mixed Background (n=10) <-> WT on Mixed Background (n=10) (method=exact_match, score=1.000)', 'CF on Mixed Background (n=18) <-> CF on Mixed Background (n=18) (method=exact_match, score=1.000)', 'CF on B6 Background (n=16) <-> CF on B6 Background (n=16) (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:46:20.262] === SERIES_COMPARISON ===
+Comparaison WT on Mixed Background (n=10) vs WT on Mixed Background (n=10) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.750751
+  - MAE Relative: 0.012077
+  - Left Miss (rel): -0.018787
+  - Right Miss (rel): -0.064816
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 13
+  - Points Ratio: 6.50
+--------------------------------------------------
+
+[12:46:21.602] === SERIES_COMPARISON ===
+Comparaison CF on Mixed Background (n=18) vs CF on Mixed Background (n=18) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.467879
+  - MAE Relative: 0.023614
+  - Left Miss (rel): -0.014612
+  - Right Miss (rel): -0.068991
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 14
+  - Points Ratio: 2.80
+--------------------------------------------------
+
+[12:46:22.376] === SERIES_COMPARISON ===
+Comparaison CF on B6 Background (n=16) vs CF on B6 Background (n=16) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.969708
+  - MAE Relative: 0.063861
+  - Left Miss (rel): -0.016700
+  - Right Miss (rel): -0.058553
+  - X Cutoff: N/A
+  - GT Points: 17
+  - Extracted Points: 18
+  - Points Ratio: 1.06
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:46:22
+Total Duration: 3.45 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1166548_1471-2156-6-29-4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1166548_1471-2156-6-29-4
+================================================================================
+Timestamp: 2025-08-07 13:03:18
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1166548___1471-2156-6-29-4
+================================================================================
+
+
+
+[13:03:18.702] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:03:18.740] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:03:18.816] === DATA_LOADING ===
+Chargement des données GT depuis PMC1166548___1471-2156-6-29-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1166548___1471-2156-6-29-4.json
+  - Series Count: 3
+  - Series Names: ['WT on Mixed Background (n=10)', 'CF on Mixed Background (n=18)', 'CF on B6 Background (n=16)']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[13:03:18.821] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1166548___1471-2156-6-29-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1166548___1471-2156-6-29-4\PMC1166548___1471-2156-6-29-4.json
+  - Series Count: 3
+  - Series Names: ['WT on Mixed Background (n=10)', 'CF on Mixed Background (n=18)', 'CF on B6 Background (n=16)']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 45
+--------------------------------------------------
+
+[13:03:18.825] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 62.1622
+  - Y Min-Max: [38.5886, 100.7508]
+  - X Range: 60.0
+--------------------------------------------------
+
+[13:03:18.833] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:03:18.865] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['WT on Mixed Background (n=10) <-> WT on Mixed Background (n=10) (method=exact_match, score=1.000)', 'CF on Mixed Background (n=18) <-> CF on Mixed Background (n=18) (method=exact_match, score=1.000)', 'CF on B6 Background (n=16) <-> CF on B6 Background (n=16) (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:03:19.949] === SERIES_COMPARISON ===
+Comparaison WT on Mixed Background (n=10) vs WT on Mixed Background (n=10) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.750751
+  - MAE Relative: 0.012077
+  - Left Miss (rel): -0.018787
+  - Right Miss (rel): -0.064816
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 13
+  - Points Ratio: 6.50
+--------------------------------------------------
+
+[13:03:21.012] === SERIES_COMPARISON ===
+Comparaison CF on Mixed Background (n=18) vs CF on Mixed Background (n=18) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.467879
+  - MAE Relative: 0.023614
+  - Left Miss (rel): -0.014612
+  - Right Miss (rel): -0.068991
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 14
+  - Points Ratio: 2.80
+--------------------------------------------------
+
+[13:03:21.747] === SERIES_COMPARISON ===
+Comparaison CF on B6 Background (n=16) vs CF on B6 Background (n=16) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.969708
+  - MAE Relative: 0.063861
+  - Left Miss (rel): -0.016700
+  - Right Miss (rel): -0.058553
+  - X Cutoff: N/A
+  - GT Points: 17
+  - Extracted Points: 18
+  - Points Ratio: 1.06
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:03:21
+Total Duration: 3.07 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1166548_1471-2156-6-29-4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1166548_1471-2156-6-29-4
+================================================================================
+Timestamp: 2025-08-07 16:36:53
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1166548___1471-2156-6-29-4
+================================================================================
+
+
+
+[16:36:53.316] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:36:53.340] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:36:53.402] === DATA_LOADING ===
+Chargement des données GT depuis PMC1166548___1471-2156-6-29-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1166548___1471-2156-6-29-4.json
+  - Series Count: 3
+  - Series Names: ['WT on Mixed Background (n=10)', 'CF on Mixed Background (n=18)', 'CF on B6 Background (n=16)']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[16:36:53.410] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1166548___1471-2156-6-29-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1166548___1471-2156-6-29-4\PMC1166548___1471-2156-6-29-4.json
+  - Series Count: 3
+  - Series Names: ['WT on Mixed Background (n=10)', 'CF on Mixed Background (n=18)', 'CF on B6 Background (n=16)']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 45
+--------------------------------------------------
+
+[16:36:53.413] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 62.7508
+  - Y Min-Max: [38.0000, 100.7508]
+  - X Range: 60.0
+--------------------------------------------------
+
+[16:36:53.418] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:36:53.445] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['WT on Mixed Background (n=10) <-> WT on Mixed Background (n=10) (method=exact_match, score=1.000)', 'CF on Mixed Background (n=18) <-> CF on Mixed Background (n=18) (method=exact_match, score=1.000)', 'CF on B6 Background (n=16) <-> CF on B6 Background (n=16) (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:36:54.892] === SERIES_COMPARISON ===
+Comparaison WT on Mixed Background (n=10) vs WT on Mixed Background (n=10) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.750751
+  - MAE Relative: 0.011964
+  - Left Miss (rel): -0.018787
+  - Right Miss (rel): -0.064816
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 13
+  - Points Ratio: 6.50
+--------------------------------------------------
+
+[16:36:55.845] === SERIES_COMPARISON ===
+Comparaison CF on Mixed Background (n=18) vs CF on Mixed Background (n=18) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.467879
+  - MAE Relative: 0.023392
+  - Left Miss (rel): -0.014612
+  - Right Miss (rel): -0.068991
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 14
+  - Points Ratio: 2.80
+--------------------------------------------------
+
+[16:36:56.689] === SERIES_COMPARISON ===
+Comparaison CF on B6 Background (n=16) vs CF on B6 Background (n=16) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.853892
+  - MAE Relative: 0.029544
+  - Left Miss (rel): -0.016700
+  - Right Miss (rel): -0.058553
+  - X Cutoff: N/A
+  - GT Points: 17
+  - Extracted Points: 18
+  - Points Ratio: 1.06
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:36:56
+Total Duration: 3.40 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1166548_1471-2156-6-29-4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1166548_1471-2156-6-29-4
+================================================================================
+Timestamp: 2025-08-07 16:56:07
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1166548___1471-2156-6-29-4
+================================================================================
+
+
+
+[16:56:07.339] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:56:07.349] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:56:07.400] === DATA_LOADING ===
+Chargement des données GT depuis PMC1166548___1471-2156-6-29-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1166548___1471-2156-6-29-4.json
+  - Series Count: 3
+  - Series Names: ['WT on Mixed Background (n=10)', 'CF on Mixed Background (n=18)', 'CF on B6 Background (n=16)']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[16:56:07.444] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1166548___1471-2156-6-29-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1166548___1471-2156-6-29-4\PMC1166548___1471-2156-6-29-4.json
+  - Series Count: 3
+  - Series Names: ['WT on Mixed Background (n=10)', 'CF on Mixed Background (n=18)', 'CF on B6 Background (n=16)']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 45
+--------------------------------------------------
+
+[16:56:07.450] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 62.1622
+  - Y Min-Max: [38.5886, 100.7508]
+  - X Range: 60.0
+--------------------------------------------------
+
+[16:56:07.482] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:56:07.487] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['WT on Mixed Background (n=10) <-> WT on Mixed Background (n=10) (method=exact_match, score=1.000)', 'CF on Mixed Background (n=18) <-> CF on Mixed Background (n=18) (method=exact_match, score=1.000)', 'CF on B6 Background (n=16) <-> CF on B6 Background (n=16) (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:56:08.750] === SERIES_COMPARISON ===
+Comparaison WT on Mixed Background (n=10) vs WT on Mixed Background (n=10) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.750751
+  - MAE Relative: 0.012077
+  - Left Miss (rel): -0.018787
+  - Right Miss (rel): -0.064816
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 13
+  - Points Ratio: 6.50
+--------------------------------------------------
+
+[16:56:10.259] === SERIES_COMPARISON ===
+Comparaison CF on Mixed Background (n=18) vs CF on Mixed Background (n=18) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.467879
+  - MAE Relative: 0.023614
+  - Left Miss (rel): -0.014612
+  - Right Miss (rel): -0.068991
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 14
+  - Points Ratio: 2.80
+--------------------------------------------------
+
+[16:56:11.175] === SERIES_COMPARISON ===
+Comparaison CF on B6 Background (n=16) vs CF on B6 Background (n=16) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.969708
+  - MAE Relative: 0.063861
+  - Left Miss (rel): -0.016700
+  - Right Miss (rel): -0.058553
+  - X Cutoff: N/A
+  - GT Points: 17
+  - Extracted Points: 18
+  - Points Ratio: 1.06
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:56:11
+Total Duration: 3.85 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1166548_1471-2156-6-29-4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1166548_1471-2156-6-29-4
+================================================================================
+Timestamp: 2025-08-11 13:44:41
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1166548___1471-2156-6-29-4
+================================================================================
+
+
+
+[13:44:41.613] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:44:41.649] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:44:41.815] === DATA_LOADING ===
+Chargement des données GT depuis PMC1166548___1471-2156-6-29-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1166548___1471-2156-6-29-4.json
+  - Series Count: 3
+  - Series Names: ['WT on Mixed Background (n=10)', 'CF on Mixed Background (n=18)', 'CF on B6 Background (n=16)']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[13:44:41.834] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1166548___1471-2156-6-29-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1166548___1471-2156-6-29-4\PMC1166548___1471-2156-6-29-4.json
+  - Series Count: 3
+  - Series Names: ['WT on Mixed Background (n=10)', 'CF on Mixed Background (n=18)', 'CF on B6 Background (n=16)']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 45
+--------------------------------------------------
+
+[13:44:41.869] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 62.7508
+  - Y Min-Max: [38.0000, 100.7508]
+  - X Range: 60.0
+--------------------------------------------------
+
+[13:44:41.886] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:44:41.890] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['WT on Mixed Background (n=10) <-> WT on Mixed Background (n=10) (method=exact_match, score=1.000)', 'CF on Mixed Background (n=18) <-> CF on Mixed Background (n=18) (method=exact_match, score=1.000)', 'CF on B6 Background (n=16) <-> CF on B6 Background (n=16) (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:44:45.160] === SERIES_COMPARISON ===
+Comparaison WT on Mixed Background (n=10) vs WT on Mixed Background (n=10) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.750751
+  - MAE Relative: 0.011964
+  - Left Miss (rel): -0.018787
+  - Right Miss (rel): -0.064816
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 13
+  - Points Ratio: 6.50
+--------------------------------------------------
+
+[13:44:47.830] === SERIES_COMPARISON ===
+Comparaison CF on Mixed Background (n=18) vs CF on Mixed Background (n=18) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.467879
+  - MAE Relative: 0.023392
+  - Left Miss (rel): -0.014612
+  - Right Miss (rel): -0.068991
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 14
+  - Points Ratio: 2.80
+--------------------------------------------------
+
+[13:44:48.871] === SERIES_COMPARISON ===
+Comparaison CF on B6 Background (n=16) vs CF on B6 Background (n=16) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.808257
+  - MAE Relative: 0.028816
+  - Left Miss (rel): -0.016700
+  - Right Miss (rel): -0.058553
+  - X Cutoff: N/A
+  - GT Points: 17
+  - Extracted Points: 18
+  - Points Ratio: 1.06
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-11 13:44:48
+Total Duration: 7.29 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1166548_1471-2156-6-29-4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

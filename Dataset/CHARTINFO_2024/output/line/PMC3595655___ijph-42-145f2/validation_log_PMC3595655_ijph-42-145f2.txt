@@ -1,0 +1,115 @@
+
+================================================================================
+VALIDATION LOG - PMC3595655_ijph-42-145f2
+================================================================================
+Timestamp: 2025-08-07 12:57:25
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3595655___ijph-42-145f2
+================================================================================
+
+
+
+[12:57:25.083] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:57:25.085] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:57:25.132] === DATA_LOADING ===
+Chargement des données GT depuis PMC3595655___ijph-42-145f2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3595655___ijph-42-145f2.json
+  - Series Count: 2
+  - Series Names: ['Methadione therapy', 'Naitrexon therapy']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[12:57:25.136] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3595655___ijph-42-145f2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3595655___ijph-42-145f2\PMC3595655___ijph-42-145f2.json
+  - Series Count: 2
+  - Series Names: ['Metnadone therapy', 'Naltrexon therapy']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[12:57:25.140] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 8.5000
+  - Y Min-Max: [0.4000, 8.9000]
+  - X Range: 5.0210084033613445
+--------------------------------------------------
+
+[12:57:25.142] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:57:25.147] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Methadione therapy <-> Metnadone therapy (method=fuzzy_match, score=0.900)', 'Naitrexon therapy <-> Naltrexon therapy (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[12:57:26.232] === SERIES_COMPARISON ===
+Comparaison Methadione therapy vs Metnadone therapy avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.077799
+  - MAE Relative: 0.009153
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.004184
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 6
+  - Points Ratio: 0.27
+--------------------------------------------------
+
+[12:57:27.377] === SERIES_COMPARISON ===
+Comparaison Naitrexon therapy vs Naltrexon therapy avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.081643
+  - MAE Relative: 0.009605
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.003347
+  - X Cutoff: N/A
+  - GT Points: 18
+  - Extracted Points: 6
+  - Points Ratio: 0.33
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:57:27
+Total Duration: 2.30 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3595655_ijph-42-145f2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

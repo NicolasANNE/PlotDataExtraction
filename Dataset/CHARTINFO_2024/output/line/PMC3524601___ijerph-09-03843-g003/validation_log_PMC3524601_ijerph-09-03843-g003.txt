@@ -1,0 +1,171 @@
+
+================================================================================
+VALIDATION LOG - PMC3524601_ijerph-09-03843-g003
+================================================================================
+Timestamp: 2025-08-07 12:56:09
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3524601___ijerph-09-03843-g003
+================================================================================
+
+
+
+[12:56:09.711] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:56:09.714] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:56:09.770] === DATA_LOADING ===
+Chargement des données GT depuis PMC3524601___ijerph-09-03843-g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3524601___ijerph-09-03843-g003.json
+  - Series Count: 6
+  - Series Names: ['Developed', 'Agricultural', 'Forest', 'Wild grassland', 'Bare', 'Water']
+  - X Data Types: {'categorical': 6}
+  - Total Data Points: 18
+--------------------------------------------------
+
+[12:56:09.775] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3524601___ijerph-09-03843-g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3524601___ijerph-09-03843-g003\PMC3524601___ijerph-09-03843-g003.json
+  - Series Count: 6
+  - Series Names: ['Developed', 'Agricultural', 'Forest', 'Wild grassland', 'Bare', 'Water']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 18
+--------------------------------------------------
+
+[12:56:09.780] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 13.5245
+  - Y Min-Max: [-6.3245, 7.2000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:56:09.782] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:56:09.784] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['Developed <-> Developed (method=exact_match, score=1.000)', 'Agricultural <-> Agricultural (method=exact_match, score=1.000)', 'Forest <-> Forest (method=exact_match, score=1.000)', 'Wild grassland <-> Wild grassland (method=exact_match, score=1.000)', 'Bare <-> Bare (method=exact_match, score=1.000)', 'Water <-> Water (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:56:10.863] === SERIES_COMPARISON ===
+Comparaison Developed vs Developed avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.736572
+  - MAE Relative: 0.054462
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.530000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:56:12.342] === SERIES_COMPARISON ===
+Comparaison Agricultural vs Agricultural avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 1.343028
+  - MAE Relative: 0.099304
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.530000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:56:13.846] === SERIES_COMPARISON ===
+Comparaison Forest vs Forest avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.504267
+  - MAE Relative: 0.037285
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.530000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:56:15.121] === SERIES_COMPARISON ===
+Comparaison Wild grassland vs Wild grassland avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 1.693293
+  - MAE Relative: 0.125202
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.530000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:56:16.286] === SERIES_COMPARISON ===
+Comparaison Bare vs Bare avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.956501
+  - MAE Relative: 0.070724
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.530000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:56:18.607] === SERIES_COMPARISON ===
+Comparaison Water vs Water avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 0.201871
+  - MAE Relative: 0.014926
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.530000
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:56:18
+Total Duration: 8.92 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3524601_ijerph-09-03843-g003.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,698 @@
+
+================================================================================
+VALIDATION LOG - PMC2065899_7
+================================================================================
+Timestamp: 2025-08-06 20:15:51
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2065899___7
+================================================================================
+
+
+
+[20:15:51.405] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:51.434] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:51.473] === DATA_LOADING ===
+Chargement des données GT depuis PMC2065899___7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2065899___7.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:51.492] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2065899___7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2065899___7\PMC2065899___7.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:51.494] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2065899_7
+================================================================================
+Timestamp: 2025-08-06 21:32:13
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2065899___7
+================================================================================
+
+
+
+[21:32:13.174] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:32:13.179] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:32:13.217] === DATA_LOADING ===
+Chargement des données GT depuis PMC2065899___7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2065899___7.json
+  - Series Count: 3
+  - Series Names: ['B721-H-Ras G12V', 'B721-H-Ras WT', 'B721-GFP']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[21:32:13.229] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2065899___7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2065899___7\PMC2065899___7.json
+  - Series Count: 3
+  - Series Names: ['B721-H-Ras G12V', 'B721-H-Ras WT', 'B721-GFP']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[21:32:13.237] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 62.9638
+  - Y Min-Max: [0.0000, 62.9638]
+  - X Range: 6.0
+--------------------------------------------------
+
+[21:32:13.242] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:32:13.247] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['B721-H-Ras G12V <-> B721-H-Ras G12V (method=exact_match, score=1.000)', 'B721-H-Ras WT <-> B721-H-Ras WT (method=exact_match, score=1.000)', 'B721-GFP <-> B721-GFP (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:32:14.022] === SERIES_COMPARISON ===
+Comparaison B721-H-Ras G12V vs B721-H-Ras G12V avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.238932
+  - MAE Relative: 0.019677
+  - Left Miss (rel): -0.061974
+  - Right Miss (rel): -0.007860
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:32:14.767] === SERIES_COMPARISON ===
+Comparaison B721-H-Ras WT vs B721-H-Ras WT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.257733
+  - MAE Relative: 0.019975
+  - Left Miss (rel): -0.061166
+  - Right Miss (rel): -0.016256
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:32:15.394] === SERIES_COMPARISON ===
+Comparaison B721-GFP vs B721-GFP avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.698106
+  - MAE Relative: 0.011087
+  - Left Miss (rel): -0.061569
+  - Right Miss (rel): -0.037959
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:32:15
+Total Duration: 2.23 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2065899_7.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2065899_7
+================================================================================
+Timestamp: 2025-08-07 12:48:16
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2065899___7
+================================================================================
+
+
+
+[12:48:17.002] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:48:17.005] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:48:17.050] === DATA_LOADING ===
+Chargement des données GT depuis PMC2065899___7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2065899___7.json
+  - Series Count: 3
+  - Series Names: ['B721-H-Ras G12V', 'B721-H-Ras WT', 'B721-GFP']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[12:48:17.054] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2065899___7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2065899___7\PMC2065899___7.json
+  - Series Count: 3
+  - Series Names: ['B721-H-Ras G12V', 'B721-H-Ras WT', 'B721-GFP']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[12:48:17.057] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 62.9638
+  - Y Min-Max: [0.0000, 62.9638]
+  - X Range: 6.0
+--------------------------------------------------
+
+[12:48:17.060] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:48:17.062] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['B721-H-Ras G12V <-> B721-H-Ras G12V (method=exact_match, score=1.000)', 'B721-H-Ras WT <-> B721-H-Ras WT (method=exact_match, score=1.000)', 'B721-GFP <-> B721-GFP (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:48:18.093] === SERIES_COMPARISON ===
+Comparaison B721-H-Ras G12V vs B721-H-Ras G12V avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.238932
+  - MAE Relative: 0.019677
+  - Left Miss (rel): -0.061974
+  - Right Miss (rel): -0.007860
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:48:19.064] === SERIES_COMPARISON ===
+Comparaison B721-H-Ras WT vs B721-H-Ras WT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.257733
+  - MAE Relative: 0.019975
+  - Left Miss (rel): -0.061166
+  - Right Miss (rel): -0.016256
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:48:20.288] === SERIES_COMPARISON ===
+Comparaison B721-GFP vs B721-GFP avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.698106
+  - MAE Relative: 0.011087
+  - Left Miss (rel): -0.061569
+  - Right Miss (rel): -0.037959
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:48:20
+Total Duration: 3.29 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2065899_7.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2065899_7
+================================================================================
+Timestamp: 2025-08-07 13:05:15
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2065899___7
+================================================================================
+
+
+
+[13:05:15.358] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:05:15.362] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:05:15.411] === DATA_LOADING ===
+Chargement des données GT depuis PMC2065899___7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2065899___7.json
+  - Series Count: 3
+  - Series Names: ['B721-H-Ras G12V', 'B721-H-Ras WT', 'B721-GFP']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[13:05:15.421] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2065899___7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2065899___7\PMC2065899___7.json
+  - Series Count: 3
+  - Series Names: ['B721-H-Ras G12V', 'B721-H-Ras WT', 'B721-GFP']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[13:05:15.433] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 62.9638
+  - Y Min-Max: [0.0000, 62.9638]
+  - X Range: 6.0
+--------------------------------------------------
+
+[13:05:15.442] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:05:15.444] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['B721-H-Ras G12V <-> B721-H-Ras G12V (method=exact_match, score=1.000)', 'B721-H-Ras WT <-> B721-H-Ras WT (method=exact_match, score=1.000)', 'B721-GFP <-> B721-GFP (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:05:16.018] === SERIES_COMPARISON ===
+Comparaison B721-H-Ras G12V vs B721-H-Ras G12V avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.238932
+  - MAE Relative: 0.019677
+  - Left Miss (rel): -0.061974
+  - Right Miss (rel): -0.007860
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:05:16.512] === SERIES_COMPARISON ===
+Comparaison B721-H-Ras WT vs B721-H-Ras WT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.257733
+  - MAE Relative: 0.019975
+  - Left Miss (rel): -0.061166
+  - Right Miss (rel): -0.016256
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:05:17.101] === SERIES_COMPARISON ===
+Comparaison B721-GFP vs B721-GFP avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.698106
+  - MAE Relative: 0.011087
+  - Left Miss (rel): -0.061569
+  - Right Miss (rel): -0.037959
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:05:17
+Total Duration: 1.75 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2065899_7.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2065899_7
+================================================================================
+Timestamp: 2025-08-07 16:38:51
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2065899___7
+================================================================================
+
+
+
+[16:38:51.903] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:38:51.911] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:38:51.955] === DATA_LOADING ===
+Chargement des données GT depuis PMC2065899___7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2065899___7.json
+  - Series Count: 3
+  - Series Names: ['B721-H-Ras G12V', 'B721-H-Ras WT', 'B721-GFP']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[16:38:51.965] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2065899___7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2065899___7\PMC2065899___7.json
+  - Series Count: 3
+  - Series Names: ['B721-H-Ras G12V', 'B721-H-Ras WT', 'B721-GFP']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[16:38:51.984] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 62.9638
+  - Y Min-Max: [0.0000, 62.9638]
+  - X Range: 6.0
+--------------------------------------------------
+
+[16:38:51.994] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:38:51.996] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['B721-H-Ras G12V <-> B721-H-Ras G12V (method=exact_match, score=1.000)', 'B721-H-Ras WT <-> B721-H-Ras WT (method=exact_match, score=1.000)', 'B721-GFP <-> B721-GFP (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:38:52.636] === SERIES_COMPARISON ===
+Comparaison B721-H-Ras G12V vs B721-H-Ras G12V avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.238932
+  - MAE Relative: 0.019677
+  - Left Miss (rel): -0.061974
+  - Right Miss (rel): -0.007860
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:38:53.224] === SERIES_COMPARISON ===
+Comparaison B721-H-Ras WT vs B721-H-Ras WT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.257733
+  - MAE Relative: 0.019975
+  - Left Miss (rel): -0.061166
+  - Right Miss (rel): -0.016256
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:38:53.713] === SERIES_COMPARISON ===
+Comparaison B721-GFP vs B721-GFP avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.698106
+  - MAE Relative: 0.011087
+  - Left Miss (rel): -0.061569
+  - Right Miss (rel): -0.037959
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:38:53
+Total Duration: 1.82 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2065899_7.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2065899_7
+================================================================================
+Timestamp: 2025-08-07 16:58:03
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2065899___7
+================================================================================
+
+
+
+[16:58:03.678] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:58:03.680] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:58:03.701] === DATA_LOADING ===
+Chargement des données GT depuis PMC2065899___7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2065899___7.json
+  - Series Count: 3
+  - Series Names: ['B721-H-Ras G12V', 'B721-H-Ras WT', 'B721-GFP']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[16:58:03.704] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2065899___7.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2065899___7\PMC2065899___7.json
+  - Series Count: 3
+  - Series Names: ['B721-H-Ras G12V', 'B721-H-Ras WT', 'B721-GFP']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[16:58:03.707] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 62.9638
+  - Y Min-Max: [0.0000, 62.9638]
+  - X Range: 6.0
+--------------------------------------------------
+
+[16:58:03.709] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:58:03.711] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['B721-H-Ras G12V <-> B721-H-Ras G12V (method=exact_match, score=1.000)', 'B721-H-Ras WT <-> B721-H-Ras WT (method=exact_match, score=1.000)', 'B721-GFP <-> B721-GFP (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:58:04.228] === SERIES_COMPARISON ===
+Comparaison B721-H-Ras G12V vs B721-H-Ras G12V avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.238932
+  - MAE Relative: 0.019677
+  - Left Miss (rel): -0.061974
+  - Right Miss (rel): -0.007860
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:58:04.708] === SERIES_COMPARISON ===
+Comparaison B721-H-Ras WT vs B721-H-Ras WT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.257733
+  - MAE Relative: 0.019975
+  - Left Miss (rel): -0.061166
+  - Right Miss (rel): -0.016256
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:58:05.189] === SERIES_COMPARISON ===
+Comparaison B721-GFP vs B721-GFP avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.698106
+  - MAE Relative: 0.011087
+  - Left Miss (rel): -0.061569
+  - Right Miss (rel): -0.037959
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:58:05
+Total Duration: 1.52 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2065899_7.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

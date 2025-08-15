@@ -1,0 +1,538 @@
+
+================================================================================
+VALIDATION LOG - PMC3138020_ijerph-08-02181f4
+================================================================================
+Timestamp: 2025-08-06 21:36:38
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3138020___ijerph-08-02181f4
+================================================================================
+
+
+
+[21:36:38.246] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:36:38.252] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:36:38.418] === DATA_LOADING ===
+Chargement des données GT depuis PMC3138020___ijerph-08-02181f4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3138020___ijerph-08-02181f4.json
+  - Series Count: 13
+  - Series Names: ['Soil initial P level D', 'Soil Initial P level C', 'Soil initial P level B', 'Soil initial P level A', 'Soil initial P level D 1-25 yrs', 'Soil initial P level D 25-50 yrs', 'Soil initial P level D 51-100 yrs', 'Soil initial P level C 1-25 years', 'Soil initial P level C 25-50 years', 'Soil initial P level C 51-75 years', 'Soil initial P level C 76-100 years', 'Linear (Soil initial P level A)', 'Linear (Soil initial P level B)']
+  - X Data Types: {'numeric': 13}
+  - Total Data Points: 381
+--------------------------------------------------
+
+[21:36:38.425] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3138020___ijerph-08-02181f4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3138020___ijerph-08-02181f4\PMC3138020___ijerph-08-02181f4.json
+  - Series Count: 13
+  - Series Names: ['Soil initial P level D', 'Soil initial P level C', 'Soil initial P level B', 'Soil initial P level A', 'Soil initial P level D 1-25 yrs', 'Soil initial P level D 26-50 yrs', 'Soil initial P level D 51-100 yrs', 'Soil initial P level C 1-25 years', 'Soil initial P level C 26-50 years', 'Soil initial P level C 51-75 years', 'Soil initial P level C 76-100 years', 'Linear (Soil initial P level A)', 'Linear (Soil initial P level B)']
+  - X Data Types: {'numeric': 13}
+  - Total Data Points: 125
+--------------------------------------------------
+
+[21:36:38.431] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 12.9578
+  - Y Min-Max: [0.0888, 13.0466]
+  - X Range: 100.08489865223389
+--------------------------------------------------
+
+[21:36:38.434] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:36:38.438] === MATCHING_RESULTS ===
+13 appariements trouvés
+
+Data:
+  - Total Matches: 13
+  - Match Details: ['Soil initial P level D <-> Soil initial P level D (method=exact_match, score=1.000)', 'Soil initial P level B <-> Soil initial P level B (method=exact_match, score=1.000)', 'Soil initial P level A <-> Soil initial P level A (method=exact_match, score=1.000)', 'Soil initial P level D 1-25 yrs <-> Soil initial P level D 1-25 yrs (method=exact_match, score=1.000)', 'Soil initial P level D 51-100 yrs <-> Soil initial P level D 51-100 yrs (method=exact_match, score=1.000)', 'Soil initial P level C 1-25 years <-> Soil initial P level C 1-25 years (method=exact_match, score=1.000)', 'Soil initial P level C 51-75 years <-> Soil initial P level C 51-75 years (method=exact_match, score=1.000)', 'Soil initial P level C 76-100 years <-> Soil initial P level C 76-100 years (method=exact_match, score=1.000)', 'Linear (Soil initial P level A) <-> Linear (Soil initial P level A) (method=exact_match, score=1.000)', 'Linear (Soil initial P level B) <-> Linear (Soil initial P level B) (method=exact_match, score=1.000)', 'Soil Initial P level C <-> Soil initial P level C (method=fuzzy_match, score=0.950)', 'Soil initial P level D 25-50 yrs <-> Soil initial P level D 26-50 yrs (method=fuzzy_match, score=0.950)', 'Soil initial P level C 25-50 years <-> Soil initial P level C 26-50 years (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[21:36:40.726] === SERIES_COMPARISON ===
+Comparaison Soil initial P level D vs Soil initial P level D avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.120372
+  - MAE Relative: 0.086463
+  - Left Miss (rel): -0.010497
+  - Right Miss (rel): 0.000424
+  - X Cutoff: N/A
+  - GT Points: 93
+  - Extracted Points: 11
+  - Points Ratio: 0.12
+--------------------------------------------------
+
+[21:36:45.152] === SERIES_COMPARISON ===
+Comparaison Soil initial P level B vs Soil initial P level B avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.557669
+  - MAE Relative: 0.043037
+  - Left Miss (rel): -0.011664
+  - Right Miss (rel): -0.000318
+  - X Cutoff: N/A
+  - GT Points: 91
+  - Extracted Points: 11
+  - Points Ratio: 0.12
+--------------------------------------------------
+
+[21:36:47.660] === SERIES_COMPARISON ===
+Comparaison Soil initial P level A vs Soil initial P level A avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.422054
+  - MAE Relative: 0.032571
+  - Left Miss (rel): -0.013042
+  - Right Miss (rel): 0.000848
+  - X Cutoff: N/A
+  - GT Points: 87
+  - Extracted Points: 11
+  - Points Ratio: 0.13
+--------------------------------------------------
+
+[21:36:49.849] === SERIES_COMPARISON ===
+Comparaison Soil initial P level D 1-25 yrs vs Soil initial P level D 1-25 yrs avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.090716
+  - MAE Relative: 0.007001
+  - Left Miss (rel): -0.010921
+  - Right Miss (rel): -0.749867
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 11
+  - Points Ratio: 5.50
+--------------------------------------------------
+
+[21:36:51.538] === SERIES_COMPARISON ===
+Comparaison Soil initial P level D 51-100 yrs vs Soil initial P level D 51-100 yrs avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.888564
+  - MAE Relative: 0.068574
+  - Left Miss (rel): -0.511611
+  - Right Miss (rel): -0.001909
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 11
+  - Points Ratio: 5.50
+--------------------------------------------------
+
+[21:36:53.463] === SERIES_COMPARISON ===
+Comparaison Soil initial P level C 1-25 years vs Soil initial P level C 1-25 years avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.060553
+  - MAE Relative: 0.004673
+  - Left Miss (rel): -0.011664
+  - Right Miss (rel): -0.749443
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 11
+  - Points Ratio: 5.50
+--------------------------------------------------
+
+[21:36:54.278] === SERIES_COMPARISON ===
+Comparaison Soil initial P level C 51-75 years vs Soil initial P level C 51-75 years avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.864078
+  - MAE Relative: 0.066684
+  - Left Miss (rel): -0.511611
+  - Right Miss (rel): -0.251011
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 11
+  - Points Ratio: 5.50
+--------------------------------------------------
+
+[21:36:55.154] === SERIES_COMPARISON ===
+Comparaison Soil initial P level C 76-100 years vs Soil initial P level C 76-100 years avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.438809
+  - MAE Relative: 0.033865
+  - Left Miss (rel): -0.761319
+  - Right Miss (rel): -0.000318
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 11
+  - Points Ratio: 5.50
+--------------------------------------------------
+
+[21:36:56.497] === SERIES_COMPARISON ===
+Comparaison Linear (Soil initial P level A) vs Linear (Soil initial P level A) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.052575
+  - MAE Relative: 0.004057
+  - Left Miss (rel): -0.009543
+  - Right Miss (rel): -0.000848
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:36:58.573] === SERIES_COMPARISON ===
+Comparaison Linear (Soil initial P level B) vs Linear (Soil initial P level B) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.506643
+  - MAE Relative: 0.039100
+  - Left Miss (rel): -0.009013
+  - Right Miss (rel): -0.001378
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:37:00.717] === SERIES_COMPARISON ===
+Comparaison Soil Initial P level C vs Soil initial P level C avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.588245
+  - MAE Relative: 0.045397
+  - Left Miss (rel): -0.010603
+  - Right Miss (rel): -0.000318
+  - X Cutoff: N/A
+  - GT Points: 92
+  - Extracted Points: 11
+  - Points Ratio: 0.12
+--------------------------------------------------
+
+[21:37:02.835] === SERIES_COMPARISON ===
+Comparaison Soil initial P level D 25-50 yrs vs Soil initial P level D 26-50 yrs avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.446088
+  - MAE Relative: 0.034426
+  - Left Miss (rel): -0.259782
+  - Right Miss (rel): -0.501325
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 11
+  - Points Ratio: 5.50
+--------------------------------------------------
+
+[21:37:04.108] === SERIES_COMPARISON ===
+Comparaison Soil initial P level C 25-50 years vs Soil initial P level C 26-50 years avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.353678
+  - MAE Relative: 0.027295
+  - Left Miss (rel): -0.261372
+  - Right Miss (rel): -0.500795
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 11
+  - Points Ratio: 5.50
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:37:04
+Total Duration: 25.92 seconds
+Total Series Processed: 13
+Successful Comparisons: 13
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3138020_ijerph-08-02181f4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3138020_ijerph-08-02181f4
+================================================================================
+Timestamp: 2025-08-07 12:52:38
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3138020___ijerph-08-02181f4
+================================================================================
+
+
+
+[12:52:38.915] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:52:38.917] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:52:38.980] === DATA_LOADING ===
+Chargement des données GT depuis PMC3138020___ijerph-08-02181f4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3138020___ijerph-08-02181f4.json
+  - Series Count: 13
+  - Series Names: ['Soil initial P level D', 'Soil Initial P level C', 'Soil initial P level B', 'Soil initial P level A', 'Soil initial P level D 1-25 yrs', 'Soil initial P level D 25-50 yrs', 'Soil initial P level D 51-100 yrs', 'Soil initial P level C 1-25 years', 'Soil initial P level C 25-50 years', 'Soil initial P level C 51-75 years', 'Soil initial P level C 76-100 years', 'Linear (Soil initial P level A)', 'Linear (Soil initial P level B)']
+  - X Data Types: {'numeric': 13}
+  - Total Data Points: 381
+--------------------------------------------------
+
+[12:52:38.985] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3138020___ijerph-08-02181f4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3138020___ijerph-08-02181f4\PMC3138020___ijerph-08-02181f4.json
+  - Series Count: 13
+  - Series Names: ['Soil initial P level D', 'Soil initial P level C', 'Soil initial P level B', 'Soil initial P level A', 'Soil initial P level D 1-25 yrs', 'Soil initial P level D 26-50 yrs', 'Soil initial P level D 51-100 yrs', 'Soil initial P level C 1-25 years', 'Soil initial P level C 26-50 years', 'Soil initial P level C 51-75 years', 'Soil initial P level C 76-100 years', 'Linear (Soil initial P level A)', 'Linear (Soil initial P level B)']
+  - X Data Types: {'numeric': 13}
+  - Total Data Points: 125
+--------------------------------------------------
+
+[12:52:38.990] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 12.9578
+  - Y Min-Max: [0.0888, 13.0466]
+  - X Range: 100.08489865223389
+--------------------------------------------------
+
+[12:52:38.993] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:52:38.995] === MATCHING_RESULTS ===
+13 appariements trouvés
+
+Data:
+  - Total Matches: 13
+  - Match Details: ['Soil initial P level D <-> Soil initial P level D (method=exact_match, score=1.000)', 'Soil initial P level B <-> Soil initial P level B (method=exact_match, score=1.000)', 'Soil initial P level A <-> Soil initial P level A (method=exact_match, score=1.000)', 'Soil initial P level D 1-25 yrs <-> Soil initial P level D 1-25 yrs (method=exact_match, score=1.000)', 'Soil initial P level D 51-100 yrs <-> Soil initial P level D 51-100 yrs (method=exact_match, score=1.000)', 'Soil initial P level C 1-25 years <-> Soil initial P level C 1-25 years (method=exact_match, score=1.000)', 'Soil initial P level C 51-75 years <-> Soil initial P level C 51-75 years (method=exact_match, score=1.000)', 'Soil initial P level C 76-100 years <-> Soil initial P level C 76-100 years (method=exact_match, score=1.000)', 'Linear (Soil initial P level A) <-> Linear (Soil initial P level A) (method=exact_match, score=1.000)', 'Linear (Soil initial P level B) <-> Linear (Soil initial P level B) (method=exact_match, score=1.000)', 'Soil Initial P level C <-> Soil initial P level C (method=fuzzy_match, score=0.950)', 'Soil initial P level D 25-50 yrs <-> Soil initial P level D 26-50 yrs (method=fuzzy_match, score=0.950)', 'Soil initial P level C 25-50 years <-> Soil initial P level C 26-50 years (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[12:52:40.758] === SERIES_COMPARISON ===
+Comparaison Soil initial P level D vs Soil initial P level D avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.120372
+  - MAE Relative: 0.086463
+  - Left Miss (rel): -0.010497
+  - Right Miss (rel): 0.000424
+  - X Cutoff: N/A
+  - GT Points: 93
+  - Extracted Points: 11
+  - Points Ratio: 0.12
+--------------------------------------------------
+
+[12:52:42.861] === SERIES_COMPARISON ===
+Comparaison Soil initial P level B vs Soil initial P level B avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.557669
+  - MAE Relative: 0.043037
+  - Left Miss (rel): -0.011664
+  - Right Miss (rel): -0.000318
+  - X Cutoff: N/A
+  - GT Points: 91
+  - Extracted Points: 11
+  - Points Ratio: 0.12
+--------------------------------------------------
+
+[12:52:44.699] === SERIES_COMPARISON ===
+Comparaison Soil initial P level A vs Soil initial P level A avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.422054
+  - MAE Relative: 0.032571
+  - Left Miss (rel): -0.013042
+  - Right Miss (rel): 0.000848
+  - X Cutoff: N/A
+  - GT Points: 87
+  - Extracted Points: 11
+  - Points Ratio: 0.13
+--------------------------------------------------
+
+[12:52:45.932] === SERIES_COMPARISON ===
+Comparaison Soil initial P level D 1-25 yrs vs Soil initial P level D 1-25 yrs avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.090716
+  - MAE Relative: 0.007001
+  - Left Miss (rel): -0.010921
+  - Right Miss (rel): -0.749867
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 11
+  - Points Ratio: 5.50
+--------------------------------------------------
+
+[12:52:47.133] === SERIES_COMPARISON ===
+Comparaison Soil initial P level D 51-100 yrs vs Soil initial P level D 51-100 yrs avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.888564
+  - MAE Relative: 0.068574
+  - Left Miss (rel): -0.511611
+  - Right Miss (rel): -0.001909
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 11
+  - Points Ratio: 5.50
+--------------------------------------------------
+
+[12:52:47.902] === SERIES_COMPARISON ===
+Comparaison Soil initial P level C 1-25 years vs Soil initial P level C 1-25 years avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.060553
+  - MAE Relative: 0.004673
+  - Left Miss (rel): -0.011664
+  - Right Miss (rel): -0.749443
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 11
+  - Points Ratio: 5.50
+--------------------------------------------------
+
+[12:52:48.690] === SERIES_COMPARISON ===
+Comparaison Soil initial P level C 51-75 years vs Soil initial P level C 51-75 years avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.864078
+  - MAE Relative: 0.066684
+  - Left Miss (rel): -0.511611
+  - Right Miss (rel): -0.251011
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 11
+  - Points Ratio: 5.50
+--------------------------------------------------
+
+[12:52:49.401] === SERIES_COMPARISON ===
+Comparaison Soil initial P level C 76-100 years vs Soil initial P level C 76-100 years avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.438809
+  - MAE Relative: 0.033865
+  - Left Miss (rel): -0.761319
+  - Right Miss (rel): -0.000318
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 11
+  - Points Ratio: 5.50
+--------------------------------------------------
+
+[12:52:50.284] === SERIES_COMPARISON ===
+Comparaison Linear (Soil initial P level A) vs Linear (Soil initial P level A) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.052575
+  - MAE Relative: 0.004057
+  - Left Miss (rel): -0.009543
+  - Right Miss (rel): -0.000848
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:52:51.774] === SERIES_COMPARISON ===
+Comparaison Linear (Soil initial P level B) vs Linear (Soil initial P level B) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.506643
+  - MAE Relative: 0.039100
+  - Left Miss (rel): -0.009013
+  - Right Miss (rel): -0.001378
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:52:53.449] === SERIES_COMPARISON ===
+Comparaison Soil Initial P level C vs Soil initial P level C avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.588245
+  - MAE Relative: 0.045397
+  - Left Miss (rel): -0.010603
+  - Right Miss (rel): -0.000318
+  - X Cutoff: N/A
+  - GT Points: 92
+  - Extracted Points: 11
+  - Points Ratio: 0.12
+--------------------------------------------------
+
+[12:52:54.532] === SERIES_COMPARISON ===
+Comparaison Soil initial P level D 25-50 yrs vs Soil initial P level D 26-50 yrs avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.446088
+  - MAE Relative: 0.034426
+  - Left Miss (rel): -0.259782
+  - Right Miss (rel): -0.501325
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 11
+  - Points Ratio: 5.50
+--------------------------------------------------
+
+[12:52:55.253] === SERIES_COMPARISON ===
+Comparaison Soil initial P level C 25-50 years vs Soil initial P level C 26-50 years avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.353678
+  - MAE Relative: 0.027295
+  - Left Miss (rel): -0.261372
+  - Right Miss (rel): -0.500795
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 11
+  - Points Ratio: 5.50
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:52:55
+Total Duration: 16.36 seconds
+Total Series Processed: 13
+Successful Comparisons: 13
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3138020_ijerph-08-02181f4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

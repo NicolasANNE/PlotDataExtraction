@@ -1,0 +1,101 @@
+
+================================================================================
+VALIDATION LOG - PMC3717740_ijerph-10-02348-g006
+================================================================================
+Timestamp: 2025-08-07 12:59:12
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3717740___ijerph-10-02348-g006
+================================================================================
+
+
+
+[12:59:12.294] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:59:12.297] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:59:12.353] === DATA_LOADING ===
+Chargement des données GT depuis PMC3717740___ijerph-10-02348-g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3717740___ijerph-10-02348-g006.json
+  - Series Count: 5
+  - Series Names: ['Vegetation', 'Clean air', 'Cleanliness', 'Security', 'Quietness']
+  - X Data Types: {'categorical': 5}
+  - Total Data Points: 25
+--------------------------------------------------
+
+[12:59:12.362] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3717740___ijerph-10-02348-g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3717740___ijerph-10-02348-g006\PMC3717740___ijerph-10-02348-g006.json
+  - Series Count: 5
+  - Series Names: ['Vegetation', 'Clean air', 'Cleanliness', 'Security', 'Quietness']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 25
+--------------------------------------------------
+
+[12:59:12.371] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 42.7558
+  - Y Min-Max: [1.8963, 44.6521]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:59:12.375] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:59:12.387] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['[unnamed data series #0] <-> unnamed data series #0 (method=similarity_match_generic, score=0.387)', '[unnamed data series #1] <-> unnamed data series #1 (method=similarity_match_generic, score=0.541)']
+--------------------------------------------------
+
+[12:59:12.398] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison [unnamed data series #0] vs unnamed data series #0
+==================================================
+
+
+[12:59:12.412] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison [unnamed data series #1] vs unnamed data series #1
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:59:12
+Total Duration: 0.16 seconds
+Total Series Processed: 2
+Successful Comparisons: 0
+Errors: 2
+Success Rate: 0.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3717740_ijerph-10-02348-g006.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

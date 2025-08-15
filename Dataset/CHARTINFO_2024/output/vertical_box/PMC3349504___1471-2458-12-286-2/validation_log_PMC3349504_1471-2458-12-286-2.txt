@@ -1,0 +1,286 @@
+
+================================================================================
+VALIDATION LOG - PMC3349504_1471-2458-12-286-2
+================================================================================
+Timestamp: 2025-08-07 13:17:24
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_box\PMC3349504___1471-2458-12-286-2
+================================================================================
+
+
+
+[13:17:24.701] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:17:24.703] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: boxplot -> vertical_box
+
+Data:
+  - Original Type: boxplot
+  - Enum Type: vertical_box
+  - Final Type: boxplot
+  - Loader Used: BoxPlotDataLoader
+--------------------------------------------------
+
+[13:17:24.792] === DATA_LOADING ===
+Chargement des données GT depuis PMC3349504___1471-2458-12-286-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_box\PMC3349504___1471-2458-12-286-2.json
+  - Series Count: 4
+  - Series Names: ['Maternal mortality rate (per 100,000 live births), 2000', 'Under-5 mortality rate (per 1,000 live births), 2004', 'Infant mortality rate (per 1,000 live births) 2004', 'Neonatal mortality rate (per 1,000 live births), 2000']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[13:17:24.796] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3349504___1471-2458-12-286-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_box\PMC3349504___1471-2458-12-286-2\PMC3349504___1471-2458-12-286-2.json
+  - Series Count: 4
+  - Series Names: ['Maternal mortality rate (per 100,000 live births), 2000', 'Under-5 mortality rate (per 1,000 live births), 2004', 'Infant mortality rate (per 1,000 live births), 2004', 'Neonatal mortality rate (per 1,000 live births), 2000']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[13:17:24.806] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1741.6474
+  - Y Min-Max: [0.8154, 1742.4628]
+  - X Range: nan
+--------------------------------------------------
+
+[13:17:24.831] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:17:24.839] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Maternal mortality rate (per 100,000 live births), 2000 <-> Maternal mortality rate (per 100,000 live births), 2000 (method=exact_match, score=1.000)', 'Under-5 mortality rate (per 1,000 live births), 2004 <-> Under-5 mortality rate (per 1,000 live births), 2004 (method=exact_match, score=1.000)', 'Neonatal mortality rate (per 1,000 live births), 2000 <-> Neonatal mortality rate (per 1,000 live births), 2000 (method=exact_match, score=1.000)', 'Infant mortality rate (per 1,000 live births) 2004 <-> Infant mortality rate (per 1,000 live births), 2004 (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[13:17:26.727] === SERIES_COMPARISON ===
+Comparaison Maternal mortality rate (per 100,000 live births), 2000 vs Maternal mortality rate (per 100,000 live births), 2000 avec BoxPlotComparator
+
+Data:
+  - MAE Absolute: 292.114039
+  - MAE Relative: 0.167723
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:17:29.223] === SERIES_COMPARISON ===
+Comparaison Under-5 mortality rate (per 1,000 live births), 2004 vs Under-5 mortality rate (per 1,000 live births), 2004 avec BoxPlotComparator
+
+Data:
+  - MAE Absolute: 265.945724
+  - MAE Relative: 0.152698
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:17:30.072] === SERIES_COMPARISON ===
+Comparaison Neonatal mortality rate (per 1,000 live births), 2000 vs Neonatal mortality rate (per 1,000 live births), 2000 avec BoxPlotComparator
+
+Data:
+  - MAE Absolute: 194.990975
+  - MAE Relative: 0.111958
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:17:31.289] === SERIES_COMPARISON ===
+Comparaison Infant mortality rate (per 1,000 live births) 2004 vs Infant mortality rate (per 1,000 live births), 2004 avec BoxPlotComparator
+
+Data:
+  - MAE Absolute: 225.879225
+  - MAE Relative: 0.129693
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:17:31
+Total Duration: 6.64 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3349504_1471-2458-12-286-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3349504_1471-2458-12-286-2
+================================================================================
+Timestamp: 2025-08-07 17:09:57
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_box\PMC3349504___1471-2458-12-286-2
+================================================================================
+
+
+
+[17:09:57.764] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:09:57.772] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: boxplot -> vertical_box
+
+Data:
+  - Original Type: boxplot
+  - Enum Type: vertical_box
+  - Final Type: boxplot
+  - Loader Used: BoxPlotDataLoader
+--------------------------------------------------
+
+[17:09:57.825] === DATA_LOADING ===
+Chargement des données GT depuis PMC3349504___1471-2458-12-286-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_box\PMC3349504___1471-2458-12-286-2.json
+  - Series Count: 4
+  - Series Names: ['Maternal mortality rate (per 100,000 live births), 2000', 'Under-5 mortality rate (per 1,000 live births), 2004', 'Infant mortality rate (per 1,000 live births) 2004', 'Neonatal mortality rate (per 1,000 live births), 2000']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[17:09:57.828] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3349504___1471-2458-12-286-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_box\PMC3349504___1471-2458-12-286-2\PMC3349504___1471-2458-12-286-2.json
+  - Series Count: 4
+  - Series Names: ['Maternal mortality rate (per 100,000 live births), 2000', 'Under-5 mortality rate (per 1,000 live births), 2004', 'Infant mortality rate (per 1,000 live births), 2004', 'Neonatal mortality rate (per 1,000 live births), 2000']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[17:09:57.831] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1741.6474
+  - Y Min-Max: [0.8154, 1742.4628]
+  - X Range: nan
+--------------------------------------------------
+
+[17:09:57.834] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:09:57.837] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Maternal mortality rate (per 100,000 live births), 2000 <-> Maternal mortality rate (per 100,000 live births), 2000 (method=exact_match, score=1.000)', 'Under-5 mortality rate (per 1,000 live births), 2004 <-> Under-5 mortality rate (per 1,000 live births), 2004 (method=exact_match, score=1.000)', 'Neonatal mortality rate (per 1,000 live births), 2000 <-> Neonatal mortality rate (per 1,000 live births), 2000 (method=exact_match, score=1.000)', 'Infant mortality rate (per 1,000 live births) 2004 <-> Infant mortality rate (per 1,000 live births), 2004 (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[17:09:59.327] === SERIES_COMPARISON ===
+Comparaison Maternal mortality rate (per 100,000 live births), 2000 vs Maternal mortality rate (per 100,000 live births), 2000 avec BoxPlotComparator
+
+Data:
+  - MAE Absolute: 295.880340
+  - MAE Relative: 0.169885
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:10:00.682] === SERIES_COMPARISON ===
+Comparaison Under-5 mortality rate (per 1,000 live births), 2004 vs Under-5 mortality rate (per 1,000 live births), 2004 avec BoxPlotComparator
+
+Data:
+  - MAE Absolute: 245.945724
+  - MAE Relative: 0.141214
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:10:01.928] === SERIES_COMPARISON ===
+Comparaison Neonatal mortality rate (per 1,000 live births), 2000 vs Neonatal mortality rate (per 1,000 live births), 2000 avec BoxPlotComparator
+
+Data:
+  - MAE Absolute: 199.990975
+  - MAE Relative: 0.114829
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:10:02.970] === SERIES_COMPARISON ===
+Comparaison Infant mortality rate (per 1,000 live births) 2004 vs Infant mortality rate (per 1,000 live births), 2004 avec BoxPlotComparator
+
+Data:
+  - MAE Absolute: 207.545892
+  - MAE Relative: 0.119166
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:10:02
+Total Duration: 5.22 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3349504_1471-2458-12-286-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

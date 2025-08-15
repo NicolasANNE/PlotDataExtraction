@@ -1,0 +1,342 @@
+
+================================================================================
+VALIDATION LOG - PMC3338675_g007
+================================================================================
+Timestamp: 2025-08-06 21:38:50
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3338675___g007
+================================================================================
+
+
+
+[21:38:50.061] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:38:50.085] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:38:50.327] === DATA_LOADING ===
+Chargement des données GT depuis PMC3338675___g007.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3338675___g007.json
+  - Series Count: 6
+  - Series Names: ['China (excluding  \\n  Chaoshan)', 'Japan', 'Korea', 'United States', 'Europe', 'Chaoshan']
+  - X Data Types: {'categorical': 6}
+  - Total Data Points: 42
+--------------------------------------------------
+
+[21:38:51.377] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3338675___g007.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3338675___g007\PMC3338675___g007.json
+  - Series Count: 6
+  - Series Names: ['China (excluding Chaoshan)', 'Japan', 'Korea', 'United States', 'Europe', 'Chaoshan']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 42
+--------------------------------------------------
+
+[21:38:51.458] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 39.0000
+  - Y Min-Max: [0.0000, 39.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[21:38:51.580] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:38:52.606] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['Japan <-> Japan (method=exact_match, score=1.000)', 'Korea <-> Korea (method=exact_match, score=1.000)', 'United States <-> United States (method=exact_match, score=1.000)', 'Europe <-> Europe (method=exact_match, score=1.000)', 'Chaoshan <-> Chaoshan (method=exact_match, score=1.000)', 'China (excluding  \\n  Chaoshan) <-> China (excluding Chaoshan) (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[21:38:53.837] === SERIES_COMPARISON ===
+Comparaison Japan vs Japan avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 6.785075
+  - MAE Relative: 0.173976
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.311429
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:38:55.057] === SERIES_COMPARISON ===
+Comparaison Korea vs Korea avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 11.506512
+  - MAE Relative: 0.295039
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.311429
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:39:04.259] === SERIES_COMPARISON ===
+Comparaison United States vs United States avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 9.941355
+  - MAE Relative: 0.254907
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.311429
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:39:07.459] === SERIES_COMPARISON ===
+Comparaison Europe vs Europe avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 12.177768
+  - MAE Relative: 0.312250
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.311429
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:39:11.975] === SERIES_COMPARISON ===
+Comparaison Chaoshan vs Chaoshan avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 7.196979
+  - MAE Relative: 0.184538
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.311429
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:39:18.425] === SERIES_COMPARISON ===
+Comparaison China (excluding  \n  Chaoshan) vs China (excluding Chaoshan) avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 9.083337
+  - MAE Relative: 0.232906
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.311429
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:39:18
+Total Duration: 28.44 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3338675_g007.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3338675_g007
+================================================================================
+Timestamp: 2025-08-07 12:54:31
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3338675___g007
+================================================================================
+
+
+
+[12:54:31.934] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:54:31.961] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:54:32.108] === DATA_LOADING ===
+Chargement des données GT depuis PMC3338675___g007.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3338675___g007.json
+  - Series Count: 6
+  - Series Names: ['China (excluding  \\n  Chaoshan)', 'Japan', 'Korea', 'United States', 'Europe', 'Chaoshan']
+  - X Data Types: {'categorical': 6}
+  - Total Data Points: 42
+--------------------------------------------------
+
+[12:54:32.112] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3338675___g007.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3338675___g007\PMC3338675___g007.json
+  - Series Count: 6
+  - Series Names: ['China (excluding Chaoshan)', 'Japan', 'Korea', 'United States', 'Europe', 'Chaoshan']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 42
+--------------------------------------------------
+
+[12:54:32.115] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 39.0000
+  - Y Min-Max: [0.0000, 39.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:54:32.118] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:54:32.122] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['Japan <-> Japan (method=exact_match, score=1.000)', 'Korea <-> Korea (method=exact_match, score=1.000)', 'United States <-> United States (method=exact_match, score=1.000)', 'Europe <-> Europe (method=exact_match, score=1.000)', 'Chaoshan <-> Chaoshan (method=exact_match, score=1.000)', 'China (excluding  \\n  Chaoshan) <-> China (excluding Chaoshan) (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[12:54:34.556] === SERIES_COMPARISON ===
+Comparaison Japan vs Japan avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 6.356504
+  - MAE Relative: 0.162987
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.311429
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:54:36.134] === SERIES_COMPARISON ===
+Comparaison Korea vs Korea avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 10.867101
+  - MAE Relative: 0.278644
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.311429
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:54:38.196] === SERIES_COMPARISON ===
+Comparaison United States vs United States avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 10.828403
+  - MAE Relative: 0.277651
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.311429
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:54:40.175] === SERIES_COMPARISON ===
+Comparaison Europe vs Europe avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 12.177768
+  - MAE Relative: 0.312250
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.311429
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:54:41.801] === SERIES_COMPARISON ===
+Comparaison Chaoshan vs Chaoshan avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 7.196979
+  - MAE Relative: 0.184538
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.311429
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:54:43.364] === SERIES_COMPARISON ===
+Comparaison China (excluding  \n  Chaoshan) vs China (excluding Chaoshan) avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 9.083337
+  - MAE Relative: 0.232906
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.311429
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:54:43
+Total Duration: 11.47 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3338675_g007.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,101 @@
+
+================================================================================
+VALIDATION LOG - PMC5455716_materials-08-03012-g007
+================================================================================
+Timestamp: 2025-08-06 20:38:59
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC5455716___materials-08-03012-g007
+================================================================================
+
+
+
+[20:38:59.610] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:38:59.611] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[20:38:59.658] === DATA_LOADING ===
+Chargement des données GT depuis PMC5455716___materials-08-03012-g007.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC5455716___materials-08-03012-g007.json
+  - Series Count: 1
+  - Series Names: ['[unnamed data series #0]']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 119
+--------------------------------------------------
+
+[20:38:59.660] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC5455716___materials-08-03012-g007.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC5455716___materials-08-03012-g007\PMC5455716___materials-08-03012-g007.json
+  - Series Count: 1
+  - Series Names: ['Series 1']
+  - X Data Types: {'numeric': 1}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[20:38:59.663] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.0023
+  - Y Min-Max: [0.0122, 0.0145]
+  - X Range: 78.92179289781754
+--------------------------------------------------
+
+[20:38:59.665] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[20:38:59.669] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['[unnamed data series #0] <-> Series 1 (method=similarity_match_generic, score=0.758)']
+--------------------------------------------------
+
+[20:39:00.228] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs Series 1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000704
+  - MAE Relative: 0.302179
+  - Left Miss (rel): 0.011680
+  - Right Miss (rel): -0.007074
+  - X Cutoff: N/A
+  - GT Points: 119
+  - Extracted Points: 32
+  - Points Ratio: 0.27
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 20:39:00
+Total Duration: 0.62 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC5455716_materials-08-03012-g007.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

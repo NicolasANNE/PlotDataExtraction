@@ -1,0 +1,303 @@
+
+================================================================================
+VALIDATION LOG - PMC2377259_1471-2458-8-135-1
+================================================================================
+Timestamp: 2025-08-07 13:09:35
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC2377259___1471-2458-8-135-1
+================================================================================
+
+
+
+[13:09:35.275] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:09:35.277] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:09:35.350] === DATA_LOADING ===
+Chargement des données GT depuis PMC2377259___1471-2458-8-135-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\horizontal_bar\PMC2377259___1471-2458-8-135-1.json
+  - Series Count: 1
+  - Series Names: ['[unnamed data series #0]']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 16
+--------------------------------------------------
+
+[13:09:35.354] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2377259___1471-2458-8-135-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC2377259___1471-2458-8-135-1\PMC2377259___1471-2458-8-135-1.json
+  - Series Count: 1
+  - Series Names: ['Series 1']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 16
+--------------------------------------------------
+
+[13:09:35.356] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 29.9596
+  - Y Min-Max: [0.0404, 30.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:09:35.358] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:09:35.361] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['[unnamed data series #0] <-> Series 1 (method=position_match_generic, score=0.100)']
+--------------------------------------------------
+
+[13:09:37.836] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs Series 1 avec BarComparator
+
+Data:
+  - MAE Absolute: 14.985945
+  - MAE Relative: 0.500205
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.998750
+  - GT Points: 16
+  - Extracted Points: 16
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:09:37
+Total Duration: 2.57 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2377259_1471-2458-8-135-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2377259_1471-2458-8-135-1
+================================================================================
+Timestamp: 2025-08-07 16:43:17
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC2377259___1471-2458-8-135-1
+================================================================================
+
+
+
+[16:43:17.348] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:43:17.350] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:43:17.466] === DATA_LOADING ===
+Chargement des données GT depuis PMC2377259___1471-2458-8-135-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\horizontal_bar\PMC2377259___1471-2458-8-135-1.json
+  - Series Count: 1
+  - Series Names: ['[unnamed data series #0]']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 16
+--------------------------------------------------
+
+[16:43:17.470] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2377259___1471-2458-8-135-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC2377259___1471-2458-8-135-1\PMC2377259___1471-2458-8-135-1.json
+  - Series Count: 1
+  - Series Names: ['person']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 16
+--------------------------------------------------
+
+[16:43:17.474] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 30.9596
+  - Y Min-Max: [0.0404, 31.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:43:17.478] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:43:17.487] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['[unnamed data series #0] <-> person (method=position_match, score=0.100)']
+--------------------------------------------------
+
+[16:43:19.639] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs person avec BarComparator
+
+Data:
+  - MAE Absolute: 15.048445
+  - MAE Relative: 0.486067
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.998750
+  - GT Points: 16
+  - Extracted Points: 16
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:43:19
+Total Duration: 2.30 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2377259_1471-2458-8-135-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2377259_1471-2458-8-135-1
+================================================================================
+Timestamp: 2025-08-07 17:02:34
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC2377259___1471-2458-8-135-1
+================================================================================
+
+
+
+[17:02:34.258] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:02:34.260] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[17:02:34.291] === DATA_LOADING ===
+Chargement des données GT depuis PMC2377259___1471-2458-8-135-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\horizontal_bar\PMC2377259___1471-2458-8-135-1.json
+  - Series Count: 1
+  - Series Names: ['[unnamed data series #0]']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 16
+--------------------------------------------------
+
+[17:02:34.313] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2377259___1471-2458-8-135-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC2377259___1471-2458-8-135-1\PMC2377259___1471-2458-8-135-1.json
+  - Series Count: 1
+  - Series Names: ['person']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 16
+--------------------------------------------------
+
+[17:02:34.316] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 30.9596
+  - Y Min-Max: [0.0404, 31.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[17:02:34.319] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:02:34.322] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['[unnamed data series #0] <-> person (method=position_match, score=0.100)']
+--------------------------------------------------
+
+[17:02:36.381] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs person avec BarComparator
+
+Data:
+  - MAE Absolute: 15.048445
+  - MAE Relative: 0.486067
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.998750
+  - GT Points: 16
+  - Extracted Points: 16
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:02:36
+Total Duration: 2.14 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2377259_1471-2458-8-135-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

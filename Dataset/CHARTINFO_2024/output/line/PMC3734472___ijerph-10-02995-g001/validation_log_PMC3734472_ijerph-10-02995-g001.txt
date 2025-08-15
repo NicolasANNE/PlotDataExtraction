@@ -1,0 +1,157 @@
+
+================================================================================
+VALIDATION LOG - PMC3734472_ijerph-10-02995-g001
+================================================================================
+Timestamp: 2025-08-07 12:59:21
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3734472___ijerph-10-02995-g001
+================================================================================
+
+
+
+[12:59:21.539] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:59:21.544] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:59:21.674] === DATA_LOADING ===
+Chargement des données GT depuis PMC3734472___ijerph-10-02995-g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3734472___ijerph-10-02995-g001.json
+  - Series Count: 5
+  - Series Names: ['Askes', 'Jamsostek', 'Askeskin', 'Non insured', 'Total']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 18
+--------------------------------------------------
+
+[12:59:21.679] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3734472___ijerph-10-02995-g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3734472___ijerph-10-02995-g001\PMC3734472___ijerph-10-02995-g001.json
+  - Series Count: 5
+  - Series Names: ['Askes', 'Jamsostek', 'Askeskin', 'Non insured', 'Total']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 18
+--------------------------------------------------
+
+[12:59:21.684] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 462873.4100
+  - Y Min-Max: [86271.0900, 549144.5000]
+  - X Range: 14.0
+--------------------------------------------------
+
+[12:59:21.688] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:59:21.694] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['Askes <-> Askes (method=exact_match, score=1.000)', 'Jamsostek <-> Jamsostek (method=exact_match, score=1.000)', 'Askeskin <-> Askeskin (method=exact_match, score=1.000)', 'Non insured <-> Non insured (method=exact_match, score=1.000)', 'Total <-> Total (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:59:23.473] === SERIES_COMPARISON ===
+Comparaison Askes vs Askes avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2544.082689
+  - MAE Relative: 0.005496
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:59:24.991] === SERIES_COMPARISON ===
+Comparaison Jamsostek vs Jamsostek avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1362.405252
+  - MAE Relative: 0.002943
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:59:26.420] === SERIES_COMPARISON ===
+Comparaison Askeskin vs Askeskin avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2212.778561
+  - MAE Relative: 0.004781
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 2
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:59:28.131] === SERIES_COMPARISON ===
+Comparaison Non insured vs Non insured avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2394.224744
+  - MAE Relative: 0.005173
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:59:29.559] === SERIES_COMPARISON ===
+Comparaison Total vs Total avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1869.134032
+  - MAE Relative: 0.004038
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:59:29
+Total Duration: 8.03 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3734472_ijerph-10-02995-g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

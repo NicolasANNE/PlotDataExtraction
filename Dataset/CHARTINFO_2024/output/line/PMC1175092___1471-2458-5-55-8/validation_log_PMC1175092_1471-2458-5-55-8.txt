@@ -1,0 +1,1019 @@
+
+================================================================================
+VALIDATION LOG - PMC1175092_1471-2458-5-55-8
+================================================================================
+Timestamp: 2025-08-06 20:15:11
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-8
+================================================================================
+
+
+
+[20:15:11.978] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:12.021] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:12.030] === DATA_LOADING ===
+Chargement des données GT depuis PMC1175092___1471-2458-5-55-8.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1175092___1471-2458-5-55-8.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:12.034] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1175092___1471-2458-5-55-8.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-8\PMC1175092___1471-2458-5-55-8.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:12.061] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1175092_1471-2458-5-55-8
+================================================================================
+Timestamp: 2025-08-06 21:06:11
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-8
+================================================================================
+
+
+
+[21:06:11.766] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:06:11.779] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:06:11.841] === DATA_LOADING ===
+Chargement des données GT depuis PMC1175092___1471-2458-5-55-8.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1175092___1471-2458-5-55-8.json
+  - Series Count: 4
+  - Series Names: ['mild disability of woman', 'mild disability of man', 'severe disability of woman', 'severe disability of man']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[21:06:11.844] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1175092___1471-2458-5-55-8.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-8\PMC1175092___1471-2458-5-55-8.json
+  - Series Count: 4
+  - Series Names: ['mild disability of woman', 'mild disability of man', 'severe disability of woman', 'severe disability of man']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[21:06:11.846] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.1330
+  - Y Min-Max: [0.0080, 0.1410]
+  - X Range: 5.06691648822266
+--------------------------------------------------
+
+[21:06:11.872] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:06:11.908] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['mild disability of woman <-> mild disability of woman (method=exact_match, score=1.000)', 'mild disability of man <-> mild disability of man (method=exact_match, score=1.000)', 'severe disability of woman <-> severe disability of woman (method=exact_match, score=1.000)', 'severe disability of man <-> severe disability of man (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:06:25.376] === SERIES_COMPARISON ===
+Comparaison mild disability of woman vs mild disability of woman avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001840
+  - MAE Relative: 0.013832
+  - Left Miss (rel): -0.001585
+  - Right Miss (rel): -0.004754
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:06:31.151] === SERIES_COMPARISON ===
+Comparaison mild disability of man vs mild disability of man avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001556
+  - MAE Relative: 0.011702
+  - Left Miss (rel): 0.002113
+  - Right Miss (rel): 0.006339
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:06:48.508] === SERIES_COMPARISON ===
+Comparaison severe disability of woman vs severe disability of woman avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001788
+  - MAE Relative: 0.013447
+  - Left Miss (rel): -0.002641
+  - Right Miss (rel): 0.009509
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+================================================================================
+VALIDATION LOG - PMC1175092_1471-2458-5-55-8
+================================================================================
+Timestamp: 2025-08-06 21:30:31
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-8
+================================================================================
+
+
+
+[21:30:31.575] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:30:31.578] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:30:31.610] === DATA_LOADING ===
+Chargement des données GT depuis PMC1175092___1471-2458-5-55-8.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1175092___1471-2458-5-55-8.json
+  - Series Count: 4
+  - Series Names: ['mild disability of woman', 'mild disability of man', 'severe disability of woman', 'severe disability of man']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[21:30:31.622] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1175092___1471-2458-5-55-8.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-8\PMC1175092___1471-2458-5-55-8.json
+  - Series Count: 4
+  - Series Names: ['mild disability of woman', 'mild disability of man', 'severe disability of woman', 'severe disability of man']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[21:30:31.626] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.1330
+  - Y Min-Max: [0.0080, 0.1410]
+  - X Range: 5.06691648822266
+--------------------------------------------------
+
+[21:30:31.628] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:30:31.632] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['mild disability of woman <-> mild disability of woman (method=exact_match, score=1.000)', 'mild disability of man <-> mild disability of man (method=exact_match, score=1.000)', 'severe disability of woman <-> severe disability of woman (method=exact_match, score=1.000)', 'severe disability of man <-> severe disability of man (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:30:32.623] === SERIES_COMPARISON ===
+Comparaison mild disability of woman vs mild disability of woman avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001840
+  - MAE Relative: 0.013832
+  - Left Miss (rel): -0.001585
+  - Right Miss (rel): -0.004754
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:30:33.671] === SERIES_COMPARISON ===
+Comparaison mild disability of man vs mild disability of man avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001556
+  - MAE Relative: 0.011702
+  - Left Miss (rel): 0.002113
+  - Right Miss (rel): 0.006339
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:30:34.812] === SERIES_COMPARISON ===
+Comparaison severe disability of woman vs severe disability of woman avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001788
+  - MAE Relative: 0.013447
+  - Left Miss (rel): -0.002641
+  - Right Miss (rel): 0.009509
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:30:35.816] === SERIES_COMPARISON ===
+Comparaison severe disability of man vs severe disability of man avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.003591
+  - MAE Relative: 0.027001
+  - Left Miss (rel): 0.003698
+  - Right Miss (rel): 0.001585
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:30:35
+Total Duration: 4.26 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1175092_1471-2458-5-55-8.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1175092_1471-2458-5-55-8
+================================================================================
+Timestamp: 2025-08-07 12:46:24
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-8
+================================================================================
+
+
+
+[12:46:24.998] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:46:25.001] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:46:25.125] === DATA_LOADING ===
+Chargement des données GT depuis PMC1175092___1471-2458-5-55-8.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1175092___1471-2458-5-55-8.json
+  - Series Count: 4
+  - Series Names: ['mild disability of woman', 'mild disability of man', 'severe disability of woman', 'severe disability of man']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[12:46:25.130] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1175092___1471-2458-5-55-8.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-8\PMC1175092___1471-2458-5-55-8.json
+  - Series Count: 4
+  - Series Names: ['mild disability of woman', 'mild disability of man', 'severe disability of woman', 'severe disability of man']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[12:46:25.136] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.1330
+  - Y Min-Max: [0.0080, 0.1410]
+  - X Range: 5.06691648822266
+--------------------------------------------------
+
+[12:46:25.154] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:46:25.157] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['mild disability of woman <-> mild disability of woman (method=exact_match, score=1.000)', 'mild disability of man <-> mild disability of man (method=exact_match, score=1.000)', 'severe disability of woman <-> severe disability of woman (method=exact_match, score=1.000)', 'severe disability of man <-> severe disability of man (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:46:26.012] === SERIES_COMPARISON ===
+Comparaison mild disability of woman vs mild disability of woman avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001840
+  - MAE Relative: 0.013832
+  - Left Miss (rel): -0.001585
+  - Right Miss (rel): -0.004754
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:46:26.869] === SERIES_COMPARISON ===
+Comparaison mild disability of man vs mild disability of man avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001556
+  - MAE Relative: 0.011702
+  - Left Miss (rel): 0.002113
+  - Right Miss (rel): 0.006339
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:46:27.732] === SERIES_COMPARISON ===
+Comparaison severe disability of woman vs severe disability of woman avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001788
+  - MAE Relative: 0.013447
+  - Left Miss (rel): -0.002641
+  - Right Miss (rel): 0.009509
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:46:28.796] === SERIES_COMPARISON ===
+Comparaison severe disability of man vs severe disability of man avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.003591
+  - MAE Relative: 0.027001
+  - Left Miss (rel): 0.003698
+  - Right Miss (rel): 0.001585
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:46:28
+Total Duration: 3.86 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1175092_1471-2458-5-55-8.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1175092_1471-2458-5-55-8
+================================================================================
+Timestamp: 2025-08-07 13:03:25
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-8
+================================================================================
+
+
+
+[13:03:25.992] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:03:25.995] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:03:26.071] === DATA_LOADING ===
+Chargement des données GT depuis PMC1175092___1471-2458-5-55-8.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1175092___1471-2458-5-55-8.json
+  - Series Count: 4
+  - Series Names: ['mild disability of woman', 'mild disability of man', 'severe disability of woman', 'severe disability of man']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[13:03:26.075] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1175092___1471-2458-5-55-8.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-8\PMC1175092___1471-2458-5-55-8.json
+  - Series Count: 4
+  - Series Names: ['mild disability of woman', 'mild disability of man', 'severe disability of woman', 'severe disability of man']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[13:03:26.091] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.1330
+  - Y Min-Max: [0.0080, 0.1410]
+  - X Range: 5.06691648822266
+--------------------------------------------------
+
+[13:03:26.118] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:03:26.121] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['mild disability of woman <-> mild disability of woman (method=exact_match, score=1.000)', 'mild disability of man <-> mild disability of man (method=exact_match, score=1.000)', 'severe disability of woman <-> severe disability of woman (method=exact_match, score=1.000)', 'severe disability of man <-> severe disability of man (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:03:26.846] === SERIES_COMPARISON ===
+Comparaison mild disability of woman vs mild disability of woman avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001840
+  - MAE Relative: 0.013832
+  - Left Miss (rel): -0.001585
+  - Right Miss (rel): -0.004754
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:03:27.516] === SERIES_COMPARISON ===
+Comparaison mild disability of man vs mild disability of man avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001556
+  - MAE Relative: 0.011702
+  - Left Miss (rel): 0.002113
+  - Right Miss (rel): 0.006339
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:03:28.145] === SERIES_COMPARISON ===
+Comparaison severe disability of woman vs severe disability of woman avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001788
+  - MAE Relative: 0.013447
+  - Left Miss (rel): -0.002641
+  - Right Miss (rel): 0.009509
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:03:29.048] === SERIES_COMPARISON ===
+Comparaison severe disability of man vs severe disability of man avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.003591
+  - MAE Relative: 0.027001
+  - Left Miss (rel): 0.003698
+  - Right Miss (rel): 0.001585
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:03:29
+Total Duration: 3.14 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1175092_1471-2458-5-55-8.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1175092_1471-2458-5-55-8
+================================================================================
+Timestamp: 2025-08-07 16:37:00
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-8
+================================================================================
+
+
+
+[16:37:00.973] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:37:00.975] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:37:01.014] === DATA_LOADING ===
+Chargement des données GT depuis PMC1175092___1471-2458-5-55-8.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1175092___1471-2458-5-55-8.json
+  - Series Count: 4
+  - Series Names: ['mild disability of woman', 'mild disability of man', 'severe disability of woman', 'severe disability of man']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[16:37:01.018] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1175092___1471-2458-5-55-8.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-8\PMC1175092___1471-2458-5-55-8.json
+  - Series Count: 4
+  - Series Names: ['mild disability of woman', 'mild disability of man', 'severe disability of woman', 'severe disability of man']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[16:37:01.021] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.1330
+  - Y Min-Max: [0.0080, 0.1410]
+  - X Range: 5.06691648822266
+--------------------------------------------------
+
+[16:37:01.023] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:37:01.026] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['mild disability of woman <-> mild disability of woman (method=exact_match, score=1.000)', 'mild disability of man <-> mild disability of man (method=exact_match, score=1.000)', 'severe disability of woman <-> severe disability of woman (method=exact_match, score=1.000)', 'severe disability of man <-> severe disability of man (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:37:01.777] === SERIES_COMPARISON ===
+Comparaison mild disability of woman vs mild disability of woman avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001840
+  - MAE Relative: 0.013832
+  - Left Miss (rel): -0.001585
+  - Right Miss (rel): -0.004754
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:37:02.560] === SERIES_COMPARISON ===
+Comparaison mild disability of man vs mild disability of man avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001441
+  - MAE Relative: 0.010836
+  - Left Miss (rel): 0.002113
+  - Right Miss (rel): 0.006339
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:37:03.398] === SERIES_COMPARISON ===
+Comparaison severe disability of woman vs severe disability of woman avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001786
+  - MAE Relative: 0.013427
+  - Left Miss (rel): -0.002641
+  - Right Miss (rel): 0.009509
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:37:04.518] === SERIES_COMPARISON ===
+Comparaison severe disability of man vs severe disability of man avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.003591
+  - MAE Relative: 0.027001
+  - Left Miss (rel): 0.003698
+  - Right Miss (rel): 0.001585
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:37:04
+Total Duration: 3.57 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1175092_1471-2458-5-55-8.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1175092_1471-2458-5-55-8
+================================================================================
+Timestamp: 2025-08-07 16:56:14
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-8
+================================================================================
+
+
+
+[16:56:14.494] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:56:14.495] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:56:14.538] === DATA_LOADING ===
+Chargement des données GT depuis PMC1175092___1471-2458-5-55-8.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1175092___1471-2458-5-55-8.json
+  - Series Count: 4
+  - Series Names: ['mild disability of woman', 'mild disability of man', 'severe disability of woman', 'severe disability of man']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[16:56:14.566] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1175092___1471-2458-5-55-8.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-8\PMC1175092___1471-2458-5-55-8.json
+  - Series Count: 4
+  - Series Names: ['mild disability of woman', 'mild disability of man', 'severe disability of woman', 'severe disability of man']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[16:56:14.571] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.1330
+  - Y Min-Max: [0.0080, 0.1410]
+  - X Range: 5.06691648822266
+--------------------------------------------------
+
+[16:56:14.573] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:56:14.574] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['mild disability of woman <-> mild disability of woman (method=exact_match, score=1.000)', 'mild disability of man <-> mild disability of man (method=exact_match, score=1.000)', 'severe disability of woman <-> severe disability of woman (method=exact_match, score=1.000)', 'severe disability of man <-> severe disability of man (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:56:15.243] === SERIES_COMPARISON ===
+Comparaison mild disability of woman vs mild disability of woman avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001840
+  - MAE Relative: 0.013832
+  - Left Miss (rel): -0.001585
+  - Right Miss (rel): -0.004754
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:56:15.964] === SERIES_COMPARISON ===
+Comparaison mild disability of man vs mild disability of man avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001441
+  - MAE Relative: 0.010836
+  - Left Miss (rel): 0.002113
+  - Right Miss (rel): 0.006339
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:56:16.771] === SERIES_COMPARISON ===
+Comparaison severe disability of woman vs severe disability of woman avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001786
+  - MAE Relative: 0.013427
+  - Left Miss (rel): -0.002641
+  - Right Miss (rel): 0.009509
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:56:17.763] === SERIES_COMPARISON ===
+Comparaison severe disability of man vs severe disability of man avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.003591
+  - MAE Relative: 0.027001
+  - Left Miss (rel): 0.003698
+  - Right Miss (rel): 0.001585
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:56:17
+Total Duration: 3.29 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1175092_1471-2458-5-55-8.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1175092_1471-2458-5-55-8
+================================================================================
+Timestamp: 2025-08-11 13:44:50
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-8
+================================================================================
+
+
+
+[13:44:50.760] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:44:50.762] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:44:50.843] === DATA_LOADING ===
+Chargement des données GT depuis PMC1175092___1471-2458-5-55-8.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1175092___1471-2458-5-55-8.json
+  - Series Count: 4
+  - Series Names: ['mild disability of woman', 'mild disability of man', 'severe disability of woman', 'severe disability of man']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[13:44:50.847] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1175092___1471-2458-5-55-8.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1175092___1471-2458-5-55-8\PMC1175092___1471-2458-5-55-8.json
+  - Series Count: 4
+  - Series Names: ['mild disability of woman', 'mild disability of man', 'severe disability of woman', 'severe disability of man']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[13:44:50.851] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.1327
+  - Y Min-Max: [0.0080, 0.1407]
+  - X Range: 5.06691648822266
+--------------------------------------------------
+
+[13:44:50.854] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:44:50.857] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['mild disability of woman <-> mild disability of woman (method=exact_match, score=1.000)', 'mild disability of man <-> mild disability of man (method=exact_match, score=1.000)', 'severe disability of woman <-> severe disability of woman (method=exact_match, score=1.000)', 'severe disability of man <-> severe disability of man (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:44:51.950] === SERIES_COMPARISON ===
+Comparaison mild disability of woman vs mild disability of woman avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.002417
+  - MAE Relative: 0.018211
+  - Left Miss (rel): -0.001585
+  - Right Miss (rel): -0.004754
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:44:53.074] === SERIES_COMPARISON ===
+Comparaison mild disability of man vs mild disability of man avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001556
+  - MAE Relative: 0.011726
+  - Left Miss (rel): 0.002113
+  - Right Miss (rel): 0.006339
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:44:55.933] === SERIES_COMPARISON ===
+Comparaison severe disability of woman vs severe disability of woman avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001788
+  - MAE Relative: 0.013474
+  - Left Miss (rel): -0.002641
+  - Right Miss (rel): 0.009509
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:44:57.253] === SERIES_COMPARISON ===
+Comparaison severe disability of man vs severe disability of man avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.004384
+  - MAE Relative: 0.033033
+  - Left Miss (rel): 0.003698
+  - Right Miss (rel): 0.001585
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-11 13:44:57
+Total Duration: 6.51 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1175092_1471-2458-5-55-8.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

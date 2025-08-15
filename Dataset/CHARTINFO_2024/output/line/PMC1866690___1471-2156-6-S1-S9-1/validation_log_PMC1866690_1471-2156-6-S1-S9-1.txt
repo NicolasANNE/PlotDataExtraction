@@ -1,0 +1,628 @@
+
+================================================================================
+VALIDATION LOG - PMC1866690_1471-2156-6-S1-S9-1
+================================================================================
+Timestamp: 2025-08-06 20:15:38
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866690___1471-2156-6-S1-S9-1
+================================================================================
+
+
+
+[20:15:38.104] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:38.195] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:38.207] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866690___1471-2156-6-S1-S9-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866690___1471-2156-6-S1-S9-1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:38.211] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866690___1471-2156-6-S1-S9-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866690___1471-2156-6-S1-S9-1\PMC1866690___1471-2156-6-S1-S9-1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:38.214] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866690_1471-2156-6-S1-S9-1
+================================================================================
+Timestamp: 2025-08-06 21:31:40
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866690___1471-2156-6-S1-S9-1
+================================================================================
+
+
+
+[21:31:40.836] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:31:40.838] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:31:40.897] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866690___1471-2156-6-S1-S9-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866690___1471-2156-6-S1-S9-1.json
+  - Series Count: 2
+  - Series Names: ['NPL', 'genotype-PDT']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 287
+--------------------------------------------------
+
+[21:31:40.900] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866690___1471-2156-6-S1-S9-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866690___1471-2156-6-S1-S9-1\PMC1866690___1471-2156-6-S1-S9-1.json
+  - Series Count: 2
+  - Series Names: ['NPL', 'genotype-PDT']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[21:31:40.903] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 43.0170
+  - Y Min-Max: [-0.0170, 43.0000]
+  - X Range: 80.94986807387863
+--------------------------------------------------
+
+[21:31:40.906] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:31:40.908] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['NPL <-> NPL (method=exact_match, score=1.000)', 'genotype-PDT <-> genotype-PDT (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:31:41.708] === SERIES_COMPARISON ===
+Comparaison NPL vs NPL avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.916119
+  - MAE Relative: 0.044543
+  - Left Miss (rel): -0.001304
+  - Right Miss (rel): 0.011734
+  - X Cutoff: N/A
+  - GT Points: 91
+  - Extracted Points: 14
+  - Points Ratio: 0.15
+--------------------------------------------------
+
+[21:31:42.889] === SERIES_COMPARISON ===
+Comparaison genotype-PDT vs genotype-PDT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.142032
+  - MAE Relative: 0.049795
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.006519
+  - X Cutoff: N/A
+  - GT Points: 196
+  - Extracted Points: 18
+  - Points Ratio: 0.09
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:31:42
+Total Duration: 2.07 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866690_1471-2156-6-S1-S9-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866690_1471-2156-6-S1-S9-1
+================================================================================
+Timestamp: 2025-08-07 12:47:41
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866690___1471-2156-6-S1-S9-1
+================================================================================
+
+
+
+[12:47:41.147] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:47:41.150] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:47:41.223] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866690___1471-2156-6-S1-S9-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866690___1471-2156-6-S1-S9-1.json
+  - Series Count: 2
+  - Series Names: ['NPL', 'genotype-PDT']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 287
+--------------------------------------------------
+
+[12:47:41.227] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866690___1471-2156-6-S1-S9-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866690___1471-2156-6-S1-S9-1\PMC1866690___1471-2156-6-S1-S9-1.json
+  - Series Count: 2
+  - Series Names: ['NPL', 'genotype-PDT']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[12:47:41.230] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 43.0170
+  - Y Min-Max: [-0.0170, 43.0000]
+  - X Range: 80.94986807387863
+--------------------------------------------------
+
+[12:47:41.233] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:47:41.235] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['NPL <-> NPL (method=exact_match, score=1.000)', 'genotype-PDT <-> genotype-PDT (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:47:42.495] === SERIES_COMPARISON ===
+Comparaison NPL vs NPL avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.916119
+  - MAE Relative: 0.044543
+  - Left Miss (rel): -0.001304
+  - Right Miss (rel): 0.011734
+  - X Cutoff: N/A
+  - GT Points: 91
+  - Extracted Points: 14
+  - Points Ratio: 0.15
+--------------------------------------------------
+
+[12:47:43.857] === SERIES_COMPARISON ===
+Comparaison genotype-PDT vs genotype-PDT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.142032
+  - MAE Relative: 0.049795
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.006519
+  - X Cutoff: N/A
+  - GT Points: 196
+  - Extracted Points: 18
+  - Points Ratio: 0.09
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:47:43
+Total Duration: 2.72 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866690_1471-2156-6-S1-S9-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866690_1471-2156-6-S1-S9-1
+================================================================================
+Timestamp: 2025-08-07 13:04:41
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866690___1471-2156-6-S1-S9-1
+================================================================================
+
+
+
+[13:04:41.351] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:04:41.354] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:04:41.413] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866690___1471-2156-6-S1-S9-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866690___1471-2156-6-S1-S9-1.json
+  - Series Count: 2
+  - Series Names: ['NPL', 'genotype-PDT']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 287
+--------------------------------------------------
+
+[13:04:41.416] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866690___1471-2156-6-S1-S9-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866690___1471-2156-6-S1-S9-1\PMC1866690___1471-2156-6-S1-S9-1.json
+  - Series Count: 2
+  - Series Names: ['NPL', 'genotype-PDT']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 34
+--------------------------------------------------
+
+[13:04:41.419] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 43.0170
+  - Y Min-Max: [-0.0170, 43.0000]
+  - X Range: 80.94986807387863
+--------------------------------------------------
+
+[13:04:41.421] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:04:41.422] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['NPL <-> NPL (method=exact_match, score=1.000)', 'genotype-PDT <-> genotype-PDT (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:04:42.075] === SERIES_COMPARISON ===
+Comparaison NPL vs NPL avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.314423
+  - MAE Relative: 0.053803
+  - Left Miss (rel): -0.001304
+  - Right Miss (rel): 0.011734
+  - X Cutoff: N/A
+  - GT Points: 91
+  - Extracted Points: 17
+  - Points Ratio: 0.19
+--------------------------------------------------
+
+[13:04:43.032] === SERIES_COMPARISON ===
+Comparaison genotype-PDT vs genotype-PDT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.170295
+  - MAE Relative: 0.050452
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.006519
+  - X Cutoff: N/A
+  - GT Points: 196
+  - Extracted Points: 17
+  - Points Ratio: 0.09
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:04:43
+Total Duration: 1.69 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866690_1471-2156-6-S1-S9-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866690_1471-2156-6-S1-S9-1
+================================================================================
+Timestamp: 2025-08-07 16:38:16
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866690___1471-2156-6-S1-S9-1
+================================================================================
+
+
+
+[16:38:16.667] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:38:16.669] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:38:16.708] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866690___1471-2156-6-S1-S9-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866690___1471-2156-6-S1-S9-1.json
+  - Series Count: 2
+  - Series Names: ['NPL', 'genotype-PDT']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 287
+--------------------------------------------------
+
+[16:38:16.740] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866690___1471-2156-6-S1-S9-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866690___1471-2156-6-S1-S9-1\PMC1866690___1471-2156-6-S1-S9-1.json
+  - Series Count: 2
+  - Series Names: ['NPL', 'genotype-PDT']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 34
+--------------------------------------------------
+
+[16:38:16.748] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 43.0170
+  - Y Min-Max: [-0.0170, 43.0000]
+  - X Range: 80.94986807387863
+--------------------------------------------------
+
+[16:38:16.751] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:38:16.757] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['NPL <-> NPL (method=exact_match, score=1.000)', 'genotype-PDT <-> genotype-PDT (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:38:17.524] === SERIES_COMPARISON ===
+Comparaison NPL vs NPL avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.376947
+  - MAE Relative: 0.055256
+  - Left Miss (rel): -0.001304
+  - Right Miss (rel): 0.011734
+  - X Cutoff: N/A
+  - GT Points: 91
+  - Extracted Points: 17
+  - Points Ratio: 0.19
+--------------------------------------------------
+
+[16:38:18.181] === SERIES_COMPARISON ===
+Comparaison genotype-PDT vs genotype-PDT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.157981
+  - MAE Relative: 0.050166
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.006519
+  - X Cutoff: N/A
+  - GT Points: 196
+  - Extracted Points: 17
+  - Points Ratio: 0.09
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:38:18
+Total Duration: 1.52 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866690_1471-2156-6-S1-S9-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866690_1471-2156-6-S1-S9-1
+================================================================================
+Timestamp: 2025-08-07 16:57:29
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866690___1471-2156-6-S1-S9-1
+================================================================================
+
+
+
+[16:57:29.781] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:57:29.783] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:57:29.812] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866690___1471-2156-6-S1-S9-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866690___1471-2156-6-S1-S9-1.json
+  - Series Count: 2
+  - Series Names: ['NPL', 'genotype-PDT']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 287
+--------------------------------------------------
+
+[16:57:29.826] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866690___1471-2156-6-S1-S9-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866690___1471-2156-6-S1-S9-1\PMC1866690___1471-2156-6-S1-S9-1.json
+  - Series Count: 2
+  - Series Names: ['NPL', 'genotype-PDT']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 34
+--------------------------------------------------
+
+[16:57:29.829] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 43.0170
+  - Y Min-Max: [-0.0170, 43.0000]
+  - X Range: 80.94986807387863
+--------------------------------------------------
+
+[16:57:29.831] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:57:29.834] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['NPL <-> NPL (method=exact_match, score=1.000)', 'genotype-PDT <-> genotype-PDT (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:57:30.593] === SERIES_COMPARISON ===
+Comparaison NPL vs NPL avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.376947
+  - MAE Relative: 0.055256
+  - Left Miss (rel): -0.001304
+  - Right Miss (rel): 0.011734
+  - X Cutoff: N/A
+  - GT Points: 91
+  - Extracted Points: 17
+  - Points Ratio: 0.19
+--------------------------------------------------
+
+[16:57:31.351] === SERIES_COMPARISON ===
+Comparaison genotype-PDT vs genotype-PDT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.157981
+  - MAE Relative: 0.050166
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.006519
+  - X Cutoff: N/A
+  - GT Points: 196
+  - Extracted Points: 17
+  - Points Ratio: 0.09
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:57:31
+Total Duration: 1.58 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866690_1471-2156-6-S1-S9-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

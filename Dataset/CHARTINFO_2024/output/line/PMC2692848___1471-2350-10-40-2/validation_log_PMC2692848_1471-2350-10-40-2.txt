@@ -1,0 +1,311 @@
+
+================================================================================
+VALIDATION LOG - PMC2692848_1471-2350-10-40-2
+================================================================================
+Timestamp: 2025-08-06 20:16:30
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2692848___1471-2350-10-40-2
+================================================================================
+
+
+
+[20:16:30.186] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:30.218] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:30.238] === DATA_LOADING ===
+Chargement des données GT depuis PMC2692848___1471-2350-10-40-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2692848___1471-2350-10-40-2.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:30.253] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2692848___1471-2350-10-40-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2692848___1471-2350-10-40-2\PMC2692848___1471-2350-10-40-2.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:30.255] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2692848_1471-2350-10-40-2
+================================================================================
+Timestamp: 2025-08-06 21:33:53
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2692848___1471-2350-10-40-2
+================================================================================
+
+
+
+[21:33:53.727] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:33:53.730] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:33:53.806] === DATA_LOADING ===
+Chargement des données GT depuis PMC2692848___1471-2350-10-40-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2692848___1471-2350-10-40-2.json
+  - Series Count: 3
+  - Series Names: ['LV Wall Thickness Factor with BMI', 'LV Wall Thickness Factor', 'BMI']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 225
+--------------------------------------------------
+
+[21:33:53.810] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2692848___1471-2350-10-40-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2692848___1471-2350-10-40-2\PMC2692848___1471-2350-10-40-2.json
+  - Series Count: 3
+  - Series Names: ['LV Wall Thickness Factor with BMI', 'LV Wall Thickness Factor', 'BMI']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 42
+--------------------------------------------------
+
+[21:33:53.813] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 3.4358
+  - Y Min-Max: [-0.0076, 3.4282]
+  - X Range: 81.02534497324699
+--------------------------------------------------
+
+[21:33:53.816] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:33:53.818] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['LV Wall Thickness Factor with BMI <-> LV Wall Thickness Factor with BMI (method=exact_match, score=1.000)', 'LV Wall Thickness Factor <-> LV Wall Thickness Factor (method=exact_match, score=1.000)', 'BMI <-> BMI (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:33:55.153] === SERIES_COMPARISON ===
+Comparaison LV Wall Thickness Factor with BMI vs LV Wall Thickness Factor with BMI avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.155927
+  - MAE Relative: 0.045383
+  - Left Miss (rel): -0.010062
+  - Right Miss (rel): 0.011330
+  - X Cutoff: N/A
+  - GT Points: 80
+  - Extracted Points: 14
+  - Points Ratio: 0.17
+--------------------------------------------------
+
+[21:33:56.426] === SERIES_COMPARISON ===
+Comparaison LV Wall Thickness Factor vs LV Wall Thickness Factor avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.067328
+  - MAE Relative: 0.019596
+  - Left Miss (rel): -0.011704
+  - Right Miss (rel): 0.009141
+  - X Cutoff: N/A
+  - GT Points: 82
+  - Extracted Points: 14
+  - Points Ratio: 0.17
+--------------------------------------------------
+
+[21:33:57.424] === SERIES_COMPARISON ===
+Comparaison BMI vs BMI avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.084976
+  - MAE Relative: 0.024733
+  - Left Miss (rel): 0.001324
+  - Right Miss (rel): -0.000931
+  - X Cutoff: N/A
+  - GT Points: 63
+  - Extracted Points: 14
+  - Points Ratio: 0.22
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:33:57
+Total Duration: 3.72 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2692848_1471-2350-10-40-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2692848_1471-2350-10-40-2
+================================================================================
+Timestamp: 2025-08-07 12:50:03
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2692848___1471-2350-10-40-2
+================================================================================
+
+
+
+[12:50:03.947] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:50:03.949] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:50:03.996] === DATA_LOADING ===
+Chargement des données GT depuis PMC2692848___1471-2350-10-40-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2692848___1471-2350-10-40-2.json
+  - Series Count: 3
+  - Series Names: ['LV Wall Thickness Factor with BMI', 'LV Wall Thickness Factor', 'BMI']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 225
+--------------------------------------------------
+
+[12:50:03.999] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2692848___1471-2350-10-40-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2692848___1471-2350-10-40-2\PMC2692848___1471-2350-10-40-2.json
+  - Series Count: 3
+  - Series Names: ['LV Wall Thickness Factor with BMI', 'LV Wall Thickness Factor', 'BMI']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 42
+--------------------------------------------------
+
+[12:50:04.004] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 3.4358
+  - Y Min-Max: [-0.0076, 3.4282]
+  - X Range: 81.02534497324699
+--------------------------------------------------
+
+[12:50:04.007] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:50:04.010] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['LV Wall Thickness Factor with BMI <-> LV Wall Thickness Factor with BMI (method=exact_match, score=1.000)', 'LV Wall Thickness Factor <-> LV Wall Thickness Factor (method=exact_match, score=1.000)', 'BMI <-> BMI (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:50:05.122] === SERIES_COMPARISON ===
+Comparaison LV Wall Thickness Factor with BMI vs LV Wall Thickness Factor with BMI avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.155927
+  - MAE Relative: 0.045383
+  - Left Miss (rel): -0.010062
+  - Right Miss (rel): 0.011330
+  - X Cutoff: N/A
+  - GT Points: 80
+  - Extracted Points: 14
+  - Points Ratio: 0.17
+--------------------------------------------------
+
+[12:50:06.076] === SERIES_COMPARISON ===
+Comparaison LV Wall Thickness Factor vs LV Wall Thickness Factor avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.067328
+  - MAE Relative: 0.019596
+  - Left Miss (rel): -0.011704
+  - Right Miss (rel): 0.009141
+  - X Cutoff: N/A
+  - GT Points: 82
+  - Extracted Points: 14
+  - Points Ratio: 0.17
+--------------------------------------------------
+
+[12:50:07.901] === SERIES_COMPARISON ===
+Comparaison BMI vs BMI avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.084976
+  - MAE Relative: 0.024733
+  - Left Miss (rel): 0.001324
+  - Right Miss (rel): -0.000931
+  - X Cutoff: N/A
+  - GT Points: 63
+  - Extracted Points: 14
+  - Points Ratio: 0.22
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:50:07
+Total Duration: 3.96 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2692848_1471-2350-10-40-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

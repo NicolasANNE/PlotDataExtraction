@@ -1,0 +1,743 @@
+
+================================================================================
+VALIDATION LOG - PMC1866501_1471-2156-4-S1-S63-1
+================================================================================
+Timestamp: 2025-08-06 20:15:37
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866501___1471-2156-4-S1-S63-1
+================================================================================
+
+
+
+[20:15:37.603] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:37.637] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:37.657] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866501___1471-2156-4-S1-S63-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866501___1471-2156-4-S1-S63-1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:37.659] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866501___1471-2156-4-S1-S63-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866501___1471-2156-4-S1-S63-1\PMC1866501___1471-2156-4-S1-S63-1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:37.661] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866501_1471-2156-4-S1-S63-1
+================================================================================
+Timestamp: 2025-08-06 21:31:35
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866501___1471-2156-4-S1-S63-1
+================================================================================
+
+
+
+[21:31:35.944] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:31:35.951] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:31:35.977] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866501___1471-2156-4-S1-S63-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866501___1471-2156-4-S1-S63-1.json
+  - Series Count: 2
+  - Series Names: ['Cohort1', 'Cohort2']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 155
+--------------------------------------------------
+
+[21:31:35.980] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866501___1471-2156-4-S1-S63-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866501___1471-2156-4-S1-S63-1\PMC1866501___1471-2156-4-S1-S63-1.json
+  - Series Count: 2
+  - Series Names: ['Cohort1', 'Cohort2']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 67
+--------------------------------------------------
+
+[21:31:35.982] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.8712
+  - Y Min-Max: [0.1328, 1.0039]
+  - X Range: 55.52835784533847
+--------------------------------------------------
+
+[21:31:35.984] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:31:35.985] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Cohort1 <-> Cohort1 (method=exact_match, score=1.000)', 'Cohort2 <-> Cohort2 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:31:36.495] === SERIES_COMPARISON ===
+Comparaison Cohort1 vs Cohort1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.113286
+  - MAE Relative: 0.130036
+  - Left Miss (rel): 0.011909
+  - Right Miss (rel): 0.051633
+  - X Cutoff: N/A
+  - GT Points: 89
+  - Extracted Points: 36
+  - Points Ratio: 0.40
+--------------------------------------------------
+
+[21:31:37.229] === SERIES_COMPARISON ===
+Comparaison Cohort2 vs Cohort2 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.083493
+  - MAE Relative: 0.095838
+  - Left Miss (rel): -0.034681
+  - Right Miss (rel): 0.015532
+  - X Cutoff: N/A
+  - GT Points: 66
+  - Extracted Points: 31
+  - Points Ratio: 0.47
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:31:37
+Total Duration: 1.29 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866501_1471-2156-4-S1-S63-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866501_1471-2156-4-S1-S63-1
+================================================================================
+Timestamp: 2025-08-07 12:47:33
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866501___1471-2156-4-S1-S63-1
+================================================================================
+
+
+
+[12:47:33.043] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:47:33.046] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:47:33.113] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866501___1471-2156-4-S1-S63-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866501___1471-2156-4-S1-S63-1.json
+  - Series Count: 2
+  - Series Names: ['Cohort1', 'Cohort2']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 155
+--------------------------------------------------
+
+[12:47:33.119] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866501___1471-2156-4-S1-S63-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866501___1471-2156-4-S1-S63-1\PMC1866501___1471-2156-4-S1-S63-1.json
+  - Series Count: 2
+  - Series Names: ['Cohort1', 'Cohort2']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 100
+--------------------------------------------------
+
+[12:47:33.124] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.8739
+  - Y Min-Max: [0.1300, 1.0039]
+  - X Range: 55.52835784533847
+--------------------------------------------------
+
+[12:47:33.128] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:47:33.132] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Cohort1 <-> Cohort1 (method=exact_match, score=1.000)', 'Cohort2 <-> Cohort2 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:47:34.465] === SERIES_COMPARISON ===
+Comparaison Cohort1 vs Cohort1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.057260
+  - MAE Relative: 0.065519
+  - Left Miss (rel): 0.011909
+  - Right Miss (rel): 0.033624
+  - X Cutoff: N/A
+  - GT Points: 89
+  - Extracted Points: 54
+  - Points Ratio: 0.61
+--------------------------------------------------
+
+[12:47:35.799] === SERIES_COMPARISON ===
+Comparaison Cohort2 vs Cohort2 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.089252
+  - MAE Relative: 0.102125
+  - Left Miss (rel): -0.034681
+  - Right Miss (rel): -0.020485
+  - X Cutoff: N/A
+  - GT Points: 66
+  - Extracted Points: 46
+  - Points Ratio: 0.70
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:47:35
+Total Duration: 2.77 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866501_1471-2156-4-S1-S63-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866501_1471-2156-4-S1-S63-1
+================================================================================
+Timestamp: 2025-08-07 13:04:33
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866501___1471-2156-4-S1-S63-1
+================================================================================
+
+
+
+[13:04:33.088] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:04:33.091] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:04:33.147] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866501___1471-2156-4-S1-S63-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866501___1471-2156-4-S1-S63-1.json
+  - Series Count: 2
+  - Series Names: ['Cohort1', 'Cohort2']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 155
+--------------------------------------------------
+
+[13:04:33.155] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866501___1471-2156-4-S1-S63-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866501___1471-2156-4-S1-S63-1\PMC1866501___1471-2156-4-S1-S63-1.json
+  - Series Count: 2
+  - Series Names: ['Cohort1', 'Cohort2']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 100
+--------------------------------------------------
+
+[13:04:33.159] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.8739
+  - Y Min-Max: [0.1300, 1.0039]
+  - X Range: 55.52835784533847
+--------------------------------------------------
+
+[13:04:33.162] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:04:33.164] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Cohort1 <-> Cohort1 (method=exact_match, score=1.000)', 'Cohort2 <-> Cohort2 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:04:33.747] === SERIES_COMPARISON ===
+Comparaison Cohort1 vs Cohort1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.057260
+  - MAE Relative: 0.065519
+  - Left Miss (rel): 0.011909
+  - Right Miss (rel): 0.033624
+  - X Cutoff: N/A
+  - GT Points: 89
+  - Extracted Points: 54
+  - Points Ratio: 0.61
+--------------------------------------------------
+
+[13:04:34.473] === SERIES_COMPARISON ===
+Comparaison Cohort2 vs Cohort2 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.089252
+  - MAE Relative: 0.102125
+  - Left Miss (rel): -0.034681
+  - Right Miss (rel): -0.020485
+  - X Cutoff: N/A
+  - GT Points: 66
+  - Extracted Points: 46
+  - Points Ratio: 0.70
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:04:34
+Total Duration: 1.40 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866501_1471-2156-4-S1-S63-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866501_1471-2156-4-S1-S63-1
+================================================================================
+Timestamp: 2025-08-07 16:38:06
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866501___1471-2156-4-S1-S63-1
+================================================================================
+
+
+
+[16:38:06.597] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:38:06.617] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:38:06.704] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866501___1471-2156-4-S1-S63-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866501___1471-2156-4-S1-S63-1.json
+  - Series Count: 2
+  - Series Names: ['Cohort1', 'Cohort2']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 155
+--------------------------------------------------
+
+[16:38:06.731] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866501___1471-2156-4-S1-S63-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866501___1471-2156-4-S1-S63-1\PMC1866501___1471-2156-4-S1-S63-1.json
+  - Series Count: 2
+  - Series Names: ['Cohort1', 'Cohort2']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 67
+--------------------------------------------------
+
+[16:38:06.736] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.8712
+  - Y Min-Max: [0.1328, 1.0039]
+  - X Range: 55.52835784533847
+--------------------------------------------------
+
+[16:38:06.738] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:38:06.748] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Cohort1 <-> Cohort1 (method=exact_match, score=1.000)', 'Cohort2 <-> Cohort2 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:38:07.915] === SERIES_COMPARISON ===
+Comparaison Cohort1 vs Cohort1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.113286
+  - MAE Relative: 0.130036
+  - Left Miss (rel): 0.011909
+  - Right Miss (rel): 0.051633
+  - X Cutoff: N/A
+  - GT Points: 89
+  - Extracted Points: 36
+  - Points Ratio: 0.40
+--------------------------------------------------
+
+[16:38:08.547] === SERIES_COMPARISON ===
+Comparaison Cohort2 vs Cohort2 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.083493
+  - MAE Relative: 0.095838
+  - Left Miss (rel): -0.034681
+  - Right Miss (rel): 0.015532
+  - X Cutoff: N/A
+  - GT Points: 66
+  - Extracted Points: 31
+  - Points Ratio: 0.47
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:38:08
+Total Duration: 1.97 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866501_1471-2156-4-S1-S63-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866501_1471-2156-4-S1-S63-1
+================================================================================
+Timestamp: 2025-08-07 16:57:21
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866501___1471-2156-4-S1-S63-1
+================================================================================
+
+
+
+[16:57:21.356] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:57:21.361] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:57:21.393] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866501___1471-2156-4-S1-S63-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866501___1471-2156-4-S1-S63-1.json
+  - Series Count: 2
+  - Series Names: ['Cohort1', 'Cohort2']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 155
+--------------------------------------------------
+
+[16:57:21.398] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866501___1471-2156-4-S1-S63-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866501___1471-2156-4-S1-S63-1\PMC1866501___1471-2156-4-S1-S63-1.json
+  - Series Count: 2
+  - Series Names: ['Cohort1', 'Cohort2']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 67
+--------------------------------------------------
+
+[16:57:21.401] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.8712
+  - Y Min-Max: [0.1328, 1.0039]
+  - X Range: 55.52835784533847
+--------------------------------------------------
+
+[16:57:21.405] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:57:21.408] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Cohort1 <-> Cohort1 (method=exact_match, score=1.000)', 'Cohort2 <-> Cohort2 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:57:23.200] === SERIES_COMPARISON ===
+Comparaison Cohort1 vs Cohort1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.113286
+  - MAE Relative: 0.130036
+  - Left Miss (rel): 0.011909
+  - Right Miss (rel): 0.051633
+  - X Cutoff: N/A
+  - GT Points: 89
+  - Extracted Points: 36
+  - Points Ratio: 0.40
+--------------------------------------------------
+
+[16:57:24.190] === SERIES_COMPARISON ===
+Comparaison Cohort2 vs Cohort2 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.083493
+  - MAE Relative: 0.095838
+  - Left Miss (rel): -0.034681
+  - Right Miss (rel): 0.015532
+  - X Cutoff: N/A
+  - GT Points: 66
+  - Extracted Points: 31
+  - Points Ratio: 0.47
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:57:24
+Total Duration: 2.90 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866501_1471-2156-4-S1-S63-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866501_1471-2156-4-S1-S63-1
+================================================================================
+Timestamp: 2025-08-11 13:46:27
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866501___1471-2156-4-S1-S63-1
+================================================================================
+
+
+
+[13:46:27.895] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:46:27.913] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:46:28.026] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866501___1471-2156-4-S1-S63-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866501___1471-2156-4-S1-S63-1.json
+  - Series Count: 2
+  - Series Names: ['Cohort1', 'Cohort2']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 155
+--------------------------------------------------
+
+[13:46:28.033] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866501___1471-2156-4-S1-S63-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866501___1471-2156-4-S1-S63-1\PMC1866501___1471-2156-4-S1-S63-1.json
+  - Series Count: 2
+  - Series Names: ['Cohort1', 'Cohort2']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 66
+--------------------------------------------------
+
+[13:46:28.067] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.8712
+  - Y Min-Max: [0.1328, 1.0039]
+  - X Range: 55.52835784533847
+--------------------------------------------------
+
+[13:46:28.086] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:46:28.096] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Cohort1 <-> Cohort1 (method=exact_match, score=1.000)', 'Cohort2 <-> Cohort2 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:46:30.015] === SERIES_COMPARISON ===
+Comparaison Cohort1 vs Cohort1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.111576
+  - MAE Relative: 0.128073
+  - Left Miss (rel): 0.011909
+  - Right Miss (rel): 0.051633
+  - X Cutoff: N/A
+  - GT Points: 89
+  - Extracted Points: 36
+  - Points Ratio: 0.40
+--------------------------------------------------
+
+[13:46:32.595] === SERIES_COMPARISON ===
+Comparaison Cohort2 vs Cohort2 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.068637
+  - MAE Relative: 0.078786
+  - Left Miss (rel): -0.034681
+  - Right Miss (rel): 0.015532
+  - X Cutoff: N/A
+  - GT Points: 66
+  - Extracted Points: 30
+  - Points Ratio: 0.45
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-11 13:46:32
+Total Duration: 4.77 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866501_1471-2156-4-S1-S63-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

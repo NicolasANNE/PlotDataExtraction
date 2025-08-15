@@ -1,0 +1,115 @@
+
+================================================================================
+VALIDATION LOG - PMC4391731_13148_2015_70_Fig2_HTML
+================================================================================
+Timestamp: 2025-08-06 18:31:16
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC4391731___13148_2015_70_Fig2_HTML
+================================================================================
+
+
+
+[18:31:16.116] === VALIDATION_START ===
+Début de la validation pour l'image PMC4391731___13148_2015_70_Fig2_HTML
+--------------------------------------------------
+
+[18:31:16.164] === DATA_LOADING ===
+Chargement des données Ground Truth depuis PMC4391731___13148_2015_70_Fig2_HTML.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC4391731___13148_2015_70_Fig2_HTML.json
+  - Series Count: 2
+  - Series Names: ['Tolerant with EHCF+LGG', 'Tolerant with other formulae']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[18:31:16.167] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC4391731___13148_2015_70_Fig2_HTML.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC4391731___13148_2015_70_Fig2_HTML\PMC4391731___13148_2015_70_Fig2_HTML.json
+  - Series Count: 2
+  - Series Names: ['Tolerant with EHCF+LGG', 'Tolerant with other formulae']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[18:31:16.170] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: vertical bar
+  - Extractor Plot Type: bar
+  - Final Plot Type: bar
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[18:31:16.172] === BOUNDS_CALCULATION ===
+Bornes global calculées pour normalisation MAE relative
+
+Data:
+  - X Range: N/A (categorical X)
+  - Y Range: 27.2780
+  - X Min-Max: [N/A, N/A]
+  - Y Min-Max: [41.9355, 69.2135]
+--------------------------------------------------
+
+[18:31:16.174] === SERIES_MATCHING ===
+Appariement des séries utilisant: Exact -> Fuzzy -> Similarity
+
+Data:
+  - GT Series: 2 séries: ['Tolerant with EHCF+LGG', 'Tolerant with other formulae']
+  - Extracted Series: 2 séries: ['Tolerant with EHCF+LGG', 'Tolerant with other formulae']
+  - Matches Found: 2 appariements
+  - Match Details: ['Tolerant with EHCF+LGG <-> Tolerant with EHCF+LGG (method=exact_match, score=1.000)', 'Tolerant with other formulae <-> Tolerant with other formulae (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[18:31:16.895] === SERIES_COMPARISON ===
+Comparaison Tolerant with EHCF+LGG vs Tolerant with EHCF+LGG avec BarComparator
+
+Data:
+  - MAE Absolute: 0.158066
+  - MAE Relative: 0.005795
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.950000
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[18:31:17.544] === SERIES_COMPARISON ===
+Comparaison Tolerant with other formulae vs Tolerant with other formulae avec BarComparator
+
+Data:
+  - MAE Absolute: 0.224487
+  - MAE Relative: 0.008230
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.950000
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 18:31:17
+Total Duration: 1.43 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0% if total_results > 0 else "N/A"
+
+Generated Files:
+- Validation Log: validation_log_PMC4391731_13148_2015_70_Fig2_HTML.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

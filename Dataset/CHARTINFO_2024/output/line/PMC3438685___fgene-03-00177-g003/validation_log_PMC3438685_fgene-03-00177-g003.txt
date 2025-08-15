@@ -1,0 +1,129 @@
+
+================================================================================
+VALIDATION LOG - PMC3438685_fgene-03-00177-g003
+================================================================================
+Timestamp: 2025-08-07 12:55:14
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3438685___fgene-03-00177-g003
+================================================================================
+
+
+
+[12:55:14.526] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:55:14.542] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:55:14.644] === DATA_LOADING ===
+Chargement des données GT depuis PMC3438685___fgene-03-00177-g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3438685___fgene-03-00177-g003.json
+  - Series Count: 3
+  - Series Names: ['Ctrl', '1h Rapa', '24h Rapa']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 72
+--------------------------------------------------
+
+[12:55:14.648] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3438685___fgene-03-00177-g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3438685___fgene-03-00177-g003\PMC3438685___fgene-03-00177-g003.json
+  - Series Count: 3
+  - Series Names: ['Ctrl', '1h Rapa', '24h Rapa']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 39
+--------------------------------------------------
+
+[12:55:14.656] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1525.6180
+  - Y Min-Max: [94.3820, 1620.0000]
+  - X Range: 192.390243902439
+--------------------------------------------------
+
+[12:55:14.660] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:55:14.666] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Ctrl <-> Ctrl (method=exact_match, score=1.000)', '1h Rapa <-> 1h Rapa (method=exact_match, score=1.000)', '24h Rapa <-> 24h Rapa (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:55:16.079] === SERIES_COMPARISON ===
+Comparaison Ctrl vs Ctrl avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 48.104738
+  - MAE Relative: 0.031531
+  - Left Miss (rel): 0.002028
+  - Right Miss (rel): -0.040543
+  - X Cutoff: N/A
+  - GT Points: 24
+  - Extracted Points: 13
+  - Points Ratio: 0.54
+--------------------------------------------------
+
+[12:55:17.383] === SERIES_COMPARISON ===
+Comparaison 1h Rapa vs 1h Rapa avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 31.054428
+  - MAE Relative: 0.020355
+  - Left Miss (rel): -0.001352
+  - Right Miss (rel): -0.040543
+  - X Cutoff: N/A
+  - GT Points: 24
+  - Extracted Points: 13
+  - Points Ratio: 0.54
+--------------------------------------------------
+
+[12:55:18.230] === SERIES_COMPARISON ===
+Comparaison 24h Rapa vs 24h Rapa avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 28.701489
+  - MAE Relative: 0.018813
+  - Left Miss (rel): -0.002028
+  - Right Miss (rel): -0.044701
+  - X Cutoff: N/A
+  - GT Points: 24
+  - Extracted Points: 13
+  - Points Ratio: 0.54
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:55:18
+Total Duration: 3.76 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3438685_fgene-03-00177-g003.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

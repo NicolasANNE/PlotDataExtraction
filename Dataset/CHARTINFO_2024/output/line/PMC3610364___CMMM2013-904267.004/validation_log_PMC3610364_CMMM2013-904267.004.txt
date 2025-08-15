@@ -1,0 +1,157 @@
+
+================================================================================
+VALIDATION LOG - PMC3610364_CMMM2013-904267.004
+================================================================================
+Timestamp: 2025-08-07 12:57:57
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3610364___CMMM2013-904267.004
+================================================================================
+
+
+
+[12:57:57.769] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:57:57.771] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:57:57.847] === DATA_LOADING ===
+Chargement des données GT depuis PMC3610364___CMMM2013-904267.004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3610364___CMMM2013-904267.004.json
+  - Series Count: 5
+  - Series Names: ['CSVM1', 'CSVM4', 'CSVM2', 'CSVM5', 'CSVM3']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 33
+--------------------------------------------------
+
+[12:57:57.852] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3610364___CMMM2013-904267.004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3610364___CMMM2013-904267.004\PMC3610364___CMMM2013-904267.004.json
+  - Series Count: 5
+  - Series Names: ['CSVM1', 'CSVM2', 'CSVM3', 'CSVM4', 'CSVM5']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 21
+--------------------------------------------------
+
+[12:57:57.857] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.1800
+  - Y Min-Max: [2.5800, 2.7600]
+  - X Range: 88.12014500258933
+--------------------------------------------------
+
+[12:57:57.866] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:57:57.869] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['CSVM1 <-> CSVM1 (method=exact_match, score=1.000)', 'CSVM4 <-> CSVM4 (method=exact_match, score=1.000)', 'CSVM2 <-> CSVM2 (method=exact_match, score=1.000)', 'CSVM5 <-> CSVM5 (method=exact_match, score=1.000)', 'CSVM3 <-> CSVM3 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:57:58.793] === SERIES_COMPARISON ===
+Comparaison CSVM1 vs CSVM1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.006715
+  - MAE Relative: 0.037306
+  - Left Miss (rel): -0.022502
+  - Right Miss (rel): 0.041050
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 4
+  - Points Ratio: 0.80
+--------------------------------------------------
+
+[12:57:59.741] === SERIES_COMPARISON ===
+Comparaison CSVM4 vs CSVM4 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.018447
+  - MAE Relative: 0.102486
+  - Left Miss (rel): -0.005577
+  - Right Miss (rel): 0.042460
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 5
+  - Points Ratio: 0.62
+--------------------------------------------------
+
+[12:58:01.308] === SERIES_COMPARISON ===
+Comparaison CSVM2 vs CSVM2 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.005905
+  - MAE Relative: 0.032804
+  - Left Miss (rel): -0.005577
+  - Right Miss (rel): 0.046691
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 4
+  - Points Ratio: 0.57
+--------------------------------------------------
+
+[12:58:02.585] === SERIES_COMPARISON ===
+Comparaison CSVM5 vs CSVM5 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.008603
+  - MAE Relative: 0.047795
+  - Left Miss (rel): -0.002756
+  - Right Miss (rel): 0.041050
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 4
+  - Points Ratio: 0.67
+--------------------------------------------------
+
+[12:58:03.848] === SERIES_COMPARISON ===
+Comparaison CSVM3 vs CSVM3 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.010826
+  - MAE Relative: 0.060145
+  - Left Miss (rel): 0.000065
+  - Right Miss (rel): 0.041050
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 4
+  - Points Ratio: 0.57
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:58:03
+Total Duration: 6.09 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3610364_CMMM2013-904267.004.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

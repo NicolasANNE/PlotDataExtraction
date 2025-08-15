@@ -1,0 +1,171 @@
+
+================================================================================
+VALIDATION LOG - PMC3564147_ijerph-10-00361-g001
+================================================================================
+Timestamp: 2025-08-07 12:57:25
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3564147___ijerph-10-00361-g001
+================================================================================
+
+
+
+[12:57:25.488] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:57:25.493] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:57:25.558] === DATA_LOADING ===
+Chargement des données GT depuis PMC3564147___ijerph-10-00361-g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3564147___ijerph-10-00361-g001.json
+  - Series Count: 6
+  - Series Names: ['As', 'Bi', 'Cd', 'Hg', 'Pb', 'Ti']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 60
+--------------------------------------------------
+
+[12:57:25.570] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3564147___ijerph-10-00361-g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3564147___ijerph-10-00361-g001\PMC3564147___ijerph-10-00361-g001.json
+  - Series Count: 6
+  - Series Names: ['As', 'Bi', 'Cd', 'Hg', 'Pb', 'Ti']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 48
+--------------------------------------------------
+
+[12:57:25.592] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 98.9626
+  - Y Min-Max: [0.0374, 99.0000]
+  - X Range: 8.102529960053264
+--------------------------------------------------
+
+[12:57:25.612] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:57:25.615] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['As <-> As (method=exact_match, score=1.000)', 'Bi <-> Bi (method=exact_match, score=1.000)', 'Cd <-> Cd (method=exact_match, score=1.000)', 'Hg <-> Hg (method=exact_match, score=1.000)', 'Pb <-> Pb (method=exact_match, score=1.000)', 'Ti <-> Ti (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:57:26.668] === SERIES_COMPARISON ===
+Comparaison As vs As avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 58.365917
+  - MAE Relative: 0.589777
+  - Left Miss (rel): 0.127855
+  - Right Miss (rel): 0.003492
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 8
+  - Points Ratio: 0.80
+--------------------------------------------------
+
+[12:57:27.647] === SERIES_COMPARISON ===
+Comparaison Bi vs Bi avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 63.483265
+  - MAE Relative: 0.641487
+  - Left Miss (rel): 0.122514
+  - Right Miss (rel): 0.008217
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 8
+  - Points Ratio: 0.80
+--------------------------------------------------
+
+[12:57:28.870] === SERIES_COMPARISON ===
+Comparaison Cd vs Cd avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 59.225654
+  - MAE Relative: 0.598465
+  - Left Miss (rel): 0.123747
+  - Right Miss (rel): -0.000411
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 8
+  - Points Ratio: 0.80
+--------------------------------------------------
+
+[12:57:30.663] === SERIES_COMPARISON ===
+Comparaison Hg vs Hg avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 44.988225
+  - MAE Relative: 0.454598
+  - Left Miss (rel): 0.122514
+  - Right Miss (rel): -0.000411
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 8
+  - Points Ratio: 0.80
+--------------------------------------------------
+
+[12:57:32.473] === SERIES_COMPARISON ===
+Comparaison Pb vs Pb avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 56.738194
+  - MAE Relative: 0.573330
+  - Left Miss (rel): 0.123747
+  - Right Miss (rel): 0.000822
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 8
+  - Points Ratio: 0.80
+--------------------------------------------------
+
+[12:57:33.644] === SERIES_COMPARISON ===
+Comparaison Ti vs Ti avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 61.791107
+  - MAE Relative: 0.624388
+  - Left Miss (rel): 0.122514
+  - Right Miss (rel): 0.002054
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 8
+  - Points Ratio: 0.80
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:57:33
+Total Duration: 8.17 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3564147_ijerph-10-00361-g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

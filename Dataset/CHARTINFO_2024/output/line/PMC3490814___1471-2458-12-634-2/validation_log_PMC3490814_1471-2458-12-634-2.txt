@@ -1,0 +1,115 @@
+
+================================================================================
+VALIDATION LOG - PMC3490814_1471-2458-12-634-2
+================================================================================
+Timestamp: 2025-08-07 12:55:48
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3490814___1471-2458-12-634-2
+================================================================================
+
+
+
+[12:55:48.641] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:55:48.644] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:55:48.718] === DATA_LOADING ===
+Chargement des données GT depuis PMC3490814___1471-2458-12-634-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3490814___1471-2458-12-634-2.json
+  - Series Count: 2
+  - Series Names: ['Women beta =-0.127**', 'Men beta =-0.166**']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[12:55:48.726] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3490814___1471-2458-12-634-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3490814___1471-2458-12-634-2\PMC3490814___1471-2458-12-634-2.json
+  - Series Count: 2
+  - Series Names: ['Women β =-0.127**', 'Men β =-0.166**']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[12:55:48.745] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 8.2266
+  - Y Min-Max: [6.6400, 14.8666]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:55:48.747] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:55:48.750] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Women beta =-0.127** <-> Women β =-0.127** (method=fuzzy_match, score=0.850)', 'Men beta =-0.166** <-> Men β =-0.166** (method=fuzzy_match, score=0.800)']
+--------------------------------------------------
+
+[12:55:49.878] === SERIES_COMPARISON ===
+Comparaison Women beta =-0.127** vs Women β =-0.127** avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 1.623085
+  - MAE Relative: 0.197298
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.498333
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:55:51.375] === SERIES_COMPARISON ===
+Comparaison Men beta =-0.166** vs Men β =-0.166** avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 1.452892
+  - MAE Relative: 0.176610
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.498333
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:55:51
+Total Duration: 2.75 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3490814_1471-2458-12-634-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

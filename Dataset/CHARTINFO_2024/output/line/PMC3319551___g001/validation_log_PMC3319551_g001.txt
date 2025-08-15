@@ -1,0 +1,230 @@
+
+================================================================================
+VALIDATION LOG - PMC3319551_g001
+================================================================================
+Timestamp: 2025-08-06 21:38:32
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3319551___g001
+================================================================================
+
+
+
+[21:38:32.841] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:38:32.845] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:38:33.048] === DATA_LOADING ===
+Chargement des données GT depuis PMC3319551___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3319551___g001.json
+  - Series Count: 2
+  - Series Names: ['P300', 'NON-P 300']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 153
+--------------------------------------------------
+
+[21:38:33.053] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3319551___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3319551___g001\PMC3319551___g001.json
+  - Series Count: 2
+  - Series Names: ['P300', 'NON-P300']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 42
+--------------------------------------------------
+
+[21:38:33.058] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.1954
+  - Y Min-Max: [-0.0644, 0.1310]
+  - X Range: 1.000451305966641
+--------------------------------------------------
+
+[21:38:33.062] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:38:33.065] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['P300 <-> P300 (method=exact_match, score=1.000)', 'NON-P 300 <-> NON-P300 (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[21:38:34.108] === SERIES_COMPARISON ===
+Comparaison P300 vs P300 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.024823
+  - MAE Relative: 0.127004
+  - Left Miss (rel): 0.000451
+  - Right Miss (rel): -0.004868
+  - X Cutoff: N/A
+  - GT Points: 88
+  - Extracted Points: 21
+  - Points Ratio: 0.24
+--------------------------------------------------
+
+[21:38:39.117] === SERIES_COMPARISON ===
+Comparaison NON-P 300 vs NON-P300 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.016392
+  - MAE Relative: 0.083867
+  - Left Miss (rel): -0.001579
+  - Right Miss (rel): -0.022586
+  - X Cutoff: N/A
+  - GT Points: 65
+  - Extracted Points: 21
+  - Points Ratio: 0.32
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:38:39
+Total Duration: 6.30 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3319551_g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3319551_g001
+================================================================================
+Timestamp: 2025-08-07 12:54:15
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3319551___g001
+================================================================================
+
+
+
+[12:54:15.959] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:54:15.960] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:54:16.015] === DATA_LOADING ===
+Chargement des données GT depuis PMC3319551___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3319551___g001.json
+  - Series Count: 2
+  - Series Names: ['P300', 'NON-P 300']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 153
+--------------------------------------------------
+
+[12:54:16.019] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3319551___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3319551___g001\PMC3319551___g001.json
+  - Series Count: 2
+  - Series Names: ['P300', 'NON-P300']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 42
+--------------------------------------------------
+
+[12:54:16.021] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.1954
+  - Y Min-Max: [-0.0644, 0.1310]
+  - X Range: 1.000451305966641
+--------------------------------------------------
+
+[12:54:16.023] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:54:16.025] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['P300 <-> P300 (method=exact_match, score=1.000)', 'NON-P 300 <-> NON-P300 (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[12:54:16.578] === SERIES_COMPARISON ===
+Comparaison P300 vs P300 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.024823
+  - MAE Relative: 0.127004
+  - Left Miss (rel): 0.000451
+  - Right Miss (rel): -0.004868
+  - X Cutoff: N/A
+  - GT Points: 88
+  - Extracted Points: 21
+  - Points Ratio: 0.24
+--------------------------------------------------
+
+[12:54:17.252] === SERIES_COMPARISON ===
+Comparaison NON-P 300 vs NON-P300 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.016392
+  - MAE Relative: 0.083867
+  - Left Miss (rel): -0.001579
+  - Right Miss (rel): -0.022586
+  - X Cutoff: N/A
+  - GT Points: 65
+  - Extracted Points: 21
+  - Points Ratio: 0.32
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:54:17
+Total Duration: 1.31 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3319551_g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

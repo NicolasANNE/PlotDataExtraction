@@ -1,0 +1,143 @@
+
+================================================================================
+VALIDATION LOG - PMC3505734_1471-2458-12-833-1
+================================================================================
+Timestamp: 2025-08-07 12:55:58
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3505734___1471-2458-12-833-1
+================================================================================
+
+
+
+[12:55:58.059] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:55:58.062] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:55:58.110] === DATA_LOADING ===
+Chargement des données GT depuis PMC3505734___1471-2458-12-833-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3505734___1471-2458-12-833-1.json
+  - Series Count: 4
+  - Series Names: ['Underweight', 'Normal weight', 'Overweight', 'Obesity']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 19
+--------------------------------------------------
+
+[12:55:58.120] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3505734___1471-2458-12-833-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3505734___1471-2458-12-833-1\PMC3505734___1471-2458-12-833-1.json
+  - Series Count: 4
+  - Series Names: ['Underweight', 'Normal weight', 'Overweight', 'Obesity']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 20
+--------------------------------------------------
+
+[12:55:58.125] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 52.8657
+  - Y Min-Max: [3.1343, 56.0000]
+  - X Range: 20.121765601217653
+--------------------------------------------------
+
+[12:55:58.126] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:55:58.128] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Underweight <-> Underweight (method=exact_match, score=1.000)', 'Normal weight <-> Normal weight (method=exact_match, score=1.000)', 'Overweight <-> Overweight (method=exact_match, score=1.000)', 'Obesity <-> Obesity (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:55:59.010] === SERIES_COMPARISON ===
+Comparaison Underweight vs Underweight avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 5.578101
+  - MAE Relative: 0.105515
+  - Left Miss (rel): -0.001513
+  - Right Miss (rel): 0.001513
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 5
+  - Points Ratio: 1.25
+--------------------------------------------------
+
+[12:55:59.886] === SERIES_COMPARISON ===
+Comparaison Normal weight vs Normal weight avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.396063
+  - MAE Relative: 0.045324
+  - Left Miss (rel): -0.003026
+  - Right Miss (rel): 0.001513
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:56:00.791] === SERIES_COMPARISON ===
+Comparaison Overweight vs Overweight avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.905329
+  - MAE Relative: 0.036041
+  - Left Miss (rel): -0.003026
+  - Right Miss (rel): 0.001513
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:56:01.974] === SERIES_COMPARISON ===
+Comparaison Obesity vs Obesity avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.147510
+  - MAE Relative: 0.040622
+  - Left Miss (rel): -0.001513
+  - Right Miss (rel): 0.006051
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:56:01
+Total Duration: 3.92 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3505734_1471-2458-12-833-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

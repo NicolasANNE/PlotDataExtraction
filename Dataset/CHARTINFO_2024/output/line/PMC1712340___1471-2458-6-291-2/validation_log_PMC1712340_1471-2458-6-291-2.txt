@@ -1,0 +1,827 @@
+
+================================================================================
+VALIDATION LOG - PMC1712340_1471-2458-6-291-2
+================================================================================
+Timestamp: 2025-08-06 20:15:28
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1712340___1471-2458-6-291-2
+================================================================================
+
+
+
+[20:15:28.499] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:28.531] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:28.551] === DATA_LOADING ===
+Chargement des données GT depuis PMC1712340___1471-2458-6-291-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1712340___1471-2458-6-291-2.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:28.554] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1712340___1471-2458-6-291-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1712340___1471-2458-6-291-2\PMC1712340___1471-2458-6-291-2.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:28.555] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1712340_1471-2458-6-291-2
+================================================================================
+Timestamp: 2025-08-06 21:31:15
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1712340___1471-2458-6-291-2
+================================================================================
+
+
+
+[21:31:15.226] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:31:15.228] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:31:15.266] === DATA_LOADING ===
+Chargement des données GT depuis PMC1712340___1471-2458-6-291-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1712340___1471-2458-6-291-2.json
+  - Series Count: 3
+  - Series Names: ['Manhica98-06', 'Mozambique97', 'Maputo97']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[21:31:15.282] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1712340___1471-2458-6-291-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1712340___1471-2458-6-291-2\PMC1712340___1471-2458-6-291-2.json
+  - Series Count: 3
+  - Series Names: ['Manhica98-05', 'Mozambique97', 'Maputo97']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 23
+--------------------------------------------------
+
+[21:31:15.284] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 270.8187
+  - Y Min-Max: [-0.4515, 270.3672]
+  - X Range: 4539.0
+--------------------------------------------------
+
+[21:31:15.286] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:31:15.287] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Mozambique97 <-> Mozambique97 (method=exact_match, score=1.000)', 'Maputo97 <-> Maputo97 (method=exact_match, score=1.000)', 'Manhica98-06 <-> Manhica98-05 (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[21:31:15.737] === SERIES_COMPARISON ===
+Comparaison Mozambique97 vs Mozambique97 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: NaN
+  - MAE Relative: NaN
+  - Left Miss (rel): -0.221194
+  - Right Miss (rel): 0.991848
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:31:16.214] === SERIES_COMPARISON ===
+Comparaison Maputo97 vs Maputo97 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: NaN
+  - MAE Relative: NaN
+  - Left Miss (rel): -0.221194
+  - Right Miss (rel): 0.991848
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:31:16.991] === SERIES_COMPARISON ===
+Comparaison Manhica98-06 vs Manhica98-05 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: NaN
+  - MAE Relative: NaN
+  - Left Miss (rel): -0.221194
+  - Right Miss (rel): 0.991848
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 7
+  - Points Ratio: 0.88
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:31:17
+Total Duration: 1.79 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1712340_1471-2458-6-291-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1712340_1471-2458-6-291-2
+================================================================================
+Timestamp: 2025-08-07 12:47:15
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1712340___1471-2458-6-291-2
+================================================================================
+
+
+
+[12:47:15.736] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:47:15.740] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:47:15.784] === DATA_LOADING ===
+Chargement des données GT depuis PMC1712340___1471-2458-6-291-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1712340___1471-2458-6-291-2.json
+  - Series Count: 3
+  - Series Names: ['Manhica98-06', 'Mozambique97', 'Maputo97']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[12:47:15.788] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1712340___1471-2458-6-291-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1712340___1471-2458-6-291-2\PMC1712340___1471-2458-6-291-2.json
+  - Series Count: 3
+  - Series Names: ['Manhica98-05', 'Mozambique97', 'Maputo97']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[12:47:15.792] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 270.8187
+  - Y Min-Max: [-0.4515, 270.3672]
+  - X Range: 4539.0
+--------------------------------------------------
+
+[12:47:15.794] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:47:15.797] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Mozambique97 <-> Mozambique97 (method=exact_match, score=1.000)', 'Maputo97 <-> Maputo97 (method=exact_match, score=1.000)', 'Manhica98-06 <-> Manhica98-05 (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[12:47:16.495] === SERIES_COMPARISON ===
+Comparaison Mozambique97 vs Mozambique97 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: NaN
+  - MAE Relative: NaN
+  - Left Miss (rel): -0.221194
+  - Right Miss (rel): 0.991848
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:47:17.305] === SERIES_COMPARISON ===
+Comparaison Maputo97 vs Maputo97 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: NaN
+  - MAE Relative: NaN
+  - Left Miss (rel): -0.221194
+  - Right Miss (rel): 0.991848
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:47:17.934] === SERIES_COMPARISON ===
+Comparaison Manhica98-06 vs Manhica98-05 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: NaN
+  - MAE Relative: NaN
+  - Left Miss (rel): -0.221194
+  - Right Miss (rel): 0.991848
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:47:17
+Total Duration: 2.21 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1712340_1471-2458-6-291-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1712340_1471-2458-6-291-2
+================================================================================
+Timestamp: 2025-08-07 13:04:13
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1712340___1471-2458-6-291-2
+================================================================================
+
+
+
+[13:04:13.328] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:04:13.342] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:04:13.396] === DATA_LOADING ===
+Chargement des données GT depuis PMC1712340___1471-2458-6-291-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1712340___1471-2458-6-291-2.json
+  - Series Count: 3
+  - Series Names: ['Manhica98-06', 'Mozambique97', 'Maputo97']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[13:04:13.418] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1712340___1471-2458-6-291-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1712340___1471-2458-6-291-2\PMC1712340___1471-2458-6-291-2.json
+  - Series Count: 3
+  - Series Names: ['Manhica98-05', 'Mozambique97', 'Maputo97']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[13:04:13.425] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 270.8187
+  - Y Min-Max: [-0.4515, 270.3672]
+  - X Range: 4539.0
+--------------------------------------------------
+
+[13:04:13.436] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:04:13.439] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Mozambique97 <-> Mozambique97 (method=exact_match, score=1.000)', 'Maputo97 <-> Maputo97 (method=exact_match, score=1.000)', 'Manhica98-06 <-> Manhica98-05 (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[13:04:14.753] === SERIES_COMPARISON ===
+Comparaison Mozambique97 vs Mozambique97 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: NaN
+  - MAE Relative: NaN
+  - Left Miss (rel): -0.221194
+  - Right Miss (rel): 0.991848
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:04:16.361] === SERIES_COMPARISON ===
+Comparaison Maputo97 vs Maputo97 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: NaN
+  - MAE Relative: NaN
+  - Left Miss (rel): -0.221194
+  - Right Miss (rel): 0.991848
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:04:18.447] === SERIES_COMPARISON ===
+Comparaison Manhica98-06 vs Manhica98-05 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: NaN
+  - MAE Relative: NaN
+  - Left Miss (rel): -0.221194
+  - Right Miss (rel): 0.991848
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:04:18
+Total Duration: 5.16 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1712340_1471-2458-6-291-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1712340_1471-2458-6-291-2
+================================================================================
+Timestamp: 2025-08-07 16:37:48
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1712340___1471-2458-6-291-2
+================================================================================
+
+
+
+[16:37:48.564] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:37:48.570] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:37:48.611] === DATA_LOADING ===
+Chargement des données GT depuis PMC1712340___1471-2458-6-291-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1712340___1471-2458-6-291-2.json
+  - Series Count: 3
+  - Series Names: ['Manhica98-06', 'Mozambique97', 'Maputo97']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[16:37:48.624] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1712340___1471-2458-6-291-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1712340___1471-2458-6-291-2\PMC1712340___1471-2458-6-291-2.json
+  - Series Count: 3
+  - Series Names: ['Manhica98-05', 'Mozambique97', 'Maputo97']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[16:37:48.631] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 270.8187
+  - Y Min-Max: [-0.4515, 270.3672]
+  - X Range: 4539.0
+--------------------------------------------------
+
+[16:37:48.637] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:37:48.641] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Mozambique97 <-> Mozambique97 (method=exact_match, score=1.000)', 'Maputo97 <-> Maputo97 (method=exact_match, score=1.000)', 'Manhica98-06 <-> Manhica98-05 (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[16:37:50.144] === SERIES_COMPARISON ===
+Comparaison Mozambique97 vs Mozambique97 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: NaN
+  - MAE Relative: NaN
+  - Left Miss (rel): -0.221194
+  - Right Miss (rel): 0.991848
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:37:51.811] === SERIES_COMPARISON ===
+Comparaison Maputo97 vs Maputo97 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: NaN
+  - MAE Relative: NaN
+  - Left Miss (rel): -0.221194
+  - Right Miss (rel): 0.991848
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:37:53.709] === SERIES_COMPARISON ===
+Comparaison Manhica98-06 vs Manhica98-05 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: NaN
+  - MAE Relative: NaN
+  - Left Miss (rel): -0.221194
+  - Right Miss (rel): 0.991848
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:37:53
+Total Duration: 5.16 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1712340_1471-2458-6-291-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1712340_1471-2458-6-291-2
+================================================================================
+Timestamp: 2025-08-07 16:57:03
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1712340___1471-2458-6-291-2
+================================================================================
+
+
+
+[16:57:03.759] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:57:03.761] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:57:03.798] === DATA_LOADING ===
+Chargement des données GT depuis PMC1712340___1471-2458-6-291-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1712340___1471-2458-6-291-2.json
+  - Series Count: 3
+  - Series Names: ['Manhica98-06', 'Mozambique97', 'Maputo97']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[16:57:03.801] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1712340___1471-2458-6-291-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1712340___1471-2458-6-291-2\PMC1712340___1471-2458-6-291-2.json
+  - Series Count: 3
+  - Series Names: ['Manhica98-05', 'Mozambique97', 'Maputo97']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 23
+--------------------------------------------------
+
+[16:57:03.803] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 270.8187
+  - Y Min-Max: [-0.4515, 270.3672]
+  - X Range: 4539.0
+--------------------------------------------------
+
+[16:57:03.805] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:57:03.806] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Mozambique97 <-> Mozambique97 (method=exact_match, score=1.000)', 'Maputo97 <-> Maputo97 (method=exact_match, score=1.000)', 'Manhica98-06 <-> Manhica98-05 (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[16:57:04.304] === SERIES_COMPARISON ===
+Comparaison Mozambique97 vs Mozambique97 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: NaN
+  - MAE Relative: NaN
+  - Left Miss (rel): -0.221194
+  - Right Miss (rel): 0.991848
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:57:05.825] === SERIES_COMPARISON ===
+Comparaison Maputo97 vs Maputo97 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: NaN
+  - MAE Relative: NaN
+  - Left Miss (rel): -0.221194
+  - Right Miss (rel): 0.991848
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:57:07.419] === SERIES_COMPARISON ===
+Comparaison Manhica98-06 vs Manhica98-05 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: NaN
+  - MAE Relative: NaN
+  - Left Miss (rel): -0.221194
+  - Right Miss (rel): 0.991848
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 7
+  - Points Ratio: 0.88
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:57:07
+Total Duration: 3.69 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1712340_1471-2458-6-291-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1712340_1471-2458-6-291-2
+================================================================================
+Timestamp: 2025-08-11 13:46:03
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1712340___1471-2458-6-291-2
+================================================================================
+
+
+
+[13:46:03.170] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:46:03.173] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:46:03.250] === DATA_LOADING ===
+Chargement des données GT depuis PMC1712340___1471-2458-6-291-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1712340___1471-2458-6-291-2.json
+  - Series Count: 3
+  - Series Names: ['Manhica98-06', 'Mozambique97', 'Maputo97']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[13:46:03.255] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1712340___1471-2458-6-291-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1712340___1471-2458-6-291-2\PMC1712340___1471-2458-6-291-2.json
+  - Series Count: 3
+  - Series Names: ['Manhica98-05', 'Mozambique97', 'Maputo97']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[13:46:03.260] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 270.8187
+  - Y Min-Max: [-0.4515, 270.3672]
+  - X Range: 4537.0
+--------------------------------------------------
+
+[13:46:03.262] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:46:03.267] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Mozambique97 <-> Mozambique97 (method=exact_match, score=1.000)', 'Maputo97 <-> Maputo97 (method=exact_match, score=1.000)', 'Manhica98-06 <-> Manhica98-05 (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[13:46:04.117] === SERIES_COMPARISON ===
+Comparaison Mozambique97 vs Mozambique97 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: NaN
+  - MAE Relative: NaN
+  - Left Miss (rel): -0.220851
+  - Right Miss (rel): 0.992286
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:46:05.047] === SERIES_COMPARISON ===
+Comparaison Maputo97 vs Maputo97 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: NaN
+  - MAE Relative: NaN
+  - Left Miss (rel): -0.220851
+  - Right Miss (rel): 0.992286
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:46:06.359] === SERIES_COMPARISON ===
+Comparaison Manhica98-06 vs Manhica98-05 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: NaN
+  - MAE Relative: NaN
+  - Left Miss (rel): -0.220851
+  - Right Miss (rel): 0.992286
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 8
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-11 13:46:06
+Total Duration: 3.20 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1712340_1471-2458-6-291-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

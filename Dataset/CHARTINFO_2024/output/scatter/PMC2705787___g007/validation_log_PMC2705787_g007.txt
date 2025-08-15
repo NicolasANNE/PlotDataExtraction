@@ -1,0 +1,352 @@
+
+================================================================================
+VALIDATION LOG - PMC2705787_g007
+================================================================================
+Timestamp: 2025-08-07 13:07:34
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2705787___g007
+================================================================================
+
+
+
+[13:07:34.026] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:07:34.030] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:07:34.116] === DATA_LOADING ===
+Chargement des données GT depuis PMC2705787___g007.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC2705787___g007.json
+  - Series Count: 3
+  - Series Names: ['Burn', 'Acute Corticosteroid', 'Chronic Corticosteroid']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 19
+--------------------------------------------------
+
+[13:07:34.144] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2705787___g007.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2705787___g007\PMC2705787___g007.json
+  - Series Count: 3
+  - Series Names: ['Burn', 'Acute Corticosteroid', 'Chronic Corticosteroid']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 16
+--------------------------------------------------
+
+[13:07:34.152] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 4.6982
+  - Y Min-Max: [0.6459, 5.3441]
+  - X Range: 8.025960431278133
+--------------------------------------------------
+
+[13:07:34.155] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:07:34.162] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['[unnamed data series #0] <-> Series 1 (method=similarity_match_generic, score=0.857)']
+--------------------------------------------------
+
+[13:07:34.175] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison [unnamed data series #0] vs Series 1
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:07:34
+Total Duration: 0.16 seconds
+Total Series Processed: 1
+Successful Comparisons: 0
+Errors: 1
+Success Rate: 0.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2705787_g007.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2705787_g007
+================================================================================
+Timestamp: 2025-08-07 16:41:08
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2705787___g007
+================================================================================
+
+
+
+[16:41:08.558] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:41:08.561] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:41:08.600] === DATA_LOADING ===
+Chargement des données GT depuis PMC2705787___g007.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC2705787___g007.json
+  - Series Count: 3
+  - Series Names: ['Burn', 'Acute Corticosteroid', 'Chronic Corticosteroid']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 19
+--------------------------------------------------
+
+[16:41:08.605] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2705787___g007.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2705787___g007\PMC2705787___g007.json
+  - Series Count: 3
+  - Series Names: ['Burn', 'Acute Corticosteroid', 'Chronic Corticosteroid']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 16
+--------------------------------------------------
+
+[16:41:08.609] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 4.6982
+  - Y Min-Max: [0.6459, 5.3441]
+  - X Range: 8.025960431278133
+--------------------------------------------------
+
+[16:41:08.617] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:41:08.619] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Burn <-> Burn (method=exact_match, score=1.000)', 'Acute Corticosteroid <-> Acute Corticosteroid (method=exact_match, score=1.000)', 'Chronic Corticosteroid <-> Chronic Corticosteroid (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:41:09.613] === SERIES_COMPARISON ===
+Comparaison Burn vs Burn avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.024623
+  - MAE Relative: 0.005241
+  - Left Miss (rel): 0.001159
+  - Right Miss (rel): 0.000406
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 7
+  - Points Ratio: 0.78
+--------------------------------------------------
+
+[16:41:10.287] === SERIES_COMPARISON ===
+Comparaison Acute Corticosteroid vs Acute Corticosteroid avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.017953
+  - MAE Relative: 0.003821
+  - Left Miss (rel): 0.002828
+  - Right Miss (rel): 0.001293
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:41:10.973] === SERIES_COMPARISON ===
+Comparaison Chronic Corticosteroid vs Chronic Corticosteroid avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.015337
+  - MAE Relative: 0.003264
+  - Left Miss (rel): 0.001159
+  - Right Miss (rel): -0.000376
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 4
+  - Points Ratio: 0.80
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:41:10
+Total Duration: 2.47 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2705787_g007.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2705787_g007
+================================================================================
+Timestamp: 2025-08-07 17:00:20
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2705787___g007
+================================================================================
+
+
+
+[17:00:20.716] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:00:20.719] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[17:00:20.750] === DATA_LOADING ===
+Chargement des données GT depuis PMC2705787___g007.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC2705787___g007.json
+  - Series Count: 3
+  - Series Names: ['Burn', 'Acute Corticosteroid', 'Chronic Corticosteroid']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 19
+--------------------------------------------------
+
+[17:00:20.753] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2705787___g007.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2705787___g007\PMC2705787___g007.json
+  - Series Count: 3
+  - Series Names: ['Burn', 'Acute Corticosteroid', 'Chronic Corticosteroid']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 16
+--------------------------------------------------
+
+[17:00:20.756] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 4.6982
+  - Y Min-Max: [0.6459, 5.3441]
+  - X Range: 8.025960431278133
+--------------------------------------------------
+
+[17:00:20.760] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:00:20.769] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Burn <-> Burn (method=exact_match, score=1.000)', 'Acute Corticosteroid <-> Acute Corticosteroid (method=exact_match, score=1.000)', 'Chronic Corticosteroid <-> Chronic Corticosteroid (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[17:00:22.104] === SERIES_COMPARISON ===
+Comparaison Burn vs Burn avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.024623
+  - MAE Relative: 0.005241
+  - Left Miss (rel): 0.001159
+  - Right Miss (rel): 0.000406
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 7
+  - Points Ratio: 0.78
+--------------------------------------------------
+
+[17:00:22.955] === SERIES_COMPARISON ===
+Comparaison Acute Corticosteroid vs Acute Corticosteroid avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.017953
+  - MAE Relative: 0.003821
+  - Left Miss (rel): 0.002828
+  - Right Miss (rel): 0.001293
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:00:23.545] === SERIES_COMPARISON ===
+Comparaison Chronic Corticosteroid vs Chronic Corticosteroid avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.015337
+  - MAE Relative: 0.003264
+  - Left Miss (rel): 0.001159
+  - Right Miss (rel): -0.000376
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 4
+  - Points Ratio: 0.80
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:00:23
+Total Duration: 2.87 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2705787_g007.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

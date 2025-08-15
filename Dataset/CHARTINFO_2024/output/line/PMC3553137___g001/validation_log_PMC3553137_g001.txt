@@ -1,0 +1,143 @@
+
+================================================================================
+VALIDATION LOG - PMC3553137_g001
+================================================================================
+Timestamp: 2025-08-07 12:57:15
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3553137___g001
+================================================================================
+
+
+
+[12:57:15.561] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:57:15.564] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:57:15.722] === DATA_LOADING ===
+Chargement des données GT depuis PMC3553137___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3553137___g001.json
+  - Series Count: 4
+  - Series Names: ['Irrelevant1', 'Probe', 'Fake', 'Irrelevant2']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 776
+--------------------------------------------------
+
+[12:57:15.727] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3553137___g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3553137___g001\PMC3553137___g001.json
+  - Series Count: 4
+  - Series Names: ['Irrelevant1', 'Probe', 'Fake', 'Irrelevant2']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 92
+--------------------------------------------------
+
+[12:57:15.733] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 13.6619
+  - Y Min-Max: [-5.6591, 8.0028]
+  - X Range: 1102.5821596244132
+--------------------------------------------------
+
+[12:57:15.740] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:57:15.744] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Irrelevant1 <-> Irrelevant1 (method=exact_match, score=1.000)', 'Probe <-> Probe (method=exact_match, score=1.000)', 'Fake <-> Fake (method=exact_match, score=1.000)', 'Irrelevant2 <-> Irrelevant2 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:57:17.325] === SERIES_COMPARISON ===
+Comparaison Irrelevant1 vs Irrelevant1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.534915
+  - MAE Relative: 0.112350
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.001561
+  - X Cutoff: N/A
+  - GT Points: 226
+  - Extracted Points: 23
+  - Points Ratio: 0.10
+--------------------------------------------------
+
+[12:57:18.606] === SERIES_COMPARISON ===
+Comparaison Probe vs Probe avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.249900
+  - MAE Relative: 0.091488
+  - Left Miss (rel): -0.000390
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 196
+  - Extracted Points: 23
+  - Points Ratio: 0.12
+--------------------------------------------------
+
+[12:57:19.760] === SERIES_COMPARISON ===
+Comparaison Fake vs Fake avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.273100
+  - MAE Relative: 0.093186
+  - Left Miss (rel): 0.000781
+  - Right Miss (rel): 0.001561
+  - X Cutoff: N/A
+  - GT Points: 164
+  - Extracted Points: 23
+  - Points Ratio: 0.14
+--------------------------------------------------
+
+[12:57:21.063] === SERIES_COMPARISON ===
+Comparaison Irrelevant2 vs Irrelevant2 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.679477
+  - MAE Relative: 0.049735
+  - Left Miss (rel): -0.000390
+  - Right Miss (rel): 0.000781
+  - X Cutoff: N/A
+  - GT Points: 190
+  - Extracted Points: 23
+  - Points Ratio: 0.12
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:57:21
+Total Duration: 5.51 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3553137_g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

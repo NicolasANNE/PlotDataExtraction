@@ -1,0 +1,827 @@
+
+================================================================================
+VALIDATION LOG - PMC1343564_1471-2458-5-136-3
+================================================================================
+Timestamp: 2025-08-06 20:15:20
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1343564___1471-2458-5-136-3
+================================================================================
+
+
+
+[20:15:20.962] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:21.030] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:21.058] === DATA_LOADING ===
+Chargement des données GT depuis PMC1343564___1471-2458-5-136-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1343564___1471-2458-5-136-3.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:21.065] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1343564___1471-2458-5-136-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1343564___1471-2458-5-136-3\PMC1343564___1471-2458-5-136-3.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:21.068] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1343564_1471-2458-5-136-3
+================================================================================
+Timestamp: 2025-08-06 21:30:57
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1343564___1471-2458-5-136-3
+================================================================================
+
+
+
+[21:30:57.093] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:30:57.101] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:30:57.138] === DATA_LOADING ===
+Chargement des données GT depuis PMC1343564___1471-2458-5-136-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1343564___1471-2458-5-136-3.json
+  - Series Count: 3
+  - Series Names: ['2 ml', '5 ml', '10 ml']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[21:30:57.142] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1343564___1471-2458-5-136-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1343564___1471-2458-5-136-3\PMC1343564___1471-2458-5-136-3.json
+  - Series Count: 3
+  - Series Names: ['2 ml', '5 ml', '10 ml']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[21:30:57.149] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 9.3684
+  - Y Min-Max: [5.0000, 14.3684]
+  - X Range: 3.0
+--------------------------------------------------
+
+[21:30:57.152] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:30:57.165] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['2 ml <-> 2 ml (method=exact_match, score=1.000)', '5 ml <-> 5 ml (method=exact_match, score=1.000)', '10 ml <-> 10 ml (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:30:58.452] === SERIES_COMPARISON ===
+Comparaison 2 ml vs 2 ml avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.014075
+  - MAE Relative: 0.001502
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:30:59.418] === SERIES_COMPARISON ===
+Comparaison 5 ml vs 5 ml avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.381973
+  - MAE Relative: 0.254256
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:31:00.323] === SERIES_COMPARISON ===
+Comparaison 10 ml vs 10 ml avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.423915
+  - MAE Relative: 0.258733
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:31:00
+Total Duration: 3.28 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1343564_1471-2458-5-136-3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1343564_1471-2458-5-136-3
+================================================================================
+Timestamp: 2025-08-07 12:46:55
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1343564___1471-2458-5-136-3
+================================================================================
+
+
+
+[12:46:55.462] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:46:55.476] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:46:55.580] === DATA_LOADING ===
+Chargement des données GT depuis PMC1343564___1471-2458-5-136-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1343564___1471-2458-5-136-3.json
+  - Series Count: 3
+  - Series Names: ['2 ml', '5 ml', '10 ml']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[12:46:55.608] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1343564___1471-2458-5-136-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1343564___1471-2458-5-136-3\PMC1343564___1471-2458-5-136-3.json
+  - Series Count: 3
+  - Series Names: ['2 ml', '5 ml', '10 ml']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[12:46:55.639] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 9.3684
+  - Y Min-Max: [5.0000, 14.3684]
+  - X Range: 3.0
+--------------------------------------------------
+
+[12:46:55.649] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:46:55.653] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['2 ml <-> 2 ml (method=exact_match, score=1.000)', '5 ml <-> 5 ml (method=exact_match, score=1.000)', '10 ml <-> 10 ml (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:46:57.585] === SERIES_COMPARISON ===
+Comparaison 2 ml vs 2 ml avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.014075
+  - MAE Relative: 0.001502
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:46:59.032] === SERIES_COMPARISON ===
+Comparaison 5 ml vs 5 ml avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.381973
+  - MAE Relative: 0.254256
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:46:59.989] === SERIES_COMPARISON ===
+Comparaison 10 ml vs 10 ml avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.423915
+  - MAE Relative: 0.258733
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:46:59
+Total Duration: 4.54 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1343564_1471-2458-5-136-3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1343564_1471-2458-5-136-3
+================================================================================
+Timestamp: 2025-08-07 13:03:55
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1343564___1471-2458-5-136-3
+================================================================================
+
+
+
+[13:03:55.266] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:03:55.286] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:03:55.343] === DATA_LOADING ===
+Chargement des données GT depuis PMC1343564___1471-2458-5-136-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1343564___1471-2458-5-136-3.json
+  - Series Count: 3
+  - Series Names: ['2 ml', '5 ml', '10 ml']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[13:03:55.347] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1343564___1471-2458-5-136-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1343564___1471-2458-5-136-3\PMC1343564___1471-2458-5-136-3.json
+  - Series Count: 3
+  - Series Names: ['2 ml', '5 ml', '10 ml']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[13:03:55.351] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 9.3684
+  - Y Min-Max: [5.0000, 14.3684]
+  - X Range: 3.0
+--------------------------------------------------
+
+[13:03:55.354] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:03:55.357] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['2 ml <-> 2 ml (method=exact_match, score=1.000)', '5 ml <-> 5 ml (method=exact_match, score=1.000)', '10 ml <-> 10 ml (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:03:56.195] === SERIES_COMPARISON ===
+Comparaison 2 ml vs 2 ml avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.014075
+  - MAE Relative: 0.001502
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:03:57.058] === SERIES_COMPARISON ===
+Comparaison 5 ml vs 5 ml avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.381973
+  - MAE Relative: 0.254256
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:03:57.657] === SERIES_COMPARISON ===
+Comparaison 10 ml vs 10 ml avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.423915
+  - MAE Relative: 0.258733
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:03:57
+Total Duration: 2.44 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1343564_1471-2458-5-136-3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1343564_1471-2458-5-136-3
+================================================================================
+Timestamp: 2025-08-07 16:37:27
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1343564___1471-2458-5-136-3
+================================================================================
+
+
+
+[16:37:27.657] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:37:27.659] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:37:27.738] === DATA_LOADING ===
+Chargement des données GT depuis PMC1343564___1471-2458-5-136-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1343564___1471-2458-5-136-3.json
+  - Series Count: 3
+  - Series Names: ['2 ml', '5 ml', '10 ml']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[16:37:27.774] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1343564___1471-2458-5-136-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1343564___1471-2458-5-136-3\PMC1343564___1471-2458-5-136-3.json
+  - Series Count: 3
+  - Series Names: ['2 ml', '5 ml', '10 ml']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[16:37:27.778] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 9.3684
+  - Y Min-Max: [5.0000, 14.3684]
+  - X Range: 3.0
+--------------------------------------------------
+
+[16:37:27.781] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:37:27.788] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['2 ml <-> 2 ml (method=exact_match, score=1.000)', '5 ml <-> 5 ml (method=exact_match, score=1.000)', '10 ml <-> 10 ml (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:37:28.809] === SERIES_COMPARISON ===
+Comparaison 2 ml vs 2 ml avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.014075
+  - MAE Relative: 0.001502
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:37:30.152] === SERIES_COMPARISON ===
+Comparaison 5 ml vs 5 ml avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.381973
+  - MAE Relative: 0.254256
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:37:31.234] === SERIES_COMPARISON ===
+Comparaison 10 ml vs 10 ml avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.423915
+  - MAE Relative: 0.258733
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:37:31
+Total Duration: 3.61 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1343564_1471-2458-5-136-3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1343564_1471-2458-5-136-3
+================================================================================
+Timestamp: 2025-08-07 16:56:40
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1343564___1471-2458-5-136-3
+================================================================================
+
+
+
+[16:56:40.628] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:56:40.631] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:56:40.671] === DATA_LOADING ===
+Chargement des données GT depuis PMC1343564___1471-2458-5-136-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1343564___1471-2458-5-136-3.json
+  - Series Count: 3
+  - Series Names: ['2 ml', '5 ml', '10 ml']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[16:56:40.674] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1343564___1471-2458-5-136-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1343564___1471-2458-5-136-3\PMC1343564___1471-2458-5-136-3.json
+  - Series Count: 3
+  - Series Names: ['2 ml', '5 ml', '10 ml']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[16:56:40.684] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 9.3684
+  - Y Min-Max: [5.0000, 14.3684]
+  - X Range: 3.0
+--------------------------------------------------
+
+[16:56:40.689] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:56:40.692] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['2 ml <-> 2 ml (method=exact_match, score=1.000)', '5 ml <-> 5 ml (method=exact_match, score=1.000)', '10 ml <-> 10 ml (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:56:41.950] === SERIES_COMPARISON ===
+Comparaison 2 ml vs 2 ml avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.014075
+  - MAE Relative: 0.001502
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:56:43.383] === SERIES_COMPARISON ===
+Comparaison 5 ml vs 5 ml avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.381973
+  - MAE Relative: 0.254256
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:56:44.942] === SERIES_COMPARISON ===
+Comparaison 10 ml vs 10 ml avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.423915
+  - MAE Relative: 0.258733
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:56:44
+Total Duration: 4.34 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1343564_1471-2458-5-136-3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1343564_1471-2458-5-136-3
+================================================================================
+Timestamp: 2025-08-11 13:45:33
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1343564___1471-2458-5-136-3
+================================================================================
+
+
+
+[13:45:33.077] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:45:33.081] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:45:33.196] === DATA_LOADING ===
+Chargement des données GT depuis PMC1343564___1471-2458-5-136-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1343564___1471-2458-5-136-3.json
+  - Series Count: 3
+  - Series Names: ['2 ml', '5 ml', '10 ml']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[13:45:33.201] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1343564___1471-2458-5-136-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1343564___1471-2458-5-136-3\PMC1343564___1471-2458-5-136-3.json
+  - Series Count: 3
+  - Series Names: ['2 ml', '5 ml', '10 ml']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[13:45:33.204] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 9.3684
+  - Y Min-Max: [5.0000, 14.3684]
+  - X Range: 3.0
+--------------------------------------------------
+
+[13:45:33.207] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:45:33.209] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['2 ml <-> 2 ml (method=exact_match, score=1.000)', '5 ml <-> 5 ml (method=exact_match, score=1.000)', '10 ml <-> 10 ml (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:45:33.964] === SERIES_COMPARISON ===
+Comparaison 2 ml vs 2 ml avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.014075
+  - MAE Relative: 0.001502
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:45:34.811] === SERIES_COMPARISON ===
+Comparaison 5 ml vs 5 ml avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.381973
+  - MAE Relative: 0.254256
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:45:35.683] === SERIES_COMPARISON ===
+Comparaison 10 ml vs 10 ml avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.423915
+  - MAE Relative: 0.258733
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-11 13:45:35
+Total Duration: 2.61 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1343564_1471-2458-5-136-3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

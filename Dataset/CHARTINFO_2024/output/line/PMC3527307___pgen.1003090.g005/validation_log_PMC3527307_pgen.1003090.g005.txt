@@ -1,0 +1,129 @@
+
+================================================================================
+VALIDATION LOG - PMC3527307_pgen.1003090.g005
+================================================================================
+Timestamp: 2025-08-07 12:56:25
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3527307___pgen.1003090.g005
+================================================================================
+
+
+
+[12:56:25.988] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:56:25.991] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:56:26.056] === DATA_LOADING ===
+Chargement des données GT depuis PMC3527307___pgen.1003090.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3527307___pgen.1003090.g005.json
+  - Series Count: 3
+  - Series Names: ['Singh et al.', 'LDhelmet, RAL', 'LDhelmet, RG']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 27
+--------------------------------------------------
+
+[12:56:26.060] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3527307___pgen.1003090.g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3527307___pgen.1003090.g005\PMC3527307___pgen.1003090.g005.json
+  - Series Count: 3
+  - Series Names: ['Singh et al.', 'LDhelmet, RAL', 'LDhelmet, RG']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 27
+--------------------------------------------------
+
+[12:56:26.065] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.1759
+  - Y Min-Max: [0.1541, 1.3300]
+  - X Range: 8.038155802861684
+--------------------------------------------------
+
+[12:56:26.068] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:56:26.070] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Singh et al. <-> Singh et al. (method=exact_match, score=1.000)', 'LDhelmet, RAL <-> LDhelmet, RAL (method=exact_match, score=1.000)', 'LDhelmet, RG <-> LDhelmet, RG (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:56:26.748] === SERIES_COMPARISON ===
+Comparaison Singh et al. vs Singh et al. avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.004444
+  - MAE Relative: 0.003779
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.002110
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:56:27.452] === SERIES_COMPARISON ===
+Comparaison LDhelmet, RAL vs LDhelmet, RAL avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.007624
+  - MAE Relative: 0.006483
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.004747
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:56:28.525] === SERIES_COMPARISON ===
+Comparaison LDhelmet, RG vs LDhelmet, RG avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.018170
+  - MAE Relative: 0.015452
+  - Left Miss (rel): -0.001582
+  - Right Miss (rel): 0.003165
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:56:28
+Total Duration: 2.55 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3527307_pgen.1003090.g005.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

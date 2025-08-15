@@ -1,0 +1,429 @@
+
+================================================================================
+VALIDATION LOG - PMC2687449_1471-2458-9-145-1
+================================================================================
+Timestamp: 2025-08-07 13:10:19
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC2687449___1471-2458-9-145-1
+================================================================================
+
+
+
+[13:10:19.108] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:10:19.112] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:10:19.207] === DATA_LOADING ===
+Chargement des données GT depuis PMC2687449___1471-2458-9-145-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\horizontal_bar\PMC2687449___1471-2458-9-145-1.json
+  - Series Count: 4
+  - Series Names: ['Complaint', 'PNC', 'SNC', 'Other/no answer']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 96
+--------------------------------------------------
+
+[13:10:19.215] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2687449___1471-2458-9-145-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC2687449___1471-2458-9-145-1\PMC2687449___1471-2458-9-145-1.json
+  - Series Count: 4
+  - Series Names: ['Compliant', 'PNC', 'SNC', 'Other/no answer']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 96
+--------------------------------------------------
+
+[13:10:19.240] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 84.9949
+  - Y Min-Max: [0.0051, 85.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:10:19.242] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:10:19.245] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['PNC <-> PNC (method=exact_match, score=1.000)', 'SNC <-> SNC (method=exact_match, score=1.000)', 'Other/no answer <-> Other/no answer (method=exact_match, score=1.000)', 'Complaint <-> Compliant (method=fuzzy_match, score=0.850)']
+--------------------------------------------------
+
+[13:10:23.808] === SERIES_COMPARISON ===
+Comparaison PNC vs PNC avec BarComparator
+
+Data:
+  - MAE Absolute: 6.009928
+  - MAE Relative: 0.070709
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.997500
+  - GT Points: 24
+  - Extracted Points: 24
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:10:26.395] === SERIES_COMPARISON ===
+Comparaison SNC vs SNC avec BarComparator
+
+Data:
+  - MAE Absolute: 4.864679
+  - MAE Relative: 0.057235
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.997500
+  - GT Points: 24
+  - Extracted Points: 24
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:10:32.671] === SERIES_COMPARISON ===
+Comparaison Other/no answer vs Other/no answer avec BarComparator
+
+Data:
+  - MAE Absolute: 4.901992
+  - MAE Relative: 0.057674
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.997500
+  - GT Points: 24
+  - Extracted Points: 24
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:10:37.946] === SERIES_COMPARISON ===
+Comparaison Complaint vs Compliant avec BarComparator
+
+Data:
+  - MAE Absolute: 83.016840
+  - MAE Relative: 0.976727
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.997500
+  - GT Points: 24
+  - Extracted Points: 24
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:10:37
+Total Duration: 18.85 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2687449_1471-2458-9-145-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2687449_1471-2458-9-145-1
+================================================================================
+Timestamp: 2025-08-07 16:43:59
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC2687449___1471-2458-9-145-1
+================================================================================
+
+
+
+[16:43:59.192] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:43:59.196] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:43:59.472] === DATA_LOADING ===
+Chargement des données GT depuis PMC2687449___1471-2458-9-145-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\horizontal_bar\PMC2687449___1471-2458-9-145-1.json
+  - Series Count: 4
+  - Series Names: ['Complaint', 'PNC', 'SNC', 'Other/no answer']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 96
+--------------------------------------------------
+
+[16:43:59.571] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2687449___1471-2458-9-145-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC2687449___1471-2458-9-145-1\PMC2687449___1471-2458-9-145-1.json
+  - Series Count: 4
+  - Series Names: ['Compliant', 'PNC', 'SNC', 'Other/no answer']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 96
+--------------------------------------------------
+
+[16:43:59.633] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 84.9949
+  - Y Min-Max: [0.0051, 85.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:43:59.638] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:43:59.655] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['PNC <-> PNC (method=exact_match, score=1.000)', 'SNC <-> SNC (method=exact_match, score=1.000)', 'Other/no answer <-> Other/no answer (method=exact_match, score=1.000)', 'Complaint <-> Compliant (method=fuzzy_match, score=0.850)']
+--------------------------------------------------
+
+[16:44:03.488] === SERIES_COMPARISON ===
+Comparaison PNC vs PNC avec BarComparator
+
+Data:
+  - MAE Absolute: 6.009928
+  - MAE Relative: 0.070709
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.997500
+  - GT Points: 24
+  - Extracted Points: 24
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:44:07.120] === SERIES_COMPARISON ===
+Comparaison SNC vs SNC avec BarComparator
+
+Data:
+  - MAE Absolute: 4.864679
+  - MAE Relative: 0.057235
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.997500
+  - GT Points: 24
+  - Extracted Points: 24
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:44:11.663] === SERIES_COMPARISON ===
+Comparaison Other/no answer vs Other/no answer avec BarComparator
+
+Data:
+  - MAE Absolute: 4.901992
+  - MAE Relative: 0.057674
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.997500
+  - GT Points: 24
+  - Extracted Points: 24
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:44:14.613] === SERIES_COMPARISON ===
+Comparaison Complaint vs Compliant avec BarComparator
+
+Data:
+  - MAE Absolute: 83.016840
+  - MAE Relative: 0.976727
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.997500
+  - GT Points: 24
+  - Extracted Points: 24
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:44:14
+Total Duration: 15.45 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2687449_1471-2458-9-145-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2687449_1471-2458-9-145-1
+================================================================================
+Timestamp: 2025-08-07 17:03:16
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC2687449___1471-2458-9-145-1
+================================================================================
+
+
+
+[17:03:16.242] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:03:16.425] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[17:03:16.680] === DATA_LOADING ===
+Chargement des données GT depuis PMC2687449___1471-2458-9-145-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\horizontal_bar\PMC2687449___1471-2458-9-145-1.json
+  - Series Count: 4
+  - Series Names: ['Complaint', 'PNC', 'SNC', 'Other/no answer']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 96
+--------------------------------------------------
+
+[17:03:16.732] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2687449___1471-2458-9-145-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC2687449___1471-2458-9-145-1\PMC2687449___1471-2458-9-145-1.json
+  - Series Count: 4
+  - Series Names: ['Compliant', 'PNC', 'SNC', 'Other/no answer']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 96
+--------------------------------------------------
+
+[17:03:16.780] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 84.9949
+  - Y Min-Max: [0.0051, 85.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[17:03:16.807] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:03:16.872] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['PNC <-> PNC (method=exact_match, score=1.000)', 'SNC <-> SNC (method=exact_match, score=1.000)', 'Other/no answer <-> Other/no answer (method=exact_match, score=1.000)', 'Complaint <-> Compliant (method=fuzzy_match, score=0.850)']
+--------------------------------------------------
+
+[17:03:22.828] === SERIES_COMPARISON ===
+Comparaison PNC vs PNC avec BarComparator
+
+Data:
+  - MAE Absolute: 6.009928
+  - MAE Relative: 0.070709
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.997500
+  - GT Points: 24
+  - Extracted Points: 24
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:03:26.217] === SERIES_COMPARISON ===
+Comparaison SNC vs SNC avec BarComparator
+
+Data:
+  - MAE Absolute: 4.864679
+  - MAE Relative: 0.057235
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.997500
+  - GT Points: 24
+  - Extracted Points: 24
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:03:29.162] === SERIES_COMPARISON ===
+Comparaison Other/no answer vs Other/no answer avec BarComparator
+
+Data:
+  - MAE Absolute: 4.901992
+  - MAE Relative: 0.057674
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.997500
+  - GT Points: 24
+  - Extracted Points: 24
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:03:31.455] === SERIES_COMPARISON ===
+Comparaison Complaint vs Compliant avec BarComparator
+
+Data:
+  - MAE Absolute: 83.016840
+  - MAE Relative: 0.976727
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.997500
+  - GT Points: 24
+  - Extracted Points: 24
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:03:31
+Total Duration: 15.29 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2687449_1471-2458-9-145-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

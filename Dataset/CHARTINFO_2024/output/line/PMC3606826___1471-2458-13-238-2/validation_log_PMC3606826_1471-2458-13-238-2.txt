@@ -1,0 +1,129 @@
+
+================================================================================
+VALIDATION LOG - PMC3606826_1471-2458-13-238-2
+================================================================================
+Timestamp: 2025-08-07 12:57:38
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3606826___1471-2458-13-238-2
+================================================================================
+
+
+
+[12:57:38.815] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:57:38.820] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:57:38.922] === DATA_LOADING ===
+Chargement des données GT depuis PMC3606826___1471-2458-13-238-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3606826___1471-2458-13-238-2.json
+  - Series Count: 3
+  - Series Names: ['home-based care', 'village -level care', 'average level of all care']
+  - X Data Types: {'categorical': 3}
+  - Total Data Points: 18
+--------------------------------------------------
+
+[12:57:38.928] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3606826___1471-2458-13-238-2.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3606826___1471-2458-13-238-2\PMC3606826___1471-2458-13-238-2.json
+  - Series Count: 3
+  - Series Names: ['home-based care', 'village-level care', 'average level of all care']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 18
+--------------------------------------------------
+
+[12:57:38.933] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 51.3427
+  - Y Min-Max: [5.5000, 56.8427]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:57:38.936] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:57:38.969] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['home-based care <-> home-based care (method=exact_match, score=1.000)', 'average level of all care <-> average level of all care (method=exact_match, score=1.000)', 'village -level care <-> village-level care (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[12:57:41.415] === SERIES_COMPARISON ===
+Comparaison home-based care vs home-based care avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 9.709454
+  - MAE Relative: 0.189111
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.321667
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:57:44.998] === SERIES_COMPARISON ===
+Comparaison average level of all care vs average level of all care avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 2.738323
+  - MAE Relative: 0.053334
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.321667
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:57:48.761] === SERIES_COMPARISON ===
+Comparaison village -level care vs village-level care avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 2.472863
+  - MAE Relative: 0.048164
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.321667
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:57:48
+Total Duration: 9.96 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3606826_1471-2458-13-238-2.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

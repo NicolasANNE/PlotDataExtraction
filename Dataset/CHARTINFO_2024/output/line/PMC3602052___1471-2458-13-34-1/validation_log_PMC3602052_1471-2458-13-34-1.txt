@@ -1,0 +1,115 @@
+
+================================================================================
+VALIDATION LOG - PMC3602052_1471-2458-13-34-1
+================================================================================
+Timestamp: 2025-08-07 12:57:28
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3602052___1471-2458-13-34-1
+================================================================================
+
+
+
+[12:57:28.087] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:57:28.093] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:57:28.161] === DATA_LOADING ===
+Chargement des données GT depuis PMC3602052___1471-2458-13-34-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3602052___1471-2458-13-34-1.json
+  - Series Count: 3
+  - Series Names: ['SEER17', 'Norway', 'Reference object: SEER17 (2003)']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 21
+--------------------------------------------------
+
+[12:57:28.177] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3602052___1471-2458-13-34-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3602052___1471-2458-13-34-1\PMC3602052___1471-2458-13-34-1.json
+  - Series Count: 2
+  - Series Names: ['SEER17', 'Norway']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 21
+--------------------------------------------------
+
+[12:57:28.217] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.1423
+  - Y Min-Max: [0.9277, 1.0700]
+  - X Range: 35.46875
+--------------------------------------------------
+
+[12:57:28.222] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:57:28.225] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['SEER17 <-> SEER17 (method=exact_match, score=1.000)', 'Norway <-> Norway (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:57:30.491] === SERIES_COMPARISON ===
+Comparaison SEER17 vs SEER17 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.007099
+  - MAE Relative: 0.049896
+  - Left Miss (rel): -0.002002
+  - Right Miss (rel): 0.000721
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 14
+  - Points Ratio: 1.17
+--------------------------------------------------
+
+[12:57:32.245] === SERIES_COMPARISON ===
+Comparaison Norway vs Norway avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.004951
+  - MAE Relative: 0.034794
+  - Left Miss (rel): -0.003044
+  - Right Miss (rel): -0.109732
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 7
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:57:32
+Total Duration: 4.17 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3602052_1471-2458-13-34-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

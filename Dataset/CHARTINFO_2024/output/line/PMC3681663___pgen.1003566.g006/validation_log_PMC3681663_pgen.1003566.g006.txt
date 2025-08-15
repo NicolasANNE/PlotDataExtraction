@@ -1,0 +1,129 @@
+
+================================================================================
+VALIDATION LOG - PMC3681663_pgen.1003566.g006
+================================================================================
+Timestamp: 2025-08-07 12:58:57
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3681663___pgen.1003566.g006
+================================================================================
+
+
+
+[12:58:57.804] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:58:57.814] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:58:57.881] === DATA_LOADING ===
+Chargement des données GT depuis PMC3681663___pgen.1003566.g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3681663___pgen.1003566.g006.json
+  - Series Count: 3
+  - Series Names: ['REPLICABILITY RATE', 'EXPECTED REPLICABILITY RATE', 'EFFECTIVE REPLICABILITY']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 104
+--------------------------------------------------
+
+[12:58:57.886] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3681663___pgen.1003566.g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3681663___pgen.1003566.g006\PMC3681663___pgen.1003566.g006.json
+  - Series Count: 3
+  - Series Names: ['REPLICABILITY RATE', 'EXPECTED REPLICABILITY RATE', 'EFFECTIVE REPLICABILITY']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 114
+--------------------------------------------------
+
+[12:58:57.924] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.5670
+  - Y Min-Max: [0.3400, 0.9070]
+  - X Range: 0.3709009009009009
+--------------------------------------------------
+
+[12:58:57.934] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:58:57.945] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['REPLICABILITY RATE <-> REPLICABILITY RATE (method=exact_match, score=1.000)', 'EXPECTED REPLICABILITY RATE <-> EXPECTED REPLICABILITY RATE (method=exact_match, score=1.000)', 'EFFECTIVE REPLICABILITY <-> EFFECTIVE REPLICABILITY (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:58:59.725] === SERIES_COMPARISON ===
+Comparaison REPLICABILITY RATE vs REPLICABILITY RATE avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.021223
+  - MAE Relative: 0.037432
+  - Left Miss (rel): 0.000486
+  - Right Miss (rel): -0.034248
+  - X Cutoff: N/A
+  - GT Points: 39
+  - Extracted Points: 38
+  - Points Ratio: 0.97
+--------------------------------------------------
+
+[12:59:01.068] === SERIES_COMPARISON ===
+Comparaison EXPECTED REPLICABILITY RATE vs EXPECTED REPLICABILITY RATE avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.012745
+  - MAE Relative: 0.022480
+  - Left Miss (rel): 0.002429
+  - Right Miss (rel): -0.028419
+  - X Cutoff: N/A
+  - GT Points: 27
+  - Extracted Points: 38
+  - Points Ratio: 1.41
+--------------------------------------------------
+
+[12:59:02.609] === SERIES_COMPARISON ===
+Comparaison EFFECTIVE REPLICABILITY vs EFFECTIVE REPLICABILITY avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.017311
+  - MAE Relative: 0.030534
+  - Left Miss (rel): -0.000810
+  - Right Miss (rel): -0.036191
+  - X Cutoff: N/A
+  - GT Points: 38
+  - Extracted Points: 38
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:59:02
+Total Duration: 4.86 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3681663_pgen.1003566.g006.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

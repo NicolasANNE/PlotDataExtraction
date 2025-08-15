@@ -1,0 +1,365 @@
+
+================================================================================
+VALIDATION LOG - PMC2680616_g003
+================================================================================
+Timestamp: 2025-08-07 13:07:30
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2680616___g003
+================================================================================
+
+
+
+[13:07:30.349] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:07:30.352] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:07:30.421] === ERROR IN VALIDATION_PROCESS ===
+Error: 'name'
+Type: KeyError
+Details: Erreur globale lors du traitement de PMC2680616___g003
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:07:30
+Total Duration: 0.08 seconds
+Total Series Processed: 0
+Successful Comparisons: 0
+Errors: 1
+Success Rate: N/A (aucun résultat)
+
+Generated Files:
+- Validation Log: validation_log_PMC2680616_g003.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2680616_g003
+================================================================================
+Timestamp: 2025-08-07 16:41:48
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2680616___g003
+================================================================================
+
+
+
+[16:41:48.955] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:41:48.957] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:41:49.000] === DATA_LOADING ===
+Chargement des données GT depuis PMC2680616___g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC2680616___g003.json
+  - Series Count: 5
+  - Series Names: ['Asia', 'Africa', 'EU', 'Latin America', 'United States']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 30
+--------------------------------------------------
+
+[16:41:49.012] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2680616___g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2680616___g003\PMC2680616___g003.json
+  - Series Count: 5
+  - Series Names: ['Asia', 'Africa', 'EU', 'Latin America', 'United States']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 479
+--------------------------------------------------
+
+[16:41:49.020] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 16.2171
+  - Y Min-Max: [0.0000, 16.2171]
+  - X Range: 0.5742513712218461
+--------------------------------------------------
+
+[16:41:49.025] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:41:49.028] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['Asia <-> Asia (method=exact_match, score=1.000)', 'Africa <-> Africa (method=exact_match, score=1.000)', 'EU <-> EU (method=exact_match, score=1.000)', 'Latin America <-> Latin America (method=exact_match, score=1.000)', 'United States <-> United States (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:41:49.593] === SERIES_COMPARISON ===
+Comparaison Asia vs Asia avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.297250
+  - MAE Relative: 0.203320
+  - Left Miss (rel): 0.007403
+  - Right Miss (rel): -0.114588
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 8
+  - Points Ratio: 2.00
+--------------------------------------------------
+
+[16:41:50.215] === SERIES_COMPARISON ===
+Comparaison Africa vs Africa avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.285401
+  - MAE Relative: 0.017599
+  - Left Miss (rel): -0.194029
+  - Right Miss (rel): -0.018993
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 6
+  - Points Ratio: 0.86
+--------------------------------------------------
+
+[16:41:51.170] === SERIES_COMPARISON ===
+Comparaison EU vs EU avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.313836
+  - MAE Relative: 0.019352
+  - Left Miss (rel): 0.029713
+  - Right Miss (rel): 0.016819
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 5
+  - Points Ratio: 0.71
+--------------------------------------------------
+
+[16:41:51.972] === SERIES_COMPARISON ===
+Comparaison Latin America vs Latin America avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.234904
+  - MAE Relative: 0.014485
+  - Left Miss (rel): -0.027983
+  - Right Miss (rel): -0.007592
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 3
+  - Points Ratio: 0.75
+--------------------------------------------------
+
+[16:41:52.479] === SERIES_COMPARISON ===
+Comparaison United States vs United States avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.545656
+  - MAE Relative: 0.156974
+  - Left Miss (rel): -0.142817
+  - Right Miss (rel): -0.047464
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 457
+  - Points Ratio: 57.12
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:41:52
+Total Duration: 3.57 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2680616_g003.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2680616_g003
+================================================================================
+Timestamp: 2025-08-07 17:01:02
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2680616___g003
+================================================================================
+
+
+
+[17:01:02.787] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:01:02.789] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[17:01:02.845] === DATA_LOADING ===
+Chargement des données GT depuis PMC2680616___g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC2680616___g003.json
+  - Series Count: 5
+  - Series Names: ['Asia', 'Africa', 'EU', 'Latin America', 'United States']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 30
+--------------------------------------------------
+
+[17:01:02.862] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2680616___g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2680616___g003\PMC2680616___g003.json
+  - Series Count: 5
+  - Series Names: ['Asia', 'Africa', 'EU', 'Latin America', 'United States']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 479
+--------------------------------------------------
+
+[17:01:02.866] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 16.2171
+  - Y Min-Max: [0.0000, 16.2171]
+  - X Range: 0.5742513712218461
+--------------------------------------------------
+
+[17:01:02.868] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:01:02.871] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['Asia <-> Asia (method=exact_match, score=1.000)', 'Africa <-> Africa (method=exact_match, score=1.000)', 'EU <-> EU (method=exact_match, score=1.000)', 'Latin America <-> Latin America (method=exact_match, score=1.000)', 'United States <-> United States (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[17:01:03.504] === SERIES_COMPARISON ===
+Comparaison Asia vs Asia avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.297250
+  - MAE Relative: 0.203320
+  - Left Miss (rel): 0.007403
+  - Right Miss (rel): -0.114588
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 8
+  - Points Ratio: 2.00
+--------------------------------------------------
+
+[17:01:04.097] === SERIES_COMPARISON ===
+Comparaison Africa vs Africa avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.285401
+  - MAE Relative: 0.017599
+  - Left Miss (rel): -0.194029
+  - Right Miss (rel): -0.018993
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 6
+  - Points Ratio: 0.86
+--------------------------------------------------
+
+[17:01:04.993] === SERIES_COMPARISON ===
+Comparaison EU vs EU avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.313836
+  - MAE Relative: 0.019352
+  - Left Miss (rel): 0.029713
+  - Right Miss (rel): 0.016819
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 5
+  - Points Ratio: 0.71
+--------------------------------------------------
+
+[17:01:05.542] === SERIES_COMPARISON ===
+Comparaison Latin America vs Latin America avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.234904
+  - MAE Relative: 0.014485
+  - Left Miss (rel): -0.027983
+  - Right Miss (rel): -0.007592
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 3
+  - Points Ratio: 0.75
+--------------------------------------------------
+
+[17:01:06.072] === SERIES_COMPARISON ===
+Comparaison United States vs United States avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.545656
+  - MAE Relative: 0.156974
+  - Left Miss (rel): -0.142817
+  - Right Miss (rel): -0.047464
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 457
+  - Points Ratio: 57.12
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:01:06
+Total Duration: 3.32 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2680616_g003.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

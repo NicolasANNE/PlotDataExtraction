@@ -1,0 +1,115 @@
+
+================================================================================
+VALIDATION LOG - PMC4450053_pgen.1004941.g001
+================================================================================
+Timestamp: 2025-08-06 20:48:58
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC4450053___pgen.1004941.g001
+================================================================================
+
+
+
+[20:48:58.482] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:48:58.484] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[20:48:58.532] === DATA_LOADING ===
+Chargement des données GT depuis PMC4450053___pgen.1004941.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\horizontal_bar\PMC4450053___pgen.1004941.g001.json
+  - Series Count: 2
+  - Series Names: ['Core gene GC', 'Core gene GC3']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 42
+--------------------------------------------------
+
+[20:48:58.535] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC4450053___pgen.1004941.g001.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC4450053___pgen.1004941.g001\PMC4450053___pgen.1004941.g001.json
+  - Series Count: 2
+  - Series Names: ['Core gene GC', 'Core gene GC3']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 36
+--------------------------------------------------
+
+[20:48:58.538] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 4.7446
+  - Y Min-Max: [-1.2000, 3.5446]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[20:48:58.539] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[20:48:58.541] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Core gene GC <-> Core gene GC (method=exact_match, score=1.000)', 'Core gene GC3 <-> Core gene GC3 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[20:49:00.120] === SERIES_COMPARISON ===
+Comparaison Core gene GC vs Core gene GC avec BarComparator
+
+Data:
+  - MAE Absolute: 0.347032
+  - MAE Relative: 0.073142
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.904762
+  - GT Points: 21
+  - Extracted Points: 18
+  - Points Ratio: 0.86
+--------------------------------------------------
+
+[20:49:01.522] === SERIES_COMPARISON ===
+Comparaison Core gene GC3 vs Core gene GC3 avec BarComparator
+
+Data:
+  - MAE Absolute: 0.705996
+  - MAE Relative: 0.148800
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.904762
+  - GT Points: 21
+  - Extracted Points: 18
+  - Points Ratio: 0.86
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 20:49:01
+Total Duration: 3.05 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC4450053_pgen.1004941.g001.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,303 @@
+
+================================================================================
+VALIDATION LOG - PMC3315081_ijerph-09-00192-g002
+================================================================================
+Timestamp: 2025-08-07 13:12:14
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC3315081___ijerph-09-00192-g002
+================================================================================
+
+
+
+[13:12:14.894] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:12:14.896] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:12:14.957] === DATA_LOADING ===
+Chargement des données GT depuis PMC3315081___ijerph-09-00192-g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\horizontal_bar\PMC3315081___ijerph-09-00192-g002.json
+  - Series Count: 1
+  - Series Names: ['[unnamed data series #0]']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[13:12:14.962] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3315081___ijerph-09-00192-g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC3315081___ijerph-09-00192-g002\PMC3315081___ijerph-09-00192-g002.json
+  - Series Count: 1
+  - Series Names: ['Cessation (%) with placebo']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[13:12:14.979] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 38.3573
+  - Y Min-Max: [8.5555, 46.9129]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:12:14.982] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:12:14.991] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['[unnamed data series #0] <-> Cessation (%) with placebo (method=position_match, score=0.100)']
+--------------------------------------------------
+
+[13:12:16.669] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs Cessation (%) with placebo avec BarComparator
+
+Data:
+  - MAE Absolute: 0.832418
+  - MAE Relative: 0.021702
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:12:16
+Total Duration: 1.81 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3315081_ijerph-09-00192-g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3315081_ijerph-09-00192-g002
+================================================================================
+Timestamp: 2025-08-07 16:46:06
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC3315081___ijerph-09-00192-g002
+================================================================================
+
+
+
+[16:46:06.217] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:46:06.222] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:46:06.309] === DATA_LOADING ===
+Chargement des données GT depuis PMC3315081___ijerph-09-00192-g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\horizontal_bar\PMC3315081___ijerph-09-00192-g002.json
+  - Series Count: 1
+  - Series Names: ['[unnamed data series #0]']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[16:46:06.361] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3315081___ijerph-09-00192-g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC3315081___ijerph-09-00192-g002\PMC3315081___ijerph-09-00192-g002.json
+  - Series Count: 4
+  - Series Names: ['Nicotine (57,826)', 'Alcohol (2,082)', 'Cocaine (1,134)', 'Opioids (607)']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[16:46:06.381] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 38.3573
+  - Y Min-Max: [8.5555, 46.9129]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:46:06.385] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:46:06.390] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['[unnamed data series #0] <-> Nicotine (57,826) (method=position_match, score=0.100)']
+--------------------------------------------------
+
+[16:46:08.886] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs Nicotine (57,826) avec BarComparator
+
+Data:
+  - MAE Absolute: 20.096250
+  - MAE Relative: 0.523922
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.615000
+  - GT Points: 4
+  - Extracted Points: 1
+  - Points Ratio: 0.25
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:46:08
+Total Duration: 2.72 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3315081_ijerph-09-00192-g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3315081_ijerph-09-00192-g002
+================================================================================
+Timestamp: 2025-08-07 17:05:02
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC3315081___ijerph-09-00192-g002
+================================================================================
+
+
+
+[17:05:02.914] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:05:02.929] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[17:05:02.975] === DATA_LOADING ===
+Chargement des données GT depuis PMC3315081___ijerph-09-00192-g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\horizontal_bar\PMC3315081___ijerph-09-00192-g002.json
+  - Series Count: 1
+  - Series Names: ['[unnamed data series #0]']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[17:05:02.986] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3315081___ijerph-09-00192-g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC3315081___ijerph-09-00192-g002\PMC3315081___ijerph-09-00192-g002.json
+  - Series Count: 1
+  - Series Names: ['Cessation (%) with placebo']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 4
+--------------------------------------------------
+
+[17:05:02.996] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 38.3573
+  - Y Min-Max: [8.5555, 46.9129]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[17:05:03.011] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:05:03.040] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['[unnamed data series #0] <-> Cessation (%) with placebo (method=position_match, score=0.100)']
+--------------------------------------------------
+
+[17:05:04.307] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs Cessation (%) with placebo avec BarComparator
+
+Data:
+  - MAE Absolute: 1.041637
+  - MAE Relative: 0.027156
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:05:04
+Total Duration: 1.43 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3315081_ijerph-09-00192-g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

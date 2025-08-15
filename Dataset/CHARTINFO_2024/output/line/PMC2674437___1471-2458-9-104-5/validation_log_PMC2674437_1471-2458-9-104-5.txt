@@ -1,0 +1,339 @@
+
+================================================================================
+VALIDATION LOG - PMC2674437_1471-2458-9-104-5
+================================================================================
+Timestamp: 2025-08-06 20:16:23
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2674437___1471-2458-9-104-5
+================================================================================
+
+
+
+[20:16:23.588] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:23.655] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:23.678] === DATA_LOADING ===
+Chargement des données GT depuis PMC2674437___1471-2458-9-104-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2674437___1471-2458-9-104-5.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:23.698] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2674437___1471-2458-9-104-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2674437___1471-2458-9-104-5\PMC2674437___1471-2458-9-104-5.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:23.700] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2674437_1471-2458-9-104-5
+================================================================================
+Timestamp: 2025-08-06 21:33:33
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2674437___1471-2458-9-104-5
+================================================================================
+
+
+
+[21:33:33.852] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:33:33.854] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:33:33.888] === DATA_LOADING ===
+Chargement des données GT depuis PMC2674437___1471-2458-9-104-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2674437___1471-2458-9-104-5.json
+  - Series Count: 4
+  - Series Names: ['Age 60 at baseline', 'Age 50 at baseline', 'Age 40 at baseline', 'Age 30 at baseline']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 70
+--------------------------------------------------
+
+[21:33:33.898] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2674437___1471-2458-9-104-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2674437___1471-2458-9-104-5\PMC2674437___1471-2458-9-104-5.json
+  - Series Count: 4
+  - Series Names: ['Age 60 at baseline', 'Age 50 at baseline', 'Age 40 at baseline', 'Age 30 at baseline']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 28
+--------------------------------------------------
+
+[21:33:33.902] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 71.9625
+  - Y Min-Max: [0.0375, 72.0000]
+  - X Range: 360.0
+--------------------------------------------------
+
+[21:33:33.904] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:33:33.905] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Age 60 at baseline <-> Age 60 at baseline (method=exact_match, score=1.000)', 'Age 50 at baseline <-> Age 50 at baseline (method=exact_match, score=1.000)', 'Age 40 at baseline <-> Age 40 at baseline (method=exact_match, score=1.000)', 'Age 30 at baseline <-> Age 30 at baseline (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:33:34.734] === SERIES_COMPARISON ===
+Comparaison Age 60 at baseline vs Age 60 at baseline avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 12.379852
+  - MAE Relative: 0.172032
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.018414
+  - X Cutoff: N/A
+  - GT Points: 18
+  - Extracted Points: 7
+  - Points Ratio: 0.39
+--------------------------------------------------
+
+[21:33:35.707] === SERIES_COMPARISON ===
+Comparaison Age 50 at baseline vs Age 50 at baseline avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 5.952569
+  - MAE Relative: 0.082718
+  - Left Miss (rel): -0.006125
+  - Right Miss (rel): -0.016117
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 7
+  - Points Ratio: 0.32
+--------------------------------------------------
+
+[21:33:37.049] === SERIES_COMPARISON ===
+Comparaison Age 40 at baseline vs Age 40 at baseline avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.875058
+  - MAE Relative: 0.039952
+  - Left Miss (rel): -0.006125
+  - Right Miss (rel): -0.022243
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 7
+  - Points Ratio: 0.47
+--------------------------------------------------
+
+[21:33:38.114] === SERIES_COMPARISON ===
+Comparaison Age 30 at baseline vs Age 30 at baseline avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.199272
+  - MAE Relative: 0.016665
+  - Left Miss (rel): -0.011485
+  - Right Miss (rel): -0.016500
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 7
+  - Points Ratio: 0.47
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:33:38
+Total Duration: 4.27 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2674437_1471-2458-9-104-5.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2674437_1471-2458-9-104-5
+================================================================================
+Timestamp: 2025-08-07 12:49:44
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2674437___1471-2458-9-104-5
+================================================================================
+
+
+
+[12:49:44.333] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:49:44.369] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:49:44.439] === DATA_LOADING ===
+Chargement des données GT depuis PMC2674437___1471-2458-9-104-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2674437___1471-2458-9-104-5.json
+  - Series Count: 4
+  - Series Names: ['Age 60 at baseline', 'Age 50 at baseline', 'Age 40 at baseline', 'Age 30 at baseline']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 70
+--------------------------------------------------
+
+[12:49:44.442] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2674437___1471-2458-9-104-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2674437___1471-2458-9-104-5\PMC2674437___1471-2458-9-104-5.json
+  - Series Count: 4
+  - Series Names: ['Age 60 at baseline', 'Age 50 at baseline', 'Age 40 at baseline', 'Age 30 at baseline']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 28
+--------------------------------------------------
+
+[12:49:44.446] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 71.9625
+  - Y Min-Max: [0.0375, 72.0000]
+  - X Range: 360.0
+--------------------------------------------------
+
+[12:49:44.486] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:49:44.506] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Age 60 at baseline <-> Age 60 at baseline (method=exact_match, score=1.000)', 'Age 50 at baseline <-> Age 50 at baseline (method=exact_match, score=1.000)', 'Age 40 at baseline <-> Age 40 at baseline (method=exact_match, score=1.000)', 'Age 30 at baseline <-> Age 30 at baseline (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:49:45.123] === SERIES_COMPARISON ===
+Comparaison Age 60 at baseline vs Age 60 at baseline avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 12.379852
+  - MAE Relative: 0.172032
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.018414
+  - X Cutoff: N/A
+  - GT Points: 18
+  - Extracted Points: 7
+  - Points Ratio: 0.39
+--------------------------------------------------
+
+[12:49:46.055] === SERIES_COMPARISON ===
+Comparaison Age 50 at baseline vs Age 50 at baseline avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 5.952569
+  - MAE Relative: 0.082718
+  - Left Miss (rel): -0.006125
+  - Right Miss (rel): -0.016117
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 7
+  - Points Ratio: 0.32
+--------------------------------------------------
+
+[12:49:46.953] === SERIES_COMPARISON ===
+Comparaison Age 40 at baseline vs Age 40 at baseline avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.875058
+  - MAE Relative: 0.039952
+  - Left Miss (rel): -0.006125
+  - Right Miss (rel): -0.022243
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 7
+  - Points Ratio: 0.47
+--------------------------------------------------
+
+[12:49:47.698] === SERIES_COMPARISON ===
+Comparaison Age 30 at baseline vs Age 30 at baseline avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.199272
+  - MAE Relative: 0.016665
+  - Left Miss (rel): -0.011485
+  - Right Miss (rel): -0.016500
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 7
+  - Points Ratio: 0.47
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:49:47
+Total Duration: 3.40 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2674437_1471-2458-9-104-5.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

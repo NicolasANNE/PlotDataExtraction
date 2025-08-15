@@ -1,0 +1,213 @@
+
+================================================================================
+VALIDATION LOG - PMC3517594_g006
+================================================================================
+Timestamp: 2025-08-07 12:56:10
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3517594___g006
+================================================================================
+
+
+
+[12:56:10.401] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:56:10.414] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:56:10.524] === DATA_LOADING ===
+Chargement des données GT depuis PMC3517594___g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3517594___g006.json
+  - Series Count: 9
+  - Series Names: ['AA001', 'AA002', 'AD001', 'AG001', 'AG002', 'AI001', 'Average (online)', 'Average (supervised)', 'Average (without AD001)']
+  - X Data Types: {'numeric': 9}
+  - Total Data Points: 275
+--------------------------------------------------
+
+[12:56:10.538] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3517594___g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3517594___g006\PMC3517594___g006.json
+  - Series Count: 9
+  - Series Names: ['AA001', 'AA002', 'AD001', 'AG001', 'AG002', 'AI001', 'Average (online)', 'Average (supervised)', 'Average (without AD001)']
+  - X Data Types: {'numeric': 9}
+  - Total Data Points: 117
+--------------------------------------------------
+
+[12:56:10.567] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.7532
+  - Y Min-Max: [0.2500, 1.0032]
+  - X Range: 63.17474674384949
+--------------------------------------------------
+
+[12:56:10.589] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:56:10.603] === MATCHING_RESULTS ===
+9 appariements trouvés
+
+Data:
+  - Total Matches: 9
+  - Match Details: ['AA001 <-> AA001 (method=exact_match, score=1.000)', 'AA002 <-> AA002 (method=exact_match, score=1.000)', 'AD001 <-> AD001 (method=exact_match, score=1.000)', 'AG001 <-> AG001 (method=exact_match, score=1.000)', 'AG002 <-> AG002 (method=exact_match, score=1.000)', 'AI001 <-> AI001 (method=exact_match, score=1.000)', 'Average (online) <-> Average (online) (method=exact_match, score=1.000)', 'Average (supervised) <-> Average (supervised) (method=exact_match, score=1.000)', 'Average (without AD001) <-> Average (without AD001) (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:56:12.015] === SERIES_COMPARISON ===
+Comparaison AA001 vs AA001 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.068215
+  - MAE Relative: 0.090563
+  - Left Miss (rel): 0.000710
+  - Right Miss (rel): 0.064943
+  - X Cutoff: N/A
+  - GT Points: 47
+  - Extracted Points: 13
+  - Points Ratio: 0.28
+--------------------------------------------------
+
+[12:56:13.405] === SERIES_COMPARISON ===
+Comparaison AA002 vs AA002 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.006365
+  - MAE Relative: 0.008450
+  - Left Miss (rel): 0.000281
+  - Right Miss (rel): 0.063139
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 13
+  - Points Ratio: 1.62
+--------------------------------------------------
+
+[12:56:14.173] === SERIES_COMPARISON ===
+Comparaison AD001 vs AD001 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.011212
+  - MAE Relative: 0.014885
+  - Left Miss (rel): -0.000578
+  - Right Miss (rel): 0.063139
+  - X Cutoff: N/A
+  - GT Points: 44
+  - Extracted Points: 13
+  - Points Ratio: 0.30
+--------------------------------------------------
+
+[12:56:15.303] === SERIES_COMPARISON ===
+Comparaison AG001 vs AG001 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.007264
+  - MAE Relative: 0.009644
+  - Left Miss (rel): 0.000281
+  - Right Miss (rel): 0.063998
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 13
+  - Points Ratio: 0.87
+--------------------------------------------------
+
+[12:56:16.799] === SERIES_COMPARISON ===
+Comparaison AG002 vs AG002 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.022348
+  - MAE Relative: 0.029669
+  - Left Miss (rel): 0.000710
+  - Right Miss (rel): 0.063998
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 13
+  - Points Ratio: 0.81
+--------------------------------------------------
+
+[12:56:18.212] === SERIES_COMPARISON ===
+Comparaison AI001 vs AI001 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.039790
+  - MAE Relative: 0.052826
+  - Left Miss (rel): 0.000281
+  - Right Miss (rel): 0.063139
+  - X Cutoff: N/A
+  - GT Points: 49
+  - Extracted Points: 13
+  - Points Ratio: 0.27
+--------------------------------------------------
+
+[12:56:19.376] === SERIES_COMPARISON ===
+Comparaison Average (online) vs Average (online) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.036609
+  - MAE Relative: 0.048602
+  - Left Miss (rel): 0.001140
+  - Right Miss (rel): 0.063568
+  - X Cutoff: N/A
+  - GT Points: 27
+  - Extracted Points: 13
+  - Points Ratio: 0.48
+--------------------------------------------------
+
+[12:56:20.029] === SERIES_COMPARISON ===
+Comparaison Average (supervised) vs Average (supervised) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.031809
+  - MAE Relative: 0.042230
+  - Left Miss (rel): 0.001140
+  - Right Miss (rel): 0.063568
+  - X Cutoff: N/A
+  - GT Points: 34
+  - Extracted Points: 13
+  - Points Ratio: 0.38
+--------------------------------------------------
+
+[12:56:20.693] === SERIES_COMPARISON ===
+Comparaison Average (without AD001) vs Average (without AD001) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.025003
+  - MAE Relative: 0.033194
+  - Left Miss (rel): 0.000710
+  - Right Miss (rel): 0.063568
+  - X Cutoff: N/A
+  - GT Points: 35
+  - Extracted Points: 13
+  - Points Ratio: 0.37
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:56:20
+Total Duration: 10.30 seconds
+Total Series Processed: 9
+Successful Comparisons: 9
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3517594_g006.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

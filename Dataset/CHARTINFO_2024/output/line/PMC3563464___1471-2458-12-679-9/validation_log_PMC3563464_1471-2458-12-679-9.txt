@@ -1,0 +1,129 @@
+
+================================================================================
+VALIDATION LOG - PMC3563464_1471-2458-12-679-9
+================================================================================
+Timestamp: 2025-08-07 12:57:22
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3563464___1471-2458-12-679-9
+================================================================================
+
+
+
+[12:57:22.428] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:57:22.430] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:57:22.481] === DATA_LOADING ===
+Chargement des données GT depuis PMC3563464___1471-2458-12-679-9.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3563464___1471-2458-12-679-9.json
+  - Series Count: 3
+  - Series Names: ['p=0.01', 'p=0.25', 'p=0.51']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 153
+--------------------------------------------------
+
+[12:57:22.485] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3563464___1471-2458-12-679-9.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3563464___1471-2458-12-679-9\PMC3563464___1471-2458-12-679-9.json
+  - Series Count: 3
+  - Series Names: ['p = 0.01', 'p = 0.25', 'p = 0.51']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 78
+--------------------------------------------------
+
+[12:57:22.489] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 6337.5720
+  - Y Min-Max: [-3934.0211, 2403.5509]
+  - X Range: 1.0132515822784811
+--------------------------------------------------
+
+[12:57:22.492] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:57:22.495] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['p=0.01 <-> p = 0.01 (method=fuzzy_match, score=0.850)', 'p=0.25 <-> p = 0.25 (method=fuzzy_match, score=0.850)', 'p=0.51 <-> p = 0.51 (method=fuzzy_match, score=0.850)']
+--------------------------------------------------
+
+[12:57:23.304] === SERIES_COMPARISON ===
+Comparaison p=0.01 vs p = 0.01 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 44.710058
+  - MAE Relative: 0.007055
+  - Left Miss (rel): -0.008133
+  - Right Miss (rel): 0.009890
+  - X Cutoff: N/A
+  - GT Points: 51
+  - Extracted Points: 26
+  - Points Ratio: 0.51
+--------------------------------------------------
+
+[12:57:23.958] === SERIES_COMPARISON ===
+Comparaison p=0.25 vs p = 0.25 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 164.774655
+  - MAE Relative: 0.026000
+  - Left Miss (rel): -0.010346
+  - Right Miss (rel): 0.013078
+  - X Cutoff: N/A
+  - GT Points: 51
+  - Extracted Points: 26
+  - Points Ratio: 0.51
+--------------------------------------------------
+
+[12:57:24.745] === SERIES_COMPARISON ===
+Comparaison p=0.51 vs p = 0.51 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 761.100584
+  - MAE Relative: 0.120093
+  - Left Miss (rel): -0.009597
+  - Right Miss (rel): 0.007450
+  - X Cutoff: N/A
+  - GT Points: 51
+  - Extracted Points: 26
+  - Points Ratio: 0.51
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:57:24
+Total Duration: 2.33 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3563464_1471-2458-12-679-9.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

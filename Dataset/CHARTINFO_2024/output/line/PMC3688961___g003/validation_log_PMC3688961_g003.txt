@@ -1,0 +1,143 @@
+
+================================================================================
+VALIDATION LOG - PMC3688961_g003
+================================================================================
+Timestamp: 2025-08-07 12:59:00
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3688961___g003
+================================================================================
+
+
+
+[12:59:00.764] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:59:00.767] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:59:00.825] === DATA_LOADING ===
+Chargement des données GT depuis PMC3688961___g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3688961___g003.json
+  - Series Count: 4
+  - Series Names: ['Clearcutting', 'Group selection', 'Thinning', 'Succession']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 48
+--------------------------------------------------
+
+[12:59:00.831] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3688961___g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3688961___g003\PMC3688961___g003.json
+  - Series Count: 4
+  - Series Names: ['Clearcutting', 'Group selection', 'Thinning', 'Succession']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 44
+--------------------------------------------------
+
+[12:59:00.835] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 195.0000
+  - Y Min-Max: [130.0000, 325.0000]
+  - X Range: 100.0
+--------------------------------------------------
+
+[12:59:00.837] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:59:00.840] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Clearcutting <-> Clearcutting (method=exact_match, score=1.000)', 'Group selection <-> Group selection (method=exact_match, score=1.000)', 'Thinning <-> Thinning (method=exact_match, score=1.000)', 'Succession <-> Succession (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:59:02.324] === SERIES_COMPARISON ===
+Comparaison Clearcutting vs Clearcutting avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 4.640900
+  - MAE Relative: 0.023799
+  - Left Miss (rel): -0.022222
+  - Right Miss (rel): -0.024869
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 11
+  - Points Ratio: 1.10
+--------------------------------------------------
+
+[12:59:03.632] === SERIES_COMPARISON ===
+Comparaison Group selection vs Group selection avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.698227
+  - MAE Relative: 0.018965
+  - Left Miss (rel): -0.023188
+  - Right Miss (rel): -0.037347
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 11
+  - Points Ratio: 0.73
+--------------------------------------------------
+
+[12:59:04.413] === SERIES_COMPARISON ===
+Comparaison Thinning vs Thinning avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.794541
+  - MAE Relative: 0.019459
+  - Left Miss (rel): -0.020290
+  - Right Miss (rel): -0.017738
+  - X Cutoff: N/A
+  - GT Points: 12
+  - Extracted Points: 11
+  - Points Ratio: 0.92
+--------------------------------------------------
+
+[12:59:05.463] === SERIES_COMPARISON ===
+Comparaison Succession vs Succession avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 4.333196
+  - MAE Relative: 0.022222
+  - Left Miss (rel): -0.018841
+  - Right Miss (rel): -0.019520
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 11
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:59:05
+Total Duration: 4.71 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3688961_g003.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

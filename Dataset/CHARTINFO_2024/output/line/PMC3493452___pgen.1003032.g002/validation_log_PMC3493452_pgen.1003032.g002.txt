@@ -1,0 +1,129 @@
+
+================================================================================
+VALIDATION LOG - PMC3493452_pgen.1003032.g002
+================================================================================
+Timestamp: 2025-08-07 12:55:55
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3493452___pgen.1003032.g002
+================================================================================
+
+
+
+[12:55:55.953] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:55:55.975] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:55:56.036] === DATA_LOADING ===
+Chargement des données GT depuis PMC3493452___pgen.1003032.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3493452___pgen.1003032.g002.json
+  - Series Count: 3
+  - Series Names: ['LogR', 'GxE', 'LT']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 32
+--------------------------------------------------
+
+[12:55:56.044] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3493452___pgen.1003032.g002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3493452___pgen.1003032.g002\PMC3493452___pgen.1003032.g002.json
+  - Series Count: 3
+  - Series Names: ['LogR', 'GxE', 'LT']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 30
+--------------------------------------------------
+
+[12:55:56.053] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.9903
+  - Y Min-Max: [0.0008, 0.9911]
+  - X Range: 0.09059196894589135
+--------------------------------------------------
+
+[12:55:56.062] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:55:56.065] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['LogR <-> LogR (method=exact_match, score=1.000)', 'GxE <-> GxE (method=exact_match, score=1.000)', 'LT <-> LT (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:55:56.628] === SERIES_COMPARISON ===
+Comparaison LogR vs LogR avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.008922
+  - MAE Relative: 0.009009
+  - Left Miss (rel): 0.002500
+  - Right Miss (rel): 0.002876
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 10
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:55:57.127] === SERIES_COMPARISON ===
+Comparaison GxE vs GxE avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.005976
+  - MAE Relative: 0.006034
+  - Left Miss (rel): 0.003658
+  - Right Miss (rel): 0.000560
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 10
+  - Points Ratio: 0.91
+--------------------------------------------------
+
+[12:55:57.821] === SERIES_COMPARISON ===
+Comparaison LT vs LT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.006194
+  - MAE Relative: 0.006255
+  - Left Miss (rel): -0.002132
+  - Right Miss (rel): -0.000598
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 10
+  - Points Ratio: 0.91
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:55:57
+Total Duration: 1.88 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3493452_pgen.1003032.g002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

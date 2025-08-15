@@ -1,0 +1,575 @@
+
+================================================================================
+VALIDATION LOG - PMC2680828_1471-2458-9-117-1
+================================================================================
+Timestamp: 2025-08-06 20:16:33
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2680828___1471-2458-9-117-1
+================================================================================
+
+
+
+[20:16:33.585] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:33.638] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:33.653] === DATA_LOADING ===
+Chargement des données GT depuis PMC2680828___1471-2458-9-117-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2680828___1471-2458-9-117-1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:33.655] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2680828___1471-2458-9-117-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2680828___1471-2458-9-117-1\PMC2680828___1471-2458-9-117-1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:33.658] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2680828_1471-2458-9-117-1
+================================================================================
+Timestamp: 2025-08-06 21:33:46
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2680828___1471-2458-9-117-1
+================================================================================
+
+
+
+[21:33:46.573] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:33:46.575] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:33:46.614] === DATA_LOADING ===
+Chargement des données GT depuis PMC2680828___1471-2458-9-117-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2680828___1471-2458-9-117-1.json
+  - Series Count: 12
+  - Series Names: ['R= 1.5, Baseline', 'R= 1.5, 50% Workplace\nNonattendance', 'R = 1.5, School Closure', 'R= 1.5, 50% Community\nContact Reduction', 'R= 1.5, 90% Case\nlsolation', 'R= 1.5, All Measures', 'R = 2.5, School Closure', 'R= 2.5, 90% Case\nIsolation', 'R= 2.5, School Closure\nplus 90% Case Isolation', 'R= 2.5, All Measures', 'R= 3.5, School Closure\nand 90% Case Isolation', 'R= 3.5, All Measures']
+  - X Data Types: {'numeric': 12}
+  - Total Data Points: 74
+--------------------------------------------------
+
+[21:33:46.641] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2680828___1471-2458-9-117-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2680828___1471-2458-9-117-1\PMC2680828___1471-2458-9-117-1.json
+  - Series Count: 12
+  - Series Names: ['R = 1.5, Baseline', 'R = 1.5, 50% Workplace Nonattendance', 'R = 1.5, School Closure', 'R = 1.5, 50% Community Contact Reduction', 'R = 1.5, 90% Case Isolation', 'R = 1.5, All Measures', 'R = 2.5, School Closure', 'R = 2.5, 90% Case Isolation', 'R = 2.5, School Closure plus 90% Case Isolation', 'R = 2.5, All Measures', 'R = 3.5, School Closure and 90% Case Isolation', 'R = 3.5, All Measures']
+  - X Data Types: {'numeric': 12}
+  - Total Data Points: 108
+--------------------------------------------------
+
+[21:33:46.645] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 72.4992
+  - Y Min-Max: [1.0000, 73.4992]
+  - X Range: 8.183178417592382
+--------------------------------------------------
+
+[21:33:46.647] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:33:46.650] === MATCHING_RESULTS ===
+12 appariements trouvés
+
+Data:
+  - Total Matches: 12
+  - Match Details: ['R = 1.5, School Closure <-> R = 1.5, School Closure (method=exact_match, score=1.000)', 'R = 2.5, School Closure <-> R = 2.5, School Closure (method=exact_match, score=1.000)', 'R= 1.5, Baseline <-> R = 1.5, Baseline (method=fuzzy_match, score=0.950)', 'R= 1.5, 50% Workplace\nNonattendance <-> R = 1.5, 50% Workplace Nonattendance (method=fuzzy_match, score=0.950)', 'R= 1.5, 50% Community\nContact Reduction <-> R = 1.5, 50% Community Contact Reduction (method=fuzzy_match, score=0.950)', 'R= 1.5, 90% Case\nlsolation <-> R = 1.5, 90% Case Isolation (method=fuzzy_match, score=0.900)', 'R= 1.5, All Measures <-> R = 1.5, All Measures (method=fuzzy_match, score=0.950)', 'R= 2.5, 90% Case\nIsolation <-> R = 2.5, 90% Case Isolation (method=fuzzy_match, score=0.900)', 'R= 2.5, School Closure\nplus 90% Case Isolation <-> R = 2.5, School Closure plus 90% Case Isolation (method=fuzzy_match, score=0.950)', 'R= 2.5, All Measures <-> R = 2.5, All Measures (method=fuzzy_match, score=0.950)', 'R= 3.5, School Closure\nand 90% Case Isolation <-> R = 3.5, School Closure and 90% Case Isolation (method=fuzzy_match, score=0.950)', 'R= 3.5, All Measures <-> R = 3.5, All Measures (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[21:33:47.376] === SERIES_COMPARISON ===
+Comparaison R = 1.5, School Closure vs R = 1.5, School Closure avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 4.090154
+  - MAE Relative: 0.056417
+  - Left Miss (rel): 0.001773
+  - Right Miss (rel): -0.000665
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 9
+  - Points Ratio: 1.50
+--------------------------------------------------
+
+[21:33:48.199] === SERIES_COMPARISON ===
+Comparaison R = 2.5, School Closure vs R = 2.5, School Closure avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.473291
+  - MAE Relative: 0.034115
+  - Left Miss (rel): 0.001773
+  - Right Miss (rel): 0.001108
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 9
+  - Points Ratio: 1.29
+--------------------------------------------------
+
+[21:33:48.864] === SERIES_COMPARISON ===
+Comparaison R= 1.5, Baseline vs R = 1.5, Baseline avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.581701
+  - MAE Relative: 0.008024
+  - Left Miss (rel): 0.005319
+  - Right Miss (rel): -0.002438
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 9
+  - Points Ratio: 4.50
+--------------------------------------------------
+
+[21:33:49.398] === SERIES_COMPARISON ===
+Comparaison R= 1.5, 50% Workplace
+Nonattendance vs R = 1.5, 50% Workplace Nonattendance avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 9.013775
+  - MAE Relative: 0.124329
+  - Left Miss (rel): 0.005319
+  - Right Miss (rel): 0.017066
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 9
+  - Points Ratio: 2.25
+--------------------------------------------------
+
+[21:33:49.957] === SERIES_COMPARISON ===
+Comparaison R= 1.5, 50% Community
+Contact Reduction vs R = 1.5, 50% Community Contact Reduction avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 9.633228
+  - MAE Relative: 0.132874
+  - Left Miss (rel): -0.000000
+  - Right Miss (rel): -0.000665
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 9
+  - Points Ratio: 1.50
+--------------------------------------------------
+
+[21:33:50.511] === SERIES_COMPARISON ===
+Comparaison R= 1.5, 90% Case
+lsolation vs R = 1.5, 90% Case Isolation avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 6.414113
+  - MAE Relative: 0.088472
+  - Left Miss (rel): 0.003546
+  - Right Miss (rel): 0.001108
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 9
+  - Points Ratio: 1.80
+--------------------------------------------------
+
+[21:33:51.158] === SERIES_COMPARISON ===
+Comparaison R= 1.5, All Measures vs R = 1.5, All Measures avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.973049
+  - MAE Relative: 0.041008
+  - Left Miss (rel): -0.000000
+  - Right Miss (rel): -0.000665
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 9
+  - Points Ratio: 1.80
+--------------------------------------------------
+
+[21:33:52.282] === SERIES_COMPARISON ===
+Comparaison R= 2.5, 90% Case
+Isolation vs R = 2.5, 90% Case Isolation avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 49.418726
+  - MAE Relative: 0.681646
+  - Left Miss (rel): -0.000000
+  - Right Miss (rel): -0.000665
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 9
+  - Points Ratio: 1.12
+--------------------------------------------------
+
+[21:33:53.234] === SERIES_COMPARISON ===
+Comparaison R= 2.5, School Closure
+plus 90% Case Isolation vs R = 2.5, School Closure plus 90% Case Isolation avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 37.266467
+  - MAE Relative: 0.514026
+  - Left Miss (rel): 0.001773
+  - Right Miss (rel): 0.001108
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 9
+  - Points Ratio: 1.12
+--------------------------------------------------
+
+[21:33:54.363] === SERIES_COMPARISON ===
+Comparaison R= 2.5, All Measures vs R = 2.5, All Measures avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.685839
+  - MAE Relative: 0.023253
+  - Left Miss (rel): -0.000000
+  - Right Miss (rel): 0.001108
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:33:55.487] === SERIES_COMPARISON ===
+Comparaison R= 3.5, School Closure
+and 90% Case Isolation vs R = 3.5, School Closure and 90% Case Isolation avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.272752
+  - MAE Relative: 0.031349
+  - Left Miss (rel): 0.003546
+  - Right Miss (rel): -0.000665
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 9
+  - Points Ratio: 1.29
+--------------------------------------------------
+
+[21:33:56.847] === SERIES_COMPARISON ===
+Comparaison R= 3.5, All Measures vs R = 3.5, All Measures avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.678634
+  - MAE Relative: 0.009361
+  - Left Miss (rel): -0.001773
+  - Right Miss (rel): 0.002881
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 9
+  - Points Ratio: 1.29
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:33:56
+Total Duration: 10.30 seconds
+Total Series Processed: 12
+Successful Comparisons: 12
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2680828_1471-2458-9-117-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2680828_1471-2458-9-117-1
+================================================================================
+Timestamp: 2025-08-07 12:49:59
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2680828___1471-2458-9-117-1
+================================================================================
+
+
+
+[12:49:59.158] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:49:59.160] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:49:59.212] === DATA_LOADING ===
+Chargement des données GT depuis PMC2680828___1471-2458-9-117-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2680828___1471-2458-9-117-1.json
+  - Series Count: 12
+  - Series Names: ['R= 1.5, Baseline', 'R= 1.5, 50% Workplace\nNonattendance', 'R = 1.5, School Closure', 'R= 1.5, 50% Community\nContact Reduction', 'R= 1.5, 90% Case\nlsolation', 'R= 1.5, All Measures', 'R = 2.5, School Closure', 'R= 2.5, 90% Case\nIsolation', 'R= 2.5, School Closure\nplus 90% Case Isolation', 'R= 2.5, All Measures', 'R= 3.5, School Closure\nand 90% Case Isolation', 'R= 3.5, All Measures']
+  - X Data Types: {'numeric': 12}
+  - Total Data Points: 74
+--------------------------------------------------
+
+[12:49:59.222] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2680828___1471-2458-9-117-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2680828___1471-2458-9-117-1\PMC2680828___1471-2458-9-117-1.json
+  - Series Count: 12
+  - Series Names: ['R = 1.5, Baseline', 'R = 1.5, 50% Workplace Nonattendance', 'R = 1.5, School Closure', 'R = 1.5, 50% Community Contact Reduction', 'R = 1.5, 90% Case Isolation', 'R = 1.5, All Measures', 'R = 2.5, School Closure', 'R = 2.5, 90% Case Isolation', 'R = 2.5, School Closure plus 90% Case Isolation', 'R = 2.5, All Measures', 'R = 3.5, School Closure and 90% Case Isolation', 'R = 3.5, All Measures']
+  - X Data Types: {'numeric': 12}
+  - Total Data Points: 108
+--------------------------------------------------
+
+[12:49:59.225] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 72.4992
+  - Y Min-Max: [1.0000, 73.4992]
+  - X Range: 8.183178417592382
+--------------------------------------------------
+
+[12:49:59.227] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:49:59.229] === MATCHING_RESULTS ===
+12 appariements trouvés
+
+Data:
+  - Total Matches: 12
+  - Match Details: ['R = 1.5, School Closure <-> R = 1.5, School Closure (method=exact_match, score=1.000)', 'R = 2.5, School Closure <-> R = 2.5, School Closure (method=exact_match, score=1.000)', 'R= 1.5, Baseline <-> R = 1.5, Baseline (method=fuzzy_match, score=0.950)', 'R= 1.5, 50% Workplace\nNonattendance <-> R = 1.5, 50% Workplace Nonattendance (method=fuzzy_match, score=0.950)', 'R= 1.5, 50% Community\nContact Reduction <-> R = 1.5, 50% Community Contact Reduction (method=fuzzy_match, score=0.950)', 'R= 1.5, 90% Case\nlsolation <-> R = 1.5, 90% Case Isolation (method=fuzzy_match, score=0.900)', 'R= 1.5, All Measures <-> R = 1.5, All Measures (method=fuzzy_match, score=0.950)', 'R= 2.5, 90% Case\nIsolation <-> R = 2.5, 90% Case Isolation (method=fuzzy_match, score=0.900)', 'R= 2.5, School Closure\nplus 90% Case Isolation <-> R = 2.5, School Closure plus 90% Case Isolation (method=fuzzy_match, score=0.950)', 'R= 2.5, All Measures <-> R = 2.5, All Measures (method=fuzzy_match, score=0.950)', 'R= 3.5, School Closure\nand 90% Case Isolation <-> R = 3.5, School Closure and 90% Case Isolation (method=fuzzy_match, score=0.950)', 'R= 3.5, All Measures <-> R = 3.5, All Measures (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[12:50:00.088] === SERIES_COMPARISON ===
+Comparaison R = 1.5, School Closure vs R = 1.5, School Closure avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 4.090154
+  - MAE Relative: 0.056417
+  - Left Miss (rel): 0.001773
+  - Right Miss (rel): -0.000665
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 9
+  - Points Ratio: 1.50
+--------------------------------------------------
+
+[12:50:00.901] === SERIES_COMPARISON ===
+Comparaison R = 2.5, School Closure vs R = 2.5, School Closure avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.473291
+  - MAE Relative: 0.034115
+  - Left Miss (rel): 0.001773
+  - Right Miss (rel): 0.001108
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 9
+  - Points Ratio: 1.29
+--------------------------------------------------
+
+[12:50:01.791] === SERIES_COMPARISON ===
+Comparaison R= 1.5, Baseline vs R = 1.5, Baseline avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.581701
+  - MAE Relative: 0.008024
+  - Left Miss (rel): 0.005319
+  - Right Miss (rel): -0.002438
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 9
+  - Points Ratio: 4.50
+--------------------------------------------------
+
+[12:50:02.756] === SERIES_COMPARISON ===
+Comparaison R= 1.5, 50% Workplace
+Nonattendance vs R = 1.5, 50% Workplace Nonattendance avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 9.013775
+  - MAE Relative: 0.124329
+  - Left Miss (rel): 0.005319
+  - Right Miss (rel): 0.017066
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 9
+  - Points Ratio: 2.25
+--------------------------------------------------
+
+[12:50:03.488] === SERIES_COMPARISON ===
+Comparaison R= 1.5, 50% Community
+Contact Reduction vs R = 1.5, 50% Community Contact Reduction avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 9.633228
+  - MAE Relative: 0.132874
+  - Left Miss (rel): -0.000000
+  - Right Miss (rel): -0.000665
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 9
+  - Points Ratio: 1.50
+--------------------------------------------------
+
+[12:50:04.265] === SERIES_COMPARISON ===
+Comparaison R= 1.5, 90% Case
+lsolation vs R = 1.5, 90% Case Isolation avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 6.414113
+  - MAE Relative: 0.088472
+  - Left Miss (rel): 0.003546
+  - Right Miss (rel): 0.001108
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 9
+  - Points Ratio: 1.80
+--------------------------------------------------
+
+[12:50:05.333] === SERIES_COMPARISON ===
+Comparaison R= 1.5, All Measures vs R = 1.5, All Measures avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.973049
+  - MAE Relative: 0.041008
+  - Left Miss (rel): -0.000000
+  - Right Miss (rel): -0.000665
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 9
+  - Points Ratio: 1.80
+--------------------------------------------------
+
+[12:50:06.285] === SERIES_COMPARISON ===
+Comparaison R= 2.5, 90% Case
+Isolation vs R = 2.5, 90% Case Isolation avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 49.418726
+  - MAE Relative: 0.681646
+  - Left Miss (rel): -0.000000
+  - Right Miss (rel): -0.000665
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 9
+  - Points Ratio: 1.12
+--------------------------------------------------
+
+[12:50:08.079] === SERIES_COMPARISON ===
+Comparaison R= 2.5, School Closure
+plus 90% Case Isolation vs R = 2.5, School Closure plus 90% Case Isolation avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 37.266467
+  - MAE Relative: 0.514026
+  - Left Miss (rel): 0.001773
+  - Right Miss (rel): 0.001108
+  - X Cutoff: N/A
+  - GT Points: 8
+  - Extracted Points: 9
+  - Points Ratio: 1.12
+--------------------------------------------------
+
+[12:50:08.666] === SERIES_COMPARISON ===
+Comparaison R= 2.5, All Measures vs R = 2.5, All Measures avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.685839
+  - MAE Relative: 0.023253
+  - Left Miss (rel): -0.000000
+  - Right Miss (rel): 0.001108
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:50:09.439] === SERIES_COMPARISON ===
+Comparaison R= 3.5, School Closure
+and 90% Case Isolation vs R = 3.5, School Closure and 90% Case Isolation avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.272752
+  - MAE Relative: 0.031349
+  - Left Miss (rel): 0.003546
+  - Right Miss (rel): -0.000665
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 9
+  - Points Ratio: 1.29
+--------------------------------------------------
+
+[12:50:10.058] === SERIES_COMPARISON ===
+Comparaison R= 3.5, All Measures vs R = 3.5, All Measures avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.678634
+  - MAE Relative: 0.009361
+  - Left Miss (rel): -0.001773
+  - Right Miss (rel): 0.002881
+  - X Cutoff: N/A
+  - GT Points: 7
+  - Extracted Points: 9
+  - Points Ratio: 1.29
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:50:10
+Total Duration: 10.92 seconds
+Total Series Processed: 12
+Successful Comparisons: 12
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2680828_1471-2458-9-117-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

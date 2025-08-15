@@ -1,0 +1,311 @@
+
+================================================================================
+VALIDATION LOG - PMC3008676_3
+================================================================================
+Timestamp: 2025-08-06 20:16:59
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3008676___3
+================================================================================
+
+
+
+[20:16:59.829] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:59.872] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:59.903] === DATA_LOADING ===
+Chargement des données GT depuis PMC3008676___3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3008676___3.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:59.924] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3008676___3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3008676___3\PMC3008676___3.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:59.926] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3008676_3
+================================================================================
+Timestamp: 2025-08-06 21:35:14
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3008676___3
+================================================================================
+
+
+
+[21:35:14.057] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:35:14.060] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:35:14.086] === DATA_LOADING ===
+Chargement des données GT depuis PMC3008676___3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3008676___3.json
+  - Series Count: 3
+  - Series Names: ['CHRNA4 TT', 'CHRNA4 CT', 'CHRNA4 CC']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[21:35:14.104] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3008676___3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3008676___3\PMC3008676___3.json
+  - Series Count: 3
+  - Series Names: ['CHRNA4 TT', 'CHRNA4 CT', 'CHRNA4 CC']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[21:35:14.107] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.2969
+  - Y Min-Max: [0.6446, 0.9415]
+  - X Range: 4.014176868561165
+--------------------------------------------------
+
+[21:35:14.109] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:35:14.113] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['CHRNA4 TT <-> CHRNA4 TT (method=exact_match, score=1.000)', 'CHRNA4 CT <-> CHRNA4 CT (method=exact_match, score=1.000)', 'CHRNA4 CC <-> CHRNA4 CC (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:35:15.309] === SERIES_COMPARISON ===
+Comparaison CHRNA4 TT vs CHRNA4 TT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001632
+  - MAE Relative: 0.005496
+  - Left Miss (rel): -0.000745
+  - Right Miss (rel): 0.000923
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:35:17.203] === SERIES_COMPARISON ===
+Comparaison CHRNA4 CT vs CHRNA4 CT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.004151
+  - MAE Relative: 0.013982
+  - Left Miss (rel): 0.002609
+  - Right Miss (rel): -0.004352
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:35:19.098] === SERIES_COMPARISON ===
+Comparaison CHRNA4 CC vs CHRNA4 CC avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000930
+  - MAE Relative: 0.003132
+  - Left Miss (rel): -0.003354
+  - Right Miss (rel): -0.001714
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:35:19
+Total Duration: 5.06 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3008676_3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3008676_3
+================================================================================
+Timestamp: 2025-08-07 12:51:22
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3008676___3
+================================================================================
+
+
+
+[12:51:22.209] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:51:22.213] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:51:22.289] === DATA_LOADING ===
+Chargement des données GT depuis PMC3008676___3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3008676___3.json
+  - Series Count: 3
+  - Series Names: ['CHRNA4 TT', 'CHRNA4 CT', 'CHRNA4 CC']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[12:51:22.294] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3008676___3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3008676___3\PMC3008676___3.json
+  - Series Count: 3
+  - Series Names: ['CHRNA4 TT', 'CHRNA4 CT', 'CHRNA4 CC']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[12:51:22.299] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.2969
+  - Y Min-Max: [0.6446, 0.9415]
+  - X Range: 4.014176868561165
+--------------------------------------------------
+
+[12:51:22.304] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:51:22.351] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['CHRNA4 TT <-> CHRNA4 TT (method=exact_match, score=1.000)', 'CHRNA4 CT <-> CHRNA4 CT (method=exact_match, score=1.000)', 'CHRNA4 CC <-> CHRNA4 CC (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:51:24.213] === SERIES_COMPARISON ===
+Comparaison CHRNA4 TT vs CHRNA4 TT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.001632
+  - MAE Relative: 0.005496
+  - Left Miss (rel): -0.000745
+  - Right Miss (rel): 0.000923
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:51:26.978] === SERIES_COMPARISON ===
+Comparaison CHRNA4 CT vs CHRNA4 CT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.004151
+  - MAE Relative: 0.013982
+  - Left Miss (rel): 0.002609
+  - Right Miss (rel): -0.004352
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:51:28.548] === SERIES_COMPARISON ===
+Comparaison CHRNA4 CC vs CHRNA4 CC avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000930
+  - MAE Relative: 0.003132
+  - Left Miss (rel): -0.003354
+  - Right Miss (rel): -0.001714
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 5
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:51:28
+Total Duration: 6.35 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3008676_3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,597 @@
+
+================================================================================
+VALIDATION LOG - PMC2174945_1471-2156-8-74-4
+================================================================================
+Timestamp: 2025-08-07 13:13:50
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2174945___1471-2156-8-74-4
+================================================================================
+
+
+
+[13:13:50.380] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:13:50.383] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:13:50.429] === DATA_LOADING ===
+Chargement des données GT depuis PMC2174945___1471-2156-8-74-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC2174945___1471-2156-8-74-4.json
+  - Series Count: 8
+  - Series Names: ['HO', 'JB', 'AN', 'LM', 'CHA', 'DBW', 'BR', 'NEL']
+  - X Data Types: {'categorical': 8}
+  - Total Data Points: 72
+--------------------------------------------------
+
+[13:13:50.434] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2174945___1471-2156-8-74-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2174945___1471-2156-8-74-4\PMC2174945___1471-2156-8-74-4.json
+  - Series Count: 8
+  - Series Names: ['HO', 'JB', 'AN', 'LM', 'CHA', 'DBW', 'BR', 'NEL']
+  - X Data Types: {'categorical': 8}
+  - Total Data Points: 72
+--------------------------------------------------
+
+[13:13:50.443] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.5849
+  - Y Min-Max: [0.0247, 0.6096]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[13:13:50.476] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:13:50.498] === MATCHING_RESULTS ===
+8 appariements trouvés
+
+Data:
+  - Total Matches: 8
+  - Match Details: ['HO <-> HO (method=exact_match, score=1.000)', 'JB <-> JB (method=exact_match, score=1.000)', 'AN <-> AN (method=exact_match, score=1.000)', 'LM <-> LM (method=exact_match, score=1.000)', 'CHA <-> CHA (method=exact_match, score=1.000)', 'DBW <-> DBW (method=exact_match, score=1.000)', 'BR <-> BR (method=exact_match, score=1.000)', 'NEL <-> NEL (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:13:53.812] === SERIES_COMPARISON ===
+Comparaison HO vs HO avec BarComparator
+
+Data:
+  - MAE Absolute: 0.068150
+  - MAE Relative: 0.116523
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.905556
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:13:56.456] === SERIES_COMPARISON ===
+Comparaison JB vs JB avec BarComparator
+
+Data:
+  - MAE Absolute: 0.068955
+  - MAE Relative: 0.117900
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.905556
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:13:59.218] === SERIES_COMPARISON ===
+Comparaison AN vs AN avec BarComparator
+
+Data:
+  - MAE Absolute: 0.062448
+  - MAE Relative: 0.106774
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.905556
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:14:01.130] === SERIES_COMPARISON ===
+Comparaison LM vs LM avec BarComparator
+
+Data:
+  - MAE Absolute: 0.063147
+  - MAE Relative: 0.107970
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.905556
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:14:02.328] === SERIES_COMPARISON ===
+Comparaison CHA vs CHA avec BarComparator
+
+Data:
+  - MAE Absolute: 0.055193
+  - MAE Relative: 0.094369
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.905556
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:14:03.473] === SERIES_COMPARISON ===
+Comparaison DBW vs DBW avec BarComparator
+
+Data:
+  - MAE Absolute: 0.075631
+  - MAE Relative: 0.129314
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.905556
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:14:04.556] === SERIES_COMPARISON ===
+Comparaison BR vs BR avec BarComparator
+
+Data:
+  - MAE Absolute: 0.066498
+  - MAE Relative: 0.113700
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.905556
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:14:05.547] === SERIES_COMPARISON ===
+Comparaison NEL vs NEL avec BarComparator
+
+Data:
+  - MAE Absolute: 0.039845
+  - MAE Relative: 0.068127
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.905556
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:14:05
+Total Duration: 15.18 seconds
+Total Series Processed: 8
+Successful Comparisons: 8
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2174945_1471-2156-8-74-4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2174945_1471-2156-8-74-4
+================================================================================
+Timestamp: 2025-08-07 16:47:58
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2174945___1471-2156-8-74-4
+================================================================================
+
+
+
+[16:47:58.885] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:47:58.888] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:47:58.942] === DATA_LOADING ===
+Chargement des données GT depuis PMC2174945___1471-2156-8-74-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC2174945___1471-2156-8-74-4.json
+  - Series Count: 8
+  - Series Names: ['HO', 'JB', 'AN', 'LM', 'CHA', 'DBW', 'BR', 'NEL']
+  - X Data Types: {'categorical': 8}
+  - Total Data Points: 72
+--------------------------------------------------
+
+[16:47:58.953] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2174945___1471-2156-8-74-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2174945___1471-2156-8-74-4\PMC2174945___1471-2156-8-74-4.json
+  - Series Count: 8
+  - Series Names: ['HO', 'JB', 'AN', 'LM', 'CHA', 'DBW', 'BR', 'NEL']
+  - X Data Types: {'categorical': 8}
+  - Total Data Points: 72
+--------------------------------------------------
+
+[16:47:58.957] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.5849
+  - Y Min-Max: [0.0247, 0.6096]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[16:47:58.971] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:47:59.007] === MATCHING_RESULTS ===
+8 appariements trouvés
+
+Data:
+  - Total Matches: 8
+  - Match Details: ['HO <-> HO (method=exact_match, score=1.000)', 'JB <-> JB (method=exact_match, score=1.000)', 'AN <-> AN (method=exact_match, score=1.000)', 'LM <-> LM (method=exact_match, score=1.000)', 'CHA <-> CHA (method=exact_match, score=1.000)', 'DBW <-> DBW (method=exact_match, score=1.000)', 'BR <-> BR (method=exact_match, score=1.000)', 'NEL <-> NEL (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:48:01.265] === SERIES_COMPARISON ===
+Comparaison HO vs HO avec BarComparator
+
+Data:
+  - MAE Absolute: 0.068150
+  - MAE Relative: 0.116523
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.905556
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:48:04.136] === SERIES_COMPARISON ===
+Comparaison JB vs JB avec BarComparator
+
+Data:
+  - MAE Absolute: 0.068955
+  - MAE Relative: 0.117900
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.905556
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:48:07.147] === SERIES_COMPARISON ===
+Comparaison AN vs AN avec BarComparator
+
+Data:
+  - MAE Absolute: 0.062448
+  - MAE Relative: 0.106774
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.905556
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:48:09.032] === SERIES_COMPARISON ===
+Comparaison LM vs LM avec BarComparator
+
+Data:
+  - MAE Absolute: 0.063147
+  - MAE Relative: 0.107970
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.905556
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:48:10.258] === SERIES_COMPARISON ===
+Comparaison CHA vs CHA avec BarComparator
+
+Data:
+  - MAE Absolute: 0.055193
+  - MAE Relative: 0.094369
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.905556
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:48:11.545] === SERIES_COMPARISON ===
+Comparaison DBW vs DBW avec BarComparator
+
+Data:
+  - MAE Absolute: 0.075631
+  - MAE Relative: 0.129314
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.905556
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:48:12.531] === SERIES_COMPARISON ===
+Comparaison BR vs BR avec BarComparator
+
+Data:
+  - MAE Absolute: 0.063165
+  - MAE Relative: 0.108000
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.905556
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:48:13.208] === SERIES_COMPARISON ===
+Comparaison NEL vs NEL avec BarComparator
+
+Data:
+  - MAE Absolute: 0.062537
+  - MAE Relative: 0.106926
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.905556
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:48:13
+Total Duration: 14.35 seconds
+Total Series Processed: 8
+Successful Comparisons: 8
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2174945_1471-2156-8-74-4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2174945_1471-2156-8-74-4
+================================================================================
+Timestamp: 2025-08-07 17:06:30
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2174945___1471-2156-8-74-4
+================================================================================
+
+
+
+[17:06:30.109] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:06:30.115] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[17:06:30.169] === DATA_LOADING ===
+Chargement des données GT depuis PMC2174945___1471-2156-8-74-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_bar\PMC2174945___1471-2156-8-74-4.json
+  - Series Count: 8
+  - Series Names: ['HO', 'JB', 'AN', 'LM', 'CHA', 'DBW', 'BR', 'NEL']
+  - X Data Types: {'categorical': 8}
+  - Total Data Points: 72
+--------------------------------------------------
+
+[17:06:30.174] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2174945___1471-2156-8-74-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_bar\PMC2174945___1471-2156-8-74-4\PMC2174945___1471-2156-8-74-4.json
+  - Series Count: 8
+  - Series Names: ['HO', 'JB', 'AN', 'LM', 'CHA', 'DBW', 'BR', 'NEL']
+  - X Data Types: {'categorical': 8}
+  - Total Data Points: 72
+--------------------------------------------------
+
+[17:06:30.198] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.5849
+  - Y Min-Max: [0.0247, 0.6096]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[17:06:30.219] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:06:30.223] === MATCHING_RESULTS ===
+8 appariements trouvés
+
+Data:
+  - Total Matches: 8
+  - Match Details: ['HO <-> HO (method=exact_match, score=1.000)', 'JB <-> JB (method=exact_match, score=1.000)', 'AN <-> AN (method=exact_match, score=1.000)', 'LM <-> LM (method=exact_match, score=1.000)', 'CHA <-> CHA (method=exact_match, score=1.000)', 'DBW <-> DBW (method=exact_match, score=1.000)', 'BR <-> BR (method=exact_match, score=1.000)', 'NEL <-> NEL (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[17:06:31.623] === SERIES_COMPARISON ===
+Comparaison HO vs HO avec BarComparator
+
+Data:
+  - MAE Absolute: 0.068150
+  - MAE Relative: 0.116523
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.905556
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:06:32.837] === SERIES_COMPARISON ===
+Comparaison JB vs JB avec BarComparator
+
+Data:
+  - MAE Absolute: 0.068955
+  - MAE Relative: 0.117900
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.905556
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:06:35.088] === SERIES_COMPARISON ===
+Comparaison AN vs AN avec BarComparator
+
+Data:
+  - MAE Absolute: 0.062448
+  - MAE Relative: 0.106774
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.905556
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:06:37.321] === SERIES_COMPARISON ===
+Comparaison LM vs LM avec BarComparator
+
+Data:
+  - MAE Absolute: 0.063147
+  - MAE Relative: 0.107970
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.905556
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:06:38.119] === SERIES_COMPARISON ===
+Comparaison CHA vs CHA avec BarComparator
+
+Data:
+  - MAE Absolute: 0.055193
+  - MAE Relative: 0.094369
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.905556
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:06:38.783] === SERIES_COMPARISON ===
+Comparaison DBW vs DBW avec BarComparator
+
+Data:
+  - MAE Absolute: 0.075631
+  - MAE Relative: 0.129314
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.905556
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:06:39.590] === SERIES_COMPARISON ===
+Comparaison BR vs BR avec BarComparator
+
+Data:
+  - MAE Absolute: 0.063165
+  - MAE Relative: 0.108000
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.905556
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:06:40.540] === SERIES_COMPARISON ===
+Comparaison NEL vs NEL avec BarComparator
+
+Data:
+  - MAE Absolute: 0.062537
+  - MAE Relative: 0.106926
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.905556
+  - GT Points: 9
+  - Extracted Points: 9
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:06:40
+Total Duration: 10.48 seconds
+Total Series Processed: 8
+Successful Comparisons: 8
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2174945_1471-2156-8-74-4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

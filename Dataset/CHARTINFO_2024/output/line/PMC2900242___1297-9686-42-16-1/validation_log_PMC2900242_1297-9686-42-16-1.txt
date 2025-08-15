@@ -1,0 +1,283 @@
+
+================================================================================
+VALIDATION LOG - PMC2900242_1297-9686-42-16-1
+================================================================================
+Timestamp: 2025-08-06 20:16:51
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2900242___1297-9686-42-16-1
+================================================================================
+
+
+
+[20:16:51.619] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:51.653] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:51.678] === DATA_LOADING ===
+Chargement des données GT depuis PMC2900242___1297-9686-42-16-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2900242___1297-9686-42-16-1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:51.680] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2900242___1297-9686-42-16-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2900242___1297-9686-42-16-1\PMC2900242___1297-9686-42-16-1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:51.682] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2900242_1297-9686-42-16-1
+================================================================================
+Timestamp: 2025-08-06 21:34:56
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2900242___1297-9686-42-16-1
+================================================================================
+
+
+
+[21:34:56.745] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:34:56.747] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:34:56.775] === DATA_LOADING ===
+Chargement des données GT depuis PMC2900242___1297-9686-42-16-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2900242___1297-9686-42-16-1.json
+  - Series Count: 2
+  - Series Names: ['Donor contribution', 'Linkage drag']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[21:34:56.779] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2900242___1297-9686-42-16-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2900242___1297-9686-42-16-1\PMC2900242___1297-9686-42-16-1.json
+  - Series Count: 2
+  - Series Names: ['Donor contribution', 'Linkage drag']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[21:34:56.783] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 40.1276
+  - Y Min-Max: [36.8724, 77.0000]
+  - X Range: 3.0084435875274265
+--------------------------------------------------
+
+[21:34:56.785] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:34:56.787] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Donor contribution <-> Donor contribution (method=exact_match, score=1.000)', 'Linkage drag <-> Linkage drag (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:34:57.485] === SERIES_COMPARISON ===
+Comparaison Donor contribution vs Donor contribution avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.465304
+  - MAE Relative: 0.011596
+  - Left Miss (rel): -0.003514
+  - Right Miss (rel): 0.001901
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:34:58.366] === SERIES_COMPARISON ===
+Comparaison Linkage drag vs Linkage drag avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.147070
+  - MAE Relative: 0.003665
+  - Left Miss (rel): 0.000906
+  - Right Miss (rel): 0.001901
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:34:58
+Total Duration: 1.63 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2900242_1297-9686-42-16-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2900242_1297-9686-42-16-1
+================================================================================
+Timestamp: 2025-08-07 12:51:02
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2900242___1297-9686-42-16-1
+================================================================================
+
+
+
+[12:51:02.980] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:51:02.983] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:51:03.049] === DATA_LOADING ===
+Chargement des données GT depuis PMC2900242___1297-9686-42-16-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2900242___1297-9686-42-16-1.json
+  - Series Count: 2
+  - Series Names: ['Donor contribution', 'Linkage drag']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[12:51:03.054] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2900242___1297-9686-42-16-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2900242___1297-9686-42-16-1\PMC2900242___1297-9686-42-16-1.json
+  - Series Count: 2
+  - Series Names: ['Donor contribution', 'Linkage drag']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 8
+--------------------------------------------------
+
+[12:51:03.069] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 40.1276
+  - Y Min-Max: [36.8724, 77.0000]
+  - X Range: 3.0084435875274265
+--------------------------------------------------
+
+[12:51:03.073] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:51:03.074] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Donor contribution <-> Donor contribution (method=exact_match, score=1.000)', 'Linkage drag <-> Linkage drag (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:51:03.683] === SERIES_COMPARISON ===
+Comparaison Donor contribution vs Donor contribution avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.465304
+  - MAE Relative: 0.011596
+  - Left Miss (rel): -0.003514
+  - Right Miss (rel): 0.001901
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:51:04.467] === SERIES_COMPARISON ===
+Comparaison Linkage drag vs Linkage drag avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.147070
+  - MAE Relative: 0.003665
+  - Left Miss (rel): 0.000906
+  - Right Miss (rel): 0.001901
+  - X Cutoff: N/A
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:51:04
+Total Duration: 1.49 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2900242_1297-9686-42-16-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,227 @@
+
+================================================================================
+VALIDATION LOG - PMC3543840_1471-2458-13-13-4
+================================================================================
+Timestamp: 2025-08-07 12:56:53
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3543840___1471-2458-13-13-4
+================================================================================
+
+
+
+[12:56:53.490] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:56:53.492] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:56:53.551] === DATA_LOADING ===
+Chargement des données GT depuis PMC3543840___1471-2458-13-13-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3543840___1471-2458-13-13-4.json
+  - Series Count: 13
+  - Series Names: ['80-84', '75-79', '70-74', '65-69', '60-64', '55-59', '50-54', '45-49', '40-44', '35-39', '30-34', '25-29', '20-24']
+  - X Data Types: {'numeric': 13}
+  - Total Data Points: 196
+--------------------------------------------------
+
+[12:56:53.556] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3543840___1471-2458-13-13-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3543840___1471-2458-13-13-4\PMC3543840___1471-2458-13-13-4.json
+  - Series Count: 10
+  - Series Names: ['80-84', '75-79', '70-74', '65-69', '60-64', '55-59', '50-54', '45-49', '40-44', '35-39']
+  - X Data Types: {'numeric': 10}
+  - Total Data Points: 60
+--------------------------------------------------
+
+[12:56:53.563] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 82.2541
+  - Y Min-Max: [0.4813, 82.7355]
+  - X Range: 25.24000000000001
+--------------------------------------------------
+
+[12:56:53.566] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:56:53.569] === MATCHING_RESULTS ===
+10 appariements trouvés
+
+Data:
+  - Total Matches: 10
+  - Match Details: ['80-84 <-> 80-84 (method=exact_match, score=1.000)', '75-79 <-> 75-79 (method=exact_match, score=1.000)', '70-74 <-> 70-74 (method=exact_match, score=1.000)', '65-69 <-> 65-69 (method=exact_match, score=1.000)', '60-64 <-> 60-64 (method=exact_match, score=1.000)', '55-59 <-> 55-59 (method=exact_match, score=1.000)', '50-54 <-> 50-54 (method=exact_match, score=1.000)', '45-49 <-> 45-49 (method=exact_match, score=1.000)', '40-44 <-> 40-44 (method=exact_match, score=1.000)', '35-39 <-> 35-39 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:56:54.364] === SERIES_COMPARISON ===
+Comparaison 80-84 vs 80-84 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.994129
+  - MAE Relative: 0.048558
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.009509
+  - X Cutoff: N/A
+  - GT Points: 21
+  - Extracted Points: 6
+  - Points Ratio: 0.29
+--------------------------------------------------
+
+[12:56:55.097] === SERIES_COMPARISON ===
+Comparaison 75-79 vs 75-79 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 6.099320
+  - MAE Relative: 0.074152
+  - Left Miss (rel): 0.006339
+  - Right Miss (rel): -0.006339
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 6
+  - Points Ratio: 0.38
+--------------------------------------------------
+
+[12:56:55.821] === SERIES_COMPARISON ===
+Comparaison 70-74 vs 70-74 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.398636
+  - MAE Relative: 0.029161
+  - Left Miss (rel): -0.009509
+  - Right Miss (rel): -0.006339
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 6
+  - Points Ratio: 0.43
+--------------------------------------------------
+
+[12:56:56.506] === SERIES_COMPARISON ===
+Comparaison 65-69 vs 65-69 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.797097
+  - MAE Relative: 0.009691
+  - Left Miss (rel): 0.003170
+  - Right Miss (rel): -0.012678
+  - X Cutoff: N/A
+  - GT Points: 17
+  - Extracted Points: 6
+  - Points Ratio: 0.35
+--------------------------------------------------
+
+[12:56:57.208] === SERIES_COMPARISON ===
+Comparaison 60-64 vs 60-64 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.135783
+  - MAE Relative: 0.025966
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.009509
+  - X Cutoff: N/A
+  - GT Points: 17
+  - Extracted Points: 6
+  - Points Ratio: 0.35
+--------------------------------------------------
+
+[12:56:58.182] === SERIES_COMPARISON ===
+Comparaison 55-59 vs 55-59 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.861552
+  - MAE Relative: 0.022632
+  - Left Miss (rel): 0.001358
+  - Right Miss (rel): -0.010867
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 6
+  - Points Ratio: 0.27
+--------------------------------------------------
+
+[12:57:00.318] === SERIES_COMPARISON ===
+Comparaison 50-54 vs 50-54 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 42.519661
+  - MAE Relative: 0.516930
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.012678
+  - X Cutoff: N/A
+  - GT Points: 16
+  - Extracted Points: 6
+  - Points Ratio: 0.38
+--------------------------------------------------
+
+[12:57:03.355] === SERIES_COMPARISON ===
+Comparaison 45-49 vs 45-49 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 18.524055
+  - MAE Relative: 0.225205
+  - Left Miss (rel): 0.009509
+  - Right Miss (rel): -0.015848
+  - X Cutoff: N/A
+  - GT Points: 11
+  - Extracted Points: 6
+  - Points Ratio: 0.55
+--------------------------------------------------
+
+[12:57:05.683] === SERIES_COMPARISON ===
+Comparaison 40-44 vs 40-44 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 21.470030
+  - MAE Relative: 0.261021
+  - Left Miss (rel): 0.002264
+  - Right Miss (rel): -0.008603
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 6
+  - Points Ratio: 0.40
+--------------------------------------------------
+
+[12:57:08.162] === SERIES_COMPARISON ===
+Comparaison 35-39 vs 35-39 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 11.478109
+  - MAE Relative: 0.139544
+  - Left Miss (rel): 0.006339
+  - Right Miss (rel): -0.002717
+  - X Cutoff: N/A
+  - GT Points: 14
+  - Extracted Points: 6
+  - Points Ratio: 0.43
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:57:08
+Total Duration: 14.68 seconds
+Total Series Processed: 10
+Successful Comparisons: 10
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3543840_1471-2458-13-13-4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,339 @@
+
+================================================================================
+VALIDATION LOG - PMC2956724_1471-2458-10-569-6
+================================================================================
+Timestamp: 2025-08-06 20:16:56
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2956724___1471-2458-10-569-6
+================================================================================
+
+
+
+[20:16:56.618] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:56.656] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:56.681] === DATA_LOADING ===
+Chargement des données GT depuis PMC2956724___1471-2458-10-569-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2956724___1471-2458-10-569-6.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:56.685] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2956724___1471-2458-10-569-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2956724___1471-2458-10-569-6\PMC2956724___1471-2458-10-569-6.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:56.687] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2956724_1471-2458-10-569-6
+================================================================================
+Timestamp: 2025-08-06 21:35:12
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2956724___1471-2458-10-569-6
+================================================================================
+
+
+
+[21:35:12.096] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:35:12.098] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:35:12.122] === DATA_LOADING ===
+Chargement des données GT depuis PMC2956724___1471-2458-10-569-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2956724___1471-2458-10-569-6.json
+  - Series Count: 4
+  - Series Names: ['Men Kikuyu', 'Men Kalinjen', 'Women Kikuyu', 'Women Kalinjen']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 16
+--------------------------------------------------
+
+[21:35:12.163] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2956724___1471-2458-10-569-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2956724___1471-2458-10-569-6\PMC2956724___1471-2458-10-569-6.json
+  - Series Count: 4
+  - Series Names: ['Men Kikuyu', 'Men Kalinjen', 'Women Kikuyu', 'Women Kalinjen']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 16
+--------------------------------------------------
+
+[21:35:12.166] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 68.6283
+  - Y Min-Max: [0.3717, 69.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[21:35:12.168] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:35:12.170] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Men Kikuyu <-> Men Kikuyu (method=exact_match, score=1.000)', 'Men Kalinjen <-> Men Kalinjen (method=exact_match, score=1.000)', 'Women Kikuyu <-> Women Kikuyu (method=exact_match, score=1.000)', 'Women Kalinjen <-> Women Kalinjen (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:35:12.867] === SERIES_COMPARISON ===
+Comparaison Men Kikuyu vs Men Kikuyu avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 53.713326
+  - MAE Relative: 0.782670
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.290000
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:35:13.700] === SERIES_COMPARISON ===
+Comparaison Men Kalinjen vs Men Kalinjen avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 44.056797
+  - MAE Relative: 0.641962
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.290000
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:35:15.521] === SERIES_COMPARISON ===
+Comparaison Women Kikuyu vs Women Kikuyu avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 58.409169
+  - MAE Relative: 0.851094
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.290000
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:35:17.415] === SERIES_COMPARISON ===
+Comparaison Women Kalinjen vs Women Kalinjen avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 40.085640
+  - MAE Relative: 0.584097
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.290000
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:35:17
+Total Duration: 5.34 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2956724_1471-2458-10-569-6.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2956724_1471-2458-10-569-6
+================================================================================
+Timestamp: 2025-08-07 12:51:20
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2956724___1471-2458-10-569-6
+================================================================================
+
+
+
+[12:51:20.711] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:51:20.740] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:51:20.811] === DATA_LOADING ===
+Chargement des données GT depuis PMC2956724___1471-2458-10-569-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2956724___1471-2458-10-569-6.json
+  - Series Count: 4
+  - Series Names: ['Men Kikuyu', 'Men Kalinjen', 'Women Kikuyu', 'Women Kalinjen']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 16
+--------------------------------------------------
+
+[12:51:20.817] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2956724___1471-2458-10-569-6.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2956724___1471-2458-10-569-6\PMC2956724___1471-2458-10-569-6.json
+  - Series Count: 4
+  - Series Names: ['Men Kikuyu', 'Men Kalinjen', 'Women Kikuyu', 'Women Kalinjen']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 16
+--------------------------------------------------
+
+[12:51:20.820] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 68.6283
+  - Y Min-Max: [0.3717, 69.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:51:20.823] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:51:20.825] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['Men Kikuyu <-> Men Kikuyu (method=exact_match, score=1.000)', 'Men Kalinjen <-> Men Kalinjen (method=exact_match, score=1.000)', 'Women Kikuyu <-> Women Kikuyu (method=exact_match, score=1.000)', 'Women Kalinjen <-> Women Kalinjen (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:51:21.820] === SERIES_COMPARISON ===
+Comparaison Men Kikuyu vs Men Kikuyu avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 53.713326
+  - MAE Relative: 0.782670
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.290000
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:51:24.773] === SERIES_COMPARISON ===
+Comparaison Men Kalinjen vs Men Kalinjen avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 43.806797
+  - MAE Relative: 0.638319
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.290000
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:51:27.650] === SERIES_COMPARISON ===
+Comparaison Women Kikuyu vs Women Kikuyu avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 58.409169
+  - MAE Relative: 0.851094
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.290000
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:51:30.324] === SERIES_COMPARISON ===
+Comparaison Women Kalinjen vs Women Kalinjen avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 40.585640
+  - MAE Relative: 0.591383
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.290000
+  - GT Points: 4
+  - Extracted Points: 4
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:51:30
+Total Duration: 9.66 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2956724_1471-2458-10-569-6.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

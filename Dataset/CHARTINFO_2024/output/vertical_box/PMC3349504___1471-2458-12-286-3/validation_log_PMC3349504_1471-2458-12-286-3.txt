@@ -1,0 +1,230 @@
+
+================================================================================
+VALIDATION LOG - PMC3349504_1471-2458-12-286-3
+================================================================================
+Timestamp: 2025-08-07 13:17:22
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_box\PMC3349504___1471-2458-12-286-3
+================================================================================
+
+
+
+[13:17:22.033] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:17:22.077] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: boxplot -> vertical_box
+
+Data:
+  - Original Type: boxplot
+  - Enum Type: vertical_box
+  - Final Type: boxplot
+  - Loader Used: BoxPlotDataLoader
+--------------------------------------------------
+
+[13:17:22.166] === DATA_LOADING ===
+Chargement des données GT depuis PMC3349504___1471-2458-12-286-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_box\PMC3349504___1471-2458-12-286-3.json
+  - Series Count: 2
+  - Series Names: ['[unnamed data series #0]', '[unnamed data series #1]']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[13:17:22.175] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3349504___1471-2458-12-286-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_box\PMC3349504___1471-2458-12-286-3\PMC3349504___1471-2458-12-286-3.json
+  - Series Count: 2
+  - Series Names: ['Prob. of dying per 1,000 pop. between 15-60 yrs (adult mortality), males, 2004', 'Prob. of dying per 1,000 pop. between 15-60 yrs (adult mortality), females, 2004']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[13:17:22.181] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 661.2083
+  - Y Min-Max: [25.0000, 686.2083]
+  - X Range: nan
+--------------------------------------------------
+
+[13:17:22.184] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:17:22.192] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['[unnamed data series #0] <-> Prob. of dying per 1,000 pop. between 15-60 yrs (adult mortality), males, 2004 (method=similarity_match, score=0.992)', '[unnamed data series #1] <-> Prob. of dying per 1,000 pop. between 15-60 yrs (adult mortality), females, 2004 (method=similarity_match, score=0.997)']
+--------------------------------------------------
+
+[13:17:24.211] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs Prob. of dying per 1,000 pop. between 15-60 yrs (adult mortality), males, 2004 avec BoxPlotComparator
+
+Data:
+  - MAE Absolute: 22.878883
+  - MAE Relative: 0.034602
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:17:28.879] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #1] vs Prob. of dying per 1,000 pop. between 15-60 yrs (adult mortality), females, 2004 avec BoxPlotComparator
+
+Data:
+  - MAE Absolute: 22.341090
+  - MAE Relative: 0.033788
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:17:28
+Total Duration: 6.86 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3349504_1471-2458-12-286-3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3349504_1471-2458-12-286-3
+================================================================================
+Timestamp: 2025-08-07 17:09:53
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_box\PMC3349504___1471-2458-12-286-3
+================================================================================
+
+
+
+[17:09:53.290] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:09:53.293] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: boxplot -> vertical_box
+
+Data:
+  - Original Type: boxplot
+  - Enum Type: vertical_box
+  - Final Type: boxplot
+  - Loader Used: BoxPlotDataLoader
+--------------------------------------------------
+
+[17:09:53.329] === DATA_LOADING ===
+Chargement des données GT depuis PMC3349504___1471-2458-12-286-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\vertical_box\PMC3349504___1471-2458-12-286-3.json
+  - Series Count: 2
+  - Series Names: ['[unnamed data series #0]', '[unnamed data series #1]']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[17:09:53.357] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3349504___1471-2458-12-286-3.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\vertical_box\PMC3349504___1471-2458-12-286-3\PMC3349504___1471-2458-12-286-3.json
+  - Series Count: 2
+  - Series Names: ['Prob. of dying per 1,000 pop. between 15-60 yrs (adult mortality), males, 2004', 'Prob. of dying per 1,000 pop. between 15-60 yrs (adult mortality), females, 2004']
+  - X Data Types: {'categorical': 2}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[17:09:53.360] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 661.2083
+  - Y Min-Max: [25.0000, 686.2083]
+  - X Range: nan
+--------------------------------------------------
+
+[17:09:53.362] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:09:53.372] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['[unnamed data series #0] <-> Prob. of dying per 1,000 pop. between 15-60 yrs (adult mortality), males, 2004 (method=similarity_match, score=0.992)', '[unnamed data series #1] <-> Prob. of dying per 1,000 pop. between 15-60 yrs (adult mortality), females, 2004 (method=similarity_match, score=0.996)']
+--------------------------------------------------
+
+[17:09:54.331] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs Prob. of dying per 1,000 pop. between 15-60 yrs (adult mortality), males, 2004 avec BoxPlotComparator
+
+Data:
+  - MAE Absolute: 23.062817
+  - MAE Relative: 0.034880
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[17:09:55.105] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #1] vs Prob. of dying per 1,000 pop. between 15-60 yrs (adult mortality), females, 2004 avec BoxPlotComparator
+
+Data:
+  - MAE Absolute: 22.685129
+  - MAE Relative: 0.034309
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 1.000000
+  - GT Points: 6
+  - Extracted Points: 6
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:09:55
+Total Duration: 1.83 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3349504_1471-2458-12-286-3.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

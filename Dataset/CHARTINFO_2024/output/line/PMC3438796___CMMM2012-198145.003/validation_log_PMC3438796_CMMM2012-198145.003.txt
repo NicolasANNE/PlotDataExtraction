@@ -1,0 +1,115 @@
+
+================================================================================
+VALIDATION LOG - PMC3438796_CMMM2012-198145.003
+================================================================================
+Timestamp: 2025-08-07 12:55:12
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3438796___CMMM2012-198145.003
+================================================================================
+
+
+
+[12:55:12.724] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:55:12.727] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:55:12.849] === DATA_LOADING ===
+Chargement des données GT depuis PMC3438796___CMMM2012-198145.003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3438796___CMMM2012-198145.003.json
+  - Series Count: 2
+  - Series Names: ['Simulated tumor growth (A = 24h^{-1})', 'Experimental tumor growth curve under treatment']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 9
+--------------------------------------------------
+
+[12:55:12.886] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3438796___CMMM2012-198145.003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3438796___CMMM2012-198145.003\PMC3438796___CMMM2012-198145.003.json
+  - Series Count: 2
+  - Series Names: ['Simulated tumor growth (A = 24 h⁻¹)', 'Experimental tumor growth curve under treatment']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 10
+--------------------------------------------------
+
+[12:55:12.898] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 3.9471
+  - Y Min-Max: [0.6806, 4.6277]
+  - X Range: 30.048270313757033
+--------------------------------------------------
+
+[12:55:12.929] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:55:12.945] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Experimental tumor growth curve under treatment <-> Experimental tumor growth curve under treatment (method=exact_match, score=1.000)', 'Simulated tumor growth (A = 24h^{-1}) <-> Simulated tumor growth (A = 24 h⁻¹) (method=fuzzy_match, score=0.850)']
+--------------------------------------------------
+
+[12:55:14.460] === SERIES_COMPARISON ===
+Comparaison Experimental tumor growth curve under treatment vs Experimental tumor growth curve under treatment avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.151033
+  - MAE Relative: 0.038264
+  - Left Miss (rel): 0.002008
+  - Right Miss (rel): 0.001901
+  - X Cutoff: N/A
+  - GT Points: 6
+  - Extracted Points: 5
+  - Points Ratio: 0.83
+--------------------------------------------------
+
+[12:55:16.613] === SERIES_COMPARISON ===
+Comparaison Simulated tumor growth (A = 24h^{-1}) vs Simulated tumor growth (A = 24 h⁻¹) avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.155924
+  - MAE Relative: 0.039503
+  - Left Miss (rel): -0.002008
+  - Right Miss (rel): 0.032878
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 5
+  - Points Ratio: 1.67
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:55:16
+Total Duration: 3.90 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3438796_CMMM2012-198145.003.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,339 @@
+
+================================================================================
+VALIDATION LOG - PMC2898822_1471-2458-10-299-5
+================================================================================
+Timestamp: 2025-08-06 20:16:54
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2898822___1471-2458-10-299-5
+================================================================================
+
+
+
+[20:16:54.864] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:54.911] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:54.932] === DATA_LOADING ===
+Chargement des données GT depuis PMC2898822___1471-2458-10-299-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2898822___1471-2458-10-299-5.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:54.935] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2898822___1471-2458-10-299-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2898822___1471-2458-10-299-5\PMC2898822___1471-2458-10-299-5.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:54.936] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2898822_1471-2458-10-299-5
+================================================================================
+Timestamp: 2025-08-06 21:35:00
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2898822___1471-2458-10-299-5
+================================================================================
+
+
+
+[21:35:00.461] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:35:00.463] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:35:00.505] === DATA_LOADING ===
+Chargement des données GT depuis PMC2898822___1471-2458-10-299-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2898822___1471-2458-10-299-5.json
+  - Series Count: 4
+  - Series Names: ['DISENGAGED', 'DOUBTFUL', 'DISMISSIVE', 'POPULATION']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 72
+--------------------------------------------------
+
+[21:35:00.517] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2898822___1471-2458-10-299-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2898822___1471-2458-10-299-5\PMC2898822___1471-2458-10-299-5.json
+  - Series Count: 4
+  - Series Names: ['DISEMGAGED', 'DOUBTFUL', 'DISMISSIVE', 'POPULATION']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 76
+--------------------------------------------------
+
+[21:35:00.520] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 16.2000
+  - Y Min-Max: [-8.1000, 8.1000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[21:35:00.522] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:35:00.524] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['DOUBTFUL <-> DOUBTFUL (method=exact_match, score=1.000)', 'DISMISSIVE <-> DISMISSIVE (method=exact_match, score=1.000)', 'POPULATION <-> POPULATION (method=exact_match, score=1.000)', 'DISENGAGED <-> DISEMGAGED (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[21:35:02.238] === SERIES_COMPARISON ===
+Comparaison DOUBTFUL vs DOUBTFUL avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 3.388118
+  - MAE Relative: 0.209143
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.400000
+  - GT Points: 18
+  - Extracted Points: 19
+  - Points Ratio: 1.06
+--------------------------------------------------
+
+[21:35:04.199] === SERIES_COMPARISON ===
+Comparaison DISMISSIVE vs DISMISSIVE avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 4.982385
+  - MAE Relative: 0.307555
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.400000
+  - GT Points: 18
+  - Extracted Points: 19
+  - Points Ratio: 1.06
+--------------------------------------------------
+
+[21:35:05.719] === SERIES_COMPARISON ===
+Comparaison POPULATION vs POPULATION avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 2.585269
+  - MAE Relative: 0.159584
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.400000
+  - GT Points: 18
+  - Extracted Points: 19
+  - Points Ratio: 1.06
+--------------------------------------------------
+
+[21:35:06.991] === SERIES_COMPARISON ===
+Comparaison DISENGAGED vs DISEMGAGED avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 3.057535
+  - MAE Relative: 0.188737
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.400000
+  - GT Points: 18
+  - Extracted Points: 19
+  - Points Ratio: 1.06
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:35:06
+Total Duration: 6.53 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2898822_1471-2458-10-299-5.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2898822_1471-2458-10-299-5
+================================================================================
+Timestamp: 2025-08-07 12:51:05
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2898822___1471-2458-10-299-5
+================================================================================
+
+
+
+[12:51:05.109] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:51:05.111] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:51:05.177] === DATA_LOADING ===
+Chargement des données GT depuis PMC2898822___1471-2458-10-299-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2898822___1471-2458-10-299-5.json
+  - Series Count: 4
+  - Series Names: ['DISENGAGED', 'DOUBTFUL', 'DISMISSIVE', 'POPULATION']
+  - X Data Types: {'categorical': 4}
+  - Total Data Points: 72
+--------------------------------------------------
+
+[12:51:05.182] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2898822___1471-2458-10-299-5.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2898822___1471-2458-10-299-5\PMC2898822___1471-2458-10-299-5.json
+  - Series Count: 4
+  - Series Names: ['DISEMGAGED', 'DOUBTFUL', 'DISMISSIVE', 'POPULATION']
+  - X Data Types: {'numeric': 4}
+  - Total Data Points: 68
+--------------------------------------------------
+
+[12:51:05.186] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 16.0702
+  - Y Min-Max: [-8.0702, 8.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[12:51:05.189] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:51:05.191] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['DOUBTFUL <-> DOUBTFUL (method=exact_match, score=1.000)', 'DISMISSIVE <-> DISMISSIVE (method=exact_match, score=1.000)', 'POPULATION <-> POPULATION (method=exact_match, score=1.000)', 'DISENGAGED <-> DISEMGAGED (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[12:51:06.577] === SERIES_COMPARISON ===
+Comparaison DOUBTFUL vs DOUBTFUL avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 3.800722
+  - MAE Relative: 0.236507
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.400000
+  - GT Points: 18
+  - Extracted Points: 17
+  - Points Ratio: 0.94
+--------------------------------------------------
+
+[12:51:07.959] === SERIES_COMPARISON ===
+Comparaison DISMISSIVE vs DISMISSIVE avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 4.865719
+  - MAE Relative: 0.302779
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.400000
+  - GT Points: 18
+  - Extracted Points: 17
+  - Points Ratio: 0.94
+--------------------------------------------------
+
+[12:51:09.346] === SERIES_COMPARISON ===
+Comparaison POPULATION vs POPULATION avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 2.640824
+  - MAE Relative: 0.164331
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.400000
+  - GT Points: 18
+  - Extracted Points: 17
+  - Points Ratio: 0.94
+--------------------------------------------------
+
+[12:51:11.014] === SERIES_COMPARISON ===
+Comparaison DISENGAGED vs DISEMGAGED avec CategoricalLineComparator
+
+Data:
+  - MAE Absolute: 3.036746
+  - MAE Relative: 0.188968
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.400000
+  - GT Points: 18
+  - Extracted Points: 17
+  - Points Ratio: 0.94
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:51:11
+Total Duration: 5.94 seconds
+Total Series Processed: 4
+Successful Comparisons: 4
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2898822_1471-2458-10-299-5.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

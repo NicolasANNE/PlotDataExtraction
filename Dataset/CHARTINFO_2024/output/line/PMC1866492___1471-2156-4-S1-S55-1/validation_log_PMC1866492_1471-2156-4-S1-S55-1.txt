@@ -1,0 +1,813 @@
+
+================================================================================
+VALIDATION LOG - PMC1866492_1471-2156-4-S1-S55-1
+================================================================================
+Timestamp: 2025-08-06 20:15:46
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866492___1471-2156-4-S1-S55-1
+================================================================================
+
+
+
+[20:15:46.822] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:46.909] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:46.929] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866492___1471-2156-4-S1-S55-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866492___1471-2156-4-S1-S55-1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:46.933] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866492___1471-2156-4-S1-S55-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866492___1471-2156-4-S1-S55-1\PMC1866492___1471-2156-4-S1-S55-1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:46.936] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866492_1471-2156-4-S1-S55-1
+================================================================================
+Timestamp: 2025-08-06 21:31:30
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866492___1471-2156-4-S1-S55-1
+================================================================================
+
+
+
+[21:31:30.338] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:31:30.340] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:31:30.372] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866492___1471-2156-4-S1-S55-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866492___1471-2156-4-S1-S55-1.json
+  - Series Count: 3
+  - Series Names: ['35-50', '50-65', '35-50 & 50-65']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 96
+--------------------------------------------------
+
+[21:31:30.375] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866492___1471-2156-4-S1-S55-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866492___1471-2156-4-S1-S55-1\PMC1866492___1471-2156-4-S1-S55-1.json
+  - Series Count: 3
+  - Series Names: ['35-50', '50-65', '35-50 & 50-65']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 54
+--------------------------------------------------
+
+[21:31:30.379] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 2.5076
+  - Y Min-Max: [-0.0114, 2.4962]
+  - X Range: 170.0
+--------------------------------------------------
+
+[21:31:30.381] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:31:30.383] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['35-50 <-> 35-50 (method=exact_match, score=1.000)', '50-65 <-> 50-65 (method=exact_match, score=1.000)', '35-50 & 50-65 <-> 35-50 & 50-65 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:31:31.024] === SERIES_COMPARISON ===
+Comparaison 35-50 vs 35-50 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.115008
+  - MAE Relative: 0.045864
+  - Left Miss (rel): -0.001331
+  - Right Miss (rel): -0.011048
+  - X Cutoff: N/A
+  - GT Points: 34
+  - Extracted Points: 18
+  - Points Ratio: 0.53
+--------------------------------------------------
+
+[21:31:31.818] === SERIES_COMPARISON ===
+Comparaison 50-65 vs 50-65 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.124725
+  - MAE Relative: 0.049739
+  - Left Miss (rel): -0.014641
+  - Right Miss (rel): -0.008385
+  - X Cutoff: N/A
+  - GT Points: 29
+  - Extracted Points: 18
+  - Points Ratio: 0.62
+--------------------------------------------------
+
+[21:31:32.639] === SERIES_COMPARISON ===
+Comparaison 35-50 & 50-65 vs 35-50 & 50-65 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.097480
+  - MAE Relative: 0.038874
+  - Left Miss (rel): -0.015972
+  - Right Miss (rel): -0.012379
+  - X Cutoff: N/A
+  - GT Points: 33
+  - Extracted Points: 18
+  - Points Ratio: 0.55
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:31:32
+Total Duration: 2.31 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866492_1471-2156-4-S1-S55-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866492_1471-2156-4-S1-S55-1
+================================================================================
+Timestamp: 2025-08-07 12:47:28
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866492___1471-2156-4-S1-S55-1
+================================================================================
+
+
+
+[12:47:28.390] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:47:28.409] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:47:28.464] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866492___1471-2156-4-S1-S55-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866492___1471-2156-4-S1-S55-1.json
+  - Series Count: 3
+  - Series Names: ['35-50', '50-65', '35-50 & 50-65']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 96
+--------------------------------------------------
+
+[12:47:28.479] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866492___1471-2156-4-S1-S55-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866492___1471-2156-4-S1-S55-1\PMC1866492___1471-2156-4-S1-S55-1.json
+  - Series Count: 3
+  - Series Names: ['35-50', '50-65', '35-50 & 50-65']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 54
+--------------------------------------------------
+
+[12:47:28.499] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 2.5076
+  - Y Min-Max: [-0.0114, 2.4962]
+  - X Range: 170.0
+--------------------------------------------------
+
+[12:47:28.502] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:47:28.505] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['35-50 <-> 35-50 (method=exact_match, score=1.000)', '50-65 <-> 50-65 (method=exact_match, score=1.000)', '35-50 & 50-65 <-> 35-50 & 50-65 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:47:29.588] === SERIES_COMPARISON ===
+Comparaison 35-50 vs 35-50 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.115008
+  - MAE Relative: 0.045864
+  - Left Miss (rel): -0.001331
+  - Right Miss (rel): -0.011048
+  - X Cutoff: N/A
+  - GT Points: 34
+  - Extracted Points: 18
+  - Points Ratio: 0.53
+--------------------------------------------------
+
+[12:47:30.866] === SERIES_COMPARISON ===
+Comparaison 50-65 vs 50-65 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.124725
+  - MAE Relative: 0.049739
+  - Left Miss (rel): -0.014641
+  - Right Miss (rel): -0.008385
+  - X Cutoff: N/A
+  - GT Points: 29
+  - Extracted Points: 18
+  - Points Ratio: 0.62
+--------------------------------------------------
+
+[12:47:31.471] === SERIES_COMPARISON ===
+Comparaison 35-50 & 50-65 vs 35-50 & 50-65 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.097480
+  - MAE Relative: 0.038874
+  - Left Miss (rel): -0.015972
+  - Right Miss (rel): -0.012379
+  - X Cutoff: N/A
+  - GT Points: 33
+  - Extracted Points: 18
+  - Points Ratio: 0.55
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:47:31
+Total Duration: 3.10 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866492_1471-2156-4-S1-S55-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866492_1471-2156-4-S1-S55-1
+================================================================================
+Timestamp: 2025-08-07 13:04:28
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866492___1471-2156-4-S1-S55-1
+================================================================================
+
+
+
+[13:04:28.866] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:04:28.868] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:04:28.916] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866492___1471-2156-4-S1-S55-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866492___1471-2156-4-S1-S55-1.json
+  - Series Count: 3
+  - Series Names: ['35-50', '50-65', '35-50 & 50-65']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 96
+--------------------------------------------------
+
+[13:04:28.934] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866492___1471-2156-4-S1-S55-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866492___1471-2156-4-S1-S55-1\PMC1866492___1471-2156-4-S1-S55-1.json
+  - Series Count: 3
+  - Series Names: ['35-50', '50-65', '35-50 & 50-65']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 54
+--------------------------------------------------
+
+[13:04:28.938] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 2.5076
+  - Y Min-Max: [-0.0114, 2.4962]
+  - X Range: 170.0
+--------------------------------------------------
+
+[13:04:28.940] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:04:28.942] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['35-50 <-> 35-50 (method=exact_match, score=1.000)', '50-65 <-> 50-65 (method=exact_match, score=1.000)', '35-50 & 50-65 <-> 35-50 & 50-65 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:04:30.402] === SERIES_COMPARISON ===
+Comparaison 35-50 vs 35-50 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.118975
+  - MAE Relative: 0.047446
+  - Left Miss (rel): -0.001331
+  - Right Miss (rel): -0.011048
+  - X Cutoff: N/A
+  - GT Points: 34
+  - Extracted Points: 18
+  - Points Ratio: 0.53
+--------------------------------------------------
+
+[13:04:31.551] === SERIES_COMPARISON ===
+Comparaison 50-65 vs 50-65 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.159681
+  - MAE Relative: 0.063679
+  - Left Miss (rel): -0.014641
+  - Right Miss (rel): -0.008385
+  - X Cutoff: N/A
+  - GT Points: 29
+  - Extracted Points: 18
+  - Points Ratio: 0.62
+--------------------------------------------------
+
+[13:04:32.685] === SERIES_COMPARISON ===
+Comparaison 35-50 & 50-65 vs 35-50 & 50-65 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.108636
+  - MAE Relative: 0.043323
+  - Left Miss (rel): -0.015972
+  - Right Miss (rel): -0.012379
+  - X Cutoff: N/A
+  - GT Points: 33
+  - Extracted Points: 18
+  - Points Ratio: 0.55
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:04:32
+Total Duration: 3.83 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866492_1471-2156-4-S1-S55-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866492_1471-2156-4-S1-S55-1
+================================================================================
+Timestamp: 2025-08-07 16:38:04
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866492___1471-2156-4-S1-S55-1
+================================================================================
+
+
+
+[16:38:04.113] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:38:04.142] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:38:04.194] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866492___1471-2156-4-S1-S55-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866492___1471-2156-4-S1-S55-1.json
+  - Series Count: 3
+  - Series Names: ['35-50', '50-65', '35-50 & 50-65']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 96
+--------------------------------------------------
+
+[16:38:04.199] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866492___1471-2156-4-S1-S55-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866492___1471-2156-4-S1-S55-1\PMC1866492___1471-2156-4-S1-S55-1.json
+  - Series Count: 3
+  - Series Names: ['35-50', '50-65', '35-50 & 50-65']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 54
+--------------------------------------------------
+
+[16:38:04.202] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 2.5076
+  - Y Min-Max: [-0.0114, 2.4962]
+  - X Range: 170.0
+--------------------------------------------------
+
+[16:38:04.206] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:38:04.208] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['35-50 <-> 35-50 (method=exact_match, score=1.000)', '50-65 <-> 50-65 (method=exact_match, score=1.000)', '35-50 & 50-65 <-> 35-50 & 50-65 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:38:05.320] === SERIES_COMPARISON ===
+Comparaison 35-50 vs 35-50 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.118975
+  - MAE Relative: 0.047446
+  - Left Miss (rel): -0.001331
+  - Right Miss (rel): -0.011048
+  - X Cutoff: N/A
+  - GT Points: 34
+  - Extracted Points: 18
+  - Points Ratio: 0.53
+--------------------------------------------------
+
+[16:38:06.613] === SERIES_COMPARISON ===
+Comparaison 50-65 vs 50-65 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.159681
+  - MAE Relative: 0.063679
+  - Left Miss (rel): -0.014641
+  - Right Miss (rel): -0.008385
+  - X Cutoff: N/A
+  - GT Points: 29
+  - Extracted Points: 18
+  - Points Ratio: 0.62
+--------------------------------------------------
+
+[16:38:08.144] === SERIES_COMPARISON ===
+Comparaison 35-50 & 50-65 vs 35-50 & 50-65 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.108636
+  - MAE Relative: 0.043323
+  - Left Miss (rel): -0.015972
+  - Right Miss (rel): -0.012379
+  - X Cutoff: N/A
+  - GT Points: 33
+  - Extracted Points: 18
+  - Points Ratio: 0.55
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:38:08
+Total Duration: 4.07 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866492_1471-2156-4-S1-S55-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866492_1471-2156-4-S1-S55-1
+================================================================================
+Timestamp: 2025-08-07 16:57:17
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866492___1471-2156-4-S1-S55-1
+================================================================================
+
+
+
+[16:57:17.771] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:57:17.796] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:57:17.876] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866492___1471-2156-4-S1-S55-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866492___1471-2156-4-S1-S55-1.json
+  - Series Count: 3
+  - Series Names: ['35-50', '50-65', '35-50 & 50-65']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 96
+--------------------------------------------------
+
+[16:57:17.883] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866492___1471-2156-4-S1-S55-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866492___1471-2156-4-S1-S55-1\PMC1866492___1471-2156-4-S1-S55-1.json
+  - Series Count: 3
+  - Series Names: ['35-50', '50-65', '35-50 & 50-65']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 54
+--------------------------------------------------
+
+[16:57:17.903] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 2.5076
+  - Y Min-Max: [-0.0114, 2.4962]
+  - X Range: 170.0
+--------------------------------------------------
+
+[16:57:17.907] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:57:17.910] === MATCHING_RESULTS ===
+4 appariements trouvés
+
+Data:
+  - Total Matches: 4
+  - Match Details: ['AgeU_RTM <-> AgeU_RTM (method=exact_match, score=1.000)', 'AgeL_RTM <-> AgeL_RTM (method=exact_match, score=1.000)', 'AgeAv_RTM <-> AgeAv_RTM (method=exact_match, score=1.000)', 'AgeAv_PH <-> AgeAv_PH (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:57:17.914] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison AgeU_RTM vs AgeU_RTM
+==================================================
+
+
+[16:57:17.952] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison AgeL_RTM vs AgeL_RTM
+==================================================
+
+
+[16:57:17.957] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison AgeAv_RTM vs AgeAv_RTM
+==================================================
+
+
+[16:57:17.979] === ERROR IN SERIES_COMPARISON ===
+Error: single positional indexer is out-of-bounds
+Type: IndexError
+Details: Comparaison AgeAv_PH vs AgeAv_PH
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:57:18
+Total Duration: 0.30 seconds
+Total Series Processed: 4
+Successful Comparisons: 0
+Errors: 4
+Success Rate: 0.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866492_1471-2156-4-S1-S55-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1866492_1471-2156-4-S1-S55-1
+================================================================================
+Timestamp: 2025-08-11 13:46:22
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866492___1471-2156-4-S1-S55-1
+================================================================================
+
+
+
+[13:46:22.051] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:46:22.055] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:46:22.170] === DATA_LOADING ===
+Chargement des données GT depuis PMC1866492___1471-2156-4-S1-S55-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1866492___1471-2156-4-S1-S55-1.json
+  - Series Count: 3
+  - Series Names: ['35-50', '50-65', '35-50 & 50-65']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 96
+--------------------------------------------------
+
+[13:46:22.186] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1866492___1471-2156-4-S1-S55-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1866492___1471-2156-4-S1-S55-1\PMC1866492___1471-2156-4-S1-S55-1.json
+  - Series Count: 3
+  - Series Names: ['35-50', '50-65', '35-50 & 50-65']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 54
+--------------------------------------------------
+
+[13:46:22.189] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 2.5076
+  - Y Min-Max: [-0.0114, 2.4962]
+  - X Range: 170.0
+--------------------------------------------------
+
+[13:46:22.196] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:46:22.213] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['35-50 <-> 35-50 (method=exact_match, score=1.000)', '50-65 <-> 50-65 (method=exact_match, score=1.000)', '35-50 & 50-65 <-> 35-50 & 50-65 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:46:23.707] === SERIES_COMPARISON ===
+Comparaison 35-50 vs 35-50 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.135493
+  - MAE Relative: 0.054033
+  - Left Miss (rel): -0.001331
+  - Right Miss (rel): -0.011048
+  - X Cutoff: N/A
+  - GT Points: 34
+  - Extracted Points: 18
+  - Points Ratio: 0.53
+--------------------------------------------------
+
+[13:46:25.709] === SERIES_COMPARISON ===
+Comparaison 50-65 vs 50-65 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.132202
+  - MAE Relative: 0.052721
+  - Left Miss (rel): -0.014641
+  - Right Miss (rel): -0.008385
+  - X Cutoff: N/A
+  - GT Points: 29
+  - Extracted Points: 18
+  - Points Ratio: 0.62
+--------------------------------------------------
+
+[13:46:28.056] === SERIES_COMPARISON ===
+Comparaison 35-50 & 50-65 vs 35-50 & 50-65 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.077581
+  - MAE Relative: 0.030938
+  - Left Miss (rel): -0.015972
+  - Right Miss (rel): -0.012379
+  - X Cutoff: N/A
+  - GT Points: 33
+  - Extracted Points: 18
+  - Points Ratio: 0.55
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-11 13:46:28
+Total Duration: 6.07 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1866492_1471-2156-4-S1-S55-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

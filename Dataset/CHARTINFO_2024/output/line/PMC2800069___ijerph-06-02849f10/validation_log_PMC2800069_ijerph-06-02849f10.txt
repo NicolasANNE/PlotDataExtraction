@@ -1,0 +1,283 @@
+
+================================================================================
+VALIDATION LOG - PMC2800069_ijerph-06-02849f10
+================================================================================
+Timestamp: 2025-08-06 20:16:38
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2800069___ijerph-06-02849f10
+================================================================================
+
+
+
+[20:16:38.787] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:16:38.824] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:16:38.834] === DATA_LOADING ===
+Chargement des données GT depuis PMC2800069___ijerph-06-02849f10.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2800069___ijerph-06-02849f10.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:38.837] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2800069___ijerph-06-02849f10.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2800069___ijerph-06-02849f10\PMC2800069___ijerph-06-02849f10.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:16:38.838] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2800069_ijerph-06-02849f10
+================================================================================
+Timestamp: 2025-08-06 21:34:15
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2800069___ijerph-06-02849f10
+================================================================================
+
+
+
+[21:34:15.978] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:34:15.983] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:34:16.056] === DATA_LOADING ===
+Chargement des données GT depuis PMC2800069___ijerph-06-02849f10.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2800069___ijerph-06-02849f10.json
+  - Series Count: 2
+  - Series Names: ['run off', 'sunspots']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 178
+--------------------------------------------------
+
+[21:34:16.065] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2800069___ijerph-06-02849f10.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2800069___ijerph-06-02849f10\PMC2800069___ijerph-06-02849f10.json
+  - Series Count: 2
+  - Series Names: ['run off', 'sunspots']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 62
+--------------------------------------------------
+
+[21:34:16.071] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 683.0351
+  - Y Min-Max: [-333.0351, 350.0000]
+  - X Range: 300.3270111183781
+--------------------------------------------------
+
+[21:34:16.086] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:34:16.098] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['run off <-> run off (method=exact_match, score=1.000)', 'sunspots <-> sunspots (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:34:17.582] === SERIES_COMPARISON ===
+Comparaison run off vs run off avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 132.912059
+  - MAE Relative: 0.194590
+  - Left Miss (rel): 0.001089
+  - Right Miss (rel): -0.001524
+  - X Cutoff: N/A
+  - GT Points: 82
+  - Extracted Points: 31
+  - Points Ratio: 0.38
+--------------------------------------------------
+
+[21:34:18.484] === SERIES_COMPARISON ===
+Comparaison sunspots vs sunspots avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 111.525001
+  - MAE Relative: 0.163279
+  - Left Miss (rel): -0.001089
+  - Right Miss (rel): -0.000436
+  - X Cutoff: N/A
+  - GT Points: 96
+  - Extracted Points: 31
+  - Points Ratio: 0.32
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:34:18
+Total Duration: 2.52 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2800069_ijerph-06-02849f10.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2800069_ijerph-06-02849f10
+================================================================================
+Timestamp: 2025-08-07 12:50:24
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2800069___ijerph-06-02849f10
+================================================================================
+
+
+
+[12:50:24.277] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:50:24.280] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:50:24.347] === DATA_LOADING ===
+Chargement des données GT depuis PMC2800069___ijerph-06-02849f10.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC2800069___ijerph-06-02849f10.json
+  - Series Count: 2
+  - Series Names: ['run off', 'sunspots']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 178
+--------------------------------------------------
+
+[12:50:24.352] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2800069___ijerph-06-02849f10.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC2800069___ijerph-06-02849f10\PMC2800069___ijerph-06-02849f10.json
+  - Series Count: 2
+  - Series Names: ['run off', 'sunspots']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 62
+--------------------------------------------------
+
+[12:50:24.358] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 683.0351
+  - Y Min-Max: [-333.0351, 350.0000]
+  - X Range: 300.3270111183781
+--------------------------------------------------
+
+[12:50:24.362] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:50:24.371] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['run off <-> run off (method=exact_match, score=1.000)', 'sunspots <-> sunspots (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:50:25.276] === SERIES_COMPARISON ===
+Comparaison run off vs run off avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 148.623091
+  - MAE Relative: 0.217592
+  - Left Miss (rel): 0.001089
+  - Right Miss (rel): -0.001524
+  - X Cutoff: N/A
+  - GT Points: 82
+  - Extracted Points: 31
+  - Points Ratio: 0.38
+--------------------------------------------------
+
+[12:50:26.741] === SERIES_COMPARISON ===
+Comparaison sunspots vs sunspots avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 112.840471
+  - MAE Relative: 0.165204
+  - Left Miss (rel): -0.001089
+  - Right Miss (rel): -0.000436
+  - X Cutoff: N/A
+  - GT Points: 96
+  - Extracted Points: 31
+  - Points Ratio: 0.32
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:50:26
+Total Duration: 2.47 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2800069_ijerph-06-02849f10.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

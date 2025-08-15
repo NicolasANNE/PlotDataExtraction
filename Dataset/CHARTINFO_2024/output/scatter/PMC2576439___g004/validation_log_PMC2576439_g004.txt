@@ -1,0 +1,345 @@
+
+================================================================================
+VALIDATION LOG - PMC2576439_g004
+================================================================================
+Timestamp: 2025-08-07 13:07:16
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2576439___g004
+================================================================================
+
+
+
+[13:07:16.366] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:07:16.369] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:07:16.442] === DATA_LOADING ===
+Chargement des données GT depuis PMC2576439___g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC2576439___g004.json
+  - Series Count: 2
+  - Series Names: ['NinFreqR\\n c_DER', 'NinFreqL\\n c_DEl']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 76
+--------------------------------------------------
+
+[13:07:16.446] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2576439___g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2576439___g004\PMC2576439___g004.json
+  - Series Count: 2
+  - Series Names: ['NinFreqR c_DER', 'NinFreqL c_DE1']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 48
+--------------------------------------------------
+
+[13:07:16.450] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 6.6299
+  - Y Min-Max: [0.0000, 6.6299]
+  - X Range: 44.0
+--------------------------------------------------
+
+[13:07:16.453] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:07:16.458] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['NinFreqR\\n c_DER <-> NinFreqR c_DER (method=fuzzy_match, score=0.900)', 'NinFreqL\\n c_DEl <-> NinFreqL c_DE1 (method=fuzzy_match, score=0.850)']
+--------------------------------------------------
+
+[13:07:17.408] === SERIES_COMPARISON ===
+Comparaison NinFreqR\n c_DER vs NinFreqR c_DER avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.117631
+  - MAE Relative: 0.168574
+  - Left Miss (rel): 0.016128
+  - Right Miss (rel): 0.025109
+  - X Cutoff: N/A
+  - GT Points: 37
+  - Extracted Points: 24
+  - Points Ratio: 0.65
+--------------------------------------------------
+
+[13:07:18.339] === SERIES_COMPARISON ===
+Comparaison NinFreqL\n c_DEl vs NinFreqL c_DE1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.960790
+  - MAE Relative: 0.144917
+  - Left Miss (rel): -0.021151
+  - Right Miss (rel): -0.011731
+  - X Cutoff: N/A
+  - GT Points: 39
+  - Extracted Points: 24
+  - Points Ratio: 0.62
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:07:18
+Total Duration: 2.02 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2576439_g004.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2576439_g004
+================================================================================
+Timestamp: 2025-08-07 16:40:55
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2576439___g004
+================================================================================
+
+
+
+[16:40:55.547] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:40:55.569] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:40:55.623] === DATA_LOADING ===
+Chargement des données GT depuis PMC2576439___g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC2576439___g004.json
+  - Series Count: 2
+  - Series Names: ['NinFreqR\\n c_DER', 'NinFreqL\\n c_DEl']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 76
+--------------------------------------------------
+
+[16:40:55.626] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2576439___g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2576439___g004\PMC2576439___g004.json
+  - Series Count: 2
+  - Series Names: ['NinFreqR c_DER', 'NinFreqL c_DE1']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 72
+--------------------------------------------------
+
+[16:40:55.631] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 6.6299
+  - Y Min-Max: [0.0000, 6.6299]
+  - X Range: 48.0
+--------------------------------------------------
+
+[16:40:55.636] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:40:55.645] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['NinFreqR\\n c_DER <-> NinFreqR c_DER (method=fuzzy_match, score=0.900)', 'NinFreqL\\n c_DEl <-> NinFreqL c_DE1 (method=fuzzy_match, score=0.850)']
+--------------------------------------------------
+
+[16:40:56.768] === SERIES_COMPARISON ===
+Comparaison NinFreqR\n c_DER vs NinFreqR c_DER avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.671213
+  - MAE Relative: 0.252071
+  - Left Miss (rel): 0.014784
+  - Right Miss (rel): -0.122817
+  - X Cutoff: N/A
+  - GT Points: 37
+  - Extracted Points: 47
+  - Points Ratio: 1.27
+--------------------------------------------------
+
+[16:40:57.835] === SERIES_COMPARISON ===
+Comparaison NinFreqL\n c_DEl vs NinFreqL c_DE1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.094826
+  - MAE Relative: 0.165134
+  - Left Miss (rel): -0.019389
+  - Right Miss (rel): -0.094087
+  - X Cutoff: N/A
+  - GT Points: 39
+  - Extracted Points: 25
+  - Points Ratio: 0.64
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:40:57
+Total Duration: 2.31 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2576439_g004.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2576439_g004
+================================================================================
+Timestamp: 2025-08-07 17:00:05
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2576439___g004
+================================================================================
+
+
+
+[17:00:05.777] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:00:05.796] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[17:00:05.861] === DATA_LOADING ===
+Chargement des données GT depuis PMC2576439___g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC2576439___g004.json
+  - Series Count: 2
+  - Series Names: ['NinFreqR\\n c_DER', 'NinFreqL\\n c_DEl']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 76
+--------------------------------------------------
+
+[17:00:05.864] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2576439___g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2576439___g004\PMC2576439___g004.json
+  - Series Count: 2
+  - Series Names: ['NinFreqR c_DER', 'NinFreqL c_DE1']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 58
+--------------------------------------------------
+
+[17:00:05.868] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 6.6299
+  - Y Min-Max: [0.0000, 6.6299]
+  - X Range: 47.0
+--------------------------------------------------
+
+[17:00:05.915] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:00:05.921] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['NinFreqR\\n c_DER <-> NinFreqR c_DER (method=fuzzy_match, score=0.900)', 'NinFreqL\\n c_DEl <-> NinFreqL c_DE1 (method=fuzzy_match, score=0.850)']
+--------------------------------------------------
+
+[17:00:07.059] === SERIES_COMPARISON ===
+Comparaison NinFreqR\n c_DER vs NinFreqR c_DER avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.475442
+  - MAE Relative: 0.222542
+  - Left Miss (rel): 0.015098
+  - Right Miss (rel): 0.278826
+  - X Cutoff: N/A
+  - GT Points: 37
+  - Extracted Points: 28
+  - Points Ratio: 0.76
+--------------------------------------------------
+
+[17:00:08.822] === SERIES_COMPARISON ===
+Comparaison NinFreqL\n c_DEl vs NinFreqL c_DE1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.889286
+  - MAE Relative: 0.134132
+  - Left Miss (rel): -0.019801
+  - Right Miss (rel): -0.074812
+  - X Cutoff: N/A
+  - GT Points: 39
+  - Extracted Points: 30
+  - Points Ratio: 0.77
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:00:08
+Total Duration: 3.09 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2576439_g004.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,118 @@
+
+================================================================================
+VALIDATION LOG - PMC3747326_fgene-04-00152-g0004
+================================================================================
+Timestamp: 2025-08-07 12:59:25
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3747326___fgene-04-00152-g0004
+================================================================================
+
+
+
+[12:59:25.973] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:59:25.981] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:59:26.034] === DATA_LOADING ===
+Chargement des données GT depuis PMC3747326___fgene-04-00152-g0004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3747326___fgene-04-00152-g0004.json
+  - Series Count: 2
+  - Series Names: ['1,000 sets of matched\nUtah prostate cancer \ncases', '3,982 lethal prostate\ncancer cases']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 18
+--------------------------------------------------
+
+[12:59:26.039] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3747326___fgene-04-00152-g0004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3747326___fgene-04-00152-g0004\PMC3747326___fgene-04-00152-g0004.json
+  - Series Count: 2
+  - Series Names: ['1,000 sets of matched Utah prostate cancer cases', '3,982 lethal prostate cancer cases']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 22
+--------------------------------------------------
+
+[12:59:26.043] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 1.0700
+  - Y Min-Max: [0.0100, 1.0800]
+  - X Range: 10.031847133757962
+--------------------------------------------------
+
+[12:59:26.046] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:59:26.050] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['1,000 sets of matched\nUtah prostate cancer \ncases <-> 1,000 sets of matched Utah prostate cancer cases (method=fuzzy_match, score=0.950)', '3,982 lethal prostate\ncancer cases <-> 3,982 lethal prostate cancer cases (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[12:59:27.869] === SERIES_COMPARISON ===
+Comparaison 1,000 sets of matched
+Utah prostate cancer 
+cases vs 1,000 sets of matched Utah prostate cancer cases avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.019875
+  - MAE Relative: 0.018575
+  - Left Miss (rel): -0.003175
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 11
+  - Points Ratio: 1.22
+--------------------------------------------------
+
+[12:59:29.431] === SERIES_COMPARISON ===
+Comparaison 3,982 lethal prostate
+cancer cases vs 3,982 lethal prostate cancer cases avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.021902
+  - MAE Relative: 0.020469
+  - Left Miss (rel): -0.003175
+  - Right Miss (rel): 0.003175
+  - X Cutoff: N/A
+  - GT Points: 9
+  - Extracted Points: 11
+  - Points Ratio: 1.22
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:59:29
+Total Duration: 3.47 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3747326_fgene-04-00152-g0004.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,956 @@
+
+================================================================================
+VALIDATION LOG - PMC1193525_pgen.0010015.g006
+================================================================================
+Timestamp: 2025-08-06 20:15:20
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1193525___pgen.0010015.g006
+================================================================================
+
+
+
+[20:15:20.553] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:20.589] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:20.614] === DATA_LOADING ===
+Chargement des données GT depuis PMC1193525___pgen.0010015.g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1193525___pgen.0010015.g006.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:20.630] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1193525___pgen.0010015.g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1193525___pgen.0010015.g006\PMC1193525___pgen.0010015.g006.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:20.632] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1193525_pgen.0010015.g006
+================================================================================
+Timestamp: 2025-08-06 21:06:31
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1193525___pgen.0010015.g006
+================================================================================
+
+
+
+[21:06:31.628] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:06:31.633] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:06:31.777] === DATA_LOADING ===
+Chargement des données GT depuis PMC1193525___pgen.0010015.g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1193525___pgen.0010015.g006.json
+  - Series Count: 3
+  - Series Names: ['B. subtilis', 'E. coli', 'Both']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 85
+--------------------------------------------------
+
+[21:06:31.801] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1193525___pgen.0010015.g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1193525___pgen.0010015.g006\PMC1193525___pgen.0010015.g006.json
+  - Series Count: 3
+  - Series Names: ['B. subtilis', 'E. coli', 'Both']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 33
+--------------------------------------------------
+
+[21:06:31.820] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 4.3900
+  - Y Min-Max: [0.0100, 4.4000]
+  - X Range: 4.945578231292518
+--------------------------------------------------
+
+[21:06:31.826] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:06:31.841] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['B. subtilis <-> B. subtilis (method=exact_match, score=1.000)', 'E. coli <-> E. coli (method=exact_match, score=1.000)', 'Both <-> Both (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:06:37.877] === SERIES_COMPARISON ===
+Comparaison B. subtilis vs B. subtilis avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.185752
+  - MAE Relative: 0.042313
+  - Left Miss (rel): -0.006190
+  - Right Miss (rel): 0.027648
+  - X Cutoff: N/A
+  - GT Points: 29
+  - Extracted Points: 11
+  - Points Ratio: 0.38
+--------------------------------------------------
+
+[21:06:53.215] === SERIES_COMPARISON ===
+Comparaison E. coli vs E. coli avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.167188
+  - MAE Relative: 0.038084
+  - Left Miss (rel): 0.000413
+  - Right Miss (rel): 0.023521
+  - X Cutoff: N/A
+  - GT Points: 29
+  - Extracted Points: 11
+  - Points Ratio: 0.38
+--------------------------------------------------
+
+[21:06:54.269] === SERIES_COMPARISON ===
+Comparaison Both vs Both avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.132613
+  - MAE Relative: 0.030208
+  - Left Miss (rel): 0.001788
+  - Right Miss (rel): 0.021320
+  - X Cutoff: N/A
+  - GT Points: 27
+  - Extracted Points: 11
+  - Points Ratio: 0.41
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:06:54
+Total Duration: 22.71 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1193525_pgen.0010015.g006.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1193525_pgen.0010015.g006
+================================================================================
+Timestamp: 2025-08-06 21:30:48
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1193525___pgen.0010015.g006
+================================================================================
+
+
+
+[21:30:48.014] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:30:48.016] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:30:48.040] === DATA_LOADING ===
+Chargement des données GT depuis PMC1193525___pgen.0010015.g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1193525___pgen.0010015.g006.json
+  - Series Count: 3
+  - Series Names: ['B. subtilis', 'E. coli', 'Both']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 85
+--------------------------------------------------
+
+[21:30:48.071] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1193525___pgen.0010015.g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1193525___pgen.0010015.g006\PMC1193525___pgen.0010015.g006.json
+  - Series Count: 3
+  - Series Names: ['B. subtilis', 'E. coli', 'Both']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 33
+--------------------------------------------------
+
+[21:30:48.073] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 4.3900
+  - Y Min-Max: [0.0100, 4.4000]
+  - X Range: 4.945578231292518
+--------------------------------------------------
+
+[21:30:48.075] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:30:48.076] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['B. subtilis <-> B. subtilis (method=exact_match, score=1.000)', 'E. coli <-> E. coli (method=exact_match, score=1.000)', 'Both <-> Both (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:30:48.780] === SERIES_COMPARISON ===
+Comparaison B. subtilis vs B. subtilis avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.185752
+  - MAE Relative: 0.042313
+  - Left Miss (rel): -0.006190
+  - Right Miss (rel): 0.027648
+  - X Cutoff: N/A
+  - GT Points: 29
+  - Extracted Points: 11
+  - Points Ratio: 0.38
+--------------------------------------------------
+
+[21:30:49.549] === SERIES_COMPARISON ===
+Comparaison E. coli vs E. coli avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.167188
+  - MAE Relative: 0.038084
+  - Left Miss (rel): 0.000413
+  - Right Miss (rel): 0.023521
+  - X Cutoff: N/A
+  - GT Points: 29
+  - Extracted Points: 11
+  - Points Ratio: 0.38
+--------------------------------------------------
+
+[21:30:50.249] === SERIES_COMPARISON ===
+Comparaison Both vs Both avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.132613
+  - MAE Relative: 0.030208
+  - Left Miss (rel): 0.001788
+  - Right Miss (rel): 0.021320
+  - X Cutoff: N/A
+  - GT Points: 27
+  - Extracted Points: 11
+  - Points Ratio: 0.41
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:30:50
+Total Duration: 2.25 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1193525_pgen.0010015.g006.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1193525_pgen.0010015.g006
+================================================================================
+Timestamp: 2025-08-07 12:46:41
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1193525___pgen.0010015.g006
+================================================================================
+
+
+
+[12:46:41.036] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:46:41.038] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:46:41.108] === DATA_LOADING ===
+Chargement des données GT depuis PMC1193525___pgen.0010015.g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1193525___pgen.0010015.g006.json
+  - Series Count: 3
+  - Series Names: ['B. subtilis', 'E. coli', 'Both']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 85
+--------------------------------------------------
+
+[12:46:41.114] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1193525___pgen.0010015.g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1193525___pgen.0010015.g006\PMC1193525___pgen.0010015.g006.json
+  - Series Count: 3
+  - Series Names: ['B. subtilis', 'E. coli', 'Both']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 33
+--------------------------------------------------
+
+[12:46:41.117] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 4.3900
+  - Y Min-Max: [0.0100, 4.4000]
+  - X Range: 5.0088435374149665
+--------------------------------------------------
+
+[12:46:41.122] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:46:41.128] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['B. subtilis <-> B. subtilis (method=exact_match, score=1.000)', 'E. coli <-> E. coli (method=exact_match, score=1.000)', 'Both <-> Both (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:46:41.721] === SERIES_COMPARISON ===
+Comparaison B. subtilis vs B. subtilis avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.202446
+  - MAE Relative: 0.046115
+  - Left Miss (rel): -0.006112
+  - Right Miss (rel): -0.012631
+  - X Cutoff: N/A
+  - GT Points: 29
+  - Extracted Points: 11
+  - Points Ratio: 0.38
+--------------------------------------------------
+
+[12:46:42.554] === SERIES_COMPARISON ===
+Comparaison E. coli vs E. coli avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.136117
+  - MAE Relative: 0.031006
+  - Left Miss (rel): 0.000407
+  - Right Miss (rel): -0.016705
+  - X Cutoff: N/A
+  - GT Points: 29
+  - Extracted Points: 11
+  - Points Ratio: 0.38
+--------------------------------------------------
+
+[12:46:43.303] === SERIES_COMPARISON ===
+Comparaison Both vs Both avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.089928
+  - MAE Relative: 0.020485
+  - Left Miss (rel): 0.001766
+  - Right Miss (rel): -0.018878
+  - X Cutoff: N/A
+  - GT Points: 27
+  - Extracted Points: 11
+  - Points Ratio: 0.41
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:46:43
+Total Duration: 2.29 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1193525_pgen.0010015.g006.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1193525_pgen.0010015.g006
+================================================================================
+Timestamp: 2025-08-07 13:03:39
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1193525___pgen.0010015.g006
+================================================================================
+
+
+
+[13:03:39.502] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:03:39.516] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:03:39.658] === DATA_LOADING ===
+Chargement des données GT depuis PMC1193525___pgen.0010015.g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1193525___pgen.0010015.g006.json
+  - Series Count: 3
+  - Series Names: ['B. subtilis', 'E. coli', 'Both']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 85
+--------------------------------------------------
+
+[13:03:39.663] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1193525___pgen.0010015.g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1193525___pgen.0010015.g006\PMC1193525___pgen.0010015.g006.json
+  - Series Count: 3
+  - Series Names: ['B. subtilis', 'E. coli', 'Both']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 33
+--------------------------------------------------
+
+[13:03:39.669] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 4.3900
+  - Y Min-Max: [0.0100, 4.4000]
+  - X Range: 4.945578231292518
+--------------------------------------------------
+
+[13:03:39.703] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:03:39.708] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['B. subtilis <-> B. subtilis (method=exact_match, score=1.000)', 'E. coli <-> E. coli (method=exact_match, score=1.000)', 'Both <-> Both (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:03:40.860] === SERIES_COMPARISON ===
+Comparaison B. subtilis vs B. subtilis avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.185752
+  - MAE Relative: 0.042313
+  - Left Miss (rel): -0.006190
+  - Right Miss (rel): 0.027648
+  - X Cutoff: N/A
+  - GT Points: 29
+  - Extracted Points: 11
+  - Points Ratio: 0.38
+--------------------------------------------------
+
+[13:03:42.246] === SERIES_COMPARISON ===
+Comparaison E. coli vs E. coli avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.167188
+  - MAE Relative: 0.038084
+  - Left Miss (rel): 0.000413
+  - Right Miss (rel): 0.023521
+  - X Cutoff: N/A
+  - GT Points: 29
+  - Extracted Points: 11
+  - Points Ratio: 0.38
+--------------------------------------------------
+
+[13:03:43.478] === SERIES_COMPARISON ===
+Comparaison Both vs Both avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.132613
+  - MAE Relative: 0.030208
+  - Left Miss (rel): 0.001788
+  - Right Miss (rel): 0.021320
+  - X Cutoff: N/A
+  - GT Points: 27
+  - Extracted Points: 11
+  - Points Ratio: 0.41
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:03:43
+Total Duration: 3.99 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1193525_pgen.0010015.g006.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1193525_pgen.0010015.g006
+================================================================================
+Timestamp: 2025-08-07 16:37:14
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1193525___pgen.0010015.g006
+================================================================================
+
+
+
+[16:37:14.256] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:37:14.259] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:37:14.297] === DATA_LOADING ===
+Chargement des données GT depuis PMC1193525___pgen.0010015.g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1193525___pgen.0010015.g006.json
+  - Series Count: 3
+  - Series Names: ['B. subtilis', 'E. coli', 'Both']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 85
+--------------------------------------------------
+
+[16:37:14.302] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1193525___pgen.0010015.g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1193525___pgen.0010015.g006\PMC1193525___pgen.0010015.g006.json
+  - Series Count: 3
+  - Series Names: ['B. subtilis', 'E. coli', 'Both']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 33
+--------------------------------------------------
+
+[16:37:14.305] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 4.3900
+  - Y Min-Max: [0.0100, 4.4000]
+  - X Range: 5.0088435374149665
+--------------------------------------------------
+
+[16:37:14.307] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:37:14.308] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['B. subtilis <-> B. subtilis (method=exact_match, score=1.000)', 'E. coli <-> E. coli (method=exact_match, score=1.000)', 'Both <-> Both (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:37:14.895] === SERIES_COMPARISON ===
+Comparaison B. subtilis vs B. subtilis avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.202446
+  - MAE Relative: 0.046115
+  - Left Miss (rel): -0.006112
+  - Right Miss (rel): -0.012631
+  - X Cutoff: N/A
+  - GT Points: 29
+  - Extracted Points: 11
+  - Points Ratio: 0.38
+--------------------------------------------------
+
+[16:37:15.673] === SERIES_COMPARISON ===
+Comparaison E. coli vs E. coli avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.136117
+  - MAE Relative: 0.031006
+  - Left Miss (rel): 0.000407
+  - Right Miss (rel): -0.016705
+  - X Cutoff: N/A
+  - GT Points: 29
+  - Extracted Points: 11
+  - Points Ratio: 0.38
+--------------------------------------------------
+
+[16:37:16.655] === SERIES_COMPARISON ===
+Comparaison Both vs Both avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.089928
+  - MAE Relative: 0.020485
+  - Left Miss (rel): 0.001766
+  - Right Miss (rel): -0.018878
+  - X Cutoff: N/A
+  - GT Points: 27
+  - Extracted Points: 11
+  - Points Ratio: 0.41
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:37:16
+Total Duration: 2.42 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1193525_pgen.0010015.g006.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1193525_pgen.0010015.g006
+================================================================================
+Timestamp: 2025-08-07 16:56:29
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1193525___pgen.0010015.g006
+================================================================================
+
+
+
+[16:56:29.949] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:56:29.951] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:56:29.978] === DATA_LOADING ===
+Chargement des données GT depuis PMC1193525___pgen.0010015.g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1193525___pgen.0010015.g006.json
+  - Series Count: 3
+  - Series Names: ['B. subtilis', 'E. coli', 'Both']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 85
+--------------------------------------------------
+
+[16:56:29.989] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1193525___pgen.0010015.g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1193525___pgen.0010015.g006\PMC1193525___pgen.0010015.g006.json
+  - Series Count: 3
+  - Series Names: ['B. subtilis', 'E. coli', 'Both']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 33
+--------------------------------------------------
+
+[16:56:30.001] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 4.3900
+  - Y Min-Max: [0.0100, 4.4000]
+  - X Range: 5.0088435374149665
+--------------------------------------------------
+
+[16:56:30.003] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:56:30.010] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['B. subtilis <-> B. subtilis (method=exact_match, score=1.000)', 'E. coli <-> E. coli (method=exact_match, score=1.000)', 'Both <-> Both (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:56:30.662] === SERIES_COMPARISON ===
+Comparaison B. subtilis vs B. subtilis avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.202446
+  - MAE Relative: 0.046115
+  - Left Miss (rel): -0.006112
+  - Right Miss (rel): -0.012631
+  - X Cutoff: N/A
+  - GT Points: 29
+  - Extracted Points: 11
+  - Points Ratio: 0.38
+--------------------------------------------------
+
+[16:56:31.200] === SERIES_COMPARISON ===
+Comparaison E. coli vs E. coli avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.136117
+  - MAE Relative: 0.031006
+  - Left Miss (rel): 0.000407
+  - Right Miss (rel): -0.016705
+  - X Cutoff: N/A
+  - GT Points: 29
+  - Extracted Points: 11
+  - Points Ratio: 0.38
+--------------------------------------------------
+
+[16:56:31.747] === SERIES_COMPARISON ===
+Comparaison Both vs Both avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.089928
+  - MAE Relative: 0.020485
+  - Left Miss (rel): 0.001766
+  - Right Miss (rel): -0.018878
+  - X Cutoff: N/A
+  - GT Points: 27
+  - Extracted Points: 11
+  - Points Ratio: 0.41
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:56:31
+Total Duration: 1.81 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1193525_pgen.0010015.g006.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1193525_pgen.0010015.g006
+================================================================================
+Timestamp: 2025-08-11 13:45:14
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1193525___pgen.0010015.g006
+================================================================================
+
+
+
+[13:45:14.547] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:45:14.550] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:45:14.645] === DATA_LOADING ===
+Chargement des données GT depuis PMC1193525___pgen.0010015.g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1193525___pgen.0010015.g006.json
+  - Series Count: 3
+  - Series Names: ['B. subtilis', 'E. coli', 'Both']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 85
+--------------------------------------------------
+
+[13:45:14.655] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1193525___pgen.0010015.g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1193525___pgen.0010015.g006\PMC1193525___pgen.0010015.g006.json
+  - Series Count: 3
+  - Series Names: ['B. subtilis', 'E. coli', 'Both']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 33
+--------------------------------------------------
+
+[13:45:14.681] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 5.7900
+  - Y Min-Max: [0.0100, 5.8000]
+  - X Range: 5.0088435374149665
+--------------------------------------------------
+
+[13:45:14.690] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:45:14.704] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['B. subtilis <-> B. subtilis (method=exact_match, score=1.000)', 'E. coli <-> E. coli (method=exact_match, score=1.000)', 'Both <-> Both (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:45:15.589] === SERIES_COMPARISON ===
+Comparaison B. subtilis vs B. subtilis avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.257432
+  - MAE Relative: 0.044462
+  - Left Miss (rel): -0.006112
+  - Right Miss (rel): -0.012631
+  - X Cutoff: N/A
+  - GT Points: 29
+  - Extracted Points: 11
+  - Points Ratio: 0.38
+--------------------------------------------------
+
+[13:45:16.839] === SERIES_COMPARISON ===
+Comparaison E. coli vs E. coli avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.228245
+  - MAE Relative: 0.039421
+  - Left Miss (rel): 0.000407
+  - Right Miss (rel): -0.016705
+  - X Cutoff: N/A
+  - GT Points: 29
+  - Extracted Points: 11
+  - Points Ratio: 0.38
+--------------------------------------------------
+
+[13:45:18.211] === SERIES_COMPARISON ===
+Comparaison Both vs Both avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.169917
+  - MAE Relative: 0.029347
+  - Left Miss (rel): 0.001766
+  - Right Miss (rel): -0.018878
+  - X Cutoff: N/A
+  - GT Points: 27
+  - Extracted Points: 11
+  - Points Ratio: 0.41
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-11 13:45:18
+Total Duration: 3.70 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1193525_pgen.0010015.g006.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

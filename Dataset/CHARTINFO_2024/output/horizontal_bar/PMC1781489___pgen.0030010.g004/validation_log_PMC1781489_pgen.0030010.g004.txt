@@ -1,0 +1,101 @@
+
+================================================================================
+VALIDATION LOG - PMC1781489_pgen.0030010.g004
+================================================================================
+Timestamp: 2025-08-07 17:02:18
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC1781489___pgen.0030010.g004
+================================================================================
+
+
+
+[17:02:18.689] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:02:18.693] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: bar -> bar
+
+Data:
+  - Original Type: bar
+  - Enum Type: bar
+  - Final Type: bar
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[17:02:18.757] === DATA_LOADING ===
+Chargement des données GT depuis PMC1781489___pgen.0030010.g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\horizontal_bar\PMC1781489___pgen.0030010.g004.json
+  - Series Count: 1
+  - Series Names: ['[unnamed data series #0]']
+  - X Data Types: {'categorical': 1}
+  - Total Data Points: 6
+--------------------------------------------------
+
+[17:02:18.762] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1781489___pgen.0030010.g004.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\horizontal_bar\PMC1781489___pgen.0030010.g004\PMC1781489___pgen.0030010.g004.json
+  - Series Count: 6
+  - Series Names: ['pGL3P', 'pGL3B', 'mNaipa', 'mNaipb', 'mNaipe', 'mNaipf']
+  - X Data Types: {'categorical': 6}
+  - Total Data Points: 6
+--------------------------------------------------
+
+[17:02:18.767] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 115.0000
+  - Y Min-Max: [0.0000, 115.0000]
+  - X Range: N/A (categorical)
+--------------------------------------------------
+
+[17:02:18.786] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:02:18.792] === MATCHING_RESULTS ===
+1 appariements trouvés
+
+Data:
+  - Total Matches: 1
+  - Match Details: ['[unnamed data series #0] <-> pGL3P (method=position_match, score=0.100)']
+--------------------------------------------------
+
+[17:02:20.343] === SERIES_COMPARISON ===
+Comparaison [unnamed data series #0] vs pGL3P avec BarComparator
+
+Data:
+  - MAE Absolute: 44.402974
+  - MAE Relative: 0.386113
+  - Left Miss (rel): N/A
+  - Right Miss (rel): N/A
+  - X Cutoff: 0.420000
+  - GT Points: 6
+  - Extracted Points: 1
+  - Points Ratio: 0.17
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:02:20
+Total Duration: 1.67 seconds
+Total Series Processed: 1
+Successful Comparisons: 1
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1781489_pgen.0030010.g004.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

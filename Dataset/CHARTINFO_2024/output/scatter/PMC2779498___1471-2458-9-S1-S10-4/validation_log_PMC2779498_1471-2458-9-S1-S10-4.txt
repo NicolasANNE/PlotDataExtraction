@@ -1,0 +1,471 @@
+
+================================================================================
+VALIDATION LOG - PMC2779498_1471-2458-9-S1-S10-4
+================================================================================
+Timestamp: 2025-08-07 13:07:46
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2779498___1471-2458-9-S1-S10-4
+================================================================================
+
+
+
+[13:07:46.065] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:07:46.081] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:07:46.145] === DATA_LOADING ===
+Chargement des données GT depuis PMC2779498___1471-2458-9-S1-S10-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC2779498___1471-2458-9-S1-S10-4.json
+  - Series Count: 5
+  - Series Names: ['No intervention', 'HAART, not change behavior', 'HAART, change behavior', 'Vaccine, efficacy=0.3', 'Vaccine, efficacy=0.7']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 205
+--------------------------------------------------
+
+[13:07:46.152] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2779498___1471-2458-9-S1-S10-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2779498___1471-2458-9-S1-S10-4\PMC2779498___1471-2458-9-S1-S10-4.json
+  - Series Count: 5
+  - Series Names: ['No intervention', 'HAART, not change behavior', 'HAART, change behavior', 'Vaccine, efficacy=0.3', 'Vaccine, efficacy=0.7']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 55
+--------------------------------------------------
+
+[13:07:46.168] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.2052
+  - Y Min-Max: [0.0148, 0.2200]
+  - X Range: 10.039470333588042
+--------------------------------------------------
+
+[13:07:46.170] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:07:46.173] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['No intervention <-> No intervention (method=exact_match, score=1.000)', 'HAART, not change behavior <-> HAART, not change behavior (method=exact_match, score=1.000)', 'HAART, change behavior <-> HAART, change behavior (method=exact_match, score=1.000)', 'Vaccine, efficacy=0.3 <-> Vaccine, efficacy=0.3 (method=exact_match, score=1.000)', 'Vaccine, efficacy=0.7 <-> Vaccine, efficacy=0.7 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:07:48.494] === SERIES_COMPARISON ===
+Comparaison No intervention vs No intervention avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.037803
+  - MAE Relative: 0.184219
+  - Left Miss (rel): -0.009512
+  - Right Miss (rel): 0.003297
+  - X Cutoff: N/A
+  - GT Points: 45
+  - Extracted Points: 11
+  - Points Ratio: 0.24
+--------------------------------------------------
+
+[13:07:50.011] === SERIES_COMPARISON ===
+Comparaison HAART, not change behavior vs HAART, not change behavior avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000785
+  - MAE Relative: 0.003824
+  - Left Miss (rel): -0.026633
+  - Right Miss (rel): 0.002283
+  - X Cutoff: N/A
+  - GT Points: 41
+  - Extracted Points: 11
+  - Points Ratio: 0.27
+--------------------------------------------------
+
+[13:07:52.241] === SERIES_COMPARISON ===
+Comparaison HAART, change behavior vs HAART, change behavior avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.028749
+  - MAE Relative: 0.140098
+  - Left Miss (rel): -0.126316
+  - Right Miss (rel): 0.000761
+  - X Cutoff: N/A
+  - GT Points: 37
+  - Extracted Points: 11
+  - Points Ratio: 0.30
+--------------------------------------------------
+
+[13:07:53.498] === SERIES_COMPARISON ===
+Comparaison Vaccine, efficacy=0.3 vs Vaccine, efficacy=0.3 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.031666
+  - MAE Relative: 0.154313
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.003044
+  - X Cutoff: N/A
+  - GT Points: 46
+  - Extracted Points: 11
+  - Points Ratio: 0.24
+--------------------------------------------------
+
+[13:07:54.448] === SERIES_COMPARISON ===
+Comparaison Vaccine, efficacy=0.7 vs Vaccine, efficacy=0.7 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.004325
+  - MAE Relative: 0.021075
+  - Left Miss (rel): -0.177235
+  - Right Miss (rel): 0.003932
+  - X Cutoff: N/A
+  - GT Points: 36
+  - Extracted Points: 11
+  - Points Ratio: 0.31
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:07:54
+Total Duration: 8.40 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2779498_1471-2458-9-S1-S10-4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2779498_1471-2458-9-S1-S10-4
+================================================================================
+Timestamp: 2025-08-07 16:41:27
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2779498___1471-2458-9-S1-S10-4
+================================================================================
+
+
+
+[16:41:27.020] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:41:27.022] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:41:27.075] === DATA_LOADING ===
+Chargement des données GT depuis PMC2779498___1471-2458-9-S1-S10-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC2779498___1471-2458-9-S1-S10-4.json
+  - Series Count: 5
+  - Series Names: ['No intervention', 'HAART, not change behavior', 'HAART, change behavior', 'Vaccine, efficacy=0.3', 'Vaccine, efficacy=0.7']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 205
+--------------------------------------------------
+
+[16:41:27.088] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2779498___1471-2458-9-S1-S10-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2779498___1471-2458-9-S1-S10-4\PMC2779498___1471-2458-9-S1-S10-4.json
+  - Series Count: 5
+  - Series Names: ['No intervention', 'HAART, not change behavior', 'HAART, change behavior', 'Vaccine, efficacy=0.3', 'Vaccine, efficacy=0.7']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 55
+--------------------------------------------------
+
+[16:41:27.091] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.2052
+  - Y Min-Max: [0.0148, 0.2200]
+  - X Range: 10.039470333588042
+--------------------------------------------------
+
+[16:41:27.093] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:41:27.095] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['No intervention <-> No intervention (method=exact_match, score=1.000)', 'HAART, not change behavior <-> HAART, not change behavior (method=exact_match, score=1.000)', 'HAART, change behavior <-> HAART, change behavior (method=exact_match, score=1.000)', 'Vaccine, efficacy=0.3 <-> Vaccine, efficacy=0.3 (method=exact_match, score=1.000)', 'Vaccine, efficacy=0.7 <-> Vaccine, efficacy=0.7 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:41:27.638] === SERIES_COMPARISON ===
+Comparaison No intervention vs No intervention avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.039619
+  - MAE Relative: 0.193067
+  - Left Miss (rel): -0.009512
+  - Right Miss (rel): 0.003297
+  - X Cutoff: N/A
+  - GT Points: 45
+  - Extracted Points: 11
+  - Points Ratio: 0.24
+--------------------------------------------------
+
+[16:41:28.201] === SERIES_COMPARISON ===
+Comparaison HAART, not change behavior vs HAART, not change behavior avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000360
+  - MAE Relative: 0.001755
+  - Left Miss (rel): -0.026633
+  - Right Miss (rel): 0.002283
+  - X Cutoff: N/A
+  - GT Points: 41
+  - Extracted Points: 11
+  - Points Ratio: 0.27
+--------------------------------------------------
+
+[16:41:29.361] === SERIES_COMPARISON ===
+Comparaison HAART, change behavior vs HAART, change behavior avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.029842
+  - MAE Relative: 0.145425
+  - Left Miss (rel): -0.126316
+  - Right Miss (rel): 0.000761
+  - X Cutoff: N/A
+  - GT Points: 37
+  - Extracted Points: 11
+  - Points Ratio: 0.30
+--------------------------------------------------
+
+[16:41:30.380] === SERIES_COMPARISON ===
+Comparaison Vaccine, efficacy=0.3 vs Vaccine, efficacy=0.3 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.027494
+  - MAE Relative: 0.133979
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.003044
+  - X Cutoff: N/A
+  - GT Points: 46
+  - Extracted Points: 11
+  - Points Ratio: 0.24
+--------------------------------------------------
+
+[16:41:31.134] === SERIES_COMPARISON ===
+Comparaison Vaccine, efficacy=0.7 vs Vaccine, efficacy=0.7 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.004619
+  - MAE Relative: 0.022511
+  - Left Miss (rel): -0.177235
+  - Right Miss (rel): 0.003932
+  - X Cutoff: N/A
+  - GT Points: 36
+  - Extracted Points: 11
+  - Points Ratio: 0.31
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:41:31
+Total Duration: 4.13 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2779498_1471-2458-9-S1-S10-4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC2779498_1471-2458-9-S1-S10-4
+================================================================================
+Timestamp: 2025-08-07 17:00:44
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2779498___1471-2458-9-S1-S10-4
+================================================================================
+
+
+
+[17:00:44.938] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[17:00:44.949] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: scatter -> scatter
+
+Data:
+  - Original Type: scatter
+  - Enum Type: scatter
+  - Final Type: scatter
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[17:00:44.996] === DATA_LOADING ===
+Chargement des données GT depuis PMC2779498___1471-2458-9-S1-S10-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\scatter\PMC2779498___1471-2458-9-S1-S10-4.json
+  - Series Count: 5
+  - Series Names: ['No intervention', 'HAART, not change behavior', 'HAART, change behavior', 'Vaccine, efficacy=0.3', 'Vaccine, efficacy=0.7']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 205
+--------------------------------------------------
+
+[17:00:45.017] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC2779498___1471-2458-9-S1-S10-4.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\scatter\PMC2779498___1471-2458-9-S1-S10-4\PMC2779498___1471-2458-9-S1-S10-4.json
+  - Series Count: 5
+  - Series Names: ['No intervention', 'HAART, not change behavior', 'HAART, change behavior', 'Vaccine, efficacy=0.3', 'Vaccine, efficacy=0.7']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 55
+--------------------------------------------------
+
+[17:00:45.022] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.2052
+  - Y Min-Max: [0.0148, 0.2200]
+  - X Range: 10.039470333588042
+--------------------------------------------------
+
+[17:00:45.027] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[17:00:45.029] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['No intervention <-> No intervention (method=exact_match, score=1.000)', 'HAART, not change behavior <-> HAART, not change behavior (method=exact_match, score=1.000)', 'HAART, change behavior <-> HAART, change behavior (method=exact_match, score=1.000)', 'Vaccine, efficacy=0.3 <-> Vaccine, efficacy=0.3 (method=exact_match, score=1.000)', 'Vaccine, efficacy=0.7 <-> Vaccine, efficacy=0.7 (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[17:00:45.991] === SERIES_COMPARISON ===
+Comparaison No intervention vs No intervention avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.039619
+  - MAE Relative: 0.193067
+  - Left Miss (rel): -0.009512
+  - Right Miss (rel): 0.003297
+  - X Cutoff: N/A
+  - GT Points: 45
+  - Extracted Points: 11
+  - Points Ratio: 0.24
+--------------------------------------------------
+
+[17:00:46.810] === SERIES_COMPARISON ===
+Comparaison HAART, not change behavior vs HAART, not change behavior avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.000360
+  - MAE Relative: 0.001755
+  - Left Miss (rel): -0.026633
+  - Right Miss (rel): 0.002283
+  - X Cutoff: N/A
+  - GT Points: 41
+  - Extracted Points: 11
+  - Points Ratio: 0.27
+--------------------------------------------------
+
+[17:00:47.398] === SERIES_COMPARISON ===
+Comparaison HAART, change behavior vs HAART, change behavior avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.029842
+  - MAE Relative: 0.145425
+  - Left Miss (rel): -0.126316
+  - Right Miss (rel): 0.000761
+  - X Cutoff: N/A
+  - GT Points: 37
+  - Extracted Points: 11
+  - Points Ratio: 0.30
+--------------------------------------------------
+
+[17:00:48.071] === SERIES_COMPARISON ===
+Comparaison Vaccine, efficacy=0.3 vs Vaccine, efficacy=0.3 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.027494
+  - MAE Relative: 0.133979
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): 0.003044
+  - X Cutoff: N/A
+  - GT Points: 46
+  - Extracted Points: 11
+  - Points Ratio: 0.24
+--------------------------------------------------
+
+[17:00:48.865] === SERIES_COMPARISON ===
+Comparaison Vaccine, efficacy=0.7 vs Vaccine, efficacy=0.7 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.004619
+  - MAE Relative: 0.022511
+  - Left Miss (rel): -0.177235
+  - Right Miss (rel): 0.003932
+  - X Cutoff: N/A
+  - GT Points: 36
+  - Extracted Points: 11
+  - Points Ratio: 0.31
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 17:00:48
+Total Duration: 3.95 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC2779498_1471-2458-9-S1-S10-4.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

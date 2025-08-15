@@ -1,0 +1,129 @@
+
+================================================================================
+VALIDATION LOG - PMC3780511_CMMM2013-831275.002
+================================================================================
+Timestamp: 2025-08-07 12:59:42
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3780511___CMMM2013-831275.002
+================================================================================
+
+
+
+[12:59:42.492] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:59:42.502] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:59:42.551] === DATA_LOADING ===
+Chargement des données GT depuis PMC3780511___CMMM2013-831275.002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3780511___CMMM2013-831275.002.json
+  - Series Count: 3
+  - Series Names: ['f(x) = 16000/(160 + exp(0.5x))', 'f(x) = 1600/(16 + exp(0.5x))', 'f(x) = 160/(1.6 + exp(0.5x))']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 68
+--------------------------------------------------
+
+[12:59:42.562] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3780511___CMMM2013-831275.002.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3780511___CMMM2013-831275.002\PMC3780511___CMMM2013-831275.002.json
+  - Series Count: 3
+  - Series Names: ['unnamed data series #0', 'unnamed data series #1', 'unnamed data series #2']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 57
+--------------------------------------------------
+
+[12:59:42.587] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 100.7641
+  - Y Min-Max: [0.0000, 100.7641]
+  - X Range: 41.225806451612904
+--------------------------------------------------
+
+[12:59:42.607] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:59:42.618] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['f(x) = 16000/(160 + exp(0.5x)) <-> unnamed data series #2 (method=similarity_match_generic, score=0.845)', 'f(x) = 1600/(16 + exp(0.5x)) <-> unnamed data series #1 (method=similarity_match_generic, score=0.847)', 'f(x) = 160/(1.6 + exp(0.5x)) <-> unnamed data series #0 (method=similarity_match_generic, score=0.853)']
+--------------------------------------------------
+
+[12:59:44.007] === SERIES_COMPARISON ===
+Comparaison f(x) = 16000/(160 + exp(0.5x)) vs unnamed data series #2 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 30.886603
+  - MAE Relative: 0.306524
+  - Left Miss (rel): -0.004024
+  - Right Miss (rel): 0.126761
+  - X Cutoff: N/A
+  - GT Points: 24
+  - Extracted Points: 19
+  - Points Ratio: 0.79
+--------------------------------------------------
+
+[12:59:45.871] === SERIES_COMPARISON ===
+Comparaison f(x) = 1600/(16 + exp(0.5x)) vs unnamed data series #1 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 7.555885
+  - MAE Relative: 0.074986
+  - Left Miss (rel): -0.008048
+  - Right Miss (rel): 0.124748
+  - X Cutoff: N/A
+  - GT Points: 24
+  - Extracted Points: 19
+  - Points Ratio: 0.79
+--------------------------------------------------
+
+[12:59:47.679] === SERIES_COMPARISON ===
+Comparaison f(x) = 160/(1.6 + exp(0.5x)) vs unnamed data series #0 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 12.947249
+  - MAE Relative: 0.128491
+  - Left Miss (rel): -0.004024
+  - Right Miss (rel): 0.118712
+  - X Cutoff: N/A
+  - GT Points: 20
+  - Extracted Points: 19
+  - Points Ratio: 0.95
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:59:47
+Total Duration: 5.25 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3780511_CMMM2013-831275.002.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

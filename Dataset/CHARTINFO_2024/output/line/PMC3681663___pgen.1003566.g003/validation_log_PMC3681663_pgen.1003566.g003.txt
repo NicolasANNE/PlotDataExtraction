@@ -1,0 +1,115 @@
+
+================================================================================
+VALIDATION LOG - PMC3681663_pgen.1003566.g003
+================================================================================
+Timestamp: 2025-08-07 12:58:49
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3681663___pgen.1003566.g003
+================================================================================
+
+
+
+[12:58:49.451] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:58:49.484] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:58:49.551] === DATA_LOADING ===
+Chargement des données GT depuis PMC3681663___pgen.1003566.g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3681663___pgen.1003566.g003.json
+  - Series Count: 2
+  - Series Names: ['Not Replicated', 'Replicated']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 165
+--------------------------------------------------
+
+[12:58:49.564] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3681663___pgen.1003566.g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3681663___pgen.1003566.g003\PMC3681663___pgen.1003566.g003.json
+  - Series Count: 2
+  - Series Names: ['Not Replicated', 'Replicated']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 62
+--------------------------------------------------
+
+[12:58:49.570] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 4.7739
+  - Y Min-Max: [12.2261, 17.0000]
+  - X Range: 603.75
+--------------------------------------------------
+
+[12:58:49.575] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:58:49.582] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Not Replicated <-> Not Replicated (method=exact_match, score=1.000)', 'Replicated <-> Replicated (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:58:50.516] === SERIES_COMPARISON ===
+Comparaison Not Replicated vs Not Replicated avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.792277
+  - MAE Relative: 0.165960
+  - Left Miss (rel): 0.001553
+  - Right Miss (rel): 0.003106
+  - X Cutoff: N/A
+  - GT Points: 89
+  - Extracted Points: 31
+  - Points Ratio: 0.35
+--------------------------------------------------
+
+[12:58:51.484] === SERIES_COMPARISON ===
+Comparaison Replicated vs Replicated avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.761855
+  - MAE Relative: 0.159587
+  - Left Miss (rel): 0.001553
+  - Right Miss (rel): 0.004658
+  - X Cutoff: N/A
+  - GT Points: 76
+  - Extracted Points: 31
+  - Points Ratio: 0.41
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:58:51
+Total Duration: 2.04 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3681663_pgen.1003566.g003.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

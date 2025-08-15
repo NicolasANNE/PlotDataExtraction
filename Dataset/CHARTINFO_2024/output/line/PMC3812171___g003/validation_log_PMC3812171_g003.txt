@@ -1,0 +1,156 @@
+
+================================================================================
+VALIDATION LOG - PMC3812171_g003
+================================================================================
+Timestamp: 2025-08-06 20:35:13
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3812171___g003
+================================================================================
+
+
+
+[20:35:13.586] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:35:13.589] === ERROR IN VALIDATION_PROCESS ===
+Error: ValidationLogger.log_plot_type_detection() missing 1 required positional argument: 'categorical_detected'
+Type: TypeError
+Details: Erreur globale lors du traitement de PMC3812171___g003
+==================================================
+
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 20:35:13
+Total Duration: 0.01 seconds
+Total Series Processed: 0
+Successful Comparisons: 0
+Errors: 1
+Success Rate: N/A (aucun résultat)
+
+Generated Files:
+- Validation Log: validation_log_PMC3812171_g003.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3812171_g003
+================================================================================
+Timestamp: 2025-08-07 13:00:07
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3812171___g003
+================================================================================
+
+
+
+[13:00:07.632] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:00:07.646] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:00:07.710] === DATA_LOADING ===
+Chargement des données GT depuis PMC3812171___g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3812171___g003.json
+  - Series Count: 2
+  - Series Names: ['Patents', 'Journals']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 34
+--------------------------------------------------
+
+[13:00:07.715] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3812171___g003.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3812171___g003\PMC3812171___g003.json
+  - Series Count: 2
+  - Series Names: ['Patents', 'Journals']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 40
+--------------------------------------------------
+
+[13:00:07.728] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 59.4188
+  - Y Min-Max: [12.0000, 71.4188]
+  - X Range: 19.0
+--------------------------------------------------
+
+[13:00:07.730] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:00:07.734] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Patents <-> Patents (method=exact_match, score=1.000)', 'Journals <-> Journals (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:00:08.680] === SERIES_COMPARISON ===
+Comparaison Patents vs Patents avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.600142
+  - MAE Relative: 0.010100
+  - Left Miss (rel): -0.001498
+  - Right Miss (rel): -0.005616
+  - X Cutoff: N/A
+  - GT Points: 17
+  - Extracted Points: 20
+  - Points Ratio: 1.18
+--------------------------------------------------
+
+[13:00:10.568] === SERIES_COMPARISON ===
+Comparaison Journals vs Journals avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.336657
+  - MAE Relative: 0.005666
+  - Left Miss (rel): -0.004493
+  - Right Miss (rel): -0.008611
+  - X Cutoff: N/A
+  - GT Points: 17
+  - Extracted Points: 20
+  - Points Ratio: 1.18
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:00:10
+Total Duration: 3.00 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3812171_g003.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

@@ -1,0 +1,1201 @@
+
+================================================================================
+VALIDATION LOG - PMC1190168_1471-2156-6-40-1
+================================================================================
+Timestamp: 2025-08-06 20:15:19
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1190168___1471-2156-6-40-1
+================================================================================
+
+
+
+[20:15:19.168] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:19.225] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:19.245] === DATA_LOADING ===
+Chargement des données GT depuis PMC1190168___1471-2156-6-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1190168___1471-2156-6-40-1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:19.268] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1190168___1471-2156-6-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1190168___1471-2156-6-40-1\PMC1190168___1471-2156-6-40-1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:19.270] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1190168_1471-2156-6-40-1
+================================================================================
+Timestamp: 2025-08-06 21:06:22
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1190168___1471-2156-6-40-1
+================================================================================
+
+
+
+[21:06:22.617] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:06:22.624] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:06:23.757] === DATA_LOADING ===
+Chargement des données GT depuis PMC1190168___1471-2156-6-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1190168___1471-2156-6-40-1.json
+  - Series Count: 6
+  - Series Names: ['WT', 'HET', 'HMZ', 'WT', 'HET', 'HMZ']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 26
+--------------------------------------------------
+
+[21:06:23.760] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1190168___1471-2156-6-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1190168___1471-2156-6-40-1\PMC1190168___1471-2156-6-40-1.json
+  - Series Count: 6
+  - Series Names: ['WT', 'HET', 'HMZ', 'WT', 'HET', 'HMZ']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[21:06:23.766] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 301.7514
+  - Y Min-Max: [160.0000, 461.7514]
+  - X Range: 14.057408844065167
+--------------------------------------------------
+
+[21:06:23.773] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:06:23.777] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['WT <-> WT (method=exact_match, score=1.000)', 'HET <-> HET (method=exact_match, score=1.000)', 'HMZ <-> HMZ (method=exact_match, score=1.000)', 'WT <-> WT (method=fuzzy_match, score=0.950)', 'HET <-> HET (method=fuzzy_match, score=0.950)', 'HMZ <-> HMZ (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[21:06:25.038] === SERIES_COMPARISON ===
+Comparaison WT vs WT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 15.554997
+  - MAE Relative: 0.051549
+  - Left Miss (rel): -0.001214
+  - Right Miss (rel): 0.003863
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:06:30.961] === SERIES_COMPARISON ===
+Comparaison HET vs HET avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 124.351799
+  - MAE Relative: 0.412100
+  - Left Miss (rel): -0.001214
+  - Right Miss (rel): 0.425497
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 3
+  - Points Ratio: 0.60
+--------------------------------------------------
+
+[21:06:39.406] === SERIES_COMPARISON ===
+Comparaison HMZ vs HMZ avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 8.088230
+  - MAE Relative: 0.026804
+  - Left Miss (rel): -0.005629
+  - Right Miss (rel): 0.001656
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:06:43.546] === SERIES_COMPARISON ===
+Comparaison WT vs WT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 15.554997
+  - MAE Relative: 0.051549
+  - Left Miss (rel): -0.001214
+  - Right Miss (rel): 0.003863
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+================================================================================
+VALIDATION LOG - PMC1190168_1471-2156-6-40-1
+================================================================================
+Timestamp: 2025-08-06 21:30:43
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1190168___1471-2156-6-40-1
+================================================================================
+
+
+
+[21:30:43.214] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:30:43.216] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:30:43.243] === DATA_LOADING ===
+Chargement des données GT depuis PMC1190168___1471-2156-6-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1190168___1471-2156-6-40-1.json
+  - Series Count: 6
+  - Series Names: ['WT', 'HET', 'HMZ', 'WT', 'HET', 'HMZ']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 26
+--------------------------------------------------
+
+[21:30:43.260] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1190168___1471-2156-6-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1190168___1471-2156-6-40-1\PMC1190168___1471-2156-6-40-1.json
+  - Series Count: 6
+  - Series Names: ['WT', 'HET', 'HMZ', 'WT', 'HET', 'HMZ']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[21:30:43.265] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 301.7514
+  - Y Min-Max: [160.0000, 461.7514]
+  - X Range: 14.057408844065167
+--------------------------------------------------
+
+[21:30:43.280] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:30:43.283] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['WT <-> WT (method=exact_match, score=1.000)', 'HET <-> HET (method=exact_match, score=1.000)', 'HMZ <-> HMZ (method=exact_match, score=1.000)', 'WT <-> WT (method=fuzzy_match, score=0.950)', 'HET <-> HET (method=fuzzy_match, score=0.950)', 'HMZ <-> HMZ (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[21:30:43.986] === SERIES_COMPARISON ===
+Comparaison WT vs WT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 15.554997
+  - MAE Relative: 0.051549
+  - Left Miss (rel): -0.001214
+  - Right Miss (rel): 0.003863
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:30:45.123] === SERIES_COMPARISON ===
+Comparaison HET vs HET avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 124.351799
+  - MAE Relative: 0.412100
+  - Left Miss (rel): -0.001214
+  - Right Miss (rel): 0.425497
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 3
+  - Points Ratio: 0.60
+--------------------------------------------------
+
+[21:30:46.061] === SERIES_COMPARISON ===
+Comparaison HMZ vs HMZ avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 8.088230
+  - MAE Relative: 0.026804
+  - Left Miss (rel): -0.005629
+  - Right Miss (rel): 0.001656
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:30:46.580] === SERIES_COMPARISON ===
+Comparaison WT vs WT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 15.554997
+  - MAE Relative: 0.051549
+  - Left Miss (rel): -0.001214
+  - Right Miss (rel): 0.003863
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[21:30:47.100] === SERIES_COMPARISON ===
+Comparaison HET vs HET avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 124.351799
+  - MAE Relative: 0.412100
+  - Left Miss (rel): -0.001214
+  - Right Miss (rel): 0.425497
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 3
+  - Points Ratio: 0.60
+--------------------------------------------------
+
+[21:30:47.627] === SERIES_COMPARISON ===
+Comparaison HMZ vs HMZ avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 8.088230
+  - MAE Relative: 0.026804
+  - Left Miss (rel): -0.005629
+  - Right Miss (rel): 0.001656
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:30:47
+Total Duration: 4.42 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1190168_1471-2156-6-40-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1190168_1471-2156-6-40-1
+================================================================================
+Timestamp: 2025-08-07 12:46:38
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1190168___1471-2156-6-40-1
+================================================================================
+
+
+
+[12:46:38.332] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:46:38.339] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:46:38.385] === DATA_LOADING ===
+Chargement des données GT depuis PMC1190168___1471-2156-6-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1190168___1471-2156-6-40-1.json
+  - Series Count: 6
+  - Series Names: ['WT', 'HET', 'HMZ', 'WT', 'HET', 'HMZ']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 26
+--------------------------------------------------
+
+[12:46:38.388] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1190168___1471-2156-6-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1190168___1471-2156-6-40-1\PMC1190168___1471-2156-6-40-1.json
+  - Series Count: 6
+  - Series Names: ['WT', 'HET', 'HMZ', 'WT', 'HET', 'HMZ']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[12:46:38.418] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 301.7514
+  - Y Min-Max: [160.0000, 461.7514]
+  - X Range: 14.057408844065167
+--------------------------------------------------
+
+[12:46:38.440] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:46:38.446] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['WT <-> WT (method=exact_match, score=1.000)', 'HET <-> HET (method=exact_match, score=1.000)', 'HMZ <-> HMZ (method=exact_match, score=1.000)', 'WT <-> WT (method=fuzzy_match, score=0.950)', 'HET <-> HET (method=fuzzy_match, score=0.950)', 'HMZ <-> HMZ (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[12:46:39.298] === SERIES_COMPARISON ===
+Comparaison WT vs WT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 10.549347
+  - MAE Relative: 0.034960
+  - Left Miss (rel): -0.001214
+  - Right Miss (rel): 0.003863
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:46:40.219] === SERIES_COMPARISON ===
+Comparaison HET vs HET avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 129.357450
+  - MAE Relative: 0.428689
+  - Left Miss (rel): -0.001214
+  - Right Miss (rel): 0.425497
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 3
+  - Points Ratio: 0.60
+--------------------------------------------------
+
+[12:46:40.873] === SERIES_COMPARISON ===
+Comparaison HMZ vs HMZ avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.985734
+  - MAE Relative: 0.013209
+  - Left Miss (rel): -0.005629
+  - Right Miss (rel): 0.001656
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:46:41.560] === SERIES_COMPARISON ===
+Comparaison WT vs WT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 10.549347
+  - MAE Relative: 0.034960
+  - Left Miss (rel): -0.001214
+  - Right Miss (rel): 0.003863
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[12:46:42.354] === SERIES_COMPARISON ===
+Comparaison HET vs HET avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 129.357450
+  - MAE Relative: 0.428689
+  - Left Miss (rel): -0.001214
+  - Right Miss (rel): 0.425497
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 3
+  - Points Ratio: 0.60
+--------------------------------------------------
+
+[12:46:43.223] === SERIES_COMPARISON ===
+Comparaison HMZ vs HMZ avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.985734
+  - MAE Relative: 0.013209
+  - Left Miss (rel): -0.005629
+  - Right Miss (rel): 0.001656
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:46:43
+Total Duration: 4.94 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1190168_1471-2156-6-40-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1190168_1471-2156-6-40-1
+================================================================================
+Timestamp: 2025-08-07 13:03:36
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1190168___1471-2156-6-40-1
+================================================================================
+
+
+
+[13:03:36.114] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:03:36.121] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:03:36.228] === DATA_LOADING ===
+Chargement des données GT depuis PMC1190168___1471-2156-6-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1190168___1471-2156-6-40-1.json
+  - Series Count: 6
+  - Series Names: ['WT', 'HET', 'HMZ', 'WT', 'HET', 'HMZ']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 26
+--------------------------------------------------
+
+[13:03:36.232] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1190168___1471-2156-6-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1190168___1471-2156-6-40-1\PMC1190168___1471-2156-6-40-1.json
+  - Series Count: 6
+  - Series Names: ['WT', 'HET', 'HMZ', 'WT', 'HET', 'HMZ']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[13:03:36.235] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 301.7514
+  - Y Min-Max: [160.0000, 461.7514]
+  - X Range: 14.057408844065167
+--------------------------------------------------
+
+[13:03:36.237] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:03:36.239] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['WT <-> WT (method=exact_match, score=1.000)', 'HET <-> HET (method=exact_match, score=1.000)', 'HMZ <-> HMZ (method=exact_match, score=1.000)', 'WT <-> WT (method=fuzzy_match, score=0.950)', 'HET <-> HET (method=fuzzy_match, score=0.950)', 'HMZ <-> HMZ (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[13:03:37.491] === SERIES_COMPARISON ===
+Comparaison WT vs WT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 10.549347
+  - MAE Relative: 0.034960
+  - Left Miss (rel): -0.001214
+  - Right Miss (rel): 0.003863
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:03:38.523] === SERIES_COMPARISON ===
+Comparaison HET vs HET avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 129.357450
+  - MAE Relative: 0.428689
+  - Left Miss (rel): -0.001214
+  - Right Miss (rel): 0.425497
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 3
+  - Points Ratio: 0.60
+--------------------------------------------------
+
+[13:03:39.690] === SERIES_COMPARISON ===
+Comparaison HMZ vs HMZ avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.985734
+  - MAE Relative: 0.013209
+  - Left Miss (rel): -0.005629
+  - Right Miss (rel): 0.001656
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:03:41.030] === SERIES_COMPARISON ===
+Comparaison WT vs WT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 10.549347
+  - MAE Relative: 0.034960
+  - Left Miss (rel): -0.001214
+  - Right Miss (rel): 0.003863
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:03:42.664] === SERIES_COMPARISON ===
+Comparaison HET vs HET avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 129.357450
+  - MAE Relative: 0.428689
+  - Left Miss (rel): -0.001214
+  - Right Miss (rel): 0.425497
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 3
+  - Points Ratio: 0.60
+--------------------------------------------------
+
+[13:03:43.754] === SERIES_COMPARISON ===
+Comparaison HMZ vs HMZ avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.985734
+  - MAE Relative: 0.013209
+  - Left Miss (rel): -0.005629
+  - Right Miss (rel): 0.001656
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:03:43
+Total Duration: 7.66 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1190168_1471-2156-6-40-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1190168_1471-2156-6-40-1
+================================================================================
+Timestamp: 2025-08-07 16:37:12
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1190168___1471-2156-6-40-1
+================================================================================
+
+
+
+[16:37:12.427] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:37:12.429] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:37:12.466] === DATA_LOADING ===
+Chargement des données GT depuis PMC1190168___1471-2156-6-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1190168___1471-2156-6-40-1.json
+  - Series Count: 6
+  - Series Names: ['WT', 'HET', 'HMZ', 'WT', 'HET', 'HMZ']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 26
+--------------------------------------------------
+
+[16:37:12.480] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1190168___1471-2156-6-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1190168___1471-2156-6-40-1\PMC1190168___1471-2156-6-40-1.json
+  - Series Count: 6
+  - Series Names: ['WT', 'HET', 'HMZ', 'WT', 'HET', 'HMZ']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[16:37:12.484] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 301.7514
+  - Y Min-Max: [160.0000, 461.7514]
+  - X Range: 14.057408844065167
+--------------------------------------------------
+
+[16:37:12.486] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:37:12.488] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['WT <-> WT (method=exact_match, score=1.000)', 'HET <-> HET (method=exact_match, score=1.000)', 'HMZ <-> HMZ (method=exact_match, score=1.000)', 'WT <-> WT (method=fuzzy_match, score=0.950)', 'HET <-> HET (method=fuzzy_match, score=0.950)', 'HMZ <-> HMZ (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[16:37:13.456] === SERIES_COMPARISON ===
+Comparaison WT vs WT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 10.549347
+  - MAE Relative: 0.034960
+  - Left Miss (rel): -0.001214
+  - Right Miss (rel): 0.003863
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:37:14.007] === SERIES_COMPARISON ===
+Comparaison HET vs HET avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 129.357450
+  - MAE Relative: 0.428689
+  - Left Miss (rel): -0.001214
+  - Right Miss (rel): 0.425497
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 3
+  - Points Ratio: 0.60
+--------------------------------------------------
+
+[16:37:14.718] === SERIES_COMPARISON ===
+Comparaison HMZ vs HMZ avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.985734
+  - MAE Relative: 0.013209
+  - Left Miss (rel): -0.005629
+  - Right Miss (rel): 0.001656
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:37:15.491] === SERIES_COMPARISON ===
+Comparaison WT vs WT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 10.549347
+  - MAE Relative: 0.034960
+  - Left Miss (rel): -0.001214
+  - Right Miss (rel): 0.003863
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:37:16.396] === SERIES_COMPARISON ===
+Comparaison HET vs HET avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 129.357450
+  - MAE Relative: 0.428689
+  - Left Miss (rel): -0.001214
+  - Right Miss (rel): 0.425497
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 3
+  - Points Ratio: 0.60
+--------------------------------------------------
+
+[16:37:16.995] === SERIES_COMPARISON ===
+Comparaison HMZ vs HMZ avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.985734
+  - MAE Relative: 0.013209
+  - Left Miss (rel): -0.005629
+  - Right Miss (rel): 0.001656
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:37:16
+Total Duration: 4.57 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1190168_1471-2156-6-40-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1190168_1471-2156-6-40-1
+================================================================================
+Timestamp: 2025-08-07 16:56:26
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1190168___1471-2156-6-40-1
+================================================================================
+
+
+
+[16:56:27.000] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:56:27.003] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:56:27.038] === DATA_LOADING ===
+Chargement des données GT depuis PMC1190168___1471-2156-6-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1190168___1471-2156-6-40-1.json
+  - Series Count: 6
+  - Series Names: ['WT', 'HET', 'HMZ', 'WT', 'HET', 'HMZ']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 26
+--------------------------------------------------
+
+[16:56:27.046] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1190168___1471-2156-6-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1190168___1471-2156-6-40-1\PMC1190168___1471-2156-6-40-1.json
+  - Series Count: 6
+  - Series Names: ['WT', 'HET', 'HMZ', 'WT', 'HET', 'HMZ']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[16:56:27.051] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 301.7514
+  - Y Min-Max: [160.0000, 461.7514]
+  - X Range: 14.057408844065167
+--------------------------------------------------
+
+[16:56:27.053] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:56:27.058] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['WT <-> WT (method=exact_match, score=1.000)', 'HET <-> HET (method=exact_match, score=1.000)', 'HMZ <-> HMZ (method=exact_match, score=1.000)', 'WT <-> WT (method=fuzzy_match, score=0.950)', 'HET <-> HET (method=fuzzy_match, score=0.950)', 'HMZ <-> HMZ (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[16:56:27.847] === SERIES_COMPARISON ===
+Comparaison WT vs WT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 10.549347
+  - MAE Relative: 0.034960
+  - Left Miss (rel): -0.001214
+  - Right Miss (rel): 0.003863
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:56:28.927] === SERIES_COMPARISON ===
+Comparaison HET vs HET avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 129.357450
+  - MAE Relative: 0.428689
+  - Left Miss (rel): -0.001214
+  - Right Miss (rel): 0.425497
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 3
+  - Points Ratio: 0.60
+--------------------------------------------------
+
+[16:56:29.545] === SERIES_COMPARISON ===
+Comparaison HMZ vs HMZ avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.985734
+  - MAE Relative: 0.013209
+  - Left Miss (rel): -0.005629
+  - Right Miss (rel): 0.001656
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:56:30.156] === SERIES_COMPARISON ===
+Comparaison WT vs WT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 10.549347
+  - MAE Relative: 0.034960
+  - Left Miss (rel): -0.001214
+  - Right Miss (rel): 0.003863
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[16:56:30.966] === SERIES_COMPARISON ===
+Comparaison HET vs HET avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 129.357450
+  - MAE Relative: 0.428689
+  - Left Miss (rel): -0.001214
+  - Right Miss (rel): 0.425497
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 3
+  - Points Ratio: 0.60
+--------------------------------------------------
+
+[16:56:31.616] === SERIES_COMPARISON ===
+Comparaison HMZ vs HMZ avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.985734
+  - MAE Relative: 0.013209
+  - Left Miss (rel): -0.005629
+  - Right Miss (rel): 0.001656
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:56:31
+Total Duration: 4.64 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1190168_1471-2156-6-40-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1190168_1471-2156-6-40-1
+================================================================================
+Timestamp: 2025-08-11 13:45:13
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1190168___1471-2156-6-40-1
+================================================================================
+
+
+
+[13:45:13.913] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:45:13.916] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:45:13.969] === DATA_LOADING ===
+Chargement des données GT depuis PMC1190168___1471-2156-6-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1190168___1471-2156-6-40-1.json
+  - Series Count: 6
+  - Series Names: ['WT', 'HET', 'HMZ', 'WT', 'HET', 'HMZ']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 26
+--------------------------------------------------
+
+[13:45:13.980] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1190168___1471-2156-6-40-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1190168___1471-2156-6-40-1\PMC1190168___1471-2156-6-40-1.json
+  - Series Count: 6
+  - Series Names: ['WT', 'HET', 'HMZ', 'WT', 'HET', 'HMZ']
+  - X Data Types: {'numeric': 6}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[13:45:14.002] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 301.7514
+  - Y Min-Max: [160.0000, 461.7514]
+  - X Range: 14.057408844065167
+--------------------------------------------------
+
+[13:45:14.022] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:45:14.038] === MATCHING_RESULTS ===
+6 appariements trouvés
+
+Data:
+  - Total Matches: 6
+  - Match Details: ['WT <-> WT (method=exact_match, score=1.000)', 'HET <-> HET (method=exact_match, score=1.000)', 'HMZ <-> HMZ (method=exact_match, score=1.000)', 'WT <-> WT (method=fuzzy_match, score=0.950)', 'HET <-> HET (method=fuzzy_match, score=0.950)', 'HMZ <-> HMZ (method=fuzzy_match, score=0.950)']
+--------------------------------------------------
+
+[13:45:15.305] === SERIES_COMPARISON ===
+Comparaison WT vs WT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 15.554997
+  - MAE Relative: 0.051549
+  - Left Miss (rel): -0.001214
+  - Right Miss (rel): 0.003863
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:45:16.450] === SERIES_COMPARISON ===
+Comparaison HET vs HET avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 121.843957
+  - MAE Relative: 0.403789
+  - Left Miss (rel): -0.001214
+  - Right Miss (rel): 0.425497
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 3
+  - Points Ratio: 0.60
+--------------------------------------------------
+
+[13:45:18.045] === SERIES_COMPARISON ===
+Comparaison HMZ vs HMZ avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 8.187144
+  - MAE Relative: 0.027132
+  - Left Miss (rel): -0.005629
+  - Right Miss (rel): 0.001656
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:45:19.724] === SERIES_COMPARISON ===
+Comparaison WT vs WT avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 15.554997
+  - MAE Relative: 0.051549
+  - Left Miss (rel): -0.001214
+  - Right Miss (rel): 0.003863
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+[13:45:20.624] === SERIES_COMPARISON ===
+Comparaison HET vs HET avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 121.843957
+  - MAE Relative: 0.403789
+  - Left Miss (rel): -0.001214
+  - Right Miss (rel): 0.425497
+  - X Cutoff: N/A
+  - GT Points: 5
+  - Extracted Points: 3
+  - Points Ratio: 0.60
+--------------------------------------------------
+
+[13:45:21.705] === SERIES_COMPARISON ===
+Comparaison HMZ vs HMZ avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 8.187144
+  - MAE Relative: 0.027132
+  - Left Miss (rel): -0.005629
+  - Right Miss (rel): 0.001656
+  - X Cutoff: N/A
+  - GT Points: 3
+  - Extracted Points: 3
+  - Points Ratio: 1.00
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-11 13:45:21
+Total Duration: 7.82 seconds
+Total Series Processed: 6
+Successful Comparisons: 6
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1190168_1471-2156-6-40-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

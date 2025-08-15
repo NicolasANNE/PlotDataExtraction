@@ -1,0 +1,157 @@
+
+================================================================================
+VALIDATION LOG - PMC3823307_ijerph-10-05221-g006
+================================================================================
+Timestamp: 2025-08-07 13:00:25
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3823307___ijerph-10-05221-g006
+================================================================================
+
+
+
+[13:00:25.079] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:00:25.081] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:00:25.138] === DATA_LOADING ===
+Chargement des données GT depuis PMC3823307___ijerph-10-05221-g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3823307___ijerph-10-05221-g006.json
+  - Series Count: 5
+  - Series Names: ['e-coli untreated', 'AgAloe 10\\mu l4ppm', 'AgGer 10 \\mu l 4ppm', 'AgMI 10\\mu l 4ppm', 'AgBC 10\\mu l 4ppm']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 99
+--------------------------------------------------
+
+[13:00:25.141] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3823307___ijerph-10-05221-g006.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3823307___ijerph-10-05221-g006\PMC3823307___ijerph-10-05221-g006.json
+  - Series Count: 5
+  - Series Names: ['e-coli untreated', 'AgAloe 10μl 4ppm', 'AgGer 10 μl 4ppm', 'AgMI 10μl 4ppm', 'AgBC 10μl 4ppm']
+  - X Data Types: {'numeric': 5}
+  - Total Data Points: 45
+--------------------------------------------------
+
+[13:00:25.144] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 0.3600
+  - Y Min-Max: [0.1100, 0.4700]
+  - X Range: 1602.686308492201
+--------------------------------------------------
+
+[13:00:25.147] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:00:25.151] === MATCHING_RESULTS ===
+5 appariements trouvés
+
+Data:
+  - Total Matches: 5
+  - Match Details: ['e-coli untreated <-> e-coli untreated (method=exact_match, score=1.000)', 'AgAloe 10\\mu l4ppm <-> AgAloe 10μl 4ppm (method=fuzzy_match, score=0.800)', 'AgGer 10 \\mu l 4ppm <-> AgGer 10 μl 4ppm (method=fuzzy_match, score=0.850)', 'AgMI 10\\mu l 4ppm <-> AgMI 10μl 4ppm (method=fuzzy_match, score=0.800)', 'AgBC 10\\mu l 4ppm <-> AgBC 10μl 4ppm (method=fuzzy_match, score=0.800)']
+--------------------------------------------------
+
+[13:00:25.762] === SERIES_COMPARISON ===
+Comparaison e-coli untreated vs e-coli untreated avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.002937
+  - MAE Relative: 0.008158
+  - Left Miss (rel): -0.004866
+  - Right Miss (rel): 0.000865
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 9
+  - Points Ratio: 0.60
+--------------------------------------------------
+
+[13:00:26.414] === SERIES_COMPARISON ===
+Comparaison AgAloe 10\mu l4ppm vs AgAloe 10μl 4ppm avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.005167
+  - MAE Relative: 0.014352
+  - Left Miss (rel): -0.008651
+  - Right Miss (rel): 0.000865
+  - X Cutoff: N/A
+  - GT Points: 25
+  - Extracted Points: 9
+  - Points Ratio: 0.36
+--------------------------------------------------
+
+[13:00:26.989] === SERIES_COMPARISON ===
+Comparaison AgGer 10 \mu l 4ppm vs AgGer 10 μl 4ppm avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.005580
+  - MAE Relative: 0.015499
+  - Left Miss (rel): -0.006488
+  - Right Miss (rel): 0.001676
+  - X Cutoff: N/A
+  - GT Points: 18
+  - Extracted Points: 9
+  - Points Ratio: 0.50
+--------------------------------------------------
+
+[13:00:27.610] === SERIES_COMPARISON ===
+Comparaison AgMI 10\mu l 4ppm vs AgMI 10μl 4ppm avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.004251
+  - MAE Relative: 0.011809
+  - Left Miss (rel): -0.004325
+  - Right Miss (rel): -0.001081
+  - X Cutoff: N/A
+  - GT Points: 21
+  - Extracted Points: 9
+  - Points Ratio: 0.43
+--------------------------------------------------
+
+[13:00:28.234] === SERIES_COMPARISON ===
+Comparaison AgBC 10\mu l 4ppm vs AgBC 10μl 4ppm avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.003871
+  - MAE Relative: 0.010753
+  - Left Miss (rel): -0.005677
+  - Right Miss (rel): -0.000433
+  - X Cutoff: N/A
+  - GT Points: 20
+  - Extracted Points: 9
+  - Points Ratio: 0.45
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:00:28
+Total Duration: 3.16 seconds
+Total Series Processed: 5
+Successful Comparisons: 5
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3823307_ijerph-10-05221-g006.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

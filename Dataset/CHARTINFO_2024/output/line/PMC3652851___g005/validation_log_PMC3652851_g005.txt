@@ -1,0 +1,129 @@
+
+================================================================================
+VALIDATION LOG - PMC3652851_g005
+================================================================================
+Timestamp: 2025-08-07 12:58:07
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3652851___g005
+================================================================================
+
+
+
+[12:58:07.315] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:58:07.318] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:58:07.374] === DATA_LOADING ===
+Chargement des données GT depuis PMC3652851___g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3652851___g005.json
+  - Series Count: 9
+  - Series Names: ['Genotype I', 'Genotype IV', 'Genotype V', '[unnamed data series #3]', '[unnamed data series #4]', '[unnamed data series #5]', '[unnamed data series #6]', '[unnamed data series #7]', '[unnamed data series #8]']
+  - X Data Types: {'numeric': 9}
+  - Total Data Points: 238
+--------------------------------------------------
+
+[12:58:07.386] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3652851___g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3652851___g005\PMC3652851___g005.json
+  - Series Count: 3
+  - Series Names: ['Genotype I', 'Genotype IV', 'Genotype V']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 39
+--------------------------------------------------
+
+[12:58:07.398] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 207.0713
+  - Y Min-Max: [-8.4701, 198.6012]
+  - X Range: 39.031078610603345
+--------------------------------------------------
+
+[12:58:07.412] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:58:07.417] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['Genotype I <-> Genotype I (method=exact_match, score=1.000)', 'Genotype IV <-> Genotype IV (method=exact_match, score=1.000)', 'Genotype V <-> Genotype V (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:58:08.537] === SERIES_COMPARISON ===
+Comparaison Genotype I vs Genotype I avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.928005
+  - MAE Relative: 0.014140
+  - Left Miss (rel): 0.051241
+  - Right Miss (rel): 0.026417
+  - X Cutoff: N/A
+  - GT Points: 24
+  - Extracted Points: 13
+  - Points Ratio: 0.54
+--------------------------------------------------
+
+[12:58:09.449] === SERIES_COMPARISON ===
+Comparaison Genotype IV vs Genotype IV avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 4.674940
+  - MAE Relative: 0.022576
+  - Left Miss (rel): 0.044684
+  - Right Miss (rel): 0.024778
+  - X Cutoff: N/A
+  - GT Points: 19
+  - Extracted Points: 13
+  - Points Ratio: 0.68
+--------------------------------------------------
+
+[12:58:10.439] === SERIES_COMPARISON ===
+Comparaison Genotype V vs Genotype V avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 5.675378
+  - MAE Relative: 0.027408
+  - Left Miss (rel): 0.047963
+  - Right Miss (rel): 0.018220
+  - X Cutoff: N/A
+  - GT Points: 30
+  - Extracted Points: 13
+  - Points Ratio: 0.43
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:58:10
+Total Duration: 3.13 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3652851_g005.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

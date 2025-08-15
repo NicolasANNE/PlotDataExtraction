@@ -1,0 +1,628 @@
+
+================================================================================
+VALIDATION LOG - PMC1884146_1471-2458-7-78-1
+================================================================================
+Timestamp: 2025-08-06 20:15:43
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1884146___1471-2458-7-78-1
+================================================================================
+
+
+
+[20:15:43.189] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[20:15:43.224] === PLOT_TYPE_DETECTION ===
+Détection et normalisation du type de plot
+
+Data:
+  - GT Plot Type: line plot
+  - Extractor Plot Type: line
+  - Final Plot Type: line plot
+  - Categorical X Detected: True
+  - Comparator Used: CategoricalLineComparator
+--------------------------------------------------
+
+[20:15:43.256] === DATA_LOADING ===
+Chargement des données GT depuis PMC1884146___1471-2458-7-78-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1884146___1471-2458-7-78-1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:43.278] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1884146___1471-2458-7-78-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1884146___1471-2458-7-78-1\PMC1884146___1471-2458-7-78-1.json
+  - Series Count: 0
+  - Series Names: []
+  - X Data Types: {}
+  - Total Data Points: 0
+--------------------------------------------------
+
+[20:15:43.280] === ERROR IN DATA_LOADING ===
+Error: DataFrames vides
+Type: str
+Details: GT ou Extracted vide
+==================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1884146_1471-2458-7-78-1
+================================================================================
+Timestamp: 2025-08-06 21:31:50
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1884146___1471-2458-7-78-1
+================================================================================
+
+
+
+[21:31:50.937] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:31:50.940] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:31:50.995] === DATA_LOADING ===
+Chargement des données GT depuis PMC1884146___1471-2458-7-78-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1884146___1471-2458-7-78-1.json
+  - Series Count: 2
+  - Series Names: ['Line of equality', 'Severe underweight']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[21:31:51.000] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1884146___1471-2458-7-78-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1884146___1471-2458-7-78-1\PMC1884146___1471-2458-7-78-1.json
+  - Series Count: 2
+  - Series Names: ['Line of equality', 'Severe underweight']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[21:31:51.004] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 100.2330
+  - Y Min-Max: [-0.0685, 100.1645]
+  - X Range: 100.65063649222064
+--------------------------------------------------
+
+[21:31:51.007] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:31:51.009] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Line of equality <-> Line of equality (method=exact_match, score=1.000)', 'Severe underweight <-> Severe underweight (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[21:31:52.516] === SERIES_COMPARISON ===
+Comparaison Line of equality vs Line of equality avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.113104
+  - MAE Relative: 0.001128
+  - Left Miss (rel): 0.003373
+  - Right Miss (rel): 0.003092
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 6
+  - Points Ratio: 3.00
+--------------------------------------------------
+
+[21:31:53.343] === SERIES_COMPARISON ===
+Comparaison Severe underweight vs Severe underweight avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.434031
+  - MAE Relative: 0.014307
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.005621
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 6
+  - Points Ratio: 0.27
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:31:53
+Total Duration: 2.43 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1884146_1471-2458-7-78-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1884146_1471-2458-7-78-1
+================================================================================
+Timestamp: 2025-08-07 12:47:52
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1884146___1471-2458-7-78-1
+================================================================================
+
+
+
+[12:47:52.769] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:47:52.776] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:47:52.833] === DATA_LOADING ===
+Chargement des données GT depuis PMC1884146___1471-2458-7-78-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1884146___1471-2458-7-78-1.json
+  - Series Count: 2
+  - Series Names: ['Line of equality', 'Severe underweight']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[12:47:52.839] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1884146___1471-2458-7-78-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1884146___1471-2458-7-78-1\PMC1884146___1471-2458-7-78-1.json
+  - Series Count: 2
+  - Series Names: ['Line of equality', 'Severe underweight']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[12:47:52.846] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 100.2330
+  - Y Min-Max: [-0.0685, 100.1645]
+  - X Range: 100.65063649222064
+--------------------------------------------------
+
+[12:47:52.856] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:47:52.866] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Line of equality <-> Line of equality (method=exact_match, score=1.000)', 'Severe underweight <-> Severe underweight (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[12:47:54.665] === SERIES_COMPARISON ===
+Comparaison Line of equality vs Line of equality avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.113104
+  - MAE Relative: 0.001128
+  - Left Miss (rel): 0.003373
+  - Right Miss (rel): 0.003092
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 6
+  - Points Ratio: 3.00
+--------------------------------------------------
+
+[12:47:55.968] === SERIES_COMPARISON ===
+Comparaison Severe underweight vs Severe underweight avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.434031
+  - MAE Relative: 0.014307
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.005621
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 6
+  - Points Ratio: 0.27
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:47:55
+Total Duration: 3.21 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1884146_1471-2458-7-78-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1884146_1471-2458-7-78-1
+================================================================================
+Timestamp: 2025-08-07 13:04:50
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1884146___1471-2458-7-78-1
+================================================================================
+
+
+
+[13:04:50.370] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[13:04:50.377] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[13:04:50.433] === DATA_LOADING ===
+Chargement des données GT depuis PMC1884146___1471-2458-7-78-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1884146___1471-2458-7-78-1.json
+  - Series Count: 2
+  - Series Names: ['Line of equality', 'Severe underweight']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[13:04:50.446] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1884146___1471-2458-7-78-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1884146___1471-2458-7-78-1\PMC1884146___1471-2458-7-78-1.json
+  - Series Count: 2
+  - Series Names: ['Line of equality', 'Severe underweight']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[13:04:50.450] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 100.2330
+  - Y Min-Max: [-0.0685, 100.1645]
+  - X Range: 100.65063649222064
+--------------------------------------------------
+
+[13:04:50.454] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[13:04:50.458] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Line of equality <-> Line of equality (method=exact_match, score=1.000)', 'Severe underweight <-> Severe underweight (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[13:04:51.385] === SERIES_COMPARISON ===
+Comparaison Line of equality vs Line of equality avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.113104
+  - MAE Relative: 0.001128
+  - Left Miss (rel): 0.003373
+  - Right Miss (rel): 0.003092
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 6
+  - Points Ratio: 3.00
+--------------------------------------------------
+
+[13:04:51.996] === SERIES_COMPARISON ===
+Comparaison Severe underweight vs Severe underweight avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.434031
+  - MAE Relative: 0.014307
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.005621
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 6
+  - Points Ratio: 0.27
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 13:04:52
+Total Duration: 1.64 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1884146_1471-2458-7-78-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1884146_1471-2458-7-78-1
+================================================================================
+Timestamp: 2025-08-07 16:38:25
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1884146___1471-2458-7-78-1
+================================================================================
+
+
+
+[16:38:25.072] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:38:25.093] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:38:25.149] === DATA_LOADING ===
+Chargement des données GT depuis PMC1884146___1471-2458-7-78-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1884146___1471-2458-7-78-1.json
+  - Series Count: 2
+  - Series Names: ['Line of equality', 'Severe underweight']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[16:38:25.172] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1884146___1471-2458-7-78-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1884146___1471-2458-7-78-1\PMC1884146___1471-2458-7-78-1.json
+  - Series Count: 2
+  - Series Names: ['Line of equality', 'Severe underweight']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[16:38:25.176] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 100.2330
+  - Y Min-Max: [-0.0685, 100.1645]
+  - X Range: 100.65063649222064
+--------------------------------------------------
+
+[16:38:25.183] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:38:25.187] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Line of equality <-> Line of equality (method=exact_match, score=1.000)', 'Severe underweight <-> Severe underweight (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:38:26.001] === SERIES_COMPARISON ===
+Comparaison Line of equality vs Line of equality avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.113104
+  - MAE Relative: 0.001128
+  - Left Miss (rel): 0.003373
+  - Right Miss (rel): 0.003092
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 6
+  - Points Ratio: 3.00
+--------------------------------------------------
+
+[16:38:26.626] === SERIES_COMPARISON ===
+Comparaison Severe underweight vs Severe underweight avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.434031
+  - MAE Relative: 0.014307
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.005621
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 6
+  - Points Ratio: 0.27
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:38:26
+Total Duration: 1.57 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1884146_1471-2458-7-78-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC1884146_1471-2458-7-78-1
+================================================================================
+Timestamp: 2025-08-07 16:57:37
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1884146___1471-2458-7-78-1
+================================================================================
+
+
+
+[16:57:37.580] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[16:57:37.604] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[16:57:37.634] === DATA_LOADING ===
+Chargement des données GT depuis PMC1884146___1471-2458-7-78-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC1884146___1471-2458-7-78-1.json
+  - Series Count: 2
+  - Series Names: ['Line of equality', 'Severe underweight']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 24
+--------------------------------------------------
+
+[16:57:37.637] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC1884146___1471-2458-7-78-1.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC1884146___1471-2458-7-78-1\PMC1884146___1471-2458-7-78-1.json
+  - Series Count: 2
+  - Series Names: ['Line of equality', 'Severe underweight']
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 12
+--------------------------------------------------
+
+[16:57:37.655] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 100.2330
+  - Y Min-Max: [-0.0685, 100.1645]
+  - X Range: 100.65063649222064
+--------------------------------------------------
+
+[16:57:37.687] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[16:57:37.700] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ['Line of equality <-> Line of equality (method=exact_match, score=1.000)', 'Severe underweight <-> Severe underweight (method=exact_match, score=1.000)']
+--------------------------------------------------
+
+[16:57:38.697] === SERIES_COMPARISON ===
+Comparaison Line of equality vs Line of equality avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.113104
+  - MAE Relative: 0.001128
+  - Left Miss (rel): 0.003373
+  - Right Miss (rel): 0.003092
+  - X Cutoff: N/A
+  - GT Points: 2
+  - Extracted Points: 6
+  - Points Ratio: 3.00
+--------------------------------------------------
+
+[16:57:39.764] === SERIES_COMPARISON ===
+Comparaison Severe underweight vs Severe underweight avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.434031
+  - MAE Relative: 0.014307
+  - Left Miss (rel): 0.000000
+  - Right Miss (rel): -0.005621
+  - X Cutoff: N/A
+  - GT Points: 22
+  - Extracted Points: 6
+  - Points Ratio: 0.27
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 16:57:39
+Total Duration: 2.26 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC1884146_1471-2458-7-78-1.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

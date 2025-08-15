@@ -1,0 +1,230 @@
+
+================================================================================
+VALIDATION LOG - PMC3431170_CMMM2012-634907.005
+================================================================================
+Timestamp: 2025-08-06 21:39:35
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3431170___CMMM2012-634907.005
+================================================================================
+
+
+
+[21:39:35.709] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:39:35.723] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:39:40.136] === DATA_LOADING ===
+Chargement des données GT depuis PMC3431170___CMMM2012-634907.005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3431170___CMMM2012-634907.005.json
+  - Series Count: 2
+  - Series Names: ['GVT-FCM', "Radiologists' delineation"]
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 25
+--------------------------------------------------
+
+[21:39:40.186] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3431170___CMMM2012-634907.005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3431170___CMMM2012-634907.005\PMC3431170___CMMM2012-634907.005.json
+  - Series Count: 3
+  - Series Names: ['GVF-FCM', "Radiologists' delineation", 'unnamed data series #2']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 15
+--------------------------------------------------
+
+[21:39:41.212] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 100.3486
+  - Y Min-Max: [0.0000, 100.3486]
+  - X Range: 100.0
+--------------------------------------------------
+
+[21:39:41.232] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:39:41.244] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ["Radiologists' delineation <-> Radiologists' delineation (method=exact_match, score=1.000)", 'GVT-FCM <-> GVF-FCM (method=fuzzy_match, score=0.850)']
+--------------------------------------------------
+
+[21:39:42.403] === SERIES_COMPARISON ===
+Comparaison Radiologists' delineation vs Radiologists' delineation avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 1.233316
+  - MAE Relative: 0.012290
+  - Left Miss (rel): -0.002160
+  - Right Miss (rel): 0.000000
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 7
+  - Points Ratio: 0.47
+--------------------------------------------------
+
+[21:39:44.788] === SERIES_COMPARISON ===
+Comparaison GVT-FCM vs GVF-FCM avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.883022
+  - MAE Relative: 0.008800
+  - Left Miss (rel): -0.004320
+  - Right Miss (rel): -0.004320
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 6
+  - Points Ratio: 0.60
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:39:44
+Total Duration: 9.10 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3431170_CMMM2012-634907.005.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3431170_CMMM2012-634907.005
+================================================================================
+Timestamp: 2025-08-07 12:54:59
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3431170___CMMM2012-634907.005
+================================================================================
+
+
+
+[12:54:59.444] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:54:59.460] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:54:59.548] === DATA_LOADING ===
+Chargement des données GT depuis PMC3431170___CMMM2012-634907.005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3431170___CMMM2012-634907.005.json
+  - Series Count: 2
+  - Series Names: ['GVT-FCM', "Radiologists' delineation"]
+  - X Data Types: {'numeric': 2}
+  - Total Data Points: 25
+--------------------------------------------------
+
+[12:54:59.551] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3431170___CMMM2012-634907.005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3431170___CMMM2012-634907.005\PMC3431170___CMMM2012-634907.005.json
+  - Series Count: 3
+  - Series Names: ['GVF-FCM', "Radiologists' delineation", 'unnamed data series #2']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 28
+--------------------------------------------------
+
+[12:54:59.557] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 100.3486
+  - Y Min-Max: [0.0000, 100.3486]
+  - X Range: 100.0
+--------------------------------------------------
+
+[12:54:59.560] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:54:59.563] === MATCHING_RESULTS ===
+2 appariements trouvés
+
+Data:
+  - Total Matches: 2
+  - Match Details: ["Radiologists' delineation <-> Radiologists' delineation (method=exact_match, score=1.000)", 'GVT-FCM <-> GVF-FCM (method=fuzzy_match, score=0.850)']
+--------------------------------------------------
+
+[12:55:01.538] === SERIES_COMPARISON ===
+Comparaison Radiologists' delineation vs Radiologists' delineation avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 2.222250
+  - MAE Relative: 0.022145
+  - Left Miss (rel): -0.002160
+  - Right Miss (rel): 0.600000
+  - X Cutoff: N/A
+  - GT Points: 15
+  - Extracted Points: 9
+  - Points Ratio: 0.60
+--------------------------------------------------
+
+[12:55:03.687] === SERIES_COMPARISON ===
+Comparaison GVT-FCM vs GVF-FCM avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.910903
+  - MAE Relative: 0.009077
+  - Left Miss (rel): -0.004320
+  - Right Miss (rel): -0.004320
+  - X Cutoff: N/A
+  - GT Points: 10
+  - Extracted Points: 8
+  - Points Ratio: 0.80
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:55:03
+Total Duration: 4.35 seconds
+Total Series Processed: 2
+Successful Comparisons: 2
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3431170_CMMM2012-634907.005.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+

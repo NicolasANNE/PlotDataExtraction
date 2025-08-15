@@ -1,0 +1,258 @@
+
+================================================================================
+VALIDATION LOG - PMC3288097_g005
+================================================================================
+Timestamp: 2025-08-06 21:38:04
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3288097___g005
+================================================================================
+
+
+
+[21:38:04.122] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[21:38:04.125] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[21:38:04.187] === DATA_LOADING ===
+Chargement des données GT depuis PMC3288097___g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3288097___g005.json
+  - Series Count: 3
+  - Series Names: ['GO; 0006695', 'GO;0043122', 'GO;0007420']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 101
+--------------------------------------------------
+
+[21:38:04.191] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3288097___g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3288097___g005\PMC3288097___g005.json
+  - Series Count: 3
+  - Series Names: ['GO:0006695', 'GO:0043122', 'GO:0007420']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 87
+--------------------------------------------------
+
+[21:38:04.195] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 89.9900
+  - Y Min-Max: [0.0100, 90.0000]
+  - X Range: 13900.0
+--------------------------------------------------
+
+[21:38:04.199] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[21:38:04.202] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['GO; 0006695 <-> GO:0006695 (method=fuzzy_match, score=0.850)', 'GO;0043122 <-> GO:0043122 (method=fuzzy_match, score=0.900)', 'GO;0007420 <-> GO:0007420 (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[21:38:05.253] === SERIES_COMPARISON ===
+Comparaison GO; 0006695 vs GO:0006695 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.030039
+  - MAE Relative: 0.000334
+  - Left Miss (rel): -0.011299
+  - Right Miss (rel): -0.018494
+  - X Cutoff: N/A
+  - GT Points: 34
+  - Extracted Points: 29
+  - Points Ratio: 0.85
+--------------------------------------------------
+
+[21:38:07.231] === SERIES_COMPARISON ===
+Comparaison GO;0043122 vs GO:0043122 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.030351
+  - MAE Relative: 0.000337
+  - Left Miss (rel): -0.012722
+  - Right Miss (rel): -0.017071
+  - X Cutoff: N/A
+  - GT Points: 34
+  - Extracted Points: 29
+  - Points Ratio: 0.85
+--------------------------------------------------
+
+[21:38:09.259] === SERIES_COMPARISON ===
+Comparaison GO;0007420 vs GO:0007420 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.514895
+  - MAE Relative: 0.039059
+  - Left Miss (rel): -0.009877
+  - Right Miss (rel): -0.075397
+  - X Cutoff: N/A
+  - GT Points: 33
+  - Extracted Points: 29
+  - Points Ratio: 0.88
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-06 21:38:09
+Total Duration: 5.16 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3288097_g005.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
+
+================================================================================
+VALIDATION LOG - PMC3288097_g005
+================================================================================
+Timestamp: 2025-08-07 12:53:52
+Save Directory: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3288097___g005
+================================================================================
+
+
+
+[12:53:52.485] === DATA_LOADING ===
+Chargement des données GT et extraites
+--------------------------------------------------
+
+[12:53:52.487] === PLOT_TYPE_DETECTION ===
+Détection du type de plot: line plot -> line
+
+Data:
+  - Original Type: line plot
+  - Enum Type: line
+  - Final Type: line plot
+  - Loader Used: DataLoader
+--------------------------------------------------
+
+[12:53:52.573] === DATA_LOADING ===
+Chargement des données GT depuis PMC3288097___g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\annotations_JSON\line\PMC3288097___g005.json
+  - Series Count: 3
+  - Series Names: ['GO; 0006695', 'GO;0043122', 'GO;0007420']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 101
+--------------------------------------------------
+
+[12:53:52.579] === DATA_LOADING ===
+Chargement des données Extracted depuis PMC3288097___g005.json
+
+Data:
+  - File Path: E:\BfR\info_extraction\Plot_to_text_extraction\Data\CHARTINFO_2024\output\line\PMC3288097___g005\PMC3288097___g005.json
+  - Series Count: 3
+  - Series Names: ['GO:0006695', 'GO:0043122', 'GO:0007420']
+  - X Data Types: {'numeric': 3}
+  - Total Data Points: 87
+--------------------------------------------------
+
+[12:53:52.584] === BOUNDS_CALCULATION ===
+Calcul des bornes globales pour normalisation
+
+Data:
+  - Y Range: 89.9900
+  - Y Min-Max: [0.0100, 90.0000]
+  - X Range: 13900.0
+--------------------------------------------------
+
+[12:53:52.606] === SERIES_MATCHING ===
+Appariement des séries GT et extraites
+--------------------------------------------------
+
+[12:53:52.610] === MATCHING_RESULTS ===
+3 appariements trouvés
+
+Data:
+  - Total Matches: 3
+  - Match Details: ['GO; 0006695 <-> GO:0006695 (method=fuzzy_match, score=0.850)', 'GO;0043122 <-> GO:0043122 (method=fuzzy_match, score=0.900)', 'GO;0007420 <-> GO:0007420 (method=fuzzy_match, score=0.900)']
+--------------------------------------------------
+
+[12:53:53.375] === SERIES_COMPARISON ===
+Comparaison GO; 0006695 vs GO:0006695 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.028357
+  - MAE Relative: 0.000315
+  - Left Miss (rel): -0.011299
+  - Right Miss (rel): -0.018494
+  - X Cutoff: N/A
+  - GT Points: 34
+  - Extracted Points: 29
+  - Points Ratio: 0.85
+--------------------------------------------------
+
+[12:53:54.247] === SERIES_COMPARISON ===
+Comparaison GO;0043122 vs GO:0043122 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 0.032782
+  - MAE Relative: 0.000364
+  - Left Miss (rel): -0.012722
+  - Right Miss (rel): -0.017071
+  - X Cutoff: N/A
+  - GT Points: 34
+  - Extracted Points: 29
+  - Points Ratio: 0.85
+--------------------------------------------------
+
+[12:53:55.175] === SERIES_COMPARISON ===
+Comparaison GO;0007420 vs GO:0007420 avec LineScatterComparator
+
+Data:
+  - MAE Absolute: 3.515562
+  - MAE Relative: 0.039066
+  - Left Miss (rel): -0.009877
+  - Right Miss (rel): -0.075397
+  - X Cutoff: N/A
+  - GT Points: 33
+  - Extracted Points: 29
+  - Points Ratio: 0.88
+--------------------------------------------------
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+End Time: 2025-08-07 12:53:55
+Total Duration: 2.70 seconds
+Total Series Processed: 3
+Successful Comparisons: 3
+Errors: 0
+Success Rate: 100.0%
+
+Generated Files:
+- Validation Log: validation_log_PMC3288097_g005.txt
+- Comparison Plots: *.png files
+- Statistics Files: GT_VS_Extr_*.txt files
+
+================================================================================
+END OF LOG
+================================================================================
+
