@@ -20,9 +20,7 @@ import os
 import sys
 import getpass
 import json
-import base64
 import pandas as pd
-import matplotlib.pyplot as plt
 from typing import List
 import enum
 
@@ -61,9 +59,6 @@ plot_type_parser = PydanticOutputParser(pydantic_object=PlotTypeModel)
 # Pydantic models for each plot type
 from typing import Union, Optional
 
-# ...existing code...
-
-# --- NEW PARSERS BASED ON YOUR EXAMPLES ---
 
 # 1. Boxplot
 class BoxplotItem(BaseModel):
@@ -307,7 +302,7 @@ class PlotDataExtractor:
     @property
     def callback_df(self):
         """
-        Retourne un DataFrame récapitulatif des usages et coûts.
+        Returns a summary DataFrame of usage and costs.
         """
         df = pd.DataFrame(self.usage_table)
         return df

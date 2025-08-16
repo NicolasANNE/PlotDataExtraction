@@ -6,7 +6,8 @@ def encode_image(image_path: str) -> str:
         return base64.b64encode(f.read()).decode("utf-8")
 
 def gemini_cost(usage_metadata) -> float:
-    """Compute cost of Gemini API usage."""
+    """Compute cost of Gemini API usage.
+    Add cost for each model."""
     total = 0
     for model, usage in usage_metadata.items():
         input_tokens = usage["input_tokens"]
