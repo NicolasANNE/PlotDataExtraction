@@ -1,5 +1,6 @@
 # PlotExtraction
-This project develops a prototype pipeline to automatically extract numerical data from scientific plots (e.g., line charts, scatter plots, bar graphs) using multimodal Large Language Models (LLMs).
+This project develops a prototype pipeline to automatically extract numerical data from scientific plots (e.g., line charts, scatter plots, bar graphs) using multimodal Large Language Models (LLMs).<br/>
+* <ins>Example of plots</ins>
 ![Example of plots](Dataset/CHARTINFO_2024/images/line/PMC1200427___pgen.0010032.g002.jpg)
 ## Research Question
 Can multimodal LLMs effectively extract structured data from scientific plots without task-specific training, and what are the performance limitations compared to traditional computer vision approaches?
@@ -65,7 +66,7 @@ ChartInfo 2024 Dataset [^2]
 * **Validation metrics**:
 
 |Category|Metrics|Purpose|
-|--------|-------|-------|
+|--------|-------|:-------:|
 |Accuracy|MAE, MAE relative, Left/Right miss|Core precision measurement|
 |Distribution|Skewness, Kurtosis, Percentiles|Statistical shape preservation|
 |Trend|Monotonicity, Correlation, Turning points|Pattern fidelity|
@@ -77,8 +78,8 @@ Global Performance for 500 images (100 per types)
 * Mean Relative MAE: 9.85%
 * Processing Time: 14 minutes (851s)
 * Total Cost: $0.496 USD (~$0.001 per image)
-* Success Rate: 90% (no extraction errors)
-
+* Success Rate: 90% (no extraction errors)<br/>
+* <ins>Example of validation</ins>
 ![Example of validation](Dataset/CHARTINFO_2024/output/line/PMC1166548___1471-2156-6-29-4/comparison_PMC1166548_1471-2156-6-29-4_CF_on_B6_Background_(n=16)_vs_CF_on_B6_Background_(n=16).png)
 ### Performance by Plot Type
 
