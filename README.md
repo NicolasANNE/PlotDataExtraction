@@ -46,7 +46,7 @@ display(extractor.callback_df())
     * Comprehensive metric calculation (40+ metrics)
     * Specialized comparators for different plot types
 3. [PlotExtraction.py](PDE/PlotExtraction.py): Alternative native API implementation
-    * Based on work from Polak, M. P., & Morgan, D. [^1]
+    * Based on work from Polak, M. P. & Morgan, D. [^1]
     * Direct Google Gemini API usage
     * Code generation and execution validation
     * Visual comparison pipeline
@@ -101,8 +101,7 @@ Global Performance for 500 images (100 per types)
 - **Framework Flexibility**: The pipeline supports rapid integration and testing of new LLMs. Users can swap models with minimal code changes, facilitating broad experimentation and benchmarking.
 
 
-### Personal Note
-> This repository was developed as part of a research internship at the BfR (bundesinstitut für risikobewertung) in the Study Centre Supply Chain Modelling and Artificial Intelligence. While time constraints limited the scope of documentation and feature expansion, the project provided valuable experience in multimodal AI, benchmarking, and scientific data extraction. The current framework lays a solid foundation for future improvements and extensions.
+> This repository was developed as part of a research internship at the BfR (Bundesinstitut für Risikobewertung) in the Study Centre Supply Chain Modelling and Artificial Intelligence. While time constraints limited the scope of documentation and feature expansion, the project provided valuable experience in multimodal AI, benchmarking, and scientific data extraction. The current framework lays a solid foundation for future improvements and extensions.<br/>Special thanks to Mathias Filter and Axel Menning who supervised my internship.
 
 
 
