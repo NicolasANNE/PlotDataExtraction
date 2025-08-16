@@ -69,47 +69,8 @@ class PlotExtraction:
         result = response.text
         if None is result or result == "":
             raise ValueError("The model did not return any text. Please check the input or the model's response.")
-        return (Q, result)
-    
-    
-   
-    # def prompt_gemini(self,Q, model="claude-3-5-sonnet-20241022"):
-    #     client = anthropic.Anthropic(api_key="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")
-    #     messages = []
-    #     for content in Q:
-    #         role = "user" if getattr(content, "role", None) == "user" else "assistant"
-    #         parts = []
-    #         for part in getattr(content, "parts", []):
-    #             if hasattr(part, "text") and part.text is not None:
-    #                 parts.append({"type": "text", "text": part.text})
-    #             elif hasattr(part, "inline_data") and part.inline_data is not None:
-    #                 parts.append({
-    #                     "type": "image",
-    #                     "source": {
-    #                         "type": "base64",
-    #                         "media_type": part.inline_data.mime_type,
-    #                         "data": base64.b64encode(part.inline_data.data).decode("utf-8")
-    #                     }
-    #                 })
-    #             elif hasattr(part, "executable_code") and part.executable_code is not None:
-    #                 parts.append({"type": "text", "text": part.executable_code.code})
-    #         if parts:
-    #             messages.append({"role": role, "content": parts})
-    #         else:
-    #             messages.append({"role": role, "content": [{"type": "text", "text": ""}]})
-    
-    #     response = client.messages.create(
-    #         model=model,
-    #         max_tokens=2048,
-    #         temperature=0,
-    #         messages=messages
-    #     )
-    #     # Bien concaténer tous les blocs de texte
-    #     result = "".join([c.text for c in response.content if hasattr(c, "text") and c.text])
-    #     if not result.strip():
-    #         print("Claude n'a rien répondu. Vérifie le format des messages et la clé API.")
-    #     return (Q, result)
-
+        return (Q, result) 
+ 
     def extract_data(self):
         # Step 1: Identify plot type
         byte_image = self.encode_image(self.image_path)
