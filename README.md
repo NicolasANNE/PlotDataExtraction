@@ -36,16 +36,15 @@ extractor.save("output/extracted_data.json")
 print(f"Cost: ${extractor.GTS:.4f}")
 ```
 ## Pipeline architecture
-1. LangchainExtraction.py: Main extraction engine
+1. [LangchainExtraction.py](PDE/LangchainExtraction.py): Main extraction engine
     * Plot type detection using Pydantic models
     * Structured data extraction with schema validation
     * Cost tracking and usage analytics
-2. MAE_validation.py: Validation framework
+2. [MAE_validation.py](PDE/MAE_validation.py): Validation framework
     * Series matching algorithms (exact, fuzzy, similarity-based)
     * Comprehensive metric calculation (40+ metrics)
     * Specialized comparators for different plot types
-
-3. PlotExtraction.py: Alternative native API implementation
+3. [PlotExtraction.py](PDE/PlotExtraction.py): Alternative native API implementation
     * Direct Google Gemini API usage
     * Code generation and execution validation
     * Visual comparison pipeline
@@ -56,10 +55,13 @@ ChartInfo 2024 Dataset [^1]
 * **scope**: 5 427 images across 5 plot types.
 * **Ground Truth**: Manually annotated JSON with precise coordinates
 * **Dataset detail**:
+
 |                |line|scatter|horizontal_bar|vertcal_bar|vertical_box|
 |----------------|----|-------|--------------|-----------|------------|
 |Number of images|1885|644|609|1748|541|
+
 * **Validation metrics**:
+
 |Category|Metrics|Purpose|
 |--------|-------|-------|
 |Accuracy|MAE, MAE relative, Left/Right miss|Core precision measurement|
@@ -67,6 +69,7 @@ ChartInfo 2024 Dataset [^1]
 |Trend|Monotonicity, Correlation, Turning points|Pattern fidelity|
 |Coverage|X/Y coverage, Data density|Completeness assessment|
 |Quality|Noise level, Smoothness, Outliers|Data quality evaluation|
+
 ## Performance Results
 Global Performance for 500 images (100 per types)
 * Mean Relative MAE: 9.85%
@@ -74,5 +77,5 @@ Global Performance for 500 images (100 per types)
 * Total Cost: $0.496 USD (~$0.001 per image)
 * Success Rate: 90% (no extraction errors)
 
-# References
+
 [^1]: Davila, K., Lazarus, R., Xu, F., Rodríguez Alcántara, N., Setlur, S., Govindaraju, V., Mondal, A., & Jawahar, C. V. (2024). CHART-Info 2024: A dataset for Chart Analysis and Recognition. GitHub. Retrieved July 20, 2025, from https://github.com/kdavila/CHART_Info_2024 
